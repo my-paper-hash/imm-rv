@@ -1,0 +1,810 @@
+Reading traces...
+	read 1000 traces
+	read 2000 traces
+Reading specs frequency...
+Reading locations...
+Counting events...
+	processed 1000 traces
+	processed 2000 traces
+Total 168255554 events and 319536 traces
+Inspecting top 200 IMM
+Finding hot methods...
+Number of events, method name
+104797549,com.romix.scala.collection.concurrent.TestMapIterator.testMapIterator:15
+25153782,com.romix.scala.collection.concurrent.TrieMap$TrieMapIterator.next:1517
+17831505,com.romix.scala.collection.concurrent.TrieMap$TrieMapIterator.remove:1688
+6386564,com.romix.scala.collection.concurrent.TrieMap$CNode.removedAt:815
+5943330,com.romix.scala.collection.concurrent.TrieMap$CNode.insertedAt:824
+2867554,com.romix.scala.collection.concurrent.TestMultiThreadMapIterator$1.run:37
+2335404,com.romix.scala.collection.concurrent.TestMultiThreadMapIterator$2.run:73
+1000000,com.romix.scala.collection.concurrent.TestMultiThreadInserts$1.run:20
+550008,com.romix.scala.collection.concurrent.TestHashCollisionsRemoveIterator.testHashCollisionsRemoveIterator:14
+477945,com.romix.scala.collection.concurrent.TestMultiThreadMapIterator.testMultiThreadMapIterator:20
+199488,com.romix.scala.collection.concurrent.TestConcurrentMapRemove.testConcurrentMapRemove:12
+159300,com.romix.scala.collection.concurrent.TestMultiThreadMapIterator.getObjects:141
+106200,com.romix.scala.collection.concurrent.TestHashCollisionsRemove.testHashCollisionsRemove:10
+100000,com.romix.scala.collection.concurrent.TestMultiThreadAddDelete$1.run:27
+100000,com.romix.scala.collection.concurrent.TestMultiThreadAddDelete$3.run:80
+100000,com.romix.scala.collection.concurrent.TestConcurrentMapReplace.testConcurrentMapReplace:12
+90043,com.romix.scala.collection.concurrent.TrieMap$TrieMapIterator.checkSubiter:1577
+20010,com.romix.scala.collection.concurrent.TestInsert.testInsert:8
+20000,com.romix.scala.collection.concurrent.TestDelete.testDelete:9
+9428,com.romix.scala.collection.concurrent.TrieMap$LNode.removed:737
+2560,com.romix.scala.collection.concurrent.TestHashCollisions.insertInts:101
+2560,com.romix.scala.collection.concurrent.TestHashCollisions.insertBytes:93
+2000,com.romix.scala.collection.concurrent.TestReadOnlyAndUpdatableIterators.setUp:21
+100,com.romix.scala.collection.concurrent.TestHashCollisions.insertStrings:79
+100,com.romix.scala.collection.concurrent.TestHashCollisions.insertChars:65
+46,com.romix.scala.collection.concurrent.TrieMap.writeObject:1780
+18,com.romix.scala.collection.concurrent.TestDelete.checkAddInsert:32
+17,com.romix.scala.collection.concurrent.TestSerialization.testSerialization:16
+7,com.romix.scala.collection.concurrent.TestInstantiationSpeed.testInstantiation:25
+4,com.romix.scala.collection.concurrent.TestCNodeInsertionIncorrectOrder.testCNodeInsertionIncorrectOrder:11
+4,com.romix.scala.collection.concurrent.TestCNodeFlagCollision.testCNodeFlagCollision:10
+3,com.romix.scala.collection.concurrent.TestReadOnlyAndUpdatableIterators.testReadOnlySnapshotReadOnlyIterator:48
+3,com.romix.scala.collection.concurrent.TestReadOnlyAndUpdatableIterators.testIterator:88
+3,com.romix.scala.collection.concurrent.TestReadOnlyAndUpdatableIterators.testReadOnlyIterator:29
+3,com.romix.scala.collection.concurrent.TrieMap$TrieMapReadOnlyIterator.remove:1479
+3,com.romix.scala.collection.concurrent.TestReadOnlyAndUpdatableIterators.testReadOnlySnapshotIterator:68
+3,com.romix.scala.collection.concurrent.TestReadOnlyAndUpdatableIterators.testSnapshotIterator:109
+1,com.romix.scala.collection.concurrent.TrieMap.<clinit>:35
+1,com.romix.scala.collection.concurrent.TrieMap$Default.<clinit>:1002
+1,com.romix.scala.collection.concurrent.TrieMap$Equiv.<clinit>:982
+1,com.romix.scala.collection.concurrent.TrieMap$EntrySet.<clinit>:0
+1,com.romix.scala.collection.concurrent.TestMultiThreadMapIterator$1.<clinit>:0
+1,com.romix.scala.collection.concurrent.TestMultiThreadMapIterator$2.<clinit>:0
+1,com.romix.scala.collection.concurrent.TestMultiThreadAddDelete$1.<clinit>:0
+1,com.romix.scala.collection.concurrent.TestMultiThreadAddDelete$2.<clinit>:0
+1,com.romix.scala.collection.concurrent.TestMultiThreadAddDelete$3.<clinit>:0
+1,com.romix.scala.collection.concurrent.TestMultiThreadInserts$1.<clinit>:0
+^^^ Last method that contains more than one event ^^^
+Starting com.romix.scala.collection.concurrent.TestConcurrentMapReplace.testConcurrentMapReplace:12
+Finish com.romix.scala.collection.concurrent.TestConcurrentMapReplace.testConcurrentMapReplace:12
+Starting com.romix.scala.collection.concurrent.TestInsert.testInsert:8
+Finish com.romix.scala.collection.concurrent.TestInsert.testInsert:8
+Starting com.romix.scala.collection.concurrent.TestReadOnlyAndUpdatableIterators.setUp:21
+Finish com.romix.scala.collection.concurrent.TestReadOnlyAndUpdatableIterators.setUp:21
+Starting com.romix.scala.collection.concurrent.TestHashCollisionsRemoveIterator.testHashCollisionsRemoveIterator:14
+Finish com.romix.scala.collection.concurrent.TestHashCollisionsRemoveIterator.testHashCollisionsRemoveIterator:14
+Starting com.romix.scala.collection.concurrent.TestMultiThreadMapIterator.testMultiThreadMapIterator:20
+Finish com.romix.scala.collection.concurrent.TestMultiThreadMapIterator.testMultiThreadMapIterator:20
+Starting com.romix.scala.collection.concurrent.TestMultiThreadMapIterator.getObjects:141
+Finish com.romix.scala.collection.concurrent.TestMultiThreadMapIterator.getObjects:141
+Starting com.romix.scala.collection.concurrent.TestMultiThreadInserts$1.run:20
+Finish com.romix.scala.collection.concurrent.TestMultiThreadInserts$1.run:20
+Starting com.romix.scala.collection.concurrent.TrieMap$CNode.removedAt:815
+Finish com.romix.scala.collection.concurrent.TrieMap$CNode.removedAt:815
+Starting com.romix.scala.collection.concurrent.TestMultiThreadMapIterator$2.run:73
+Finish com.romix.scala.collection.concurrent.TestMultiThreadMapIterator$2.run:73
+Starting com.romix.scala.collection.concurrent.TrieMap$TrieMapIterator.next:1517
+Finish com.romix.scala.collection.concurrent.TrieMap$TrieMapIterator.next:1517
+Starting com.romix.scala.collection.concurrent.TestMultiThreadMapIterator$1.run:37
+Finish com.romix.scala.collection.concurrent.TestMultiThreadMapIterator$1.run:37
+Starting com.romix.scala.collection.concurrent.TrieMap$TrieMapIterator.remove:1688
+Finish com.romix.scala.collection.concurrent.TrieMap$TrieMapIterator.remove:1688
+Starting com.romix.scala.collection.concurrent.TestMapIterator.testMapIterator:15
+Finish com.romix.scala.collection.concurrent.TestMapIterator.testMapIterator:15
+Starting com.romix.scala.collection.concurrent.TestHashCollisionsRemove.testHashCollisionsRemove:10
+Finish com.romix.scala.collection.concurrent.TestHashCollisionsRemove.testHashCollisionsRemove:10
+Starting com.romix.scala.collection.concurrent.TrieMap.writeObject:1780
+Finish com.romix.scala.collection.concurrent.TrieMap.writeObject:1780
+Starting com.romix.scala.collection.concurrent.TestDelete.testDelete:9
+Finish com.romix.scala.collection.concurrent.TestDelete.testDelete:9
+Starting com.romix.scala.collection.concurrent.TestInstantiationSpeed.testInstantiation:25
+Finish com.romix.scala.collection.concurrent.TestInstantiationSpeed.testInstantiation:25
+Starting com.romix.scala.collection.concurrent.TrieMap$TrieMapIterator.checkSubiter:1577
+Finish com.romix.scala.collection.concurrent.TrieMap$TrieMapIterator.checkSubiter:1577
+Starting com.romix.scala.collection.concurrent.TestDelete.checkAddInsert:32
+Finish com.romix.scala.collection.concurrent.TestDelete.checkAddInsert:32
+Starting com.romix.scala.collection.concurrent.TestMultiThreadAddDelete$1.run:27
+Finish com.romix.scala.collection.concurrent.TestMultiThreadAddDelete$1.run:27
+Starting com.romix.scala.collection.concurrent.TestSerialization.testSerialization:16
+Finish com.romix.scala.collection.concurrent.TestSerialization.testSerialization:16
+Starting com.romix.scala.collection.concurrent.TrieMap$LNode.removed:737
+Finish com.romix.scala.collection.concurrent.TrieMap$LNode.removed:737
+Starting com.romix.scala.collection.concurrent.TestReadOnlyAndUpdatableIterators.testReadOnlySnapshotReadOnlyIterator:48
+Finish com.romix.scala.collection.concurrent.TestReadOnlyAndUpdatableIterators.testReadOnlySnapshotReadOnlyIterator:48
+Starting com.romix.scala.collection.concurrent.TestHashCollisions.insertInts:101
+Finish com.romix.scala.collection.concurrent.TestHashCollisions.insertInts:101
+Starting com.romix.scala.collection.concurrent.TrieMap$TrieMapReadOnlyIterator.remove:1479
+Finish com.romix.scala.collection.concurrent.TrieMap$TrieMapReadOnlyIterator.remove:1479
+Starting com.romix.scala.collection.concurrent.TestMultiThreadAddDelete$3.run:80
+Finish com.romix.scala.collection.concurrent.TestMultiThreadAddDelete$3.run:80
+Starting com.romix.scala.collection.concurrent.TestCNodeInsertionIncorrectOrder.testCNodeInsertionIncorrectOrder:11
+Finish com.romix.scala.collection.concurrent.TestCNodeInsertionIncorrectOrder.testCNodeInsertionIncorrectOrder:11
+Starting com.romix.scala.collection.concurrent.TrieMap$CNode.insertedAt:824
+Finish com.romix.scala.collection.concurrent.TrieMap$CNode.insertedAt:824
+Starting com.romix.scala.collection.concurrent.TestReadOnlyAndUpdatableIterators.testReadOnlySnapshotIterator:68
+Finish com.romix.scala.collection.concurrent.TestReadOnlyAndUpdatableIterators.testReadOnlySnapshotIterator:68
+Starting com.romix.scala.collection.concurrent.TestHashCollisions.insertChars:65
+Finish com.romix.scala.collection.concurrent.TestHashCollisions.insertChars:65
+Starting com.romix.scala.collection.concurrent.TestReadOnlyAndUpdatableIterators.testReadOnlyIterator:29
+Finish com.romix.scala.collection.concurrent.TestReadOnlyAndUpdatableIterators.testReadOnlyIterator:29
+
+#1
+Inspecting hot method com.romix.scala.collection.concurrent.TestMapIterator.testMapIterator:15...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+	processed 1000 traces
+	processed 2000 traces
+104797549,2206,1254,952
+Total 104797549 (104797169 unique) events are in hot method
+Total 2206 (2016 unique) traces are in hot method
+Total 1254 (1064 unique) isolated traces are in hot method
+Total 952 (952 unique) non-isolated traces that have events in hot method
+Total 53814309 (53813929 unique) events are in isolated traces
+Total 86935872 (86935872 unique) events are in non-isolated traces (50983240 / 50983240 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (475 traces / 475 unique traces) (16993590 events / 16993590 unique events)
+	Collection_UnsafeIterator (290 traces / 290 unique traces) (16994170 events / 16994170 unique events)
+	Iterator_HasNext (290 traces / 290 unique traces) (16993880 events / 16993880 unique events)
+	Map_CollectionViewAdd (192 traces / 2 unique traces) (384 events / 4 unique events)
+	Map_UnsafeIterator (6 traces / 6 unique traces) (20 events / 20 unique events)
+	Set_ItselfAsElement (1 traces / 1 unique traces) (2832265 events / 2832265 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (570 traces / 570 unique traces) (45318140 events / 45318140 unique events) (22660020 events / 22660020 unique events in hot method)
+	Collection_UnsafeIterator (190 traces / 190 unique traces) (16993970 events / 16993970 unique events) (11329440 events / 11329440 unique events in hot method)
+	Iterator_HasNext (190 traces / 190 unique traces) (16993780 events / 16993780 unique events) (11329250 events / 11329250 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (3814991 events / 3814991 unique events) (2832265 events / 2832265 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (3814991 events / 3814991 unique events) (2832265 events / 2832265 unique events in hot method)
+Classifier (com.romix.scala.collection.concurrent.TestMapIterator.testMapIterator:15): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT,NOT_ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT,RAW_ISOLATED_SINGLE_TRACE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#2
+Inspecting hot method com.romix.scala.collection.concurrent.TrieMap$TrieMapIterator.next:1517...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+25153782,52218,25892,26326
+Total 25153782 (21555649 unique) events are in hot method
+Total 52218 (717 unique) traces are in hot method
+Total 25892 (100 unique) isolated traces are in hot method
+Total 26326 (617 unique) non-isolated traces that have events in hot method
+Total 5738882 (2842283 unique) events are in isolated traces
+Total 64607039 (62541056 unique) events are in non-isolated traces (19414900 / 18713366 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (25700 traces / 3 unique traces) (64343 events / 9 unique events)
+	Iterator_HasNext (192 traces / 97 unique traces) (5674539 events / 2842274 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (25912 traces / 209 unique traces) (19505155 events / 18394984 unique events) (6514532 events / 6131598 unique events in hot method)
+	Map_UnsafeIterator (207 traces / 207 unique traces) (25750918 events / 25750918 unique events) (6450184 events / 6450184 unique events in hot method)
+	Collection_UnsafeIterator (207 traces / 201 unique traces) (19350966 events / 18395154 unique events) (6450184 events / 6131584 unique events in hot method)
+Classifier (com.romix.scala.collection.concurrent.TrieMap$TrieMapIterator.next:1517): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT
+
+#3
+Inspecting hot method com.romix.scala.collection.concurrent.TrieMap$TrieMapIterator.remove:1688...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+17831505,588,0,588
+Total 17831505 (17831505 unique) events are in hot method
+Total 588 (588 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 588 (588 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 48513279 (48513279 unique) events are in non-isolated traces (17831505 / 17831505 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (588 traces / 588 unique traces) (48513279 events / 48513279 unique events) (17831505 events / 17831505 unique events in hot method)
+Classifier (com.romix.scala.collection.concurrent.TrieMap$TrieMapIterator.remove:1688): CUT,NOT_REDUNDANT_TRACES
+
+#4
+Inspecting hot method com.romix.scala.collection.concurrent.TrieMap$CNode.removedAt:815...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+6386564,1,0,1
+Total 6386564 (6386564 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 12329894 (12329894 unique) events are in non-isolated traces (6386564 / 6386564 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (12329894 events / 12329894 unique events) (6386564 events / 6386564 unique events in hot method)
+Classifier (com.romix.scala.collection.concurrent.TrieMap$CNode.removedAt:815): CUT,NOT_REDUNDANT_TRACES
+
+#5
+Inspecting hot method com.romix.scala.collection.concurrent.TrieMap$CNode.insertedAt:824...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+5943330,1,0,1
+Total 5943330 (5943330 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 12329894 (12329894 unique) events are in non-isolated traces (5943330 / 5943330 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (12329894 events / 12329894 unique events) (5943330 events / 5943330 unique events in hot method)
+Classifier (com.romix.scala.collection.concurrent.TrieMap$CNode.insertedAt:824): CUT,NOT_REDUNDANT_TRACES
+
+#6
+Inspecting hot method com.romix.scala.collection.concurrent.TestMultiThreadMapIterator$1.run:37...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+2867554,106238,106207,31
+Total 2867554 (1009041 unique) events are in hot method
+Total 106238 (22 unique) traces are in hot method
+Total 106207 (3 unique) isolated traces are in hot method
+Total 31 (19 unique) non-isolated traces that have events in hot method
+Total 637200 (53105 unique) events are in isolated traces
+Total 5175371 (3263753 unique) events are in non-isolated traces (2230354 / 955936 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (53100 traces / 1 unique traces) (106200 events / 2 unique events)
+	StringBuilder_ThreadSafe (53100 traces / 1 unique traces) (159300 events / 3 unique events)
+	Iterator_RemoveOnce (7 traces / 1 unique traces) (371700 events / 53100 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (16 traces / 16 unique traces) (2945135 events / 2945135 unique events) (743526 events / 743526 unique events in hot method)
+	Iterator_HasNext (7 traces / 1 unique traces) (1115107 events / 159301 unique events) (743407 events / 106201 unique events in hot method)
+	Collection_UnsafeIterator (7 traces / 1 unique traces) (1115114 events / 159302 unique events) (743414 events / 106202 unique events in hot method)
+	Map_CollectionViewAdd (1 traces / 1 unique traces) (15 events / 15 unique events) (7 events / 7 unique events in hot method)
+Classifier (com.romix.scala.collection.concurrent.TestMultiThreadMapIterator$1.run:37): CUT,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT,NOT_ISOLATED_ONE_UNIQUE,NOT_ISOLATED_SINGLE_TRACE
+
+#7
+Inspecting hot method com.romix.scala.collection.concurrent.TestMultiThreadMapIterator$2.run:73...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+2335404,40,7,33
+Total 2335404 (2335404 unique) events are in hot method
+Total 40 (40 unique) traces are in hot method
+Total 7 (7 unique) isolated traces are in hot method
+Total 33 (33 unique) non-isolated traces that have events in hot method
+Total 363950 (363950 unique) events are in isolated traces
+Total 12440253 (12440253 unique) events are in non-isolated traces (1971454 / 1971454 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (7 traces / 7 unique traces) (363950 events / 363950 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (16 traces / 16 unique traces) (2945135 events / 2945135 unique events) (621826 events / 621826 unique events in hot method)
+	Iterator_HasNext (7 traces / 7 unique traces) (932557 events / 932557 unique events) (621707 events / 621707 unique events in hot method)
+	Collection_UnsafeIterator (7 traces / 7 unique traces) (932564 events / 932564 unique events) (621714 events / 621714 unique events in hot method)
+	Map_CollectionViewAdd (1 traces / 1 unique traces) (15 events / 15 unique events) (7 events / 7 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (3814991 events / 3814991 unique events) (53100 events / 53100 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (3814991 events / 3814991 unique events) (53100 events / 53100 unique events in hot method)
+Classifier (com.romix.scala.collection.concurrent.TestMultiThreadMapIterator$2.run:73): CUT,NOT_REDUNDANT_TRACES
+
+#8
+Inspecting hot method com.romix.scala.collection.concurrent.TestMultiThreadInserts$1.run:20...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+1000000,2,0,2
+Total 1000000 (1000000 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 7629982 (7629982 unique) events are in non-isolated traces (1000000 / 1000000 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (3814991 events / 3814991 unique events) (500000 events / 500000 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (3814991 events / 3814991 unique events) (500000 events / 500000 unique events in hot method)
+Classifier (com.romix.scala.collection.concurrent.TestMultiThreadInserts$1.run:20): CUT,NOT_REDUNDANT_TRACES
+
+#9
+Inspecting hot method com.romix.scala.collection.concurrent.TestHashCollisionsRemoveIterator.testHashCollisionsRemoveIterator:14...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+550008,9,3,6
+Total 550008 (550008 unique) events are in hot method
+Total 9 (9 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 6 (6 unique) non-isolated traces that have events in hot method
+Total 150001 (150001 unique) events are in isolated traces
+Total 8179989 (8179989 unique) events are in non-isolated traces (400007 / 400007 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (100000 events / 100000 unique events)
+	Map_CollectionViewAdd (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (50000 events / 50000 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (2 traces / 2 unique traces) (250004 events / 250004 unique events) (100004 events / 100004 unique events in hot method)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (150002 events / 150002 unique events) (100002 events / 100002 unique events in hot method)
+	Iterator_HasNext (1 traces / 1 unique traces) (150001 events / 150001 unique events) (100001 events / 100001 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (3814991 events / 3814991 unique events) (50000 events / 50000 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (3814991 events / 3814991 unique events) (50000 events / 50000 unique events in hot method)
+Classifier (com.romix.scala.collection.concurrent.TestHashCollisionsRemoveIterator.testHashCollisionsRemoveIterator:14): CUT,NOT_REDUNDANT_TRACES
+
+#10
+Inspecting hot method com.romix.scala.collection.concurrent.TestMultiThreadMapIterator.testMultiThreadMapIterator:20...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+477945,32,11,21
+Total 477945 (477945 unique) events are in hot method
+Total 32 (32 unique) traces are in hot method
+Total 11 (11 unique) isolated traces are in hot method
+Total 21 (21 unique) non-isolated traces that have events in hot method
+Total 53123 (53123 unique) events are in isolated traces
+Total 10893735 (10893735 unique) events are in non-isolated traces (424822 / 424822 unique are in hot method)
+Specs that have isolated traces:
+	Map_UnsafeIterator (3 traces / 3 unique traces) (10 events / 10 unique events)
+	Iterator_HasNext (2 traces / 2 unique traces) (2 events / 2 unique events)
+	Collection_UnsafeIterator (2 traces / 2 unique traces) (4 events / 4 unique events)
+	Map_CollectionViewAdd (1 traces / 1 unique traces) (2 events / 2 unique events)
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (2 events / 2 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (53100 events / 53100 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (16 traces / 16 unique traces) (2945135 events / 2945135 unique events) (106218 events / 106218 unique events in hot method)
+	Map_CollectionViewAdd (1 traces / 1 unique traces) (15 events / 15 unique events) (1 events / 1 unique events in hot method)
+	Iterator_HasNext (1 traces / 1 unique traces) (159301 events / 159301 unique events) (106201 events / 106201 unique events in hot method)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (159302 events / 159302 unique events) (106202 events / 106202 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (3814991 events / 3814991 unique events) (53100 events / 53100 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (3814991 events / 3814991 unique events) (53100 events / 53100 unique events in hot method)
+Classifier (com.romix.scala.collection.concurrent.TestMultiThreadMapIterator.testMultiThreadMapIterator:20): CUT,NOT_REDUNDANT_TRACES
+
+#11
+Inspecting hot method com.romix.scala.collection.concurrent.TestConcurrentMapRemove.testConcurrentMapRemove:12...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+199488,2,0,2
+Total 199488 (199488 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 7629982 (7629982 unique) events are in non-isolated traces (199488 / 199488 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (3814991 events / 3814991 unique events) (99744 events / 99744 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (3814991 events / 3814991 unique events) (99744 events / 99744 unique events in hot method)
+Classifier (com.romix.scala.collection.concurrent.TestConcurrentMapRemove.testConcurrentMapRemove:12): LIB,NOT_REDUNDANT_TRACES
+
+#12
+Inspecting hot method com.romix.scala.collection.concurrent.TestMultiThreadMapIterator.getObjects:141...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+159300,150000,150000,0
+Total 159300 (10 unique) events are in hot method
+Total 150000 (4 unique) traces are in hot method
+Total 150000 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 159300 (10 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (150000 traces / 4 unique traces) (159300 events / 10 unique events)
+Classifier (com.romix.scala.collection.concurrent.TestMultiThreadMapIterator.getObjects:141): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#13
+Inspecting hot method com.romix.scala.collection.concurrent.TestHashCollisionsRemove.testHashCollisionsRemove:10...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+106200,2,0,2
+Total 106200 (106200 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 7629982 (7629982 unique) events are in non-isolated traces (106200 / 106200 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (3814991 events / 3814991 unique events) (53100 events / 53100 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (3814991 events / 3814991 unique events) (53100 events / 53100 unique events in hot method)
+Classifier (com.romix.scala.collection.concurrent.TestHashCollisionsRemove.testHashCollisionsRemove:10): LIB,NOT_REDUNDANT_TRACES
+
+#14
+Inspecting hot method com.romix.scala.collection.concurrent.TestMultiThreadAddDelete$1.run:27...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+100000,2,0,2
+Total 100000 (100000 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 7629982 (7629982 unique) events are in non-isolated traces (100000 / 100000 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (3814991 events / 3814991 unique events) (50000 events / 50000 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (3814991 events / 3814991 unique events) (50000 events / 50000 unique events in hot method)
+Classifier (com.romix.scala.collection.concurrent.TestMultiThreadAddDelete$1.run:27): LIB,NOT_REDUNDANT_TRACES
+
+#15
+Inspecting hot method com.romix.scala.collection.concurrent.TestMultiThreadAddDelete$3.run:80...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+100000,2,0,2
+Total 100000 (100000 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 7629982 (7629982 unique) events are in non-isolated traces (100000 / 100000 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (3814991 events / 3814991 unique events) (50000 events / 50000 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (3814991 events / 3814991 unique events) (50000 events / 50000 unique events in hot method)
+Classifier (com.romix.scala.collection.concurrent.TestMultiThreadAddDelete$3.run:80): LIB,NOT_REDUNDANT_TRACES
+
+#16
+Inspecting hot method com.romix.scala.collection.concurrent.TestConcurrentMapReplace.testConcurrentMapReplace:12...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+100000,2,0,2
+Total 100000 (100000 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 7629982 (7629982 unique) events are in non-isolated traces (100000 / 100000 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (3814991 events / 3814991 unique events) (50000 events / 50000 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (3814991 events / 3814991 unique events) (50000 events / 50000 unique events in hot method)
+Classifier (com.romix.scala.collection.concurrent.TestConcurrentMapReplace.testConcurrentMapReplace:12): CUT,NOT_REDUNDANT_TRACES
+
+#17
+Inspecting hot method com.romix.scala.collection.concurrent.TrieMap$TrieMapIterator.checkSubiter:1577...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+90043,25700,0,25700
+Total 90043 (12 unique) events are in hot method
+Total 25700 (3 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 25700 (3 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 154386 (21 unique) events are in non-isolated traces (90043 / 12 unique are in hot method)
+Specs that have non-isolated traces:
+	Iterator_HasNext (25700 traces / 3 unique traces) (154386 events / 21 unique events) (90043 events / 12 unique events in hot method)
+Classifier (com.romix.scala.collection.concurrent.TrieMap$TrieMapIterator.checkSubiter:1577): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#18
+Inspecting hot method com.romix.scala.collection.concurrent.TestInsert.testInsert:8...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+20010,2,0,2
+Total 20010 (20010 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 7629982 (7629982 unique) events are in non-isolated traces (20010 / 20010 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (3814991 events / 3814991 unique events) (10005 events / 10005 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (3814991 events / 3814991 unique events) (10005 events / 10005 unique events in hot method)
+Classifier (com.romix.scala.collection.concurrent.TestInsert.testInsert:8): CUT,NOT_REDUNDANT_TRACES
+
+#19
+Inspecting hot method com.romix.scala.collection.concurrent.TestDelete.testDelete:9...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+20000,2,0,2
+Total 20000 (20000 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 7629982 (7629982 unique) events are in non-isolated traces (20000 / 20000 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (3814991 events / 3814991 unique events) (10000 events / 10000 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (3814991 events / 3814991 unique events) (10000 events / 10000 unique events in hot method)
+Classifier (com.romix.scala.collection.concurrent.TestDelete.testDelete:9): LIB,NOT_REDUNDANT_TRACES
+
+#20
+Inspecting hot method com.romix.scala.collection.concurrent.TrieMap$LNode.removed:737...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+9428,9428,9428,0
+Total 9428 (2 unique) events are in hot method
+Total 9428 (2 unique) traces are in hot method
+Total 9428 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 9428 (2 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (4714 traces / 1 unique traces) (4714 events / 1 unique events)
+	Iterator_RemoveOnce (4714 traces / 1 unique traces) (4714 events / 1 unique events)
+Classifier (com.romix.scala.collection.concurrent.TrieMap$LNode.removed:737): LIB,ISOLATED_ONE_UNIQUE
+
+#21
+Inspecting hot method com.romix.scala.collection.concurrent.TestHashCollisions.insertInts:101...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+2560,2,0,2
+Total 2560 (2560 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 7629982 (7629982 unique) events are in non-isolated traces (2560 / 2560 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (3814991 events / 3814991 unique events) (1280 events / 1280 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (3814991 events / 3814991 unique events) (1280 events / 1280 unique events in hot method)
+Classifier (com.romix.scala.collection.concurrent.TestHashCollisions.insertInts:101): CUT,NOT_REDUNDANT_TRACES
+
+#22
+Inspecting hot method com.romix.scala.collection.concurrent.TestHashCollisions.insertBytes:93...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+2560,2,0,2
+Total 2560 (2560 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 7629982 (7629982 unique) events are in non-isolated traces (2560 / 2560 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (3814991 events / 3814991 unique events) (1280 events / 1280 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (3814991 events / 3814991 unique events) (1280 events / 1280 unique events in hot method)
+Classifier (com.romix.scala.collection.concurrent.TestHashCollisions.insertBytes:93): LIB,NOT_REDUNDANT_TRACES
+
+#23
+Inspecting hot method com.romix.scala.collection.concurrent.TestReadOnlyAndUpdatableIterators.setUp:21...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+2000,2,0,2
+Total 2000 (2000 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 7629982 (7629982 unique) events are in non-isolated traces (2000 / 2000 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (3814991 events / 3814991 unique events) (1000 events / 1000 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (3814991 events / 3814991 unique events) (1000 events / 1000 unique events in hot method)
+Classifier (com.romix.scala.collection.concurrent.TestReadOnlyAndUpdatableIterators.setUp:21): CUT,NOT_REDUNDANT_TRACES
+
+#24
+Inspecting hot method com.romix.scala.collection.concurrent.TestHashCollisions.insertStrings:79...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+100,2,0,2
+Total 100 (100 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 7629982 (7629982 unique) events are in non-isolated traces (100 / 100 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (3814991 events / 3814991 unique events) (50 events / 50 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (3814991 events / 3814991 unique events) (50 events / 50 unique events in hot method)
+Classifier (com.romix.scala.collection.concurrent.TestHashCollisions.insertStrings:79): CUT,NOT_REDUNDANT_TRACES
+
+#25
+Inspecting hot method com.romix.scala.collection.concurrent.TestHashCollisions.insertChars:65...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+100,2,0,2
+Total 100 (100 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 7629982 (7629982 unique) events are in non-isolated traces (100 / 100 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (3814991 events / 3814991 unique events) (50 events / 50 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (3814991 events / 3814991 unique events) (50 events / 50 unique events in hot method)
+Classifier (com.romix.scala.collection.concurrent.TestHashCollisions.insertChars:65): CUT,NOT_REDUNDANT_TRACES
+
+#26
+Inspecting hot method com.romix.scala.collection.concurrent.TrieMap.writeObject:1780...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+46,7,3,4
+Total 46 (46 unique) events are in hot method
+Total 7 (7 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 4 (4 unique) non-isolated traces that have events in hot method
+Total 6 (6 unique) events are in isolated traces
+Total 56 (56 unique) events are in non-isolated traces (40 / 40 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (4 events / 4 unique events)
+	Map_CollectionViewAdd (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Map_UnsafeIterator (1 traces / 1 unique traces) (1 events / 1 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (13 events / 13 unique events) (9 events / 9 unique events in hot method)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (14 events / 14 unique events) (10 events / 10 unique events in hot method)
+	ByteArrayOutputStream_FlushBeforeRetrieve (1 traces / 1 unique traces) (14 events / 14 unique events) (10 events / 10 unique events in hot method)
+	Map_UnsafeIterator (1 traces / 1 unique traces) (15 events / 15 unique events) (11 events / 11 unique events in hot method)
+Classifier (com.romix.scala.collection.concurrent.TrieMap.writeObject:1780): CUT,NOT_REDUNDANT_TRACES
+
+#27
+Inspecting hot method com.romix.scala.collection.concurrent.TestDelete.checkAddInsert:32...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+18,2,0,2
+Total 18 (18 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 7629982 (7629982 unique) events are in non-isolated traces (18 / 18 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (3814991 events / 3814991 unique events) (9 events / 9 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (3814991 events / 3814991 unique events) (9 events / 9 unique events in hot method)
+Classifier (com.romix.scala.collection.concurrent.TestDelete.checkAddInsert:32): CUT,NOT_REDUNDANT_TRACES
+
+#28
+Inspecting hot method com.romix.scala.collection.concurrent.TestSerialization.testSerialization:16...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+17,8,5,3
+Total 17 (17 unique) events are in hot method
+Total 8 (8 unique) traces are in hot method
+Total 5 (5 unique) isolated traces are in hot method
+Total 3 (3 unique) non-isolated traces that have events in hot method
+Total 5 (5 unique) events are in isolated traces
+Total 7629996 (7629996 unique) events are in non-isolated traces (12 / 12 unique are in hot method)
+Specs that have isolated traces:
+	Closeable_MultipleClose (2 traces / 2 unique traces) (2 events / 2 unique events)
+	InputStream_MarkAfterClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+	InputStream_ManipulateAfterClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+	OutputStream_ManipulateAfterClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+Specs that have non-isolated traces:
+	ByteArrayOutputStream_FlushBeforeRetrieve (1 traces / 1 unique traces) (14 events / 14 unique events) (4 events / 4 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (3814991 events / 3814991 unique events) (4 events / 4 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (3814991 events / 3814991 unique events) (4 events / 4 unique events in hot method)
+Classifier (com.romix.scala.collection.concurrent.TestSerialization.testSerialization:16): CUT,NOT_REDUNDANT_TRACES
+
+#29
+Inspecting hot method com.romix.scala.collection.concurrent.TestInstantiationSpeed.testInstantiation:25...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+7,2,2,0
+Total 7 (7 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 7 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (4 events / 4 unique events)
+Classifier (com.romix.scala.collection.concurrent.TestInstantiationSpeed.testInstantiation:25): CUT,NOT_REDUNDANT_TRACES
+
+#30
+Inspecting hot method com.romix.scala.collection.concurrent.TestCNodeInsertionIncorrectOrder.testCNodeInsertionIncorrectOrder:11...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+4,2,0,2
+Total 4 (4 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 7629982 (7629982 unique) events are in non-isolated traces (4 / 4 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (3814991 events / 3814991 unique events) (2 events / 2 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (3814991 events / 3814991 unique events) (2 events / 2 unique events in hot method)
+Classifier (com.romix.scala.collection.concurrent.TestCNodeInsertionIncorrectOrder.testCNodeInsertionIncorrectOrder:11): CUT,NOT_REDUNDANT_TRACES
+
+#31
+Inspecting hot method com.romix.scala.collection.concurrent.TestCNodeFlagCollision.testCNodeFlagCollision:10...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+4,2,0,2
+Total 4 (4 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 7629982 (7629982 unique) events are in non-isolated traces (4 / 4 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (3814991 events / 3814991 unique events) (2 events / 2 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (3814991 events / 3814991 unique events) (2 events / 2 unique events in hot method)
+Classifier (com.romix.scala.collection.concurrent.TestCNodeFlagCollision.testCNodeFlagCollision:10): CUT,NOT_REDUNDANT_TRACES
+
+#32
+Inspecting hot method com.romix.scala.collection.concurrent.TestReadOnlyAndUpdatableIterators.testReadOnlySnapshotReadOnlyIterator:48...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+3,2,1,1
+Total 3 (3 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 2 (2 unique) events are in isolated traces
+Total 2 (2 unique) events are in non-isolated traces (1 / 1 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (2 events / 2 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (2 events / 2 unique events) (1 events / 1 unique events in hot method)
+Classifier (com.romix.scala.collection.concurrent.TestReadOnlyAndUpdatableIterators.testReadOnlySnapshotReadOnlyIterator:48): CUT,NOT_REDUNDANT_TRACES
+
+#33
+Inspecting hot method com.romix.scala.collection.concurrent.TestReadOnlyAndUpdatableIterators.testIterator:88...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+3,2,1,1
+Total 3 (3 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 2 (2 unique) events are in isolated traces
+Total 2 (2 unique) events are in non-isolated traces (1 / 1 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (2 events / 2 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (2 events / 2 unique events) (1 events / 1 unique events in hot method)
+Classifier (com.romix.scala.collection.concurrent.TestReadOnlyAndUpdatableIterators.testIterator:88): CUT,NOT_REDUNDANT_TRACES
+
+#34
+Inspecting hot method com.romix.scala.collection.concurrent.TestReadOnlyAndUpdatableIterators.testReadOnlyIterator:29...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+3,2,1,1
+Total 3 (3 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 2 (2 unique) events are in isolated traces
+Total 2 (2 unique) events are in non-isolated traces (1 / 1 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (2 events / 2 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (2 events / 2 unique events) (1 events / 1 unique events in hot method)
+Classifier (com.romix.scala.collection.concurrent.TestReadOnlyAndUpdatableIterators.testReadOnlyIterator:29): CUT,NOT_REDUNDANT_TRACES
+
+#35
+Inspecting hot method com.romix.scala.collection.concurrent.TrieMap$TrieMapReadOnlyIterator.remove:1479...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+3,3,3,0
+Total 3 (1 unique) events are in hot method
+Total 3 (1 unique) traces are in hot method
+Total 3 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Throwable_InitCauseOnce (3 traces / 1 unique traces) (3 events / 1 unique events)
+Classifier (com.romix.scala.collection.concurrent.TrieMap$TrieMapReadOnlyIterator.remove:1479): CUT,ISOLATED_ONE_UNIQUE
+
+#36
+Inspecting hot method com.romix.scala.collection.concurrent.TestReadOnlyAndUpdatableIterators.testReadOnlySnapshotIterator:68...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+3,2,1,1
+Total 3 (3 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 2 (2 unique) events are in isolated traces
+Total 2 (2 unique) events are in non-isolated traces (1 / 1 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (2 events / 2 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (2 events / 2 unique events) (1 events / 1 unique events in hot method)
+Classifier (com.romix.scala.collection.concurrent.TestReadOnlyAndUpdatableIterators.testReadOnlySnapshotIterator:68): CUT,NOT_REDUNDANT_TRACES
+
+#37
+Inspecting hot method com.romix.scala.collection.concurrent.TestReadOnlyAndUpdatableIterators.testSnapshotIterator:109...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+3,2,1,1
+Total 3 (3 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 2 (2 unique) events are in isolated traces
+Total 2 (2 unique) events are in non-isolated traces (1 / 1 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (2 events / 2 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (2 events / 2 unique events) (1 events / 1 unique events in hot method)
+Classifier (com.romix.scala.collection.concurrent.TestReadOnlyAndUpdatableIterators.testSnapshotIterator:109): CUT,NOT_REDUNDANT_TRACES
+

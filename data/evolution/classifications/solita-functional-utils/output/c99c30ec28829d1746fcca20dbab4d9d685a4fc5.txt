@@ -1,0 +1,1509 @@
+Reading traces...
+Reading specs frequency...
+Reading locations...
+Counting events...
+Total 17721543 events and 9742 traces
+Inspecting top 200 IMM
+Finding hot methods...
+Number of events, method name
+5681158,fi.solita.utils.functional.Collections.newList:914
+4045185,fi.solita.utils.functional.Iterables$ConcatenatingIterable$1.hasNext:357
+2021627,fi.solita.utils.functional.Iterables$ConcatenatingIterable$1.next:365
+2020412,fi.solita.utils.functional.Collections.newSet:948
+1335842,fi.solita.utils.functional.Iterables$TransformingIterable$1.next:552
+740836,fi.solita.utils.functional.Iterables$TakingIterable$1.next:883
+669032,fi.solita.utils.functional.Iterables$TransformingIterable$1.hasNext:547
+666660,fi.solita.utils.functional.TestClass.<init>:16
+493903,fi.solita.utils.functional.Iterables$TakingIterable$1.hasNext:878
+35109,fi.solita.utils.functional.Iterables$ConcatenatingIterable.flattenNestedConcats:324
+1783,fi.solita.utils.functional.FunctionalImpl.fold:433
+1265,fi.solita.utils.functional.Iterables$ConcatenatingIterable.size:336
+1011,fi.solita.utils.functional.Iterables$MemoizingCharSequenceIterable.resolveLength:676
+720,fi.solita.utils.functional.SortTest.runSortOnce:41
+568,fi.solita.utils.functional.SomeImpl.iterator:186
+450,fi.solita.utils.functional.Iterables$ZippingIterable$1.next:283
+441,fi.solita.utils.functional.Iterables$ConcatenatingIterable$1.<init>:350
+403,fi.solita.utils.functional.Iterables$MemoizingCharSequenceIterable$1.next:736
+397,fi.solita.utils.functional.Iterables$DroppingIterable.iterator:926
+390,fi.solita.utils.functional.Iterables$SortingIterable.iterator:791
+387,fi.solita.utils.functional.Iterables$5.transform:80
+386,fi.solita.utils.functional.Iterables$MemoizingCharSequenceIterable.charAt:706
+368,fi.solita.utils.functional.Iterables$ZippingIterable$1.hasNext:278
+304,fi.solita.utils.functional.FunctionalTest.testConcatPerformance:308
+303,fi.solita.utils.functional.Iterables$TransformingIterable$1.<init>:543
+292,fi.solita.utils.functional.FunctionalImpl$6$1.readNext:268
+283,fi.solita.utils.functional.FunctionalImpl$7$1.readNext:313
+222,fi.solita.utils.functional.Iterables$FilteringIterable$1.readNext:488
+193,fi.solita.utils.functional.Tuple.equals:875
+157,fi.solita.utils.functional.SortTest.testSort:30
+132,fi.solita.utils.functional.Iterables$DistinctIterable$1.readNext:423
+113,fi.solita.utils.functional.FunctionalImpl.mkString:625
+104,fi.solita.utils.functional.Match.section:78
+89,fi.solita.utils.functional.Match.iterable:225
+82,fi.solita.utils.functional.Iterables$MemoizingCharSequenceIterable$1.hasNext:725
+79,fi.solita.utils.functional.FunctionalImpl.lastOption:217
+69,fi.solita.utils.functional.Iterables$MemoizingCharSequenceIterable.toString:768
+68,fi.solita.utils.functional.Iterables$2.transform:62
+64,fi.solita.utils.functional.FunctionalImpl.head:193
+62,fi.solita.utils.functional.Iterables$ZippingIterable$1.<init>:273
+42,fi.solita.utils.functional.Iterables$3.transform:68
+41,fi.solita.utils.functional.NoneImpl.iterator:128
+39,fi.solita.utils.functional.Match.err:207
+26,fi.solita.utils.functional.Match.err:129
+22,fi.solita.utils.functional.Iterables$FilteringIterable$1.<init>:477
+21,fi.solita.utils.functional.FunctionalImpl.isEmpty:363
+21,fi.solita.utils.functional.Match.endsWith:62
+21,fi.solita.utils.functional.Match.startsWith:53
+20,fi.solita.utils.functional.FunctionalImpl$7$1.next:321
+18,fi.solita.utils.functional.Match.singleton:159
+17,fi.solita.utils.functional.Iterables$GroupingIterable$1.next:983
+15,fi.solita.utils.functional.Iterables$MemoizingCharSequenceIterable.subSequence:687
+11,fi.solita.utils.functional.Iterables$4.transform:74
+11,fi.solita.utils.functional.Iterables$TakingIterable$1.<init>:873
+10,fi.solita.utils.functional.Match.groups:147
+9,fi.solita.utils.functional.Match.split:133
+9,fi.solita.utils.functional.PairTest.serialization:31
+9,fi.solita.utils.functional.Match.instance:35
+8,fi.solita.utils.functional.FunctionalImpl.foreach:120
+8,fi.solita.utils.functional.FunctionalImpl.foreach:114
+8,fi.solita.utils.functional.Iterables$TransposingIterable$1.next:230
+7,fi.solita.utils.functional.lens.Builder$3.transform:206
+6,fi.solita.utils.functional.FunctionalImpl$6$1.<init>:258
+6,fi.solita.utils.functional.Iterables$ReversingIterable$1.next:595
+5,fi.solita.utils.functional.lens.Builder$IncompleteException.<init>:103
+5,fi.solita.utils.functional.FunctionalImpl.size:371
+4,fi.solita.utils.functional.Iterables$ReversingIterable$1.hasNext:590
+3,fi.solita.utils.functional.Iterables$DistinctIterable$1.<init>:412
+2,fi.solita.utils.functional.FunctionalImpl$7$1.<init>:301
+2,fi.solita.utils.functional.FunctionalTest$6.<clinit>:0
+1,fi.solita.utils.functional.Function1.<clinit>:0
+1,fi.solita.utils.functional.Transformer.<clinit>:0
+1,fi.solita.utils.functional.FunctionalTest$1.<clinit>:0
+1,fi.solita.utils.functional.FunctionalTest$3.<clinit>:0
+1,fi.solita.utils.functional.FunctionalTest$5.<clinit>:0
+1,fi.solita.utils.functional.MultiParamFunction.<clinit>:0
+1,fi.solita.utils.functional.Function2.<clinit>:0
+1,fi.solita.utils.functional.SemiGroups$IntSum.<clinit>:0
+1,fi.solita.utils.functional.Monoids$IntSum.<clinit>:0
+1,fi.solita.utils.functional.SemiGroups$IntProduct.<clinit>:0
+1,fi.solita.utils.functional.Monoids$IntProduct.<clinit>:0
+1,fi.solita.utils.functional.SemiGroups$LongSum.<clinit>:0
+1,fi.solita.utils.functional.Monoids$LongSum.<clinit>:0
+1,fi.solita.utils.functional.SemiGroups$LongProduct.<clinit>:0
+1,fi.solita.utils.functional.Monoids$LongProduct.<clinit>:0
+1,fi.solita.utils.functional.SemiGroups$DoubleSum.<clinit>:0
+1,fi.solita.utils.functional.Monoids$DoubleSum.<clinit>:0
+1,fi.solita.utils.functional.SemiGroups$DoubleProduct.<clinit>:0
+1,fi.solita.utils.functional.Monoids$DoubleProduct.<clinit>:0
+1,fi.solita.utils.functional.SemiGroups$StringConcat.<clinit>:0
+1,fi.solita.utils.functional.Monoids$StringConcat.<clinit>:0
+1,fi.solita.utils.functional.SemiGroups$BooleanConjunction.<clinit>:0
+1,fi.solita.utils.functional.Monoids$BooleanConjunction.<clinit>:0
+1,fi.solita.utils.functional.SemiGroups$BooleanDisjunction.<clinit>:0
+1,fi.solita.utils.functional.Monoids$BooleanDisjunction.<clinit>:0
+1,fi.solita.utils.functional.SemiGroups$SetUnion.<clinit>:0
+1,fi.solita.utils.functional.Monoids$SetUnion.<clinit>:0
+1,fi.solita.utils.functional.SemiGroups$SetIntersection.<clinit>:0
+1,fi.solita.utils.functional.Monoids$SetIntersection.<clinit>:194
+1,fi.solita.utils.functional.SemiGroups$ComparatorConcat.<clinit>:0
+1,fi.solita.utils.functional.Monoids$ComparatorConcat.<clinit>:0
+1,fi.solita.utils.functional.NoneImpl.<clinit>:0
+1,fi.solita.utils.functional.Option.<clinit>:8
+1,fi.solita.utils.functional.SomeImpl.<clinit>:0
+1,fi.solita.utils.functional.Iterables$1.<clinit>:0
+1,fi.solita.utils.functional.Iterables$2.<clinit>:0
+1,fi.solita.utils.functional.Iterables$3.<clinit>:0
+1,fi.solita.utils.functional.Iterables$4.<clinit>:0
+1,fi.solita.utils.functional.Iterables$5.<clinit>:0
+1,fi.solita.utils.functional.FunctionalC$1.<clinit>:0
+1,fi.solita.utils.functional.FunctionalC$2.<clinit>:0
+1,fi.solita.utils.functional.Predicate.<clinit>:0
+1,fi.solita.utils.functional.FunctionalImpl$5.<clinit>:0
+1,fi.solita.utils.functional.FunctionalImpl$8.<clinit>:0
+1,fi.solita.utils.functional.FunctionalImpl$9.<clinit>:0
+1,fi.solita.utils.functional.FunctionalImpl$12.<clinit>:0
+1,fi.solita.utils.functional.FunctionalImpl$13.<clinit>:0
+1,fi.solita.utils.functional.FunctionalImpl$15.<clinit>:0
+1,fi.solita.utils.functional.Tuple.<clinit>:0
+1,fi.solita.utils.functional.Tuple2.<clinit>:0
+1,fi.solita.utils.functional.Pair.<clinit>:0
+1,fi.solita.utils.functional.Function2$2.<clinit>:0
+1,fi.solita.utils.functional.SemiGroups$Max.<clinit>:0
+1,fi.solita.utils.functional.SemiGroups$Min.<clinit>:0
+1,fi.solita.utils.functional.SemiGroups$First.<clinit>:0
+1,fi.solita.utils.functional.SemiGroups$Last.<clinit>:0
+1,fi.solita.utils.functional.Function$GivenLater.<clinit>:10
+1,fi.solita.utils.functional.Function$GivenEvenLater.<clinit>:13
+1,fi.solita.utils.functional.Function$5.<clinit>:0
+1,fi.solita.utils.functional.Function0.<clinit>:0
+1,fi.solita.utils.functional.Function$1.<clinit>:0
+1,fi.solita.utils.functional.Monoids$1.<clinit>:0
+1,fi.solita.utils.functional.Function$6.<clinit>:0
+1,fi.solita.utils.functional.SemiGroups$Product4.<clinit>:0
+1,fi.solita.utils.functional.Tuple4.<clinit>:0
+1,fi.solita.utils.functional.Predicates$4.<clinit>:0
+1,fi.solita.utils.functional.Predicates$5.<clinit>:0
+1,fi.solita.utils.functional.Predicates$6.<clinit>:0
+1,fi.solita.utils.functional.Predicates$7.<clinit>:0
+1,fi.solita.utils.functional.Predicates$3.<clinit>:0
+1,fi.solita.utils.functional.Predicates$16.<clinit>:0
+1,fi.solita.utils.functional.Predicates$17.<clinit>:0
+1,fi.solita.utils.functional.Predicates$2.<clinit>:0
+1,fi.solita.utils.functional.FunctionalImpl$14.<clinit>:0
+1,fi.solita.utils.functional.Iterables$GroupingIterable$1$1.<clinit>:0
+1,fi.solita.utils.functional.Predicates$Impl$1.<clinit>:0
+1,fi.solita.utils.functional.Predicates$Impl$2.<clinit>:0
+1,fi.solita.utils.functional.FunctionalTest$7.<clinit>:0
+1,fi.solita.utils.functional.FunctionalTest$8.<clinit>:0
+1,fi.solita.utils.functional.Transformers$8.<clinit>:0
+1,fi.solita.utils.functional.Transformers$8$1.<clinit>:0
+1,fi.solita.utils.functional.Transformers$12.<clinit>:0
+1,fi.solita.utils.functional.Transformers$14.<clinit>:0
+1,fi.solita.utils.functional.Transformers$15.<clinit>:0
+1,fi.solita.utils.functional.Transformers$16.<clinit>:0
+1,fi.solita.utils.functional.Transformers$17.<clinit>:0
+1,fi.solita.utils.functional.Transformers$18.<clinit>:0
+1,fi.solita.utils.functional.Transformers$19.<clinit>:0
+1,fi.solita.utils.functional.Transformers$20.<clinit>:0
+1,fi.solita.utils.functional.Transformers$21.<clinit>:0
+1,fi.solita.utils.functional.Transformers$22.<clinit>:0
+1,fi.solita.utils.functional.Transformers$23.<clinit>:0
+1,fi.solita.utils.functional.Transformers$24.<clinit>:0
+1,fi.solita.utils.functional.Transformers$25.<clinit>:0
+1,fi.solita.utils.functional.Transformers$26.<clinit>:0
+1,fi.solita.utils.functional.Transformers$27.<clinit>:0
+1,fi.solita.utils.functional.Transformers$28.<clinit>:0
+1,fi.solita.utils.functional.Transformers$29.<clinit>:0
+1,fi.solita.utils.functional.Transformers$31.<clinit>:0
+1,fi.solita.utils.functional.Transformers$32.<clinit>:0
+1,fi.solita.utils.functional.Transformers$33.<clinit>:0
+1,fi.solita.utils.functional.Transformers$34.<clinit>:0
+1,fi.solita.utils.functional.Transformers$38.<clinit>:0
+1,fi.solita.utils.functional.Transformers$39.<clinit>:0
+1,fi.solita.utils.functional.Transformers$40.<clinit>:0
+1,fi.solita.utils.functional.Transformers$41.<clinit>:0
+1,fi.solita.utils.functional.Transformers$46.<clinit>:0
+1,fi.solita.utils.functional.Transformers$47.<clinit>:0
+1,fi.solita.utils.functional.Transformers$48.<clinit>:0
+1,fi.solita.utils.functional.Transformers$49.<clinit>:0
+1,fi.solita.utils.functional.Transformers$50.<clinit>:0
+1,fi.solita.utils.functional.Transformers$51.<clinit>:0
+1,fi.solita.utils.functional.Transformers$52.<clinit>:0
+1,fi.solita.utils.functional.Transformers$53.<clinit>:0
+1,fi.solita.utils.functional.Transformers$54.<clinit>:0
+1,fi.solita.utils.functional.Transformers$55.<clinit>:0
+1,fi.solita.utils.functional.Transformers$56.<clinit>:0
+1,fi.solita.utils.functional.Transformers$57.<clinit>:0
+1,fi.solita.utils.functional.Transformers$58.<clinit>:0
+1,fi.solita.utils.functional.Transformers$59.<clinit>:0
+1,fi.solita.utils.functional.Transformers$60.<clinit>:0
+1,fi.solita.utils.functional.Transformers$61.<clinit>:0
+1,fi.solita.utils.functional.Transformers$62.<clinit>:0
+1,fi.solita.utils.functional.Transformers$63.<clinit>:0
+1,fi.solita.utils.functional.Transformers$64.<clinit>:0
+1,fi.solita.utils.functional.Transformers$65.<clinit>:0
+1,fi.solita.utils.functional.Transformers$66.<clinit>:0
+1,fi.solita.utils.functional.Transformers$67.<clinit>:0
+1,fi.solita.utils.functional.Transformers$68.<clinit>:0
+1,fi.solita.utils.functional.Transformers$69.<clinit>:0
+1,fi.solita.utils.functional.Transformers$70.<clinit>:0
+1,fi.solita.utils.functional.Transformers$71.<clinit>:0
+1,fi.solita.utils.functional.Transformers$72.<clinit>:0
+1,fi.solita.utils.functional.Transformers$73.<clinit>:0
+1,fi.solita.utils.functional.Transformers$74.<clinit>:0
+1,fi.solita.utils.functional.Transformers$75.<clinit>:0
+1,fi.solita.utils.functional.Transformers$76.<clinit>:0
+1,fi.solita.utils.functional.Transformers$77.<clinit>:0
+1,fi.solita.utils.functional.Transformers$78.<clinit>:0
+1,fi.solita.utils.functional.Transformers$79.<clinit>:0
+1,fi.solita.utils.functional.Transformers$80.<clinit>:0
+1,fi.solita.utils.functional.FunctionalTest$2.<clinit>:0
+1,fi.solita.utils.functional.Tuple3.<clinit>:0
+1,fi.solita.utils.functional.Function3.<clinit>:0
+1,fi.solita.utils.functional.FunctionTest$1.<clinit>:0
+1,fi.solita.utils.functional.Function3$13.<clinit>:0
+1,fi.solita.utils.functional.Function3$10.<clinit>:0
+1,fi.solita.utils.functional.Function5.<clinit>:0
+1,fi.solita.utils.functional.FunctionTest$2.<clinit>:0
+1,fi.solita.utils.functional.Function2$11.<clinit>:0
+1,fi.solita.utils.functional.PartialApplicationHelper$3.<clinit>:0
+1,fi.solita.utils.functional.Tuple5.<clinit>:0
+1,fi.solita.utils.functional.Function5$2.<clinit>:0
+1,fi.solita.utils.functional.Either.<clinit>:0
+1,fi.solita.utils.functional.Try.<clinit>:0
+1,fi.solita.utils.functional.OptionTest$1.<clinit>:0
+1,fi.solita.utils.functional.lens.Employee_$1.<clinit>:0
+1,fi.solita.utils.functional.lens.Employee_$2.<clinit>:0
+1,fi.solita.utils.functional.lens.Employee_$3.<clinit>:0
+1,fi.solita.utils.functional.lens.Employee_$4.<clinit>:0
+1,fi.solita.utils.functional.lens.Builder$3.<clinit>:0
+1,fi.solita.utils.functional.lens.Builder$IncompleteException.<clinit>:0
+1,fi.solita.utils.functional.SortTest$1.<clinit>:0
+1,fi.solita.utils.functional.SortTest$2.<clinit>:0
+1,fi.solita.utils.functional.Ordering$2.<clinit>:0
+1,fi.solita.utils.functional.Ordering.<clinit>:31
+1,fi.solita.utils.functional.Compare$2.<clinit>:0
+1,fi.solita.utils.functional.Monoids$SetIntersection$AllContainingSet.<clinit>:0
+^^^ Last method that contains more than one event ^^^
+Starting fi.solita.utils.functional.Iterables$MemoizingCharSequenceIterable.resolveLength:676
+Finish fi.solita.utils.functional.Iterables$MemoizingCharSequenceIterable.resolveLength:676
+Starting fi.solita.utils.functional.Match.err:129
+Finish fi.solita.utils.functional.Match.err:129
+Starting fi.solita.utils.functional.Iterables$TransformingIterable$1.<init>:543
+Finish fi.solita.utils.functional.Iterables$TransformingIterable$1.<init>:543
+Starting fi.solita.utils.functional.Match.endsWith:62
+Finish fi.solita.utils.functional.Match.endsWith:62
+Starting fi.solita.utils.functional.Iterables$TransformingIterable$1.hasNext:547
+Finish fi.solita.utils.functional.Iterables$TransformingIterable$1.hasNext:547
+Starting fi.solita.utils.functional.FunctionalImpl.isEmpty:363
+Finish fi.solita.utils.functional.FunctionalImpl.isEmpty:363
+Starting fi.solita.utils.functional.Iterables$ConcatenatingIterable$1.hasNext:357
+Finish fi.solita.utils.functional.Iterables$ConcatenatingIterable$1.hasNext:357
+Starting fi.solita.utils.functional.Iterables$FilteringIterable$1.<init>:477
+Finish fi.solita.utils.functional.Iterables$FilteringIterable$1.<init>:477
+Starting fi.solita.utils.functional.Iterables$TransformingIterable$1.next:552
+Finish fi.solita.utils.functional.Iterables$TransformingIterable$1.next:552
+Starting fi.solita.utils.functional.Iterables$ZippingIterable$1.<init>:273
+Finish fi.solita.utils.functional.Iterables$ZippingIterable$1.<init>:273
+Starting fi.solita.utils.functional.Match.instance:35
+Finish fi.solita.utils.functional.Match.instance:35
+Starting fi.solita.utils.functional.Iterables$ConcatenatingIterable$1.next:365
+Finish fi.solita.utils.functional.Iterables$ConcatenatingIterable$1.next:365
+Starting fi.solita.utils.functional.NoneImpl.iterator:128
+Finish fi.solita.utils.functional.NoneImpl.iterator:128
+Starting fi.solita.utils.functional.lens.Builder$3.transform:206
+Finish fi.solita.utils.functional.lens.Builder$3.transform:206
+Starting fi.solita.utils.functional.Iterables$TakingIterable$1.hasNext:878
+Finish fi.solita.utils.functional.Iterables$TakingIterable$1.hasNext:878
+Starting fi.solita.utils.functional.FunctionalImpl$7$1.next:321
+Finish fi.solita.utils.functional.FunctionalImpl$7$1.next:321
+Starting fi.solita.utils.functional.TestClass.<init>:16
+Finish fi.solita.utils.functional.TestClass.<init>:16
+Starting fi.solita.utils.functional.Match.singleton:159
+Finish fi.solita.utils.functional.Match.singleton:159
+Starting fi.solita.utils.functional.Collections.newSet:948
+Finish fi.solita.utils.functional.Collections.newSet:948
+Starting fi.solita.utils.functional.Match.startsWith:53
+Finish fi.solita.utils.functional.Match.startsWith:53
+Starting fi.solita.utils.functional.lens.Builder$IncompleteException.<init>:103
+Finish fi.solita.utils.functional.lens.Builder$IncompleteException.<init>:103
+Starting fi.solita.utils.functional.Iterables$ZippingIterable$1.hasNext:278
+Finish fi.solita.utils.functional.Iterables$ZippingIterable$1.hasNext:278
+Starting fi.solita.utils.functional.Iterables$FilteringIterable$1.readNext:488
+Finish fi.solita.utils.functional.Iterables$FilteringIterable$1.readNext:488
+Starting fi.solita.utils.functional.Iterables$4.transform:74
+Finish fi.solita.utils.functional.Iterables$4.transform:74
+Starting fi.solita.utils.functional.Iterables$5.transform:80
+Finish fi.solita.utils.functional.Iterables$5.transform:80
+Starting fi.solita.utils.functional.FunctionalImpl.mkString:625
+Finish fi.solita.utils.functional.FunctionalImpl.mkString:625
+Starting fi.solita.utils.functional.Iterables$TakingIterable$1.<init>:873
+Finish fi.solita.utils.functional.Iterables$TakingIterable$1.<init>:873
+Starting fi.solita.utils.functional.Iterables$MemoizingCharSequenceIterable$1.next:736
+Finish fi.solita.utils.functional.Iterables$MemoizingCharSequenceIterable$1.next:736
+Starting fi.solita.utils.functional.FunctionalImpl$7$1.readNext:313
+Finish fi.solita.utils.functional.FunctionalImpl$7$1.readNext:313
+Starting fi.solita.utils.functional.Match.groups:147
+Finish fi.solita.utils.functional.Match.groups:147
+Starting fi.solita.utils.functional.Iterables$SortingIterable.iterator:791
+Finish fi.solita.utils.functional.Iterables$SortingIterable.iterator:791
+Starting fi.solita.utils.functional.Match.iterable:225
+Finish fi.solita.utils.functional.Match.iterable:225
+Starting fi.solita.utils.functional.PairTest.serialization:31
+Finish fi.solita.utils.functional.PairTest.serialization:31
+Starting fi.solita.utils.functional.SomeImpl.iterator:186
+Finish fi.solita.utils.functional.SomeImpl.iterator:186
+Starting fi.solita.utils.functional.FunctionalImpl$6$1.readNext:268
+Finish fi.solita.utils.functional.FunctionalImpl$6$1.readNext:268
+Starting fi.solita.utils.functional.Iterables$MemoizingCharSequenceIterable.subSequence:687
+Finish fi.solita.utils.functional.Iterables$MemoizingCharSequenceIterable.subSequence:687
+Starting fi.solita.utils.functional.Iterables$TakingIterable$1.next:883
+Finish fi.solita.utils.functional.Iterables$TakingIterable$1.next:883
+Starting fi.solita.utils.functional.Iterables$MemoizingCharSequenceIterable.toString:768
+Finish fi.solita.utils.functional.Iterables$MemoizingCharSequenceIterable.toString:768
+Starting fi.solita.utils.functional.Iterables$TransposingIterable$1.next:230
+Finish fi.solita.utils.functional.Iterables$TransposingIterable$1.next:230
+Starting fi.solita.utils.functional.Iterables$DroppingIterable.iterator:926
+Finish fi.solita.utils.functional.Iterables$DroppingIterable.iterator:926
+Starting fi.solita.utils.functional.SortTest.testSort:30
+Finish fi.solita.utils.functional.SortTest.testSort:30
+Starting fi.solita.utils.functional.Match.split:133
+Finish fi.solita.utils.functional.Match.split:133
+Starting fi.solita.utils.functional.SortTest.runSortOnce:41
+Finish fi.solita.utils.functional.SortTest.runSortOnce:41
+Starting fi.solita.utils.functional.Tuple.equals:875
+Finish fi.solita.utils.functional.Tuple.equals:875
+Starting fi.solita.utils.functional.Iterables$GroupingIterable$1.next:983
+Finish fi.solita.utils.functional.Iterables$GroupingIterable$1.next:983
+Starting fi.solita.utils.functional.FunctionalImpl$7$1.<init>:301
+Finish fi.solita.utils.functional.FunctionalImpl$7$1.<init>:301
+Starting fi.solita.utils.functional.Iterables$ConcatenatingIterable.size:336
+Finish fi.solita.utils.functional.Iterables$ConcatenatingIterable.size:336
+Starting fi.solita.utils.functional.FunctionalImpl.lastOption:217
+Finish fi.solita.utils.functional.FunctionalImpl.lastOption:217
+Starting fi.solita.utils.functional.FunctionalImpl.foreach:114
+Finish fi.solita.utils.functional.FunctionalImpl.foreach:114
+Starting fi.solita.utils.functional.FunctionalTest.testConcatPerformance:308
+Finish fi.solita.utils.functional.FunctionalTest.testConcatPerformance:308
+Starting fi.solita.utils.functional.Iterables$MemoizingCharSequenceIterable$1.hasNext:725
+Finish fi.solita.utils.functional.Iterables$MemoizingCharSequenceIterable$1.hasNext:725
+Starting fi.solita.utils.functional.Iterables$DistinctIterable$1.<init>:412
+Finish fi.solita.utils.functional.Iterables$DistinctIterable$1.<init>:412
+Starting fi.solita.utils.functional.Collections.newList:914
+Finish fi.solita.utils.functional.Collections.newList:914
+Starting fi.solita.utils.functional.Iterables$2.transform:62
+Finish fi.solita.utils.functional.Iterables$2.transform:62
+Starting fi.solita.utils.functional.FunctionalImpl$6$1.<init>:258
+Finish fi.solita.utils.functional.FunctionalImpl$6$1.<init>:258
+Starting fi.solita.utils.functional.Iterables$ZippingIterable$1.next:283
+Finish fi.solita.utils.functional.Iterables$ZippingIterable$1.next:283
+Starting fi.solita.utils.functional.Match.err:207
+Finish fi.solita.utils.functional.Match.err:207
+Starting fi.solita.utils.functional.FunctionalTest$6.<clinit>:0
+Finish fi.solita.utils.functional.FunctionalTest$6.<clinit>:0
+Starting fi.solita.utils.functional.Iterables$ConcatenatingIterable$1.<init>:350
+Finish fi.solita.utils.functional.Iterables$ConcatenatingIterable$1.<init>:350
+Starting fi.solita.utils.functional.Iterables$DistinctIterable$1.readNext:423
+Finish fi.solita.utils.functional.Iterables$DistinctIterable$1.readNext:423
+Starting fi.solita.utils.functional.Iterables$ReversingIterable$1.next:595
+Finish fi.solita.utils.functional.Iterables$ReversingIterable$1.next:595
+Starting fi.solita.utils.functional.Iterables$MemoizingCharSequenceIterable.charAt:706
+Finish fi.solita.utils.functional.Iterables$MemoizingCharSequenceIterable.charAt:706
+Starting fi.solita.utils.functional.Match.section:78
+Finish fi.solita.utils.functional.Match.section:78
+Starting fi.solita.utils.functional.FunctionalImpl.foreach:120
+Finish fi.solita.utils.functional.FunctionalImpl.foreach:120
+
+#1
+Inspecting hot method fi.solita.utils.functional.Collections.newList:914...
+Checking for isolation...
+5681158,3136,2435,701
+Total 5681158 (464687 unique) events are in hot method
+Total 3136 (62 unique) traces are in hot method
+Total 2435 (39 unique) isolated traces are in hot method
+Total 701 (23 unique) non-isolated traces that have events in hot method
+Total 5678703 (464539 unique) events are in isolated traces
+Total 3395 (265 unique) events are in non-isolated traces (2455 / 148 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (900 traces / 12 unique traces) (1419607 events / 116130 unique events)
+	Iterator_HasNext (766 traces / 14 unique traces) (2839419 events / 232277 unique events)
+	Collections_SortBeforeBinarySearch (569 traces / 12 unique traces) (1419277 events / 116130 unique events)
+	Collection_UnsynchronizedAddAll (200 traces / 1 unique traces) (400 events / 2 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (548 traces / 9 unique traces) (2308 events / 142 unique events) (1686 events / 65 unique events in hot method)
+	Iterator_HasNext (148 traces / 11 unique traces) (1074 events / 115 unique events) (762 events / 79 unique events in hot method)
+	Iterator_RemoveOnce (5 traces / 3 unique traces) (13 events / 8 unique events) (7 events / 4 unique events in hot method)
+Classifier (fi.solita.utils.functional.Collections.newList:914): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#2
+Inspecting hot method fi.solita.utils.functional.Iterables$ConcatenatingIterable$1.hasNext:357...
+Checking for isolation...
+4045185,1068,2,1066
+Total 4045185 (80516 unique) events are in hot method
+Total 1068 (34 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 1066 (32 unique) non-isolated traces that have events in hot method
+Total 3 (3 unique) events are in isolated traces
+Total 5056938 (100701 unique) events are in non-isolated traces (4045182 / 80513 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (2 traces / 2 unique traces) (3 events / 3 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (535 traces / 15 unique traces) (2528548 events / 50375 unique events) (2022806 events / 40307 unique events in hot method)
+	Collection_UnsafeIterator (388 traces / 14 unique traces) (2528002 events / 50218 unique events) (2022131 events / 40101 unique events in hot method)
+	Iterator_RemoveOnce (143 traces / 3 unique traces) (388 events / 108 unique events) (245 events / 105 unique events in hot method)
+Classifier (fi.solita.utils.functional.Iterables$ConcatenatingIterable$1.hasNext:357): CUT,ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#3
+Inspecting hot method fi.solita.utils.functional.Iterables$ConcatenatingIterable$1.next:365...
+Checking for isolation...
+2021627,1308,388,920
+Total 2021627 (530169 unique) events are in hot method
+Total 1308 (35 unique) traces are in hot method
+Total 388 (5 unique) isolated traces are in hot method
+Total 920 (30 unique) non-isolated traces that have events in hot method
+Total 505409 (5011 unique) events are in isolated traces
+Total 6571859 (1615600 unique) events are in non-isolated traces (1516218 / 525158 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (388 traces / 5 unique traces) (505409 events / 5011 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (535 traces / 19 unique traces) (4043949 events / 1565474 unique events) (1010818 events / 515138 unique events in hot method)
+	Collection_UnsafeIterator (385 traces / 11 unique traces) (2527910 events / 50126 unique events) (505400 events / 10020 unique events in hot method)
+Classifier (fi.solita.utils.functional.Iterables$ConcatenatingIterable$1.next:365): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#4
+Inspecting hot method fi.solita.utils.functional.Collections.newSet:948...
+Checking for isolation...
+2020412,6,3,3
+Total 2020412 (2020412 unique) events are in hot method
+Total 6 (6 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 3 (3 unique) non-isolated traces that have events in hot method
+Total 505105 (505105 unique) events are in isolated traces
+Total 2020430 (2020430 unique) events are in non-isolated traces (1515307 / 1515307 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (2 traces / 2 unique traces) (505102 events / 505102 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (3 events / 3 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (1515304 events / 1515304 unique events) (1010203 events / 1010203 unique events in hot method)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (4 events / 4 unique events) (3 events / 3 unique events in hot method)
+	Set_ItselfAsElement (1 traces / 1 unique traces) (505122 events / 505122 unique events) (505101 events / 505101 unique events in hot method)
+Classifier (fi.solita.utils.functional.Collections.newSet:948): CUT,NOT_REDUNDANT_TRACES
+
+#5
+Inspecting hot method fi.solita.utils.functional.Iterables$TransformingIterable$1.next:552...
+Checking for isolation...
+1335842,1013,355,658
+Total 1335842 (222592 unique) events are in hot method
+Total 1013 (36 unique) traces are in hot method
+Total 355 (10 unique) isolated traces are in hot method
+Total 658 (26 unique) non-isolated traces that have events in hot method
+Total 667517 (111227 unique) events are in isolated traces
+Total 1337685 (222800 unique) events are in non-isolated traces (668325 / 111365 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (355 traces / 10 unique traces) (667517 events / 111227 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (355 traces / 19 unique traces) (1335439 events / 222543 unique events) (667517 events / 111249 unique events in hot method)
+	Collection_UnsafeIterator (303 traces / 7 unique traces) (2246 events / 257 unique events) (808 events / 116 unique events in hot method)
+Classifier (fi.solita.utils.functional.Iterables$TransformingIterable$1.next:552): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#6
+Inspecting hot method fi.solita.utils.functional.Iterables$TakingIterable$1.next:883...
+Checking for isolation...
+740836,153,49,104
+Total 740836 (555608 unique) events are in hot method
+Total 153 (48 unique) traces are in hot method
+Total 49 (9 unique) isolated traces are in hot method
+Total 104 (39 unique) non-isolated traces that have events in hot method
+Total 246938 (111117 unique) events are in isolated traces
+Total 987872 (889007 unique) events are in non-isolated traces (493898 / 444491 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (46 traces / 8 unique traces) (246935 events / 111116 unique events)
+	Iterator_HasNext (3 traces / 1 unique traces) (3 events / 1 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (54 traces / 19 unique traces) (493955 events / 444506 unique events) (246958 events / 222245 unique events in hot method)
+	Collection_UnsafeIterator (39 traces / 15 unique traces) (493880 events / 444480 unique events) (246914 events / 222230 unique events in hot method)
+	Iterator_RemoveOnce (11 traces / 5 unique traces) (37 events / 21 unique events) (26 events / 16 unique events in hot method)
+Classifier (fi.solita.utils.functional.Iterables$TakingIterable$1.next:883): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#7
+Inspecting hot method fi.solita.utils.functional.Iterables$TransformingIterable$1.hasNext:547...
+Checking for isolation...
+669032,659,1,658
+Total 669032 (111414 unique) events are in hot method
+Total 659 (27 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 658 (26 unique) non-isolated traces that have events in hot method
+Total 1 (1 unique) events are in isolated traces
+Total 1337685 (222800 unique) events are in non-isolated traces (669031 / 111413 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (1 events / 1 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (355 traces / 19 unique traces) (1335439 events / 222543 unique events) (667896 events / 111279 unique events in hot method)
+	Collection_UnsafeIterator (303 traces / 7 unique traces) (2246 events / 257 unique events) (1135 events / 134 unique events in hot method)
+Classifier (fi.solita.utils.functional.Iterables$TransformingIterable$1.hasNext:547): CUT,ISOLATED_SINGLE_TRACE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#8
+Inspecting hot method fi.solita.utils.functional.TestClass.<init>:16...
+Checking for isolation...
+666660,1,1,0
+Total 666660 (666660 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 666660 (666660 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Math_ContendedRandom (1 traces / 1 unique traces) (666660 events / 666660 unique events)
+Classifier (fi.solita.utils.functional.TestClass.<init>:16): CUT,NOT_REDUNDANT_TRACES
+
+#9
+Inspecting hot method fi.solita.utils.functional.Iterables$TakingIterable$1.hasNext:878...
+Checking for isolation...
+493903,91,1,90
+Total 493903 (444487 unique) events are in hot method
+Total 91 (34 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 90 (33 unique) non-isolated traces that have events in hot method
+Total 1 (1 unique) events are in isolated traces
+Total 987829 (888984 unique) events are in non-isolated traces (493902 / 444486 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (1 events / 1 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (54 traces / 19 unique traces) (493955 events / 444506 unique events) (246975 events / 222251 unique events in hot method)
+	Collection_UnsafeIterator (36 traces / 14 unique traces) (493874 events / 444478 unique events) (246927 events / 222235 unique events in hot method)
+Classifier (fi.solita.utils.functional.Iterables$TakingIterable$1.hasNext:878): CUT,ISOLATED_SINGLE_TRACE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#10
+Inspecting hot method fi.solita.utils.functional.Iterables$ConcatenatingIterable.flattenNestedConcats:324...
+Checking for isolation...
+35109,1490,1490,0
+Total 35109 (31206 unique) events are in hot method
+Total 1490 (403 unique) traces are in hot method
+Total 1490 (403 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 35109 (31206 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (347 traces / 100 unique traces) (11982 events / 10500 unique events)
+	Iterator_RemoveOnce (347 traces / 100 unique traces) (5644 events / 5150 unique events)
+	Iterator_HasNext (347 traces / 100 unique traces) (11635 events / 10400 unique events)
+	Collections_SortBeforeBinarySearch (347 traces / 102 unique traces) (5644 events / 5154 unique events)
+	Collection_UnsynchronizedAddAll (102 traces / 1 unique traces) (204 events / 2 unique events)
+Classifier (fi.solita.utils.functional.Iterables$ConcatenatingIterable.flattenNestedConcats:324): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE
+
+#11
+Inspecting hot method fi.solita.utils.functional.FunctionalImpl.fold:433...
+Checking for isolation...
+1783,403,398,5
+Total 1783 (29 unique) events are in hot method
+Total 403 (5 unique) traces are in hot method
+Total 398 (4 unique) isolated traces are in hot method
+Total 5 (1 unique) non-isolated traces that have events in hot method
+Total 1728 (18 unique) events are in isolated traces
+Total 80 (16 unique) events are in non-isolated traces (55 / 11 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (136 traces / 2 unique traces) (287 events / 7 unique events)
+	Iterator_HasNext (131 traces / 1 unique traces) (655 events / 5 unique events)
+	Collection_UnsafeIterator (131 traces / 1 unique traces) (786 events / 6 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (5 traces / 1 unique traces) (80 events / 16 unique events) (55 events / 11 unique events in hot method)
+Classifier (fi.solita.utils.functional.FunctionalImpl.fold:433): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_ONE_UNIQUE
+
+#12
+Inspecting hot method fi.solita.utils.functional.Iterables$ConcatenatingIterable.size:336...
+Checking for isolation...
+1265,274,274,0
+Total 1265 (327 unique) events are in hot method
+Total 274 (6 unique) traces are in hot method
+Total 274 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1265 (327 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (137 traces / 3 unique traces) (889 events / 219 unique events)
+	Iterator_RemoveOnce (137 traces / 3 unique traces) (376 events / 108 unique events)
+Classifier (fi.solita.utils.functional.Iterables$ConcatenatingIterable.size:336): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#13
+Inspecting hot method fi.solita.utils.functional.Iterables$MemoizingCharSequenceIterable.resolveLength:676...
+Checking for isolation...
+1011,338,162,176
+Total 1011 (364 unique) events are in hot method
+Total 338 (75 unique) traces are in hot method
+Total 162 (23 unique) isolated traces are in hot method
+Total 176 (52 unique) non-isolated traces that have events in hot method
+Total 467 (128 unique) events are in isolated traces
+Total 1104 (528 unique) events are in non-isolated traces (544 / 236 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (66 traces / 12 unique traces) (279 events / 95 unique events)
+	Appendable_ThreadSafe (49 traces / 5 unique traces) (97 events / 16 unique events)
+	Iterator_RemoveOnce (45 traces / 5 unique traces) (89 events / 16 unique events)
+	StringBuilder_ThreadSafe (2 traces / 1 unique traces) (2 events / 1 unique events)
+Specs that have non-isolated traces:
+	StringBuilder_ThreadSafe (102 traces / 24 unique traces) (733 events / 358 unique events) (299 events / 117 unique events in hot method)
+	Iterator_HasNext (38 traces / 13 unique traces) (231 events / 102 unique events) (145 events / 68 unique events in hot method)
+	Iterator_RemoveOnce (15 traces / 7 unique traces) (53 events / 29 unique events) (34 events / 20 unique events in hot method)
+	Appendable_ThreadSafe (11 traces / 5 unique traces) (37 events / 21 unique events) (26 events / 16 unique events in hot method)
+	Collection_UnsafeIterator (10 traces / 3 unique traces) (50 events / 18 unique events) (40 events / 15 unique events in hot method)
+Classifier (fi.solita.utils.functional.Iterables$MemoizingCharSequenceIterable.resolveLength:676): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#14
+Inspecting hot method fi.solita.utils.functional.SortTest.runSortOnce:41...
+Checking for isolation...
+720,241,240,1
+Total 720 (53 unique) events are in hot method
+Total 241 (9 unique) traces are in hot method
+Total 240 (8 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 690 (23 unique) events are in isolated traces
+Total 60 (60 unique) events are in non-isolated traces (30 / 30 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (90 traces / 3 unique traces) (270 events / 9 unique events)
+	StringBuilder_ThreadSafe (90 traces / 3 unique traces) (360 events / 12 unique events)
+	Collections_SortBeforeBinarySearch (30 traces / 1 unique traces) (30 events / 1 unique events)
+	List_UnsynchronizedSubList (30 traces / 1 unique traces) (30 events / 1 unique events)
+Specs that have non-isolated traces:
+	Collections_Comparable (1 traces / 1 unique traces) (60 events / 60 unique events) (30 events / 30 unique events in hot method)
+Classifier (fi.solita.utils.functional.SortTest.runSortOnce:41): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#15
+Inspecting hot method fi.solita.utils.functional.SomeImpl.iterator:186...
+Checking for isolation...
+568,568,0,568
+Total 568 (4 unique) events are in hot method
+Total 568 (4 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 568 (4 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 2271 (15 unique) events are in non-isolated traces (568 / 4 unique are in hot method)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (568 traces / 4 unique traces) (2271 events / 15 unique events) (568 events / 4 unique events in hot method)
+Classifier (fi.solita.utils.functional.SomeImpl.iterator:186): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#16
+Inspecting hot method fi.solita.utils.functional.Iterables$ZippingIterable$1.next:283...
+Checking for isolation...
+450,214,76,138
+Total 450 (35 unique) events are in hot method
+Total 214 (18 unique) traces are in hot method
+Total 76 (3 unique) isolated traces are in hot method
+Total 138 (15 unique) non-isolated traces that have events in hot method
+Total 158 (6 unique) events are in isolated traces
+Total 722 (80 unique) events are in non-isolated traces (292 / 29 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (76 traces / 3 unique traces) (158 events / 6 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (76 traces / 8 unique traces) (363 events / 43 unique events) (158 events / 15 unique events in hot method)
+	Collection_UnsafeIterator (62 traces / 7 unique traces) (359 events / 37 unique events) (134 events / 14 unique events in hot method)
+Classifier (fi.solita.utils.functional.Iterables$ZippingIterable$1.next:283): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#17
+Inspecting hot method fi.solita.utils.functional.Iterables$ConcatenatingIterable$1.<init>:350...
+Checking for isolation...
+441,294,5,289
+Total 441 (14 unique) events are in hot method
+Total 294 (9 unique) traces are in hot method
+Total 5 (2 unique) isolated traces are in hot method
+Total 289 (7 unique) non-isolated traces that have events in hot method
+Total 6 (3 unique) events are in isolated traces
+Total 1316 (330 unique) events are in non-isolated traces (435 / 11 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (4 traces / 1 unique traces) (4 events / 1 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (2 events / 2 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (146 traces / 4 unique traces) (928 events / 222 unique events) (292 events / 8 unique events in hot method)
+	Iterator_RemoveOnce (143 traces / 3 unique traces) (388 events / 108 unique events) (143 events / 3 unique events in hot method)
+Classifier (fi.solita.utils.functional.Iterables$ConcatenatingIterable$1.<init>:350): LIB,ISOLATED_ONE_UNIQUE,ISOLATED_SINGLE_TRACE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#18
+Inspecting hot method fi.solita.utils.functional.Iterables$MemoizingCharSequenceIterable$1.next:736...
+Checking for isolation...
+403,143,33,110
+Total 403 (222 unique) events are in hot method
+Total 143 (47 unique) traces are in hot method
+Total 33 (4 unique) isolated traces are in hot method
+Total 110 (43 unique) non-isolated traces that have events in hot method
+Total 38 (5 unique) events are in isolated traces
+Total 829 (468 unique) events are in non-isolated traces (365 / 217 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (22 traces / 2 unique traces) (27 events / 3 unique events)
+	Appendable_ThreadSafe (6 traces / 1 unique traces) (6 events / 1 unique events)
+	StringBuilder_ThreadSafe (5 traces / 1 unique traces) (5 events / 1 unique events)
+Specs that have non-isolated traces:
+	StringBuilder_ThreadSafe (43 traces / 19 unique traces) (542 events / 338 unique events) (293 events / 192 unique events in hot method)
+	Iterator_HasNext (39 traces / 12 unique traces) (201 events / 84 unique events) (44 events / 13 unique events in hot method)
+	Iterator_RemoveOnce (17 traces / 7 unique traces) (49 events / 25 unique events) (17 events / 7 unique events in hot method)
+	Appendable_ThreadSafe (11 traces / 5 unique traces) (37 events / 21 unique events) (11 events / 5 unique events in hot method)
+Classifier (fi.solita.utils.functional.Iterables$MemoizingCharSequenceIterable$1.next:736): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#19
+Inspecting hot method fi.solita.utils.functional.Iterables$DroppingIterable.iterator:926...
+Checking for isolation...
+397,137,17,120
+Total 397 (266 unique) events are in hot method
+Total 137 (68 unique) traces are in hot method
+Total 17 (3 unique) isolated traces are in hot method
+Total 120 (65 unique) non-isolated traces that have events in hot method
+Total 29 (6 unique) events are in isolated traces
+Total 689 (451 unique) events are in non-isolated traces (368 / 260 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (13 traces / 2 unique traces) (21 events / 4 unique events)
+	Iterator_HasNext (4 traces / 1 unique traces) (8 events / 2 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (55 traces / 30 unique traces) (382 events / 259 unique events) (202 events / 148 unique events in hot method)
+	Iterator_RemoveOnce (41 traces / 23 unique traces) (152 events / 107 unique events) (81 events / 61 unique events in hot method)
+	Collection_UnsafeIterator (24 traces / 12 unique traces) (155 events / 85 unique events) (85 events / 51 unique events in hot method)
+Classifier (fi.solita.utils.functional.Iterables$DroppingIterable.iterator:926): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#20
+Inspecting hot method fi.solita.utils.functional.Iterables$SortingIterable.iterator:791...
+Checking for isolation...
+390,181,120,61
+Total 390 (51 unique) events are in hot method
+Total 181 (16 unique) traces are in hot method
+Total 120 (4 unique) isolated traces are in hot method
+Total 61 (12 unique) non-isolated traces that have events in hot method
+Total 240 (8 unique) events are in isolated traces
+Total 494025 (444519 unique) events are in non-isolated traces (150 / 43 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (30 traces / 1 unique traces) (30 events / 1 unique events)
+	Collections_SortBeforeBinarySearch (30 traces / 1 unique traces) (60 events / 2 unique events)
+	Iterator_HasNext (30 traces / 1 unique traces) (90 events / 3 unique events)
+	Collection_UnsynchronizedAddAll (30 traces / 1 unique traces) (60 events / 2 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (60 traces / 11 unique traces) (493965 events / 444459 unique events) (120 events / 13 unique events in hot method)
+	Collections_Comparable (1 traces / 1 unique traces) (60 events / 60 unique events) (30 events / 30 unique events in hot method)
+Classifier (fi.solita.utils.functional.Iterables$SortingIterable.iterator:791): LIB,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#21
+Inspecting hot method fi.solita.utils.functional.Iterables$5.transform:80...
+Checking for isolation...
+387,387,0,387
+Total 387 (15 unique) events are in hot method
+Total 387 (15 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 387 (15 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 2527942 (50206 unique) events are in non-isolated traces (387 / 15 unique are in hot method)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (387 traces / 15 unique traces) (2527942 events / 50206 unique events) (387 events / 15 unique events in hot method)
+Classifier (fi.solita.utils.functional.Iterables$5.transform:80): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#22
+Inspecting hot method fi.solita.utils.functional.Iterables$MemoizingCharSequenceIterable.charAt:706...
+Checking for isolation...
+386,226,226,0
+Total 386 (50 unique) events are in hot method
+Total 226 (15 unique) traces are in hot method
+Total 226 (15 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 386 (50 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (83 traces / 6 unique traces) (113 events / 21 unique events)
+	Iterator_RemoveOnce (83 traces / 6 unique traces) (113 events / 21 unique events)
+	StringBuilder_ThreadSafe (20 traces / 1 unique traces) (80 events / 4 unique events)
+	Throwable_InitCauseOnce (20 traces / 1 unique traces) (20 events / 1 unique events)
+	Appendable_ThreadSafe (20 traces / 1 unique traces) (60 events / 3 unique events)
+Classifier (fi.solita.utils.functional.Iterables$MemoizingCharSequenceIterable.charAt:706): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE
+
+#23
+Inspecting hot method fi.solita.utils.functional.Iterables$ZippingIterable$1.hasNext:278...
+Checking for isolation...
+368,138,0,138
+Total 368 (44 unique) events are in hot method
+Total 138 (15 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 138 (15 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 722 (80 unique) events are in non-isolated traces (368 / 44 unique are in hot method)
+Specs that have non-isolated traces:
+	Iterator_HasNext (76 traces / 8 unique traces) (363 events / 43 unique events) (205 events / 28 unique events in hot method)
+	Collection_UnsafeIterator (62 traces / 7 unique traces) (359 events / 37 unique events) (163 events / 16 unique events in hot method)
+Classifier (fi.solita.utils.functional.Iterables$ZippingIterable$1.hasNext:278): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#24
+Inspecting hot method fi.solita.utils.functional.FunctionalTest.testConcatPerformance:308...
+Checking for isolation...
+304,2,2,0
+Total 304 (304 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 304 (304 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (203 events / 203 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (101 events / 101 unique events)
+Classifier (fi.solita.utils.functional.FunctionalTest.testConcatPerformance:308): CUT,NOT_REDUNDANT_TRACES
+
+#25
+Inspecting hot method fi.solita.utils.functional.Iterables$TransformingIterable$1.<init>:543...
+Checking for isolation...
+303,303,0,303
+Total 303 (7 unique) events are in hot method
+Total 303 (7 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 303 (7 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 2246 (257 unique) events are in non-isolated traces (303 / 7 unique are in hot method)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (303 traces / 7 unique traces) (2246 events / 257 unique events) (303 events / 7 unique events in hot method)
+Classifier (fi.solita.utils.functional.Iterables$TransformingIterable$1.<init>:543): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#26
+Inspecting hot method fi.solita.utils.functional.FunctionalImpl$6$1.readNext:268...
+Checking for isolation...
+292,87,58,29
+Total 292 (147 unique) events are in hot method
+Total 87 (39 unique) traces are in hot method
+Total 58 (12 unique) isolated traces are in hot method
+Total 29 (27 unique) non-isolated traces that have events in hot method
+Total 179 (50 unique) events are in isolated traces
+Total 263 (245 unique) events are in non-isolated traces (113 / 97 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (30 traces / 8 unique traces) (122 events / 40 unique events)
+	Iterator_RemoveOnce (28 traces / 4 unique traces) (57 events / 10 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (10 traces / 10 unique traces) (128 events / 128 unique events) (42 events / 42 unique events in hot method)
+	Iterator_RemoveOnce (10 traces / 10 unique traces) (62 events / 62 unique events) (19 events / 19 unique events in hot method)
+	Collection_UnsafeIterator (9 traces / 7 unique traces) (73 events / 55 unique events) (52 events / 36 unique events in hot method)
+Classifier (fi.solita.utils.functional.FunctionalImpl$6$1.readNext:268): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT
+
+#27
+Inspecting hot method fi.solita.utils.functional.FunctionalImpl$7$1.readNext:313...
+Checking for isolation...
+283,65,63,2
+Total 283 (152 unique) events are in hot method
+Total 65 (26 unique) traces are in hot method
+Total 63 (25 unique) isolated traces are in hot method
+Total 2 (1 unique) non-isolated traces that have events in hot method
+Total 265 (143 unique) events are in isolated traces
+Total 20 (10 unique) events are in non-isolated traces (18 / 9 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (34 traces / 14 unique traces) (188 events / 102 unique events)
+	Iterator_RemoveOnce (29 traces / 11 unique traces) (77 events / 41 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (2 traces / 1 unique traces) (20 events / 10 unique events) (18 events / 9 unique events in hot method)
+Classifier (fi.solita.utils.functional.FunctionalImpl$7$1.readNext:313): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_ONE_UNIQUE
+
+#28
+Inspecting hot method fi.solita.utils.functional.Iterables$FilteringIterable$1.readNext:488...
+Checking for isolation...
+222,70,48,22
+Total 222 (31 unique) events are in hot method
+Total 70 (10 unique) traces are in hot method
+Total 48 (6 unique) isolated traces are in hot method
+Total 22 (4 unique) non-isolated traces that have events in hot method
+Total 133 (17 unique) events are in isolated traces
+Total 111 (18 unique) events are in non-isolated traces (89 / 14 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (24 traces / 4 unique traces) (95 events / 14 unique events)
+	Iterator_RemoveOnce (24 traces / 2 unique traces) (38 events / 3 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (22 traces / 4 unique traces) (111 events / 18 unique events) (89 events / 14 unique events in hot method)
+Classifier (fi.solita.utils.functional.Iterables$FilteringIterable$1.readNext:488): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#29
+Inspecting hot method fi.solita.utils.functional.Tuple.equals:875...
+Checking for isolation...
+193,50,50,0
+Total 193 (17 unique) events are in hot method
+Total 50 (4 unique) traces are in hot method
+Total 50 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 193 (17 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (25 traces / 2 unique traces) (137 events / 12 unique events)
+	Iterator_RemoveOnce (25 traces / 2 unique traces) (56 events / 5 unique events)
+Classifier (fi.solita.utils.functional.Tuple.equals:875): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#30
+Inspecting hot method fi.solita.utils.functional.SortTest.testSort:30...
+Checking for isolation...
+157,26,26,0
+Total 157 (42 unique) events are in hot method
+Total 26 (6 unique) traces are in hot method
+Total 26 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 157 (42 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (7 traces / 2 unique traces) (79 events / 24 unique events)
+	Iterator_RemoveOnce (7 traces / 2 unique traces) (36 events / 11 unique events)
+	Appendable_ThreadSafe (6 traces / 1 unique traces) (18 events / 3 unique events)
+	StringBuilder_ThreadSafe (6 traces / 1 unique traces) (24 events / 4 unique events)
+Classifier (fi.solita.utils.functional.SortTest.testSort:30): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE
+
+#31
+Inspecting hot method fi.solita.utils.functional.Iterables$DistinctIterable$1.readNext:423...
+Checking for isolation...
+132,10,6,4
+Total 132 (58 unique) events are in hot method
+Total 10 (4 unique) traces are in hot method
+Total 6 (2 unique) isolated traces are in hot method
+Total 4 (2 unique) non-isolated traces that have events in hot method
+Total 66 (22 unique) events are in isolated traces
+Total 505170 (505138 unique) events are in non-isolated traces (66 / 36 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (3 traces / 1 unique traces) (21 events / 7 unique events)
+	Iterator_HasNext (3 traces / 1 unique traces) (45 events / 15 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (3 traces / 1 unique traces) (48 events / 16 unique events) (45 events / 15 unique events in hot method)
+	Set_ItselfAsElement (1 traces / 1 unique traces) (505122 events / 505122 unique events) (21 events / 21 unique events in hot method)
+Classifier (fi.solita.utils.functional.Iterables$DistinctIterable$1.readNext:423): CUT,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_ONE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#32
+Inspecting hot method fi.solita.utils.functional.FunctionalImpl.mkString:625...
+Checking for isolation...
+113,47,20,27
+Total 113 (19 unique) events are in hot method
+Total 47 (9 unique) traces are in hot method
+Total 20 (4 unique) isolated traces are in hot method
+Total 27 (5 unique) non-isolated traces that have events in hot method
+Total 58 (10 unique) events are in isolated traces
+Total 112 (20 unique) events are in non-isolated traces (55 / 9 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (10 traces / 2 unique traces) (34 events / 6 unique events)
+	Appendable_ThreadSafe (10 traces / 2 unique traces) (24 events / 4 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (10 traces / 2 unique traces) (54 events / 10 unique events) (24 events / 4 unique events in hot method)
+	Iterator_HasNext (10 traces / 2 unique traces) (44 events / 8 unique events) (24 events / 4 unique events in hot method)
+	Iterator_RemoveOnce (7 traces / 1 unique traces) (14 events / 2 unique events) (7 events / 1 unique events in hot method)
+Classifier (fi.solita.utils.functional.FunctionalImpl.mkString:625): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_ONE_UNIQUE
+
+#33
+Inspecting hot method fi.solita.utils.functional.Match.section:78...
+Checking for isolation...
+104,16,16,0
+Total 104 (13 unique) events are in hot method
+Total 16 (2 unique) traces are in hot method
+Total 16 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 104 (13 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (8 traces / 1 unique traces) (56 events / 7 unique events)
+	Appendable_ThreadSafe (8 traces / 1 unique traces) (48 events / 6 unique events)
+Classifier (fi.solita.utils.functional.Match.section:78): CUT,ISOLATED_ONE_UNIQUE
+
+#34
+Inspecting hot method fi.solita.utils.functional.Match.iterable:225...
+Checking for isolation...
+89,20,20,0
+Total 89 (40 unique) events are in hot method
+Total 20 (9 unique) traces are in hot method
+Total 20 (9 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 89 (40 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (6 traces / 3 unique traces) (26 events / 11 unique events)
+	Iterator_RemoveOnce (6 traces / 2 unique traces) (11 events / 3 unique events)
+	StringBuilder_ThreadSafe (4 traces / 2 unique traces) (28 events / 14 unique events)
+	Appendable_ThreadSafe (4 traces / 2 unique traces) (24 events / 12 unique events)
+Classifier (fi.solita.utils.functional.Match.iterable:225): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#35
+Inspecting hot method fi.solita.utils.functional.Iterables$MemoizingCharSequenceIterable$1.hasNext:725...
+Checking for isolation...
+82,15,0,15
+Total 82 (44 unique) events are in hot method
+Total 15 (6 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 15 (6 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 265 (134 unique) events are in non-isolated traces (82 / 44 unique are in hot method)
+Specs that have non-isolated traces:
+	StringBuilder_ThreadSafe (15 traces / 6 unique traces) (265 events / 134 unique events) (82 events / 44 unique events in hot method)
+Classifier (fi.solita.utils.functional.Iterables$MemoizingCharSequenceIterable$1.hasNext:725): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#36
+Inspecting hot method fi.solita.utils.functional.FunctionalImpl.lastOption:217...
+Checking for isolation...
+79,2,2,0
+Total 79 (79 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 79 (79 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (53 events / 53 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (26 events / 26 unique events)
+Classifier (fi.solita.utils.functional.FunctionalImpl.lastOption:217): CUT,NOT_REDUNDANT_TRACES
+
+#37
+Inspecting hot method fi.solita.utils.functional.Iterables$MemoizingCharSequenceIterable.toString:768...
+Checking for isolation...
+69,69,0,69
+Total 69 (8 unique) events are in hot method
+Total 69 (8 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 69 (8 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 241 (38 unique) events are in non-isolated traces (69 / 8 unique are in hot method)
+Specs that have non-isolated traces:
+	StringBuilder_ThreadSafe (59 traces / 5 unique traces) (191 events / 20 unique events) (59 events / 5 unique events in hot method)
+	Collection_UnsafeIterator (10 traces / 3 unique traces) (50 events / 18 unique events) (10 events / 3 unique events in hot method)
+Classifier (fi.solita.utils.functional.Iterables$MemoizingCharSequenceIterable.toString:768): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#38
+Inspecting hot method fi.solita.utils.functional.Iterables$2.transform:62...
+Checking for isolation...
+68,18,0,18
+Total 68 (31 unique) events are in hot method
+Total 18 (9 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 18 (9 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 105 (48 unique) events are in non-isolated traces (68 / 31 unique are in hot method)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (9 traces / 4 unique traces) (57 events / 24 unique events) (34 events / 14 unique events in hot method)
+	Iterator_HasNext (9 traces / 5 unique traces) (48 events / 24 unique events) (34 events / 17 unique events in hot method)
+Classifier (fi.solita.utils.functional.Iterables$2.transform:62): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#39
+Inspecting hot method fi.solita.utils.functional.FunctionalImpl.head:193...
+Checking for isolation...
+64,51,47,4
+Total 64 (8 unique) events are in hot method
+Total 51 (7 unique) traces are in hot method
+Total 47 (3 unique) isolated traces are in hot method
+Total 4 (4 unique) non-isolated traces that have events in hot method
+Total 60 (4 unique) events are in isolated traces
+Total 16 (16 unique) events are in non-isolated traces (4 / 4 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (17 traces / 1 unique traces) (17 events / 1 unique events)
+	Iterator_RemoveOnce (17 traces / 1 unique traces) (17 events / 1 unique events)
+	Collection_UnsafeIterator (13 traces / 1 unique traces) (26 events / 2 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (2 traces / 2 unique traces) (10 events / 10 unique events) (2 events / 2 unique events in hot method)
+	Iterator_RemoveOnce (2 traces / 2 unique traces) (6 events / 6 unique events) (2 events / 2 unique events in hot method)
+Classifier (fi.solita.utils.functional.FunctionalImpl.head:193): CUT,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT
+
+#40
+Inspecting hot method fi.solita.utils.functional.Iterables$ZippingIterable$1.<init>:273...
+Checking for isolation...
+62,62,0,62
+Total 62 (7 unique) events are in hot method
+Total 62 (7 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 62 (7 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 359 (37 unique) events are in non-isolated traces (62 / 7 unique are in hot method)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (62 traces / 7 unique traces) (359 events / 37 unique events) (62 events / 7 unique events in hot method)
+Classifier (fi.solita.utils.functional.Iterables$ZippingIterable$1.<init>:273): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#41
+Inspecting hot method fi.solita.utils.functional.Iterables$3.transform:68...
+Checking for isolation...
+42,27,9,18
+Total 42 (16 unique) events are in hot method
+Total 27 (11 unique) traces are in hot method
+Total 9 (2 unique) isolated traces are in hot method
+Total 18 (9 unique) non-isolated traces that have events in hot method
+Total 14 (3 unique) events are in isolated traces
+Total 105 (48 unique) events are in non-isolated traces (28 / 13 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (9 traces / 2 unique traces) (14 events / 3 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (9 traces / 4 unique traces) (57 events / 24 unique events) (14 events / 6 unique events in hot method)
+	Iterator_HasNext (9 traces / 5 unique traces) (48 events / 24 unique events) (14 events / 7 unique events in hot method)
+Classifier (fi.solita.utils.functional.Iterables$3.transform:68): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#42
+Inspecting hot method fi.solita.utils.functional.NoneImpl.iterator:128...
+Checking for isolation...
+41,1,0,1
+Total 41 (41 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 87 (87 unique) events are in non-isolated traces (41 / 41 unique are in hot method)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (87 events / 87 unique events) (41 events / 41 unique events in hot method)
+Classifier (fi.solita.utils.functional.NoneImpl.iterator:128): CUT,NOT_REDUNDANT_TRACES
+
+#43
+Inspecting hot method fi.solita.utils.functional.Match.err:207...
+Checking for isolation...
+39,6,6,0
+Total 39 (13 unique) events are in hot method
+Total 6 (2 unique) traces are in hot method
+Total 6 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 39 (13 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (3 traces / 1 unique traces) (21 events / 7 unique events)
+	Appendable_ThreadSafe (3 traces / 1 unique traces) (18 events / 6 unique events)
+Classifier (fi.solita.utils.functional.Match.err:207): CUT,ISOLATED_ONE_UNIQUE
+
+#44
+Inspecting hot method fi.solita.utils.functional.Match.err:129...
+Checking for isolation...
+26,4,4,0
+Total 26 (13 unique) events are in hot method
+Total 4 (2 unique) traces are in hot method
+Total 4 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 26 (13 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (2 traces / 1 unique traces) (14 events / 7 unique events)
+	Appendable_ThreadSafe (2 traces / 1 unique traces) (12 events / 6 unique events)
+Classifier (fi.solita.utils.functional.Match.err:129): CUT,ISOLATED_ONE_UNIQUE
+
+#45
+Inspecting hot method fi.solita.utils.functional.Iterables$FilteringIterable$1.<init>:477...
+Checking for isolation...
+22,22,0,22
+Total 22 (4 unique) events are in hot method
+Total 22 (4 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 22 (4 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 111 (18 unique) events are in non-isolated traces (22 / 4 unique are in hot method)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (22 traces / 4 unique traces) (111 events / 18 unique events) (22 events / 4 unique events in hot method)
+Classifier (fi.solita.utils.functional.Iterables$FilteringIterable$1.<init>:477): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#46
+Inspecting hot method fi.solita.utils.functional.FunctionalImpl.isEmpty:363...
+Checking for isolation...
+21,21,21,0
+Total 21 (2 unique) events are in hot method
+Total 21 (2 unique) traces are in hot method
+Total 21 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 21 (2 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (21 traces / 2 unique traces) (21 events / 2 unique events)
+Classifier (fi.solita.utils.functional.FunctionalImpl.isEmpty:363): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#47
+Inspecting hot method fi.solita.utils.functional.Match.endsWith:62...
+Checking for isolation...
+21,6,6,0
+Total 21 (7 unique) events are in hot method
+Total 6 (2 unique) traces are in hot method
+Total 6 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 21 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (3 traces / 1 unique traces) (12 events / 4 unique events)
+	Appendable_ThreadSafe (3 traces / 1 unique traces) (9 events / 3 unique events)
+Classifier (fi.solita.utils.functional.Match.endsWith:62): CUT,ISOLATED_ONE_UNIQUE
+
+#48
+Inspecting hot method fi.solita.utils.functional.Match.startsWith:53...
+Checking for isolation...
+21,6,6,0
+Total 21 (7 unique) events are in hot method
+Total 6 (2 unique) traces are in hot method
+Total 6 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 21 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (3 traces / 1 unique traces) (12 events / 4 unique events)
+	Appendable_ThreadSafe (3 traces / 1 unique traces) (9 events / 3 unique events)
+Classifier (fi.solita.utils.functional.Match.startsWith:53): CUT,ISOLATED_ONE_UNIQUE
+
+#49
+Inspecting hot method fi.solita.utils.functional.FunctionalImpl$7$1.next:321...
+Checking for isolation...
+20,20,20,0
+Total 20 (1 unique) events are in hot method
+Total 20 (1 unique) traces are in hot method
+Total 20 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 20 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Throwable_InitCauseOnce (20 traces / 1 unique traces) (20 events / 1 unique events)
+Classifier (fi.solita.utils.functional.FunctionalImpl$7$1.next:321): CUT,ISOLATED_ONE_UNIQUE
+
+#50
+Inspecting hot method fi.solita.utils.functional.Match.singleton:159...
+Checking for isolation...
+18,4,4,0
+Total 18 (9 unique) events are in hot method
+Total 4 (2 unique) traces are in hot method
+Total 4 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 18 (9 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (2 traces / 1 unique traces) (10 events / 5 unique events)
+	Appendable_ThreadSafe (2 traces / 1 unique traces) (8 events / 4 unique events)
+Classifier (fi.solita.utils.functional.Match.singleton:159): CUT,ISOLATED_ONE_UNIQUE
+
+#51
+Inspecting hot method fi.solita.utils.functional.Iterables$GroupingIterable$1.next:983...
+Checking for isolation...
+17,7,0,7
+Total 17 (11 unique) events are in hot method
+Total 7 (3 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 7 (3 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 58 (36 unique) events are in non-isolated traces (17 / 11 unique are in hot method)
+Specs that have non-isolated traces:
+	Iterator_HasNext (7 traces / 3 unique traces) (58 events / 36 unique events) (17 events / 11 unique events in hot method)
+Classifier (fi.solita.utils.functional.Iterables$GroupingIterable$1.next:983): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#52
+Inspecting hot method fi.solita.utils.functional.Iterables$MemoizingCharSequenceIterable.subSequence:687...
+Checking for isolation...
+15,15,0,15
+Total 15 (6 unique) events are in hot method
+Total 15 (6 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 15 (6 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 112 (56 unique) events are in non-isolated traces (15 / 6 unique are in hot method)
+Specs that have non-isolated traces:
+	Iterator_HasNext (15 traces / 6 unique traces) (112 events / 56 unique events) (15 events / 6 unique events in hot method)
+Classifier (fi.solita.utils.functional.Iterables$MemoizingCharSequenceIterable.subSequence:687): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#53
+Inspecting hot method fi.solita.utils.functional.Iterables$4.transform:74...
+Checking for isolation...
+11,11,0,11
+Total 11 (4 unique) events are in hot method
+Total 11 (4 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 11 (4 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 204 (123 unique) events are in non-isolated traces (11 / 4 unique are in hot method)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (11 traces / 4 unique traces) (204 events / 123 unique events) (11 events / 4 unique events in hot method)
+Classifier (fi.solita.utils.functional.Iterables$4.transform:74): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#54
+Inspecting hot method fi.solita.utils.functional.Iterables$TakingIterable$1.<init>:873...
+Checking for isolation...
+11,11,2,9
+Total 11 (6 unique) events are in hot method
+Total 11 (6 unique) traces are in hot method
+Total 2 (1 unique) isolated traces are in hot method
+Total 9 (5 unique) non-isolated traces that have events in hot method
+Total 2 (1 unique) events are in isolated traces
+Total 35 (25 unique) events are in non-isolated traces (9 / 5 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (2 traces / 1 unique traces) (2 events / 1 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (9 traces / 5 unique traces) (35 events / 25 unique events) (9 events / 5 unique events in hot method)
+Classifier (fi.solita.utils.functional.Iterables$TakingIterable$1.<init>:873): CUT,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#55
+Inspecting hot method fi.solita.utils.functional.Match.groups:147...
+Checking for isolation...
+10,4,4,0
+Total 10 (10 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 4 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 10 (10 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (2 traces / 2 unique traces) (3 events / 3 unique events)
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (4 events / 4 unique events)
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+Classifier (fi.solita.utils.functional.Match.groups:147): CUT,NOT_REDUNDANT_TRACES
+
+#56
+Inspecting hot method fi.solita.utils.functional.Match.split:133...
+Checking for isolation...
+9,5,5,0
+Total 9 (3 unique) events are in hot method
+Total 5 (2 unique) traces are in hot method
+Total 5 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 9 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (5 traces / 2 unique traces) (9 events / 3 unique events)
+Classifier (fi.solita.utils.functional.Match.split:133): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#57
+Inspecting hot method fi.solita.utils.functional.PairTest.serialization:31...
+Checking for isolation...
+9,6,6,0
+Total 9 (9 unique) events are in hot method
+Total 6 (6 unique) traces are in hot method
+Total 6 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 9 (9 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Closeable_MultipleClose (2 traces / 2 unique traces) (2 events / 2 unique events)
+	InputStream_MarkAfterClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+	OutputStream_ManipulateAfterClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+	InputStream_ManipulateAfterClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+	ByteArrayOutputStream_FlushBeforeRetrieve (1 traces / 1 unique traces) (4 events / 4 unique events)
+Classifier (fi.solita.utils.functional.PairTest.serialization:31): CUT,NOT_REDUNDANT_TRACES
+
+#58
+Inspecting hot method fi.solita.utils.functional.Match.instance:35...
+Checking for isolation...
+9,2,2,0
+Total 9 (9 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 9 (9 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (5 events / 5 unique events)
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (4 events / 4 unique events)
+Classifier (fi.solita.utils.functional.Match.instance:35): CUT,NOT_REDUNDANT_TRACES
+
+#59
+Inspecting hot method fi.solita.utils.functional.FunctionalImpl.foreach:120...
+Checking for isolation...
+8,3,3,0
+Total 8 (8 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 8 (8 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (4 events / 4 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (3 events / 3 unique events)
+Classifier (fi.solita.utils.functional.FunctionalImpl.foreach:120): CUT,NOT_REDUNDANT_TRACES
+
+#60
+Inspecting hot method fi.solita.utils.functional.FunctionalImpl.foreach:114...
+Checking for isolation...
+8,3,3,0
+Total 8 (8 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 8 (8 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (4 events / 4 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (3 events / 3 unique events)
+Classifier (fi.solita.utils.functional.FunctionalImpl.foreach:114): CUT,NOT_REDUNDANT_TRACES
+
+#61
+Inspecting hot method fi.solita.utils.functional.Iterables$TransposingIterable$1.next:230...
+Checking for isolation...
+8,5,0,5
+Total 8 (3 unique) events are in hot method
+Total 5 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 5 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 29 (11 unique) events are in non-isolated traces (8 / 3 unique are in hot method)
+Specs that have non-isolated traces:
+	Iterator_HasNext (5 traces / 2 unique traces) (29 events / 11 unique events) (8 events / 3 unique events in hot method)
+Classifier (fi.solita.utils.functional.Iterables$TransposingIterable$1.next:230): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#62
+Inspecting hot method fi.solita.utils.functional.lens.Builder$3.transform:206...
+Checking for isolation...
+7,4,2,2
+Total 7 (6 unique) events are in hot method
+Total 4 (3 unique) traces are in hot method
+Total 2 (1 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 2 (1 unique) events are in isolated traces
+Total 7 (7 unique) events are in non-isolated traces (5 / 5 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (2 traces / 1 unique traces) (2 events / 1 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (2 traces / 2 unique traces) (7 events / 7 unique events) (5 events / 5 unique events in hot method)
+Classifier (fi.solita.utils.functional.lens.Builder$3.transform:206): CUT,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT
+
+#63
+Inspecting hot method fi.solita.utils.functional.FunctionalImpl$6$1.<init>:258...
+Checking for isolation...
+6,6,0,6
+Total 6 (4 unique) events are in hot method
+Total 6 (4 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 6 (4 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 49 (31 unique) events are in non-isolated traces (6 / 4 unique are in hot method)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (6 traces / 4 unique traces) (49 events / 31 unique events) (6 events / 4 unique events in hot method)
+Classifier (fi.solita.utils.functional.FunctionalImpl$6$1.<init>:258): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#64
+Inspecting hot method fi.solita.utils.functional.Iterables$ReversingIterable$1.next:595...
+Checking for isolation...
+6,2,1,1
+Total 6 (6 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 3 (3 unique) events are in isolated traces
+Total 7 (7 unique) events are in non-isolated traces (3 / 3 unique are in hot method)
+Specs that have isolated traces:
+	ListIterator_RemoveOnce (1 traces / 1 unique traces) (3 events / 3 unique events)
+Specs that have non-isolated traces:
+	ListIterator_hasNextPrevious (1 traces / 1 unique traces) (7 events / 7 unique events) (3 events / 3 unique events in hot method)
+Classifier (fi.solita.utils.functional.Iterables$ReversingIterable$1.next:595): CUT,NOT_REDUNDANT_TRACES
+
+#65
+Inspecting hot method fi.solita.utils.functional.lens.Builder$IncompleteException.<init>:103...
+Checking for isolation...
+5,2,2,0
+Total 5 (5 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (2 events / 2 unique events)
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+Classifier (fi.solita.utils.functional.lens.Builder$IncompleteException.<init>:103): CUT,NOT_REDUNDANT_TRACES
+
+#66
+Inspecting hot method fi.solita.utils.functional.FunctionalImpl.size:371...
+Checking for isolation...
+5,3,2,1
+Total 5 (5 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 3 (3 unique) events are in isolated traces
+Total 3 (3 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (2 events / 2 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (3 events / 3 unique events) (2 events / 2 unique events in hot method)
+Classifier (fi.solita.utils.functional.FunctionalImpl.size:371): CUT,NOT_REDUNDANT_TRACES
+
+#67
+Inspecting hot method fi.solita.utils.functional.Iterables$ReversingIterable$1.hasNext:590...
+Checking for isolation...
+4,1,0,1
+Total 4 (4 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 7 (7 unique) events are in non-isolated traces (4 / 4 unique are in hot method)
+Specs that have non-isolated traces:
+	ListIterator_hasNextPrevious (1 traces / 1 unique traces) (7 events / 7 unique events) (4 events / 4 unique events in hot method)
+Classifier (fi.solita.utils.functional.Iterables$ReversingIterable$1.hasNext:590): CUT,NOT_REDUNDANT_TRACES
+
+#68
+Inspecting hot method fi.solita.utils.functional.Iterables$DistinctIterable$1.<init>:412...
+Checking for isolation...
+3,3,0,3
+Total 3 (1 unique) events are in hot method
+Total 3 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 3 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 48 (16 unique) events are in non-isolated traces (3 / 1 unique are in hot method)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (3 traces / 1 unique traces) (48 events / 16 unique events) (3 events / 1 unique events in hot method)
+Classifier (fi.solita.utils.functional.Iterables$DistinctIterable$1.<init>:412): CUT,NOT_ISOLATED_ONE_UNIQUE
+
+#69
+Inspecting hot method fi.solita.utils.functional.FunctionalImpl$7$1.<init>:301...
+Checking for isolation...
+2,2,0,2
+Total 2 (1 unique) events are in hot method
+Total 2 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 20 (10 unique) events are in non-isolated traces (2 / 1 unique are in hot method)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (2 traces / 1 unique traces) (20 events / 10 unique events) (2 events / 1 unique events in hot method)
+Classifier (fi.solita.utils.functional.FunctionalImpl$7$1.<init>:301): CUT,NOT_ISOLATED_ONE_UNIQUE
+
+#70
+Inspecting hot method fi.solita.utils.functional.FunctionalTest$6.<clinit>:0...
+Checking for isolation...
+2,2,0,2
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 170 (170 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	Serializable_NoArgConstructor (1 traces / 1 unique traces) (168 events / 168 unique events) (1 events / 1 unique events in hot method)
+	Collection_HashCode (1 traces / 1 unique traces) (2 events / 2 unique events) (1 events / 1 unique events in hot method)
+Classifier (fi.solita.utils.functional.FunctionalTest$6.<clinit>:0): CUT,NOT_REDUNDANT_TRACES
+

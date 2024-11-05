@@ -1,0 +1,349 @@
+Reading traces...
+	read 1000 traces
+Reading specs frequency...
+Reading locations...
+Counting events...
+	processed 1000 traces
+Total 138153412 events and 18908479 traces
+Inspecting top 200 IMM
+Finding hot methods...
+Number of events, method name
+48857799,com.huaban.analysis.jieba.JiebaSegmenter.calc:62
+33621442,com.huaban.analysis.jieba.viterbi.FinalSeg.viterbi:141
+23104698,com.huaban.analysis.jieba.JiebaSegmenter.process:84
+13460866,com.huaban.analysis.jieba.JiebaSegmenter.createDAG:22
+6699260,com.huaban.analysis.jieba.JiebaSegmenter.sentenceProcess:169
+6312043,com.huaban.analysis.jieba.viterbi.FinalSeg.cut:112
+3141381,com.huaban.analysis.jieba.WordDictionary.loadDict:89
+1248739,com.huaban.analysis.jieba.DictSegment.lookforSegment:218
+1047000,com.huaban.analysis.jieba.DictSegment.match:89
+378598,com.huaban.analysis.jieba.WordDictionary.loadUserDict:149
+105186,com.huaban.analysis.jieba.DictSegment.migrate:312
+70499,com.huaban.analysis.jieba.viterbi.FinalSeg.loadModel:46
+58065,com.huaban.analysis.jieba.viterbi.FinalSeg.processOtherUnknownWords:214
+25122,com.huaban.analysis.jieba.DictSegment.fillSegment:182
+22680,com.huaban.analysis.jieba.SegToken.toString:20
+33,com.huaban.analysis.jieba.WordDictionary.init:56
+1,com.huaban.analysis.jieba.JiebaSegmenter$SegMode.<clinit>:16
+^^^ Last method that contains more than one event ^^^
+Starting com.huaban.analysis.jieba.JiebaSegmenter.sentenceProcess:169
+Finish com.huaban.analysis.jieba.JiebaSegmenter.sentenceProcess:169
+Starting com.huaban.analysis.jieba.WordDictionary.init:56
+Finish com.huaban.analysis.jieba.WordDictionary.init:56
+Starting com.huaban.analysis.jieba.SegToken.toString:20
+Finish com.huaban.analysis.jieba.SegToken.toString:20
+Starting com.huaban.analysis.jieba.DictSegment.fillSegment:182
+Finish com.huaban.analysis.jieba.DictSegment.fillSegment:182
+Starting com.huaban.analysis.jieba.viterbi.FinalSeg.processOtherUnknownWords:214
+Finish com.huaban.analysis.jieba.viterbi.FinalSeg.processOtherUnknownWords:214
+Starting com.huaban.analysis.jieba.JiebaSegmenter.process:84
+Finish com.huaban.analysis.jieba.JiebaSegmenter.process:84
+Starting com.huaban.analysis.jieba.viterbi.FinalSeg.cut:112
+Finish com.huaban.analysis.jieba.viterbi.FinalSeg.cut:112
+Starting com.huaban.analysis.jieba.WordDictionary.loadUserDict:149
+Finish com.huaban.analysis.jieba.WordDictionary.loadUserDict:149
+Starting com.huaban.analysis.jieba.DictSegment.migrate:312
+Finish com.huaban.analysis.jieba.DictSegment.migrate:312
+Starting com.huaban.analysis.jieba.DictSegment.lookforSegment:218
+Finish com.huaban.analysis.jieba.DictSegment.lookforSegment:218
+Starting com.huaban.analysis.jieba.viterbi.FinalSeg.loadModel:46
+Finish com.huaban.analysis.jieba.viterbi.FinalSeg.loadModel:46
+Starting com.huaban.analysis.jieba.viterbi.FinalSeg.viterbi:141
+Finish com.huaban.analysis.jieba.viterbi.FinalSeg.viterbi:141
+
+#1
+Inspecting hot method com.huaban.analysis.jieba.JiebaSegmenter.calc:62...
+	processed 1000 traces
+Checking for isolation...
+48857799,11409203,11409201,2
+Total 48857799 (8175028 unique) events are in hot method
+Total 11409203 (17 unique) traces are in hot method
+Total 11409201 (15 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 40682861 (90 unique) events are in isolated traces
+Total 46248920 (46248920 unique) events are in non-isolated traces (8174938 / 8174938 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (3803067 traces / 5 unique traces) (15512531 events / 35 unique events)
+	Collection_UnsafeIterator (3803067 traces / 5 unique traces) (19315598 events / 40 unique events)
+	Iterator_RemoveOnce (3803067 traces / 5 unique traces) (5854732 events / 15 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (23124460 events / 23124460 unique events) (4087469 events / 4087469 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (23124460 events / 23124460 unique events) (4087469 events / 4087469 unique events in hot method)
+Classifier (com.huaban.analysis.jieba.JiebaSegmenter.calc:62): LIB,ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#2
+Inspecting hot method com.huaban.analysis.jieba.viterbi.FinalSeg.viterbi:141...
+	processed 1000 traces
+Checking for isolation...
+33621442,286605,226538,60067
+Total 33621442 (28822809 unique) events are in hot method
+Total 286605 (51 unique) traces are in hot method
+Total 226538 (22 unique) isolated traces are in hot method
+Total 60067 (29 unique) non-isolated traces that have events in hot method
+Total 4652326 (39811 unique) events are in isolated traces
+Total 46707415 (46249130 unique) events are in non-isolated traces (28969116 / 28782998 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (226538 traces / 22 unique traces) (4652326 events / 39811 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (60065 traces / 27 unique traces) (458495 events / 210 unique events) (186204 events / 86 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (23124460 events / 23124460 unique events) (14391456 events / 14391456 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (23124460 events / 23124460 unique events) (14391456 events / 14391456 unique events in hot method)
+Classifier (com.huaban.analysis.jieba.viterbi.FinalSeg.viterbi:141): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#3
+Inspecting hot method com.huaban.analysis.jieba.JiebaSegmenter.process:84...
+	processed 1000 traces
+Checking for isolation...
+23104698,1654351,1654351,0
+Total 23104698 (98746 unique) events are in hot method
+Total 1654351 (355 unique) traces are in hot method
+Total 1654351 (355 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 23104698 (98746 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (302423 traces / 97 unique traces) (4413923 events / 16139 unique events)
+	Iterator_HasNext (284402 traces / 49 unique traces) (4691758 events / 20621 unique events)
+	Collection_UnsafeIterator (284402 traces / 49 unique traces) (4976160 events / 20670 unique events)
+	Iterator_RemoveOnce (284402 traces / 49 unique traces) (2203678 events / 10286 unique events)
+	Appendable_ThreadSafe (284402 traces / 25 unique traces) (3803067 events / 15206 unique events)
+	Collections_SortBeforeBinarySearch (214320 traces / 86 unique traces) (3016112 events / 15824 unique events)
+Classifier (com.huaban.analysis.jieba.JiebaSegmenter.process:84): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#4
+Inspecting hot method com.huaban.analysis.jieba.JiebaSegmenter.createDAG:22...
+	processed 1000 traces
+Checking for isolation...
+13460866,3803069,3803067,2
+Total 13460866 (7606150 unique) events are in hot method
+Total 3803069 (8 unique) traces are in hot method
+Total 3803067 (6 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 5854732 (16 unique) events are in isolated traces
+Total 46248920 (46248920 unique) events are in non-isolated traces (7606134 / 7606134 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (3803067 traces / 6 unique traces) (5854732 events / 16 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (23124460 events / 23124460 unique events) (3803067 events / 3803067 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (23124460 events / 23124460 unique events) (3803067 events / 3803067 unique events in hot method)
+Classifier (com.huaban.analysis.jieba.JiebaSegmenter.createDAG:22): LIB,ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#5
+Inspecting hot method com.huaban.analysis.jieba.JiebaSegmenter.sentenceProcess:169...
+	processed 1000 traces
+Checking for isolation...
+6699260,1151408,1085340,66068
+Total 6699260 (30502 unique) events are in hot method
+Total 1151408 (132 unique) traces are in hot method
+Total 1085340 (102 unique) isolated traces are in hot method
+Total 66068 (30 unique) non-isolated traces that have events in hot method
+Total 6366912 (30355 unique) events are in isolated traces
+Total 524551 (236 unique) events are in non-isolated traces (332348 / 147 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (546674 traces / 46 unique traces) (3498838 events / 15184 unique events)
+	Appendable_ThreadSafe (376495 traces / 14 unique traces) (2295475 events / 14981 unique events)
+	Collections_SortBeforeBinarySearch (162171 traces / 42 unique traces) (572599 events / 190 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (66068 traces / 30 unique traces) (524551 events / 236 unique events) (332348 events / 147 unique events in hot method)
+Classifier (com.huaban.analysis.jieba.JiebaSegmenter.sentenceProcess:169): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#6
+Inspecting hot method com.huaban.analysis.jieba.viterbi.FinalSeg.cut:112...
+	processed 1000 traces
+Checking for isolation...
+6312043,408741,408741,0
+Total 6312043 (45093 unique) events are in hot method
+Total 408741 (66 unique) traces are in hot method
+Total 408741 (66 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 6312043 (45093 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (264484 traces / 47 unique traces) (4298860 events / 30098 unique events)
+	Appendable_ThreadSafe (144257 traces / 19 unique traces) (2013183 events / 14995 unique events)
+Classifier (com.huaban.analysis.jieba.viterbi.FinalSeg.cut:112): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#7
+Inspecting hot method com.huaban.analysis.jieba.WordDictionary.loadDict:89...
+	processed 1000 traces
+Checking for isolation...
+3141381,11,7,4
+Total 3141381 (3141381 unique) events are in hot method
+Total 11 (11 unique) traces are in hot method
+Total 7 (7 unique) isolated traces are in hot method
+Total 4 (4 unique) non-isolated traces that have events in hot method
+Total 1745207 (1745207 unique) events are in isolated traces
+Total 47136300 (47136300 unique) events are in non-isolated traces (1396174 / 1396174 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (349040 events / 349040 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (698081 events / 698081 unique events)
+	Closeable_MultipleClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (698082 events / 698082 unique events)
+	InputStream_MarkAfterClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+	InputStream_ManipulateAfterClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Map_CollectionViewAdd (1 traces / 1 unique traces) (1 events / 1 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (2 traces / 2 unique traces) (887380 events / 887380 unique events) (698084 events / 698084 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (23124460 events / 23124460 unique events) (349045 events / 349045 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (23124460 events / 23124460 unique events) (349045 events / 349045 unique events in hot method)
+Classifier (com.huaban.analysis.jieba.WordDictionary.loadDict:89): LIB,NOT_REDUNDANT_TRACES
+
+#8
+Inspecting hot method com.huaban.analysis.jieba.DictSegment.lookforSegment:218...
+	processed 1000 traces
+Checking for isolation...
+1248739,226084,225862,222
+Total 1248739 (605393 unique) events are in hot method
+Total 226084 (472 unique) traces are in hot method
+Total 225862 (410 unique) isolated traces are in hot method
+Total 222 (62 unique) non-isolated traces that have events in hot method
+Total 651211 (8340 unique) events are in isolated traces
+Total 47296702 (46845758 unique) events are in non-isolated traces (597528 / 597053 unique are in hot method)
+Specs that have isolated traces:
+	Arrays_SortBeforeBinarySearch (225862 traces / 410 unique traces) (651211 events / 8340 unique events)
+Specs that have non-isolated traces:
+	Arrays_SortBeforeBinarySearch (220 traces / 60 unique traces) (1047782 events / 596838 unique events) (782 events / 307 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (23124460 events / 23124460 unique events) (298373 events / 298373 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (23124460 events / 23124460 unique events) (298373 events / 298373 unique events in hot method)
+Classifier (com.huaban.analysis.jieba.DictSegment.lookforSegment:218): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#9
+Inspecting hot method com.huaban.analysis.jieba.DictSegment.match:89...
+	processed 1000 traces
+Checking for isolation...
+1047000,220,0,220
+Total 1047000 (596531 unique) events are in hot method
+Total 220 (60 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 220 (60 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 1047782 (596838 unique) events are in non-isolated traces (1047000 / 596531 unique are in hot method)
+Specs that have non-isolated traces:
+	Arrays_SortBeforeBinarySearch (220 traces / 60 unique traces) (1047782 events / 596838 unique events) (1047000 events / 596531 unique events in hot method)
+Classifier (com.huaban.analysis.jieba.DictSegment.match:89): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#10
+Inspecting hot method com.huaban.analysis.jieba.WordDictionary.loadUserDict:149...
+	processed 1000 traces
+Checking for isolation...
+378598,10,6,4
+Total 378598 (378595 unique) events are in hot method
+Total 10 (7 unique) traces are in hot method
+Total 6 (3 unique) isolated traces are in hot method
+Total 4 (4 unique) non-isolated traces that have events in hot method
+Total 6 (3 unique) events are in isolated traces
+Total 47136300 (47136300 unique) events are in non-isolated traces (378592 / 378592 unique are in hot method)
+Specs that have isolated traces:
+	Closeable_MultipleClose (2 traces / 1 unique traces) (2 events / 1 unique events)
+	Console_CloseReader (2 traces / 1 unique traces) (2 events / 1 unique events)
+	Reader_ManipulateAfterClose (2 traces / 1 unique traces) (2 events / 1 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (2 traces / 2 unique traces) (887380 events / 887380 unique events) (189296 events / 189296 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (23124460 events / 23124460 unique events) (94648 events / 94648 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (23124460 events / 23124460 unique events) (94648 events / 94648 unique events in hot method)
+Classifier (com.huaban.analysis.jieba.WordDictionary.loadUserDict:149): LIB,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#11
+Inspecting hot method com.huaban.analysis.jieba.DictSegment.migrate:312...
+	processed 1000 traces
+Checking for isolation...
+105186,2,0,2
+Total 105186 (105186 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 46248920 (46248920 unique) events are in non-isolated traces (105186 / 105186 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (23124460 events / 23124460 unique events) (52593 events / 52593 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (23124460 events / 23124460 unique events) (52593 events / 52593 unique events in hot method)
+Classifier (com.huaban.analysis.jieba.DictSegment.migrate:312): LIB,NOT_REDUNDANT_TRACES
+
+#12
+Inspecting hot method com.huaban.analysis.jieba.viterbi.FinalSeg.loadModel:46...
+	processed 1000 traces
+Checking for isolation...
+70499,5,3,2
+Total 70499 (70499 unique) events are in hot method
+Total 5 (5 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 3 (3 unique) events are in isolated traces
+Total 46248920 (46248920 unique) events are in non-isolated traces (70496 / 70496 unique are in hot method)
+Specs that have isolated traces:
+	Closeable_MultipleClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+	InputStream_ManipulateAfterClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+	InputStream_MarkAfterClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (23124460 events / 23124460 unique events) (35248 events / 35248 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (23124460 events / 23124460 unique events) (35248 events / 35248 unique events in hot method)
+Classifier (com.huaban.analysis.jieba.viterbi.FinalSeg.loadModel:46): LIB,NOT_REDUNDANT_TRACES
+
+#13
+Inspecting hot method com.huaban.analysis.jieba.viterbi.FinalSeg.processOtherUnknownWords:214...
+	processed 1000 traces
+Checking for isolation...
+58065,44051,20024,24027
+Total 58065 (20 unique) events are in hot method
+Total 44051 (13 unique) traces are in hot method
+Total 20024 (3 unique) isolated traces are in hot method
+Total 24027 (10 unique) non-isolated traces that have events in hot method
+Total 32036 (9 unique) events are in isolated traces
+Total 172182 (75 unique) events are in non-isolated traces (26029 / 11 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (20024 traces / 3 unique traces) (32036 events / 9 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (24027 traces / 10 unique traces) (172182 events / 75 unique events) (26029 events / 11 unique events in hot method)
+Classifier (com.huaban.analysis.jieba.viterbi.FinalSeg.processOtherUnknownWords:214): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#14
+Inspecting hot method com.huaban.analysis.jieba.DictSegment.fillSegment:182...
+	processed 1000 traces
+Checking for isolation...
+25122,2,0,2
+Total 25122 (25122 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 46248920 (46248920 unique) events are in non-isolated traces (25122 / 25122 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (23124460 events / 23124460 unique events) (12561 events / 12561 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (23124460 events / 23124460 unique events) (12561 events / 12561 unique events in hot method)
+Classifier (com.huaban.analysis.jieba.DictSegment.fillSegment:182): LIB,NOT_REDUNDANT_TRACES
+
+#15
+Inspecting hot method com.huaban.analysis.jieba.SegToken.toString:20...
+	processed 1000 traces
+Checking for isolation...
+22680,3024,3024,0
+Total 22680 (15 unique) events are in hot method
+Total 3024 (2 unique) traces are in hot method
+Total 3024 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 22680 (15 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (1512 traces / 1 unique traces) (10584 events / 7 unique events)
+	StringBuilder_ThreadSafe (1512 traces / 1 unique traces) (12096 events / 8 unique events)
+Classifier (com.huaban.analysis.jieba.SegToken.toString:20): LIB,ISOLATED_ONE_UNIQUE
+
+#16
+Inspecting hot method com.huaban.analysis.jieba.WordDictionary.init:56...
+	processed 1000 traces
+Checking for isolation...
+33,13,13,0
+Total 33 (13 unique) events are in hot method
+Total 13 (5 unique) traces are in hot method
+Total 13 (5 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 33 (13 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (5 traces / 1 unique traces) (10 events / 2 unique events)
+	StringBuilder_ThreadSafe (5 traces / 1 unique traces) (15 events / 3 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (2 events / 2 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (5 events / 5 unique events)
+	Set_ItselfAsElement (1 traces / 1 unique traces) (1 events / 1 unique events)
+Classifier (com.huaban.analysis.jieba.WordDictionary.init:56): LIB,ISOLATED_ONE_UNIQUE,ISOLATED_SINGLE_TRACE,RAW_ISOLATED_SINGLE_TRACE
+

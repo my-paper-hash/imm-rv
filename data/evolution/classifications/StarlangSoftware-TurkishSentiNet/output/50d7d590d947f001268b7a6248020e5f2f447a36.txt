@@ -1,0 +1,149 @@
+Reading traces...
+Reading specs frequency...
+Reading locations...
+Counting events...
+Total 162861184 events and 63329674 traces
+Inspecting top 200 IMM
+Finding hot methods...
+Number of events, method name
+158324015,Xml.XmlDocument.readToken:65
+1753974,SentiNet.SentiLiteralNet.getPolarity:77
+1690174,SentiNet.SentiNet.getPolarity:96
+614600,SentiNet.SentiNet.loadSentiNet:15
+478350,SentiNet.SentiLiteralNet.loadSentiNet:14
+63,SentiNet.SentiSynSet.saveAsXml:64
+5,SentiNet.SentiSynSetTest.saveAsXml:19
+1,Xml.XmlTokenType.<clinit>:4
+1,Xml.XmlTextType.<clinit>:4
+1,SentiNet.PolarityType.<clinit>:7
+^^^ Last method that contains more than one event ^^^
+Starting SentiNet.SentiSynSetTest.saveAsXml:19
+Finish SentiNet.SentiSynSetTest.saveAsXml:19
+Starting Xml.XmlDocument.readToken:65
+Finish Xml.XmlDocument.readToken:65
+Starting SentiNet.SentiSynSet.saveAsXml:64
+Finish SentiNet.SentiSynSet.saveAsXml:64
+Starting SentiNet.SentiNet.getPolarity:96
+Finish SentiNet.SentiNet.getPolarity:96
+Starting SentiNet.SentiLiteralNet.loadSentiNet:14
+Finish SentiNet.SentiLiteralNet.loadSentiNet:14
+Starting SentiNet.SentiNet.loadSentiNet:15
+Finish SentiNet.SentiNet.loadSentiNet:15
+Starting SentiNet.SentiLiteralNet.getPolarity:77
+Finish SentiNet.SentiLiteralNet.getPolarity:77
+
+#1
+Inspecting hot method Xml.XmlDocument.readToken:65...
+Checking for isolation...
+158324015,63329606,63329606,0
+Total 158324015 (5 unique) events are in hot method
+Total 63329606 (2 unique) traces are in hot method
+Total 63329606 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 158324015 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (31664803 traces / 1 unique traces) (63329606 events / 2 unique events)
+	StringBuilder_ThreadSafe (31664803 traces / 1 unique traces) (94994409 events / 3 unique events)
+Classifier (Xml.XmlDocument.readToken:65): LIB,ISOLATED_ONE_UNIQUE
+
+#2
+Inspecting hot method SentiNet.SentiLiteralNet.getPolarity:77...
+Checking for isolation...
+1753974,21,21,0
+Total 1753974 (637808 unique) events are in hot method
+Total 21 (9 unique) traces are in hot method
+Total 21 (9 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1753974 (637808 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Map_UnsafeIterator (6 traces / 2 unique traces) (478362 events / 159454 unique events)
+	Iterator_HasNext (3 traces / 1 unique traces) (478353 events / 159451 unique events)
+	Iterator_RemoveOnce (3 traces / 1 unique traces) (239175 events / 79725 unique events)
+	Collection_UnsafeIterator (3 traces / 1 unique traces) (478356 events / 159452 unique events)
+	Collections_SortBeforeBinarySearch (3 traces / 3 unique traces) (79725 events / 79725 unique events)
+	Map_CollectionViewAdd (3 traces / 1 unique traces) (3 events / 1 unique events)
+Classifier (SentiNet.SentiLiteralNet.getPolarity:77): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT,ISOLATED_ONE_UNIQUE
+
+#3
+Inspecting hot method SentiNet.SentiNet.getPolarity:96...
+Checking for isolation...
+1690174,21,21,0
+Total 1690174 (614608 unique) events are in hot method
+Total 21 (9 unique) traces are in hot method
+Total 21 (9 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1690174 (614608 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Map_UnsafeIterator (6 traces / 2 unique traces) (460962 events / 153654 unique events)
+	Iterator_HasNext (3 traces / 1 unique traces) (460953 events / 153651 unique events)
+	Iterator_RemoveOnce (3 traces / 1 unique traces) (230475 events / 76825 unique events)
+	Collection_UnsafeIterator (3 traces / 1 unique traces) (460956 events / 153652 unique events)
+	Map_CollectionViewAdd (3 traces / 1 unique traces) (3 events / 1 unique events)
+	Collections_SortBeforeBinarySearch (3 traces / 3 unique traces) (76825 events / 76825 unique events)
+Classifier (SentiNet.SentiNet.getPolarity:96): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT,ISOLATED_ONE_UNIQUE
+
+#4
+Inspecting hot method SentiNet.SentiNet.loadSentiNet:15...
+Checking for isolation...
+614600,2,0,2
+Total 614600 (614600 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 1092950 (1092950 unique) events are in non-isolated traces (614600 / 614600 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (546475 events / 546475 unique events) (307300 events / 307300 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (546475 events / 546475 unique events) (307300 events / 307300 unique events in hot method)
+Classifier (SentiNet.SentiNet.loadSentiNet:15): CUT,NOT_REDUNDANT_TRACES
+
+#5
+Inspecting hot method SentiNet.SentiLiteralNet.loadSentiNet:14...
+Checking for isolation...
+478350,2,0,2
+Total 478350 (478350 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 1092950 (1092950 unique) events are in non-isolated traces (478350 / 478350 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (546475 events / 546475 unique events) (239175 events / 239175 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (546475 events / 546475 unique events) (239175 events / 239175 unique events in hot method)
+Classifier (SentiNet.SentiLiteralNet.loadSentiNet:14): CUT,NOT_REDUNDANT_TRACES
+
+#6
+Inspecting hot method SentiNet.SentiSynSet.saveAsXml:64...
+Checking for isolation...
+63,18,18,0
+Total 63 (21 unique) events are in hot method
+Total 18 (6 unique) traces are in hot method
+Total 18 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 63 (21 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (9 traces / 3 unique traces) (27 events / 9 unique events)
+	StringBuilder_ThreadSafe (9 traces / 3 unique traces) (36 events / 12 unique events)
+Classifier (SentiNet.SentiSynSet.saveAsXml:64): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#7
+Inspecting hot method SentiNet.SentiSynSetTest.saveAsXml:19...
+Checking for isolation...
+5,5,5,0
+Total 5 (5 unique) events are in hot method
+Total 5 (5 unique) traces are in hot method
+Total 5 (5 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Closeable_MultipleClose (2 traces / 2 unique traces) (2 events / 2 unique events)
+	Scanner_SearchAfterClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Console_CloseWriter (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Writer_ManipulateAfterClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+Classifier (SentiNet.SentiSynSetTest.saveAsXml:19): CUT,NOT_REDUNDANT_TRACES
+

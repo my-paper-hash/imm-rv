@@ -1,0 +1,790 @@
+Reading traces...
+	read 1000 traces
+	read 2000 traces
+	read 3000 traces
+	read 4000 traces
+Reading specs frequency...
+Reading locations...
+Counting events...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+Total 83016286 events and 22132147 traces
+Inspecting top 200 IMM
+Finding hot methods...
+Number of events, method name
+16871628,com.soud.jaba.SentenceDAG.calcMaxProbPath:27
+14001738,com.hankcs.algorithm.AhoCorasickDoubleArrayTrie$Builder.insert:887
+11111221,com.hankcs.algorithm.AhoCorasickDoubleArrayTrie$Builder.fetch:737
+5977361,com.hankcs.algorithm.AhoCorasickDoubleArrayTrie$Builder.constructFailureStates:786
+4570618,com.hankcs.algorithm.State.addEmit:130
+3968055,com.hankcs.algorithm.State.addEmit:104
+3411791,com.hankcs.algorithm.AhoCorasickDoubleArrayTrie$Builder.constructOutput:827
+3187207,com.soud.jaba.viterbi.FinalSeg.viterbi:114
+2792360,com.hankcs.algorithm.State.getLargestValueId:118
+2443320,com.hankcs.algorithm.AhoCorasickDoubleArrayTrie$Builder.addAllKeyword:774
+2015352,com.soud.jaba.Jaba.cut:53
+1745225,com.soud.jaba.Tokenizer.lambda$loadDictionary$0:63
+1704188,com.soud.jaba.viterbi.FinalSeg.cut:183
+1494339,com.hankcs.algorithm.State.getTransitions:234
+1494339,com.hankcs.algorithm.State.addState:218
+1456242,com.soud.jaba.SentenceDAG.lambda$makeDAG$1:56
+1456242,com.hankcs.algorithm.AhoCorasickDoubleArrayTrie.storeEmits:407
+1192202,com.soud.jaba.util.RegexSplitUtils.split:18
+1047141,com.soud.jaba.Tokenizer.loadDictionary:49
+375066,com.soud.jaba.SentenceDAG.makeDAG:53
+316059,com.soud.jaba.Jaba.cutByDAGWithHMM:132
+313038,com.soud.jaba.Jaba.doIfNeedHMM:114
+70491,com.soud.jaba.viterbi.FinalSeg.loadModel:56
+380,com.soud.jaba.analyse.TFIDFAnalyzer.getTfMap:66
+337,com.soud.jaba.analyse.TFIDFAnalyzer.extractTags:41
+286,com.soud.jaba.Pair.toString:49
+28,com.soud.jaba.JabaCutTest.testSplit:128
+14,com.soud.jaba.Jaba.lambda$null$0:168
+6,com.hankcs.algorithm.AhoCorasickDoubleArrayTrie$Builder.build:714
+3,com.hankcs.algorithm.AhoCorasickDoubleArrayTrie$Builder.buildDoubleArrayTrie:840
+3,com.hankcs.algorithm.State.getStates:229
+2,com.hankcs.algorithm.AhoCorasickDoubleArrayTrie$Builder.loseWeight:974
+1,com.soud.jaba.TFIDFTest.test2:16
+1,com.soud.jaba.Jaba.lambda$cutAll$1:163
+1,com.hankcs.algorithm.AhoCorasickDoubleArrayTrie.<clinit>:0
+1,com.soud.jaba.enumeration.CutModeEnum.<clinit>:11
+^^^ Last method that contains more than one event ^^^
+Starting com.hankcs.algorithm.AhoCorasickDoubleArrayTrie$Builder.constructOutput:827
+Finish com.hankcs.algorithm.AhoCorasickDoubleArrayTrie$Builder.constructOutput:827
+Starting com.soud.jaba.SentenceDAG.lambda$makeDAG$1:56
+Finish com.soud.jaba.SentenceDAG.lambda$makeDAG$1:56
+Starting com.hankcs.algorithm.AhoCorasickDoubleArrayTrie$Builder.addAllKeyword:774
+Finish com.hankcs.algorithm.AhoCorasickDoubleArrayTrie$Builder.addAllKeyword:774
+Starting com.hankcs.algorithm.State.addEmit:104
+Finish com.hankcs.algorithm.State.addEmit:104
+Starting com.soud.jaba.viterbi.FinalSeg.loadModel:56
+Finish com.soud.jaba.viterbi.FinalSeg.loadModel:56
+Starting com.hankcs.algorithm.AhoCorasickDoubleArrayTrie$Builder.fetch:737
+Finish com.hankcs.algorithm.AhoCorasickDoubleArrayTrie$Builder.fetch:737
+Starting com.soud.jaba.analyse.TFIDFAnalyzer.getTfMap:66
+Finish com.soud.jaba.analyse.TFIDFAnalyzer.getTfMap:66
+Starting com.hankcs.algorithm.State.addState:218
+Finish com.hankcs.algorithm.State.addState:218
+Starting com.soud.jaba.Tokenizer.loadDictionary:49
+Finish com.soud.jaba.Tokenizer.loadDictionary:49
+Starting com.soud.jaba.Tokenizer.lambda$loadDictionary$0:63
+Finish com.soud.jaba.Tokenizer.lambda$loadDictionary$0:63
+Starting com.hankcs.algorithm.AhoCorasickDoubleArrayTrie$Builder.insert:887
+Finish com.hankcs.algorithm.AhoCorasickDoubleArrayTrie$Builder.insert:887
+Starting com.hankcs.algorithm.State.getLargestValueId:118
+Finish com.hankcs.algorithm.State.getLargestValueId:118
+Starting com.soud.jaba.Jaba.cutByDAGWithHMM:132
+Finish com.soud.jaba.Jaba.cutByDAGWithHMM:132
+Starting com.hankcs.algorithm.AhoCorasickDoubleArrayTrie.storeEmits:407
+Finish com.hankcs.algorithm.AhoCorasickDoubleArrayTrie.storeEmits:407
+Starting com.soud.jaba.SentenceDAG.calcMaxProbPath:27
+Finish com.soud.jaba.SentenceDAG.calcMaxProbPath:27
+Starting com.hankcs.algorithm.AhoCorasickDoubleArrayTrie$Builder.constructFailureStates:786
+Finish com.hankcs.algorithm.AhoCorasickDoubleArrayTrie$Builder.constructFailureStates:786
+Starting com.soud.jaba.viterbi.FinalSeg.viterbi:114
+Finish com.soud.jaba.viterbi.FinalSeg.viterbi:114
+Starting com.soud.jaba.SentenceDAG.makeDAG:53
+Finish com.soud.jaba.SentenceDAG.makeDAG:53
+Starting com.soud.jaba.Jaba.doIfNeedHMM:114
+Finish com.soud.jaba.Jaba.doIfNeedHMM:114
+Starting com.soud.jaba.Pair.toString:49
+Finish com.soud.jaba.Pair.toString:49
+Starting com.soud.jaba.Jaba.cut:53
+Finish com.soud.jaba.Jaba.cut:53
+Starting com.soud.jaba.JabaCutTest.testSplit:128
+Finish com.soud.jaba.JabaCutTest.testSplit:128
+Starting com.soud.jaba.viterbi.FinalSeg.cut:183
+Finish com.soud.jaba.viterbi.FinalSeg.cut:183
+Starting com.hankcs.algorithm.AhoCorasickDoubleArrayTrie$Builder.buildDoubleArrayTrie:840
+Finish com.hankcs.algorithm.AhoCorasickDoubleArrayTrie$Builder.buildDoubleArrayTrie:840
+Starting com.soud.jaba.analyse.TFIDFAnalyzer.extractTags:41
+Finish com.soud.jaba.analyse.TFIDFAnalyzer.extractTags:41
+Starting com.soud.jaba.Jaba.lambda$null$0:168
+Finish com.soud.jaba.Jaba.lambda$null$0:168
+Starting com.hankcs.algorithm.State.addEmit:130
+Finish com.hankcs.algorithm.State.addEmit:130
+Starting com.hankcs.algorithm.AhoCorasickDoubleArrayTrie$Builder.build:714
+Finish com.hankcs.algorithm.AhoCorasickDoubleArrayTrie$Builder.build:714
+
+#1
+Inspecting hot method com.soud.jaba.SentenceDAG.calcMaxProbPath:27...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+Checking for isolation...
+16871628,3336515,3336513,2
+Total 16871628 (5628932 unique) events are in hot method
+Total 3336515 (14 unique) traces are in hot method
+Total 3336513 (12 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 11242758 (62 unique) events are in isolated traces
+Total 11046066 (11046066 unique) events are in non-isolated traces (5628870 / 5628870 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (1112171 traces / 4 unique traces) (5386840 events / 28 unique events)
+	Iterator_RemoveOnce (1112171 traces / 4 unique traces) (1581249 events / 10 unique events)
+	Iterator_HasNext (1112171 traces / 4 unique traces) (4274669 events / 24 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (5523033 events / 5523033 unique events) (2814435 events / 2814435 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (5523033 events / 5523033 unique events) (2814435 events / 2814435 unique events in hot method)
+Classifier (com.soud.jaba.SentenceDAG.calcMaxProbPath:27): CUT,ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#2
+Inspecting hot method com.hankcs.algorithm.AhoCorasickDoubleArrayTrie$Builder.insert:887...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+Checking for isolation...
+	processed 1000 traces
+	processed 2000 traces
+14001738,5530158,2988684,2541474
+Total 14001738 (668871 unique) events are in hot method
+Total 5530158 (2121 unique) traces are in hot method
+Total 2988684 (1818 unique) isolated traces are in hot method
+Total 2541474 (303 unique) non-isolated traces that have events in hot method
+Total 11460264 (668568 unique) events are in isolated traces
+Total 7749946 (110036 unique) events are in non-isolated traces (2541474 / 303 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (996228 traces / 606 unique traces) (5381088 events / 267912 unique events)
+	Iterator_RemoveOnce (996228 traces / 606 unique traces) (1694316 events / 133350 unique events)
+	Iterator_HasNext (996228 traces / 606 unique traces) (4384860 events / 267306 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (1694316 traces / 302 unique traces) (6055630 events / 110034 unique events) (1694316 events / 302 unique events in hot method)
+	Map_CollectionViewAdd (847158 traces / 1 unique traces) (1694316 events / 2 unique events) (847158 events / 1 unique events in hot method)
+Classifier (com.hankcs.algorithm.AhoCorasickDoubleArrayTrie$Builder.insert:887): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_ONE_UNIQUE
+
+#3
+Inspecting hot method com.hankcs.algorithm.AhoCorasickDoubleArrayTrie$Builder.fetch:737...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+Checking for isolation...
+	processed 1000 traces
+11111221,4934979,2393502,2541477
+Total 11111221 (533291 unique) events are in hot method
+Total 4934979 (1559 unique) traces are in hot method
+Total 2393502 (1253 unique) isolated traces are in hot method
+Total 2541477 (306 unique) non-isolated traces that have events in hot method
+Total 5879200 (400009 unique) events are in isolated traces
+Total 7773498 (133588 unique) events are in non-isolated traces (5232021 / 133282 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (847159 traces / 302 unique traces) (2690544 events / 132976 unique events)
+	Iterator_HasNext (847159 traces / 302 unique traces) (1843385 events / 132674 unique events)
+	Collections_SortBeforeBinarySearch (498114 traces / 348 unique traces) (847158 events / 68173 unique events)
+	Iterator_RemoveOnce (201070 traces / 301 unique traces) (498113 events / 66186 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (1694318 traces / 304 unique traces) (6079180 events / 133584 unique events) (4384862 events / 133280 unique events in hot method)
+	Map_CollectionViewAdd (847159 traces / 2 unique traces) (1694318 events / 4 unique events) (847159 events / 2 unique events in hot method)
+Classifier (com.hankcs.algorithm.AhoCorasickDoubleArrayTrie$Builder.fetch:737): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#4
+Inspecting hot method com.hankcs.algorithm.AhoCorasickDoubleArrayTrie$Builder.constructFailureStates:786...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+Checking for isolation...
+	processed 1000 traces
+5977361,1695412,1197298,498114
+Total 5977361 (464812 unique) events are in hot method
+Total 1695412 (1207 unique) traces are in hot method
+Total 1197298 (905 unique) isolated traces are in hot method
+Total 498114 (302 unique) non-isolated traces that have events in hot method
+Total 3984907 (331836 unique) events are in isolated traces
+Total 2490568 (133278 unique) events are in non-isolated traces (1992454 / 132976 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (498114 traces / 302 unique traces) (1992454 events / 132976 unique events)
+	Iterator_HasNext (498114 traces / 302 unique traces) (1494340 events / 132674 unique events)
+	Iterator_RemoveOnce (201070 traces / 301 unique traces) (498113 events / 66186 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (498114 traces / 302 unique traces) (2490568 events / 133278 unique events) (1992454 events / 132976 unique events in hot method)
+Classifier (com.hankcs.algorithm.AhoCorasickDoubleArrayTrie$Builder.constructFailureStates:786): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#5
+Inspecting hot method com.hankcs.algorithm.State.addEmit:130...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+Checking for isolation...
+4570618,1457393,1457393,0
+Total 4570618 (1755 unique) events are in hot method
+Total 1457393 (20 unique) traces are in hot method
+Total 1457393 (20 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 4570618 (1755 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (485798 traces / 7 unique traces) (2217320 events / 1142 unique events)
+	Iterator_HasNext (485798 traces / 7 unique traces) (1730979 events / 592 unique events)
+	Iterator_RemoveOnce (485797 traces / 6 unique traces) (622319 events / 21 unique events)
+Classifier (com.hankcs.algorithm.State.addEmit:130): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#6
+Inspecting hot method com.hankcs.algorithm.State.addEmit:104...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+Checking for isolation...
+3968055,6527,3,6524
+Total 3968055 (3961233 unique) events are in hot method
+Total 6527 (6 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 6524 (3 unique) non-isolated traces that have events in hot method
+Total 3961227 (3961227 unique) events are in isolated traces
+Total 19876 (12 unique) events are in non-isolated traces (6828 / 6 unique are in hot method)
+Specs that have isolated traces:
+	SortedSet_Comparable (1 traces / 1 unique traces) (1320409 events / 1320409 unique events)
+	Set_ItselfAsElement (1 traces / 1 unique traces) (1320409 events / 1320409 unique events)
+	TreeSet_Comparable (1 traces / 1 unique traces) (1320409 events / 1320409 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (6524 traces / 3 unique traces) (19876 events / 12 unique events) (6828 events / 6 unique events in hot method)
+Classifier (com.hankcs.algorithm.State.addEmit:104): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE,RAW_ISOLATED_SINGLE_TRACE
+
+#7
+Inspecting hot method com.hankcs.algorithm.AhoCorasickDoubleArrayTrie$Builder.constructOutput:827...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+Checking for isolation...
+3411791,1493097,1493097,0
+Total 3411791 (91 unique) events are in hot method
+Total 1493097 (21 unique) traces are in hot method
+Total 1493097 (21 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3411791 (91 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (497699 traces / 7 unique traces) (1469063 events / 35 unique events)
+	Iterator_RemoveOnce (497699 traces / 7 unique traces) (971364 events / 28 unique events)
+	Iterator_HasNext (497699 traces / 7 unique traces) (971364 events / 28 unique events)
+Classifier (com.hankcs.algorithm.AhoCorasickDoubleArrayTrie$Builder.constructOutput:827): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#8
+Inspecting hot method com.soud.jaba.viterbi.FinalSeg.viterbi:114...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+Checking for isolation...
+3187207,162023,162021,2
+Total 3187207 (2704363 unique) events are in hot method
+Total 162023 (35 unique) traces are in hot method
+Total 162021 (33 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 483031 (187 unique) events are in isolated traces
+Total 11046066 (11046066 unique) events are in non-isolated traces (2704176 / 2704176 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (162021 traces / 33 unique traces) (483031 events / 187 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (5523033 events / 5523033 unique events) (1352088 events / 1352088 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (5523033 events / 5523033 unique events) (1352088 events / 1352088 unique events in hot method)
+Classifier (com.soud.jaba.viterbi.FinalSeg.viterbi:114): CUT,ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#9
+Inspecting hot method com.hankcs.algorithm.State.getLargestValueId:118...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+Checking for isolation...
+2792360,2094270,2087746,6524
+Total 2792360 (10 unique) events are in hot method
+Total 2094270 (6 unique) traces are in hot method
+Total 2087746 (3 unique) isolated traces are in hot method
+Total 6524 (3 unique) non-isolated traces that have events in hot method
+Total 2779312 (4 unique) events are in isolated traces
+Total 19876 (12 unique) events are in non-isolated traces (13048 / 6 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (698090 traces / 1 unique traces) (698090 events / 1 unique events)
+	Iterator_HasNext (698090 traces / 1 unique traces) (698090 events / 1 unique events)
+	Collection_UnsafeIterator (691566 traces / 1 unique traces) (1383132 events / 2 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (6524 traces / 3 unique traces) (19876 events / 12 unique events) (13048 events / 6 unique events in hot method)
+Classifier (com.hankcs.algorithm.State.getLargestValueId:118): LIB,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#10
+Inspecting hot method com.hankcs.algorithm.AhoCorasickDoubleArrayTrie$Builder.addAllKeyword:774...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+Checking for isolation...
+2443320,4,3,1
+Total 2443320 (2443320 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 1745228 (1745228 unique) events are in isolated traces
+Total 698093 (698093 unique) events are in non-isolated traces (698092 / 698092 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (698091 events / 698091 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (698092 events / 698092 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (349045 events / 349045 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (1 traces / 1 unique traces) (698093 events / 698093 unique events) (698092 events / 698092 unique events in hot method)
+Classifier (com.hankcs.algorithm.AhoCorasickDoubleArrayTrie$Builder.addAllKeyword:774): LIB,NOT_REDUNDANT_TRACES
+
+#11
+Inspecting hot method com.soud.jaba.Jaba.cut:53...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+Checking for isolation...
+2015352,644083,644083,0
+Total 2015352 (576 unique) events are in hot method
+Total 644083 (61 unique) traces are in hot method
+Total 644083 (61 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2015352 (576 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsynchronizedAddAll (167028 traces / 3 unique traces) (334056 events / 6 unique events)
+	Iterator_HasNext (132017 traces / 14 unique traces) (576103 events / 176 unique events)
+	Collection_UnsafeIterator (132017 traces / 14 unique traces) (708120 events / 190 unique events)
+	Iterator_RemoveOnce (130017 traces / 13 unique traces) (222043 events / 81 unique events)
+	Collections_SortBeforeBinarySearch (83004 traces / 17 unique traces) (175030 events / 123 unique events)
+Classifier (com.soud.jaba.Jaba.cut:53): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#12
+Inspecting hot method com.soud.jaba.Tokenizer.lambda$loadDictionary$0:63...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+Checking for isolation...
+1745225,5,2,3
+Total 1745225 (1745225 unique) events are in hot method
+Total 5 (5 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 3 (3 unique) non-isolated traces that have events in hot method
+Total 698090 (698090 unique) events are in isolated traces
+Total 12242270 (12242270 unique) events are in non-isolated traces (1047135 / 1047135 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (2 traces / 2 unique traces) (698090 events / 698090 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (5523033 events / 5523033 unique events) (349045 events / 349045 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (5523033 events / 5523033 unique events) (349045 events / 349045 unique events in hot method)
+	TreeMap_Comparable (1 traces / 1 unique traces) (1196204 events / 1196204 unique events) (349045 events / 349045 unique events in hot method)
+Classifier (com.soud.jaba.Tokenizer.lambda$loadDictionary$0:63): LIB,NOT_REDUNDANT_TRACES
+
+#13
+Inspecting hot method com.soud.jaba.viterbi.FinalSeg.cut:183...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+Checking for isolation...
+1704188,466067,466067,0
+Total 1704188 (355 unique) events are in hot method
+Total 466067 (48 unique) traces are in hot method
+Total 466067 (48 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1704188 (355 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (124017 traces / 11 unique traces) (570061 events / 113 unique events)
+	Collection_UnsafeIterator (124017 traces / 11 unique traces) (694078 events / 124 unique events)
+	Iterator_RemoveOnce (124017 traces / 11 unique traces) (223022 events / 51 unique events)
+	Collections_SortBeforeBinarySearch (70010 traces / 14 unique traces) (169015 events / 65 unique events)
+	Collection_UnsynchronizedAddAll (24006 traces / 1 unique traces) (48012 events / 2 unique events)
+Classifier (com.soud.jaba.viterbi.FinalSeg.cut:183): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE
+
+#14
+Inspecting hot method com.hankcs.algorithm.State.getTransitions:234...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+Checking for isolation...
+1494339,1494339,996226,498113
+Total 1494339 (303 unique) events are in hot method
+Total 1494339 (303 unique) traces are in hot method
+Total 996226 (2 unique) isolated traces are in hot method
+Total 498113 (301 unique) non-isolated traces that have events in hot method
+Total 996226 (2 unique) events are in isolated traces
+Total 2467021 (109731 unique) events are in non-isolated traces (498113 / 301 unique are in hot method)
+Specs that have isolated traces:
+	Map_CollectionViewAdd (498113 traces / 1 unique traces) (498113 events / 1 unique events)
+	Map_UnsafeIterator (498113 traces / 1 unique traces) (498113 events / 1 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (498113 traces / 301 unique traces) (2467021 events / 109731 unique events) (498113 events / 301 unique events in hot method)
+Classifier (com.hankcs.algorithm.State.getTransitions:234): LIB,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#15
+Inspecting hot method com.hankcs.algorithm.State.addState:218...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+Checking for isolation...
+1494339,3,0,3
+Total 1494339 (1494339 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 3 (3 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 12242270 (12242270 unique) events are in non-isolated traces (1494339 / 1494339 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (5523033 events / 5523033 unique events) (498113 events / 498113 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (5523033 events / 5523033 unique events) (498113 events / 498113 unique events in hot method)
+	TreeMap_Comparable (1 traces / 1 unique traces) (1196204 events / 1196204 unique events) (498113 events / 498113 unique events in hot method)
+Classifier (com.hankcs.algorithm.State.addState:218): LIB,NOT_REDUNDANT_TRACES
+
+#16
+Inspecting hot method com.soud.jaba.SentenceDAG.lambda$makeDAG$1:56...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+Checking for isolation...
+1456242,987158,987158,0
+Total 1456242 (10 unique) events are in hot method
+Total 987158 (4 unique) traces are in hot method
+Total 987158 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1456242 (10 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (987158 traces / 4 unique traces) (1456242 events / 10 unique events)
+Classifier (com.soud.jaba.SentenceDAG.lambda$makeDAG$1:56): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#17
+Inspecting hot method com.hankcs.algorithm.AhoCorasickDoubleArrayTrie.storeEmits:407...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+Checking for isolation...
+1456242,109015,109015,0
+Total 1456242 (626 unique) events are in hot method
+Total 109015 (33 unique) traces are in hot method
+Total 109015 (33 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1456242 (626 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (109015 traces / 33 unique traces) (1456242 events / 626 unique events)
+Classifier (com.hankcs.algorithm.AhoCorasickDoubleArrayTrie.storeEmits:407): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#18
+Inspecting hot method com.soud.jaba.util.RegexSplitUtils.split:18...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+Checking for isolation...
+1192202,450068,450068,0
+Total 1192202 (157 unique) events are in hot method
+Total 450068 (18 unique) traces are in hot method
+Total 450068 (18 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1192202 (157 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (450068 traces / 18 unique traces) (1192202 events / 157 unique events)
+Classifier (com.soud.jaba.util.RegexSplitUtils.split:18): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#19
+Inspecting hot method com.soud.jaba.Tokenizer.loadDictionary:49...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+Checking for isolation...
+1047141,6,3,3
+Total 1047141 (1047141 unique) events are in hot method
+Total 6 (6 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 3 (3 unique) non-isolated traces that have events in hot method
+Total 3 (3 unique) events are in isolated traces
+Total 12242270 (12242270 unique) events are in non-isolated traces (1047138 / 1047138 unique are in hot method)
+Specs that have isolated traces:
+	InputStream_ManipulateAfterClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Closeable_MultipleClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+	InputStream_MarkAfterClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (5523033 events / 5523033 unique events) (349046 events / 349046 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (5523033 events / 5523033 unique events) (349046 events / 349046 unique events in hot method)
+	TreeMap_Comparable (1 traces / 1 unique traces) (1196204 events / 1196204 unique events) (349046 events / 349046 unique events in hot method)
+Classifier (com.soud.jaba.Tokenizer.loadDictionary:49): LIB,NOT_REDUNDANT_TRACES
+
+#20
+Inspecting hot method com.soud.jaba.SentenceDAG.makeDAG:53...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+Checking for isolation...
+375066,125024,125022,2
+Total 375066 (250045 unique) events are in hot method
+Total 125024 (3 unique) traces are in hot method
+Total 125022 (1 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 125022 (1 unique) events are in isolated traces
+Total 11046066 (11046066 unique) events are in non-isolated traces (250044 / 250044 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (125022 traces / 1 unique traces) (125022 events / 1 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (5523033 events / 5523033 unique events) (125022 events / 125022 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (5523033 events / 5523033 unique events) (125022 events / 125022 unique events in hot method)
+Classifier (com.soud.jaba.SentenceDAG.makeDAG:53): LIB,ISOLATED_ONE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#21
+Inspecting hot method com.soud.jaba.Jaba.cutByDAGWithHMM:132...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+Checking for isolation...
+316059,99013,15003,84010
+Total 316059 (272 unique) events are in hot method
+Total 99013 (69 unique) traces are in hot method
+Total 15003 (7 unique) isolated traces are in hot method
+Total 84010 (62 unique) non-isolated traces that have events in hot method
+Total 41014 (29 unique) events are in isolated traces
+Total 424061 (365 unique) events are in non-isolated traces (275045 / 243 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (15003 traces / 7 unique traces) (41014 events / 29 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (84010 traces / 62 unique traces) (424061 events / 365 unique events) (275045 events / 243 unique events in hot method)
+Classifier (com.soud.jaba.Jaba.cutByDAGWithHMM:132): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#22
+Inspecting hot method com.soud.jaba.Jaba.doIfNeedHMM:114...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+Checking for isolation...
+313038,177022,93012,84010
+Total 313038 (128 unique) events are in hot method
+Total 177022 (66 unique) traces are in hot method
+Total 93012 (4 unique) isolated traces are in hot method
+Total 84010 (62 unique) non-isolated traces that have events in hot method
+Total 164022 (6 unique) events are in isolated traces
+Total 424061 (365 unique) events are in non-isolated traces (149016 / 122 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsynchronizedAddAll (71010 traces / 2 unique traces) (142020 events / 4 unique events)
+	Collections_SortBeforeBinarySearch (22002 traces / 2 unique traces) (22002 events / 2 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (84010 traces / 62 unique traces) (424061 events / 365 unique events) (149016 events / 122 unique events in hot method)
+Classifier (com.soud.jaba.Jaba.doIfNeedHMM:114): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#23
+Inspecting hot method com.soud.jaba.viterbi.FinalSeg.loadModel:56...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+Checking for isolation...
+70491,5,3,2
+Total 70491 (70491 unique) events are in hot method
+Total 5 (5 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 3 (3 unique) events are in isolated traces
+Total 11046066 (11046066 unique) events are in non-isolated traces (70488 / 70488 unique are in hot method)
+Specs that have isolated traces:
+	InputStream_ManipulateAfterClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+	InputStream_MarkAfterClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Closeable_MultipleClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (5523033 events / 5523033 unique events) (35244 events / 35244 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (5523033 events / 5523033 unique events) (35244 events / 35244 unique events in hot method)
+Classifier (com.soud.jaba.viterbi.FinalSeg.loadModel:56): LIB,NOT_REDUNDANT_TRACES
+
+#24
+Inspecting hot method com.soud.jaba.analyse.TFIDFAnalyzer.getTfMap:66...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+Checking for isolation...
+380,18,16,2
+Total 380 (376 unique) events are in hot method
+Total 18 (14 unique) traces are in hot method
+Total 16 (12 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 300 (296 unique) events are in isolated traces
+Total 11046066 (11046066 unique) events are in non-isolated traces (80 / 80 unique are in hot method)
+Specs that have isolated traces:
+	Map_UnsafeIterator (6 traces / 4 unique traces) (90 events / 88 unique events)
+	Map_CollectionViewAdd (4 traces / 2 unique traces) (4 events / 2 unique events)
+	Iterator_HasNext (2 traces / 2 unique traces) (82 events / 82 unique events)
+	Collection_UnsafeIterator (2 traces / 2 unique traces) (84 events / 84 unique events)
+	Iterator_RemoveOnce (2 traces / 2 unique traces) (40 events / 40 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (5523033 events / 5523033 unique events) (40 events / 40 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (5523033 events / 5523033 unique events) (40 events / 40 unique events in hot method)
+Classifier (com.soud.jaba.analyse.TFIDFAnalyzer.getTfMap:66): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#25
+Inspecting hot method com.soud.jaba.analyse.TFIDFAnalyzer.extractTags:41...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+Checking for isolation...
+337,15,14,1
+Total 337 (335 unique) events are in hot method
+Total 15 (13 unique) traces are in hot method
+Total 14 (12 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 336 (334 unique) events are in isolated traces
+Total 2 (2 unique) events are in non-isolated traces (1 / 1 unique are in hot method)
+Specs that have isolated traces:
+	Map_UnsafeIterator (4 traces / 3 unique traces) (88 events / 87 unique events)
+	Iterator_HasNext (2 traces / 2 unique traces) (82 events / 82 unique events)
+	Collection_UnsafeIterator (2 traces / 2 unique traces) (84 events / 84 unique events)
+	Iterator_RemoveOnce (2 traces / 2 unique traces) (40 events / 40 unique events)
+	Map_CollectionViewAdd (2 traces / 1 unique traces) (2 events / 1 unique events)
+	Collections_SortBeforeBinarySearch (2 traces / 2 unique traces) (40 events / 40 unique events)
+Specs that have non-isolated traces:
+	List_UnsynchronizedSubList (1 traces / 1 unique traces) (2 events / 2 unique events) (1 events / 1 unique events in hot method)
+Classifier (com.soud.jaba.analyse.TFIDFAnalyzer.extractTags:41): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_SINGLE_TRACE
+
+#26
+Inspecting hot method com.soud.jaba.Pair.toString:49...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+Checking for isolation...
+286,52,52,0
+Total 286 (11 unique) events are in hot method
+Total 52 (2 unique) traces are in hot method
+Total 52 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 286 (11 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (26 traces / 1 unique traces) (130 events / 5 unique events)
+	StringBuilder_ThreadSafe (26 traces / 1 unique traces) (156 events / 6 unique events)
+Classifier (com.soud.jaba.Pair.toString:49): CUT,ISOLATED_ONE_UNIQUE
+
+#27
+Inspecting hot method com.soud.jaba.JabaCutTest.testSplit:128...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+Checking for isolation...
+28,3,3,0
+Total 28 (28 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 28 (28 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (12 events / 12 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (5 events / 5 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (11 events / 11 unique events)
+Classifier (com.soud.jaba.JabaCutTest.testSplit:128): CUT,NOT_REDUNDANT_TRACES
+
+#28
+Inspecting hot method com.soud.jaba.Jaba.lambda$null$0:168...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+Checking for isolation...
+14,1,0,1
+Total 14 (14 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 15 (15 unique) events are in non-isolated traces (14 / 14 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (15 events / 15 unique events) (14 events / 14 unique events in hot method)
+Classifier (com.soud.jaba.Jaba.lambda$null$0:168): CUT,NOT_REDUNDANT_TRACES
+
+#29
+Inspecting hot method com.hankcs.algorithm.AhoCorasickDoubleArrayTrie$Builder.build:714...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+Checking for isolation...
+6,6,5,1
+Total 6 (6 unique) events are in hot method
+Total 6 (6 unique) traces are in hot method
+Total 5 (5 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 5 (5 unique) events are in isolated traces
+Total 698093 (698093 unique) events are in non-isolated traces (1 / 1 unique are in hot method)
+Specs that have isolated traces:
+	Map_UnsafeIterator (2 traces / 2 unique traces) (2 events / 2 unique events)
+	Map_CollectionViewAdd (2 traces / 2 unique traces) (2 events / 2 unique events)
+	Arrays_SortBeforeBinarySearch (1 traces / 1 unique traces) (1 events / 1 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (1 traces / 1 unique traces) (698093 events / 698093 unique events) (1 events / 1 unique events in hot method)
+Classifier (com.hankcs.algorithm.AhoCorasickDoubleArrayTrie$Builder.build:714): LIB,NOT_REDUNDANT_TRACES
+
+#30
+Inspecting hot method com.hankcs.algorithm.AhoCorasickDoubleArrayTrie$Builder.buildDoubleArrayTrie:840...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+Checking for isolation...
+3,3,0,3
+Total 3 (3 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 3 (3 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 23552 (23552 unique) events are in non-isolated traces (3 / 3 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (2 traces / 2 unique traces) (23550 events / 23550 unique events) (2 events / 2 unique events in hot method)
+	Map_CollectionViewAdd (1 traces / 1 unique traces) (2 events / 2 unique events) (1 events / 1 unique events in hot method)
+Classifier (com.hankcs.algorithm.AhoCorasickDoubleArrayTrie$Builder.buildDoubleArrayTrie:840): LIB,NOT_REDUNDANT_TRACES
+
+#31
+Inspecting hot method com.hankcs.algorithm.State.getStates:229...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+Checking for isolation...
+3,3,2,1
+Total 3 (3 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 2 (2 unique) events are in isolated traces
+Total 23547 (23547 unique) events are in non-isolated traces (1 / 1 unique are in hot method)
+Specs that have isolated traces:
+	Map_CollectionViewAdd (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Map_UnsafeIterator (1 traces / 1 unique traces) (1 events / 1 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (1 traces / 1 unique traces) (23547 events / 23547 unique events) (1 events / 1 unique events in hot method)
+Classifier (com.hankcs.algorithm.State.getStates:229): LIB,NOT_REDUNDANT_TRACES
+
+#32
+Inspecting hot method com.hankcs.algorithm.AhoCorasickDoubleArrayTrie$Builder.loseWeight:974...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+Checking for isolation...
+2,1,1,0
+Total 2 (2 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2 (2 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (2 events / 2 unique events)
+Classifier (com.hankcs.algorithm.AhoCorasickDoubleArrayTrie$Builder.loseWeight:974): LIB,NOT_REDUNDANT_TRACES
+

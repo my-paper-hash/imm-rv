@@ -1,0 +1,2834 @@
+Reading traces...
+	read 1000 traces
+	read 2000 traces
+Reading specs frequency...
+Reading locations...
+Counting events...
+	processed 1000 traces
+	processed 2000 traces
+Total 882064882 events and 192499821 traces
+Inspecting top 200 IMM
+Finding hot methods...
+Number of events, method name
+223680458,ch.qos.logback.core.pattern.FormattingConverter.write:37
+143794701,ch.qos.logback.core.spi.AppenderAttachableImpl.appendLoopOnAppenders:46
+127817512,ch.qos.logback.core.pattern.Converter.write:42
+111839896,org.slf4j.helpers.MessageFormatter.arrayFormat:180
+63908428,org.slf4j.helpers.MessageFormatter.safeObjectAppend:297
+47931567,ch.qos.logback.core.spi.FilterAttachableImpl.getFilterChainDecision:51
+15977189,ch.qos.logback.core.pattern.PatternLayoutBase.writeLoopOnConverters:116
+15977156,org.slf4j.helpers.FormattingTuple.<init>:45
+15977156,ch.qos.logback.classic.spi.LoggingEvent.<init>:107
+14782584,com.conveyal.osmlib.RoundTripTest.compareMap:99
+9855060,com.conveyal.osmlib.OSM.copyTo:192
+9835509,com.conveyal.osmlib.serializer.VarInt.writeTags:227
+9548332,org.mapdb.BTreeMap$LeafNode.<init>:264
+7383310,com.conveyal.osmlib.OSM.writeNode:273
+4799358,org.openstreetmap.osmosis.osmbinary.Osmformat$Way$Builder.addRefs:7419
+4529038,org.mapdb.BTreeMap.arrayPut:2839
+4262650,org.mapdb.BTreeMap.put2:647
+4188975,org.openstreetmap.osmosis.osmbinary.Osmformat$DenseNodes$Builder.addKeysVals:6691
+4069550,com.conveyal.osmlib.OSMEntity.addTag:85
+3691655,org.openstreetmap.osmosis.osmbinary.Osmformat$DenseNodes$Builder.addId:6513
+3691655,org.openstreetmap.osmosis.osmbinary.Osmformat$DenseNodes$Builder.addLat:6601
+3691655,org.openstreetmap.osmosis.osmbinary.Osmformat$DenseNodes$Builder.addLon:6646
+3305880,org.mapdb.DataOutput2.write:74
+3274102,com.conveyal.osmlib.VexOutput.writeTags:97
+2437272,org.openstreetmap.osmosis.osmbinary.Osmformat$DenseInfo$Builder.addTimestamp:4699
+2437272,org.openstreetmap.osmosis.osmbinary.Osmformat$DenseInfo$Builder.addChangeset:4744
+2437272,org.openstreetmap.osmosis.osmbinary.Osmformat$DenseInfo$Builder.addVersion:4654
+2437272,org.openstreetmap.osmosis.osmbinary.Osmformat$DenseInfo$Builder.addUserSid:4834
+2437272,org.openstreetmap.osmosis.osmbinary.Osmformat$DenseInfo$Builder.addUid:4789
+2356332,com.conveyal.osmlib.PBFInput.parseWays:126
+1413266,com.conveyal.osmlib.StringTable.getCode:27
+1342825,com.conveyal.osmlib.PBFOutput.writeWay:233
+1293508,org.openstreetmap.osmosis.osmbinary.Osmformat$Way$Builder.addKeys:7286
+1293508,org.openstreetmap.osmosis.osmbinary.Osmformat$Way$Builder.addVals:7331
+1129692,com.conveyal.osmlib.OSM.writeWay:280
+564846,org.openstreetmap.osmosis.osmbinary.Osmformat$PrimitiveGroup$Builder.addWays:2844
+431922,org.mapdb.SerializerBase.serializeCollection:825
+285946,org.mapdb.BTreeMap$DirNode.<init>:227
+274516,com.conveyal.osmlib.PBFOutput.writeNode:201
+266245,org.mapdb.BTreeMap.arrayLongPut:2829
+190715,com.conveyal.osmlib.StringTable.toBuilder:43
+138967,com.google.protobuf.ByteString.copyFrom:206
+138621,org.openstreetmap.osmosis.osmbinary.Osmformat$StringTable$Builder.mergeFrom:3328
+125462,org.mapdb.SerializerBase.deserializeArrayList:1601
+103366,com.conveyal.osmlib.VexOutput.writeRelation:162
+78063,org.mapdb.SerializerBase$FastArrayList.add:54
+73867,com.conveyal.osmlib.PBFInput.parseRelations:157
+71393,com.conveyal.osmlib.PBFOutput.writeRelation:260
+69744,org.mapdb.SerializerBase.serialize2:155
+58977,org.openstreetmap.osmosis.osmbinary.Osmformat$Relation$Builder.addMemids:8386
+58977,org.openstreetmap.osmosis.osmbinary.Osmformat$Relation$Builder.addRolesSid:8341
+58977,org.openstreetmap.osmosis.osmbinary.Osmformat$Relation$Builder.addTypes:8434
+50964,org.mapdb.Store.serialize:152
+38294,com.google.protobuf.LiteralByteString.copyToInternal:117
+38089,org.openstreetmap.osmosis.osmbinary.Osmformat$StringTable$Builder.addS:3380
+20433,org.openstreetmap.osmosis.osmbinary.Osmformat$Relation$Builder.addVals:8253
+20433,org.openstreetmap.osmosis.osmbinary.Osmformat$Relation$Builder.addKeys:8208
+19514,com.conveyal.osmlib.VexInput.readRelation:133
+15245,org.mapdb.SerializerBase$FastArrayList.<init>:50
+11660,com.conveyal.osmlib.OSM.writeRelation:302
+6340,com.conveyal.osmlib.StringTable.clear:37
+5830,org.openstreetmap.osmosis.osmbinary.Osmformat$PrimitiveGroup$Builder.addRelations:2933
+5381,com.google.common.io.ByteStreams.read:726
+4000,com.conveyal.osmlib.NodeTrackerTest.testAgainstSet:15
+1952,com.conveyal.osmlib.NodeTracker.block:48
+1029,org.mapdb.DB.createTreeMap:816
+866,org.openstreetmap.osmosis.osmbinary.BinaryParser.parse:105
+672,org.mapdb.DB.catPut:104
+504,org.mapdb.BTreeMap.put:642
+395,org.mapdb.SerializerBase$singletons.<clinit>:1418
+327,com.conveyal.osmlib.PBFInput.parseNodes:65
+287,org.mapdb.DB.createTreeSet:1025
+245,org.mapdb.SerializerPojo$ClassInfo.<init>:130
+210,org.mapdb.DB.checkNameNotExists:1543
+210,org.mapdb.SerializerPojo.registerClass:242
+196,org.mapdb.DB.createAtomicLong:1231
+188,ch.qos.logback.core.pattern.SpacePadder.rightPad:37
+188,ch.qos.logback.core.pattern.SpacePadder.spacePad:53
+168,org.mapdb.DB.catPut:110
+168,org.mapdb.DB.namedPut:384
+119,ch.qos.logback.classic.PatternLayout.<clinit>:61
+109,org.openstreetmap.osmosis.osmbinary.Osmformat$PrimitiveBlock$Builder.addPrimitivegroup:1993
+105,org.mapdb.DB$BTreeMapMaker.makeOrGet:648
+90,org.openstreetmap.osmosis.osmbinary.Osmformat$PrimitiveBlock$Builder.addPrimitivegroup:2013
+84,org.mapdb.SerializerPojo.getFields:292
+73,com.conveyal.osmlib.PBFInput.parse:200
+70,org.mapdb.DB.getAtomicLong:1244
+70,org.mapdb.Volume.fileFactory:184
+67,com.conveyal.osmlib.OSMEntity.getTag:41
+56,com.google.protobuf.UnmodifiableLazyStringList$2.hasNext:165
+56,org.mapdb.DB.getAll:1492
+51,ch.qos.logback.core.util.EnvUtil.isJDK_N_OrHigher:26
+49,org.mapdb.AsyncWriteEngine.startThreads:191
+48,com.conveyal.osmlib.VEXBlock.writeDeflated:96
+35,org.mapdb.EngineWrapper$CloseOnJVMShutdown.<init>:562
+35,org.mapdb.EngineWrapper$CloseOnJVMShutdown$1.run:567
+35,org.mapdb.DB$BTreeSetMaker.makeOrGet:736
+35,org.mapdb.BTreeMap.<init>:133
+33,com.google.protobuf.UnmodifiableLazyStringList$2.next:170
+27,ch.qos.logback.core.status.StatusUtil.filterStatusListByTimeThreshold:58
+24,ch.qos.logback.classic.LoggerContext.getLogger:107
+23,ch.qos.logback.core.status.StatusUtil.getHighestLevel:94
+21,ch.qos.logback.classic.util.ContextInitializer.statusOnResourceSearch:174
+21,org.mapdb.BTreeMap.isEmpty:1106
+21,org.mapdb.DBMaker.transactionDisable:309
+19,com.google.protobuf.LazyStringArrayList.add:174
+19,org.openstreetmap.osmosis.osmbinary.Osmformat$HeaderBlock$Builder.mergeFrom:572
+17,com.google.protobuf.UnmodifiableLazyStringList$2.<init>:161
+12,ch.qos.logback.classic.Logger.createChildByName:355
+12,ch.qos.logback.core.BasicStatusManager.fireStatusAddEvent:85
+11,com.google.protobuf.LazyStringArrayList.get:88
+10,ch.qos.logback.core.pattern.parser.TokenStream.addValuedToken:232
+8,com.conveyal.osmlib.DeflatedBlockReader.run:55
+7,com.conveyal.osmlib.RoundTripTest.testVexStream:59
+7,org.mapdb.AsyncWriteEngine$WriterRunnable.run:164
+7,org.mapdb.DB.<init>:38
+6,com.conveyal.osmlib.DeflatedBlockWriter.run:83
+6,ch.qos.logback.core.pattern.PatternLayoutBase.getEffectiveConverterMap:52
+6,org.mapdb.SerializerPojo.createInstanceSkippinkConstructor:557
+5,ch.qos.logback.core.pattern.parser.TokenStream.handleLiteralState:162
+4,ch.qos.logback.core.BasicStatusManager.add:59
+4,com.conveyal.osmlib.VexOutput.writeEnd:127
+4,ch.qos.logback.core.pattern.parser.Parser.<clinit>:49
+3,ch.qos.logback.classic.LoggerContext.fireOnLevelChange:305
+3,gnu.trove.map.hash.TObjectIntHashMap.rehash:175
+3,ch.qos.logback.core.BasicStatusManager.getCopyOfStatusList:77
+3,com.conveyal.osmlib.PBFOutput.run:304
+2,ch.qos.logback.core.pattern.parser.OptionTokenizer.emitOptionToken:138
+2,ch.qos.logback.core.pattern.parser.OptionTokenizer.tokenize:61
+2,org.slf4j.helpers.SubstituteLoggerFactory.getLoggers:61
+2,com.conveyal.osmlib.DeflatedBlockWriter.<init>:34
+2,com.conveyal.osmlib.DeflatedBlockReader.<init>:21
+2,ch.qos.logback.classic.spi.TurboFilterList.<clinit>:0
+2,ch.qos.logback.classic.LoggerContext.<init>:50
+2,ch.qos.logback.core.ContextBase.putObject:94
+1,org.mapdb.Fun.<clinit>:32
+1,ch.qos.logback.core.helpers.CyclicBuffer.init:62
+1,ch.qos.logback.core.spi.AppenderAttachableImpl.addAppender:36
+1,ch.qos.logback.core.pattern.parser.TokenStream.handleKeywordState:185
+1,ch.qos.logback.core.pattern.parser.TokenStream.tokenize:76
+1,com.conveyal.osmlib.RoundTripTest$1.run:67
+1,org.openstreetmap.osmosis.osmbinary.Osmformat$HeaderBlock$Builder.addRequiredFeatures:706
+1,com.google.protobuf.LazyStringArrayList.add:121
+1,com.google.protobuf.LazyStringArrayList.getByteString:186
+1,com.conveyal.osmlib.StringTable.<init>:21
+1,com.conveyal.osmlib.PBFOutput.writeBegin:163
+1,ch.qos.logback.core.encoder.LayoutWrappingEncoder.writeHeader:89
+1,gnu.trove.impl.hash.TObjectHash.setUp:117
+1,ch.qos.logback.classic.spi.LoggerContextVO.<clinit>:0
+1,ch.qos.logback.classic.Logger.<clinit>:45
+1,ch.qos.logback.classic.Level.<clinit>:37
+1,ch.qos.logback.core.joran.spi.ConsoleTarget.<clinit>:29
+1,ch.qos.logback.core.pattern.parser.TokenStream$TokenizerState.<clinit>:49
+1,ch.qos.logback.core.spi.FilterReply.<clinit>:31
+1,org.mapdb.SerializerPojo.<clinit>:36
+1,org.mapdb.LongHashMap.<clinit>:0
+1,org.mapdb.LongConcurrentHashMap.<clinit>:0
+1,org.mapdb.LongConcurrentHashMap$Segment.<clinit>:0
+1,org.mapdb.Fun$Tuple2Comparator.<clinit>:0
+1,org.mapdb.Fun$Tuple3Comparator.<clinit>:0
+1,org.mapdb.Fun$Tuple4Comparator.<clinit>:0
+1,org.mapdb.Fun$Tuple5Comparator.<clinit>:0
+1,org.mapdb.Fun$Tuple6Comparator.<clinit>:0
+1,org.mapdb.Fun$Tuple2.<clinit>:0
+1,org.mapdb.BTreeKeySerializer$BasicKeySerializer.<clinit>:0
+1,org.mapdb.BTreeKeySerializer$Tuple2KeySerializer.<clinit>:292
+1,org.mapdb.BTreeKeySerializer$Tuple3KeySerializer.<clinit>:412
+1,org.mapdb.BTreeKeySerializer$Tuple4KeySerializer.<clinit>:573
+1,com.conveyal.osmlib.serializer.NodeSerializer.<clinit>:0
+1,com.conveyal.osmlib.serializer.WaySerializer.<clinit>:0
+1,org.mapdb.Atomic$Long.<clinit>:0
+1,com.google.protobuf.GeneratedMessageLite.<clinit>:0
+1,org.openstreetmap.osmosis.osmbinary.Fileformat$BlobHeader.<clinit>:980
+1,org.openstreetmap.osmosis.osmbinary.Fileformat$Blob.<clinit>:527
+1,org.openstreetmap.osmosis.osmbinary.Osmformat$HeaderBBox.<clinit>:1429
+1,org.openstreetmap.osmosis.osmbinary.Osmformat$HeaderBlock.<clinit>:943
+1,org.openstreetmap.osmosis.osmbinary.Osmformat$StringTable.<clinit>:3406
+1,org.openstreetmap.osmosis.osmbinary.Osmformat$PrimitiveBlock.<clinit>:2133
+1,org.openstreetmap.osmosis.osmbinary.Osmformat$DenseInfo.<clinit>:4902
+1,org.openstreetmap.osmosis.osmbinary.Osmformat$DenseNodes.<clinit>:6714
+1,org.openstreetmap.osmosis.osmbinary.Osmformat$PrimitiveGroup.<clinit>:3078
+1,com.conveyal.osmlib.OSMEntity.<clinit>:0
+1,com.conveyal.osmlib.Node.<clinit>:0
+1,com.conveyal.osmlib.OSMEntity$Tag.<clinit>:0
+1,org.openstreetmap.osmosis.osmbinary.Osmformat$Info.<clinit>:3974
+1,org.openstreetmap.osmosis.osmbinary.Osmformat$Way.<clinit>:7442
+1,com.conveyal.osmlib.Way.<clinit>:0
+1,org.openstreetmap.osmosis.osmbinary.Osmformat$Relation.<clinit>:8460
+1,org.openstreetmap.osmosis.osmbinary.Osmformat$Relation$MemberType.<clinit>:7505
+1,com.conveyal.osmlib.Relation.<clinit>:0
+1,com.conveyal.osmlib.Relation$Member.<clinit>:0
+1,com.conveyal.osmlib.OSMEntity$Type.<clinit>:13
+1,gnu.trove.impl.hash.THash.<clinit>:0
+1,gnu.trove.impl.hash.TObjectHash.<clinit>:54
+1,gnu.trove.map.hash.TObjectIntHashMap.<clinit>:0
+1,com.conveyal.osmlib.OSMEntityTest$1TaggedTester.<clinit>:0
+1,org.slf4j.LoggerFactory.findPossibleStaticLoggerBinderPathSet:229
+1,ch.qos.logback.core.util.Loader$1.run:51
+1,org.mapdb.BTreeMap$EntrySet.<clinit>:0
+1,org.mapdb.BTreeMap$Values.<clinit>:0
+1,org.mapdb.BTreeMap$KeySet.<clinit>:0
+1,com.google.protobuf.UnmodifiableLazyStringList.<clinit>:0
+1,com.google.protobuf.LazyStringArrayList.<clinit>:68
+1,org.mapdb.AsyncWriteEngine$WriterRunnable.<clinit>:0
+1,org.mapdb.EngineWrapper$CloseOnJVMShutdown$1.<clinit>:0
+1,com.conveyal.osmlib.PBFOutput.<clinit>:22
+1,com.conveyal.osmlib.DeflatedBlockWriter.<clinit>:25
+1,com.conveyal.osmlib.DeflatedBlockReader.<clinit>:19
+1,com.conveyal.osmlib.RoundTripTest$1.<clinit>:0
+^^^ Last method that contains more than one event ^^^
+Starting com.conveyal.osmlib.StringTable.getCode:27
+Finish com.conveyal.osmlib.StringTable.getCode:27
+Starting com.conveyal.osmlib.PBFOutput.writeWay:233
+Finish com.conveyal.osmlib.PBFOutput.writeWay:233
+Starting com.conveyal.osmlib.NodeTracker.block:48
+Finish com.conveyal.osmlib.NodeTracker.block:48
+Starting org.mapdb.DB.createTreeMap:816
+Finish org.mapdb.DB.createTreeMap:816
+Starting org.openstreetmap.osmosis.osmbinary.Osmformat$DenseInfo$Builder.addVersion:4654
+Finish org.openstreetmap.osmosis.osmbinary.Osmformat$DenseInfo$Builder.addVersion:4654
+Starting org.openstreetmap.osmosis.osmbinary.Osmformat$DenseInfo$Builder.addUserSid:4834
+Finish org.openstreetmap.osmosis.osmbinary.Osmformat$DenseInfo$Builder.addUserSid:4834
+Starting org.mapdb.DB$BTreeSetMaker.makeOrGet:736
+Finish org.mapdb.DB$BTreeSetMaker.makeOrGet:736
+Starting org.mapdb.BTreeMap.<init>:133
+Finish org.mapdb.BTreeMap.<init>:133
+Starting org.openstreetmap.osmosis.osmbinary.Osmformat$DenseInfo$Builder.addTimestamp:4699
+Finish org.openstreetmap.osmosis.osmbinary.Osmformat$DenseInfo$Builder.addTimestamp:4699
+Starting org.openstreetmap.osmosis.osmbinary.Osmformat$DenseInfo$Builder.addChangeset:4744
+Finish org.openstreetmap.osmosis.osmbinary.Osmformat$DenseInfo$Builder.addChangeset:4744
+Starting org.mapdb.SerializerPojo.registerClass:242
+Finish org.mapdb.SerializerPojo.registerClass:242
+Starting org.mapdb.DB.createAtomicLong:1231
+Finish org.mapdb.DB.createAtomicLong:1231
+Starting org.mapdb.DataOutput2.write:74
+Finish org.mapdb.DataOutput2.write:74
+Starting com.conveyal.osmlib.VexOutput.writeTags:97
+Finish com.conveyal.osmlib.VexOutput.writeTags:97
+Starting org.openstreetmap.osmosis.osmbinary.Osmformat$StringTable$Builder.addS:3380
+Finish org.openstreetmap.osmosis.osmbinary.Osmformat$StringTable$Builder.addS:3380
+Starting org.openstreetmap.osmosis.osmbinary.Osmformat$Relation$Builder.addVals:8253
+Finish org.openstreetmap.osmosis.osmbinary.Osmformat$Relation$Builder.addVals:8253
+Starting ch.qos.logback.classic.LoggerContext.getLogger:107
+Finish ch.qos.logback.classic.LoggerContext.getLogger:107
+Starting ch.qos.logback.core.status.StatusUtil.getHighestLevel:94
+Finish ch.qos.logback.core.status.StatusUtil.getHighestLevel:94
+Starting com.conveyal.osmlib.OSMEntity.addTag:85
+Finish com.conveyal.osmlib.OSMEntity.addTag:85
+Starting org.openstreetmap.osmosis.osmbinary.Osmformat$DenseNodes$Builder.addId:6513
+Finish org.openstreetmap.osmosis.osmbinary.Osmformat$DenseNodes$Builder.addId:6513
+Starting com.google.protobuf.UnmodifiableLazyStringList$2.next:170
+Finish com.google.protobuf.UnmodifiableLazyStringList$2.next:170
+Starting ch.qos.logback.core.status.StatusUtil.filterStatusListByTimeThreshold:58
+Finish ch.qos.logback.core.status.StatusUtil.filterStatusListByTimeThreshold:58
+Starting org.mapdb.SerializerBase.serializeCollection:825
+Finish org.mapdb.SerializerBase.serializeCollection:825
+Starting org.mapdb.BTreeMap$DirNode.<init>:227
+Finish org.mapdb.BTreeMap$DirNode.<init>:227
+Starting org.mapdb.DB.getAll:1492
+Finish org.mapdb.DB.getAll:1492
+Starting ch.qos.logback.core.util.EnvUtil.isJDK_N_OrHigher:26
+Finish ch.qos.logback.core.util.EnvUtil.isJDK_N_OrHigher:26
+Starting com.conveyal.osmlib.OSM.writeWay:280
+Finish com.conveyal.osmlib.OSM.writeWay:280
+Starting org.openstreetmap.osmosis.osmbinary.Osmformat$PrimitiveGroup$Builder.addWays:2844
+Finish org.openstreetmap.osmosis.osmbinary.Osmformat$PrimitiveGroup$Builder.addWays:2844
+Starting org.mapdb.DB.catPut:110
+Finish org.mapdb.DB.catPut:110
+Starting org.mapdb.DB.namedPut:384
+Finish org.mapdb.DB.namedPut:384
+Starting ch.qos.logback.core.ContextBase.putObject:94
+Finish ch.qos.logback.core.ContextBase.putObject:94
+Starting ch.qos.logback.core.pattern.FormattingConverter.write:37
+Finish ch.qos.logback.core.pattern.FormattingConverter.write:37
+Starting ch.qos.logback.core.spi.AppenderAttachableImpl.appendLoopOnAppenders:46
+Finish ch.qos.logback.core.spi.AppenderAttachableImpl.appendLoopOnAppenders:46
+Starting org.openstreetmap.osmosis.osmbinary.Osmformat$Relation$Builder.addRolesSid:8341
+Finish org.openstreetmap.osmosis.osmbinary.Osmformat$Relation$Builder.addRolesSid:8341
+Starting org.openstreetmap.osmosis.osmbinary.Osmformat$Relation$Builder.addTypes:8434
+Finish org.openstreetmap.osmosis.osmbinary.Osmformat$Relation$Builder.addTypes:8434
+Starting ch.qos.logback.classic.util.ContextInitializer.statusOnResourceSearch:174
+Finish ch.qos.logback.classic.util.ContextInitializer.statusOnResourceSearch:174
+Starting org.mapdb.BTreeMap.isEmpty:1106
+Finish org.mapdb.BTreeMap.isEmpty:1106
+Starting com.conveyal.osmlib.StringTable.toBuilder:43
+Finish com.conveyal.osmlib.StringTable.toBuilder:43
+Starting com.google.protobuf.ByteString.copyFrom:206
+Finish com.google.protobuf.ByteString.copyFrom:206
+Starting org.mapdb.Store.serialize:152
+Finish org.mapdb.Store.serialize:152
+Starting com.google.protobuf.LiteralByteString.copyToInternal:117
+Finish com.google.protobuf.LiteralByteString.copyToInternal:117
+Starting org.mapdb.DBMaker.transactionDisable:309
+Finish org.mapdb.DBMaker.transactionDisable:309
+Starting com.google.protobuf.LazyStringArrayList.add:174
+Finish com.google.protobuf.LazyStringArrayList.add:174
+Starting org.slf4j.helpers.MessageFormatter.safeObjectAppend:297
+Finish org.slf4j.helpers.MessageFormatter.safeObjectAppend:297
+Starting ch.qos.logback.core.spi.FilterAttachableImpl.getFilterChainDecision:51
+Finish ch.qos.logback.core.spi.FilterAttachableImpl.getFilterChainDecision:51
+Starting org.openstreetmap.osmosis.osmbinary.Osmformat$Relation$Builder.addKeys:8208
+Finish org.openstreetmap.osmosis.osmbinary.Osmformat$Relation$Builder.addKeys:8208
+Starting com.conveyal.osmlib.VexInput.readRelation:133
+Finish com.conveyal.osmlib.VexInput.readRelation:133
+Starting org.openstreetmap.osmosis.osmbinary.Osmformat$HeaderBlock$Builder.mergeFrom:572
+Finish org.openstreetmap.osmosis.osmbinary.Osmformat$HeaderBlock$Builder.mergeFrom:572
+Starting com.google.protobuf.UnmodifiableLazyStringList$2.<init>:161
+Finish com.google.protobuf.UnmodifiableLazyStringList$2.<init>:161
+Starting org.openstreetmap.osmosis.osmbinary.Osmformat$DenseNodes$Builder.addLat:6601
+Finish org.openstreetmap.osmosis.osmbinary.Osmformat$DenseNodes$Builder.addLat:6601
+Starting org.openstreetmap.osmosis.osmbinary.Osmformat$DenseNodes$Builder.addLon:6646
+Finish org.openstreetmap.osmosis.osmbinary.Osmformat$DenseNodes$Builder.addLon:6646
+Starting org.openstreetmap.osmosis.osmbinary.BinaryParser.parse:105
+Finish org.openstreetmap.osmosis.osmbinary.BinaryParser.parse:105
+Starting org.mapdb.DB.catPut:104
+Finish org.mapdb.DB.catPut:104
+Starting com.conveyal.osmlib.DeflatedBlockReader.run:55
+Finish com.conveyal.osmlib.DeflatedBlockReader.run:55
+Starting com.conveyal.osmlib.RoundTripTest.testVexStream:59
+Finish com.conveyal.osmlib.RoundTripTest.testVexStream:59
+Starting ch.qos.logback.core.pattern.Converter.write:42
+Finish ch.qos.logback.core.pattern.Converter.write:42
+Starting org.slf4j.helpers.MessageFormatter.arrayFormat:180
+Finish org.slf4j.helpers.MessageFormatter.arrayFormat:180
+Starting com.google.common.io.ByteStreams.read:726
+Finish com.google.common.io.ByteStreams.read:726
+Starting com.conveyal.osmlib.NodeTrackerTest.testAgainstSet:15
+Finish com.conveyal.osmlib.NodeTrackerTest.testAgainstSet:15
+Starting com.google.protobuf.LazyStringArrayList.get:88
+Finish com.google.protobuf.LazyStringArrayList.get:88
+Starting ch.qos.logback.core.pattern.parser.TokenStream.addValuedToken:232
+Finish ch.qos.logback.core.pattern.parser.TokenStream.addValuedToken:232
+Starting com.conveyal.osmlib.PBFInput.parseRelations:157
+Finish com.conveyal.osmlib.PBFInput.parseRelations:157
+Starting com.conveyal.osmlib.PBFOutput.writeRelation:260
+Finish com.conveyal.osmlib.PBFOutput.writeRelation:260
+Starting com.conveyal.osmlib.StringTable.clear:37
+Finish com.conveyal.osmlib.StringTable.clear:37
+Starting org.openstreetmap.osmosis.osmbinary.Osmformat$PrimitiveGroup$Builder.addRelations:2933
+Finish org.openstreetmap.osmosis.osmbinary.Osmformat$PrimitiveGroup$Builder.addRelations:2933
+Starting ch.qos.logback.classic.Logger.createChildByName:355
+Finish ch.qos.logback.classic.Logger.createChildByName:355
+Starting ch.qos.logback.core.BasicStatusManager.fireStatusAddEvent:85
+Finish ch.qos.logback.core.BasicStatusManager.fireStatusAddEvent:85
+Starting ch.qos.logback.core.pattern.PatternLayoutBase.writeLoopOnConverters:116
+Finish ch.qos.logback.core.pattern.PatternLayoutBase.writeLoopOnConverters:116
+Starting org.slf4j.helpers.FormattingTuple.<init>:45
+Finish org.slf4j.helpers.FormattingTuple.<init>:45
+Starting com.conveyal.osmlib.PBFInput.parseNodes:65
+Finish com.conveyal.osmlib.PBFInput.parseNodes:65
+Starting org.mapdb.DB.createTreeSet:1025
+Finish org.mapdb.DB.createTreeSet:1025
+Starting org.mapdb.AsyncWriteEngine$WriterRunnable.run:164
+Finish org.mapdb.AsyncWriteEngine$WriterRunnable.run:164
+Starting org.mapdb.DB.<init>:38
+Finish org.mapdb.DB.<init>:38
+Starting org.openstreetmap.osmosis.osmbinary.Osmformat$Way$Builder.addKeys:7286
+Finish org.openstreetmap.osmosis.osmbinary.Osmformat$Way$Builder.addKeys:7286
+Starting org.openstreetmap.osmosis.osmbinary.Osmformat$Way$Builder.addVals:7331
+Finish org.openstreetmap.osmosis.osmbinary.Osmformat$Way$Builder.addVals:7331
+Starting ch.qos.logback.classic.PatternLayout.<clinit>:61
+Finish ch.qos.logback.classic.PatternLayout.<clinit>:61
+Starting org.openstreetmap.osmosis.osmbinary.Osmformat$PrimitiveBlock$Builder.addPrimitivegroup:1993
+Finish org.openstreetmap.osmosis.osmbinary.Osmformat$PrimitiveBlock$Builder.addPrimitivegroup:1993
+Starting org.openstreetmap.osmosis.osmbinary.Osmformat$Way$Builder.addRefs:7419
+Finish org.openstreetmap.osmosis.osmbinary.Osmformat$Way$Builder.addRefs:7419
+Starting org.mapdb.BTreeMap.arrayPut:2839
+Finish org.mapdb.BTreeMap.arrayPut:2839
+Starting org.mapdb.DB$BTreeMapMaker.makeOrGet:648
+Finish org.mapdb.DB$BTreeMapMaker.makeOrGet:648
+Starting org.openstreetmap.osmosis.osmbinary.Osmformat$PrimitiveBlock$Builder.addPrimitivegroup:2013
+Finish org.openstreetmap.osmosis.osmbinary.Osmformat$PrimitiveBlock$Builder.addPrimitivegroup:2013
+Starting ch.qos.logback.core.BasicStatusManager.add:59
+Finish ch.qos.logback.core.BasicStatusManager.add:59
+Starting com.conveyal.osmlib.VexOutput.writeEnd:127
+Finish com.conveyal.osmlib.VexOutput.writeEnd:127
+Starting com.conveyal.osmlib.PBFOutput.writeNode:201
+Finish com.conveyal.osmlib.PBFOutput.writeNode:201
+Starting org.mapdb.BTreeMap.arrayLongPut:2829
+Finish org.mapdb.BTreeMap.arrayLongPut:2829
+Starting org.mapdb.EngineWrapper$CloseOnJVMShutdown.<init>:562
+Finish org.mapdb.EngineWrapper$CloseOnJVMShutdown.<init>:562
+Starting org.mapdb.EngineWrapper$CloseOnJVMShutdown$1.run:567
+Finish org.mapdb.EngineWrapper$CloseOnJVMShutdown$1.run:567
+Starting com.conveyal.osmlib.PBFOutput.run:304
+Finish com.conveyal.osmlib.PBFOutput.run:304
+Starting ch.qos.logback.core.pattern.parser.OptionTokenizer.emitOptionToken:138
+Finish ch.qos.logback.core.pattern.parser.OptionTokenizer.emitOptionToken:138
+Starting org.openstreetmap.osmosis.osmbinary.Osmformat$StringTable$Builder.mergeFrom:3328
+Finish org.openstreetmap.osmosis.osmbinary.Osmformat$StringTable$Builder.mergeFrom:3328
+Starting org.mapdb.SerializerBase.deserializeArrayList:1601
+Finish org.mapdb.SerializerBase.deserializeArrayList:1601
+Starting ch.qos.logback.core.pattern.SpacePadder.rightPad:37
+Finish ch.qos.logback.core.pattern.SpacePadder.rightPad:37
+Starting ch.qos.logback.core.pattern.SpacePadder.spacePad:53
+Finish ch.qos.logback.core.pattern.SpacePadder.spacePad:53
+Starting com.conveyal.osmlib.DeflatedBlockWriter.run:83
+Finish com.conveyal.osmlib.DeflatedBlockWriter.run:83
+Starting ch.qos.logback.core.pattern.PatternLayoutBase.getEffectiveConverterMap:52
+Finish ch.qos.logback.core.pattern.PatternLayoutBase.getEffectiveConverterMap:52
+Starting org.openstreetmap.osmosis.osmbinary.Osmformat$DenseInfo$Builder.addUid:4789
+Finish org.openstreetmap.osmosis.osmbinary.Osmformat$DenseInfo$Builder.addUid:4789
+Starting com.conveyal.osmlib.PBFInput.parseWays:126
+Finish com.conveyal.osmlib.PBFInput.parseWays:126
+Starting org.mapdb.BTreeMap.put:642
+Finish org.mapdb.BTreeMap.put:642
+Starting org.mapdb.SerializerBase$singletons.<clinit>:1418
+Finish org.mapdb.SerializerBase$singletons.<clinit>:1418
+Starting gnu.trove.map.hash.TObjectIntHashMap.rehash:175
+Finish gnu.trove.map.hash.TObjectIntHashMap.rehash:175
+Starting ch.qos.logback.core.BasicStatusManager.getCopyOfStatusList:77
+Finish ch.qos.logback.core.BasicStatusManager.getCopyOfStatusList:77
+Starting org.mapdb.BTreeMap.put2:647
+Finish org.mapdb.BTreeMap.put2:647
+Starting org.openstreetmap.osmosis.osmbinary.Osmformat$DenseNodes$Builder.addKeysVals:6691
+Finish org.openstreetmap.osmosis.osmbinary.Osmformat$DenseNodes$Builder.addKeysVals:6691
+Starting org.mapdb.AsyncWriteEngine.startThreads:191
+Finish org.mapdb.AsyncWriteEngine.startThreads:191
+Starting com.conveyal.osmlib.VEXBlock.writeDeflated:96
+Finish com.conveyal.osmlib.VEXBlock.writeDeflated:96
+Starting org.mapdb.BTreeMap$LeafNode.<init>:264
+Finish org.mapdb.BTreeMap$LeafNode.<init>:264
+Starting com.conveyal.osmlib.OSM.writeNode:273
+Finish com.conveyal.osmlib.OSM.writeNode:273
+Starting org.mapdb.SerializerPojo.getFields:292
+Finish org.mapdb.SerializerPojo.getFields:292
+Starting com.conveyal.osmlib.PBFInput.parse:200
+Finish com.conveyal.osmlib.PBFInput.parse:200
+Starting com.conveyal.osmlib.DeflatedBlockWriter.<init>:34
+Finish com.conveyal.osmlib.DeflatedBlockWriter.<init>:34
+Starting com.conveyal.osmlib.DeflatedBlockReader.<init>:21
+Finish com.conveyal.osmlib.DeflatedBlockReader.<init>:21
+Starting com.conveyal.osmlib.OSM.copyTo:192
+Finish com.conveyal.osmlib.OSM.copyTo:192
+Starting com.conveyal.osmlib.serializer.VarInt.writeTags:227
+Finish com.conveyal.osmlib.serializer.VarInt.writeTags:227
+Starting com.conveyal.osmlib.OSMEntity.getTag:41
+Finish com.conveyal.osmlib.OSMEntity.getTag:41
+Starting com.google.protobuf.UnmodifiableLazyStringList$2.hasNext:165
+Finish com.google.protobuf.UnmodifiableLazyStringList$2.hasNext:165
+Starting org.mapdb.SerializerPojo.createInstanceSkippinkConstructor:557
+Finish org.mapdb.SerializerPojo.createInstanceSkippinkConstructor:557
+Starting ch.qos.logback.core.pattern.parser.TokenStream.handleLiteralState:162
+Finish ch.qos.logback.core.pattern.parser.TokenStream.handleLiteralState:162
+Starting com.conveyal.osmlib.VexOutput.writeRelation:162
+Finish com.conveyal.osmlib.VexOutput.writeRelation:162
+Starting org.mapdb.SerializerBase$FastArrayList.add:54
+Finish org.mapdb.SerializerBase$FastArrayList.add:54
+Starting org.mapdb.SerializerBase$FastArrayList.<init>:50
+Finish org.mapdb.SerializerBase$FastArrayList.<init>:50
+Starting com.conveyal.osmlib.OSM.writeRelation:302
+Finish com.conveyal.osmlib.OSM.writeRelation:302
+Starting ch.qos.logback.core.pattern.parser.Parser.<clinit>:49
+Finish ch.qos.logback.core.pattern.parser.Parser.<clinit>:49
+Starting ch.qos.logback.classic.LoggerContext.fireOnLevelChange:305
+Finish ch.qos.logback.classic.LoggerContext.fireOnLevelChange:305
+Starting org.mapdb.SerializerBase.serialize2:155
+Finish org.mapdb.SerializerBase.serialize2:155
+Starting org.openstreetmap.osmosis.osmbinary.Osmformat$Relation$Builder.addMemids:8386
+Finish org.openstreetmap.osmosis.osmbinary.Osmformat$Relation$Builder.addMemids:8386
+Starting org.mapdb.SerializerPojo$ClassInfo.<init>:130
+Finish org.mapdb.SerializerPojo$ClassInfo.<init>:130
+Starting org.mapdb.DB.checkNameNotExists:1543
+Finish org.mapdb.DB.checkNameNotExists:1543
+Starting ch.qos.logback.classic.spi.TurboFilterList.<clinit>:0
+Finish ch.qos.logback.classic.spi.TurboFilterList.<clinit>:0
+Starting ch.qos.logback.classic.LoggerContext.<init>:50
+Finish ch.qos.logback.classic.LoggerContext.<init>:50
+Starting ch.qos.logback.classic.spi.LoggingEvent.<init>:107
+Finish ch.qos.logback.classic.spi.LoggingEvent.<init>:107
+Starting com.conveyal.osmlib.RoundTripTest.compareMap:99
+Finish com.conveyal.osmlib.RoundTripTest.compareMap:99
+Starting org.mapdb.DB.getAtomicLong:1244
+Finish org.mapdb.DB.getAtomicLong:1244
+Starting org.mapdb.Volume.fileFactory:184
+Finish org.mapdb.Volume.fileFactory:184
+Starting ch.qos.logback.core.pattern.parser.OptionTokenizer.tokenize:61
+Finish ch.qos.logback.core.pattern.parser.OptionTokenizer.tokenize:61
+Starting org.slf4j.helpers.SubstituteLoggerFactory.getLoggers:61
+Finish org.slf4j.helpers.SubstituteLoggerFactory.getLoggers:61
+
+#1
+Inspecting hot method ch.qos.logback.core.pattern.FormattingConverter.write:37...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+223680458,31954378,0,31954378
+Total 223680458 (26 unique) events are in hot method
+Total 31954378 (4 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 31954378 (4 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 367475535 (48 unique) events are in non-isolated traces (223680458 / 26 unique are in hot method)
+Specs that have non-isolated traces:
+	Appendable_ThreadSafe (15977189 traces / 2 unique traces) (175749173 events / 23 unique events) (111840229 events / 13 unique events in hot method)
+	StringBuilder_ThreadSafe (15977189 traces / 2 unique traces) (191726362 events / 25 unique events) (111840229 events / 13 unique events in hot method)
+Classifier (ch.qos.logback.core.pattern.FormattingConverter.write:37): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#2
+Inspecting hot method ch.qos.logback.core.spi.AppenderAttachableImpl.appendLoopOnAppenders:46...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+143794701,63908756,63908756,0
+Total 143794701 (9 unique) events are in hot method
+Total 63908756 (4 unique) traces are in hot method
+Total 63908756 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 143794701 (9 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (15977189 traces / 1 unique traces) (63908756 events / 4 unique events)
+	Iterator_HasNext (15977189 traces / 1 unique traces) (47931567 events / 3 unique events)
+	ListIterator_RemoveOnce (15977189 traces / 1 unique traces) (15977189 events / 1 unique events)
+	Iterator_RemoveOnce (15977189 traces / 1 unique traces) (15977189 events / 1 unique events)
+Classifier (ch.qos.logback.core.spi.AppenderAttachableImpl.appendLoopOnAppenders:46): LIB,ISOLATED_ONE_UNIQUE
+
+#3
+Inspecting hot method ch.qos.logback.core.pattern.Converter.write:42...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+127817512,31954378,0,31954378
+Total 127817512 (16 unique) events are in hot method
+Total 31954378 (4 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 31954378 (4 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 367475535 (48 unique) events are in non-isolated traces (127817512 / 16 unique are in hot method)
+Specs that have non-isolated traces:
+	Appendable_ThreadSafe (15977189 traces / 2 unique traces) (175749173 events / 23 unique events) (63908756 events / 8 unique events in hot method)
+	StringBuilder_ThreadSafe (15977189 traces / 2 unique traces) (191726362 events / 25 unique events) (63908756 events / 8 unique events in hot method)
+Classifier (ch.qos.logback.core.pattern.Converter.write:42): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#4
+Inspecting hot method org.slf4j.helpers.MessageFormatter.arrayFormat:180...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+111839896,31954312,0,31954312
+Total 111839896 (21 unique) events are in hot method
+Total 31954312 (6 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 31954312 (6 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 175748324 (33 unique) events are in non-isolated traces (111839896 / 21 unique are in hot method)
+Specs that have non-isolated traces:
+	StringBuilder_ThreadSafe (15977156 traces / 3 unique traces) (95862740 events / 18 unique events) (63908526 events / 12 unique events in hot method)
+	Appendable_ThreadSafe (15977156 traces / 3 unique traces) (79885584 events / 15 unique events) (47931370 events / 9 unique events in hot method)
+Classifier (org.slf4j.helpers.MessageFormatter.arrayFormat:180): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#5
+Inspecting hot method org.slf4j.helpers.MessageFormatter.safeObjectAppend:297...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+63908428,31954312,0,31954312
+Total 63908428 (12 unique) events are in hot method
+Total 31954312 (6 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 31954312 (6 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 175748324 (33 unique) events are in non-isolated traces (63908428 / 12 unique are in hot method)
+Specs that have non-isolated traces:
+	StringBuilder_ThreadSafe (15977156 traces / 3 unique traces) (95862740 events / 18 unique events) (31954214 events / 6 unique events in hot method)
+	Appendable_ThreadSafe (15977156 traces / 3 unique traces) (79885584 events / 15 unique events) (31954214 events / 6 unique events in hot method)
+Classifier (org.slf4j.helpers.MessageFormatter.safeObjectAppend:297): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#6
+Inspecting hot method ch.qos.logback.core.spi.FilterAttachableImpl.getFilterChainDecision:51...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+47931567,31954378,31954378,0
+Total 47931567 (3 unique) events are in hot method
+Total 31954378 (2 unique) traces are in hot method
+Total 31954378 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 47931567 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (15977189 traces / 1 unique traces) (31954378 events / 2 unique events)
+	Iterator_HasNext (15977189 traces / 1 unique traces) (15977189 events / 1 unique events)
+Classifier (ch.qos.logback.core.spi.FilterAttachableImpl.getFilterChainDecision:51): LIB,ISOLATED_ONE_UNIQUE
+
+#7
+Inspecting hot method ch.qos.logback.core.pattern.PatternLayoutBase.writeLoopOnConverters:116...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+15977189,15977189,0,15977189
+Total 15977189 (2 unique) events are in hot method
+Total 15977189 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 15977189 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 191726362 (25 unique) events are in non-isolated traces (15977189 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	StringBuilder_ThreadSafe (15977189 traces / 2 unique traces) (191726362 events / 25 unique events) (15977189 events / 2 unique events in hot method)
+Classifier (ch.qos.logback.core.pattern.PatternLayoutBase.writeLoopOnConverters:116): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#8
+Inspecting hot method org.slf4j.helpers.FormattingTuple.<init>:45...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+15977156,15977156,0,15977156
+Total 15977156 (1 unique) events are in hot method
+Total 15977156 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 15977156 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 31954312 (2 unique) events are in non-isolated traces (15977156 / 1 unique are in hot method)
+Specs that have non-isolated traces:
+	Arrays_SortBeforeBinarySearch (15977156 traces / 1 unique traces) (31954312 events / 2 unique events) (15977156 events / 1 unique events in hot method)
+Classifier (org.slf4j.helpers.FormattingTuple.<init>:45): LIB,NOT_ISOLATED_ONE_UNIQUE
+
+#9
+Inspecting hot method ch.qos.logback.classic.spi.LoggingEvent.<init>:107...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+15977156,15977156,0,15977156
+Total 15977156 (1 unique) events are in hot method
+Total 15977156 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 15977156 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 31954312 (2 unique) events are in non-isolated traces (15977156 / 1 unique are in hot method)
+Specs that have non-isolated traces:
+	Arrays_SortBeforeBinarySearch (15977156 traces / 1 unique traces) (31954312 events / 2 unique events) (15977156 events / 1 unique events in hot method)
+Classifier (ch.qos.logback.classic.spi.LoggingEvent.<init>:107): LIB,NOT_ISOLATED_ONE_UNIQUE
+
+#10
+Inspecting hot method com.conveyal.osmlib.RoundTripTest.compareMap:99...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+14782584,57,36,21
+Total 14782584 (6335399 unique) events are in hot method
+Total 57 (26 unique) traces are in hot method
+Total 36 (14 unique) isolated traces are in hot method
+Total 21 (12 unique) non-isolated traces that have events in hot method
+Total 11966835 (4927523 unique) events are in isolated traces
+Total 4223634 (2815752 unique) events are in non-isolated traces (2815749 / 1407876 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (9 traces / 3 unique traces) (4223592 events / 1407864 unique events)
+	Iterator_HasNext (9 traces / 3 unique traces) (4223583 events / 1407861 unique events)
+	Iterator_RemoveOnce (9 traces / 3 unique traces) (2111787 events / 703929 unique events)
+	Map_UnsafeIterator (6 traces / 4 unique traces) (1407870 events / 1407868 unique events)
+	Map_CollectionViewAdd (3 traces / 1 unique traces) (3 events / 1 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (15 traces / 9 unique traces) (4223622 events / 2815746 unique events) (2815743 events / 1407873 unique events in hot method)
+	Map_CollectionViewAdd (6 traces / 3 unique traces) (12 events / 6 unique events) (6 events / 3 unique events in hot method)
+Classifier (com.conveyal.osmlib.RoundTripTest.compareMap:99): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#11
+Inspecting hot method com.conveyal.osmlib.OSM.copyTo:192...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+9855060,42,21,21
+Total 9855060 (6335397 unique) events are in hot method
+Total 42 (24 unique) traces are in hot method
+Total 21 (12 unique) isolated traces are in hot method
+Total 21 (12 unique) non-isolated traces that have events in hot method
+Total 8447175 (4927521 unique) events are in isolated traces
+Total 4223634 (2815752 unique) events are in non-isolated traces (1407885 / 1407876 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (6 traces / 3 unique traces) (2815722 events / 1407861 unique events)
+	Collection_UnsafeIterator (6 traces / 3 unique traces) (2815728 events / 1407864 unique events)
+	Iterator_RemoveOnce (6 traces / 3 unique traces) (1407858 events / 703929 unique events)
+	Map_UnsafeIterator (3 traces / 3 unique traces) (1407867 events / 1407867 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (15 traces / 9 unique traces) (4223622 events / 2815746 unique events) (1407879 events / 1407873 unique events in hot method)
+	Map_CollectionViewAdd (6 traces / 3 unique traces) (12 events / 6 unique events) (6 events / 3 unique events in hot method)
+Classifier (com.conveyal.osmlib.OSM.copyTo:192): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#12
+Inspecting hot method com.conveyal.osmlib.serializer.VarInt.writeTags:227...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+9835509,2113989,2113989,0
+Total 9835509 (1459 unique) events are in hot method
+Total 2113989 (69 unique) traces are in hot method
+Total 2113989 (69 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 9835509 (1459 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (704663 traces / 23 unique traces) (1544304 events / 278 unique events)
+	Iterator_HasNext (704663 traces / 23 unique traces) (3793271 events / 579 unique events)
+	Collection_UnsafeIterator (704663 traces / 23 unique traces) (4497934 events / 602 unique events)
+Classifier (com.conveyal.osmlib.serializer.VarInt.writeTags:227): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#13
+Inspecting hot method org.mapdb.BTreeMap$LeafNode.<init>:264...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+9548332,9548332,9548332,0
+Total 9548332 (2 unique) events are in hot method
+Total 9548332 (2 unique) traces are in hot method
+Total 9548332 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 9548332 (2 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Arrays_SortBeforeBinarySearch (9548332 traces / 2 unique traces) (9548332 events / 2 unique events)
+Classifier (org.mapdb.BTreeMap$LeafNode.<init>:264): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#14
+Inspecting hot method com.conveyal.osmlib.OSM.writeNode:273...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+7383310,2,0,2
+Total 7383310 (7383310 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 8527910 (8527910 unique) events are in non-isolated traces (7383310 / 7383310 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (4263955 events / 4263955 unique events) (3691655 events / 3691655 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (4263955 events / 4263955 unique events) (3691655 events / 3691655 unique events in hot method)
+Classifier (com.conveyal.osmlib.OSM.writeNode:273): CUT,NOT_REDUNDANT_TRACES
+
+#15
+Inspecting hot method org.openstreetmap.osmosis.osmbinary.Osmformat$Way$Builder.addRefs:7419...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+4799358,564846,564846,0
+Total 4799358 (36516 unique) events are in hot method
+Total 564846 (216 unique) traces are in hot method
+Total 564846 (216 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 4799358 (36516 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (564846 traces / 216 unique traces) (4799358 events / 36516 unique events)
+Classifier (org.openstreetmap.osmosis.osmbinary.Osmformat$Way$Builder.addRefs:7419): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#16
+Inspecting hot method org.mapdb.BTreeMap.arrayPut:2839...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+4529038,1,0,1
+Total 4529038 (4529038 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 8329472 (8329472 unique) events are in non-isolated traces (4529038 / 4529038 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (8329472 events / 8329472 unique events) (4529038 events / 4529038 unique events in hot method)
+Classifier (org.mapdb.BTreeMap.arrayPut:2839): LIB,NOT_REDUNDANT_TRACES
+
+#17
+Inspecting hot method org.mapdb.BTreeMap.put2:647...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+4262650,29,29,0
+Total 4262650 (4262593 unique) events are in hot method
+Total 29 (5 unique) traces are in hot method
+Total 29 (5 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 4262650 (4262593 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (28 traces / 4 unique traces) (67 events / 10 unique events)
+	Object_MonitorOwner (1 traces / 1 unique traces) (4262583 events / 4262583 unique events)
+Classifier (org.mapdb.BTreeMap.put2:647): LIB,ISOLATED_MULTIPLE_UNIQUE,RAW_ISOLATED_SINGLE_TRACE
+
+#18
+Inspecting hot method org.openstreetmap.osmosis.osmbinary.Osmformat$DenseNodes$Builder.addKeysVals:6691...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+4188975,163,163,0
+Total 4188975 (1389029 unique) events are in hot method
+Total 163 (79 unique) traces are in hot method
+Total 163 (79 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 4188975 (1389029 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (163 traces / 79 unique traces) (4188975 events / 1389029 unique events)
+Classifier (org.openstreetmap.osmosis.osmbinary.Osmformat$DenseNodes$Builder.addKeysVals:6691): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#19
+Inspecting hot method com.conveyal.osmlib.OSMEntity.addTag:85...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+4069550,1826576,1826574,2
+Total 4069550 (622 unique) events are in hot method
+Total 1826576 (28 unique) traces are in hot method
+Total 1826574 (27 unique) isolated traces are in hot method
+Total 2 (1 unique) non-isolated traces that have events in hot method
+Total 4069546 (620 unique) events are in isolated traces
+Total 10 (5 unique) events are in non-isolated traces (4 / 2 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1826574 traces / 27 unique traces) (4069546 events / 620 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (2 traces / 1 unique traces) (10 events / 5 unique events) (4 events / 2 unique events in hot method)
+Classifier (com.conveyal.osmlib.OSMEntity.addTag:85): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_ONE_UNIQUE
+
+#20
+Inspecting hot method org.openstreetmap.osmosis.osmbinary.Osmformat$DenseNodes$Builder.addId:6513...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+3691655,163,163,0
+Total 3691655 (630308 unique) events are in hot method
+Total 163 (5 unique) traces are in hot method
+Total 163 (5 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3691655 (630308 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (163 traces / 5 unique traces) (3691655 events / 630308 unique events)
+Classifier (org.openstreetmap.osmosis.osmbinary.Osmformat$DenseNodes$Builder.addId:6513): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#21
+Inspecting hot method org.openstreetmap.osmosis.osmbinary.Osmformat$DenseNodes$Builder.addLat:6601...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+3691655,163,163,0
+Total 3691655 (630308 unique) events are in hot method
+Total 163 (5 unique) traces are in hot method
+Total 163 (5 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3691655 (630308 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (163 traces / 5 unique traces) (3691655 events / 630308 unique events)
+Classifier (org.openstreetmap.osmosis.osmbinary.Osmformat$DenseNodes$Builder.addLat:6601): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#22
+Inspecting hot method org.openstreetmap.osmosis.osmbinary.Osmformat$DenseNodes$Builder.addLon:6646...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+3691655,163,163,0
+Total 3691655 (630308 unique) events are in hot method
+Total 163 (5 unique) traces are in hot method
+Total 163 (5 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3691655 (630308 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (163 traces / 5 unique traces) (3691655 events / 630308 unique events)
+Classifier (org.openstreetmap.osmosis.osmbinary.Osmformat$DenseNodes$Builder.addLon:6646): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#23
+Inspecting hot method org.mapdb.DataOutput2.write:74...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+3305880,1,0,1
+Total 3305880 (3305880 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 8329472 (8329472 unique) events are in non-isolated traces (3305880 / 3305880 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (8329472 events / 8329472 unique events) (3305880 events / 3305880 unique events in hot method)
+Classifier (org.mapdb.DataOutput2.write:74): LIB,NOT_REDUNDANT_TRACES
+
+#24
+Inspecting hot method com.conveyal.osmlib.VexOutput.writeTags:97...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+3274102,704832,704832,0
+Total 3274102 (2807 unique) events are in hot method
+Total 704832 (72 unique) traces are in hot method
+Total 704832 (72 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3274102 (2807 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (234944 traces / 24 unique traces) (1497596 events / 1142 unique events)
+	Iterator_HasNext (234944 traces / 24 unique traces) (1262652 events / 1118 unique events)
+	Iterator_RemoveOnce (234944 traces / 24 unique traces) (513854 events / 547 unique events)
+Classifier (com.conveyal.osmlib.VexOutput.writeTags:97): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#25
+Inspecting hot method org.openstreetmap.osmosis.osmbinary.Osmformat$DenseInfo$Builder.addTimestamp:4699...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+2437272,4,4,0
+Total 2437272 (609318 unique) events are in hot method
+Total 4 (1 unique) traces are in hot method
+Total 4 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2437272 (609318 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (4 traces / 1 unique traces) (2437272 events / 609318 unique events)
+Classifier (org.openstreetmap.osmosis.osmbinary.Osmformat$DenseInfo$Builder.addTimestamp:4699): LIB,ISOLATED_ONE_UNIQUE
+
+#26
+Inspecting hot method org.openstreetmap.osmosis.osmbinary.Osmformat$DenseInfo$Builder.addChangeset:4744...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+2437272,4,4,0
+Total 2437272 (609318 unique) events are in hot method
+Total 4 (1 unique) traces are in hot method
+Total 4 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2437272 (609318 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (4 traces / 1 unique traces) (2437272 events / 609318 unique events)
+Classifier (org.openstreetmap.osmosis.osmbinary.Osmformat$DenseInfo$Builder.addChangeset:4744): LIB,ISOLATED_ONE_UNIQUE
+
+#27
+Inspecting hot method org.openstreetmap.osmosis.osmbinary.Osmformat$DenseInfo$Builder.addVersion:4654...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+2437272,4,4,0
+Total 2437272 (609318 unique) events are in hot method
+Total 4 (1 unique) traces are in hot method
+Total 4 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2437272 (609318 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (4 traces / 1 unique traces) (2437272 events / 609318 unique events)
+Classifier (org.openstreetmap.osmosis.osmbinary.Osmformat$DenseInfo$Builder.addVersion:4654): LIB,ISOLATED_ONE_UNIQUE
+
+#28
+Inspecting hot method org.openstreetmap.osmosis.osmbinary.Osmformat$DenseInfo$Builder.addUserSid:4834...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+2437272,4,4,0
+Total 2437272 (609318 unique) events are in hot method
+Total 4 (1 unique) traces are in hot method
+Total 4 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2437272 (609318 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (4 traces / 1 unique traces) (2437272 events / 609318 unique events)
+Classifier (org.openstreetmap.osmosis.osmbinary.Osmformat$DenseInfo$Builder.addUserSid:4834): LIB,ISOLATED_ONE_UNIQUE
+
+#29
+Inspecting hot method org.openstreetmap.osmosis.osmbinary.Osmformat$DenseInfo$Builder.addUid:4789...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+2437272,4,4,0
+Total 2437272 (609318 unique) events are in hot method
+Total 4 (1 unique) traces are in hot method
+Total 4 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2437272 (609318 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (4 traces / 1 unique traces) (2437272 events / 609318 unique events)
+Classifier (org.openstreetmap.osmosis.osmbinary.Osmformat$DenseInfo$Builder.addUid:4789): LIB,ISOLATED_ONE_UNIQUE
+
+#30
+Inspecting hot method com.conveyal.osmlib.PBFInput.parseWays:126...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+2356332,53,51,2
+Total 2356332 (551568 unique) events are in hot method
+Total 53 (14 unique) traces are in hot method
+Total 51 (12 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 2356056 (551292 unique) events are in isolated traces
+Total 912 (912 unique) events are in non-isolated traces (276 / 276 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (17 traces / 4 unique traces) (471201 events / 110256 unique events)
+	Iterator_HasNext (17 traces / 4 unique traces) (942419 events / 220516 unique events)
+	Collection_UnsafeIterator (17 traces / 4 unique traces) (942436 events / 220520 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (608 events / 608 unique events) (184 events / 184 unique events in hot method)
+	Iterator_HasNext (1 traces / 1 unique traces) (304 events / 304 unique events) (92 events / 92 unique events in hot method)
+Classifier (com.conveyal.osmlib.PBFInput.parseWays:126): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_SINGLE_TRACE
+
+#31
+Inspecting hot method com.conveyal.osmlib.StringTable.getCode:27...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+1413266,90,0,90
+Total 1413266 (1413266 unique) events are in hot method
+Total 90 (90 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 90 (90 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 1493023 (1493023 unique) events are in non-isolated traces (1413266 / 1413266 unique are in hot method)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (89 traces / 89 unique traces) (1454843 events / 1454843 unique events) (1375267 events / 1375267 unique events in hot method)
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (38180 events / 38180 unique events) (37999 events / 37999 unique events in hot method)
+Classifier (com.conveyal.osmlib.StringTable.getCode:27): CUT,NOT_REDUNDANT_TRACES
+
+#32
+Inspecting hot method com.conveyal.osmlib.PBFOutput.writeWay:233...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+1342825,279705,279705,0
+Total 1342825 (1007 unique) events are in hot method
+Total 279705 (57 unique) traces are in hot method
+Total 279705 (57 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1342825 (1007 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (93235 traces / 19 unique traces) (518483 events / 399 unique events)
+	Collection_UnsafeIterator (93235 traces / 19 unique traces) (611718 events / 418 unique events)
+	Iterator_RemoveOnce (93235 traces / 19 unique traces) (212624 events / 190 unique events)
+Classifier (com.conveyal.osmlib.PBFOutput.writeWay:233): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#33
+Inspecting hot method org.openstreetmap.osmosis.osmbinary.Osmformat$Way$Builder.addKeys:7286...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+1293508,562364,562364,0
+Total 1293508 (210 unique) events are in hot method
+Total 562364 (20 unique) traces are in hot method
+Total 562364 (20 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1293508 (210 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (562364 traces / 20 unique traces) (1293508 events / 210 unique events)
+Classifier (org.openstreetmap.osmosis.osmbinary.Osmformat$Way$Builder.addKeys:7286): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#34
+Inspecting hot method org.openstreetmap.osmosis.osmbinary.Osmformat$Way$Builder.addVals:7331...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+1293508,562364,562364,0
+Total 1293508 (210 unique) events are in hot method
+Total 562364 (20 unique) traces are in hot method
+Total 562364 (20 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1293508 (210 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (562364 traces / 20 unique traces) (1293508 events / 210 unique events)
+Classifier (org.openstreetmap.osmosis.osmbinary.Osmformat$Way$Builder.addVals:7331): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#35
+Inspecting hot method com.conveyal.osmlib.OSM.writeWay:280...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+1129692,2,0,2
+Total 1129692 (1129692 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 8527910 (8527910 unique) events are in non-isolated traces (1129692 / 1129692 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (4263955 events / 4263955 unique events) (564846 events / 564846 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (4263955 events / 4263955 unique events) (564846 events / 564846 unique events in hot method)
+Classifier (com.conveyal.osmlib.OSM.writeWay:280): CUT,NOT_REDUNDANT_TRACES
+
+#36
+Inspecting hot method org.openstreetmap.osmosis.osmbinary.Osmformat$PrimitiveGroup$Builder.addWays:2844...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+564846,29,29,0
+Total 564846 (110256 unique) events are in hot method
+Total 29 (4 unique) traces are in hot method
+Total 29 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 564846 (110256 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (29 traces / 4 unique traces) (564846 events / 110256 unique events)
+Classifier (org.openstreetmap.osmosis.osmbinary.Osmformat$PrimitiveGroup$Builder.addWays:2844): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#37
+Inspecting hot method org.mapdb.SerializerBase.serializeCollection:825...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+431922,34872,34872,0
+Total 431922 (28325 unique) events are in hot method
+Total 34872 (255 unique) traces are in hot method
+Total 34872 (255 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 431922 (28325 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (11624 traces / 85 unique traces) (79410 events / 5614 unique events)
+	Collection_UnsafeIterator (11624 traces / 85 unique traces) (182068 events / 11398 unique events)
+	Iterator_HasNext (11624 traces / 85 unique traces) (170444 events / 11313 unique events)
+Classifier (org.mapdb.SerializerBase.serializeCollection:825): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#38
+Inspecting hot method org.mapdb.BTreeMap$DirNode.<init>:227...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+285946,285946,285946,0
+Total 285946 (1 unique) events are in hot method
+Total 285946 (1 unique) traces are in hot method
+Total 285946 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 285946 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Arrays_SortBeforeBinarySearch (285946 traces / 1 unique traces) (285946 events / 1 unique events)
+Classifier (org.mapdb.BTreeMap$DirNode.<init>:227): LIB,ISOLATED_ONE_UNIQUE
+
+#39
+Inspecting hot method com.conveyal.osmlib.PBFOutput.writeNode:201...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+274516,69831,69831,0
+Total 274516 (1258 unique) events are in hot method
+Total 69831 (63 unique) traces are in hot method
+Total 69831 (63 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 274516 (1258 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (23277 traces / 21 unique traces) (105151 events / 499 unique events)
+	Collection_UnsafeIterator (23277 traces / 21 unique traces) (128428 events / 520 unique events)
+	Iterator_RemoveOnce (23277 traces / 21 unique traces) (40937 events / 239 unique events)
+Classifier (com.conveyal.osmlib.PBFOutput.writeNode:201): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#40
+Inspecting hot method org.mapdb.BTreeMap.arrayLongPut:2829...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+266245,1,0,1
+Total 266245 (266245 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 8329472 (8329472 unique) events are in non-isolated traces (266245 / 266245 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (8329472 events / 8329472 unique events) (266245 events / 266245 unique events in hot method)
+Classifier (org.mapdb.BTreeMap.arrayLongPut:2829): LIB,NOT_REDUNDANT_TRACES
+
+#41
+Inspecting hot method com.conveyal.osmlib.StringTable.toBuilder:43...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+190715,270,181,89
+Total 190715 (189544 unique) events are in hot method
+Total 270 (262 unique) traces are in hot method
+Total 181 (173 unique) isolated traces are in hot method
+Total 89 (89 unique) non-isolated traces that have events in hot method
+Total 117299 (116128 unique) events are in isolated traces
+Total 1454843 (1454843 unique) events are in non-isolated traces (73416 / 73416 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (90 traces / 86 unique traces) (76268 events / 75486 unique events)
+	Iterator_RemoveOnce (90 traces / 86 unique traces) (38089 events / 37700 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (2942 events / 2942 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (89 traces / 89 unique traces) (1454843 events / 1454843 unique events) (73416 events / 73416 unique events in hot method)
+Classifier (com.conveyal.osmlib.StringTable.toBuilder:43): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_SINGLE_TRACE,NOT_ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT
+
+#42
+Inspecting hot method com.google.protobuf.ByteString.copyFrom:206...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+138967,1,0,1
+Total 138967 (138967 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 8329472 (8329472 unique) events are in non-isolated traces (138967 / 138967 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (8329472 events / 8329472 unique events) (138967 events / 138967 unique events in hot method)
+Classifier (com.google.protobuf.ByteString.copyFrom:206): LIB,NOT_REDUNDANT_TRACES
+
+#43
+Inspecting hot method org.openstreetmap.osmosis.osmbinary.Osmformat$StringTable$Builder.mergeFrom:3328...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+138621,107,107,0
+Total 138621 (65363 unique) events are in hot method
+Total 107 (93 unique) traces are in hot method
+Total 107 (93 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 138621 (65363 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (107 traces / 93 unique traces) (138621 events / 65363 unique events)
+Classifier (org.openstreetmap.osmosis.osmbinary.Osmformat$StringTable$Builder.mergeFrom:3328): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#44
+Inspecting hot method org.mapdb.SerializerBase.deserializeArrayList:1601...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+125462,18546,18546,0
+Total 125462 (5585 unique) events are in hot method
+Total 18546 (84 unique) traces are in hot method
+Total 18546 (84 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 125462 (5585 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (18546 traces / 84 unique traces) (125462 events / 5585 unique events)
+Classifier (org.mapdb.SerializerBase.deserializeArrayList:1601): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#45
+Inspecting hot method com.conveyal.osmlib.VexOutput.writeRelation:162...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+103366,5796,5796,0
+Total 103366 (26726 unique) events are in hot method
+Total 5796 (246 unique) traces are in hot method
+Total 5796 (246 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 103366 (26726 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (1932 traces / 82 unique traces) (42892 events / 10756 unique events)
+	Iterator_HasNext (1932 traces / 82 unique traces) (40960 events / 10674 unique events)
+	Iterator_RemoveOnce (1932 traces / 82 unique traces) (19514 events / 5296 unique events)
+Classifier (com.conveyal.osmlib.VexOutput.writeRelation:162): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#46
+Inspecting hot method org.mapdb.SerializerBase$FastArrayList.add:54...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+78063,78063,78063,0
+Total 78063 (1 unique) events are in hot method
+Total 78063 (1 unique) traces are in hot method
+Total 78063 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 78063 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Arrays_SortBeforeBinarySearch (78063 traces / 1 unique traces) (78063 events / 1 unique events)
+Classifier (org.mapdb.SerializerBase$FastArrayList.add:54): LIB,ISOLATED_ONE_UNIQUE
+
+#47
+Inspecting hot method com.conveyal.osmlib.PBFInput.parseRelations:157...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+73867,4884,4882,2
+Total 73867 (10640 unique) events are in hot method
+Total 4884 (91 unique) traces are in hot method
+Total 4882 (89 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 73558 (10331 unique) events are in isolated traces
+Total 912 (912 unique) events are in non-isolated traces (309 / 309 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (4864 traces / 83 unique traces) (49220 events / 5325 unique events)
+	Iterator_RemoveOnce (6 traces / 2 unique traces) (4864 events / 1000 unique events)
+	Iterator_HasNext (6 traces / 2 unique traces) (9734 events / 2002 unique events)
+	Collection_UnsafeIterator (6 traces / 2 unique traces) (9740 events / 2004 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (608 events / 608 unique events) (206 events / 206 unique events in hot method)
+	Iterator_HasNext (1 traces / 1 unique traces) (304 events / 304 unique events) (103 events / 103 unique events in hot method)
+Classifier (com.conveyal.osmlib.PBFInput.parseRelations:157): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_SINGLE_TRACE
+
+#48
+Inspecting hot method com.conveyal.osmlib.PBFOutput.writeRelation:260...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+71393,5778,5778,0
+Total 71393 (29091 unique) events are in hot method
+Total 5778 (306 unique) traces are in hot method
+Total 5778 (306 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 71393 (29091 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (1926 traces / 102 unique traces) (28172 events / 11616 unique events)
+	Collection_UnsafeIterator (1926 traces / 102 unique traces) (30098 events / 11718 unique events)
+	Iterator_RemoveOnce (1926 traces / 102 unique traces) (13123 events / 5757 unique events)
+Classifier (com.conveyal.osmlib.PBFOutput.writeRelation:260): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#49
+Inspecting hot method org.mapdb.SerializerBase.serialize2:155...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+69744,34872,34872,0
+Total 69744 (6 unique) events are in hot method
+Total 34872 (3 unique) traces are in hot method
+Total 34872 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 69744 (6 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (11624 traces / 1 unique traces) (11624 events / 1 unique events)
+	Collection_UnsafeIterator (11624 traces / 1 unique traces) (34872 events / 3 unique events)
+	Iterator_HasNext (11624 traces / 1 unique traces) (23248 events / 2 unique events)
+Classifier (org.mapdb.SerializerBase.serialize2:155): LIB,ISOLATED_ONE_UNIQUE
+
+#50
+Inspecting hot method org.openstreetmap.osmosis.osmbinary.Osmformat$Relation$Builder.addMemids:8386...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+58977,5830,5830,0
+Total 58977 (5325 unique) events are in hot method
+Total 5830 (83 unique) traces are in hot method
+Total 5830 (83 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 58977 (5325 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (5830 traces / 83 unique traces) (58977 events / 5325 unique events)
+Classifier (org.openstreetmap.osmosis.osmbinary.Osmformat$Relation$Builder.addMemids:8386): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#51
+Inspecting hot method org.openstreetmap.osmosis.osmbinary.Osmformat$Relation$Builder.addRolesSid:8341...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+58977,5830,5830,0
+Total 58977 (5325 unique) events are in hot method
+Total 5830 (83 unique) traces are in hot method
+Total 5830 (83 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 58977 (5325 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (5830 traces / 83 unique traces) (58977 events / 5325 unique events)
+Classifier (org.openstreetmap.osmosis.osmbinary.Osmformat$Relation$Builder.addRolesSid:8341): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#52
+Inspecting hot method org.openstreetmap.osmosis.osmbinary.Osmformat$Relation$Builder.addTypes:8434...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+58977,5830,5830,0
+Total 58977 (5325 unique) events are in hot method
+Total 5830 (83 unique) traces are in hot method
+Total 5830 (83 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 58977 (5325 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (5830 traces / 83 unique traces) (58977 events / 5325 unique events)
+Classifier (org.openstreetmap.osmosis.osmbinary.Osmformat$Relation$Builder.addTypes:8434): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#53
+Inspecting hot method org.mapdb.Store.serialize:152...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+50964,1,0,1
+Total 50964 (50964 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 8329472 (8329472 unique) events are in non-isolated traces (50964 / 50964 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (8329472 events / 8329472 unique events) (50964 events / 50964 unique events in hot method)
+Classifier (org.mapdb.Store.serialize:152): LIB,NOT_REDUNDANT_TRACES
+
+#54
+Inspecting hot method com.google.protobuf.LiteralByteString.copyToInternal:117...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+38294,1,0,1
+Total 38294 (38294 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 8329472 (8329472 unique) events are in non-isolated traces (38294 / 38294 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (8329472 events / 8329472 unique events) (38294 events / 38294 unique events in hot method)
+Classifier (com.google.protobuf.LiteralByteString.copyToInternal:117): LIB,NOT_REDUNDANT_TRACES
+
+#55
+Inspecting hot method org.openstreetmap.osmosis.osmbinary.Osmformat$StringTable$Builder.addS:3380...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+38089,90,90,0
+Total 38089 (37700 unique) events are in hot method
+Total 90 (86 unique) traces are in hot method
+Total 90 (86 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 38089 (37700 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (90 traces / 86 unique traces) (38089 events / 37700 unique events)
+Classifier (org.openstreetmap.osmosis.osmbinary.Osmformat$StringTable$Builder.addS:3380): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#56
+Inspecting hot method org.openstreetmap.osmosis.osmbinary.Osmformat$Relation$Builder.addVals:8253...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+20433,5794,5794,0
+Total 20433 (514 unique) events are in hot method
+Total 5794 (22 unique) traces are in hot method
+Total 5794 (22 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 20433 (514 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (5794 traces / 22 unique traces) (20433 events / 514 unique events)
+Classifier (org.openstreetmap.osmosis.osmbinary.Osmformat$Relation$Builder.addVals:8253): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#57
+Inspecting hot method org.openstreetmap.osmosis.osmbinary.Osmformat$Relation$Builder.addKeys:8208...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+20433,5794,5794,0
+Total 20433 (514 unique) events are in hot method
+Total 5794 (22 unique) traces are in hot method
+Total 5794 (22 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 20433 (514 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (5794 traces / 22 unique traces) (20433 events / 514 unique events)
+Classifier (org.openstreetmap.osmosis.osmbinary.Osmformat$Relation$Builder.addKeys:8208): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#58
+Inspecting hot method com.conveyal.osmlib.VexInput.readRelation:133...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+19514,1932,1932,0
+Total 19514 (5296 unique) events are in hot method
+Total 1932 (82 unique) traces are in hot method
+Total 1932 (82 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 19514 (5296 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1932 traces / 82 unique traces) (19514 events / 5296 unique events)
+Classifier (com.conveyal.osmlib.VexInput.readRelation:133): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#59
+Inspecting hot method org.mapdb.SerializerBase$FastArrayList.<init>:50...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+15245,15245,15245,0
+Total 15245 (1 unique) events are in hot method
+Total 15245 (1 unique) traces are in hot method
+Total 15245 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 15245 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Arrays_SortBeforeBinarySearch (15245 traces / 1 unique traces) (15245 events / 1 unique events)
+Classifier (org.mapdb.SerializerBase$FastArrayList.<init>:50): LIB,ISOLATED_ONE_UNIQUE
+
+#60
+Inspecting hot method com.conveyal.osmlib.OSM.writeRelation:302...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+11660,2,0,2
+Total 11660 (11660 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 8527910 (8527910 unique) events are in non-isolated traces (11660 / 11660 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (4263955 events / 4263955 unique events) (5830 events / 5830 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (4263955 events / 4263955 unique events) (5830 events / 5830 unique events in hot method)
+Classifier (com.conveyal.osmlib.OSM.writeRelation:302): CUT,NOT_REDUNDANT_TRACES
+
+#61
+Inspecting hot method com.conveyal.osmlib.StringTable.clear:37...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+6340,90,0,90
+Total 6340 (6340 unique) events are in hot method
+Total 90 (90 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 90 (90 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 1493023 (1493023 unique) events are in non-isolated traces (6340 / 6340 unique are in hot method)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (89 traces / 89 unique traces) (1454843 events / 1454843 unique events) (6160 events / 6160 unique events in hot method)
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (38180 events / 38180 unique events) (180 events / 180 unique events in hot method)
+Classifier (com.conveyal.osmlib.StringTable.clear:37): CUT,NOT_REDUNDANT_TRACES
+
+#62
+Inspecting hot method org.openstreetmap.osmosis.osmbinary.Osmformat$PrimitiveGroup$Builder.addRelations:2933...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+5830,7,7,0
+Total 5830 (1000 unique) events are in hot method
+Total 7 (2 unique) traces are in hot method
+Total 7 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5830 (1000 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (7 traces / 2 unique traces) (5830 events / 1000 unique events)
+Classifier (org.openstreetmap.osmosis.osmbinary.Osmformat$PrimitiveGroup$Builder.addRelations:2933): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#63
+Inspecting hot method com.google.common.io.ByteStreams.read:726...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+5381,1,0,1
+Total 5381 (5381 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 5382 (5382 unique) events are in non-isolated traces (5381 / 5381 unique are in hot method)
+Specs that have non-isolated traces:
+	PipedStream_SingleThread (1 traces / 1 unique traces) (5382 events / 5382 unique events) (5381 events / 5381 unique events in hot method)
+Classifier (com.google.common.io.ByteStreams.read:726): LIB,NOT_REDUNDANT_TRACES
+
+#64
+Inspecting hot method com.conveyal.osmlib.NodeTrackerTest.testAgainstSet:15...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+4000,1,0,1
+Total 4000 (4000 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 4001 (4001 unique) events are in non-isolated traces (4000 / 4000 unique are in hot method)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (4001 events / 4001 unique events) (4000 events / 4000 unique events in hot method)
+Classifier (com.conveyal.osmlib.NodeTrackerTest.testAgainstSet:15): CUT,NOT_REDUNDANT_TRACES
+
+#65
+Inspecting hot method com.conveyal.osmlib.NodeTracker.block:48...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+1952,2,0,2
+Total 1952 (1952 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 8527910 (8527910 unique) events are in non-isolated traces (1952 / 1952 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (4263955 events / 4263955 unique events) (976 events / 976 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (4263955 events / 4263955 unique events) (976 events / 976 unique events in hot method)
+Classifier (com.conveyal.osmlib.NodeTracker.block:48): CUT,NOT_REDUNDANT_TRACES
+
+#66
+Inspecting hot method org.mapdb.DB.createTreeMap:816...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+1029,394,378,16
+Total 1029 (73 unique) events are in hot method
+Total 394 (14 unique) traces are in hot method
+Total 378 (10 unique) isolated traces are in hot method
+Total 16 (4 unique) non-isolated traces that have events in hot method
+Total 945 (25 unique) events are in isolated traces
+Total 8528946 (8528058 unique) events are in non-isolated traces (84 / 48 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (189 traces / 5 unique traces) (567 events / 15 unique events)
+	Appendable_ThreadSafe (189 traces / 5 unique traces) (378 events / 10 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (14 traces / 2 unique traces) (1036 events / 148 unique events) (42 events / 6 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (4263955 events / 4263955 unique events) (21 events / 21 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (4263955 events / 4263955 unique events) (21 events / 21 unique events in hot method)
+Classifier (org.mapdb.DB.createTreeMap:816): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#67
+Inspecting hot method org.openstreetmap.osmosis.osmbinary.BinaryParser.parse:105...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+866,321,321,0
+Total 866 (26 unique) events are in hot method
+Total 321 (6 unique) traces are in hot method
+Total 321 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 866 (26 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (107 traces / 2 unique traces) (109 events / 4 unique events)
+	Iterator_HasNext (107 traces / 2 unique traces) (325 events / 10 unique events)
+	Collection_UnsafeIterator (107 traces / 2 unique traces) (432 events / 12 unique events)
+Classifier (org.openstreetmap.osmosis.osmbinary.BinaryParser.parse:105): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#68
+Inspecting hot method org.mapdb.DB.catPut:104...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+672,16,0,16
+Total 672 (384 unique) events are in hot method
+Total 16 (4 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 16 (4 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 8528946 (8528058 unique) events are in non-isolated traces (672 / 384 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (14 traces / 2 unique traces) (1036 events / 148 unique events) (336 events / 48 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (4263955 events / 4263955 unique events) (168 events / 168 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (4263955 events / 4263955 unique events) (168 events / 168 unique events in hot method)
+Classifier (org.mapdb.DB.catPut:104): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#69
+Inspecting hot method org.mapdb.BTreeMap.put:642...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+504,14,0,14
+Total 504 (72 unique) events are in hot method
+Total 14 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 14 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 1036 (148 unique) events are in non-isolated traces (504 / 72 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (14 traces / 2 unique traces) (1036 events / 148 unique events) (504 events / 72 unique events in hot method)
+Classifier (org.mapdb.BTreeMap.put:642): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#70
+Inspecting hot method org.mapdb.SerializerBase$singletons.<clinit>:1418...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+395,8,6,2
+Total 395 (395 unique) events are in hot method
+Total 8 (8 unique) traces are in hot method
+Total 6 (6 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 309 (309 unique) events are in isolated traces
+Total 8527910 (8527910 unique) events are in non-isolated traces (86 / 86 unique are in hot method)
+Specs that have isolated traces:
+	Map_UnsafeIterator (2 traces / 2 unique traces) (90 events / 90 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (43 events / 43 unique events)
+	Map_CollectionViewAdd (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (88 events / 88 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (87 events / 87 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (4263955 events / 4263955 unique events) (43 events / 43 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (4263955 events / 4263955 unique events) (43 events / 43 unique events in hot method)
+Classifier (org.mapdb.SerializerBase$singletons.<clinit>:1418): LIB,NOT_REDUNDANT_TRACES
+
+#71
+Inspecting hot method com.conveyal.osmlib.PBFInput.parseNodes:65...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+327,2,0,2
+Total 327 (327 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 912 (912 unique) events are in non-isolated traces (327 / 327 unique are in hot method)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (608 events / 608 unique events) (218 events / 218 unique events in hot method)
+	Iterator_HasNext (1 traces / 1 unique traces) (304 events / 304 unique events) (109 events / 109 unique events in hot method)
+Classifier (com.conveyal.osmlib.PBFInput.parseNodes:65): CUT,NOT_REDUNDANT_TRACES
+
+#72
+Inspecting hot method org.mapdb.DB.createTreeSet:1025...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+287,128,112,16
+Total 287 (38 unique) events are in hot method
+Total 128 (14 unique) traces are in hot method
+Total 112 (10 unique) isolated traces are in hot method
+Total 16 (4 unique) non-isolated traces that have events in hot method
+Total 259 (22 unique) events are in isolated traces
+Total 8528946 (8528058 unique) events are in non-isolated traces (28 / 16 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (49 traces / 4 unique traces) (98 events / 8 unique events)
+	StringBuilder_ThreadSafe (49 traces / 4 unique traces) (147 events / 12 unique events)
+	Map_UnsafeIterator (7 traces / 1 unique traces) (7 events / 1 unique events)
+	Map_CollectionViewAdd (7 traces / 1 unique traces) (7 events / 1 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (14 traces / 2 unique traces) (1036 events / 148 unique events) (14 events / 2 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (4263955 events / 4263955 unique events) (7 events / 7 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (4263955 events / 4263955 unique events) (7 events / 7 unique events in hot method)
+Classifier (org.mapdb.DB.createTreeSet:1025): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#73
+Inspecting hot method org.mapdb.SerializerPojo$ClassInfo.<init>:130...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+245,23,21,2
+Total 245 (201 unique) events are in hot method
+Total 23 (4 unique) traces are in hot method
+Total 21 (2 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 49 (5 unique) events are in isolated traces
+Total 8527910 (8527910 unique) events are in non-isolated traces (196 / 196 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (21 traces / 2 unique traces) (49 events / 5 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (4263955 events / 4263955 unique events) (98 events / 98 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (4263955 events / 4263955 unique events) (98 events / 98 unique events in hot method)
+Classifier (org.mapdb.SerializerPojo$ClassInfo.<init>:130): LIB,ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#74
+Inspecting hot method org.mapdb.DB.checkNameNotExists:1543...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+210,84,84,0
+Total 210 (5 unique) events are in hot method
+Total 84 (2 unique) traces are in hot method
+Total 84 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 210 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (42 traces / 1 unique traces) (126 events / 3 unique events)
+	Appendable_ThreadSafe (42 traces / 1 unique traces) (84 events / 2 unique events)
+Classifier (org.mapdb.DB.checkNameNotExists:1543): LIB,ISOLATED_ONE_UNIQUE
+
+#75
+Inspecting hot method org.mapdb.SerializerPojo.registerClass:242...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+210,9,7,2
+Total 210 (174 unique) events are in hot method
+Total 9 (3 unique) traces are in hot method
+Total 7 (1 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 42 (6 unique) events are in isolated traces
+Total 8527910 (8527910 unique) events are in non-isolated traces (168 / 168 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (7 traces / 1 unique traces) (42 events / 6 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (4263955 events / 4263955 unique events) (84 events / 84 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (4263955 events / 4263955 unique events) (84 events / 84 unique events in hot method)
+Classifier (org.mapdb.SerializerPojo.registerClass:242): LIB,ISOLATED_ONE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#76
+Inspecting hot method org.mapdb.DB.createAtomicLong:1231...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+196,72,56,16
+Total 196 (42 unique) events are in hot method
+Total 72 (8 unique) traces are in hot method
+Total 56 (4 unique) isolated traces are in hot method
+Total 16 (4 unique) non-isolated traces that have events in hot method
+Total 140 (10 unique) events are in isolated traces
+Total 8528946 (8528058 unique) events are in non-isolated traces (56 / 32 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (28 traces / 2 unique traces) (56 events / 4 unique events)
+	StringBuilder_ThreadSafe (28 traces / 2 unique traces) (84 events / 6 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (14 traces / 2 unique traces) (1036 events / 148 unique events) (28 events / 4 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (4263955 events / 4263955 unique events) (14 events / 14 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (4263955 events / 4263955 unique events) (14 events / 14 unique events in hot method)
+Classifier (org.mapdb.DB.createAtomicLong:1231): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#77
+Inspecting hot method ch.qos.logback.core.pattern.SpacePadder.rightPad:37...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+188,188,0,188
+Total 188 (2 unique) events are in hot method
+Total 188 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 188 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 2350 (25 unique) events are in non-isolated traces (188 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	Appendable_ThreadSafe (94 traces / 1 unique traces) (1128 events / 12 unique events) (94 events / 1 unique events in hot method)
+	StringBuilder_ThreadSafe (94 traces / 1 unique traces) (1222 events / 13 unique events) (94 events / 1 unique events in hot method)
+Classifier (ch.qos.logback.core.pattern.SpacePadder.rightPad:37): LIB,NOT_ISOLATED_ONE_UNIQUE
+
+#78
+Inspecting hot method ch.qos.logback.core.pattern.SpacePadder.spacePad:53...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+188,188,0,188
+Total 188 (2 unique) events are in hot method
+Total 188 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 188 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 2350 (25 unique) events are in non-isolated traces (188 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	Appendable_ThreadSafe (94 traces / 1 unique traces) (1128 events / 12 unique events) (94 events / 1 unique events in hot method)
+	StringBuilder_ThreadSafe (94 traces / 1 unique traces) (1222 events / 13 unique events) (94 events / 1 unique events in hot method)
+Classifier (ch.qos.logback.core.pattern.SpacePadder.spacePad:53): LIB,NOT_ISOLATED_ONE_UNIQUE
+
+#79
+Inspecting hot method org.mapdb.DB.catPut:110...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+168,16,0,16
+Total 168 (96 unique) events are in hot method
+Total 16 (4 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 16 (4 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 8528946 (8528058 unique) events are in non-isolated traces (168 / 96 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (14 traces / 2 unique traces) (1036 events / 148 unique events) (84 events / 12 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (4263955 events / 4263955 unique events) (42 events / 42 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (4263955 events / 4263955 unique events) (42 events / 42 unique events in hot method)
+Classifier (org.mapdb.DB.catPut:110): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#80
+Inspecting hot method org.mapdb.DB.namedPut:384...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+168,2,0,2
+Total 168 (168 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 8527910 (8527910 unique) events are in non-isolated traces (168 / 168 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (4263955 events / 4263955 unique events) (84 events / 84 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (4263955 events / 4263955 unique events) (84 events / 84 unique events in hot method)
+Classifier (org.mapdb.DB.namedPut:384): LIB,NOT_REDUNDANT_TRACES
+
+#81
+Inspecting hot method ch.qos.logback.classic.PatternLayout.<clinit>:61...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+119,3,1,2
+Total 119 (119 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 1 (1 unique) events are in isolated traces
+Total 8527910 (8527910 unique) events are in non-isolated traces (118 / 118 unique are in hot method)
+Specs that have isolated traces:
+	CharSequence_NotInMap (1 traces / 1 unique traces) (1 events / 1 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (4263955 events / 4263955 unique events) (59 events / 59 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (4263955 events / 4263955 unique events) (59 events / 59 unique events in hot method)
+Classifier (ch.qos.logback.classic.PatternLayout.<clinit>:61): LIB,NOT_REDUNDANT_TRACES
+
+#82
+Inspecting hot method org.openstreetmap.osmosis.osmbinary.Osmformat$PrimitiveBlock$Builder.addPrimitivegroup:1993...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+109,107,107,0
+Total 109 (4 unique) events are in hot method
+Total 107 (2 unique) traces are in hot method
+Total 107 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 109 (4 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (107 traces / 2 unique traces) (109 events / 4 unique events)
+Classifier (org.openstreetmap.osmosis.osmbinary.Osmformat$PrimitiveBlock$Builder.addPrimitivegroup:1993): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#83
+Inspecting hot method org.mapdb.DB$BTreeMapMaker.makeOrGet:648...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+105,42,42,0
+Total 105 (5 unique) events are in hot method
+Total 42 (2 unique) traces are in hot method
+Total 42 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 105 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (21 traces / 1 unique traces) (63 events / 3 unique events)
+	Appendable_ThreadSafe (21 traces / 1 unique traces) (42 events / 2 unique events)
+Classifier (org.mapdb.DB$BTreeMapMaker.makeOrGet:648): LIB,ISOLATED_ONE_UNIQUE
+
+#84
+Inspecting hot method org.openstreetmap.osmosis.osmbinary.Osmformat$PrimitiveBlock$Builder.addPrimitivegroup:2013...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+90,90,90,0
+Total 90 (1 unique) events are in hot method
+Total 90 (1 unique) traces are in hot method
+Total 90 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 90 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (90 traces / 1 unique traces) (90 events / 1 unique events)
+Classifier (org.openstreetmap.osmosis.osmbinary.Osmformat$PrimitiveBlock$Builder.addPrimitivegroup:2013): LIB,ISOLATED_ONE_UNIQUE
+
+#85
+Inspecting hot method org.mapdb.SerializerPojo.getFields:292...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+84,1,0,1
+Total 84 (84 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 8329472 (8329472 unique) events are in non-isolated traces (84 / 84 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (8329472 events / 8329472 unique events) (84 events / 84 unique events in hot method)
+Classifier (org.mapdb.SerializerPojo.getFields:292): LIB,NOT_REDUNDANT_TRACES
+
+#86
+Inspecting hot method com.conveyal.osmlib.PBFInput.parse:200...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+73,18,18,0
+Total 73 (21 unique) events are in hot method
+Total 18 (6 unique) traces are in hot method
+Total 18 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 73 (21 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (6 traces / 2 unique traces) (34 events / 10 unique events)
+	Iterator_HasNext (6 traces / 2 unique traces) (28 events / 8 unique events)
+	Iterator_RemoveOnce (6 traces / 2 unique traces) (11 events / 3 unique events)
+Classifier (com.conveyal.osmlib.PBFInput.parse:200): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#87
+Inspecting hot method org.mapdb.DB.getAtomicLong:1244...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+70,28,28,0
+Total 70 (5 unique) events are in hot method
+Total 28 (2 unique) traces are in hot method
+Total 28 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 70 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (14 traces / 1 unique traces) (28 events / 2 unique events)
+	StringBuilder_ThreadSafe (14 traces / 1 unique traces) (42 events / 3 unique events)
+Classifier (org.mapdb.DB.getAtomicLong:1244): LIB,ISOLATED_ONE_UNIQUE
+
+#88
+Inspecting hot method org.mapdb.Volume.fileFactory:184...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+70,28,28,0
+Total 70 (5 unique) events are in hot method
+Total 28 (2 unique) traces are in hot method
+Total 28 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 70 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (14 traces / 1 unique traces) (42 events / 3 unique events)
+	Appendable_ThreadSafe (14 traces / 1 unique traces) (28 events / 2 unique events)
+Classifier (org.mapdb.Volume.fileFactory:184): LIB,ISOLATED_ONE_UNIQUE
+
+#89
+Inspecting hot method com.conveyal.osmlib.OSMEntity.getTag:41...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+67,21,19,2
+Total 67 (36 unique) events are in hot method
+Total 21 (10 unique) traces are in hot method
+Total 19 (9 unique) isolated traces are in hot method
+Total 2 (1 unique) non-isolated traces that have events in hot method
+Total 61 (33 unique) events are in isolated traces
+Total 10 (5 unique) events are in non-isolated traces (6 / 3 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (7 traces / 3 unique traces) (24 events / 12 unique events)
+	Iterator_RemoveOnce (7 traces / 3 unique traces) (12 events / 6 unique events)
+	Collection_UnsafeIterator (5 traces / 3 unique traces) (25 events / 15 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (2 traces / 1 unique traces) (10 events / 5 unique events) (6 events / 3 unique events in hot method)
+Classifier (com.conveyal.osmlib.OSMEntity.getTag:41): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_ONE_UNIQUE
+
+#90
+Inspecting hot method com.google.protobuf.UnmodifiableLazyStringList$2.hasNext:165...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+56,34,11,23
+Total 56 (12 unique) events are in hot method
+Total 34 (6 unique) traces are in hot method
+Total 11 (1 unique) isolated traces are in hot method
+Total 23 (5 unique) non-isolated traces that have events in hot method
+Total 11 (1 unique) events are in isolated traces
+Total 84 (20 unique) events are in non-isolated traces (45 / 11 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (11 traces / 1 unique traces) (11 events / 1 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (17 traces / 3 unique traces) (56 events / 12 unique events) (28 events / 6 unique events in hot method)
+	Iterator_HasNext (6 traces / 2 unique traces) (28 events / 8 unique events) (17 events / 5 unique events in hot method)
+Classifier (com.google.protobuf.UnmodifiableLazyStringList$2.hasNext:165): LIB,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#91
+Inspecting hot method org.mapdb.DB.getAll:1492...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+56,35,21,14
+Total 56 (8 unique) events are in hot method
+Total 35 (5 unique) traces are in hot method
+Total 21 (3 unique) isolated traces are in hot method
+Total 14 (2 unique) non-isolated traces that have events in hot method
+Total 28 (4 unique) events are in isolated traces
+Total 1036 (148 unique) events are in non-isolated traces (28 / 4 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (7 traces / 1 unique traces) (7 events / 1 unique events)
+	Map_CollectionViewAdd (7 traces / 1 unique traces) (7 events / 1 unique events)
+	Collection_UnsafeIterator (7 traces / 1 unique traces) (14 events / 2 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (14 traces / 2 unique traces) (1036 events / 148 unique events) (28 events / 4 unique events in hot method)
+Classifier (org.mapdb.DB.getAll:1492): LIB,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#92
+Inspecting hot method ch.qos.logback.core.util.EnvUtil.isJDK_N_OrHigher:26...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+51,14,14,0
+Total 51 (31 unique) events are in hot method
+Total 14 (6 unique) traces are in hot method
+Total 14 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 51 (31 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (5 traces / 1 unique traces) (15 events / 3 unique events)
+	Appendable_ThreadSafe (5 traces / 1 unique traces) (10 events / 2 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (9 events / 9 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (8 events / 8 unique events)
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (5 events / 5 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (4 events / 4 unique events)
+Classifier (ch.qos.logback.core.util.EnvUtil.isJDK_N_OrHigher:26): LIB,ISOLATED_ONE_UNIQUE,ISOLATED_SINGLE_TRACE
+
+#93
+Inspecting hot method org.mapdb.AsyncWriteEngine.startThreads:191...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+49,28,21,7
+Total 49 (7 unique) events are in hot method
+Total 28 (4 unique) traces are in hot method
+Total 21 (3 unique) isolated traces are in hot method
+Total 7 (1 unique) non-isolated traces that have events in hot method
+Total 42 (6 unique) events are in isolated traces
+Total 14 (2 unique) events are in non-isolated traces (7 / 1 unique are in hot method)
+Specs that have isolated traces:
+	Thread_StartOnce (7 traces / 1 unique traces) (7 events / 1 unique events)
+	StringBuilder_ThreadSafe (7 traces / 1 unique traces) (21 events / 3 unique events)
+	Appendable_ThreadSafe (7 traces / 1 unique traces) (14 events / 2 unique events)
+Specs that have non-isolated traces:
+	Thread_SetDaemonBeforeStart (7 traces / 1 unique traces) (14 events / 2 unique events) (7 events / 1 unique events in hot method)
+Classifier (org.mapdb.AsyncWriteEngine.startThreads:191): LIB,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_ONE_UNIQUE
+
+#94
+Inspecting hot method com.conveyal.osmlib.VEXBlock.writeDeflated:96...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+48,1,0,1
+Total 48 (48 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 49 (49 unique) events are in non-isolated traces (48 / 48 unique are in hot method)
+Specs that have non-isolated traces:
+	PipedStream_SingleThread (1 traces / 1 unique traces) (49 events / 49 unique events) (48 events / 48 unique events in hot method)
+Classifier (com.conveyal.osmlib.VEXBlock.writeDeflated:96): CUT,NOT_REDUNDANT_TRACES
+
+#95
+Inspecting hot method org.mapdb.EngineWrapper$CloseOnJVMShutdown.<init>:562...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+35,29,7,22
+Total 35 (11 unique) events are in hot method
+Total 29 (5 unique) traces are in hot method
+Total 7 (1 unique) isolated traces are in hot method
+Total 22 (4 unique) non-isolated traces that have events in hot method
+Total 7 (1 unique) events are in isolated traces
+Total 56 (20 unique) events are in non-isolated traces (28 / 10 unique are in hot method)
+Specs that have isolated traces:
+	ShutdownHook_PrematureStart (7 traces / 1 unique traces) (7 events / 1 unique events)
+Specs that have non-isolated traces:
+	ShutdownHook_SystemExit (7 traces / 1 unique traces) (14 events / 2 unique events) (7 events / 1 unique events in hot method)
+	ShutdownHook_UnsafeSwingCall (7 traces / 1 unique traces) (14 events / 2 unique events) (7 events / 1 unique events in hot method)
+	ShutdownHook_UnsafeAWTCall (7 traces / 1 unique traces) (14 events / 2 unique events) (7 events / 1 unique events in hot method)
+	ShutdownHook_LateRegister (1 traces / 1 unique traces) (14 events / 14 unique events) (7 events / 7 unique events in hot method)
+Classifier (org.mapdb.EngineWrapper$CloseOnJVMShutdown.<init>:562): LIB,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_ONE_UNIQUE,NOT_ISOLATED_SINGLE_TRACE
+
+#96
+Inspecting hot method org.mapdb.EngineWrapper$CloseOnJVMShutdown$1.run:567...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+35,29,7,22
+Total 35 (11 unique) events are in hot method
+Total 29 (5 unique) traces are in hot method
+Total 7 (1 unique) isolated traces are in hot method
+Total 22 (4 unique) non-isolated traces that have events in hot method
+Total 7 (1 unique) events are in isolated traces
+Total 56 (20 unique) events are in non-isolated traces (28 / 10 unique are in hot method)
+Specs that have isolated traces:
+	Thread_SetDaemonBeforeStart (7 traces / 1 unique traces) (7 events / 1 unique events)
+Specs that have non-isolated traces:
+	ShutdownHook_SystemExit (7 traces / 1 unique traces) (14 events / 2 unique events) (7 events / 1 unique events in hot method)
+	ShutdownHook_UnsafeSwingCall (7 traces / 1 unique traces) (14 events / 2 unique events) (7 events / 1 unique events in hot method)
+	ShutdownHook_UnsafeAWTCall (7 traces / 1 unique traces) (14 events / 2 unique events) (7 events / 1 unique events in hot method)
+	ShutdownHook_LateRegister (1 traces / 1 unique traces) (14 events / 14 unique events) (7 events / 7 unique events in hot method)
+Classifier (org.mapdb.EngineWrapper$CloseOnJVMShutdown$1.run:567): LIB,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_ONE_UNIQUE,NOT_ISOLATED_SINGLE_TRACE
+
+#97
+Inspecting hot method org.mapdb.DB$BTreeSetMaker.makeOrGet:736...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+35,14,14,0
+Total 35 (5 unique) events are in hot method
+Total 14 (2 unique) traces are in hot method
+Total 14 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 35 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (7 traces / 1 unique traces) (14 events / 2 unique events)
+	StringBuilder_ThreadSafe (7 traces / 1 unique traces) (21 events / 3 unique events)
+Classifier (org.mapdb.DB$BTreeSetMaker.makeOrGet:736): LIB,ISOLATED_ONE_UNIQUE
+
+#98
+Inspecting hot method org.mapdb.BTreeMap.<init>:133...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+35,35,35,0
+Total 35 (1 unique) events are in hot method
+Total 35 (1 unique) traces are in hot method
+Total 35 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 35 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (35 traces / 1 unique traces) (35 events / 1 unique events)
+Classifier (org.mapdb.BTreeMap.<init>:133): LIB,ISOLATED_ONE_UNIQUE
+
+#99
+Inspecting hot method com.google.protobuf.UnmodifiableLazyStringList$2.next:170...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+33,18,6,12
+Total 33 (9 unique) events are in hot method
+Total 18 (6 unique) traces are in hot method
+Total 6 (2 unique) isolated traces are in hot method
+Total 12 (4 unique) non-isolated traces that have events in hot method
+Total 11 (3 unique) events are in isolated traces
+Total 62 (18 unique) events are in non-isolated traces (22 / 6 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (6 traces / 2 unique traces) (11 events / 3 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (6 traces / 2 unique traces) (34 events / 10 unique events) (11 events / 3 unique events in hot method)
+	Iterator_HasNext (6 traces / 2 unique traces) (28 events / 8 unique events) (11 events / 3 unique events in hot method)
+Classifier (com.google.protobuf.UnmodifiableLazyStringList$2.next:170): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#100
+Inspecting hot method ch.qos.logback.core.status.StatusUtil.filterStatusListByTimeThreshold:58...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+27,4,4,0
+Total 27 (27 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 4 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 27 (27 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (9 events / 9 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (10 events / 10 unique events)
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (4 events / 4 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (4 events / 4 unique events)
+Classifier (ch.qos.logback.core.status.StatusUtil.filterStatusListByTimeThreshold:58): LIB,NOT_REDUNDANT_TRACES
+
+#101
+Inspecting hot method ch.qos.logback.classic.LoggerContext.getLogger:107...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+24,2,0,2
+Total 24 (24 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 8527910 (8527910 unique) events are in non-isolated traces (24 / 24 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (4263955 events / 4263955 unique events) (12 events / 12 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (4263955 events / 4263955 unique events) (12 events / 12 unique events in hot method)
+Classifier (ch.qos.logback.classic.LoggerContext.getLogger:107): LIB,NOT_REDUNDANT_TRACES
+
+#102
+Inspecting hot method ch.qos.logback.core.status.StatusUtil.getHighestLevel:94...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+23,3,3,0
+Total 23 (23 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 23 (23 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (10 events / 10 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (9 events / 9 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (4 events / 4 unique events)
+Classifier (ch.qos.logback.core.status.StatusUtil.getHighestLevel:94): LIB,NOT_REDUNDANT_TRACES
+
+#103
+Inspecting hot method ch.qos.logback.classic.util.ContextInitializer.statusOnResourceSearch:174...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+21,6,6,0
+Total 21 (7 unique) events are in hot method
+Total 6 (2 unique) traces are in hot method
+Total 6 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 21 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (3 traces / 1 unique traces) (12 events / 4 unique events)
+	Appendable_ThreadSafe (3 traces / 1 unique traces) (9 events / 3 unique events)
+Classifier (ch.qos.logback.classic.util.ContextInitializer.statusOnResourceSearch:174): LIB,ISOLATED_ONE_UNIQUE
+
+#104
+Inspecting hot method org.mapdb.BTreeMap.isEmpty:1106...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+21,21,21,0
+Total 21 (1 unique) events are in hot method
+Total 21 (1 unique) traces are in hot method
+Total 21 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 21 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (21 traces / 1 unique traces) (21 events / 1 unique events)
+Classifier (org.mapdb.BTreeMap.isEmpty:1106): LIB,ISOLATED_ONE_UNIQUE
+
+#105
+Inspecting hot method org.mapdb.DBMaker.transactionDisable:309...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+21,3,1,2
+Total 21 (21 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 7 (7 unique) events are in isolated traces
+Total 8527910 (8527910 unique) events are in non-isolated traces (14 / 14 unique are in hot method)
+Specs that have isolated traces:
+	Dictionary_NullKeyOrValue (1 traces / 1 unique traces) (7 events / 7 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (4263955 events / 4263955 unique events) (7 events / 7 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (4263955 events / 4263955 unique events) (7 events / 7 unique events in hot method)
+Classifier (org.mapdb.DBMaker.transactionDisable:309): LIB,NOT_REDUNDANT_TRACES
+
+#106
+Inspecting hot method com.google.protobuf.LazyStringArrayList.add:174...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+19,10,4,6
+Total 19 (5 unique) events are in hot method
+Total 10 (3 unique) traces are in hot method
+Total 4 (1 unique) isolated traces are in hot method
+Total 6 (2 unique) non-isolated traces that have events in hot method
+Total 8 (2 unique) events are in isolated traces
+Total 22 (6 unique) events are in non-isolated traces (11 / 3 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (4 traces / 1 unique traces) (8 events / 2 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (6 traces / 2 unique traces) (22 events / 6 unique events) (11 events / 3 unique events in hot method)
+Classifier (com.google.protobuf.LazyStringArrayList.add:174): LIB,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#107
+Inspecting hot method org.openstreetmap.osmosis.osmbinary.Osmformat$HeaderBlock$Builder.mergeFrom:572...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+19,10,10,0
+Total 19 (5 unique) events are in hot method
+Total 10 (3 unique) traces are in hot method
+Total 10 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 19 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (10 traces / 3 unique traces) (19 events / 5 unique events)
+Classifier (org.openstreetmap.osmosis.osmbinary.Osmformat$HeaderBlock$Builder.mergeFrom:572): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#108
+Inspecting hot method com.google.protobuf.UnmodifiableLazyStringList$2.<init>:161...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+17,17,0,17
+Total 17 (3 unique) events are in hot method
+Total 17 (3 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 17 (3 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 56 (12 unique) events are in non-isolated traces (17 / 3 unique are in hot method)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (17 traces / 3 unique traces) (56 events / 12 unique events) (17 events / 3 unique events in hot method)
+Classifier (com.google.protobuf.UnmodifiableLazyStringList$2.<init>:161): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#109
+Inspecting hot method ch.qos.logback.classic.Logger.createChildByName:355...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+12,4,4,0
+Total 12 (10 unique) events are in hot method
+Total 4 (2 unique) traces are in hot method
+Total 4 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 12 (10 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (4 traces / 2 unique traces) (12 events / 10 unique events)
+Classifier (ch.qos.logback.classic.Logger.createChildByName:355): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#110
+Inspecting hot method ch.qos.logback.core.BasicStatusManager.fireStatusAddEvent:85...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+12,8,8,0
+Total 12 (3 unique) events are in hot method
+Total 8 (2 unique) traces are in hot method
+Total 8 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 12 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (4 traces / 1 unique traces) (8 events / 2 unique events)
+	Iterator_HasNext (4 traces / 1 unique traces) (4 events / 1 unique events)
+Classifier (ch.qos.logback.core.BasicStatusManager.fireStatusAddEvent:85): LIB,ISOLATED_ONE_UNIQUE
+
+#111
+Inspecting hot method com.google.protobuf.LazyStringArrayList.get:88...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+11,6,0,6
+Total 11 (3 unique) events are in hot method
+Total 6 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 6 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 22 (6 unique) events are in non-isolated traces (11 / 3 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (6 traces / 2 unique traces) (22 events / 6 unique events) (11 events / 3 unique events in hot method)
+Classifier (com.google.protobuf.LazyStringArrayList.get:88): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#112
+Inspecting hot method ch.qos.logback.core.pattern.parser.TokenStream.addValuedToken:232...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+10,1,0,1
+Total 10 (10 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 19 (19 unique) events are in non-isolated traces (10 / 10 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (19 events / 19 unique events) (10 events / 10 unique events in hot method)
+Classifier (ch.qos.logback.core.pattern.parser.TokenStream.addValuedToken:232): LIB,NOT_REDUNDANT_TRACES
+
+#113
+Inspecting hot method com.conveyal.osmlib.DeflatedBlockReader.run:55...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+8,8,8,0
+Total 8 (4 unique) events are in hot method
+Total 8 (4 unique) traces are in hot method
+Total 8 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 8 (4 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	InputStream_MarkAfterClose (2 traces / 1 unique traces) (2 events / 1 unique events)
+	Thread_SetDaemonBeforeStart (2 traces / 1 unique traces) (2 events / 1 unique events)
+	InputStream_ManipulateAfterClose (2 traces / 1 unique traces) (2 events / 1 unique events)
+	Closeable_MultipleClose (2 traces / 1 unique traces) (2 events / 1 unique events)
+Classifier (com.conveyal.osmlib.DeflatedBlockReader.run:55): CUT,ISOLATED_ONE_UNIQUE
+
+#114
+Inspecting hot method com.conveyal.osmlib.RoundTripTest.testVexStream:59...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+7,6,4,2
+Total 7 (7 unique) events are in hot method
+Total 6 (6 unique) traces are in hot method
+Total 4 (4 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 5 (5 unique) events are in isolated traces
+Total 5431 (5431 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have isolated traces:
+	PipedOutputStream_UnconnectedWrite (1 traces / 1 unique traces) (2 events / 2 unique events)
+	PipedStream_SingleThread (1 traces / 1 unique traces) (1 events / 1 unique events)
+	PipedInputStream_UnconnectedRead (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Thread_StartOnce (1 traces / 1 unique traces) (1 events / 1 unique events)
+Specs that have non-isolated traces:
+	PipedStream_SingleThread (2 traces / 2 unique traces) (5431 events / 5431 unique events) (2 events / 2 unique events in hot method)
+Classifier (com.conveyal.osmlib.RoundTripTest.testVexStream:59): CUT,NOT_REDUNDANT_TRACES
+
+#115
+Inspecting hot method org.mapdb.AsyncWriteEngine$WriterRunnable.run:164...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+7,7,0,7
+Total 7 (1 unique) events are in hot method
+Total 7 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 7 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 14 (2 unique) events are in non-isolated traces (7 / 1 unique are in hot method)
+Specs that have non-isolated traces:
+	Thread_SetDaemonBeforeStart (7 traces / 1 unique traces) (14 events / 2 unique events) (7 events / 1 unique events in hot method)
+Classifier (org.mapdb.AsyncWriteEngine$WriterRunnable.run:164): LIB,NOT_ISOLATED_ONE_UNIQUE
+
+#116
+Inspecting hot method org.mapdb.DB.<init>:38...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+7,7,7,0
+Total 7 (1 unique) events are in hot method
+Total 7 (1 unique) traces are in hot method
+Total 7 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 7 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SynchronizedMap (7 traces / 1 unique traces) (7 events / 1 unique events)
+Classifier (org.mapdb.DB.<init>:38): LIB,ISOLATED_ONE_UNIQUE
+
+#117
+Inspecting hot method com.conveyal.osmlib.DeflatedBlockWriter.run:83...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+6,6,6,0
+Total 6 (3 unique) events are in hot method
+Total 6 (3 unique) traces are in hot method
+Total 6 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 6 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Thread_SetDaemonBeforeStart (2 traces / 1 unique traces) (2 events / 1 unique events)
+	Closeable_MultipleClose (2 traces / 1 unique traces) (2 events / 1 unique events)
+	OutputStream_ManipulateAfterClose (2 traces / 1 unique traces) (2 events / 1 unique events)
+Classifier (com.conveyal.osmlib.DeflatedBlockWriter.run:83): CUT,ISOLATED_ONE_UNIQUE
+
+#118
+Inspecting hot method ch.qos.logback.core.pattern.PatternLayoutBase.getEffectiveConverterMap:52...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+6,3,1,2
+Total 6 (6 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 2 (2 unique) events are in isolated traces
+Total 8527910 (8527910 unique) events are in non-isolated traces (4 / 4 unique are in hot method)
+Specs that have isolated traces:
+	CharSequence_NotInMap (1 traces / 1 unique traces) (2 events / 2 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (4263955 events / 4263955 unique events) (2 events / 2 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (4263955 events / 4263955 unique events) (2 events / 2 unique events in hot method)
+Classifier (ch.qos.logback.core.pattern.PatternLayoutBase.getEffectiveConverterMap:52): LIB,NOT_REDUNDANT_TRACES
+
+#119
+Inspecting hot method org.mapdb.SerializerPojo.createInstanceSkippinkConstructor:557...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+6,2,0,2
+Total 6 (6 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 8527910 (8527910 unique) events are in non-isolated traces (6 / 6 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (4263955 events / 4263955 unique events) (3 events / 3 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (4263955 events / 4263955 unique events) (3 events / 3 unique events in hot method)
+Classifier (org.mapdb.SerializerPojo.createInstanceSkippinkConstructor:557): LIB,NOT_REDUNDANT_TRACES
+
+#120
+Inspecting hot method ch.qos.logback.core.pattern.parser.TokenStream.handleLiteralState:162...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+5,1,0,1
+Total 5 (5 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 19 (19 unique) events are in non-isolated traces (5 / 5 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (19 events / 19 unique events) (5 events / 5 unique events in hot method)
+Classifier (ch.qos.logback.core.pattern.parser.TokenStream.handleLiteralState:162): LIB,NOT_REDUNDANT_TRACES
+
+#121
+Inspecting hot method ch.qos.logback.core.BasicStatusManager.add:59...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+4,1,1,0
+Total 4 (4 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 4 (4 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (4 events / 4 unique events)
+Classifier (ch.qos.logback.core.BasicStatusManager.add:59): LIB,NOT_REDUNDANT_TRACES
+
+#122
+Inspecting hot method com.conveyal.osmlib.VexOutput.writeEnd:127...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+4,4,4,0
+Total 4 (2 unique) events are in hot method
+Total 4 (2 unique) traces are in hot method
+Total 4 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 4 (2 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Closeable_MultipleClose (2 traces / 1 unique traces) (2 events / 1 unique events)
+	OutputStream_ManipulateAfterClose (2 traces / 1 unique traces) (2 events / 1 unique events)
+Classifier (com.conveyal.osmlib.VexOutput.writeEnd:127): CUT,ISOLATED_ONE_UNIQUE
+
+#123
+Inspecting hot method ch.qos.logback.core.pattern.parser.Parser.<clinit>:49...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+4,2,0,2
+Total 4 (4 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 8527910 (8527910 unique) events are in non-isolated traces (4 / 4 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (4263955 events / 4263955 unique events) (2 events / 2 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (4263955 events / 4263955 unique events) (2 events / 2 unique events in hot method)
+Classifier (ch.qos.logback.core.pattern.parser.Parser.<clinit>:49): LIB,NOT_REDUNDANT_TRACES
+
+#124
+Inspecting hot method ch.qos.logback.classic.LoggerContext.fireOnLevelChange:305...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+3,2,2,0
+Total 3 (3 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (2 events / 2 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (1 events / 1 unique events)
+Classifier (ch.qos.logback.classic.LoggerContext.fireOnLevelChange:305): LIB,NOT_REDUNDANT_TRACES
+
+#125
+Inspecting hot method gnu.trove.map.hash.TObjectIntHashMap.rehash:175...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+3,3,3,0
+Total 3 (1 unique) events are in hot method
+Total 3 (1 unique) traces are in hot method
+Total 3 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Arrays_SortBeforeBinarySearch (3 traces / 1 unique traces) (3 events / 1 unique events)
+Classifier (gnu.trove.map.hash.TObjectIntHashMap.rehash:175): LIB,ISOLATED_ONE_UNIQUE
+
+#126
+Inspecting hot method ch.qos.logback.core.BasicStatusManager.getCopyOfStatusList:77...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+3,2,2,0
+Total 3 (3 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Collection_UnsynchronizedAddAll (1 traces / 1 unique traces) (2 events / 2 unique events)
+Classifier (ch.qos.logback.core.BasicStatusManager.getCopyOfStatusList:77): LIB,NOT_REDUNDANT_TRACES
+
+#127
+Inspecting hot method com.conveyal.osmlib.PBFOutput.run:304...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+3,3,3,0
+Total 3 (3 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Thread_SetDaemonBeforeStart (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Closeable_MultipleClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+	OutputStream_ManipulateAfterClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+Classifier (com.conveyal.osmlib.PBFOutput.run:304): CUT,NOT_REDUNDANT_TRACES
+
+#128
+Inspecting hot method ch.qos.logback.core.pattern.parser.OptionTokenizer.emitOptionToken:138...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+2,1,0,1
+Total 2 (2 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 19 (19 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (19 events / 19 unique events) (2 events / 2 unique events in hot method)
+Classifier (ch.qos.logback.core.pattern.parser.OptionTokenizer.emitOptionToken:138): LIB,NOT_REDUNDANT_TRACES
+
+#129
+Inspecting hot method ch.qos.logback.core.pattern.parser.OptionTokenizer.tokenize:61...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+2,2,2,0
+Total 2 (1 unique) events are in hot method
+Total 2 (1 unique) traces are in hot method
+Total 2 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (2 traces / 1 unique traces) (2 events / 1 unique events)
+Classifier (ch.qos.logback.core.pattern.parser.OptionTokenizer.tokenize:61): LIB,ISOLATED_ONE_UNIQUE
+
+#130
+Inspecting hot method org.slf4j.helpers.SubstituteLoggerFactory.getLoggers:61...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+2,2,2,0
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2 (2 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Map_UnsafeIterator (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Map_CollectionViewAdd (1 traces / 1 unique traces) (1 events / 1 unique events)
+Classifier (org.slf4j.helpers.SubstituteLoggerFactory.getLoggers:61): LIB,NOT_REDUNDANT_TRACES
+
+#131
+Inspecting hot method com.conveyal.osmlib.DeflatedBlockWriter.<init>:34...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+2,2,2,0
+Total 2 (1 unique) events are in hot method
+Total 2 (1 unique) traces are in hot method
+Total 2 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Thread_StartOnce (2 traces / 1 unique traces) (2 events / 1 unique events)
+Classifier (com.conveyal.osmlib.DeflatedBlockWriter.<init>:34): CUT,ISOLATED_ONE_UNIQUE
+
+#132
+Inspecting hot method com.conveyal.osmlib.DeflatedBlockReader.<init>:21...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+2,2,2,0
+Total 2 (1 unique) events are in hot method
+Total 2 (1 unique) traces are in hot method
+Total 2 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Thread_StartOnce (2 traces / 1 unique traces) (2 events / 1 unique events)
+Classifier (com.conveyal.osmlib.DeflatedBlockReader.<init>:21): CUT,ISOLATED_ONE_UNIQUE
+
+#133
+Inspecting hot method ch.qos.logback.classic.spi.TurboFilterList.<clinit>:0...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+2,2,0,2
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 55 (55 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	Serializable_NoArgConstructor (1 traces / 1 unique traces) (49 events / 49 unique events) (1 events / 1 unique events in hot method)
+	Collection_HashCode (1 traces / 1 unique traces) (6 events / 6 unique events) (1 events / 1 unique events in hot method)
+Classifier (ch.qos.logback.classic.spi.TurboFilterList.<clinit>:0): LIB,NOT_REDUNDANT_TRACES
+
+#134
+Inspecting hot method ch.qos.logback.classic.LoggerContext.<init>:50...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+2,2,0,2
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 8527910 (8527910 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (4263955 events / 4263955 unique events) (1 events / 1 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (4263955 events / 4263955 unique events) (1 events / 1 unique events in hot method)
+Classifier (ch.qos.logback.classic.LoggerContext.<init>:50): LIB,NOT_REDUNDANT_TRACES
+
+#135
+Inspecting hot method ch.qos.logback.core.ContextBase.putObject:94...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+2,2,0,2
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 8527910 (8527910 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (4263955 events / 4263955 unique events) (1 events / 1 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (4263955 events / 4263955 unique events) (1 events / 1 unique events in hot method)
+Classifier (ch.qos.logback.core.ContextBase.putObject:94): LIB,NOT_REDUNDANT_TRACES
+

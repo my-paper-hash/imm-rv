@@ -1,0 +1,26 @@
+Reading traces...
+Reading specs frequency...
+Reading locations...
+Counting events...
+Total 183837 events and 1 traces
+Inspecting top 200 IMM
+Finding hot methods...
+Number of events, method name
+183837,com.github.houbb.sensitive.word.util.StreamUtils.readAllLines:53
+Starting com.github.houbb.sensitive.word.util.StreamUtils.readAllLines:53
+Finish com.github.houbb.sensitive.word.util.StreamUtils.readAllLines:53
+
+#1
+Inspecting hot method com.github.houbb.sensitive.word.util.StreamUtils.readAllLines:53...
+Checking for isolation...
+183837,1,1,0
+Total 183837 (183837 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 183837 (183837 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (183837 events / 183837 unique events)
+Classifier (com.github.houbb.sensitive.word.util.StreamUtils.readAllLines:53): CUT,NOT_REDUNDANT_TRACES
+

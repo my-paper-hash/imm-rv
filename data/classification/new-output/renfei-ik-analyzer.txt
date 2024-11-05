@@ -1,0 +1,711 @@
+Reading traces...
+Reading specs frequency...
+Reading locations...
+Counting events...
+Total 124016952 events and 28817066 traces
+Inspecting top 200 IMM
+Finding hot methods...
+Number of events, method name
+33517818,org.apache.lucene.analysis.cn.smart.hhmm.BiSegGraph.generateBiSegGraph:56
+31363218,org.apache.lucene.analysis.cn.smart.hhmm.SegGraph.makeIndex:79
+20485211,org.apache.lucene.analysis.cn.smart.hhmm.BiSegGraph.getShortPath:174
+9890400,org.apache.lucene.analysis.cn.smart.hhmm.HHMMSegmenter.createSegGraph:46
+6315606,org.apache.lucene.analysis.cn.smart.WordSegmenter.segmentSentence:50
+6196206,org.apache.lucene.analysis.cn.smart.WordTokenFilter.incrementToken:66
+5684403,org.apache.lucene.analysis.cn.smart.hhmm.BiSegGraph.addSegTokenPair:149
+4876203,org.apache.lucene.analysis.cn.smart.hhmm.SegGraph.addToken:103
+2908810,org.apache.lucene.analysis.cn.smart.SentenceTokenizer.incrementToken:78
+953401,org.apache.lucene.analysis.tokenattributes.TermAttributeImpl.setTermBuffer:55
+953101,org.apache.lucene.analysis.PorterStemmer.stem:452
+719216,org.wltea.analyzer.dic.DictSegment.lookforSegment:196
+136512,org.wltea.analyzer.dic.DictSegment.migrate:287
+14222,org.wltea.analyzer.dic.DictSegment.fillSegment:167
+1516,org.wltea.analyzer.test.StandardAnalyzerTest.test:27
+558,org.wltea.analyzer.IKSegmentation.next:63
+90,org.apache.lucene.util.AttributeSource.addAttributeImpl:185
+87,org.apache.lucene.util.AttributeSource.computeCurrentState:295
+70,org.wltea.analyzer.seg.QuantifierSegmenter.<clinit>:40
+60,org.apache.lucene.analysis.tokenattributes.TermAttributeImpl.toString:216
+58,org.apache.lucene.analysis.WordlistLoader.getWordSet:122
+56,org.wltea.analyzer.seg.CJKSegmenter.nextLexeme:47
+28,org.apache.lucene.util.AttributeSource$AttributeFactory$DefaultAttributeFactory.getClassForInterface:74
+27,org.wltea.analyzer.Context.lockBuffer:96
+12,org.wltea.analyzer.dic.Dictionary.loadStopWordDict:323
+12,org.wltea.analyzer.dic.Dictionary.loadMainDict:97
+6,org.wltea.analyzer.dic.Dictionary.loadPrepDict:285
+6,org.wltea.analyzer.dic.Dictionary.loadQuantifierDict:211
+6,org.wltea.analyzer.dic.Dictionary.loadSurnameDict:174
+6,org.wltea.analyzer.dic.Dictionary.loadSuffixDict:248
+4,org.apache.lucene.analysis.StopFilter.<init>:37
+3,org.apache.lucene.analysis.cn.smart.SmartChineseAnalyzer$DefaultSetHolder.loadDefaultStopWordSet:95
+3,org.apache.lucene.analysis.cn.smart.hhmm.BigramDictionary.loadFromInputStream:98
+3,org.apache.lucene.analysis.cn.smart.hhmm.WordDictionary.loadFromObjectInputStream:165
+3,org.wltea.analyzer.cfg.Configuration.loadSegmenter:110
+2,org.wltea.analyzer.seg.CJKSegmenter.reset:216
+1,org.wltea.analyzer.cfg.Configuration.<init>:44
+1,org.apache.lucene.util.Version.<clinit>:33
+1,org.apache.lucene.util.AttributeImpl.<clinit>:0
+1,org.apache.lucene.analysis.tokenattributes.TermAttributeImpl.<clinit>:28
+1,org.apache.lucene.analysis.tokenattributes.OffsetAttributeImpl.<clinit>:0
+1,org.apache.lucene.analysis.tokenattributes.TypeAttributeImpl.<clinit>:0
+1,org.apache.lucene.analysis.tokenattributes.PositionIncrementAttributeImpl.<clinit>:0
+1,org.apache.lucene.analysis.CharArraySet$UnmodifiableCharArraySet.<clinit>:0
+1,org.apache.lucene.analysis.CharArraySet.<clinit>:51
+^^^ Last method that contains more than one event ^^^
+Starting org.apache.lucene.analysis.cn.smart.SentenceTokenizer.incrementToken:78
+Finish org.apache.lucene.analysis.cn.smart.SentenceTokenizer.incrementToken:78
+Starting org.apache.lucene.analysis.cn.smart.WordTokenFilter.incrementToken:66
+Finish org.apache.lucene.analysis.cn.smart.WordTokenFilter.incrementToken:66
+Starting org.apache.lucene.util.AttributeSource.addAttributeImpl:185
+Finish org.apache.lucene.util.AttributeSource.addAttributeImpl:185
+Starting org.wltea.analyzer.dic.DictSegment.migrate:287
+Finish org.wltea.analyzer.dic.DictSegment.migrate:287
+Starting org.apache.lucene.analysis.tokenattributes.TermAttributeImpl.toString:216
+Finish org.apache.lucene.analysis.tokenattributes.TermAttributeImpl.toString:216
+Starting org.apache.lucene.analysis.cn.smart.hhmm.SegGraph.makeIndex:79
+Finish org.apache.lucene.analysis.cn.smart.hhmm.SegGraph.makeIndex:79
+Starting org.wltea.analyzer.seg.QuantifierSegmenter.<clinit>:40
+Finish org.wltea.analyzer.seg.QuantifierSegmenter.<clinit>:40
+Starting org.apache.lucene.analysis.tokenattributes.TermAttributeImpl.setTermBuffer:55
+Finish org.apache.lucene.analysis.tokenattributes.TermAttributeImpl.setTermBuffer:55
+Starting org.apache.lucene.analysis.WordlistLoader.getWordSet:122
+Finish org.apache.lucene.analysis.WordlistLoader.getWordSet:122
+Starting org.apache.lucene.analysis.cn.smart.hhmm.BiSegGraph.getShortPath:174
+Finish org.apache.lucene.analysis.cn.smart.hhmm.BiSegGraph.getShortPath:174
+Starting org.wltea.analyzer.seg.CJKSegmenter.nextLexeme:47
+Finish org.wltea.analyzer.seg.CJKSegmenter.nextLexeme:47
+Starting org.apache.lucene.analysis.cn.smart.hhmm.SegGraph.addToken:103
+Finish org.apache.lucene.analysis.cn.smart.hhmm.SegGraph.addToken:103
+Starting org.apache.lucene.analysis.PorterStemmer.stem:452
+Finish org.apache.lucene.analysis.PorterStemmer.stem:452
+Starting org.apache.lucene.util.AttributeSource$AttributeFactory$DefaultAttributeFactory.getClassForInterface:74
+Finish org.apache.lucene.util.AttributeSource$AttributeFactory$DefaultAttributeFactory.getClassForInterface:74
+Starting org.apache.lucene.analysis.cn.smart.WordSegmenter.segmentSentence:50
+Finish org.apache.lucene.analysis.cn.smart.WordSegmenter.segmentSentence:50
+Starting org.wltea.analyzer.dic.Dictionary.loadPrepDict:285
+Finish org.wltea.analyzer.dic.Dictionary.loadPrepDict:285
+Starting org.wltea.analyzer.dic.DictSegment.fillSegment:167
+Finish org.wltea.analyzer.dic.DictSegment.fillSegment:167
+Starting org.wltea.analyzer.dic.Dictionary.loadMainDict:97
+Finish org.wltea.analyzer.dic.Dictionary.loadMainDict:97
+Starting org.apache.lucene.util.AttributeSource.computeCurrentState:295
+Finish org.apache.lucene.util.AttributeSource.computeCurrentState:295
+Starting org.wltea.analyzer.dic.Dictionary.loadQuantifierDict:211
+Finish org.wltea.analyzer.dic.Dictionary.loadQuantifierDict:211
+Starting org.wltea.analyzer.test.StandardAnalyzerTest.test:27
+Finish org.wltea.analyzer.test.StandardAnalyzerTest.test:27
+Starting org.wltea.analyzer.dic.Dictionary.loadSurnameDict:174
+Finish org.wltea.analyzer.dic.Dictionary.loadSurnameDict:174
+Starting org.wltea.analyzer.dic.DictSegment.lookforSegment:196
+Finish org.wltea.analyzer.dic.DictSegment.lookforSegment:196
+Starting org.apache.lucene.analysis.StopFilter.<init>:37
+Finish org.apache.lucene.analysis.StopFilter.<init>:37
+Starting org.apache.lucene.analysis.cn.smart.hhmm.BiSegGraph.addSegTokenPair:149
+Finish org.apache.lucene.analysis.cn.smart.hhmm.BiSegGraph.addSegTokenPair:149
+Starting org.wltea.analyzer.seg.CJKSegmenter.reset:216
+Finish org.wltea.analyzer.seg.CJKSegmenter.reset:216
+Starting org.wltea.analyzer.IKSegmentation.next:63
+Finish org.wltea.analyzer.IKSegmentation.next:63
+Starting org.wltea.analyzer.dic.Dictionary.loadSuffixDict:248
+Finish org.wltea.analyzer.dic.Dictionary.loadSuffixDict:248
+Starting org.apache.lucene.analysis.cn.smart.hhmm.BiSegGraph.generateBiSegGraph:56
+Finish org.apache.lucene.analysis.cn.smart.hhmm.BiSegGraph.generateBiSegGraph:56
+Starting org.apache.lucene.analysis.cn.smart.hhmm.BigramDictionary.loadFromInputStream:98
+Finish org.apache.lucene.analysis.cn.smart.hhmm.BigramDictionary.loadFromInputStream:98
+Starting org.wltea.analyzer.dic.Dictionary.loadStopWordDict:323
+Finish org.wltea.analyzer.dic.Dictionary.loadStopWordDict:323
+Starting org.apache.lucene.analysis.cn.smart.SmartChineseAnalyzer$DefaultSetHolder.loadDefaultStopWordSet:95
+Finish org.apache.lucene.analysis.cn.smart.SmartChineseAnalyzer$DefaultSetHolder.loadDefaultStopWordSet:95
+
+#1
+Inspecting hot method org.apache.lucene.analysis.cn.smart.hhmm.BiSegGraph.generateBiSegGraph:56...
+Checking for isolation...
+33517818,9387007,9387006,1
+Total 33517818 (4408880 unique) events are in hot method
+Total 9387007 (19 unique) traces are in hot method
+Total 9387006 (18 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 29109016 (78 unique) events are in isolated traces
+Total 6315304 (6315304 unique) events are in non-isolated traces (4408802 / 4408802 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (3129002 traces / 6 unique traces) (14146808 events / 36 unique events)
+	Iterator_RemoveOnce (3129002 traces / 6 unique traces) (3944402 events / 12 unique events)
+	Iterator_HasNext (3129002 traces / 6 unique traces) (11017806 events / 30 unique events)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (6315304 events / 6315304 unique events) (4408802 events / 4408802 unique events in hot method)
+Classifier (org.apache.lucene.analysis.cn.smart.hhmm.BiSegGraph.generateBiSegGraph:56): LIB,ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#2
+Inspecting hot method org.apache.lucene.analysis.cn.smart.hhmm.SegGraph.makeIndex:79...
+Checking for isolation...
+31363218,9289206,9289206,0
+Total 31363218 (872 unique) events are in hot method
+Total 9289206 (45 unique) traces are in hot method
+Total 9289206 (45 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 31363218 (872 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (3016802 traces / 3 unique traces) (13471208 events / 18 unique events)
+	Iterator_RemoveOnce (3016802 traces / 3 unique traces) (3718802 events / 6 unique events)
+	Iterator_HasNext (3016802 traces / 3 unique traces) (10454406 events / 15 unique events)
+	Collections_SortBeforeBinarySearch (238800 traces / 36 unique traces) (3718802 events / 833 unique events)
+Classifier (org.apache.lucene.analysis.cn.smart.hhmm.SegGraph.makeIndex:79): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#3
+Inspecting hot method org.apache.lucene.analysis.cn.smart.hhmm.BiSegGraph.getShortPath:174...
+Checking for isolation...
+20485211,5578203,5578203,0
+Total 20485211 (1418 unique) events are in hot method
+Total 5578203 (85 unique) traces are in hot method
+Total 5578203 (85 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 20485211 (1418 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (1740001 traces / 3 unique traces) (6148803 events / 15 unique events)
+	Collection_UnsafeIterator (1740001 traces / 3 unique traces) (7888804 events / 18 unique events)
+	Iterator_RemoveOnce (1740001 traces / 3 unique traces) (2204401 events / 6 unique events)
+	Collections_SortBeforeBinarySearch (358200 traces / 76 unique traces) (4243203 events / 1379 unique events)
+Classifier (org.apache.lucene.analysis.cn.smart.hhmm.BiSegGraph.getShortPath:174): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#4
+Inspecting hot method org.apache.lucene.analysis.cn.smart.hhmm.HHMMSegmenter.createSegGraph:46...
+Checking for isolation...
+9890400,238800,238800,0
+Total 9890400 (26948 unique) events are in hot method
+Total 238800 (526 unique) traces are in hot method
+Total 238800 (526 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 9890400 (26948 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (119400 traces / 263 unique traces) (7417800 events / 20211 unique events)
+	Appendable_ThreadSafe (119400 traces / 263 unique traces) (2472600 events / 6737 unique events)
+Classifier (org.apache.lucene.analysis.cn.smart.hhmm.HHMMSegmenter.createSegGraph:46): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#5
+Inspecting hot method org.apache.lucene.analysis.cn.smart.WordSegmenter.segmentSentence:50...
+Checking for isolation...
+6315606,597000,477600,119400
+Total 6315606 (1460 unique) events are in hot method
+Total 597000 (81 unique) traces are in hot method
+Total 477600 (80 unique) isolated traces are in hot method
+Total 119400 (1 unique) non-isolated traces that have events in hot method
+Total 6076806 (1458 unique) events are in isolated traces
+Total 358200 (3 unique) events are in non-isolated traces (238800 / 2 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (119400 traces / 20 unique traces) (2025602 events / 486 unique events)
+	ListIterator_RemoveOnce (119400 traces / 20 unique traces) (953101 events / 233 unique events)
+	Collection_UnsafeIterator (119400 traces / 20 unique traces) (2145002 events / 506 unique events)
+	Iterator_RemoveOnce (119400 traces / 20 unique traces) (953101 events / 233 unique events)
+Specs that have non-isolated traces:
+	List_UnsynchronizedSubList (119400 traces / 1 unique traces) (358200 events / 3 unique events) (238800 events / 2 unique events in hot method)
+Classifier (org.apache.lucene.analysis.cn.smart.WordSegmenter.segmentSentence:50): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_ONE_UNIQUE
+
+#6
+Inspecting hot method org.apache.lucene.analysis.cn.smart.WordTokenFilter.incrementToken:66...
+Checking for isolation...
+6196206,597000,477600,119400
+Total 6196206 (1459 unique) events are in hot method
+Total 597000 (81 unique) traces are in hot method
+Total 477600 (80 unique) isolated traces are in hot method
+Total 119400 (1 unique) non-isolated traces that have events in hot method
+Total 6076806 (1458 unique) events are in isolated traces
+Total 358200 (3 unique) events are in non-isolated traces (119400 / 1 unique are in hot method)
+Specs that have isolated traces:
+	ListIterator_RemoveOnce (119400 traces / 20 unique traces) (953101 events / 233 unique events)
+	Iterator_HasNext (119400 traces / 20 unique traces) (2025602 events / 486 unique events)
+	Collection_UnsafeIterator (119400 traces / 20 unique traces) (2145002 events / 506 unique events)
+	Iterator_RemoveOnce (119400 traces / 20 unique traces) (953101 events / 233 unique events)
+Specs that have non-isolated traces:
+	List_UnsynchronizedSubList (119400 traces / 1 unique traces) (358200 events / 3 unique events) (119400 events / 1 unique events in hot method)
+Classifier (org.apache.lucene.analysis.cn.smart.WordTokenFilter.incrementToken:66): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_ONE_UNIQUE
+
+#7
+Inspecting hot method org.apache.lucene.analysis.cn.smart.hhmm.BiSegGraph.addSegTokenPair:149...
+Checking for isolation...
+5684403,1740003,1740001,2
+Total 5684403 (3480008 unique) events are in hot method
+Total 1740003 (5 unique) traces are in hot method
+Total 1740001 (3 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 2204401 (6 unique) events are in isolated traces
+Total 7366794 (7366794 unique) events are in non-isolated traces (3480002 / 3480002 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1740001 traces / 3 unique traces) (2204401 events / 6 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (3683397 events / 3683397 unique events) (1740001 events / 1740001 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (3683397 events / 3683397 unique events) (1740001 events / 1740001 unique events in hot method)
+Classifier (org.apache.lucene.analysis.cn.smart.hhmm.BiSegGraph.addSegTokenPair:149): LIB,ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#8
+Inspecting hot method org.apache.lucene.analysis.cn.smart.hhmm.SegGraph.addToken:103...
+Checking for isolation...
+4876203,1508403,1508401,2
+Total 4876203 (3016808 unique) events are in hot method
+Total 1508403 (5 unique) traces are in hot method
+Total 1508401 (3 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 1859401 (6 unique) events are in isolated traces
+Total 7366794 (7366794 unique) events are in non-isolated traces (3016802 / 3016802 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1508401 traces / 3 unique traces) (1859401 events / 6 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (3683397 events / 3683397 unique events) (1508401 events / 1508401 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (3683397 events / 3683397 unique events) (1508401 events / 1508401 unique events in hot method)
+Classifier (org.apache.lucene.analysis.cn.smart.hhmm.SegGraph.addToken:103): LIB,ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#9
+Inspecting hot method org.apache.lucene.analysis.cn.smart.SentenceTokenizer.incrementToken:78...
+Checking for isolation...
+2908810,2,2,0
+Total 2908810 (2908810 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2908810 (2908810 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (1633506 events / 1633506 unique events)
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (1275304 events / 1275304 unique events)
+Classifier (org.apache.lucene.analysis.cn.smart.SentenceTokenizer.incrementToken:78): LIB,NOT_REDUNDANT_TRACES
+
+#10
+Inspecting hot method org.apache.lucene.analysis.tokenattributes.TermAttributeImpl.setTermBuffer:55...
+Checking for isolation...
+953401,1,0,1
+Total 953401 (953401 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 6315304 (6315304 unique) events are in non-isolated traces (953401 / 953401 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (6315304 events / 6315304 unique events) (953401 events / 953401 unique events in hot method)
+Classifier (org.apache.lucene.analysis.tokenattributes.TermAttributeImpl.setTermBuffer:55): LIB,NOT_REDUNDANT_TRACES
+
+#11
+Inspecting hot method org.apache.lucene.analysis.PorterStemmer.stem:452...
+Checking for isolation...
+953101,1,0,1
+Total 953101 (953101 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 6315304 (6315304 unique) events are in non-isolated traces (953101 / 953101 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (6315304 events / 6315304 unique events) (953101 events / 953101 unique events in hot method)
+Classifier (org.apache.lucene.analysis.PorterStemmer.stem:452): LIB,NOT_REDUNDANT_TRACES
+
+#12
+Inspecting hot method org.wltea.analyzer.dic.DictSegment.lookforSegment:196...
+Checking for isolation...
+719216,2,0,2
+Total 719216 (719216 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 7366794 (7366794 unique) events are in non-isolated traces (719216 / 719216 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (3683397 events / 3683397 unique events) (359608 events / 359608 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (3683397 events / 3683397 unique events) (359608 events / 359608 unique events in hot method)
+Classifier (org.wltea.analyzer.dic.DictSegment.lookforSegment:196): LIB,NOT_REDUNDANT_TRACES
+
+#13
+Inspecting hot method org.wltea.analyzer.dic.DictSegment.migrate:287...
+Checking for isolation...
+136512,2,0,2
+Total 136512 (136512 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 7366794 (7366794 unique) events are in non-isolated traces (136512 / 136512 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (3683397 events / 3683397 unique events) (68256 events / 68256 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (3683397 events / 3683397 unique events) (68256 events / 68256 unique events in hot method)
+Classifier (org.wltea.analyzer.dic.DictSegment.migrate:287): CUT,NOT_REDUNDANT_TRACES
+
+#14
+Inspecting hot method org.wltea.analyzer.dic.DictSegment.fillSegment:167...
+Checking for isolation...
+14222,2,0,2
+Total 14222 (14222 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 7366794 (7366794 unique) events are in non-isolated traces (14222 / 14222 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (3683397 events / 3683397 unique events) (7111 events / 7111 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (3683397 events / 3683397 unique events) (7111 events / 7111 unique events in hot method)
+Classifier (org.wltea.analyzer.dic.DictSegment.fillSegment:167): LIB,NOT_REDUNDANT_TRACES
+
+#15
+Inspecting hot method org.wltea.analyzer.test.StandardAnalyzerTest.test:27...
+Checking for isolation...
+1516,604,604,0
+Total 1516 (21 unique) events are in hot method
+Total 604 (6 unique) traces are in hot method
+Total 604 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1516 (21 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (302 traces / 3 unique traces) (607 events / 9 unique events)
+	StringBuilder_ThreadSafe (302 traces / 3 unique traces) (909 events / 12 unique events)
+Classifier (org.wltea.analyzer.test.StandardAnalyzerTest.test:27): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#16
+Inspecting hot method org.wltea.analyzer.IKSegmentation.next:63...
+Checking for isolation...
+558,93,93,0
+Total 558 (36 unique) events are in hot method
+Total 93 (6 unique) traces are in hot method
+Total 93 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 558 (36 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (31 traces / 2 unique traces) (248 events / 16 unique events)
+	Iterator_HasNext (31 traces / 2 unique traces) (217 events / 14 unique events)
+	Iterator_RemoveOnce (31 traces / 2 unique traces) (93 events / 6 unique events)
+Classifier (org.wltea.analyzer.IKSegmentation.next:63): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#17
+Inspecting hot method org.apache.lucene.util.AttributeSource.addAttributeImpl:185...
+Checking for isolation...
+90,30,28,2
+Total 90 (42 unique) events are in hot method
+Total 30 (7 unique) traces are in hot method
+Total 28 (5 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 58 (10 unique) events are in isolated traces
+Total 7366794 (7366794 unique) events are in non-isolated traces (32 / 32 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (6 traces / 1 unique traces) (24 events / 4 unique events)
+	Iterator_RemoveOnce (6 traces / 1 unique traces) (6 events / 1 unique events)
+	Iterator_HasNext (6 traces / 1 unique traces) (18 events / 3 unique events)
+	ListIterator_RemoveOnce (6 traces / 1 unique traces) (6 events / 1 unique events)
+	Collections_SortBeforeBinarySearch (4 traces / 1 unique traces) (4 events / 1 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (3683397 events / 3683397 unique events) (16 events / 16 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (3683397 events / 3683397 unique events) (16 events / 16 unique events in hot method)
+Classifier (org.apache.lucene.util.AttributeSource.addAttributeImpl:185): LIB,ISOLATED_ONE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#18
+Inspecting hot method org.apache.lucene.util.AttributeSource.computeCurrentState:295...
+Checking for isolation...
+87,16,16,0
+Total 87 (66 unique) events are in hot method
+Total 16 (13 unique) traces are in hot method
+Total 16 (13 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 87 (66 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Map_UnsafeIterator (5 traces / 5 unique traces) (31 events / 31 unique events)
+	Iterator_HasNext (3 traces / 2 unique traces) (20 events / 12 unique events)
+	Collection_UnsafeIterator (3 traces / 2 unique traces) (23 events / 14 unique events)
+	Iterator_RemoveOnce (3 traces / 2 unique traces) (10 events / 6 unique events)
+	Map_CollectionViewAdd (2 traces / 2 unique traces) (3 events / 3 unique events)
+Classifier (org.apache.lucene.util.AttributeSource.computeCurrentState:295): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT
+
+#19
+Inspecting hot method org.wltea.analyzer.seg.QuantifierSegmenter.<clinit>:40...
+Checking for isolation...
+70,5,3,2
+Total 70 (70 unique) events are in hot method
+Total 5 (5 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 6 (6 unique) events are in isolated traces
+Total 148 (148 unique) events are in non-isolated traces (64 / 64 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsynchronizedAddAll (3 traces / 3 unique traces) (6 events / 6 unique events)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (144 events / 144 unique events) (61 events / 61 unique events in hot method)
+	CharSequence_NotInSet (1 traces / 1 unique traces) (4 events / 4 unique events) (3 events / 3 unique events in hot method)
+Classifier (org.wltea.analyzer.seg.QuantifierSegmenter.<clinit>:40): LIB,NOT_REDUNDANT_TRACES
+
+#20
+Inspecting hot method org.apache.lucene.analysis.tokenattributes.TermAttributeImpl.toString:216...
+Checking for isolation...
+60,24,24,0
+Total 60 (5 unique) events are in hot method
+Total 24 (2 unique) traces are in hot method
+Total 24 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 60 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (12 traces / 1 unique traces) (24 events / 2 unique events)
+	StringBuilder_ThreadSafe (12 traces / 1 unique traces) (36 events / 3 unique events)
+Classifier (org.apache.lucene.analysis.tokenattributes.TermAttributeImpl.toString:216): LIB,ISOLATED_ONE_UNIQUE
+
+#21
+Inspecting hot method org.apache.lucene.analysis.WordlistLoader.getWordSet:122...
+Checking for isolation...
+58,4,3,1
+Total 58 (58 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 3 (3 unique) events are in isolated traces
+Total 144 (144 unique) events are in non-isolated traces (55 / 55 unique are in hot method)
+Specs that have isolated traces:
+	Reader_ManipulateAfterClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Closeable_MultipleClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Console_CloseReader (1 traces / 1 unique traces) (1 events / 1 unique events)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (144 events / 144 unique events) (55 events / 55 unique events in hot method)
+Classifier (org.apache.lucene.analysis.WordlistLoader.getWordSet:122): LIB,NOT_REDUNDANT_TRACES
+
+#22
+Inspecting hot method org.wltea.analyzer.seg.CJKSegmenter.nextLexeme:47...
+Checking for isolation...
+56,5,3,2
+Total 56 (56 unique) events are in hot method
+Total 5 (5 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 5 (5 unique) events are in isolated traces
+Total 53 (53 unique) events are in non-isolated traces (51 / 51 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (3 events / 3 unique events)
+	ListIterator_RemoveOnce (1 traces / 1 unique traces) (1 events / 1 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (13 events / 13 unique events) (12 events / 12 unique events in hot method)
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (40 events / 40 unique events) (39 events / 39 unique events in hot method)
+Classifier (org.wltea.analyzer.seg.CJKSegmenter.nextLexeme:47): CUT,NOT_REDUNDANT_TRACES
+
+#23
+Inspecting hot method org.apache.lucene.util.AttributeSource$AttributeFactory$DefaultAttributeFactory.getClassForInterface:74...
+Checking for isolation...
+28,10,8,2
+Total 28 (13 unique) events are in hot method
+Total 10 (4 unique) traces are in hot method
+Total 8 (2 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 20 (5 unique) events are in isolated traces
+Total 7366794 (7366794 unique) events are in non-isolated traces (8 / 8 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (4 traces / 1 unique traces) (8 events / 2 unique events)
+	StringBuilder_ThreadSafe (4 traces / 1 unique traces) (12 events / 3 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (3683397 events / 3683397 unique events) (4 events / 4 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (3683397 events / 3683397 unique events) (4 events / 4 unique events in hot method)
+Classifier (org.apache.lucene.util.AttributeSource$AttributeFactory$DefaultAttributeFactory.getClassForInterface:74): LIB,ISOLATED_ONE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#24
+Inspecting hot method org.wltea.analyzer.Context.lockBuffer:96...
+Checking for isolation...
+27,1,0,1
+Total 27 (27 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 144 (144 unique) events are in non-isolated traces (27 / 27 unique are in hot method)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (144 events / 144 unique events) (27 events / 27 unique events in hot method)
+Classifier (org.wltea.analyzer.Context.lockBuffer:96): LIB,NOT_REDUNDANT_TRACES
+
+#25
+Inspecting hot method org.wltea.analyzer.dic.Dictionary.loadStopWordDict:323...
+Checking for isolation...
+12,10,10,0
+Total 12 (6 unique) events are in hot method
+Total 10 (5 unique) traces are in hot method
+Total 10 (5 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 12 (6 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (2 traces / 1 unique traces) (4 events / 2 unique events)
+	InputStream_MarkAfterClose (2 traces / 1 unique traces) (2 events / 1 unique events)
+	Closeable_MultipleClose (2 traces / 1 unique traces) (2 events / 1 unique events)
+	Iterator_HasNext (2 traces / 1 unique traces) (2 events / 1 unique events)
+	InputStream_ManipulateAfterClose (2 traces / 1 unique traces) (2 events / 1 unique events)
+Classifier (org.wltea.analyzer.dic.Dictionary.loadStopWordDict:323): LIB,ISOLATED_ONE_UNIQUE
+
+#26
+Inspecting hot method org.wltea.analyzer.dic.Dictionary.loadMainDict:97...
+Checking for isolation...
+12,10,10,0
+Total 12 (6 unique) events are in hot method
+Total 10 (5 unique) traces are in hot method
+Total 10 (5 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 12 (6 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (2 traces / 1 unique traces) (4 events / 2 unique events)
+	InputStream_ManipulateAfterClose (2 traces / 1 unique traces) (2 events / 1 unique events)
+	Closeable_MultipleClose (2 traces / 1 unique traces) (2 events / 1 unique events)
+	InputStream_MarkAfterClose (2 traces / 1 unique traces) (2 events / 1 unique events)
+	Iterator_HasNext (2 traces / 1 unique traces) (2 events / 1 unique events)
+Classifier (org.wltea.analyzer.dic.Dictionary.loadMainDict:97): CUT,ISOLATED_ONE_UNIQUE
+
+#27
+Inspecting hot method org.wltea.analyzer.dic.Dictionary.loadPrepDict:285...
+Checking for isolation...
+6,6,6,0
+Total 6 (3 unique) events are in hot method
+Total 6 (3 unique) traces are in hot method
+Total 6 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 6 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	InputStream_MarkAfterClose (2 traces / 1 unique traces) (2 events / 1 unique events)
+	Closeable_MultipleClose (2 traces / 1 unique traces) (2 events / 1 unique events)
+	InputStream_ManipulateAfterClose (2 traces / 1 unique traces) (2 events / 1 unique events)
+Classifier (org.wltea.analyzer.dic.Dictionary.loadPrepDict:285): CUT,ISOLATED_ONE_UNIQUE
+
+#28
+Inspecting hot method org.wltea.analyzer.dic.Dictionary.loadQuantifierDict:211...
+Checking for isolation...
+6,6,6,0
+Total 6 (3 unique) events are in hot method
+Total 6 (3 unique) traces are in hot method
+Total 6 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 6 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	InputStream_ManipulateAfterClose (2 traces / 1 unique traces) (2 events / 1 unique events)
+	Closeable_MultipleClose (2 traces / 1 unique traces) (2 events / 1 unique events)
+	InputStream_MarkAfterClose (2 traces / 1 unique traces) (2 events / 1 unique events)
+Classifier (org.wltea.analyzer.dic.Dictionary.loadQuantifierDict:211): CUT,ISOLATED_ONE_UNIQUE
+
+#29
+Inspecting hot method org.wltea.analyzer.dic.Dictionary.loadSurnameDict:174...
+Checking for isolation...
+6,6,6,0
+Total 6 (3 unique) events are in hot method
+Total 6 (3 unique) traces are in hot method
+Total 6 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 6 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	InputStream_ManipulateAfterClose (2 traces / 1 unique traces) (2 events / 1 unique events)
+	Closeable_MultipleClose (2 traces / 1 unique traces) (2 events / 1 unique events)
+	InputStream_MarkAfterClose (2 traces / 1 unique traces) (2 events / 1 unique events)
+Classifier (org.wltea.analyzer.dic.Dictionary.loadSurnameDict:174): CUT,ISOLATED_ONE_UNIQUE
+
+#30
+Inspecting hot method org.wltea.analyzer.dic.Dictionary.loadSuffixDict:248...
+Checking for isolation...
+6,6,6,0
+Total 6 (3 unique) events are in hot method
+Total 6 (3 unique) traces are in hot method
+Total 6 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 6 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	InputStream_MarkAfterClose (2 traces / 1 unique traces) (2 events / 1 unique events)
+	Closeable_MultipleClose (2 traces / 1 unique traces) (2 events / 1 unique events)
+	InputStream_ManipulateAfterClose (2 traces / 1 unique traces) (2 events / 1 unique events)
+Classifier (org.wltea.analyzer.dic.Dictionary.loadSuffixDict:248): CUT,ISOLATED_ONE_UNIQUE
+
+#31
+Inspecting hot method org.apache.lucene.analysis.StopFilter.<init>:37...
+Checking for isolation...
+4,3,1,2
+Total 4 (4 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 2 (2 unique) events are in isolated traces
+Total 148 (148 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsynchronizedAddAll (1 traces / 1 unique traces) (2 events / 2 unique events)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (144 events / 144 unique events) (1 events / 1 unique events in hot method)
+	CharSequence_NotInSet (1 traces / 1 unique traces) (4 events / 4 unique events) (1 events / 1 unique events in hot method)
+Classifier (org.apache.lucene.analysis.StopFilter.<init>:37): LIB,NOT_REDUNDANT_TRACES
+
+#32
+Inspecting hot method org.apache.lucene.analysis.cn.smart.SmartChineseAnalyzer$DefaultSetHolder.loadDefaultStopWordSet:95...
+Checking for isolation...
+3,3,3,0
+Total 3 (3 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	InputStream_MarkAfterClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Closeable_MultipleClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+	InputStream_ManipulateAfterClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+Classifier (org.apache.lucene.analysis.cn.smart.SmartChineseAnalyzer$DefaultSetHolder.loadDefaultStopWordSet:95): LIB,NOT_REDUNDANT_TRACES
+
+#33
+Inspecting hot method org.apache.lucene.analysis.cn.smart.hhmm.BigramDictionary.loadFromInputStream:98...
+Checking for isolation...
+3,3,3,0
+Total 3 (3 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	InputStream_ManipulateAfterClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+	InputStream_MarkAfterClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Closeable_MultipleClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+Classifier (org.apache.lucene.analysis.cn.smart.hhmm.BigramDictionary.loadFromInputStream:98): LIB,NOT_REDUNDANT_TRACES
+
+#34
+Inspecting hot method org.apache.lucene.analysis.cn.smart.hhmm.WordDictionary.loadFromObjectInputStream:165...
+Checking for isolation...
+3,3,3,0
+Total 3 (3 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Closeable_MultipleClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+	InputStream_ManipulateAfterClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+	InputStream_MarkAfterClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+Classifier (org.apache.lucene.analysis.cn.smart.hhmm.WordDictionary.loadFromObjectInputStream:165): LIB,NOT_REDUNDANT_TRACES
+
+#35
+Inspecting hot method org.wltea.analyzer.cfg.Configuration.loadSegmenter:110...
+Checking for isolation...
+3,1,1,0
+Total 3 (3 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (3 events / 3 unique events)
+Classifier (org.wltea.analyzer.cfg.Configuration.loadSegmenter:110): CUT,NOT_REDUNDANT_TRACES
+
+#36
+Inspecting hot method org.wltea.analyzer.seg.CJKSegmenter.reset:216...
+Checking for isolation...
+2,2,0,2
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 53 (53 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (13 events / 13 unique events) (1 events / 1 unique events in hot method)
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (40 events / 40 unique events) (1 events / 1 unique events in hot method)
+Classifier (org.wltea.analyzer.seg.CJKSegmenter.reset:216): CUT,NOT_REDUNDANT_TRACES
+

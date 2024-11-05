@@ -1,0 +1,3264 @@
+Reading traces...
+	read 1000 traces
+Reading specs frequency...
+Reading locations...
+Counting events...
+	processed 1000 traces
+Total 337018069 events and 10194055 traces
+Inspecting top 20000000 IMM
+Finding hot methods...
+Number of events, method name
+262144443,no.ecc.vectortile.VectorTileEncoder.addFeature:125
+31088238,no.ecc.vectortile.VectorTileDecoder$FeatureIterator.parseFeature:229
+24327058,vector_tile.VectorTile$Tile$Feature.<init>:1590
+6121558,no.ecc.vectortile.VectorTileDecoder$FeatureIterator.parseLayer:195
+5086110,no.ecc.vectortile.VectorTileDecoder$FeatureIterator.findNext:165
+4000010,no.ecc.vectortile.VectorTileDecoderTest.testBigTile:267
+2045730,vector_tile.VectorTile$Tile$Layer.<init>:2840
+1031724,com.google.protobuf.FieldSet.isInitialized:442
+1031694,com.google.protobuf.SmallSortedMap$1.makeImmutable:104
+40136,com.google.protobuf.UnmodifiableLazyStringList$2.hasNext:170
+30162,com.google.protobuf.UnmodifiableLazyStringList$2.next:175
+12343,no.ecc.vectortile.VectorTileDecoder$FeatureIterable.asList:105
+10387,com.google.protobuf.LazyStringArrayList.add:220
+10130,vector_tile.VectorTile$Tile.<init>:73
+10054,com.google.protobuf.LazyStringArrayList.get:115
+10014,com.google.protobuf.UnmodifiableLazyStringList$2.<init>:166
+1100,no.ecc.vectortile.VectorTileEncoderPerformanceTest.testManyPoints:21
+967,org.locationtech.jts.noding.MCIndexNoder.intersectChains:74
+852,com.google.protobuf.AbstractMessageLite$Builder.addAllCheckingNulls:356
+817,com.google.protobuf.FieldSet.iterator:222
+508,org.locationtech.jts.geomgraph.EdgeEndStar.propagateSideLabels:257
+441,org.locationtech.jts.geomgraph.NodeMap.values:98
+411,org.locationtech.jts.geomgraph.EdgeIntersectionList.iterator:61
+388,org.locationtech.jts.geomgraph.EdgeEndStar.computeLabelling:118
+360,org.locationtech.jts.operation.overlay.LineBuilder.findCoveredLineEdges:68
+357,com.google.protobuf.UnknownFieldSet.getSerializedSize:212
+357,com.google.protobuf.UnknownFieldSet.writeTo:137
+334,org.locationtech.jts.geomgraph.GeometryGraph.addSelfIntersectionNodes:431
+320,no.ecc.vectortile.VectorTileEncoder.encode:237
+297,org.locationtech.jts.noding.MCIndexNoder.add:98
+285,org.locationtech.jts.geomgraph.EdgeIntersectionList.addSplitEdges:100
+282,org.locationtech.jts.index.strtree.STRtree.verticalSlices:147
+263,org.locationtech.jts.index.strtree.AbstractSTRtree.createParentBoundables:120
+256,org.locationtech.jts.geomgraph.DirectedEdgeStar.getResultAreaEdges:157
+252,org.locationtech.jts.geomgraph.EdgeEndStar.iterator:97
+242,org.locationtech.jts.geomgraph.EdgeEndStar.computeEdgeEndLabels:194
+239,org.locationtech.jts.index.strtree.STRtree$STRtreeNode.computeBounds:60
+234,org.locationtech.jts.geomgraph.NodeMap.iterator:94
+231,no.ecc.vectortile.VectorTileDecoder$FeatureIterable.getLayerNames:113
+222,org.locationtech.jts.geomgraph.EdgeIntersectionList.add:47
+216,org.locationtech.jts.geomgraph.NodeMap.getBoundaryNodes:103
+210,org.locationtech.jts.geomgraph.index.SimpleMCSweepLineIntersector.addEdges:78
+210,org.locationtech.jts.geomgraph.index.SimpleMCSweepLineIntersector.addEdge:86
+209,org.locationtech.jts.geomgraph.DirectedEdgeStar.findCoveredLineEdges:302
+208,org.locationtech.jts.operation.relate.EdgeEndBundle.computeLabelSide:162
+196,org.locationtech.jts.operation.overlay.OverlayOp.copyPoints:415
+194,org.locationtech.jts.geomgraph.DirectedEdgeStar.computeLabelling:110
+194,org.locationtech.jts.geomgraph.DirectedEdgeStar.mergeSymLabels:134
+194,org.locationtech.jts.geomgraph.DirectedEdgeStar.updateLabelling:146
+189,org.locationtech.jts.operation.overlay.OverlayOp.computeLabelling:431
+189,org.locationtech.jts.operation.overlay.PointBuilder.extractNonCoveredResultNodes:70
+189,org.locationtech.jts.operation.overlay.OverlayOp.labelIncompleteNodes:483
+189,org.locationtech.jts.geomgraph.PlanarGraph.linkResultDirectedEdges:55
+189,org.locationtech.jts.operation.overlay.OverlayOp.mergeSymLabels:447
+189,org.locationtech.jts.operation.overlay.OverlayOp.updateNodeLabelling:459
+177,org.locationtech.jts.geomgraph.NodeMap.addNode:57
+175,org.locationtech.jts.geomgraph.Node.isIncidentEdgeInResult:54
+174,org.locationtech.jts.operation.overlay.PolygonBuilder.buildMaximalEdgeRings:87
+171,org.locationtech.jts.operation.overlay.LineBuilder.collectLines:90
+171,org.locationtech.jts.operation.overlay.OverlayOp.findResultAreaEdges:529
+171,org.locationtech.jts.operation.overlay.OverlayOp.cancelDuplicateResultEdges:552
+157,no.ecc.vectortile.VectorTileEncoder.commands:381
+146,org.locationtech.jts.geomgraph.GeometryGraph.computeSplitEdges:191
+144,org.locationtech.jts.geomgraph.PlanarGraph.addEdges:110
+140,org.locationtech.jts.io.WKTWriter.appendCoordinate:529
+140,org.locationtech.jts.operation.valid.IsValidOp.checkNoSelfIntersectingRing:408
+138,org.locationtech.jts.geomgraph.EdgeEndStar.insertEdgeEnd:70
+123,org.locationtech.jts.index.strtree.AbstractSTRtree.queryInternal:278
+112,org.locationtech.jts.operation.relate.EdgeEndBundle.computeLabelOn:120
+111,org.locationtech.jts.geomgraph.EdgeNodingValidator.toSegmentStrings:52
+96,org.locationtech.jts.noding.MCIndexNoder.computeNodes:64
+96,org.locationtech.jts.operation.overlay.OverlayOp.insertUniqueEdges:265
+94,org.locationtech.jts.operation.relate.RelateNodeGraph.computeIntersectionNodes:90
+94,org.locationtech.jts.geom.GeometryFactory.buildGeometry:516
+93,com.google.protobuf.GeneratedMessageV3$ExtendableMessage$ExtensionWriter.<init>:1046
+89,org.locationtech.jts.operation.overlay.OverlayOp.computeLabelsFromDepths:348
+89,org.locationtech.jts.operation.overlay.OverlayOp.replaceCollapsedEdges:393
+85,org.locationtech.jts.operation.valid.ConsistentAreaTester.hasDuplicateRings:134
+85,org.locationtech.jts.geomgraph.index.MonotoneChainIndexer.getChainStartIndices:66
+82,no.ecc.vectortile.VectorTileDecoderTest.assertEquals:290
+80,org.locationtech.jts.operation.relate.EdgeEndBuilder.computeEdgeEnds:61
+77,org.locationtech.jts.geomgraph.index.SimpleMCSweepLineIntersector.addEdges:70
+63,org.locationtech.jts.operation.overlay.OverlayOp.computeGeometry:604
+61,org.locationtech.jts.operation.valid.ConnectedInteriorTester.buildEdgeRings:123
+60,org.locationtech.jts.geomgraph.EdgeEndStar.getEdges:101
+60,org.locationtech.jts.geomgraph.EdgeList.add:51
+57,org.locationtech.jts.index.chain.MonotoneChainBuilder.getChainStartIndices:68
+56,org.locationtech.jts.operation.relate.EdgeEndBundle.computeLabel:79
+56,org.locationtech.jts.operation.relate.EdgeEndBundle.iterator:61
+55,org.locationtech.jts.geomgraph.EdgeRing.addPoints:195
+54,org.locationtech.jts.geomgraph.index.SimpleMCSweepLineIntersector.prepareEvents:103
+51,org.locationtech.jts.operation.overlay.LineBuilder.buildLines:155
+49,org.locationtech.jts.operation.relate.RelateNodeGraph.insertEdgeEnds:128
+49,org.locationtech.jts.operation.valid.ConnectedInteriorTester.setInteriorEdgesInResult:108
+48,org.locationtech.jts.geomgraph.EdgeEndStar.checkAreaLabelsConsistent:219
+47,org.locationtech.jts.operation.valid.IsValidOp.checkNoSelfIntersectingRings:393
+43,org.locationtech.jts.index.strtree.AbstractNode.addChildBoundable:122
+43,org.locationtech.jts.index.strtree.AbstractSTRtree.insert:235
+42,org.locationtech.jts.index.chain.MonotoneChainBuilder.getChains:50
+39,org.locationtech.jts.operation.overlay.PolygonBuilder.sortShellsAndHoles:181
+39,org.locationtech.jts.operation.overlay.PolygonBuilder.buildMinimalEdgeRings:105
+38,org.locationtech.jts.geomgraph.PlanarGraph.add:90
+37,org.locationtech.jts.geomgraph.PlanarGraph.linkResultDirectedEdges:131
+37,org.locationtech.jts.operation.valid.ConsistentAreaTester.isNodeEdgeAreaLabelsConsistent:107
+37,org.locationtech.jts.operation.relate.RelateNodeGraph.copyNodesAndLabels:118
+36,org.locationtech.jts.geomgraph.DirectedEdgeStar.getOutgoingDegree:67
+33,org.locationtech.jts.operation.overlay.PolygonBuilder.computePolygons:270
+32,no.ecc.vectortile.VectorTileDecoder$FeatureIterator.<init>:124
+31,com.google.protobuf.FieldSet.getSerializedSize:756
+30,com.google.protobuf.LazyStringArrayList.<init>:91
+28,org.locationtech.jts.geomgraph.GeometryGraph.addPolygonRing:243
+27,org.locationtech.jts.operation.overlay.OverlayOp.isCovered:591
+26,org.locationtech.jts.operation.overlay.PolygonBuilder.placeFreeHoles:207
+26,org.locationtech.jts.operation.relate.EdgeEndBuilder.computeEdgeEnds:47
+24,org.locationtech.jts.index.strtree.STRtree.createParentBoundablesFromVerticalSlices:130
+24,org.locationtech.jts.algorithm.locate.IndexedPointInAreaLocator$IntervalIndexedGeometry.init:118
+24,no.ecc.vectortile.VectorTileEncoder$Layer.key:465
+22,org.locationtech.jts.geomgraph.PlanarGraph.insertEdge:86
+22,no.ecc.vectortile.VectorTileEncoder$Layer.value:478
+21,no.ecc.vectortile.VectorTileEncoder.commands:315
+21,org.locationtech.jts.geomgraph.EdgeList.addAll:58
+20,org.locationtech.jts.algorithm.locate.SimplePointInAreaLocator.locateInGeometry:60
+20,no.ecc.vectortile.VectorTileEncoder$Layer.keys:474
+20,no.ecc.vectortile.VectorTileEncoder$Layer.values:487
+18,org.locationtech.jts.geomgraph.PlanarGraph.findEdgeEnd:157
+17,org.locationtech.jts.geomgraph.EdgeIntersectionList.isIntersection:71
+16,org.locationtech.jts.index.strtree.STRtree.createParentBoundables:120
+16,org.locationtech.jts.geomgraph.GeometryGraph.addLineString:290
+14,org.locationtech.jts.io.WKTWriter.createFormatter:151
+14,org.locationtech.jts.geomgraph.EdgeList.iterator:79
+12,org.locationtech.jts.index.intervalrtree.SortedPackedIntervalRTree.insert:59
+12,org.locationtech.jts.geomgraph.PlanarGraph.getEdgeIterator:73
+12,com.google.protobuf.LazyStringArrayList.add:149
+12,no.ecc.vectortile.VectorTileEncoderTest.testAttributeTypes:299
+11,vector_tile.VectorTile$Tile$Layer$Builder.addValues:4451
+11,org.locationtech.jts.geomgraph.EdgeRing.computePoints:118
+11,vector_tile.VectorTile$Tile$Layer$Builder.addFeatures:4010
+10,org.locationtech.jts.algorithm.PointLocator.computeLocation:110
+10,no.ecc.vectortile.VectorTileDecoderTest.testPoint:70
+10,vector_tile.VectorTile$Tile$Builder.addLayers:5276
+10,com.google.protobuf.LazyStringArrayList.addAll:172
+10,com.google.protobuf.LazyStringArrayList.addAll:177
+8,org.locationtech.jts.operation.overlay.PolygonBuilder.findEdgeRingContaining:236
+8,org.locationtech.jts.operation.relate.EdgeEndBundle.insert:68
+8,no.ecc.vectortile.VectorTileDecoderTest.testLineString:109
+6,no.ecc.vectortile.VectorTileDecoderTest.testMultiPoint:89
+6,org.locationtech.jts.geom.PrecisionModel$Type.<init>:98
+6,no.ecc.vectortile.VectorTileEncoderTest.testNullAttributeValue:276
+5,org.locationtech.jts.index.intervalrtree.SortedPackedIntervalRTree.buildLevel:102
+5,org.locationtech.jts.operation.overlay.LineBuilder.collectLineEdge:109
+4,no.ecc.vectortile.VectorTileEncoderTest.testCWPolygon:185
+4,org.locationtech.jts.operation.overlay.MaximalEdgeRing.buildMinimalRings:76
+4,no.ecc.vectortile.VectorTileEncoderTest.testCCWPolygon:156
+4,no.ecc.vectortile.VectorTileEncoderTest.testFourEqualPoints:241
+4,no.ecc.vectortile.VectorTileDecoderTest.testPolygonWithHole:189
+4,no.ecc.vectortile.VectorTileDecoderTest.testPolygon:162
+4,no.ecc.vectortile.VectorTileDecoderTest.testMultiLineString:134
+4,no.ecc.vectortile.VectorTileEncoderTest.testCommandsFilter:98
+4,no.ecc.vectortile.VectorTileEncoderTest.testEncode:41
+4,org.locationtech.jts.operation.relate.EdgeEndBuilder.createEdgeEndForNext:135
+4,org.locationtech.jts.operation.relate.EdgeEndBuilder.createEdgeEndForPrev:102
+3,org.locationtech.jts.geom.util.LinearComponentExtracter.filter:197
+3,no.ecc.vectortile.VectorTileEncoderTest.testCommands:74
+3,no.ecc.vectortile.VectorTileEncoderTest.testToGeomType:63
+2,org.locationtech.jts.index.intervalrtree.SortedPackedIntervalRTree.buildTree:80
+2,no.ecc.vectortile.VectorTileEncoderTest.testMultiPoint:137
+2,no.ecc.vectortile.VectorTileDecoderTest.testWithoutScaling:53
+2,org.locationtech.jts.operation.overlay.PointBuilder.filterCoveredNodeToPoint:105
+1,org.locationtech.jts.operation.valid.IndexedNestedRingTester.add:49
+1,org.locationtech.jts.geomgraph.EdgeRing.addHole:77
+1,no.ecc.vectortile.VectorTileEncoderTest.testPoint:122
+1,no.ecc.vectortile.VectorTileEncoderTest.testExtentWithScale:213
+1,no.ecc.vectortile.VectorTileEncoderTest.testExtentWithoutScale:227
+1,org.locationtech.jts.geom.GeometryFactory.<clinit>:0
+1,org.locationtech.jts.geom.PrecisionModel$Type.<clinit>:96
+1,org.locationtech.jts.geom.PrecisionModel.<clinit>:117
+1,org.locationtech.jts.geom.impl.CoordinateArraySequenceFactory.<clinit>:29
+1,org.locationtech.jts.geom.Coordinate.<clinit>:0
+1,org.locationtech.jts.geom.impl.CoordinateArraySequence.<clinit>:0
+1,org.locationtech.jts.geom.Geometry.<clinit>:170
+1,org.locationtech.jts.geom.LineString.<clinit>:0
+1,org.locationtech.jts.geom.LinearRing.<clinit>:0
+1,org.locationtech.jts.geom.Polygon.<clinit>:0
+1,org.locationtech.jts.geom.Envelope.<clinit>:0
+1,org.locationtech.jts.index.strtree.AbstractSTRtree.<clinit>:0
+1,org.locationtech.jts.index.strtree.STRtree.<clinit>:79
+1,org.locationtech.jts.index.strtree.ItemBoundable.<clinit>:0
+1,org.locationtech.jts.geom.LineSegment.<clinit>:0
+1,org.locationtech.jts.index.strtree.AbstractNode.<clinit>:0
+1,org.locationtech.jts.index.strtree.STRtree$STRtreeNode.<clinit>:0
+1,com.google.protobuf.GeneratedMessageV3.<clinit>:83
+1,com.google.protobuf.GeneratedMessageV3$ExtendableMessage.<clinit>:0
+1,vector_tile.VectorTile$Tile.<clinit>:5457
+1,vector_tile.VectorTile$Tile$Layer.<clinit>:4732
+1,vector_tile.VectorTile$Tile$Feature.<clinit>:2586
+1,vector_tile.VectorTile$Tile$GeomType.<clinit>:143
+1,org.locationtech.jts.geom.Point.<clinit>:0
+1,vector_tile.VectorTile$Tile$Value.<clinit>:1428
+1,com.google.protobuf.ByteString$LeafByteString.<clinit>:0
+1,com.google.protobuf.ByteString$LiteralByteString.<clinit>:0
+1,com.google.protobuf.ByteString.<clinit>:87
+1,org.locationtech.jts.math.DD.<clinit>:99
+1,org.locationtech.jts.geom.GeometryCollection.<clinit>:0
+1,org.locationtech.jts.geom.MultiLineString.<clinit>:0
+1,org.locationtech.jts.geom.MultiPoint.<clinit>:0
+1,com.google.protobuf.AbstractProtobufList.<clinit>:0
+1,com.google.protobuf.LazyStringArrayList.<clinit>:68
+1,com.google.protobuf.UnmodifiableLazyStringList.<clinit>:0
+1,com.google.protobuf.SmallSortedMap$EntrySet.<clinit>:0
+^^^ Last method that contains more than one event ^^^
+Starting org.locationtech.jts.operation.overlay.LineBuilder.collectLines:90
+Finish org.locationtech.jts.operation.overlay.LineBuilder.collectLines:90
+Starting org.locationtech.jts.operation.overlay.OverlayOp.findResultAreaEdges:529
+Finish org.locationtech.jts.operation.overlay.OverlayOp.findResultAreaEdges:529
+Starting org.locationtech.jts.index.intervalrtree.SortedPackedIntervalRTree.buildLevel:102
+Finish org.locationtech.jts.index.intervalrtree.SortedPackedIntervalRTree.buildLevel:102
+Starting org.locationtech.jts.operation.overlay.LineBuilder.collectLineEdge:109
+Finish org.locationtech.jts.operation.overlay.LineBuilder.collectLineEdge:109
+Starting org.locationtech.jts.operation.relate.EdgeEndBuilder.createEdgeEndForPrev:102
+Finish org.locationtech.jts.operation.relate.EdgeEndBuilder.createEdgeEndForPrev:102
+Starting org.locationtech.jts.geom.util.LinearComponentExtracter.filter:197
+Finish org.locationtech.jts.geom.util.LinearComponentExtracter.filter:197
+Starting org.locationtech.jts.geomgraph.DirectedEdgeStar.updateLabelling:146
+Finish org.locationtech.jts.geomgraph.DirectedEdgeStar.updateLabelling:146
+Starting org.locationtech.jts.operation.overlay.OverlayOp.computeLabelling:431
+Finish org.locationtech.jts.operation.overlay.OverlayOp.computeLabelling:431
+Starting vector_tile.VectorTile$Tile$Layer$Builder.addFeatures:4010
+Finish vector_tile.VectorTile$Tile$Layer$Builder.addFeatures:4010
+Starting org.locationtech.jts.algorithm.PointLocator.computeLocation:110
+Finish org.locationtech.jts.algorithm.PointLocator.computeLocation:110
+Starting no.ecc.vectortile.VectorTileEncoderTest.testCCWPolygon:156
+Finish no.ecc.vectortile.VectorTileEncoderTest.testCCWPolygon:156
+Starting no.ecc.vectortile.VectorTileEncoderTest.testFourEqualPoints:241
+Finish no.ecc.vectortile.VectorTileEncoderTest.testFourEqualPoints:241
+Starting no.ecc.vectortile.VectorTileEncoderTest.testEncode:41
+Finish no.ecc.vectortile.VectorTileEncoderTest.testEncode:41
+Starting org.locationtech.jts.operation.relate.EdgeEndBuilder.createEdgeEndForNext:135
+Finish org.locationtech.jts.operation.relate.EdgeEndBuilder.createEdgeEndForNext:135
+Starting org.locationtech.jts.operation.relate.EdgeEndBundle.computeLabelSide:162
+Finish org.locationtech.jts.operation.relate.EdgeEndBundle.computeLabelSide:162
+Starting org.locationtech.jts.operation.overlay.OverlayOp.copyPoints:415
+Finish org.locationtech.jts.operation.overlay.OverlayOp.copyPoints:415
+Starting org.locationtech.jts.io.WKTWriter.createFormatter:151
+Finish org.locationtech.jts.io.WKTWriter.createFormatter:151
+Starting org.locationtech.jts.geomgraph.EdgeList.iterator:79
+Finish org.locationtech.jts.geomgraph.EdgeList.iterator:79
+Starting no.ecc.vectortile.VectorTileEncoderTest.testCWPolygon:185
+Finish no.ecc.vectortile.VectorTileEncoderTest.testCWPolygon:185
+Starting org.locationtech.jts.operation.overlay.MaximalEdgeRing.buildMinimalRings:76
+Finish org.locationtech.jts.operation.overlay.MaximalEdgeRing.buildMinimalRings:76
+Starting no.ecc.vectortile.VectorTileEncoderTest.testCommands:74
+Finish no.ecc.vectortile.VectorTileEncoderTest.testCommands:74
+Starting no.ecc.vectortile.VectorTileEncoderTest.testToGeomType:63
+Finish no.ecc.vectortile.VectorTileEncoderTest.testToGeomType:63
+Starting org.locationtech.jts.geomgraph.NodeMap.getBoundaryNodes:103
+Finish org.locationtech.jts.geomgraph.NodeMap.getBoundaryNodes:103
+Starting org.locationtech.jts.geomgraph.index.SimpleMCSweepLineIntersector.addEdges:78
+Finish org.locationtech.jts.geomgraph.index.SimpleMCSweepLineIntersector.addEdges:78
+Starting org.locationtech.jts.geomgraph.PlanarGraph.findEdgeEnd:157
+Finish org.locationtech.jts.geomgraph.PlanarGraph.findEdgeEnd:157
+Starting org.locationtech.jts.geomgraph.EdgeIntersectionList.isIntersection:71
+Finish org.locationtech.jts.geomgraph.EdgeIntersectionList.isIntersection:71
+Starting com.google.protobuf.LazyStringArrayList.addAll:172
+Finish com.google.protobuf.LazyStringArrayList.addAll:172
+Starting com.google.protobuf.LazyStringArrayList.addAll:177
+Finish com.google.protobuf.LazyStringArrayList.addAll:177
+Starting no.ecc.vectortile.VectorTileDecoderTest.testMultiLineString:134
+Finish no.ecc.vectortile.VectorTileDecoderTest.testMultiLineString:134
+Starting no.ecc.vectortile.VectorTileEncoderTest.testCommandsFilter:98
+Finish no.ecc.vectortile.VectorTileEncoderTest.testCommandsFilter:98
+Starting org.locationtech.jts.index.intervalrtree.SortedPackedIntervalRTree.buildTree:80
+Finish org.locationtech.jts.index.intervalrtree.SortedPackedIntervalRTree.buildTree:80
+Starting no.ecc.vectortile.VectorTileEncoderTest.testMultiPoint:137
+Finish no.ecc.vectortile.VectorTileEncoderTest.testMultiPoint:137
+Starting com.google.protobuf.LazyStringArrayList.add:220
+Finish com.google.protobuf.LazyStringArrayList.add:220
+Starting vector_tile.VectorTile$Tile.<init>:73
+Finish vector_tile.VectorTile$Tile.<init>:73
+Starting org.locationtech.jts.geomgraph.index.SimpleMCSweepLineIntersector.addEdge:86
+Finish org.locationtech.jts.geomgraph.index.SimpleMCSweepLineIntersector.addEdge:86
+Starting org.locationtech.jts.geomgraph.DirectedEdgeStar.findCoveredLineEdges:302
+Finish org.locationtech.jts.geomgraph.DirectedEdgeStar.findCoveredLineEdges:302
+Starting org.locationtech.jts.operation.overlay.OverlayOp.cancelDuplicateResultEdges:552
+Finish org.locationtech.jts.operation.overlay.OverlayOp.cancelDuplicateResultEdges:552
+Starting no.ecc.vectortile.VectorTileEncoder.commands:381
+Finish no.ecc.vectortile.VectorTileEncoder.commands:381
+Starting org.locationtech.jts.operation.relate.RelateNodeGraph.computeIntersectionNodes:90
+Finish org.locationtech.jts.operation.relate.RelateNodeGraph.computeIntersectionNodes:90
+Starting org.locationtech.jts.geom.GeometryFactory.buildGeometry:516
+Finish org.locationtech.jts.geom.GeometryFactory.buildGeometry:516
+Starting org.locationtech.jts.geomgraph.index.SimpleMCSweepLineIntersector.prepareEvents:103
+Finish org.locationtech.jts.geomgraph.index.SimpleMCSweepLineIntersector.prepareEvents:103
+Starting org.locationtech.jts.operation.overlay.LineBuilder.buildLines:155
+Finish org.locationtech.jts.operation.overlay.LineBuilder.buildLines:155
+Starting org.locationtech.jts.operation.overlay.PolygonBuilder.computePolygons:270
+Finish org.locationtech.jts.operation.overlay.PolygonBuilder.computePolygons:270
+Starting no.ecc.vectortile.VectorTileDecoder$FeatureIterator.<init>:124
+Finish no.ecc.vectortile.VectorTileDecoder$FeatureIterator.<init>:124
+Starting org.locationtech.jts.operation.overlay.PolygonBuilder.findEdgeRingContaining:236
+Finish org.locationtech.jts.operation.overlay.PolygonBuilder.findEdgeRingContaining:236
+Starting org.locationtech.jts.operation.relate.EdgeEndBundle.insert:68
+Finish org.locationtech.jts.operation.relate.EdgeEndBundle.insert:68
+Starting no.ecc.vectortile.VectorTileDecoderTest.testPolygonWithHole:189
+Finish no.ecc.vectortile.VectorTileDecoderTest.testPolygonWithHole:189
+Starting no.ecc.vectortile.VectorTileDecoderTest.testPolygon:162
+Finish no.ecc.vectortile.VectorTileDecoderTest.testPolygon:162
+Starting no.ecc.vectortile.VectorTileDecoderTest.testWithoutScaling:53
+Finish no.ecc.vectortile.VectorTileDecoderTest.testWithoutScaling:53
+Starting org.locationtech.jts.operation.overlay.PointBuilder.filterCoveredNodeToPoint:105
+Finish org.locationtech.jts.operation.overlay.PointBuilder.filterCoveredNodeToPoint:105
+Starting no.ecc.vectortile.VectorTileDecoder$FeatureIterator.findNext:165
+Finish no.ecc.vectortile.VectorTileDecoder$FeatureIterator.findNext:165
+Starting no.ecc.vectortile.VectorTileDecoderTest.testBigTile:267
+Finish no.ecc.vectortile.VectorTileDecoderTest.testBigTile:267
+Starting org.locationtech.jts.geomgraph.EdgeIntersectionList.addSplitEdges:100
+Finish org.locationtech.jts.geomgraph.EdgeIntersectionList.addSplitEdges:100
+Starting org.locationtech.jts.index.strtree.STRtree.verticalSlices:147
+Finish org.locationtech.jts.index.strtree.STRtree.verticalSlices:147
+Starting org.locationtech.jts.operation.overlay.OverlayOp.replaceCollapsedEdges:393
+Finish org.locationtech.jts.operation.overlay.OverlayOp.replaceCollapsedEdges:393
+Starting org.locationtech.jts.operation.valid.ConsistentAreaTester.hasDuplicateRings:134
+Finish org.locationtech.jts.operation.valid.ConsistentAreaTester.hasDuplicateRings:134
+Starting org.locationtech.jts.operation.relate.RelateNodeGraph.insertEdgeEnds:128
+Finish org.locationtech.jts.operation.relate.RelateNodeGraph.insertEdgeEnds:128
+Starting org.locationtech.jts.operation.valid.ConnectedInteriorTester.setInteriorEdgesInResult:108
+Finish org.locationtech.jts.operation.valid.ConnectedInteriorTester.setInteriorEdgesInResult:108
+Starting org.locationtech.jts.geomgraph.GeometryGraph.addPolygonRing:243
+Finish org.locationtech.jts.geomgraph.GeometryGraph.addPolygonRing:243
+Starting org.locationtech.jts.operation.overlay.OverlayOp.isCovered:591
+Finish org.locationtech.jts.operation.overlay.OverlayOp.isCovered:591
+Starting no.ecc.vectortile.VectorTileEncoderPerformanceTest.testManyPoints:21
+Finish no.ecc.vectortile.VectorTileEncoderPerformanceTest.testManyPoints:21
+Starting org.locationtech.jts.noding.MCIndexNoder.intersectChains:74
+Finish org.locationtech.jts.noding.MCIndexNoder.intersectChains:74
+Starting org.locationtech.jts.io.WKTWriter.appendCoordinate:529
+Finish org.locationtech.jts.io.WKTWriter.appendCoordinate:529
+Starting org.locationtech.jts.operation.valid.IsValidOp.checkNoSelfIntersectingRing:408
+Finish org.locationtech.jts.operation.valid.IsValidOp.checkNoSelfIntersectingRing:408
+Starting org.locationtech.jts.geomgraph.index.MonotoneChainIndexer.getChainStartIndices:66
+Finish org.locationtech.jts.geomgraph.index.MonotoneChainIndexer.getChainStartIndices:66
+Starting no.ecc.vectortile.VectorTileDecoderTest.assertEquals:290
+Finish no.ecc.vectortile.VectorTileDecoderTest.assertEquals:290
+Starting org.locationtech.jts.index.strtree.AbstractNode.addChildBoundable:122
+Finish org.locationtech.jts.index.strtree.AbstractNode.addChildBoundable:122
+Starting org.locationtech.jts.index.strtree.AbstractSTRtree.insert:235
+Finish org.locationtech.jts.index.strtree.AbstractSTRtree.insert:235
+Starting org.locationtech.jts.operation.overlay.PolygonBuilder.placeFreeHoles:207
+Finish org.locationtech.jts.operation.overlay.PolygonBuilder.placeFreeHoles:207
+Starting org.locationtech.jts.operation.relate.EdgeEndBuilder.computeEdgeEnds:47
+Finish org.locationtech.jts.operation.relate.EdgeEndBuilder.computeEdgeEnds:47
+Starting org.locationtech.jts.index.strtree.STRtree.createParentBoundables:120
+Finish org.locationtech.jts.index.strtree.STRtree.createParentBoundables:120
+Starting org.locationtech.jts.geomgraph.GeometryGraph.addLineString:290
+Finish org.locationtech.jts.geomgraph.GeometryGraph.addLineString:290
+Starting no.ecc.vectortile.VectorTileEncoder.encode:237
+Finish no.ecc.vectortile.VectorTileEncoder.encode:237
+Starting org.locationtech.jts.noding.MCIndexNoder.add:98
+Finish org.locationtech.jts.noding.MCIndexNoder.add:98
+Starting org.locationtech.jts.operation.relate.EdgeEndBundle.computeLabelOn:120
+Finish org.locationtech.jts.operation.relate.EdgeEndBundle.computeLabelOn:120
+Starting org.locationtech.jts.geomgraph.EdgeNodingValidator.toSegmentStrings:52
+Finish org.locationtech.jts.geomgraph.EdgeNodingValidator.toSegmentStrings:52
+Starting org.locationtech.jts.operation.relate.EdgeEndBuilder.computeEdgeEnds:61
+Finish org.locationtech.jts.operation.relate.EdgeEndBuilder.computeEdgeEnds:61
+Starting org.locationtech.jts.geomgraph.index.SimpleMCSweepLineIntersector.addEdges:70
+Finish org.locationtech.jts.geomgraph.index.SimpleMCSweepLineIntersector.addEdges:70
+Starting org.locationtech.jts.geomgraph.EdgeEndStar.checkAreaLabelsConsistent:219
+Finish org.locationtech.jts.geomgraph.EdgeEndStar.checkAreaLabelsConsistent:219
+Starting org.locationtech.jts.operation.valid.IsValidOp.checkNoSelfIntersectingRings:393
+Finish org.locationtech.jts.operation.valid.IsValidOp.checkNoSelfIntersectingRings:393
+Starting no.ecc.vectortile.VectorTileEncoder$Layer.key:465
+Finish no.ecc.vectortile.VectorTileEncoder$Layer.key:465
+Starting org.locationtech.jts.geomgraph.PlanarGraph.insertEdge:86
+Finish org.locationtech.jts.geomgraph.PlanarGraph.insertEdge:86
+Starting org.locationtech.jts.index.strtree.STRtree$STRtreeNode.computeBounds:60
+Finish org.locationtech.jts.index.strtree.STRtree$STRtreeNode.computeBounds:60
+Starting org.locationtech.jts.geomgraph.NodeMap.iterator:94
+Finish org.locationtech.jts.geomgraph.NodeMap.iterator:94
+Starting org.locationtech.jts.operation.overlay.PolygonBuilder.buildMinimalEdgeRings:105
+Finish org.locationtech.jts.operation.overlay.PolygonBuilder.buildMinimalEdgeRings:105
+Starting org.locationtech.jts.geomgraph.PlanarGraph.add:90
+Finish org.locationtech.jts.geomgraph.PlanarGraph.add:90
+Starting no.ecc.vectortile.VectorTileEncoder$Layer.value:478
+Finish no.ecc.vectortile.VectorTileEncoder$Layer.value:478
+Starting no.ecc.vectortile.VectorTileEncoder.commands:315
+Finish no.ecc.vectortile.VectorTileEncoder.commands:315
+Starting no.ecc.vectortile.VectorTileDecoder$FeatureIterable.getLayerNames:113
+Finish no.ecc.vectortile.VectorTileDecoder$FeatureIterable.getLayerNames:113
+Starting org.locationtech.jts.geomgraph.EdgeIntersectionList.add:47
+Finish org.locationtech.jts.geomgraph.EdgeIntersectionList.add:47
+Starting com.google.protobuf.LazyStringArrayList.get:115
+Finish com.google.protobuf.LazyStringArrayList.get:115
+Starting com.google.protobuf.UnmodifiableLazyStringList$2.<init>:166
+Finish com.google.protobuf.UnmodifiableLazyStringList$2.<init>:166
+Starting org.locationtech.jts.operation.overlay.PointBuilder.extractNonCoveredResultNodes:70
+Finish org.locationtech.jts.operation.overlay.PointBuilder.extractNonCoveredResultNodes:70
+Starting org.locationtech.jts.operation.overlay.OverlayOp.labelIncompleteNodes:483
+Finish org.locationtech.jts.operation.overlay.OverlayOp.labelIncompleteNodes:483
+Starting org.locationtech.jts.geomgraph.EdgeEndStar.insertEdgeEnd:70
+Finish org.locationtech.jts.geomgraph.EdgeEndStar.insertEdgeEnd:70
+Starting org.locationtech.jts.index.strtree.AbstractSTRtree.queryInternal:278
+Finish org.locationtech.jts.index.strtree.AbstractSTRtree.queryInternal:278
+Starting org.locationtech.jts.geomgraph.EdgeEndStar.iterator:97
+Finish org.locationtech.jts.geomgraph.EdgeEndStar.iterator:97
+Starting org.locationtech.jts.geomgraph.EdgeEndStar.computeEdgeEndLabels:194
+Finish org.locationtech.jts.geomgraph.EdgeEndStar.computeEdgeEndLabels:194
+Starting org.locationtech.jts.index.chain.MonotoneChainBuilder.getChainStartIndices:68
+Finish org.locationtech.jts.index.chain.MonotoneChainBuilder.getChainStartIndices:68
+Starting org.locationtech.jts.operation.relate.EdgeEndBundle.computeLabel:79
+Finish org.locationtech.jts.operation.relate.EdgeEndBundle.computeLabel:79
+Starting org.locationtech.jts.geomgraph.PlanarGraph.linkResultDirectedEdges:131
+Finish org.locationtech.jts.geomgraph.PlanarGraph.linkResultDirectedEdges:131
+Starting org.locationtech.jts.operation.valid.ConsistentAreaTester.isNodeEdgeAreaLabelsConsistent:107
+Finish org.locationtech.jts.operation.valid.ConsistentAreaTester.isNodeEdgeAreaLabelsConsistent:107
+Starting no.ecc.vectortile.VectorTileEncoder$Layer.keys:474
+Finish no.ecc.vectortile.VectorTileEncoder$Layer.keys:474
+Starting no.ecc.vectortile.VectorTileEncoder$Layer.values:487
+Finish no.ecc.vectortile.VectorTileEncoder$Layer.values:487
+Starting com.google.protobuf.LazyStringArrayList.add:149
+Finish com.google.protobuf.LazyStringArrayList.add:149
+Starting no.ecc.vectortile.VectorTileEncoderTest.testAttributeTypes:299
+Finish no.ecc.vectortile.VectorTileEncoderTest.testAttributeTypes:299
+Starting com.google.protobuf.SmallSortedMap$1.makeImmutable:104
+Finish com.google.protobuf.SmallSortedMap$1.makeImmutable:104
+Starting com.google.protobuf.UnmodifiableLazyStringList$2.hasNext:170
+Finish com.google.protobuf.UnmodifiableLazyStringList$2.hasNext:170
+Starting vector_tile.VectorTile$Tile$Layer.<init>:2840
+Finish vector_tile.VectorTile$Tile$Layer.<init>:2840
+Starting com.google.protobuf.FieldSet.isInitialized:442
+Finish com.google.protobuf.FieldSet.isInitialized:442
+Starting com.google.protobuf.UnmodifiableLazyStringList$2.next:175
+Finish com.google.protobuf.UnmodifiableLazyStringList$2.next:175
+Starting no.ecc.vectortile.VectorTileDecoder$FeatureIterable.asList:105
+Finish no.ecc.vectortile.VectorTileDecoder$FeatureIterable.asList:105
+Starting no.ecc.vectortile.VectorTileDecoderTest.testPoint:70
+Finish no.ecc.vectortile.VectorTileDecoderTest.testPoint:70
+Starting vector_tile.VectorTile$Tile$Builder.addLayers:5276
+Finish vector_tile.VectorTile$Tile$Builder.addLayers:5276
+Starting org.locationtech.jts.geomgraph.EdgeEndStar.propagateSideLabels:257
+Finish org.locationtech.jts.geomgraph.EdgeEndStar.propagateSideLabels:257
+Starting org.locationtech.jts.geomgraph.NodeMap.values:98
+Finish org.locationtech.jts.geomgraph.NodeMap.values:98
+Starting org.locationtech.jts.geomgraph.PlanarGraph.linkResultDirectedEdges:55
+Finish org.locationtech.jts.geomgraph.PlanarGraph.linkResultDirectedEdges:55
+Starting org.locationtech.jts.operation.overlay.OverlayOp.mergeSymLabels:447
+Finish org.locationtech.jts.operation.overlay.OverlayOp.mergeSymLabels:447
+Starting org.locationtech.jts.geomgraph.EdgeEndStar.getEdges:101
+Finish org.locationtech.jts.geomgraph.EdgeEndStar.getEdges:101
+Starting org.locationtech.jts.geomgraph.EdgeList.add:51
+Finish org.locationtech.jts.geomgraph.EdgeList.add:51
+Starting org.locationtech.jts.operation.overlay.OverlayOp.updateNodeLabelling:459
+Finish org.locationtech.jts.operation.overlay.OverlayOp.updateNodeLabelling:459
+Starting org.locationtech.jts.geomgraph.NodeMap.addNode:57
+Finish org.locationtech.jts.geomgraph.NodeMap.addNode:57
+Starting org.locationtech.jts.index.strtree.AbstractSTRtree.createParentBoundables:120
+Finish org.locationtech.jts.index.strtree.AbstractSTRtree.createParentBoundables:120
+Starting org.locationtech.jts.geomgraph.DirectedEdgeStar.getResultAreaEdges:157
+Finish org.locationtech.jts.geomgraph.DirectedEdgeStar.getResultAreaEdges:157
+Starting org.locationtech.jts.operation.relate.EdgeEndBundle.iterator:61
+Finish org.locationtech.jts.operation.relate.EdgeEndBundle.iterator:61
+Starting org.locationtech.jts.geomgraph.EdgeRing.addPoints:195
+Finish org.locationtech.jts.geomgraph.EdgeRing.addPoints:195
+Starting com.google.protobuf.FieldSet.getSerializedSize:756
+Finish com.google.protobuf.FieldSet.getSerializedSize:756
+Starting com.google.protobuf.LazyStringArrayList.<init>:91
+Finish com.google.protobuf.LazyStringArrayList.<init>:91
+Starting org.locationtech.jts.geomgraph.EdgeIntersectionList.iterator:61
+Finish org.locationtech.jts.geomgraph.EdgeIntersectionList.iterator:61
+Starting org.locationtech.jts.geomgraph.EdgeEndStar.computeLabelling:118
+Finish org.locationtech.jts.geomgraph.EdgeEndStar.computeLabelling:118
+Starting org.locationtech.jts.geomgraph.DirectedEdgeStar.computeLabelling:110
+Finish org.locationtech.jts.geomgraph.DirectedEdgeStar.computeLabelling:110
+Starting org.locationtech.jts.geomgraph.DirectedEdgeStar.mergeSymLabels:134
+Finish org.locationtech.jts.geomgraph.DirectedEdgeStar.mergeSymLabels:134
+Starting org.locationtech.jts.geomgraph.GeometryGraph.computeSplitEdges:191
+Finish org.locationtech.jts.geomgraph.GeometryGraph.computeSplitEdges:191
+Starting org.locationtech.jts.geomgraph.PlanarGraph.addEdges:110
+Finish org.locationtech.jts.geomgraph.PlanarGraph.addEdges:110
+Starting com.google.protobuf.GeneratedMessageV3$ExtendableMessage$ExtensionWriter.<init>:1046
+Finish com.google.protobuf.GeneratedMessageV3$ExtendableMessage$ExtensionWriter.<init>:1046
+Starting org.locationtech.jts.operation.overlay.OverlayOp.computeLabelsFromDepths:348
+Finish org.locationtech.jts.operation.overlay.OverlayOp.computeLabelsFromDepths:348
+Starting org.locationtech.jts.operation.relate.RelateNodeGraph.copyNodesAndLabels:118
+Finish org.locationtech.jts.operation.relate.RelateNodeGraph.copyNodesAndLabels:118
+Starting org.locationtech.jts.geomgraph.DirectedEdgeStar.getOutgoingDegree:67
+Finish org.locationtech.jts.geomgraph.DirectedEdgeStar.getOutgoingDegree:67
+Starting org.locationtech.jts.geomgraph.EdgeList.addAll:58
+Finish org.locationtech.jts.geomgraph.EdgeList.addAll:58
+Starting org.locationtech.jts.algorithm.locate.SimplePointInAreaLocator.locateInGeometry:60
+Finish org.locationtech.jts.algorithm.locate.SimplePointInAreaLocator.locateInGeometry:60
+Starting org.locationtech.jts.index.intervalrtree.SortedPackedIntervalRTree.insert:59
+Finish org.locationtech.jts.index.intervalrtree.SortedPackedIntervalRTree.insert:59
+Starting org.locationtech.jts.geomgraph.PlanarGraph.getEdgeIterator:73
+Finish org.locationtech.jts.geomgraph.PlanarGraph.getEdgeIterator:73
+Starting no.ecc.vectortile.VectorTileDecoderTest.testLineString:109
+Finish no.ecc.vectortile.VectorTileDecoderTest.testLineString:109
+Starting no.ecc.vectortile.VectorTileDecoderTest.testMultiPoint:89
+Finish no.ecc.vectortile.VectorTileDecoderTest.testMultiPoint:89
+Starting com.google.protobuf.AbstractMessageLite$Builder.addAllCheckingNulls:356
+Finish com.google.protobuf.AbstractMessageLite$Builder.addAllCheckingNulls:356
+Starting com.google.protobuf.FieldSet.iterator:222
+Finish com.google.protobuf.FieldSet.iterator:222
+Starting org.locationtech.jts.geomgraph.Node.isIncidentEdgeInResult:54
+Finish org.locationtech.jts.geomgraph.Node.isIncidentEdgeInResult:54
+Starting org.locationtech.jts.operation.overlay.PolygonBuilder.buildMaximalEdgeRings:87
+Finish org.locationtech.jts.operation.overlay.PolygonBuilder.buildMaximalEdgeRings:87
+Starting org.locationtech.jts.noding.MCIndexNoder.computeNodes:64
+Finish org.locationtech.jts.noding.MCIndexNoder.computeNodes:64
+Starting org.locationtech.jts.operation.overlay.OverlayOp.insertUniqueEdges:265
+Finish org.locationtech.jts.operation.overlay.OverlayOp.insertUniqueEdges:265
+Starting org.locationtech.jts.operation.overlay.OverlayOp.computeGeometry:604
+Finish org.locationtech.jts.operation.overlay.OverlayOp.computeGeometry:604
+Starting org.locationtech.jts.operation.valid.ConnectedInteriorTester.buildEdgeRings:123
+Finish org.locationtech.jts.operation.valid.ConnectedInteriorTester.buildEdgeRings:123
+Starting org.locationtech.jts.index.chain.MonotoneChainBuilder.getChains:50
+Finish org.locationtech.jts.index.chain.MonotoneChainBuilder.getChains:50
+Starting org.locationtech.jts.operation.overlay.PolygonBuilder.sortShellsAndHoles:181
+Finish org.locationtech.jts.operation.overlay.PolygonBuilder.sortShellsAndHoles:181
+Starting org.locationtech.jts.index.strtree.STRtree.createParentBoundablesFromVerticalSlices:130
+Finish org.locationtech.jts.index.strtree.STRtree.createParentBoundablesFromVerticalSlices:130
+Starting org.locationtech.jts.algorithm.locate.IndexedPointInAreaLocator$IntervalIndexedGeometry.init:118
+Finish org.locationtech.jts.algorithm.locate.IndexedPointInAreaLocator$IntervalIndexedGeometry.init:118
+Starting vector_tile.VectorTile$Tile$Layer$Builder.addValues:4451
+Finish vector_tile.VectorTile$Tile$Layer$Builder.addValues:4451
+Starting org.locationtech.jts.geomgraph.EdgeRing.computePoints:118
+Finish org.locationtech.jts.geomgraph.EdgeRing.computePoints:118
+Starting org.locationtech.jts.geom.PrecisionModel$Type.<init>:98
+Finish org.locationtech.jts.geom.PrecisionModel$Type.<init>:98
+Starting no.ecc.vectortile.VectorTileEncoderTest.testNullAttributeValue:276
+Finish no.ecc.vectortile.VectorTileEncoderTest.testNullAttributeValue:276
+Starting vector_tile.VectorTile$Tile$Feature.<init>:1590
+Finish vector_tile.VectorTile$Tile$Feature.<init>:1590
+Starting no.ecc.vectortile.VectorTileDecoder$FeatureIterator.parseLayer:195
+Finish no.ecc.vectortile.VectorTileDecoder$FeatureIterator.parseLayer:195
+Starting org.locationtech.jts.operation.overlay.LineBuilder.findCoveredLineEdges:68
+Finish org.locationtech.jts.operation.overlay.LineBuilder.findCoveredLineEdges:68
+Starting com.google.protobuf.UnknownFieldSet.getSerializedSize:212
+Finish com.google.protobuf.UnknownFieldSet.getSerializedSize:212
+Starting no.ecc.vectortile.VectorTileEncoder.addFeature:125
+Finish no.ecc.vectortile.VectorTileEncoder.addFeature:125
+Starting no.ecc.vectortile.VectorTileDecoder$FeatureIterator.parseFeature:229
+Finish no.ecc.vectortile.VectorTileDecoder$FeatureIterator.parseFeature:229
+Starting com.google.protobuf.UnknownFieldSet.writeTo:137
+Finish com.google.protobuf.UnknownFieldSet.writeTo:137
+Starting org.locationtech.jts.geomgraph.GeometryGraph.addSelfIntersectionNodes:431
+Finish org.locationtech.jts.geomgraph.GeometryGraph.addSelfIntersectionNodes:431
+
+#1
+Inspecting hot method no.ecc.vectortile.VectorTileEncoder.addFeature:125...
+Checking for isolation...
+262144443,182,150,32
+Total 262144443 (236192127 unique) events are in hot method
+Total 182 (44 unique) traces are in hot method
+Total 150 (28 unique) isolated traces are in hot method
+Total 32 (16 unique) non-isolated traces that have events in hot method
+Total 26214570 (262278 unique) events are in isolated traces
+Total 237960737 (237960689 unique) events are in non-isolated traces (235929873 / 235929849 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (115 traces / 6 unique traces) (26214435 events / 262165 unique events)
+	Iterator_HasNext (10 traces / 5 unique traces) (36 events / 29 unique events)
+	Collection_UnsafeIterator (10 traces / 5 unique traces) (46 events / 34 unique events)
+	Map_UnsafeIterator (7 traces / 6 unique traces) (36 events / 35 unique events)
+	Iterator_RemoveOnce (5 traces / 4 unique traces) (13 events / 12 unique events)
+	Map_CollectionViewAdd (3 traces / 2 unique traces) (4 events / 3 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (20 traces / 9 unique traces) (104858024 events / 104857986 unique events) (104857642 events / 104857623 unique events in hot method)
+	Map_CollectionViewAdd (7 traces / 2 unique traces) (26214497 events / 26214487 unique events) (26214407 events / 26214402 unique events in hot method)
+	Collection_UnsafeIterator (2 traces / 2 unique traces) (78643437 events / 78643437 unique events) (78643203 events / 78643203 unique events in hot method)
+	Iterator_HasNext (1 traces / 1 unique traces) (26214493 events / 26214493 unique events) (26214401 events / 26214401 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (110 events / 110 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (110 events / 110 unique events in hot method)
+Classifier (no.ecc.vectortile.VectorTileEncoder.addFeature:125): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT,NOT_ISOLATED_SINGLE_TRACE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#2
+Inspecting hot method no.ecc.vectortile.VectorTileDecoder$FeatureIterator.parseFeature:229...
+Checking for isolation...
+31088238,8021611,8021609,2
+Total 31088238 (2030546 unique) events are in hot method
+Total 8021611 (69 unique) traces are in hot method
+Total 8021609 (67 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 29058622 (930 unique) events are in isolated traces
+Total 2030286 (2030286 unique) events are in non-isolated traces (2029616 / 2029616 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (4009275 traces / 47 unique traces) (14027671 events / 863 unique events)
+	Iterator_HasNext (1003084 traces / 6 unique traces) (5009298 events / 24 unique events)
+	Collection_UnsafeIterator (1003084 traces / 6 unique traces) (6012382 events / 30 unique events)
+	Iterator_RemoveOnce (1003084 traces / 6 unique traces) (2003107 events / 9 unique events)
+	List_UnsynchronizedSubList (1001955 traces / 1 unique traces) (2003910 events / 2 unique events)
+	Collection_UnsynchronizedAddAll (1127 traces / 1 unique traces) (2254 events / 2 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (1014808 events / 1014808 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (1014808 events / 1014808 unique events in hot method)
+Classifier (no.ecc.vectortile.VectorTileDecoder$FeatureIterator.parseFeature:229): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#3
+Inspecting hot method vector_tile.VectorTile$Tile$Feature.<init>:1590...
+Checking for isolation...
+24327058,2027636,2027636,0
+Total 24327058 (3417 unique) events are in hot method
+Total 2027636 (83 unique) traces are in hot method
+Total 2027636 (83 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 24327058 (3417 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (2027636 traces / 83 unique traces) (24327058 events / 3417 unique events)
+Classifier (vector_tile.VectorTile$Tile$Feature.<init>:1590): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#4
+Inspecting hot method no.ecc.vectortile.VectorTileDecoder$FeatureIterator.parseLayer:195...
+Checking for isolation...
+6121558,50154,40128,10026
+Total 6121558 (119236 unique) events are in hot method
+Total 50154 (39 unique) traces are in hot method
+Total 40128 (29 unique) isolated traces are in hot method
+Total 10026 (10 unique) non-isolated traces that have events in hot method
+Total 6111496 (119190 unique) events are in isolated traces
+Total 185527644 (183504891 unique) events are in non-isolated traces (10062 / 46 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsynchronizedAddAll (10022 traces / 1 unique traces) (20044 events / 2 unique events)
+	Iterator_HasNext (10014 traces / 6 unique traces) (2020462 events / 5426 unique events)
+	Iterator_RemoveOnce (10014 traces / 6 unique traces) (1005224 events / 2710 unique events)
+	Collection_UnsafeIterator (10014 traces / 6 unique traces) (2030476 events / 5432 unique events)
+	Collections_SortBeforeBinarySearch (64 traces / 10 unique traces) (1035290 events / 105620 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (10024 traces / 8 unique traces) (80669688 events / 78646935 unique events) (10046 events / 30 unique events in hot method)
+	Iterator_HasNext (1 traces / 1 unique traces) (26214493 events / 26214493 unique events) (8 events / 8 unique events in hot method)
+	Map_UnsafeIterator (1 traces / 1 unique traces) (78643463 events / 78643463 unique events) (8 events / 8 unique events in hot method)
+Classifier (no.ecc.vectortile.VectorTileDecoder$FeatureIterator.parseLayer:195): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_SINGLE_TRACE
+
+#5
+Inspecting hot method no.ecc.vectortile.VectorTileDecoder$FeatureIterator.findNext:165...
+Checking for isolation...
+5086110,30162,20108,10054
+Total 5086110 (13735 unique) events are in hot method
+Total 30162 (27 unique) traces are in hot method
+Total 20108 (17 unique) isolated traces are in hot method
+Total 10054 (10 unique) non-isolated traces that have events in hot method
+Total 3049646 (8195 unique) events are in isolated traces
+Total 2046518 (5550 unique) events are in non-isolated traces (2036464 / 5540 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (10054 traces / 10 unique traces) (2036464 events / 5540 unique events)
+	Iterator_RemoveOnce (10054 traces / 7 unique traces) (1013182 events / 2655 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (10054 traces / 10 unique traces) (2046518 events / 5550 unique events) (2036464 events / 5540 unique events in hot method)
+Classifier (no.ecc.vectortile.VectorTileDecoder$FeatureIterator.findNext:165): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#6
+Inspecting hot method no.ecc.vectortile.VectorTileDecoderTest.testBigTile:267...
+Checking for isolation...
+4000010,20,20,0
+Total 4000010 (400001 unique) events are in hot method
+Total 20 (2 unique) traces are in hot method
+Total 20 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 4000010 (400001 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (10 traces / 1 unique traces) (3000010 events / 300001 unique events)
+	Iterator_RemoveOnce (10 traces / 1 unique traces) (1000000 events / 100000 unique events)
+Classifier (no.ecc.vectortile.VectorTileDecoderTest.testBigTile:267): CUT,ISOLATED_ONE_UNIQUE
+
+#7
+Inspecting hot method vector_tile.VectorTile$Tile$Layer.<init>:2840...
+Checking for isolation...
+2045730,30272,30272,0
+Total 2045730 (7318 unique) events are in hot method
+Total 30272 (37 unique) traces are in hot method
+Total 30272 (37 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2045730 (7318 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (30272 traces / 37 unique traces) (2045730 events / 7318 unique events)
+Classifier (vector_tile.VectorTile$Tile$Layer.<init>:2840): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#8
+Inspecting hot method com.google.protobuf.FieldSet.isInitialized:442...
+Checking for isolation...
+1031724,1,0,1
+Total 1031724 (1031724 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 2063449 (2063449 unique) events are in non-isolated traces (1031724 / 1031724 unique are in hot method)
+Specs that have non-isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (2063449 events / 2063449 unique events) (1031724 events / 1031724 unique events in hot method)
+Classifier (com.google.protobuf.FieldSet.isInitialized:442): LIB,NOT_REDUNDANT_TRACES
+
+#9
+Inspecting hot method com.google.protobuf.SmallSortedMap$1.makeImmutable:104...
+Checking for isolation...
+1031694,1,0,1
+Total 1031694 (1031694 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 2063449 (2063449 unique) events are in non-isolated traces (1031694 / 1031694 unique are in hot method)
+Specs that have non-isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (2063449 events / 2063449 unique events) (1031694 events / 1031694 unique events in hot method)
+Classifier (com.google.protobuf.SmallSortedMap$1.makeImmutable:104): LIB,NOT_REDUNDANT_TRACES
+
+#10
+Inspecting hot method com.google.protobuf.UnmodifiableLazyStringList$2.hasNext:170...
+Checking for isolation...
+40136,20028,0,20028
+Total 40136 (54 unique) events are in hot method
+Total 20028 (8 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 20028 (8 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 70258 (104 unique) events are in non-isolated traces (40136 / 54 unique are in hot method)
+Specs that have non-isolated traces:
+	Iterator_HasNext (10014 traces / 4 unique traces) (30122 events / 50 unique events) (20068 events / 27 unique events in hot method)
+	Collection_UnsafeIterator (10014 traces / 4 unique traces) (40136 events / 54 unique events) (20068 events / 27 unique events in hot method)
+Classifier (com.google.protobuf.UnmodifiableLazyStringList$2.hasNext:170): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#11
+Inspecting hot method com.google.protobuf.UnmodifiableLazyStringList$2.next:175...
+Checking for isolation...
+30162,30042,10014,20028
+Total 30162 (69 unique) events are in hot method
+Total 30042 (12 unique) traces are in hot method
+Total 10014 (4 unique) isolated traces are in hot method
+Total 20028 (8 unique) non-isolated traces that have events in hot method
+Total 10054 (23 unique) events are in isolated traces
+Total 70258 (104 unique) events are in non-isolated traces (20108 / 46 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (10014 traces / 4 unique traces) (10054 events / 23 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (10014 traces / 4 unique traces) (30122 events / 50 unique events) (10054 events / 23 unique events in hot method)
+	Collection_UnsafeIterator (10014 traces / 4 unique traces) (40136 events / 54 unique events) (10054 events / 23 unique events in hot method)
+Classifier (com.google.protobuf.UnmodifiableLazyStringList$2.next:175): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#12
+Inspecting hot method no.ecc.vectortile.VectorTileDecoder$FeatureIterable.asList:105...
+Checking for isolation...
+12343,57,57,0
+Total 12343 (6139 unique) events are in hot method
+Total 57 (9 unique) traces are in hot method
+Total 57 (9 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 12343 (6139 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (19 traces / 3 unique traces) (3081 events / 1534 unique events)
+	Iterator_HasNext (19 traces / 3 unique traces) (6181 events / 3071 unique events)
+	Iterator_RemoveOnce (19 traces / 3 unique traces) (3081 events / 1534 unique events)
+Classifier (no.ecc.vectortile.VectorTileDecoder$FeatureIterable.asList:105): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#13
+Inspecting hot method com.google.protobuf.LazyStringArrayList.add:220...
+Checking for isolation...
+10387,10086,72,10014
+Total 10387 (75 unique) events are in hot method
+Total 10086 (12 unique) traces are in hot method
+Total 72 (8 unique) isolated traces are in hot method
+Total 10014 (4 unique) non-isolated traces that have events in hot method
+Total 333 (52 unique) events are in isolated traces
+Total 20108 (46 unique) events are in non-isolated traces (10054 / 23 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (72 traces / 8 unique traces) (333 events / 52 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (10014 traces / 4 unique traces) (20108 events / 46 unique events) (10054 events / 23 unique events in hot method)
+Classifier (com.google.protobuf.LazyStringArrayList.add:220): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#14
+Inspecting hot method vector_tile.VectorTile$Tile.<init>:73...
+Checking for isolation...
+10130,45,45,0
+Total 10130 (1021 unique) events are in hot method
+Total 45 (3 unique) traces are in hot method
+Total 45 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 10130 (1021 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (45 traces / 3 unique traces) (10130 events / 1021 unique events)
+Classifier (vector_tile.VectorTile$Tile.<init>:73): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#15
+Inspecting hot method com.google.protobuf.LazyStringArrayList.get:115...
+Checking for isolation...
+10054,10014,0,10014
+Total 10054 (23 unique) events are in hot method
+Total 10014 (4 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 10014 (4 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 20108 (46 unique) events are in non-isolated traces (10054 / 23 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (10014 traces / 4 unique traces) (20108 events / 46 unique events) (10054 events / 23 unique events in hot method)
+Classifier (com.google.protobuf.LazyStringArrayList.get:115): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#16
+Inspecting hot method com.google.protobuf.UnmodifiableLazyStringList$2.<init>:166...
+Checking for isolation...
+10014,10014,0,10014
+Total 10014 (4 unique) events are in hot method
+Total 10014 (4 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 10014 (4 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 40136 (54 unique) events are in non-isolated traces (10014 / 4 unique are in hot method)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (10014 traces / 4 unique traces) (40136 events / 54 unique events) (10014 events / 4 unique events in hot method)
+Classifier (com.google.protobuf.UnmodifiableLazyStringList$2.<init>:166): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#17
+Inspecting hot method no.ecc.vectortile.VectorTileEncoderPerformanceTest.testManyPoints:21...
+Checking for isolation...
+1100,200,200,0
+Total 1100 (11 unique) events are in hot method
+Total 200 (2 unique) traces are in hot method
+Total 200 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1100 (11 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (100 traces / 1 unique traces) (600 events / 6 unique events)
+	Appendable_ThreadSafe (100 traces / 1 unique traces) (500 events / 5 unique events)
+Classifier (no.ecc.vectortile.VectorTileEncoderPerformanceTest.testManyPoints:21): CUT,ISOLATED_ONE_UNIQUE
+
+#18
+Inspecting hot method org.locationtech.jts.noding.MCIndexNoder.intersectChains:74...
+Checking for isolation...
+967,147,147,0
+Total 967 (257 unique) events are in hot method
+Total 147 (27 unique) traces are in hot method
+Total 147 (27 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 967 (257 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (49 traces / 9 unique traces) (377 events / 101 unique events)
+	Iterator_RemoveOnce (49 traces / 9 unique traces) (164 events / 46 unique events)
+	Collection_UnsafeIterator (49 traces / 9 unique traces) (426 events / 110 unique events)
+Classifier (org.locationtech.jts.noding.MCIndexNoder.intersectChains:74): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#19
+Inspecting hot method com.google.protobuf.AbstractMessageLite$Builder.addAllCheckingNulls:356...
+Checking for isolation...
+852,106,101,5
+Total 852 (629 unique) events are in hot method
+Total 106 (51 unique) traces are in hot method
+Total 101 (48 unique) isolated traces are in hot method
+Total 5 (3 unique) non-isolated traces that have events in hot method
+Total 840 (620 unique) events are in isolated traces
+Total 22 (15 unique) events are in non-isolated traces (12 / 9 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (32 traces / 13 unique traces) (284 events / 209 unique events)
+	Collection_UnsafeIterator (32 traces / 13 unique traces) (316 events / 222 unique events)
+	Iterator_RemoveOnce (21 traces / 12 unique traces) (126 events / 98 unique events)
+	Collections_SortBeforeBinarySearch (16 traces / 10 unique traces) (114 events / 91 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (5 traces / 3 unique traces) (22 events / 15 unique events) (12 events / 9 unique events in hot method)
+Classifier (com.google.protobuf.AbstractMessageLite$Builder.addAllCheckingNulls:356): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#20
+Inspecting hot method com.google.protobuf.FieldSet.iterator:222...
+Checking for isolation...
+817,64,2,62
+Total 817 (787 unique) events are in hot method
+Total 64 (34 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 62 (32 unique) non-isolated traces that have events in hot method
+Total 62 (62 unique) events are in isolated traces
+Total 817 (757 unique) events are in non-isolated traces (755 / 725 unique are in hot method)
+Specs that have isolated traces:
+	Map_CollectionViewAdd (1 traces / 1 unique traces) (31 events / 31 unique events)
+	Map_UnsafeIterator (1 traces / 1 unique traces) (31 events / 31 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (31 traces / 1 unique traces) (62 events / 2 unique events) (31 events / 1 unique events in hot method)
+	Map_UnsafeIterator (31 traces / 31 unique traces) (755 events / 755 unique events) (724 events / 724 unique events in hot method)
+Classifier (com.google.protobuf.FieldSet.iterator:222): LIB,ISOLATED_SINGLE_TRACE,NOT_ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT,NOT_ISOLATED_ONE_UNIQUE
+
+#21
+Inspecting hot method org.locationtech.jts.geomgraph.EdgeEndStar.propagateSideLabels:257...
+Checking for isolation...
+508,158,104,54
+Total 508 (33 unique) events are in hot method
+Total 158 (11 unique) traces are in hot method
+Total 104 (7 unique) isolated traces are in hot method
+Total 54 (4 unique) non-isolated traces that have events in hot method
+Total 294 (19 unique) events are in isolated traces
+Total 268 (18 unique) events are in non-isolated traces (214 / 14 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (54 traces / 4 unique traces) (214 events / 14 unique events)
+	Iterator_RemoveOnce (50 traces / 3 unique traces) (80 events / 5 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (54 traces / 4 unique traces) (268 events / 18 unique events) (214 events / 14 unique events in hot method)
+Classifier (org.locationtech.jts.geomgraph.EdgeEndStar.propagateSideLabels:257): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#22
+Inspecting hot method org.locationtech.jts.geomgraph.NodeMap.values:98...
+Checking for isolation...
+441,63,14,49
+Total 441 (161 unique) events are in hot method
+Total 63 (23 unique) traces are in hot method
+Total 14 (2 unique) isolated traces are in hot method
+Total 49 (21 unique) non-isolated traces that have events in hot method
+Total 98 (14 unique) events are in isolated traces
+Total 749 (329 unique) events are in non-isolated traces (343 / 147 unique are in hot method)
+Specs that have isolated traces:
+	Map_UnsafeIterator (7 traces / 1 unique traces) (49 events / 7 unique events)
+	Map_CollectionViewAdd (7 traces / 1 unique traces) (49 events / 7 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (49 traces / 21 unique traces) (749 events / 329 unique events) (343 events / 147 unique events in hot method)
+Classifier (org.locationtech.jts.geomgraph.NodeMap.values:98): LIB,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#23
+Inspecting hot method org.locationtech.jts.geomgraph.EdgeIntersectionList.iterator:61...
+Checking for isolation...
+411,158,29,129
+Total 411 (119 unique) events are in hot method
+Total 158 (29 unique) traces are in hot method
+Total 29 (6 unique) isolated traces are in hot method
+Total 129 (23 unique) non-isolated traces that have events in hot method
+Total 84 (26 unique) events are in isolated traces
+Total 837 (200 unique) events are in non-isolated traces (327 / 93 unique are in hot method)
+Specs that have isolated traces:
+	Map_CollectionViewAdd (22 traces / 3 unique traces) (57 events / 13 unique events)
+	Map_UnsafeIterator (7 traces / 3 unique traces) (27 events / 13 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (72 traces / 16 unique traces) (570 events / 162 unique events) (270 events / 86 unique events in hot method)
+	Collection_UnsafeIterator (57 traces / 7 unique traces) (267 events / 38 unique events) (57 events / 7 unique events in hot method)
+Classifier (org.locationtech.jts.geomgraph.EdgeIntersectionList.iterator:61): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#24
+Inspecting hot method org.locationtech.jts.geomgraph.EdgeEndStar.computeLabelling:118...
+Checking for isolation...
+388,128,84,44
+Total 388 (42 unique) events are in hot method
+Total 128 (16 unique) traces are in hot method
+Total 84 (10 unique) isolated traces are in hot method
+Total 44 (6 unique) non-isolated traces that have events in hot method
+Total 224 (24 unique) events are in isolated traces
+Total 208 (24 unique) events are in non-isolated traces (164 / 18 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (44 traces / 6 unique traces) (164 events / 18 unique events)
+	Iterator_RemoveOnce (40 traces / 4 unique traces) (60 events / 6 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (44 traces / 6 unique traces) (208 events / 24 unique events) (164 events / 18 unique events in hot method)
+Classifier (org.locationtech.jts.geomgraph.EdgeEndStar.computeLabelling:118): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#25
+Inspecting hot method org.locationtech.jts.operation.overlay.LineBuilder.findCoveredLineEdges:68...
+Checking for isolation...
+360,49,42,7
+Total 360 (154 unique) events are in hot method
+Total 49 (21 unique) traces are in hot method
+Total 42 (18 unique) isolated traces are in hot method
+Total 7 (3 unique) non-isolated traces that have events in hot method
+Total 302 (128 unique) events are in isolated traces
+Total 107 (47 unique) events are in non-isolated traces (58 / 26 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (14 traces / 6 unique traces) (118 events / 50 unique events)
+	Iterator_RemoveOnce (14 traces / 6 unique traces) (52 events / 22 unique events)
+	Collection_UnsafeIterator (14 traces / 6 unique traces) (132 events / 56 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (7 traces / 3 unique traces) (107 events / 47 unique events) (58 events / 26 unique events in hot method)
+Classifier (org.locationtech.jts.operation.overlay.LineBuilder.findCoveredLineEdges:68): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#26
+Inspecting hot method com.google.protobuf.UnknownFieldSet.getSerializedSize:212...
+Checking for isolation...
+357,6,0,6
+Total 357 (357 unique) events are in hot method
+Total 6 (6 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 6 (6 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 235930363 (235930363 unique) events are in non-isolated traces (357 / 357 unique are in hot method)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (2 traces / 2 unique traces) (78643437 events / 78643437 unique events) (105 events / 105 unique events in hot method)
+	Map_UnsafeIterator (2 traces / 2 unique traces) (104857948 events / 104857948 unique events) (168 events / 168 unique events in hot method)
+	Iterator_HasNext (1 traces / 1 unique traces) (26214493 events / 26214493 unique events) (42 events / 42 unique events in hot method)
+	Map_CollectionViewAdd (1 traces / 1 unique traces) (26214485 events / 26214485 unique events) (42 events / 42 unique events in hot method)
+Classifier (com.google.protobuf.UnknownFieldSet.getSerializedSize:212): LIB,NOT_REDUNDANT_TRACES
+
+#27
+Inspecting hot method com.google.protobuf.UnknownFieldSet.writeTo:137...
+Checking for isolation...
+357,6,0,6
+Total 357 (357 unique) events are in hot method
+Total 6 (6 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 6 (6 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 235930363 (235930363 unique) events are in non-isolated traces (357 / 357 unique are in hot method)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (2 traces / 2 unique traces) (78643437 events / 78643437 unique events) (105 events / 105 unique events in hot method)
+	Map_UnsafeIterator (2 traces / 2 unique traces) (104857948 events / 104857948 unique events) (168 events / 168 unique events in hot method)
+	Iterator_HasNext (1 traces / 1 unique traces) (26214493 events / 26214493 unique events) (42 events / 42 unique events in hot method)
+	Map_CollectionViewAdd (1 traces / 1 unique traces) (26214485 events / 26214485 unique events) (42 events / 42 unique events in hot method)
+Classifier (com.google.protobuf.UnknownFieldSet.writeTo:137): LIB,NOT_REDUNDANT_TRACES
+
+#28
+Inspecting hot method org.locationtech.jts.geomgraph.GeometryGraph.addSelfIntersectionNodes:431...
+Checking for isolation...
+334,132,88,44
+Total 334 (54 unique) events are in hot method
+Total 132 (17 unique) traces are in hot method
+Total 88 (11 unique) isolated traces are in hot method
+Total 44 (6 unique) non-isolated traces that have events in hot method
+Total 234 (32 unique) events are in isolated traces
+Total 231 (45 unique) events are in non-isolated traces (100 / 22 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (42 traces / 5 unique traces) (114 events / 15 unique events)
+	Iterator_RemoveOnce (26 traces / 3 unique traces) (36 events / 5 unique events)
+	Collection_UnsafeIterator (20 traces / 3 unique traces) (84 events / 12 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (22 traces / 4 unique traces) (159 events / 37 unique events) (50 events / 16 unique events in hot method)
+	Collection_UnsafeIterator (22 traces / 2 unique traces) (72 events / 8 unique events) (50 events / 6 unique events in hot method)
+Classifier (org.locationtech.jts.geomgraph.GeometryGraph.addSelfIntersectionNodes:431): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#29
+Inspecting hot method no.ecc.vectortile.VectorTileEncoder.encode:237...
+Checking for isolation...
+320,115,115,0
+Total 320 (93 unique) events are in hot method
+Total 115 (23 unique) traces are in hot method
+Total 115 (23 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 320 (93 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (30 traces / 7 unique traces) (94 events / 33 unique events)
+	Collection_UnsafeIterator (30 traces / 7 unique traces) (124 events / 40 unique events)
+	Iterator_RemoveOnce (25 traces / 6 unique traces) (32 events / 13 unique events)
+	Map_UnsafeIterator (20 traces / 2 unique traces) (60 events / 6 unique events)
+	Map_CollectionViewAdd (10 traces / 1 unique traces) (10 events / 1 unique events)
+Classifier (no.ecc.vectortile.VectorTileEncoder.encode:237): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE
+
+#30
+Inspecting hot method org.locationtech.jts.noding.MCIndexNoder.add:98...
+Checking for isolation...
+297,52,52,0
+Total 297 (81 unique) events are in hot method
+Total 52 (14 unique) traces are in hot method
+Total 52 (14 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 297 (81 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (15 traces / 3 unique traces) (99 events / 19 unique events)
+	Iterator_RemoveOnce (15 traces / 3 unique traces) (42 events / 8 unique events)
+	Collection_UnsafeIterator (15 traces / 3 unique traces) (114 events / 22 unique events)
+	Collections_SortBeforeBinarySearch (7 traces / 5 unique traces) (42 events / 32 unique events)
+Classifier (org.locationtech.jts.noding.MCIndexNoder.add:98): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#31
+Inspecting hot method org.locationtech.jts.geomgraph.EdgeIntersectionList.addSplitEdges:100...
+Checking for isolation...
+285,86,48,38
+Total 285 (28 unique) events are in hot method
+Total 86 (9 unique) traces are in hot method
+Total 48 (5 unique) isolated traces are in hot method
+Total 38 (4 unique) non-isolated traces that have events in hot method
+Total 133 (12 unique) events are in isolated traces
+Total 271 (35 unique) events are in non-isolated traces (152 / 16 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (19 traces / 1 unique traces) (76 events / 4 unique events)
+	Iterator_RemoveOnce (19 traces / 1 unique traces) (38 events / 2 unique events)
+	Collections_SortBeforeBinarySearch (10 traces / 3 unique traces) (19 events / 6 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (19 traces / 3 unique traces) (176 events / 30 unique events) (76 events / 12 unique events in hot method)
+	Collection_UnsafeIterator (19 traces / 1 unique traces) (95 events / 5 unique events) (76 events / 4 unique events in hot method)
+Classifier (org.locationtech.jts.geomgraph.EdgeIntersectionList.addSplitEdges:100): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_ONE_UNIQUE
+
+#32
+Inspecting hot method org.locationtech.jts.index.strtree.STRtree.verticalSlices:147...
+Checking for isolation...
+282,32,32,0
+Total 282 (216 unique) events are in hot method
+Total 32 (24 unique) traces are in hot method
+Total 32 (24 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 282 (216 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (8 traces / 6 unique traces) (94 events / 72 unique events)
+	Collections_SortBeforeBinarySearch (8 traces / 6 unique traces) (43 events / 33 unique events)
+	Iterator_RemoveOnce (8 traces / 6 unique traces) (43 events / 33 unique events)
+	Collection_UnsafeIterator (8 traces / 6 unique traces) (102 events / 78 unique events)
+Classifier (org.locationtech.jts.index.strtree.STRtree.verticalSlices:147): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#33
+Inspecting hot method org.locationtech.jts.index.strtree.AbstractSTRtree.createParentBoundables:120...
+Checking for isolation...
+263,41,40,1
+Total 263 (193 unique) events are in hot method
+Total 41 (21 unique) traces are in hot method
+Total 40 (20 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 255 (185 unique) events are in isolated traces
+Total 17 (17 unique) events are in non-isolated traces (8 / 8 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (16 traces / 2 unique traces) (16 events / 2 unique events)
+	Iterator_HasNext (8 traces / 6 unique traces) (94 events / 72 unique events)
+	Iterator_RemoveOnce (8 traces / 6 unique traces) (43 events / 33 unique events)
+	Collection_UnsafeIterator (8 traces / 6 unique traces) (102 events / 78 unique events)
+Specs that have non-isolated traces:
+	Collections_Comparable (1 traces / 1 unique traces) (17 events / 17 unique events) (8 events / 8 unique events in hot method)
+Classifier (org.locationtech.jts.index.strtree.AbstractSTRtree.createParentBoundables:120): LIB,ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#34
+Inspecting hot method org.locationtech.jts.geomgraph.DirectedEdgeStar.getResultAreaEdges:157...
+Checking for isolation...
+256,83,57,26
+Total 256 (23 unique) events are in hot method
+Total 83 (9 unique) traces are in hot method
+Total 57 (6 unique) isolated traces are in hot method
+Total 26 (3 unique) non-isolated traces that have events in hot method
+Total 154 (14 unique) events are in isolated traces
+Total 128 (12 unique) events are in non-isolated traces (102 / 9 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (26 traces / 3 unique traces) (102 events / 9 unique events)
+	Iterator_RemoveOnce (24 traces / 2 unique traces) (38 events / 3 unique events)
+	Collections_SortBeforeBinarySearch (7 traces / 1 unique traces) (14 events / 2 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (26 traces / 3 unique traces) (128 events / 12 unique events) (102 events / 9 unique events in hot method)
+Classifier (org.locationtech.jts.geomgraph.DirectedEdgeStar.getResultAreaEdges:157): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#35
+Inspecting hot method org.locationtech.jts.geomgraph.EdgeEndStar.iterator:97...
+Checking for isolation...
+252,252,0,252
+Total 252 (33 unique) events are in hot method
+Total 252 (33 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 252 (33 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 1223 (141 unique) events are in non-isolated traces (252 / 33 unique are in hot method)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (252 traces / 33 unique traces) (1223 events / 141 unique events) (252 events / 33 unique events in hot method)
+Classifier (org.locationtech.jts.geomgraph.EdgeEndStar.iterator:97): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#36
+Inspecting hot method org.locationtech.jts.geomgraph.EdgeEndStar.computeEdgeEndLabels:194...
+Checking for isolation...
+242,76,50,26
+Total 242 (21 unique) events are in hot method
+Total 76 (8 unique) traces are in hot method
+Total 50 (5 unique) isolated traces are in hot method
+Total 26 (3 unique) non-isolated traces that have events in hot method
+Total 140 (12 unique) events are in isolated traces
+Total 128 (12 unique) events are in non-isolated traces (102 / 9 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (26 traces / 3 unique traces) (102 events / 9 unique events)
+	Iterator_RemoveOnce (24 traces / 2 unique traces) (38 events / 3 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (26 traces / 3 unique traces) (128 events / 12 unique events) (102 events / 9 unique events in hot method)
+Classifier (org.locationtech.jts.geomgraph.EdgeEndStar.computeEdgeEndLabels:194): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#37
+Inspecting hot method org.locationtech.jts.index.strtree.STRtree$STRtreeNode.computeBounds:60...
+Checking for isolation...
+239,24,24,0
+Total 239 (183 unique) events are in hot method
+Total 24 (18 unique) traces are in hot method
+Total 24 (18 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 239 (183 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (8 traces / 6 unique traces) (94 events / 72 unique events)
+	Iterator_RemoveOnce (8 traces / 6 unique traces) (43 events / 33 unique events)
+	Collection_UnsafeIterator (8 traces / 6 unique traces) (102 events / 78 unique events)
+Classifier (org.locationtech.jts.index.strtree.STRtree$STRtreeNode.computeBounds:60): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#38
+Inspecting hot method org.locationtech.jts.geomgraph.NodeMap.iterator:94...
+Checking for isolation...
+234,126,46,80
+Total 234 (58 unique) events are in hot method
+Total 126 (32 unique) traces are in hot method
+Total 46 (4 unique) isolated traces are in hot method
+Total 80 (28 unique) non-isolated traces that have events in hot method
+Total 80 (6 unique) events are in isolated traces
+Total 474 (184 unique) events are in non-isolated traces (154 / 52 unique are in hot method)
+Specs that have isolated traces:
+	Map_UnsafeIterator (23 traces / 2 unique traces) (40 events / 3 unique events)
+	Map_CollectionViewAdd (23 traces / 2 unique traces) (40 events / 3 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (40 traces / 14 unique traces) (274 events / 104 unique events) (114 events / 38 unique events in hot method)
+	Collection_UnsafeIterator (40 traces / 14 unique traces) (200 events / 80 unique events) (40 events / 14 unique events in hot method)
+Classifier (org.locationtech.jts.geomgraph.NodeMap.iterator:94): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#39
+Inspecting hot method no.ecc.vectortile.VectorTileDecoder$FeatureIterable.getLayerNames:113...
+Checking for isolation...
+231,40,39,1
+Total 231 (143 unique) events are in hot method
+Total 40 (7 unique) traces are in hot method
+Total 39 (6 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 199 (111 unique) events are in isolated traces
+Total 39 (39 unique) events are in non-isolated traces (32 / 32 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (13 traces / 2 unique traces) (90 events / 46 unique events)
+	Iterator_HasNext (13 traces / 2 unique traces) (77 events / 44 unique events)
+	Iterator_RemoveOnce (13 traces / 2 unique traces) (32 events / 21 unique events)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (39 events / 39 unique events) (32 events / 32 unique events in hot method)
+Classifier (no.ecc.vectortile.VectorTileDecoder$FeatureIterable.getLayerNames:113): CUT,ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#40
+Inspecting hot method org.locationtech.jts.geomgraph.EdgeIntersectionList.add:47...
+Checking for isolation...
+222,48,0,48
+Total 222 (138 unique) events are in hot method
+Total 48 (6 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 48 (6 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 2030735 (2030469 unique) events are in non-isolated traces (222 / 138 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (45 traces / 3 unique traces) (285 events / 19 unique events) (90 events / 6 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (44 events / 44 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (44 events / 44 unique events in hot method)
+	TreeMap_Comparable (1 traces / 1 unique traces) (164 events / 164 unique events) (44 events / 44 unique events in hot method)
+Classifier (org.locationtech.jts.geomgraph.EdgeIntersectionList.add:47): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#41
+Inspecting hot method org.locationtech.jts.geomgraph.NodeMap.getBoundaryNodes:103...
+Checking for isolation...
+216,69,41,28
+Total 216 (65 unique) events are in hot method
+Total 69 (15 unique) traces are in hot method
+Total 41 (9 unique) isolated traces are in hot method
+Total 28 (6 unique) non-isolated traces that have events in hot method
+Total 100 (31 unique) events are in isolated traces
+Total 172 (46 unique) events are in non-isolated traces (116 / 34 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (14 traces / 3 unique traces) (22 events / 7 unique events)
+	Iterator_HasNext (14 traces / 3 unique traces) (58 events / 17 unique events)
+	Collections_SortBeforeBinarySearch (13 traces / 3 unique traces) (20 events / 7 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (14 traces / 3 unique traces) (100 events / 26 unique events) (58 events / 17 unique events in hot method)
+	Collection_UnsafeIterator (14 traces / 3 unique traces) (72 events / 20 unique events) (58 events / 17 unique events in hot method)
+Classifier (org.locationtech.jts.geomgraph.NodeMap.getBoundaryNodes:103): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#42
+Inspecting hot method org.locationtech.jts.geomgraph.index.SimpleMCSweepLineIntersector.addEdges:78...
+Checking for isolation...
+210,73,73,0
+Total 210 (24 unique) events are in hot method
+Total 73 (8 unique) traces are in hot method
+Total 73 (8 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 210 (24 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (25 traces / 3 unique traces) (79 events / 9 unique events)
+	Collection_UnsafeIterator (25 traces / 3 unique traces) (104 events / 12 unique events)
+	Iterator_RemoveOnce (23 traces / 2 unique traces) (27 events / 3 unique events)
+Classifier (org.locationtech.jts.geomgraph.index.SimpleMCSweepLineIntersector.addEdges:78): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#43
+Inspecting hot method org.locationtech.jts.geomgraph.index.SimpleMCSweepLineIntersector.addEdge:86...
+Checking for isolation...
+210,26,0,26
+Total 210 (76 unique) events are in hot method
+Total 26 (8 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 26 (8 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 236 (84 unique) events are in non-isolated traces (210 / 76 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (26 traces / 8 unique traces) (236 events / 84 unique events) (210 events / 76 unique events in hot method)
+Classifier (org.locationtech.jts.geomgraph.index.SimpleMCSweepLineIntersector.addEdge:86): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#44
+Inspecting hot method org.locationtech.jts.geomgraph.DirectedEdgeStar.findCoveredLineEdges:302...
+Checking for isolation...
+209,73,48,25
+Total 209 (37 unique) events are in hot method
+Total 73 (13 unique) traces are in hot method
+Total 48 (8 unique) isolated traces are in hot method
+Total 25 (5 unique) non-isolated traces that have events in hot method
+Total 121 (21 unique) events are in isolated traces
+Total 113 (21 unique) events are in non-isolated traces (88 / 16 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (25 traces / 5 unique traces) (88 events / 16 unique events)
+	Iterator_RemoveOnce (23 traces / 3 unique traces) (33 events / 5 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (25 traces / 5 unique traces) (113 events / 21 unique events) (88 events / 16 unique events in hot method)
+Classifier (org.locationtech.jts.geomgraph.DirectedEdgeStar.findCoveredLineEdges:302): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#45
+Inspecting hot method org.locationtech.jts.operation.relate.EdgeEndBundle.computeLabelSide:162...
+Checking for isolation...
+208,96,64,32
+Total 208 (11 unique) events are in hot method
+Total 96 (5 unique) traces are in hot method
+Total 64 (3 unique) isolated traces are in hot method
+Total 32 (2 unique) non-isolated traces that have events in hot method
+Total 120 (6 unique) events are in isolated traces
+Total 120 (7 unique) events are in non-isolated traces (88 / 5 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (32 traces / 2 unique traces) (88 events / 5 unique events)
+	Iterator_RemoveOnce (32 traces / 1 unique traces) (32 events / 1 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (32 traces / 2 unique traces) (120 events / 7 unique events) (88 events / 5 unique events in hot method)
+Classifier (org.locationtech.jts.operation.relate.EdgeEndBundle.computeLabelSide:162): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#46
+Inspecting hot method org.locationtech.jts.operation.overlay.OverlayOp.copyPoints:415...
+Checking for isolation...
+196,56,28,28
+Total 196 (58 unique) events are in hot method
+Total 56 (12 unique) traces are in hot method
+Total 28 (6 unique) isolated traces are in hot method
+Total 28 (6 unique) non-isolated traces that have events in hot method
+Total 80 (24 unique) events are in isolated traces
+Total 172 (46 unique) events are in non-isolated traces (116 / 34 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (14 traces / 3 unique traces) (22 events / 7 unique events)
+	Iterator_HasNext (14 traces / 3 unique traces) (58 events / 17 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (14 traces / 3 unique traces) (100 events / 26 unique events) (58 events / 17 unique events in hot method)
+	Collection_UnsafeIterator (14 traces / 3 unique traces) (72 events / 20 unique events) (58 events / 17 unique events in hot method)
+Classifier (org.locationtech.jts.operation.overlay.OverlayOp.copyPoints:415): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#47
+Inspecting hot method org.locationtech.jts.geomgraph.DirectedEdgeStar.computeLabelling:110...
+Checking for isolation...
+194,64,42,22
+Total 194 (21 unique) events are in hot method
+Total 64 (8 unique) traces are in hot method
+Total 42 (5 unique) isolated traces are in hot method
+Total 22 (3 unique) non-isolated traces that have events in hot method
+Total 112 (12 unique) events are in isolated traces
+Total 104 (12 unique) events are in non-isolated traces (82 / 9 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (22 traces / 3 unique traces) (82 events / 9 unique events)
+	Iterator_RemoveOnce (20 traces / 2 unique traces) (30 events / 3 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (22 traces / 3 unique traces) (104 events / 12 unique events) (82 events / 9 unique events in hot method)
+Classifier (org.locationtech.jts.geomgraph.DirectedEdgeStar.computeLabelling:110): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#48
+Inspecting hot method org.locationtech.jts.geomgraph.DirectedEdgeStar.mergeSymLabels:134...
+Checking for isolation...
+194,64,42,22
+Total 194 (21 unique) events are in hot method
+Total 64 (8 unique) traces are in hot method
+Total 42 (5 unique) isolated traces are in hot method
+Total 22 (3 unique) non-isolated traces that have events in hot method
+Total 112 (12 unique) events are in isolated traces
+Total 104 (12 unique) events are in non-isolated traces (82 / 9 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (22 traces / 3 unique traces) (82 events / 9 unique events)
+	Iterator_RemoveOnce (20 traces / 2 unique traces) (30 events / 3 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (22 traces / 3 unique traces) (104 events / 12 unique events) (82 events / 9 unique events in hot method)
+Classifier (org.locationtech.jts.geomgraph.DirectedEdgeStar.mergeSymLabels:134): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#49
+Inspecting hot method org.locationtech.jts.geomgraph.DirectedEdgeStar.updateLabelling:146...
+Checking for isolation...
+194,64,42,22
+Total 194 (21 unique) events are in hot method
+Total 64 (8 unique) traces are in hot method
+Total 42 (5 unique) isolated traces are in hot method
+Total 22 (3 unique) non-isolated traces that have events in hot method
+Total 112 (12 unique) events are in isolated traces
+Total 104 (12 unique) events are in non-isolated traces (82 / 9 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (22 traces / 3 unique traces) (82 events / 9 unique events)
+	Iterator_RemoveOnce (20 traces / 2 unique traces) (30 events / 3 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (22 traces / 3 unique traces) (104 events / 12 unique events) (82 events / 9 unique events in hot method)
+Classifier (org.locationtech.jts.geomgraph.DirectedEdgeStar.updateLabelling:146): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#50
+Inspecting hot method org.locationtech.jts.operation.overlay.OverlayOp.computeLabelling:431...
+Checking for isolation...
+189,28,21,7
+Total 189 (85 unique) events are in hot method
+Total 28 (12 unique) traces are in hot method
+Total 21 (9 unique) isolated traces are in hot method
+Total 7 (3 unique) non-isolated traces that have events in hot method
+Total 131 (59 unique) events are in isolated traces
+Total 107 (47 unique) events are in non-isolated traces (58 / 26 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (7 traces / 3 unique traces) (51 events / 23 unique events)
+	Collection_UnsafeIterator (7 traces / 3 unique traces) (58 events / 26 unique events)
+	Iterator_RemoveOnce (7 traces / 3 unique traces) (22 events / 10 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (7 traces / 3 unique traces) (107 events / 47 unique events) (58 events / 26 unique events in hot method)
+Classifier (org.locationtech.jts.operation.overlay.OverlayOp.computeLabelling:431): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#51
+Inspecting hot method org.locationtech.jts.operation.overlay.PointBuilder.extractNonCoveredResultNodes:70...
+Checking for isolation...
+189,28,21,7
+Total 189 (85 unique) events are in hot method
+Total 28 (12 unique) traces are in hot method
+Total 21 (9 unique) isolated traces are in hot method
+Total 7 (3 unique) non-isolated traces that have events in hot method
+Total 131 (59 unique) events are in isolated traces
+Total 107 (47 unique) events are in non-isolated traces (58 / 26 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (7 traces / 3 unique traces) (51 events / 23 unique events)
+	Iterator_RemoveOnce (7 traces / 3 unique traces) (22 events / 10 unique events)
+	Collection_UnsafeIterator (7 traces / 3 unique traces) (58 events / 26 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (7 traces / 3 unique traces) (107 events / 47 unique events) (58 events / 26 unique events in hot method)
+Classifier (org.locationtech.jts.operation.overlay.PointBuilder.extractNonCoveredResultNodes:70): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#52
+Inspecting hot method org.locationtech.jts.operation.overlay.OverlayOp.labelIncompleteNodes:483...
+Checking for isolation...
+189,28,21,7
+Total 189 (85 unique) events are in hot method
+Total 28 (12 unique) traces are in hot method
+Total 21 (9 unique) isolated traces are in hot method
+Total 7 (3 unique) non-isolated traces that have events in hot method
+Total 131 (59 unique) events are in isolated traces
+Total 107 (47 unique) events are in non-isolated traces (58 / 26 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (7 traces / 3 unique traces) (51 events / 23 unique events)
+	Iterator_RemoveOnce (7 traces / 3 unique traces) (22 events / 10 unique events)
+	Collection_UnsafeIterator (7 traces / 3 unique traces) (58 events / 26 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (7 traces / 3 unique traces) (107 events / 47 unique events) (58 events / 26 unique events in hot method)
+Classifier (org.locationtech.jts.operation.overlay.OverlayOp.labelIncompleteNodes:483): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#53
+Inspecting hot method org.locationtech.jts.geomgraph.PlanarGraph.linkResultDirectedEdges:55...
+Checking for isolation...
+189,28,21,7
+Total 189 (85 unique) events are in hot method
+Total 28 (12 unique) traces are in hot method
+Total 21 (9 unique) isolated traces are in hot method
+Total 7 (3 unique) non-isolated traces that have events in hot method
+Total 131 (59 unique) events are in isolated traces
+Total 107 (47 unique) events are in non-isolated traces (58 / 26 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (7 traces / 3 unique traces) (51 events / 23 unique events)
+	Iterator_RemoveOnce (7 traces / 3 unique traces) (22 events / 10 unique events)
+	Collection_UnsafeIterator (7 traces / 3 unique traces) (58 events / 26 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (7 traces / 3 unique traces) (107 events / 47 unique events) (58 events / 26 unique events in hot method)
+Classifier (org.locationtech.jts.geomgraph.PlanarGraph.linkResultDirectedEdges:55): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#54
+Inspecting hot method org.locationtech.jts.operation.overlay.OverlayOp.mergeSymLabels:447...
+Checking for isolation...
+189,28,21,7
+Total 189 (85 unique) events are in hot method
+Total 28 (12 unique) traces are in hot method
+Total 21 (9 unique) isolated traces are in hot method
+Total 7 (3 unique) non-isolated traces that have events in hot method
+Total 131 (59 unique) events are in isolated traces
+Total 107 (47 unique) events are in non-isolated traces (58 / 26 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (7 traces / 3 unique traces) (58 events / 26 unique events)
+	Iterator_HasNext (7 traces / 3 unique traces) (51 events / 23 unique events)
+	Iterator_RemoveOnce (7 traces / 3 unique traces) (22 events / 10 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (7 traces / 3 unique traces) (107 events / 47 unique events) (58 events / 26 unique events in hot method)
+Classifier (org.locationtech.jts.operation.overlay.OverlayOp.mergeSymLabels:447): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#55
+Inspecting hot method org.locationtech.jts.operation.overlay.OverlayOp.updateNodeLabelling:459...
+Checking for isolation...
+189,28,21,7
+Total 189 (85 unique) events are in hot method
+Total 28 (12 unique) traces are in hot method
+Total 21 (9 unique) isolated traces are in hot method
+Total 7 (3 unique) non-isolated traces that have events in hot method
+Total 131 (59 unique) events are in isolated traces
+Total 107 (47 unique) events are in non-isolated traces (58 / 26 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (7 traces / 3 unique traces) (58 events / 26 unique events)
+	Iterator_RemoveOnce (7 traces / 3 unique traces) (22 events / 10 unique events)
+	Iterator_HasNext (7 traces / 3 unique traces) (51 events / 23 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (7 traces / 3 unique traces) (107 events / 47 unique events) (58 events / 26 unique events in hot method)
+Classifier (org.locationtech.jts.operation.overlay.OverlayOp.updateNodeLabelling:459): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#56
+Inspecting hot method org.locationtech.jts.geomgraph.NodeMap.addNode:57...
+Checking for isolation...
+177,3,0,3
+Total 177 (177 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 3 (3 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 2030450 (2030450 unique) events are in non-isolated traces (177 / 177 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (59 events / 59 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (59 events / 59 unique events in hot method)
+	TreeMap_Comparable (1 traces / 1 unique traces) (164 events / 164 unique events) (59 events / 59 unique events in hot method)
+Classifier (org.locationtech.jts.geomgraph.NodeMap.addNode:57): LIB,NOT_REDUNDANT_TRACES
+
+#57
+Inspecting hot method org.locationtech.jts.geomgraph.Node.isIncidentEdgeInResult:54...
+Checking for isolation...
+175,64,64,0
+Total 175 (22 unique) events are in hot method
+Total 64 (8 unique) traces are in hot method
+Total 64 (8 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 175 (22 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (22 traces / 3 unique traces) (63 events / 8 unique events)
+	Collection_UnsafeIterator (22 traces / 3 unique traces) (85 events / 11 unique events)
+	Iterator_RemoveOnce (20 traces / 2 unique traces) (27 events / 3 unique events)
+Classifier (org.locationtech.jts.geomgraph.Node.isIncidentEdgeInResult:54): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#58
+Inspecting hot method org.locationtech.jts.operation.overlay.PolygonBuilder.buildMaximalEdgeRings:87...
+Checking for isolation...
+174,23,23,0
+Total 174 (72 unique) events are in hot method
+Total 23 (11 unique) traces are in hot method
+Total 23 (11 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 174 (72 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (7 traces / 3 unique traces) (67 events / 27 unique events)
+	Iterator_RemoveOnce (7 traces / 3 unique traces) (30 events / 12 unique events)
+	Collection_UnsafeIterator (7 traces / 3 unique traces) (74 events / 30 unique events)
+	Collections_SortBeforeBinarySearch (2 traces / 2 unique traces) (3 events / 3 unique events)
+Classifier (org.locationtech.jts.operation.overlay.PolygonBuilder.buildMaximalEdgeRings:87): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT
+
+#59
+Inspecting hot method org.locationtech.jts.operation.overlay.LineBuilder.collectLines:90...
+Checking for isolation...
+171,21,21,0
+Total 171 (69 unique) events are in hot method
+Total 21 (9 unique) traces are in hot method
+Total 21 (9 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 171 (69 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (7 traces / 3 unique traces) (67 events / 27 unique events)
+	Iterator_RemoveOnce (7 traces / 3 unique traces) (30 events / 12 unique events)
+	Collection_UnsafeIterator (7 traces / 3 unique traces) (74 events / 30 unique events)
+Classifier (org.locationtech.jts.operation.overlay.LineBuilder.collectLines:90): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#60
+Inspecting hot method org.locationtech.jts.operation.overlay.OverlayOp.findResultAreaEdges:529...
+Checking for isolation...
+171,21,21,0
+Total 171 (69 unique) events are in hot method
+Total 21 (9 unique) traces are in hot method
+Total 21 (9 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 171 (69 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (7 traces / 3 unique traces) (67 events / 27 unique events)
+	Iterator_RemoveOnce (7 traces / 3 unique traces) (30 events / 12 unique events)
+	Collection_UnsafeIterator (7 traces / 3 unique traces) (74 events / 30 unique events)
+Classifier (org.locationtech.jts.operation.overlay.OverlayOp.findResultAreaEdges:529): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#61
+Inspecting hot method org.locationtech.jts.operation.overlay.OverlayOp.cancelDuplicateResultEdges:552...
+Checking for isolation...
+171,21,21,0
+Total 171 (69 unique) events are in hot method
+Total 21 (9 unique) traces are in hot method
+Total 21 (9 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 171 (69 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (7 traces / 3 unique traces) (67 events / 27 unique events)
+	Iterator_RemoveOnce (7 traces / 3 unique traces) (30 events / 12 unique events)
+	Collection_UnsafeIterator (7 traces / 3 unique traces) (74 events / 30 unique events)
+Classifier (org.locationtech.jts.operation.overlay.OverlayOp.cancelDuplicateResultEdges:552): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#62
+Inspecting hot method no.ecc.vectortile.VectorTileEncoder.commands:381...
+Checking for isolation...
+157,22,22,0
+Total 157 (62 unique) events are in hot method
+Total 22 (8 unique) traces are in hot method
+Total 22 (8 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 157 (62 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (22 traces / 8 unique traces) (157 events / 62 unique events)
+Classifier (no.ecc.vectortile.VectorTileEncoder.commands:381): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#63
+Inspecting hot method org.locationtech.jts.geomgraph.GeometryGraph.computeSplitEdges:191...
+Checking for isolation...
+146,50,50,0
+Total 146 (24 unique) events are in hot method
+Total 50 (8 unique) traces are in hot method
+Total 50 (8 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 146 (24 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (17 traces / 3 unique traces) (55 events / 9 unique events)
+	Collection_UnsafeIterator (17 traces / 3 unique traces) (72 events / 12 unique events)
+	Iterator_RemoveOnce (16 traces / 2 unique traces) (19 events / 3 unique events)
+Classifier (org.locationtech.jts.geomgraph.GeometryGraph.computeSplitEdges:191): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#64
+Inspecting hot method org.locationtech.jts.geomgraph.PlanarGraph.addEdges:110...
+Checking for isolation...
+144,40,40,0
+Total 144 (45 unique) events are in hot method
+Total 40 (12 unique) traces are in hot method
+Total 40 (12 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 144 (45 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (10 traces / 3 unique traces) (48 events / 15 unique events)
+	Collections_SortBeforeBinarySearch (10 traces / 3 unique traces) (19 events / 6 unique events)
+	Iterator_RemoveOnce (10 traces / 3 unique traces) (19 events / 6 unique events)
+	Collection_UnsafeIterator (10 traces / 3 unique traces) (58 events / 18 unique events)
+Classifier (org.locationtech.jts.geomgraph.PlanarGraph.addEdges:110): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#65
+Inspecting hot method org.locationtech.jts.io.WKTWriter.appendCoordinate:529...
+Checking for isolation...
+140,40,40,0
+Total 140 (7 unique) events are in hot method
+Total 40 (2 unique) traces are in hot method
+Total 40 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 140 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (20 traces / 1 unique traces) (80 events / 4 unique events)
+	Appendable_ThreadSafe (20 traces / 1 unique traces) (60 events / 3 unique events)
+Classifier (org.locationtech.jts.io.WKTWriter.appendCoordinate:529): LIB,ISOLATED_ONE_UNIQUE
+
+#66
+Inspecting hot method org.locationtech.jts.operation.valid.IsValidOp.checkNoSelfIntersectingRing:408...
+Checking for isolation...
+140,31,16,15
+Total 140 (48 unique) events are in hot method
+Total 31 (9 unique) traces are in hot method
+Total 16 (4 unique) isolated traces are in hot method
+Total 15 (5 unique) non-isolated traces that have events in hot method
+Total 63 (21 unique) events are in isolated traces
+Total 150 (76 unique) events are in non-isolated traces (77 / 27 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (7 traces / 1 unique traces) (35 events / 5 unique events)
+	Iterator_RemoveOnce (7 traces / 1 unique traces) (14 events / 2 unique events)
+	SortedSet_Comparable (1 traces / 1 unique traces) (7 events / 7 unique events)
+	TreeSet_Comparable (1 traces / 1 unique traces) (7 events / 7 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (7 traces / 3 unique traces) (69 events / 31 unique events) (35 events / 15 unique events in hot method)
+	Collection_UnsafeIterator (7 traces / 1 unique traces) (42 events / 6 unique events) (35 events / 5 unique events in hot method)
+	Set_ItselfAsElement (1 traces / 1 unique traces) (39 events / 39 unique events) (7 events / 7 unique events in hot method)
+Classifier (org.locationtech.jts.operation.valid.IsValidOp.checkNoSelfIntersectingRing:408): LIB,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_ONE_UNIQUE,RAW_ISOLATED_SINGLE_TRACE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#67
+Inspecting hot method org.locationtech.jts.geomgraph.EdgeEndStar.insertEdgeEnd:70...
+Checking for isolation...
+138,3,0,3
+Total 138 (138 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 3 (3 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 2030450 (2030450 unique) events are in non-isolated traces (138 / 138 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (46 events / 46 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (46 events / 46 unique events in hot method)
+	TreeMap_Comparable (1 traces / 1 unique traces) (164 events / 164 unique events) (46 events / 46 unique events in hot method)
+Classifier (org.locationtech.jts.geomgraph.EdgeEndStar.insertEdgeEnd:70): LIB,NOT_REDUNDANT_TRACES
+
+#68
+Inspecting hot method org.locationtech.jts.index.strtree.AbstractSTRtree.queryInternal:278...
+Checking for isolation...
+123,43,43,0
+Total 123 (14 unique) events are in hot method
+Total 43 (4 unique) traces are in hot method
+Total 43 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 123 (14 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (43 traces / 4 unique traces) (123 events / 14 unique events)
+Classifier (org.locationtech.jts.index.strtree.AbstractSTRtree.queryInternal:278): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#69
+Inspecting hot method org.locationtech.jts.operation.relate.EdgeEndBundle.computeLabelOn:120...
+Checking for isolation...
+112,48,32,16
+Total 112 (7 unique) events are in hot method
+Total 48 (3 unique) traces are in hot method
+Total 32 (2 unique) isolated traces are in hot method
+Total 16 (1 unique) non-isolated traces that have events in hot method
+Total 64 (4 unique) events are in isolated traces
+Total 64 (4 unique) events are in non-isolated traces (48 / 3 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (16 traces / 1 unique traces) (48 events / 3 unique events)
+	Iterator_RemoveOnce (16 traces / 1 unique traces) (16 events / 1 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (16 traces / 1 unique traces) (64 events / 4 unique events) (48 events / 3 unique events in hot method)
+Classifier (org.locationtech.jts.operation.relate.EdgeEndBundle.computeLabelOn:120): LIB,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_ONE_UNIQUE
+
+#70
+Inspecting hot method org.locationtech.jts.geomgraph.EdgeNodingValidator.toSegmentStrings:52...
+Checking for isolation...
+111,28,28,0
+Total 111 (45 unique) events are in hot method
+Total 28 (12 unique) traces are in hot method
+Total 28 (12 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 111 (45 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (7 traces / 3 unique traces) (37 events / 15 unique events)
+	Collections_SortBeforeBinarySearch (7 traces / 3 unique traces) (15 events / 6 unique events)
+	Iterator_RemoveOnce (7 traces / 3 unique traces) (15 events / 6 unique events)
+	Collection_UnsafeIterator (7 traces / 3 unique traces) (44 events / 18 unique events)
+Classifier (org.locationtech.jts.geomgraph.EdgeNodingValidator.toSegmentStrings:52): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#71
+Inspecting hot method org.locationtech.jts.noding.MCIndexNoder.computeNodes:64...
+Checking for isolation...
+96,21,21,0
+Total 96 (39 unique) events are in hot method
+Total 21 (9 unique) traces are in hot method
+Total 21 (9 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 96 (39 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (7 traces / 3 unique traces) (37 events / 15 unique events)
+	Iterator_RemoveOnce (7 traces / 3 unique traces) (15 events / 6 unique events)
+	Collection_UnsafeIterator (7 traces / 3 unique traces) (44 events / 18 unique events)
+Classifier (org.locationtech.jts.noding.MCIndexNoder.computeNodes:64): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#72
+Inspecting hot method org.locationtech.jts.operation.overlay.OverlayOp.insertUniqueEdges:265...
+Checking for isolation...
+96,21,21,0
+Total 96 (39 unique) events are in hot method
+Total 21 (9 unique) traces are in hot method
+Total 21 (9 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 96 (39 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (7 traces / 3 unique traces) (37 events / 15 unique events)
+	Iterator_RemoveOnce (7 traces / 3 unique traces) (15 events / 6 unique events)
+	Collection_UnsafeIterator (7 traces / 3 unique traces) (44 events / 18 unique events)
+Classifier (org.locationtech.jts.operation.overlay.OverlayOp.insertUniqueEdges:265): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#73
+Inspecting hot method org.locationtech.jts.operation.relate.RelateNodeGraph.computeIntersectionNodes:90...
+Checking for isolation...
+94,25,14,11
+Total 94 (41 unique) events are in hot method
+Total 25 (11 unique) traces are in hot method
+Total 14 (6 unique) isolated traces are in hot method
+Total 11 (5 unique) non-isolated traces that have events in hot method
+Total 43 (18 unique) events are in isolated traces
+Total 83 (39 unique) events are in non-isolated traces (51 / 23 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (7 traces / 3 unique traces) (31 events / 13 unique events)
+	Iterator_RemoveOnce (7 traces / 3 unique traces) (12 events / 5 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (7 traces / 3 unique traces) (38 events / 16 unique events) (31 events / 13 unique events in hot method)
+	Map_UnsafeIterator (4 traces / 2 unique traces) (45 events / 23 unique events) (20 events / 10 unique events in hot method)
+Classifier (org.locationtech.jts.operation.relate.RelateNodeGraph.computeIntersectionNodes:90): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#74
+Inspecting hot method org.locationtech.jts.geom.GeometryFactory.buildGeometry:516...
+Checking for isolation...
+94,42,42,0
+Total 94 (25 unique) events are in hot method
+Total 42 (9 unique) traces are in hot method
+Total 42 (9 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 94 (25 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (14 traces / 3 unique traces) (32 events / 9 unique events)
+	Iterator_RemoveOnce (14 traces / 3 unique traces) (16 events / 4 unique events)
+	Collection_UnsafeIterator (14 traces / 3 unique traces) (46 events / 12 unique events)
+Classifier (org.locationtech.jts.geom.GeometryFactory.buildGeometry:516): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#75
+Inspecting hot method com.google.protobuf.GeneratedMessageV3$ExtendableMessage$ExtensionWriter.<init>:1046...
+Checking for isolation...
+93,93,31,62
+Total 93 (33 unique) events are in hot method
+Total 93 (33 unique) traces are in hot method
+Total 31 (1 unique) isolated traces are in hot method
+Total 62 (32 unique) non-isolated traces that have events in hot method
+Total 31 (1 unique) events are in isolated traces
+Total 817 (757 unique) events are in non-isolated traces (62 / 32 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (31 traces / 1 unique traces) (31 events / 1 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (31 traces / 1 unique traces) (62 events / 2 unique events) (31 events / 1 unique events in hot method)
+	Map_UnsafeIterator (31 traces / 31 unique traces) (755 events / 755 unique events) (31 events / 31 unique events in hot method)
+Classifier (com.google.protobuf.GeneratedMessageV3$ExtendableMessage$ExtensionWriter.<init>:1046): LIB,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT,NOT_ISOLATED_ONE_UNIQUE
+
+#76
+Inspecting hot method org.locationtech.jts.operation.overlay.OverlayOp.computeLabelsFromDepths:348...
+Checking for isolation...
+89,21,14,7
+Total 89 (36 unique) events are in hot method
+Total 21 (9 unique) traces are in hot method
+Total 14 (6 unique) isolated traces are in hot method
+Total 7 (3 unique) non-isolated traces that have events in hot method
+Total 52 (21 unique) events are in isolated traces
+Total 44 (18 unique) events are in non-isolated traces (37 / 15 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (7 traces / 3 unique traces) (37 events / 15 unique events)
+	Iterator_RemoveOnce (7 traces / 3 unique traces) (15 events / 6 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (7 traces / 3 unique traces) (44 events / 18 unique events) (37 events / 15 unique events in hot method)
+Classifier (org.locationtech.jts.operation.overlay.OverlayOp.computeLabelsFromDepths:348): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#77
+Inspecting hot method org.locationtech.jts.operation.overlay.OverlayOp.replaceCollapsedEdges:393...
+Checking for isolation...
+89,21,14,7
+Total 89 (36 unique) events are in hot method
+Total 21 (9 unique) traces are in hot method
+Total 14 (6 unique) isolated traces are in hot method
+Total 7 (3 unique) non-isolated traces that have events in hot method
+Total 52 (21 unique) events are in isolated traces
+Total 44 (18 unique) events are in non-isolated traces (37 / 15 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (7 traces / 3 unique traces) (37 events / 15 unique events)
+	Iterator_RemoveOnce (7 traces / 3 unique traces) (15 events / 6 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (7 traces / 3 unique traces) (44 events / 18 unique events) (37 events / 15 unique events in hot method)
+Classifier (org.locationtech.jts.operation.overlay.OverlayOp.replaceCollapsedEdges:393): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#78
+Inspecting hot method org.locationtech.jts.operation.valid.ConsistentAreaTester.hasDuplicateRings:134...
+Checking for isolation...
+85,24,14,10
+Total 85 (39 unique) events are in hot method
+Total 24 (11 unique) traces are in hot method
+Total 14 (6 unique) isolated traces are in hot method
+Total 10 (5 unique) non-isolated traces that have events in hot method
+Total 43 (18 unique) events are in isolated traces
+Total 58 (30 unique) events are in non-isolated traces (42 / 21 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (7 traces / 3 unique traces) (31 events / 13 unique events)
+	Iterator_RemoveOnce (7 traces / 3 unique traces) (12 events / 5 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (7 traces / 3 unique traces) (38 events / 16 unique events) (31 events / 13 unique events in hot method)
+	Map_UnsafeIterator (3 traces / 2 unique traces) (20 events / 14 unique events) (11 events / 8 unique events in hot method)
+Classifier (org.locationtech.jts.operation.valid.ConsistentAreaTester.hasDuplicateRings:134): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#79
+Inspecting hot method org.locationtech.jts.geomgraph.index.MonotoneChainIndexer.getChainStartIndices:66...
+Checking for isolation...
+85,22,22,0
+Total 85 (11 unique) events are in hot method
+Total 22 (3 unique) traces are in hot method
+Total 22 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 85 (11 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (22 traces / 3 unique traces) (85 events / 11 unique events)
+Classifier (org.locationtech.jts.geomgraph.index.MonotoneChainIndexer.getChainStartIndices:66): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#80
+Inspecting hot method no.ecc.vectortile.VectorTileDecoderTest.assertEquals:290...
+Checking for isolation...
+82,39,15,24
+Total 82 (44 unique) events are in hot method
+Total 39 (16 unique) traces are in hot method
+Total 15 (8 unique) isolated traces are in hot method
+Total 24 (8 unique) non-isolated traces that have events in hot method
+Total 38 (24 unique) events are in isolated traces
+Total 88 (40 unique) events are in non-isolated traces (44 / 20 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (6 traces / 3 unique traces) (14 events / 9 unique events)
+	Collection_UnsafeIterator (6 traces / 3 unique traces) (20 events / 12 unique events)
+	Iterator_RemoveOnce (3 traces / 2 unique traces) (4 events / 3 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (18 traces / 7 unique traces) (76 events / 38 unique events) (38 events / 19 unique events in hot method)
+	Map_CollectionViewAdd (6 traces / 1 unique traces) (12 events / 2 unique events) (6 events / 1 unique events in hot method)
+Classifier (no.ecc.vectortile.VectorTileDecoderTest.assertEquals:290): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_ONE_UNIQUE
+
+#81
+Inspecting hot method org.locationtech.jts.operation.relate.EdgeEndBuilder.computeEdgeEnds:61...
+Checking for isolation...
+80,16,8,8
+Total 80 (26 unique) events are in hot method
+Total 16 (5 unique) traces are in hot method
+Total 8 (2 unique) isolated traces are in hot method
+Total 8 (3 unique) non-isolated traces that have events in hot method
+Total 32 (8 unique) events are in isolated traces
+Total 77 (32 unique) events are in non-isolated traces (48 / 18 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (4 traces / 1 unique traces) (24 events / 6 unique events)
+	Iterator_RemoveOnce (4 traces / 1 unique traces) (8 events / 2 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (4 traces / 2 unique traces) (49 events / 25 unique events) (24 events / 12 unique events in hot method)
+	Collection_UnsafeIterator (4 traces / 1 unique traces) (28 events / 7 unique events) (24 events / 6 unique events in hot method)
+Classifier (org.locationtech.jts.operation.relate.EdgeEndBuilder.computeEdgeEnds:61): LIB,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_ONE_UNIQUE
+
+#82
+Inspecting hot method org.locationtech.jts.geomgraph.index.SimpleMCSweepLineIntersector.addEdges:70...
+Checking for isolation...
+77,27,27,0
+Total 77 (21 unique) events are in hot method
+Total 27 (6 unique) traces are in hot method
+Total 27 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 77 (21 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (9 traces / 2 unique traces) (10 events / 3 unique events)
+	Iterator_HasNext (9 traces / 2 unique traces) (29 events / 8 unique events)
+	Collection_UnsafeIterator (9 traces / 2 unique traces) (38 events / 10 unique events)
+Classifier (org.locationtech.jts.geomgraph.index.SimpleMCSweepLineIntersector.addEdges:70): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#83
+Inspecting hot method org.locationtech.jts.operation.overlay.OverlayOp.computeGeometry:604...
+Checking for isolation...
+63,28,28,0
+Total 63 (9 unique) events are in hot method
+Total 28 (4 unique) traces are in hot method
+Total 28 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 63 (9 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsynchronizedAddAll (21 traces / 3 unique traces) (42 events / 6 unique events)
+	Collections_SortBeforeBinarySearch (7 traces / 1 unique traces) (21 events / 3 unique events)
+Classifier (org.locationtech.jts.operation.overlay.OverlayOp.computeGeometry:604): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE
+
+#84
+Inspecting hot method org.locationtech.jts.operation.valid.ConnectedInteriorTester.buildEdgeRings:123...
+Checking for isolation...
+61,16,16,0
+Total 61 (41 unique) events are in hot method
+Total 16 (9 unique) traces are in hot method
+Total 16 (9 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 61 (41 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsynchronizedAddAll (4 traces / 1 unique traces) (8 events / 2 unique events)
+	Collections_SortBeforeBinarySearch (3 traces / 2 unique traces) (4 events / 3 unique events)
+	Collection_UnsafeIterator (3 traces / 2 unique traces) (22 events / 16 unique events)
+	Iterator_HasNext (3 traces / 2 unique traces) (19 events / 14 unique events)
+	Iterator_RemoveOnce (3 traces / 2 unique traces) (8 events / 6 unique events)
+Classifier (org.locationtech.jts.operation.valid.ConnectedInteriorTester.buildEdgeRings:123): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE
+
+#85
+Inspecting hot method org.locationtech.jts.geomgraph.EdgeEndStar.getEdges:101...
+Checking for isolation...
+60,60,60,0
+Total 60 (2 unique) events are in hot method
+Total 60 (2 unique) traces are in hot method
+Total 60 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 60 (2 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Map_UnsafeIterator (30 traces / 1 unique traces) (30 events / 1 unique events)
+	Map_CollectionViewAdd (30 traces / 1 unique traces) (30 events / 1 unique events)
+Classifier (org.locationtech.jts.geomgraph.EdgeEndStar.getEdges:101): LIB,ISOLATED_ONE_UNIQUE
+
+#86
+Inspecting hot method org.locationtech.jts.geomgraph.EdgeList.add:51...
+Checking for isolation...
+60,10,7,3
+Total 60 (51 unique) events are in hot method
+Total 10 (6 unique) traces are in hot method
+Total 7 (3 unique) isolated traces are in hot method
+Total 3 (3 unique) non-isolated traces that have events in hot method
+Total 15 (6 unique) events are in isolated traces
+Total 2030450 (2030450 unique) events are in non-isolated traces (45 / 45 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (7 traces / 3 unique traces) (15 events / 6 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (15 events / 15 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (15 events / 15 unique events in hot method)
+	TreeMap_Comparable (1 traces / 1 unique traces) (164 events / 164 unique events) (15 events / 15 unique events in hot method)
+Classifier (org.locationtech.jts.geomgraph.EdgeList.add:51): LIB,ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#87
+Inspecting hot method org.locationtech.jts.index.chain.MonotoneChainBuilder.getChainStartIndices:68...
+Checking for isolation...
+57,15,15,0
+Total 57 (11 unique) events are in hot method
+Total 15 (3 unique) traces are in hot method
+Total 15 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 57 (11 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (15 traces / 3 unique traces) (57 events / 11 unique events)
+Classifier (org.locationtech.jts.index.chain.MonotoneChainBuilder.getChainStartIndices:68): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#88
+Inspecting hot method org.locationtech.jts.operation.relate.EdgeEndBundle.computeLabel:79...
+Checking for isolation...
+56,24,16,8
+Total 56 (7 unique) events are in hot method
+Total 24 (3 unique) traces are in hot method
+Total 16 (2 unique) isolated traces are in hot method
+Total 8 (1 unique) non-isolated traces that have events in hot method
+Total 32 (4 unique) events are in isolated traces
+Total 32 (4 unique) events are in non-isolated traces (24 / 3 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (8 traces / 1 unique traces) (24 events / 3 unique events)
+	Iterator_RemoveOnce (8 traces / 1 unique traces) (8 events / 1 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (8 traces / 1 unique traces) (32 events / 4 unique events) (24 events / 3 unique events in hot method)
+Classifier (org.locationtech.jts.operation.relate.EdgeEndBundle.computeLabel:79): LIB,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_ONE_UNIQUE
+
+#89
+Inspecting hot method org.locationtech.jts.operation.relate.EdgeEndBundle.iterator:61...
+Checking for isolation...
+56,56,0,56
+Total 56 (4 unique) events are in hot method
+Total 56 (4 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 56 (4 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 216 (15 unique) events are in non-isolated traces (56 / 4 unique are in hot method)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (56 traces / 4 unique traces) (216 events / 15 unique events) (56 events / 4 unique events in hot method)
+Classifier (org.locationtech.jts.operation.relate.EdgeEndBundle.iterator:61): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#90
+Inspecting hot method org.locationtech.jts.geomgraph.EdgeRing.addPoints:195...
+Checking for isolation...
+55,11,11,0
+Total 55 (5 unique) events are in hot method
+Total 11 (1 unique) traces are in hot method
+Total 11 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 55 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (11 traces / 1 unique traces) (55 events / 5 unique events)
+Classifier (org.locationtech.jts.geomgraph.EdgeRing.addPoints:195): LIB,ISOLATED_ONE_UNIQUE
+
+#91
+Inspecting hot method org.locationtech.jts.geomgraph.index.SimpleMCSweepLineIntersector.prepareEvents:103...
+Checking for isolation...
+54,28,2,26
+Total 54 (36 unique) events are in hot method
+Total 28 (10 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 26 (8 unique) non-isolated traces that have events in hot method
+Total 28 (28 unique) events are in isolated traces
+Total 236 (84 unique) events are in non-isolated traces (26 / 8 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Collections_ImplementComparable (1 traces / 1 unique traces) (27 events / 27 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (26 traces / 8 unique traces) (236 events / 84 unique events) (26 events / 8 unique events in hot method)
+Classifier (org.locationtech.jts.geomgraph.index.SimpleMCSweepLineIntersector.prepareEvents:103): LIB,ISOLATED_SINGLE_TRACE,NOT_ISOLATED_MULTIPLE_UNIQUE,RAW_ISOLATED_SINGLE_TRACE
+
+#92
+Inspecting hot method org.locationtech.jts.operation.overlay.LineBuilder.buildLines:155...
+Checking for isolation...
+51,22,22,0
+Total 51 (27 unique) events are in hot method
+Total 22 (10 unique) traces are in hot method
+Total 22 (10 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 51 (27 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (7 traces / 3 unique traces) (17 events / 9 unique events)
+	Collection_UnsafeIterator (7 traces / 3 unique traces) (24 events / 12 unique events)
+	Iterator_RemoveOnce (4 traces / 2 unique traces) (5 events / 3 unique events)
+	Collections_SortBeforeBinarySearch (4 traces / 2 unique traces) (5 events / 3 unique events)
+Classifier (org.locationtech.jts.operation.overlay.LineBuilder.buildLines:155): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#93
+Inspecting hot method org.locationtech.jts.operation.relate.RelateNodeGraph.insertEdgeEnds:128...
+Checking for isolation...
+49,9,9,0
+Total 49 (36 unique) events are in hot method
+Total 9 (6 unique) traces are in hot method
+Total 9 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 49 (36 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (3 traces / 2 unique traces) (19 events / 14 unique events)
+	Collection_UnsafeIterator (3 traces / 2 unique traces) (22 events / 16 unique events)
+	Iterator_RemoveOnce (3 traces / 2 unique traces) (8 events / 6 unique events)
+Classifier (org.locationtech.jts.operation.relate.RelateNodeGraph.insertEdgeEnds:128): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#94
+Inspecting hot method org.locationtech.jts.operation.valid.ConnectedInteriorTester.setInteriorEdgesInResult:108...
+Checking for isolation...
+49,9,9,0
+Total 49 (36 unique) events are in hot method
+Total 9 (6 unique) traces are in hot method
+Total 9 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 49 (36 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (3 traces / 2 unique traces) (22 events / 16 unique events)
+	Iterator_HasNext (3 traces / 2 unique traces) (19 events / 14 unique events)
+	Iterator_RemoveOnce (3 traces / 2 unique traces) (8 events / 6 unique events)
+Classifier (org.locationtech.jts.operation.valid.ConnectedInteriorTester.setInteriorEdgesInResult:108): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#95
+Inspecting hot method org.locationtech.jts.geomgraph.EdgeEndStar.checkAreaLabelsConsistent:219...
+Checking for isolation...
+48,12,8,4
+Total 48 (12 unique) events are in hot method
+Total 12 (3 unique) traces are in hot method
+Total 8 (2 unique) isolated traces are in hot method
+Total 4 (1 unique) non-isolated traces that have events in hot method
+Total 28 (7 unique) events are in isolated traces
+Total 24 (6 unique) events are in non-isolated traces (20 / 5 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (4 traces / 1 unique traces) (20 events / 5 unique events)
+	Iterator_RemoveOnce (4 traces / 1 unique traces) (8 events / 2 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (4 traces / 1 unique traces) (24 events / 6 unique events) (20 events / 5 unique events in hot method)
+Classifier (org.locationtech.jts.geomgraph.EdgeEndStar.checkAreaLabelsConsistent:219): LIB,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_ONE_UNIQUE
+
+#96
+Inspecting hot method org.locationtech.jts.operation.valid.IsValidOp.checkNoSelfIntersectingRings:393...
+Checking for isolation...
+47,18,12,6
+Total 47 (19 unique) events are in hot method
+Total 18 (6 unique) traces are in hot method
+Total 12 (4 unique) isolated traces are in hot method
+Total 6 (2 unique) non-isolated traces that have events in hot method
+Total 27 (11 unique) events are in isolated traces
+Total 26 (10 unique) events are in non-isolated traces (20 / 8 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (6 traces / 2 unique traces) (20 events / 8 unique events)
+	Iterator_RemoveOnce (6 traces / 2 unique traces) (7 events / 3 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (6 traces / 2 unique traces) (26 events / 10 unique events) (20 events / 8 unique events in hot method)
+Classifier (org.locationtech.jts.operation.valid.IsValidOp.checkNoSelfIntersectingRings:393): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#97
+Inspecting hot method org.locationtech.jts.index.strtree.AbstractNode.addChildBoundable:122...
+Checking for isolation...
+43,8,8,0
+Total 43 (33 unique) events are in hot method
+Total 8 (6 unique) traces are in hot method
+Total 8 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 43 (33 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (8 traces / 6 unique traces) (43 events / 33 unique events)
+Classifier (org.locationtech.jts.index.strtree.AbstractNode.addChildBoundable:122): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#98
+Inspecting hot method org.locationtech.jts.index.strtree.AbstractSTRtree.insert:235...
+Checking for isolation...
+43,8,8,0
+Total 43 (33 unique) events are in hot method
+Total 8 (6 unique) traces are in hot method
+Total 8 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 43 (33 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (8 traces / 6 unique traces) (43 events / 33 unique events)
+Classifier (org.locationtech.jts.index.strtree.AbstractSTRtree.insert:235): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#99
+Inspecting hot method org.locationtech.jts.index.chain.MonotoneChainBuilder.getChains:50...
+Checking for isolation...
+42,15,15,0
+Total 42 (8 unique) events are in hot method
+Total 15 (3 unique) traces are in hot method
+Total 15 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 42 (8 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (15 traces / 3 unique traces) (42 events / 8 unique events)
+Classifier (org.locationtech.jts.index.chain.MonotoneChainBuilder.getChains:50): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#100
+Inspecting hot method org.locationtech.jts.operation.overlay.PolygonBuilder.sortShellsAndHoles:181...
+Checking for isolation...
+39,19,19,0
+Total 39 (26 unique) events are in hot method
+Total 19 (10 unique) traces are in hot method
+Total 19 (10 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 39 (26 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (7 traces / 3 unique traces) (13 events / 9 unique events)
+	Collection_UnsafeIterator (7 traces / 3 unique traces) (20 events / 12 unique events)
+	Collections_SortBeforeBinarySearch (3 traces / 2 unique traces) (3 events / 2 unique events)
+	Iterator_RemoveOnce (2 traces / 2 unique traces) (3 events / 3 unique events)
+Classifier (org.locationtech.jts.operation.overlay.PolygonBuilder.sortShellsAndHoles:181): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT
+
+#101
+Inspecting hot method org.locationtech.jts.operation.overlay.PolygonBuilder.buildMinimalEdgeRings:105...
+Checking for isolation...
+39,18,18,0
+Total 39 (27 unique) events are in hot method
+Total 18 (10 unique) traces are in hot method
+Total 18 (10 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 39 (27 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (7 traces / 3 unique traces) (13 events / 9 unique events)
+	Collection_UnsafeIterator (7 traces / 3 unique traces) (20 events / 12 unique events)
+	Collections_SortBeforeBinarySearch (2 traces / 2 unique traces) (3 events / 3 unique events)
+	Iterator_RemoveOnce (2 traces / 2 unique traces) (3 events / 3 unique events)
+Classifier (org.locationtech.jts.operation.overlay.PolygonBuilder.buildMinimalEdgeRings:105): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT
+
+#102
+Inspecting hot method org.locationtech.jts.geomgraph.PlanarGraph.add:90...
+Checking for isolation...
+38,10,10,0
+Total 38 (12 unique) events are in hot method
+Total 10 (3 unique) traces are in hot method
+Total 10 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 38 (12 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (10 traces / 3 unique traces) (38 events / 12 unique events)
+Classifier (org.locationtech.jts.geomgraph.PlanarGraph.add:90): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#103
+Inspecting hot method org.locationtech.jts.geomgraph.PlanarGraph.linkResultDirectedEdges:131...
+Checking for isolation...
+37,12,6,6
+Total 37 (27 unique) events are in hot method
+Total 12 (8 unique) traces are in hot method
+Total 6 (4 unique) isolated traces are in hot method
+Total 6 (4 unique) non-isolated traces that have events in hot method
+Total 15 (11 unique) events are in isolated traces
+Total 31 (22 unique) events are in non-isolated traces (22 / 16 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (3 traces / 2 unique traces) (11 events / 8 unique events)
+	Iterator_RemoveOnce (3 traces / 2 unique traces) (4 events / 3 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (3 traces / 2 unique traces) (17 events / 12 unique events) (11 events / 8 unique events in hot method)
+	Collection_UnsafeIterator (3 traces / 2 unique traces) (14 events / 10 unique events) (11 events / 8 unique events in hot method)
+Classifier (org.locationtech.jts.geomgraph.PlanarGraph.linkResultDirectedEdges:131): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#104
+Inspecting hot method org.locationtech.jts.operation.valid.ConsistentAreaTester.isNodeEdgeAreaLabelsConsistent:107...
+Checking for isolation...
+37,12,6,6
+Total 37 (27 unique) events are in hot method
+Total 12 (8 unique) traces are in hot method
+Total 6 (4 unique) isolated traces are in hot method
+Total 6 (4 unique) non-isolated traces that have events in hot method
+Total 15 (11 unique) events are in isolated traces
+Total 34 (24 unique) events are in non-isolated traces (22 / 16 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (3 traces / 2 unique traces) (11 events / 8 unique events)
+	Iterator_RemoveOnce (3 traces / 2 unique traces) (4 events / 3 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (3 traces / 2 unique traces) (20 events / 14 unique events) (11 events / 8 unique events in hot method)
+	Collection_UnsafeIterator (3 traces / 2 unique traces) (14 events / 10 unique events) (11 events / 8 unique events in hot method)
+Classifier (org.locationtech.jts.operation.valid.ConsistentAreaTester.isNodeEdgeAreaLabelsConsistent:107): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#105
+Inspecting hot method org.locationtech.jts.operation.relate.RelateNodeGraph.copyNodesAndLabels:118...
+Checking for isolation...
+37,12,6,6
+Total 37 (27 unique) events are in hot method
+Total 12 (8 unique) traces are in hot method
+Total 6 (4 unique) isolated traces are in hot method
+Total 6 (4 unique) non-isolated traces that have events in hot method
+Total 15 (11 unique) events are in isolated traces
+Total 31 (22 unique) events are in non-isolated traces (22 / 16 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (3 traces / 2 unique traces) (11 events / 8 unique events)
+	Iterator_RemoveOnce (3 traces / 2 unique traces) (4 events / 3 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (3 traces / 2 unique traces) (17 events / 12 unique events) (11 events / 8 unique events in hot method)
+	Collection_UnsafeIterator (3 traces / 2 unique traces) (14 events / 10 unique events) (11 events / 8 unique events in hot method)
+Classifier (org.locationtech.jts.operation.relate.RelateNodeGraph.copyNodesAndLabels:118): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#106
+Inspecting hot method org.locationtech.jts.geomgraph.DirectedEdgeStar.getOutgoingDegree:67...
+Checking for isolation...
+36,9,6,3
+Total 36 (12 unique) events are in hot method
+Total 9 (3 unique) traces are in hot method
+Total 6 (2 unique) isolated traces are in hot method
+Total 3 (1 unique) non-isolated traces that have events in hot method
+Total 21 (7 unique) events are in isolated traces
+Total 18 (6 unique) events are in non-isolated traces (15 / 5 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (3 traces / 1 unique traces) (15 events / 5 unique events)
+	Iterator_RemoveOnce (3 traces / 1 unique traces) (6 events / 2 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (3 traces / 1 unique traces) (18 events / 6 unique events) (15 events / 5 unique events in hot method)
+Classifier (org.locationtech.jts.geomgraph.DirectedEdgeStar.getOutgoingDegree:67): LIB,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_ONE_UNIQUE
+
+#107
+Inspecting hot method org.locationtech.jts.operation.overlay.PolygonBuilder.computePolygons:270...
+Checking for isolation...
+33,18,18,0
+Total 33 (12 unique) events are in hot method
+Total 18 (6 unique) traces are in hot method
+Total 18 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 33 (12 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (7 traces / 2 unique traces) (11 events / 4 unique events)
+	Collection_UnsafeIterator (7 traces / 2 unique traces) (18 events / 6 unique events)
+	Collections_SortBeforeBinarySearch (2 traces / 1 unique traces) (2 events / 1 unique events)
+	Iterator_RemoveOnce (2 traces / 1 unique traces) (2 events / 1 unique events)
+Classifier (org.locationtech.jts.operation.overlay.PolygonBuilder.computePolygons:270): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE
+
+#108
+Inspecting hot method no.ecc.vectortile.VectorTileDecoder$FeatureIterator.<init>:124...
+Checking for isolation...
+32,32,0,32
+Total 32 (4 unique) events are in hot method
+Total 32 (4 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 32 (4 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 20267 (2052 unique) events are in non-isolated traces (32 / 4 unique are in hot method)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (32 traces / 4 unique traces) (20267 events / 2052 unique events) (32 events / 4 unique events in hot method)
+Classifier (no.ecc.vectortile.VectorTileDecoder$FeatureIterator.<init>:124): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#109
+Inspecting hot method com.google.protobuf.FieldSet.getSerializedSize:756...
+Checking for isolation...
+31,1,0,1
+Total 31 (31 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 2063449 (2063449 unique) events are in non-isolated traces (31 / 31 unique are in hot method)
+Specs that have non-isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (2063449 events / 2063449 unique events) (31 events / 31 unique events in hot method)
+Classifier (com.google.protobuf.FieldSet.getSerializedSize:756): LIB,NOT_REDUNDANT_TRACES
+
+#110
+Inspecting hot method com.google.protobuf.LazyStringArrayList.<init>:91...
+Checking for isolation...
+30,20,10,10
+Total 30 (6 unique) events are in hot method
+Total 20 (5 unique) traces are in hot method
+Total 10 (1 unique) isolated traces are in hot method
+Total 10 (4 unique) non-isolated traces that have events in hot method
+Total 20 (2 unique) events are in isolated traces
+Total 32 (17 unique) events are in non-isolated traces (10 / 4 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsynchronizedAddAll (10 traces / 1 unique traces) (20 events / 2 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (10 traces / 4 unique traces) (32 events / 17 unique events) (10 events / 4 unique events in hot method)
+Classifier (com.google.protobuf.LazyStringArrayList.<init>:91): LIB,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#111
+Inspecting hot method org.locationtech.jts.geomgraph.GeometryGraph.addPolygonRing:243...
+Checking for isolation...
+28,2,0,2
+Total 28 (28 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 2030286 (2030286 unique) events are in non-isolated traces (28 / 28 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (14 events / 14 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (14 events / 14 unique events in hot method)
+Classifier (org.locationtech.jts.geomgraph.GeometryGraph.addPolygonRing:243): LIB,NOT_REDUNDANT_TRACES
+
+#112
+Inspecting hot method org.locationtech.jts.operation.overlay.OverlayOp.isCovered:591...
+Checking for isolation...
+27,18,18,0
+Total 27 (3 unique) events are in hot method
+Total 18 (2 unique) traces are in hot method
+Total 18 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 27 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (9 traces / 1 unique traces) (9 events / 1 unique events)
+	Collection_UnsafeIterator (9 traces / 1 unique traces) (18 events / 2 unique events)
+Classifier (org.locationtech.jts.operation.overlay.OverlayOp.isCovered:591): LIB,ISOLATED_ONE_UNIQUE
+
+#113
+Inspecting hot method org.locationtech.jts.operation.overlay.PolygonBuilder.placeFreeHoles:207...
+Checking for isolation...
+26,15,15,0
+Total 26 (11 unique) events are in hot method
+Total 15 (5 unique) traces are in hot method
+Total 15 (5 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 26 (11 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (7 traces / 2 unique traces) (9 events / 4 unique events)
+	Collection_UnsafeIterator (7 traces / 2 unique traces) (16 events / 6 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (1 events / 1 unique events)
+Classifier (org.locationtech.jts.operation.overlay.PolygonBuilder.placeFreeHoles:207): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_SINGLE_TRACE
+
+#114
+Inspecting hot method org.locationtech.jts.operation.relate.EdgeEndBuilder.computeEdgeEnds:47...
+Checking for isolation...
+26,9,6,3
+Total 26 (19 unique) events are in hot method
+Total 9 (6 unique) traces are in hot method
+Total 6 (4 unique) isolated traces are in hot method
+Total 3 (2 unique) non-isolated traces that have events in hot method
+Total 15 (11 unique) events are in isolated traces
+Total 14 (10 unique) events are in non-isolated traces (11 / 8 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (3 traces / 2 unique traces) (11 events / 8 unique events)
+	Iterator_RemoveOnce (3 traces / 2 unique traces) (4 events / 3 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (3 traces / 2 unique traces) (14 events / 10 unique events) (11 events / 8 unique events in hot method)
+Classifier (org.locationtech.jts.operation.relate.EdgeEndBuilder.computeEdgeEnds:47): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#115
+Inspecting hot method org.locationtech.jts.index.strtree.STRtree.createParentBoundablesFromVerticalSlices:130...
+Checking for isolation...
+24,16,16,0
+Total 24 (3 unique) events are in hot method
+Total 16 (2 unique) traces are in hot method
+Total 16 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 24 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (8 traces / 1 unique traces) (8 events / 1 unique events)
+	Collection_UnsynchronizedAddAll (8 traces / 1 unique traces) (16 events / 2 unique events)
+Classifier (org.locationtech.jts.index.strtree.STRtree.createParentBoundablesFromVerticalSlices:130): LIB,ISOLATED_ONE_UNIQUE
+
+#116
+Inspecting hot method org.locationtech.jts.algorithm.locate.IndexedPointInAreaLocator$IntervalIndexedGeometry.init:118...
+Checking for isolation...
+24,9,9,0
+Total 24 (8 unique) events are in hot method
+Total 9 (3 unique) traces are in hot method
+Total 9 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 24 (8 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (3 traces / 1 unique traces) (12 events / 4 unique events)
+	Iterator_HasNext (3 traces / 1 unique traces) (9 events / 3 unique events)
+	Iterator_RemoveOnce (3 traces / 1 unique traces) (3 events / 1 unique events)
+Classifier (org.locationtech.jts.algorithm.locate.IndexedPointInAreaLocator$IntervalIndexedGeometry.init:118): LIB,ISOLATED_ONE_UNIQUE
+
+#117
+Inspecting hot method no.ecc.vectortile.VectorTileEncoder$Layer.key:465...
+Checking for isolation...
+24,2,0,2
+Total 24 (24 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 2030286 (2030286 unique) events are in non-isolated traces (24 / 24 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (12 events / 12 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (12 events / 12 unique events in hot method)
+Classifier (no.ecc.vectortile.VectorTileEncoder$Layer.key:465): CUT,NOT_REDUNDANT_TRACES
+
+#118
+Inspecting hot method org.locationtech.jts.geomgraph.PlanarGraph.insertEdge:86...
+Checking for isolation...
+22,19,19,0
+Total 22 (3 unique) events are in hot method
+Total 19 (2 unique) traces are in hot method
+Total 19 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 22 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (19 traces / 2 unique traces) (22 events / 3 unique events)
+Classifier (org.locationtech.jts.geomgraph.PlanarGraph.insertEdge:86): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#119
+Inspecting hot method no.ecc.vectortile.VectorTileEncoder$Layer.value:478...
+Checking for isolation...
+22,2,0,2
+Total 22 (22 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 2030286 (2030286 unique) events are in non-isolated traces (22 / 22 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (11 events / 11 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (11 events / 11 unique events in hot method)
+Classifier (no.ecc.vectortile.VectorTileEncoder$Layer.value:478): CUT,NOT_REDUNDANT_TRACES
+
+#120
+Inspecting hot method no.ecc.vectortile.VectorTileEncoder.commands:315...
+Checking for isolation...
+21,12,12,0
+Total 21 (11 unique) events are in hot method
+Total 12 (6 unique) traces are in hot method
+Total 12 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 21 (11 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsynchronizedAddAll (7 traces / 3 unique traces) (14 events / 6 unique events)
+	Collections_SortBeforeBinarySearch (5 traces / 3 unique traces) (7 events / 5 unique events)
+Classifier (no.ecc.vectortile.VectorTileEncoder.commands:315): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#121
+Inspecting hot method org.locationtech.jts.geomgraph.EdgeList.addAll:58...
+Checking for isolation...
+21,14,14,0
+Total 21 (3 unique) events are in hot method
+Total 14 (2 unique) traces are in hot method
+Total 14 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 21 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (7 traces / 1 unique traces) (7 events / 1 unique events)
+	Collection_UnsafeIterator (7 traces / 1 unique traces) (14 events / 2 unique events)
+Classifier (org.locationtech.jts.geomgraph.EdgeList.addAll:58): LIB,ISOLATED_ONE_UNIQUE
+
+#122
+Inspecting hot method org.locationtech.jts.algorithm.locate.SimplePointInAreaLocator.locateInGeometry:60...
+Checking for isolation...
+20,4,4,0
+Total 20 (10 unique) events are in hot method
+Total 4 (2 unique) traces are in hot method
+Total 4 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 20 (10 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (2 traces / 1 unique traces) (14 events / 7 unique events)
+	Iterator_RemoveOnce (2 traces / 1 unique traces) (6 events / 3 unique events)
+Classifier (org.locationtech.jts.algorithm.locate.SimplePointInAreaLocator.locateInGeometry:60): LIB,ISOLATED_ONE_UNIQUE
+
+#123
+Inspecting hot method no.ecc.vectortile.VectorTileEncoder$Layer.keys:474...
+Checking for isolation...
+20,20,20,0
+Total 20 (2 unique) events are in hot method
+Total 20 (2 unique) traces are in hot method
+Total 20 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 20 (2 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Map_CollectionViewAdd (10 traces / 1 unique traces) (10 events / 1 unique events)
+	Map_UnsafeIterator (10 traces / 1 unique traces) (10 events / 1 unique events)
+Classifier (no.ecc.vectortile.VectorTileEncoder$Layer.keys:474): CUT,ISOLATED_ONE_UNIQUE
+
+#124
+Inspecting hot method no.ecc.vectortile.VectorTileEncoder$Layer.values:487...
+Checking for isolation...
+20,20,20,0
+Total 20 (2 unique) events are in hot method
+Total 20 (2 unique) traces are in hot method
+Total 20 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 20 (2 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Map_UnsafeIterator (10 traces / 1 unique traces) (10 events / 1 unique events)
+	Map_CollectionViewAdd (10 traces / 1 unique traces) (10 events / 1 unique events)
+Classifier (no.ecc.vectortile.VectorTileEncoder$Layer.values:487): CUT,ISOLATED_ONE_UNIQUE
+
+#125
+Inspecting hot method org.locationtech.jts.geomgraph.PlanarGraph.findEdgeEnd:157...
+Checking for isolation...
+18,9,9,0
+Total 18 (6 unique) events are in hot method
+Total 9 (3 unique) traces are in hot method
+Total 9 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 18 (6 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (3 traces / 1 unique traces) (9 events / 3 unique events)
+	Iterator_HasNext (3 traces / 1 unique traces) (6 events / 2 unique events)
+	Iterator_RemoveOnce (3 traces / 1 unique traces) (3 events / 1 unique events)
+Classifier (org.locationtech.jts.geomgraph.PlanarGraph.findEdgeEnd:157): LIB,ISOLATED_ONE_UNIQUE
+
+#126
+Inspecting hot method org.locationtech.jts.geomgraph.EdgeIntersectionList.isIntersection:71...
+Checking for isolation...
+17,4,2,2
+Total 17 (17 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 7 (7 unique) events are in isolated traces
+Total 18 (18 unique) events are in non-isolated traces (10 / 10 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (5 events / 5 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (2 events / 2 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (1 traces / 1 unique traces) (12 events / 12 unique events) (5 events / 5 unique events in hot method)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (6 events / 6 unique events) (5 events / 5 unique events in hot method)
+Classifier (org.locationtech.jts.geomgraph.EdgeIntersectionList.isIntersection:71): LIB,NOT_REDUNDANT_TRACES
+
+#127
+Inspecting hot method org.locationtech.jts.index.strtree.STRtree.createParentBoundables:120...
+Checking for isolation...
+16,9,8,1
+Total 16 (9 unique) events are in hot method
+Total 9 (2 unique) traces are in hot method
+Total 8 (1 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 8 (1 unique) events are in isolated traces
+Total 17 (17 unique) events are in non-isolated traces (8 / 8 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (8 traces / 1 unique traces) (8 events / 1 unique events)
+Specs that have non-isolated traces:
+	Collections_Comparable (1 traces / 1 unique traces) (17 events / 17 unique events) (8 events / 8 unique events in hot method)
+Classifier (org.locationtech.jts.index.strtree.STRtree.createParentBoundables:120): LIB,ISOLATED_ONE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#128
+Inspecting hot method org.locationtech.jts.geomgraph.GeometryGraph.addLineString:290...
+Checking for isolation...
+16,2,0,2
+Total 16 (16 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 2030286 (2030286 unique) events are in non-isolated traces (16 / 16 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (8 events / 8 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (8 events / 8 unique events in hot method)
+Classifier (org.locationtech.jts.geomgraph.GeometryGraph.addLineString:290): LIB,NOT_REDUNDANT_TRACES
+
+#129
+Inspecting hot method org.locationtech.jts.io.WKTWriter.createFormatter:151...
+Checking for isolation...
+14,4,4,0
+Total 14 (7 unique) events are in hot method
+Total 4 (2 unique) traces are in hot method
+Total 4 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 14 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (2 traces / 1 unique traces) (8 events / 4 unique events)
+	Appendable_ThreadSafe (2 traces / 1 unique traces) (6 events / 3 unique events)
+Classifier (org.locationtech.jts.io.WKTWriter.createFormatter:151): LIB,ISOLATED_ONE_UNIQUE
+
+#130
+Inspecting hot method org.locationtech.jts.geomgraph.EdgeList.iterator:79...
+Checking for isolation...
+14,14,0,14
+Total 14 (6 unique) events are in hot method
+Total 14 (6 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 14 (6 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 88 (36 unique) events are in non-isolated traces (14 / 6 unique are in hot method)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (14 traces / 6 unique traces) (88 events / 36 unique events) (14 events / 6 unique events in hot method)
+Classifier (org.locationtech.jts.geomgraph.EdgeList.iterator:79): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#131
+Inspecting hot method org.locationtech.jts.index.intervalrtree.SortedPackedIntervalRTree.insert:59...
+Checking for isolation...
+12,3,2,1
+Total 12 (8 unique) events are in hot method
+Total 3 (2 unique) traces are in hot method
+Total 2 (1 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 8 (4 unique) events are in isolated traces
+Total 7 (7 unique) events are in non-isolated traces (4 / 4 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (2 traces / 1 unique traces) (8 events / 4 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (7 events / 7 unique events) (4 events / 4 unique events in hot method)
+Classifier (org.locationtech.jts.index.intervalrtree.SortedPackedIntervalRTree.insert:59): LIB,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_SINGLE_TRACE
+
+#132
+Inspecting hot method org.locationtech.jts.geomgraph.PlanarGraph.getEdgeIterator:73...
+Checking for isolation...
+12,12,0,12
+Total 12 (6 unique) events are in hot method
+Total 12 (6 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 12 (6 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 54 (30 unique) events are in non-isolated traces (12 / 6 unique are in hot method)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (12 traces / 6 unique traces) (54 events / 30 unique events) (12 events / 6 unique events in hot method)
+Classifier (org.locationtech.jts.geomgraph.PlanarGraph.getEdgeIterator:73): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#133
+Inspecting hot method com.google.protobuf.LazyStringArrayList.add:149...
+Checking for isolation...
+12,5,0,5
+Total 12 (9 unique) events are in hot method
+Total 5 (3 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 5 (3 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 17 (12 unique) events are in non-isolated traces (12 / 9 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (5 traces / 3 unique traces) (17 events / 12 unique events) (12 events / 9 unique events in hot method)
+Classifier (com.google.protobuf.LazyStringArrayList.add:149): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#134
+Inspecting hot method no.ecc.vectortile.VectorTileEncoderTest.testAttributeTypes:299...
+Checking for isolation...
+12,2,0,2
+Total 12 (12 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 2030286 (2030286 unique) events are in non-isolated traces (12 / 12 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (6 events / 6 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (6 events / 6 unique events in hot method)
+Classifier (no.ecc.vectortile.VectorTileEncoderTest.testAttributeTypes:299): CUT,NOT_REDUNDANT_TRACES
+
+#135
+Inspecting hot method vector_tile.VectorTile$Tile$Layer$Builder.addValues:4451...
+Checking for isolation...
+11,5,5,0
+Total 11 (9 unique) events are in hot method
+Total 5 (3 unique) traces are in hot method
+Total 5 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 11 (9 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (5 traces / 3 unique traces) (11 events / 9 unique events)
+Classifier (vector_tile.VectorTile$Tile$Layer$Builder.addValues:4451): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#136
+Inspecting hot method org.locationtech.jts.geomgraph.EdgeRing.computePoints:118...
+Checking for isolation...
+11,11,11,0
+Total 11 (1 unique) events are in hot method
+Total 11 (1 unique) traces are in hot method
+Total 11 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 11 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (11 traces / 1 unique traces) (11 events / 1 unique events)
+Classifier (org.locationtech.jts.geomgraph.EdgeRing.computePoints:118): LIB,ISOLATED_ONE_UNIQUE
+
+#137
+Inspecting hot method vector_tile.VectorTile$Tile$Layer$Builder.addFeatures:4010...
+Checking for isolation...
+11,10,10,0
+Total 11 (3 unique) events are in hot method
+Total 10 (2 unique) traces are in hot method
+Total 10 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 11 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (10 traces / 2 unique traces) (11 events / 3 unique events)
+Classifier (vector_tile.VectorTile$Tile$Layer$Builder.addFeatures:4010): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#138
+Inspecting hot method org.locationtech.jts.algorithm.PointLocator.computeLocation:110...
+Checking for isolation...
+10,2,2,0
+Total 10 (10 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 10 (10 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (7 events / 7 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (3 events / 3 unique events)
+Classifier (org.locationtech.jts.algorithm.PointLocator.computeLocation:110): LIB,NOT_REDUNDANT_TRACES
+
+#139
+Inspecting hot method no.ecc.vectortile.VectorTileDecoderTest.testPoint:70...
+Checking for isolation...
+10,9,7,2
+Total 10 (10 unique) events are in hot method
+Total 9 (9 unique) traces are in hot method
+Total 7 (7 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 8 (8 unique) events are in isolated traces
+Total 2030286 (2030286 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (3 traces / 3 unique traces) (3 events / 3 unique events)
+	Iterator_HasNext (3 traces / 3 unique traces) (3 events / 3 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (2 events / 2 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (1 events / 1 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (1 events / 1 unique events in hot method)
+Classifier (no.ecc.vectortile.VectorTileDecoderTest.testPoint:70): CUT,NOT_REDUNDANT_TRACES
+
+#140
+Inspecting hot method vector_tile.VectorTile$Tile$Builder.addLayers:5276...
+Checking for isolation...
+10,10,10,0
+Total 10 (1 unique) events are in hot method
+Total 10 (1 unique) traces are in hot method
+Total 10 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 10 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (10 traces / 1 unique traces) (10 events / 1 unique events)
+Classifier (vector_tile.VectorTile$Tile$Builder.addLayers:5276): CUT,ISOLATED_ONE_UNIQUE
+
+#141
+Inspecting hot method com.google.protobuf.LazyStringArrayList.addAll:172...
+Checking for isolation...
+10,10,0,10
+Total 10 (4 unique) events are in hot method
+Total 10 (4 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 10 (4 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 32 (17 unique) events are in non-isolated traces (10 / 4 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (10 traces / 4 unique traces) (32 events / 17 unique events) (10 events / 4 unique events in hot method)
+Classifier (com.google.protobuf.LazyStringArrayList.addAll:172): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#142
+Inspecting hot method com.google.protobuf.LazyStringArrayList.addAll:177...
+Checking for isolation...
+10,10,5,5
+Total 10 (4 unique) events are in hot method
+Total 10 (4 unique) traces are in hot method
+Total 5 (1 unique) isolated traces are in hot method
+Total 5 (3 unique) non-isolated traces that have events in hot method
+Total 5 (1 unique) events are in isolated traces
+Total 17 (12 unique) events are in non-isolated traces (5 / 3 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (5 traces / 1 unique traces) (5 events / 1 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (5 traces / 3 unique traces) (17 events / 12 unique events) (5 events / 3 unique events in hot method)
+Classifier (com.google.protobuf.LazyStringArrayList.addAll:177): LIB,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#143
+Inspecting hot method org.locationtech.jts.operation.overlay.PolygonBuilder.findEdgeRingContaining:236...
+Checking for isolation...
+8,3,3,0
+Total 8 (8 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 8 (8 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (3 events / 3 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (4 events / 4 unique events)
+Classifier (org.locationtech.jts.operation.overlay.PolygonBuilder.findEdgeRingContaining:236): LIB,NOT_REDUNDANT_TRACES
+
+#144
+Inspecting hot method org.locationtech.jts.operation.relate.EdgeEndBundle.insert:68...
+Checking for isolation...
+8,8,8,0
+Total 8 (1 unique) events are in hot method
+Total 8 (1 unique) traces are in hot method
+Total 8 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 8 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (8 traces / 1 unique traces) (8 events / 1 unique events)
+Classifier (org.locationtech.jts.operation.relate.EdgeEndBundle.insert:68): LIB,ISOLATED_ONE_UNIQUE
+
+#145
+Inspecting hot method no.ecc.vectortile.VectorTileDecoderTest.testLineString:109...
+Checking for isolation...
+8,5,3,2
+Total 8 (8 unique) events are in hot method
+Total 5 (5 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 4 (4 unique) events are in isolated traces
+Total 2030286 (2030286 unique) events are in non-isolated traces (4 / 4 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (2 events / 2 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (1 events / 1 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (2 events / 2 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (2 events / 2 unique events in hot method)
+Classifier (no.ecc.vectortile.VectorTileDecoderTest.testLineString:109): CUT,NOT_REDUNDANT_TRACES
+
+#146
+Inspecting hot method no.ecc.vectortile.VectorTileDecoderTest.testMultiPoint:89...
+Checking for isolation...
+6,5,3,2
+Total 6 (6 unique) events are in hot method
+Total 5 (5 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 4 (4 unique) events are in isolated traces
+Total 2030286 (2030286 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (2 events / 2 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (1 events / 1 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (1 events / 1 unique events in hot method)
+Classifier (no.ecc.vectortile.VectorTileDecoderTest.testMultiPoint:89): CUT,NOT_REDUNDANT_TRACES
+
+#147
+Inspecting hot method org.locationtech.jts.geom.PrecisionModel$Type.<init>:98...
+Checking for isolation...
+6,2,0,2
+Total 6 (6 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 2030286 (2030286 unique) events are in non-isolated traces (6 / 6 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (3 events / 3 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (3 events / 3 unique events in hot method)
+Classifier (org.locationtech.jts.geom.PrecisionModel$Type.<init>:98): LIB,NOT_REDUNDANT_TRACES
+
+#148
+Inspecting hot method no.ecc.vectortile.VectorTileEncoderTest.testNullAttributeValue:276...
+Checking for isolation...
+6,2,0,2
+Total 6 (6 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 2030286 (2030286 unique) events are in non-isolated traces (6 / 6 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (3 events / 3 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (3 events / 3 unique events in hot method)
+Classifier (no.ecc.vectortile.VectorTileEncoderTest.testNullAttributeValue:276): CUT,NOT_REDUNDANT_TRACES
+
+#149
+Inspecting hot method org.locationtech.jts.index.intervalrtree.SortedPackedIntervalRTree.buildLevel:102...
+Checking for isolation...
+5,2,1,1
+Total 5 (5 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 3 (3 unique) events are in isolated traces
+Total 7 (7 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (3 events / 3 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (7 events / 7 unique events) (2 events / 2 unique events in hot method)
+Classifier (org.locationtech.jts.index.intervalrtree.SortedPackedIntervalRTree.buildLevel:102): LIB,NOT_REDUNDANT_TRACES
+
+#150
+Inspecting hot method org.locationtech.jts.operation.overlay.LineBuilder.collectLineEdge:109...
+Checking for isolation...
+5,4,4,0
+Total 5 (3 unique) events are in hot method
+Total 4 (2 unique) traces are in hot method
+Total 4 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (4 traces / 2 unique traces) (5 events / 3 unique events)
+Classifier (org.locationtech.jts.operation.overlay.LineBuilder.collectLineEdge:109): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#151
+Inspecting hot method no.ecc.vectortile.VectorTileEncoderTest.testCWPolygon:185...
+Checking for isolation...
+4,1,1,0
+Total 4 (4 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 4 (4 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (4 events / 4 unique events)
+Classifier (no.ecc.vectortile.VectorTileEncoderTest.testCWPolygon:185): CUT,NOT_REDUNDANT_TRACES
+
+#152
+Inspecting hot method org.locationtech.jts.operation.overlay.MaximalEdgeRing.buildMinimalRings:76...
+Checking for isolation...
+4,4,4,0
+Total 4 (1 unique) events are in hot method
+Total 4 (1 unique) traces are in hot method
+Total 4 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 4 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (4 traces / 1 unique traces) (4 events / 1 unique events)
+Classifier (org.locationtech.jts.operation.overlay.MaximalEdgeRing.buildMinimalRings:76): LIB,ISOLATED_ONE_UNIQUE
+
+#153
+Inspecting hot method no.ecc.vectortile.VectorTileEncoderTest.testCCWPolygon:156...
+Checking for isolation...
+4,1,1,0
+Total 4 (4 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 4 (4 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (4 events / 4 unique events)
+Classifier (no.ecc.vectortile.VectorTileEncoderTest.testCCWPolygon:156): CUT,NOT_REDUNDANT_TRACES
+
+#154
+Inspecting hot method no.ecc.vectortile.VectorTileEncoderTest.testFourEqualPoints:241...
+Checking for isolation...
+4,1,1,0
+Total 4 (4 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 4 (4 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (4 events / 4 unique events)
+Classifier (no.ecc.vectortile.VectorTileEncoderTest.testFourEqualPoints:241): CUT,NOT_REDUNDANT_TRACES
+
+#155
+Inspecting hot method no.ecc.vectortile.VectorTileDecoderTest.testPolygonWithHole:189...
+Checking for isolation...
+4,3,3,0
+Total 4 (4 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 4 (4 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (2 events / 2 unique events)
+Classifier (no.ecc.vectortile.VectorTileDecoderTest.testPolygonWithHole:189): CUT,NOT_REDUNDANT_TRACES
+
+#156
+Inspecting hot method no.ecc.vectortile.VectorTileDecoderTest.testPolygon:162...
+Checking for isolation...
+4,3,3,0
+Total 4 (4 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 4 (4 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (2 events / 2 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (1 events / 1 unique events)
+Classifier (no.ecc.vectortile.VectorTileDecoderTest.testPolygon:162): CUT,NOT_REDUNDANT_TRACES
+
+#157
+Inspecting hot method no.ecc.vectortile.VectorTileDecoderTest.testMultiLineString:134...
+Checking for isolation...
+4,3,3,0
+Total 4 (4 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 4 (4 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (2 events / 2 unique events)
+Classifier (no.ecc.vectortile.VectorTileDecoderTest.testMultiLineString:134): CUT,NOT_REDUNDANT_TRACES
+
+#158
+Inspecting hot method no.ecc.vectortile.VectorTileEncoderTest.testCommandsFilter:98...
+Checking for isolation...
+4,1,1,0
+Total 4 (4 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 4 (4 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (4 events / 4 unique events)
+Classifier (no.ecc.vectortile.VectorTileEncoderTest.testCommandsFilter:98): CUT,NOT_REDUNDANT_TRACES
+
+#159
+Inspecting hot method no.ecc.vectortile.VectorTileEncoderTest.testEncode:41...
+Checking for isolation...
+4,1,1,0
+Total 4 (4 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 4 (4 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (4 events / 4 unique events)
+Classifier (no.ecc.vectortile.VectorTileEncoderTest.testEncode:41): CUT,NOT_REDUNDANT_TRACES
+
+#160
+Inspecting hot method org.locationtech.jts.operation.relate.EdgeEndBuilder.createEdgeEndForNext:135...
+Checking for isolation...
+4,3,0,3
+Total 4 (3 unique) events are in hot method
+Total 3 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 3 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 8 (6 unique) events are in non-isolated traces (4 / 3 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (3 traces / 2 unique traces) (8 events / 6 unique events) (4 events / 3 unique events in hot method)
+Classifier (org.locationtech.jts.operation.relate.EdgeEndBuilder.createEdgeEndForNext:135): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#161
+Inspecting hot method org.locationtech.jts.operation.relate.EdgeEndBuilder.createEdgeEndForPrev:102...
+Checking for isolation...
+4,3,0,3
+Total 4 (3 unique) events are in hot method
+Total 3 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 3 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 8 (6 unique) events are in non-isolated traces (4 / 3 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (3 traces / 2 unique traces) (8 events / 6 unique events) (4 events / 3 unique events in hot method)
+Classifier (org.locationtech.jts.operation.relate.EdgeEndBuilder.createEdgeEndForPrev:102): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#162
+Inspecting hot method org.locationtech.jts.geom.util.LinearComponentExtracter.filter:197...
+Checking for isolation...
+3,3,3,0
+Total 3 (1 unique) events are in hot method
+Total 3 (1 unique) traces are in hot method
+Total 3 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (3 traces / 1 unique traces) (3 events / 1 unique events)
+Classifier (org.locationtech.jts.geom.util.LinearComponentExtracter.filter:197): LIB,ISOLATED_ONE_UNIQUE
+
+#163
+Inspecting hot method no.ecc.vectortile.VectorTileEncoderTest.testCommands:74...
+Checking for isolation...
+3,1,1,0
+Total 3 (3 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (3 events / 3 unique events)
+Classifier (no.ecc.vectortile.VectorTileEncoderTest.testCommands:74): CUT,NOT_REDUNDANT_TRACES
+
+#164
+Inspecting hot method no.ecc.vectortile.VectorTileEncoderTest.testToGeomType:63...
+Checking for isolation...
+3,1,1,0
+Total 3 (3 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (3 events / 3 unique events)
+Classifier (no.ecc.vectortile.VectorTileEncoderTest.testToGeomType:63): CUT,NOT_REDUNDANT_TRACES
+
+#165
+Inspecting hot method org.locationtech.jts.index.intervalrtree.SortedPackedIntervalRTree.buildTree:80...
+Checking for isolation...
+2,2,0,2
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 24 (24 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (7 events / 7 unique events) (1 events / 1 unique events in hot method)
+	Collections_Comparable (1 traces / 1 unique traces) (17 events / 17 unique events) (1 events / 1 unique events in hot method)
+Classifier (org.locationtech.jts.index.intervalrtree.SortedPackedIntervalRTree.buildTree:80): LIB,NOT_REDUNDANT_TRACES
+
+#166
+Inspecting hot method no.ecc.vectortile.VectorTileEncoderTest.testMultiPoint:137...
+Checking for isolation...
+2,1,1,0
+Total 2 (2 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2 (2 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (2 events / 2 unique events)
+Classifier (no.ecc.vectortile.VectorTileEncoderTest.testMultiPoint:137): CUT,NOT_REDUNDANT_TRACES
+
+#167
+Inspecting hot method no.ecc.vectortile.VectorTileDecoderTest.testWithoutScaling:53...
+Checking for isolation...
+2,2,2,0
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2 (2 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (1 events / 1 unique events)
+Classifier (no.ecc.vectortile.VectorTileDecoderTest.testWithoutScaling:53): CUT,NOT_REDUNDANT_TRACES
+
+#168
+Inspecting hot method org.locationtech.jts.operation.overlay.PointBuilder.filterCoveredNodeToPoint:105...
+Checking for isolation...
+2,1,1,0
+Total 2 (2 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2 (2 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (2 events / 2 unique events)
+Classifier (org.locationtech.jts.operation.overlay.PointBuilder.filterCoveredNodeToPoint:105): LIB,NOT_REDUNDANT_TRACES
+

@@ -1,0 +1,222 @@
+Reading traces...
+Reading specs frequency...
+Reading locations...
+Counting events...
+Total 5000314 events and 5000233 traces
+Inspecting top 200 IMM
+Finding hot methods...
+Number of events, method name
+5000000,net.almson.object.ResourceLeakDetectorTest$3.destroy:64
+100,net.almson.object.ResourceLeakDetectorTest$4.run:81
+100,net.almson.object.ResourceLeakDetectorTest.testConcurrentUsage:69
+21,net.almson.object.ResourceLeakDetector.assertAllResourcesDestroyed:284
+21,net.almson.object.ResourceLeakDetector.<init>:228
+20,org.slf4j.impl.SimpleLogger.recursivelyComputeLevelString:226
+17,net.almson.object.ResourceLeakDetector.getLeakWarning:317
+16,org.slf4j.impl.SimpleLogger.log:249
+3,org.slf4j.LoggerFactory.fixSubstituteLoggers:189
+2,net.almson.object.ResourceReference$Trace.<clinit>:341
+2,org.slf4j.helpers.SubstituteLoggerFactory.getLoggers:65
+1,org.slf4j.impl.SimpleLogger.write:316
+1,org.slf4j.helpers.SubstituteLoggerFactory.clear:77
+1,net.almson.object.ResourceLeakDetectorTest$2.destroy:46
+1,net.almson.object.ResourceLeakDetectorTest.testThrowException:41
+1,org.slf4j.helpers.NamedLoggerBase.<clinit>:0
+1,org.slf4j.helpers.MarkerIgnoringBase.<clinit>:0
+1,org.slf4j.impl.SimpleLogger.<clinit>:147
+1,org.slf4j.impl.OutputChoice$OutputChoiceType.<clinit>:14
+1,net.almson.object.ResourceLeakDetector$Level.<clinit>:68
+1,org.slf4j.LoggerFactory.findPossibleStaticLoggerBinderPathSet:301
+1,net.almson.object.ResourceLeakDetector.logLeak:309
+1,net.almson.object.ResourceLeakDetectorTest$4.<clinit>:0
+^^^ Last method that contains more than one event ^^^
+Starting net.almson.object.ResourceLeakDetector.getLeakWarning:317
+Finish net.almson.object.ResourceLeakDetector.getLeakWarning:317
+Starting net.almson.object.ResourceLeakDetectorTest$4.run:81
+Finish net.almson.object.ResourceLeakDetectorTest$4.run:81
+Starting net.almson.object.ResourceLeakDetectorTest.testConcurrentUsage:69
+Finish net.almson.object.ResourceLeakDetectorTest.testConcurrentUsage:69
+Starting net.almson.object.ResourceLeakDetectorTest$3.destroy:64
+Finish net.almson.object.ResourceLeakDetectorTest$3.destroy:64
+Starting net.almson.object.ResourceLeakDetector.assertAllResourcesDestroyed:284
+Finish net.almson.object.ResourceLeakDetector.assertAllResourcesDestroyed:284
+Starting net.almson.object.ResourceReference$Trace.<clinit>:341
+Finish net.almson.object.ResourceReference$Trace.<clinit>:341
+Starting org.slf4j.helpers.SubstituteLoggerFactory.getLoggers:65
+Finish org.slf4j.helpers.SubstituteLoggerFactory.getLoggers:65
+Starting org.slf4j.LoggerFactory.fixSubstituteLoggers:189
+Finish org.slf4j.LoggerFactory.fixSubstituteLoggers:189
+Starting net.almson.object.ResourceLeakDetector.<init>:228
+Finish net.almson.object.ResourceLeakDetector.<init>:228
+Starting org.slf4j.impl.SimpleLogger.log:249
+Finish org.slf4j.impl.SimpleLogger.log:249
+Starting org.slf4j.impl.SimpleLogger.recursivelyComputeLevelString:226
+Finish org.slf4j.impl.SimpleLogger.recursivelyComputeLevelString:226
+
+#1
+Inspecting hot method net.almson.object.ResourceLeakDetectorTest$3.destroy:64...
+Checking for isolation...
+5000000,5000000,5000000,0
+Total 5000000 (1 unique) events are in hot method
+Total 5000000 (1 unique) traces are in hot method
+Total 5000000 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5000000 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Throwable_InitCauseOnce (5000000 traces / 1 unique traces) (5000000 events / 1 unique events)
+Classifier (net.almson.object.ResourceLeakDetectorTest$3.destroy:64): CUT,ISOLATED_ONE_UNIQUE
+
+#2
+Inspecting hot method net.almson.object.ResourceLeakDetectorTest$4.run:81...
+Checking for isolation...
+100,100,100,0
+Total 100 (1 unique) events are in hot method
+Total 100 (1 unique) traces are in hot method
+Total 100 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 100 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Thread_SetDaemonBeforeStart (100 traces / 1 unique traces) (100 events / 1 unique events)
+Classifier (net.almson.object.ResourceLeakDetectorTest$4.run:81): CUT,ISOLATED_ONE_UNIQUE
+
+#3
+Inspecting hot method net.almson.object.ResourceLeakDetectorTest.testConcurrentUsage:69...
+Checking for isolation...
+100,100,100,0
+Total 100 (1 unique) events are in hot method
+Total 100 (1 unique) traces are in hot method
+Total 100 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 100 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Thread_StartOnce (100 traces / 1 unique traces) (100 events / 1 unique events)
+Classifier (net.almson.object.ResourceLeakDetectorTest.testConcurrentUsage:69): CUT,ISOLATED_ONE_UNIQUE
+
+#4
+Inspecting hot method net.almson.object.ResourceLeakDetector.assertAllResourcesDestroyed:284...
+Checking for isolation...
+21,11,11,0
+Total 21 (18 unique) events are in hot method
+Total 11 (8 unique) traces are in hot method
+Total 11 (8 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 21 (18 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (6 traces / 3 unique traces) (10 events / 7 unique events)
+	Iterator_RemoveOnce (2 traces / 2 unique traces) (2 events / 2 unique events)
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (2 events / 2 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (5 events / 5 unique events)
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (2 events / 2 unique events)
+Classifier (net.almson.object.ResourceLeakDetector.assertAllResourcesDestroyed:284): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT,ISOLATED_SINGLE_TRACE
+
+#5
+Inspecting hot method net.almson.object.ResourceLeakDetector.<init>:228...
+Checking for isolation...
+21,1,0,1
+Total 21 (21 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 23 (23 unique) events are in non-isolated traces (21 / 21 unique are in hot method)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (23 events / 23 unique events) (21 events / 21 unique events in hot method)
+Classifier (net.almson.object.ResourceLeakDetector.<init>:228): CUT,NOT_REDUNDANT_TRACES
+
+#6
+Inspecting hot method org.slf4j.impl.SimpleLogger.recursivelyComputeLevelString:226...
+Checking for isolation...
+20,8,8,0
+Total 20 (5 unique) events are in hot method
+Total 8 (2 unique) traces are in hot method
+Total 8 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 20 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (4 traces / 1 unique traces) (8 events / 2 unique events)
+	StringBuilder_ThreadSafe (4 traces / 1 unique traces) (12 events / 3 unique events)
+Classifier (org.slf4j.impl.SimpleLogger.recursivelyComputeLevelString:226): LIB,ISOLATED_ONE_UNIQUE
+
+#7
+Inspecting hot method net.almson.object.ResourceLeakDetector.getLeakWarning:317...
+Checking for isolation...
+17,2,2,0
+Total 17 (17 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 17 (17 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (8 events / 8 unique events)
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (9 events / 9 unique events)
+Classifier (net.almson.object.ResourceLeakDetector.getLeakWarning:317): CUT,NOT_REDUNDANT_TRACES
+
+#8
+Inspecting hot method org.slf4j.impl.SimpleLogger.log:249...
+Checking for isolation...
+16,2,1,1
+Total 16 (16 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 8 (8 unique) events are in isolated traces
+Total 9 (9 unique) events are in non-isolated traces (8 / 8 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (8 events / 8 unique events)
+Specs that have non-isolated traces:
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (9 events / 9 unique events) (8 events / 8 unique events in hot method)
+Classifier (org.slf4j.impl.SimpleLogger.log:249): LIB,NOT_REDUNDANT_TRACES
+
+#9
+Inspecting hot method org.slf4j.LoggerFactory.fixSubstituteLoggers:189...
+Checking for isolation...
+3,2,2,0
+Total 3 (3 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (2 events / 2 unique events)
+Classifier (org.slf4j.LoggerFactory.fixSubstituteLoggers:189): LIB,NOT_REDUNDANT_TRACES
+
+#10
+Inspecting hot method net.almson.object.ResourceReference$Trace.<clinit>:341...
+Checking for isolation...
+2,2,1,1
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 1 (1 unique) events are in isolated traces
+Total 6 (6 unique) events are in non-isolated traces (1 / 1 unique are in hot method)
+Specs that have isolated traces:
+	Throwable_InitCauseOnce (1 traces / 1 unique traces) (1 events / 1 unique events)
+Specs that have non-isolated traces:
+	Serializable_NoArgConstructor (1 traces / 1 unique traces) (6 events / 6 unique events) (1 events / 1 unique events in hot method)
+Classifier (net.almson.object.ResourceReference$Trace.<clinit>:341): CUT,NOT_REDUNDANT_TRACES
+
+#11
+Inspecting hot method org.slf4j.helpers.SubstituteLoggerFactory.getLoggers:65...
+Checking for isolation...
+2,2,1,1
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 1 (1 unique) events are in isolated traces
+Total 2 (2 unique) events are in non-isolated traces (1 / 1 unique are in hot method)
+Specs that have isolated traces:
+	Map_CollectionViewAdd (1 traces / 1 unique traces) (1 events / 1 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (1 traces / 1 unique traces) (2 events / 2 unique events) (1 events / 1 unique events in hot method)
+Classifier (org.slf4j.helpers.SubstituteLoggerFactory.getLoggers:65): LIB,NOT_REDUNDANT_TRACES
+

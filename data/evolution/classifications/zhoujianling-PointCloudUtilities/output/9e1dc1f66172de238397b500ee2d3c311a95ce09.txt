@@ -1,0 +1,2581 @@
+Reading traces...
+	read 1000 traces
+	read 2000 traces
+	read 3000 traces
+	read 4000 traces
+	read 5000 traces
+	read 6000 traces
+	read 7000 traces
+	read 8000 traces
+	read 9000 traces
+	read 10000 traces
+	read 11000 traces
+	read 12000 traces
+	read 13000 traces
+	read 14000 traces
+	read 15000 traces
+	read 16000 traces
+	read 17000 traces
+	read 18000 traces
+	read 19000 traces
+	read 20000 traces
+	read 21000 traces
+	read 22000 traces
+	read 23000 traces
+	read 24000 traces
+	read 25000 traces
+	read 26000 traces
+	read 27000 traces
+	read 28000 traces
+	read 29000 traces
+	read 30000 traces
+	read 31000 traces
+	read 32000 traces
+	read 33000 traces
+	read 34000 traces
+	read 35000 traces
+	read 36000 traces
+	read 37000 traces
+	read 38000 traces
+	read 39000 traces
+	read 40000 traces
+Reading specs frequency...
+Reading locations...
+Counting events...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+	processed 22000 traces
+	processed 23000 traces
+	processed 24000 traces
+	processed 25000 traces
+	processed 26000 traces
+	processed 27000 traces
+	processed 28000 traces
+	processed 29000 traces
+	processed 30000 traces
+	processed 31000 traces
+	processed 32000 traces
+	processed 33000 traces
+	processed 34000 traces
+	processed 35000 traces
+	processed 36000 traces
+	processed 37000 traces
+	processed 38000 traces
+	processed 39000 traces
+	processed 40000 traces
+Total 307922104 events and 6728331 traces
+Inspecting top 20000000 IMM
+Finding hot methods...
+Number of events, method name
+240467503,cn.jimmiez.pcu.common.graph.ShortestPath.dijkstra:17
+34320836,cn.jimmiez.pcu.CommonAssertions.assertLessEqualThan:21
+14098557,cn.jimmiez.pcu.common.graphics.Octree.searchNearestNeighbors:126
+7127203,cn.jimmiez.pcu.common.graph.Graphs.connectedComponents:23
+5993306,cn.jimmiez.pcu.common.graphics.OctreeTest.testSearchAllNeighborsWithinDistance:205
+1199791,cn.jimmiez.pcu.common.graphics.Octree.searchAllNeighborsWithinDistance:278
+1056692,cn.jimmiez.pcu.common.graphics.Octree.searchNeighborsInNodes:255
+868149,cn.jimmiez.pcu.common.graphics.Octree.createOctree:190
+732813,cn.jimmiez.pcu.common.graphics.OctreeTest.assertNeighborsWithinRadius:62
+479543,cn.jimmiez.pcu.common.graphics.BoundingBox.of:57
+272439,cn.jimmiez.pcu.common.graph.UndirectedGraph.addEdge:18
+254804,cn.jimmiez.pcu.common.graphics.Octree.determineCandidatesWithinRadius:308
+237922,cn.jimmiez.pcu.common.graph.Graphs.minimalSpanningTree:108
+76398,cn.jimmiez.pcu.common.graph.Graphs.adjacentMatrix2List:309
+67012,cn.jimmiez.pcu.io.ply.PlyReader.injectScalar:174
+59788,cn.jimmiez.pcu.common.graph.UndirectedGraph.addVertex:56
+58744,cn.jimmiez.pcu.util.PcuCommonUtil.incrementalIntegerList:18
+54407,cn.jimmiez.pcu.io.ply.PlyReader.injectList:103
+52502,cn.jimmiez.pcu.common.graph.Graphs.knnGraph:248
+52117,cn.jimmiez.pcu.io.ply.PlyData$BinaryParser.next:128
+51249,cn.jimmiez.pcu.CommonAssertions.assertGreaterThan:36
+40132,cn.jimmiez.pcu.common.graphics.OctreeTest.randomData:17
+28623,cn.jimmiez.pcu.util.PcuCommonUtil.arrayList2VecList:10
+28616,cn.jimmiez.pcu.alg.skeleton.LevelSetSkeleton.buildGeodesicGraph:163
+26136,cn.jimmiez.pcu.io.ply.PlyWriter.writeAsciiPlyImpl:180
+23937,cn.jimmiez.pcu.alg.skeleton.LevelSetSkeleton.baryCenter:305
+20691,cn.jimmiez.pcu.common.graph.UndirectedGraph.adjacentVertices:110
+20484,cn.jimmiez.pcu.common.graph.EntityGraph.addVertex:37
+12256,cn.jimmiez.pcu.alg.sampler.OctreeVoxelizer.voxelize:24
+12020,cn.jimmiez.pcu.alg.projector.WeightedLocallyOptimalProjector.computeRepulsionTerm:119
+11995,cn.jimmiez.pcu.alg.projector.WeightedLocallyOptimalProjector.computeDensity:152
+11221,cn.jimmiez.pcu.alg.skeleton.LevelSetSkeleton.searchAdjacentSkeletonPoint:318
+9540,cn.jimmiez.pcu.alg.skeleton.LevelSetSkeleton$LevelSet.addPoint:409
+8918,cn.jimmiez.pcu.common.graph.Graphs.containsCycle:58
+7866,cn.jimmiez.pcu.common.graph.EntityGraph.addVertex:50
+7658,cn.jimmiez.pcu.alg.sampler.OctreeVoxelizerTest.testVoxelize:16
+7471,cn.jimmiez.pcu.io.obj.ObjReader$ObjParser.parseObjData:111
+6921,cn.jimmiez.pcu.common.graph.Graphs.edgesCountOf:203
+5452,cn.jimmiez.pcu.common.graphics.OctreeTest.assertKNearestNeighbors:41
+5003,cn.jimmiez.pcu.common.graphics.HoppeEstimatorTest.testEstimateNormals:19
+5000,com.mkobos.pca_transform.covmatrixevd.EVD.calculateNondecreasingPermutation:52
+4770,cn.jimmiez.pcu.alg.skeleton.LevelSetSkeleton.buildNeighborhoodGraph:102
+4520,cn.jimmiez.pcu.alg.projector.WeightedLocallyOptimalProjector.computeAverageTerm:89
+3590,cn.jimmiez.pcu.DataUtil.generateRandomData:12
+2939,cn.jimmiez.pcu.common.graph.DirectedGraph.addEdge:20
+2290,cn.jimmiez.pcu.io.ply.PlyData$AsciiParser.next:80
+2112,cn.jimmiez.pcu.DataUtil.generateRandomGraph:31
+2000,cn.jimmiez.pcu.io.ply.PlyWriterTest$PlyEntity.<init>:196
+1506,cn.jimmiez.pcu.common.graphics.Normalizer.normalize:23
+1255,cn.jimmiez.pcu.common.graphics.curve.CardinalInterpolator.interpolateImpl:116
+1142,cn.jimmiez.pcu.common.graph.DirectedGraph.addVertex:56
+1093,cn.jimmiez.pcu.common.graph.DirectedGraph.adjacentVertices:110
+1000,cn.jimmiez.pcu.common.graphics.HoppeEstimatorTest.generatePlaneData:32
+1000,cn.jimmiez.pcu.alg.normal.HoppeEstimator.estimateNormals:27
+1000,cn.jimmiez.pcu.common.graph.GraphsTest.generateGraph3:405
+1000,cn.jimmiez.pcu.common.graph.Graphs.fullConnectedGraph:211
+1000,cn.jimmiez.pcu.common.graphics.OctreeTest.testSearchNearestNeighbors:74
+879,cn.jimmiez.pcu.common.graphics.curve.CardinalInterpolator.insertPoints:82
+674,cn.jimmiez.pcu.common.graphics.curve.CardinalInterpolator.adjacentPoint:62
+584,cn.jimmiez.pcu.io.ply.PlyReader.injectData:240
+457,cn.jimmiez.pcu.common.graph.Graphs.subGraph:158
+420,cn.jimmiez.pcu.alg.projector.LocallyOptimalProjector.successiveIteration:105
+335,cn.jimmiez.pcu.alg.projector.WeightedLocallyOptimalProjector.iterate:173
+314,cn.jimmiez.pcu.common.graph.UndirectedGraph.vertices:82
+264,cn.jimmiez.pcu.io.ply.PlyWriter$PlyWriterRequest.checkData:562
+259,cn.jimmiez.pcu.common.graph.UndirectedGraph.removeEdge:34
+250,cn.jimmiez.pcu.common.graphics.curve.CardinalInterpolatorTest.testInterpolate:19
+238,cn.jimmiez.pcu.common.graph.DirectedGraph.removeVertex:64
+238,cn.jimmiez.pcu.io.ply.PlyWriter.writeBinaryPlyImpl:298
+224,cn.jimmiez.pcu.io.off.OffReader.injectData:224
+214,cn.jimmiez.pcu.common.graph.DirectedGraph.vertices:82
+203,cn.jimmiez.pcu.io.ply.PlyWriter.generatePlyHeaderString:136
+183,cn.jimmiez.pcu.common.graph.ShortestPathTest.generateTestGraphs:100
+171,cn.jimmiez.pcu.alg.skeleton.LevelSetSkeleton.generateResultingSkeleton:265
+162,cn.jimmiez.pcu.io.ply.PlyWriter.findPropertiesGetters:75
+150,cn.jimmiez.pcu.common.graphics.NormalizerTest.genData:29
+148,cn.jimmiez.pcu.io.off.OffReader.readImpl:38
+145,cn.jimmiez.pcu.common.graph.Graphs.adjacentMatrix2List:289
+137,cn.jimmiez.pcu.common.graphics.curve.CardinalInterpolator.insertPointsIntoVertexPair:100
+135,cn.jimmiez.pcu.common.graphics.Octree.createRootNode:177
+124,cn.jimmiez.pcu.io.ply.PlyReader.readHeader:266
+101,cn.jimmiez.pcu.alg.projector.WeightedLOProjectorTest.testProject:16
+100,cn.jimmiez.pcu.alg.projector.LocalOptimalProjectorTest.testProject:17
+91,cn.jimmiez.pcu.common.graph.UndirectedGraph.removeVertex:64
+81,cn.jimmiez.pcu.util.PcuReflectUtil.fetchAllMethods:26
+80,cn.jimmiez.pcu.common.graphics.curve.CardinalInterpolator.interpolate:161
+72,cn.jimmiez.pcu.io.obj.ObjReader$ObjParser.<init>:20
+69,cn.jimmiez.pcu.common.graph.GraphsTest.edgeWeightSum:432
+59,cn.jimmiez.pcu.common.graph.EntityGraph.removeVertex:75
+40,cn.jimmiez.pcu.io.obj.ObjData.clear:39
+38,cn.jimmiez.pcu.io.ply.PlyWriter.writeWithObject:31
+36,cn.jimmiez.pcu.io.ply.PlyWriter$PlyWriterRequest.defineScalarProperties:475
+36,cn.jimmiez.pcu.io.ply.PlyWriter.typeString:107
+36,cn.jimmiez.pcu.io.obj.ObjReaderTest.testObjDataType:15
+34,cn.jimmiez.pcu.io.ply.PlyReader.checkAnnotation:62
+34,cn.jimmiez.pcu.common.graph.GraphsTest.testSubGraph:339
+32,cn.jimmiez.pcu.alg.projector.LocallyOptimalProjector.firstIteration:69
+24,cn.jimmiez.pcu.io.ply.PlyWriter$PlyWriterRequest.defineElement:467
+22,cn.jimmiez.pcu.alg.skeleton.LevelSetSkeleton.divideLevelSets:222
+18,cn.jimmiez.pcu.alg.projector.WeightedLocallyOptimalProjector.project:228
+17,cn.jimmiez.pcu.io.ply.PlyWriterTest.testPrepareChainBinary:61
+17,cn.jimmiez.pcu.io.ply.PlyWriterTest.testPrepareChainAscii:153
+16,cn.jimmiez.pcu.common.graph.GraphsTest.testKnnGraph:87
+15,cn.jimmiez.pcu.io.ply.PlyReader.injectDataImpl:81
+14,cn.jimmiez.pcu.io.ply.PlyData.parse:25
+14,cn.jimmiez.pcu.io.obj.ObjData.<init>:24
+12,cn.jimmiez.pcu.common.graph.Graphs$3.edgeWeight:173
+12,cn.jimmiez.pcu.io.ply.PlyWriter$PlyWriterRequest.defineListProperty:498
+11,cn.jimmiez.pcu.CommonAssertions.assertGreaterEqualThan:50
+11,cn.jimmiez.pcu.CommonAssertions.assertLessThan:26
+10,cn.jimmiez.pcu.io.ply.PlyWriterTest.testWrite:132
+10,cn.jimmiez.pcu.io.ply.PlyWriterTest.createTempDir:21
+10,cn.jimmiez.pcu.common.graph.EntityGraph.removeVertex:65
+9,cn.jimmiez.pcu.io.off.OffReader.injectVerticesData:245
+8,cn.jimmiez.pcu.common.graph.Graphs$6.adjacentVertices:338
+8,cn.jimmiez.pcu.io.ply.PlyReader.readPlyImpl:44
+7,cn.jimmiez.pcu.io.ply.PlyWriter$PlyWriterRequest.comment:530
+6,cn.jimmiez.pcu.io.off.OffReader.injectFacesData:251
+5,cn.jimmiez.pcu.alg.projector.WeightedLocallyOptimalProjector.<init>:21
+5,cn.jimmiez.pcu.common.graphics.BoundingBoxTest.testOf:51
+5,cn.jimmiez.pcu.io.ply.PlyData$AsciiParser.<init>:66
+4,cn.jimmiez.pcu.common.graph.DirectedGraph.clear:74
+4,cn.jimmiez.pcu.common.graphics.shape.Box.<init>:36
+4,cn.jimmiez.pcu.io.BinaryWriter.close:90
+3,cn.jimmiez.pcu.io.off.OffReader.injectVertexColorsData:257
+3,cn.jimmiez.pcu.io.off.OffReader.injectVertexNormalsData:263
+3,cn.jimmiez.pcu.common.graphics.BoundingBox.<init>:23
+3,cn.jimmiez.pcu.alg.projector.LocallyOptimalProjector.<init>:29
+2,cn.jimmiez.pcu.common.graph.DirectedGraph.edgeWeight:95
+2,cn.jimmiez.pcu.common.graph.VertexPairTest.testEquals:14
+1,cn.jimmiez.pcu.common.graph.DirectedGraph.removeEdge:35
+1,cn.jimmiez.pcu.common.graphics.curve.CardinalInterpolator.<init>:22
+1,cn.jimmiez.pcu.io.obj.ObjReader$ObjParser.parseObjFile:38
+1,cn.jimmiez.pcu.alg.projector.LocallyOptimalProjector.project:162
+1,cn.jimmiez.pcu.util.Pair.<clinit>:0
+1,Jama.Matrix.<clinit>:0
+1,com.mkobos.pca_transform.covmatrixevd.EVD.<clinit>:17
+1,Jama.EigenvalueDecomposition.<clinit>:0
+1,cn.jimmiez.pcu.io.ply.PlyFormat.<clinit>:4
+1,cn.jimmiez.pcu.io.ply.PcuDataType.<clinit>:4
+1,cn.jimmiez.pcu.io.obj.ObjDataType.<clinit>:5
+^^^ Last method that contains more than one event ^^^
+Starting com.mkobos.pca_transform.covmatrixevd.EVD.calculateNondecreasingPermutation:52
+Finish com.mkobos.pca_transform.covmatrixevd.EVD.calculateNondecreasingPermutation:52
+Starting cn.jimmiez.pcu.alg.skeleton.LevelSetSkeleton.buildNeighborhoodGraph:102
+Finish cn.jimmiez.pcu.alg.skeleton.LevelSetSkeleton.buildNeighborhoodGraph:102
+Starting cn.jimmiez.pcu.common.graph.DirectedGraph.addVertex:56
+Finish cn.jimmiez.pcu.common.graph.DirectedGraph.addVertex:56
+Starting cn.jimmiez.pcu.common.graph.DirectedGraph.adjacentVertices:110
+Finish cn.jimmiez.pcu.common.graph.DirectedGraph.adjacentVertices:110
+Starting cn.jimmiez.pcu.alg.skeleton.LevelSetSkeleton.divideLevelSets:222
+Finish cn.jimmiez.pcu.alg.skeleton.LevelSetSkeleton.divideLevelSets:222
+Starting cn.jimmiez.pcu.alg.projector.WeightedLocallyOptimalProjector.project:228
+Finish cn.jimmiez.pcu.alg.projector.WeightedLocallyOptimalProjector.project:228
+Starting cn.jimmiez.pcu.io.ply.PlyWriterTest.testWrite:132
+Finish cn.jimmiez.pcu.io.ply.PlyWriterTest.testWrite:132
+Starting cn.jimmiez.pcu.io.ply.PlyWriterTest.createTempDir:21
+Finish cn.jimmiez.pcu.io.ply.PlyWriterTest.createTempDir:21
+Starting cn.jimmiez.pcu.common.graph.Graphs$6.adjacentVertices:338
+Finish cn.jimmiez.pcu.common.graph.Graphs$6.adjacentVertices:338
+Starting cn.jimmiez.pcu.io.ply.PlyReader.readPlyImpl:44
+Finish cn.jimmiez.pcu.io.ply.PlyReader.readPlyImpl:44
+Starting cn.jimmiez.pcu.common.graphics.shape.Box.<init>:36
+Finish cn.jimmiez.pcu.common.graphics.shape.Box.<init>:36
+Starting cn.jimmiez.pcu.io.BinaryWriter.close:90
+Finish cn.jimmiez.pcu.io.BinaryWriter.close:90
+Starting cn.jimmiez.pcu.common.graph.UndirectedGraph.addEdge:18
+Finish cn.jimmiez.pcu.common.graph.UndirectedGraph.addEdge:18
+Starting cn.jimmiez.pcu.common.graphics.Octree.determineCandidatesWithinRadius:308
+Finish cn.jimmiez.pcu.common.graphics.Octree.determineCandidatesWithinRadius:308
+Starting cn.jimmiez.pcu.io.ply.PlyWriterTest.testPrepareChainBinary:61
+Finish cn.jimmiez.pcu.io.ply.PlyWriterTest.testPrepareChainBinary:61
+Starting cn.jimmiez.pcu.io.ply.PlyWriterTest.testPrepareChainAscii:153
+Finish cn.jimmiez.pcu.io.ply.PlyWriterTest.testPrepareChainAscii:153
+Starting cn.jimmiez.pcu.common.graph.EntityGraph.removeVertex:65
+Finish cn.jimmiez.pcu.common.graph.EntityGraph.removeVertex:65
+Starting cn.jimmiez.pcu.io.off.OffReader.injectVerticesData:245
+Finish cn.jimmiez.pcu.io.off.OffReader.injectVerticesData:245
+Starting cn.jimmiez.pcu.alg.projector.WeightedLocallyOptimalProjector.<init>:21
+Finish cn.jimmiez.pcu.alg.projector.WeightedLocallyOptimalProjector.<init>:21
+Starting cn.jimmiez.pcu.common.graphics.BoundingBoxTest.testOf:51
+Finish cn.jimmiez.pcu.common.graphics.BoundingBoxTest.testOf:51
+Starting cn.jimmiez.pcu.io.off.OffReader.injectVertexColorsData:257
+Finish cn.jimmiez.pcu.io.off.OffReader.injectVertexColorsData:257
+Starting cn.jimmiez.pcu.io.off.OffReader.injectVertexNormalsData:263
+Finish cn.jimmiez.pcu.io.off.OffReader.injectVertexNormalsData:263
+Starting cn.jimmiez.pcu.CommonAssertions.assertGreaterThan:36
+Finish cn.jimmiez.pcu.CommonAssertions.assertGreaterThan:36
+Starting cn.jimmiez.pcu.common.graphics.OctreeTest.randomData:17
+Finish cn.jimmiez.pcu.common.graphics.OctreeTest.randomData:17
+Starting cn.jimmiez.pcu.CommonAssertions.assertGreaterEqualThan:50
+Finish cn.jimmiez.pcu.CommonAssertions.assertGreaterEqualThan:50
+Starting cn.jimmiez.pcu.CommonAssertions.assertLessThan:26
+Finish cn.jimmiez.pcu.CommonAssertions.assertLessThan:26
+Starting cn.jimmiez.pcu.alg.sampler.OctreeVoxelizer.voxelize:24
+Finish cn.jimmiez.pcu.alg.sampler.OctreeVoxelizer.voxelize:24
+Starting cn.jimmiez.pcu.alg.projector.WeightedLocallyOptimalProjector.computeRepulsionTerm:119
+Finish cn.jimmiez.pcu.alg.projector.WeightedLocallyOptimalProjector.computeRepulsionTerm:119
+Starting cn.jimmiez.pcu.common.graph.EntityGraph.removeVertex:75
+Finish cn.jimmiez.pcu.common.graph.EntityGraph.removeVertex:75
+Starting cn.jimmiez.pcu.io.obj.ObjData.clear:39
+Finish cn.jimmiez.pcu.io.obj.ObjData.clear:39
+Starting cn.jimmiez.pcu.io.ply.PlyWriter$PlyWriterRequest.comment:530
+Finish cn.jimmiez.pcu.io.ply.PlyWriter$PlyWriterRequest.comment:530
+Starting cn.jimmiez.pcu.io.off.OffReader.injectFacesData:251
+Finish cn.jimmiez.pcu.io.off.OffReader.injectFacesData:251
+Starting cn.jimmiez.pcu.common.graphics.BoundingBox.<init>:23
+Finish cn.jimmiez.pcu.common.graphics.BoundingBox.<init>:23
+Starting cn.jimmiez.pcu.alg.projector.LocallyOptimalProjector.<init>:29
+Finish cn.jimmiez.pcu.alg.projector.LocallyOptimalProjector.<init>:29
+Starting cn.jimmiez.pcu.common.graph.Graphs.knnGraph:248
+Finish cn.jimmiez.pcu.common.graph.Graphs.knnGraph:248
+Starting cn.jimmiez.pcu.io.ply.PlyData$BinaryParser.next:128
+Finish cn.jimmiez.pcu.io.ply.PlyData$BinaryParser.next:128
+Starting cn.jimmiez.pcu.io.ply.PlyWriter.writeAsciiPlyImpl:180
+Finish cn.jimmiez.pcu.io.ply.PlyWriter.writeAsciiPlyImpl:180
+Starting cn.jimmiez.pcu.alg.skeleton.LevelSetSkeleton.baryCenter:305
+Finish cn.jimmiez.pcu.alg.skeleton.LevelSetSkeleton.baryCenter:305
+Starting cn.jimmiez.pcu.common.graph.GraphsTest.testKnnGraph:87
+Finish cn.jimmiez.pcu.common.graph.GraphsTest.testKnnGraph:87
+Starting cn.jimmiez.pcu.io.ply.PlyReader.injectDataImpl:81
+Finish cn.jimmiez.pcu.io.ply.PlyReader.injectDataImpl:81
+Starting cn.jimmiez.pcu.common.graph.EntityGraph.addVertex:50
+Finish cn.jimmiez.pcu.common.graph.EntityGraph.addVertex:50
+Starting cn.jimmiez.pcu.alg.sampler.OctreeVoxelizerTest.testVoxelize:16
+Finish cn.jimmiez.pcu.alg.sampler.OctreeVoxelizerTest.testVoxelize:16
+Starting cn.jimmiez.pcu.alg.projector.WeightedLocallyOptimalProjector.iterate:173
+Finish cn.jimmiez.pcu.alg.projector.WeightedLocallyOptimalProjector.iterate:173
+Starting cn.jimmiez.pcu.common.graph.UndirectedGraph.vertices:82
+Finish cn.jimmiez.pcu.common.graph.UndirectedGraph.vertices:82
+Starting cn.jimmiez.pcu.common.graphics.curve.CardinalInterpolatorTest.testInterpolate:19
+Finish cn.jimmiez.pcu.common.graphics.curve.CardinalInterpolatorTest.testInterpolate:19
+Starting cn.jimmiez.pcu.common.graph.DirectedGraph.removeVertex:64
+Finish cn.jimmiez.pcu.common.graph.DirectedGraph.removeVertex:64
+Starting cn.jimmiez.pcu.common.graph.DirectedGraph.vertices:82
+Finish cn.jimmiez.pcu.common.graph.DirectedGraph.vertices:82
+Starting cn.jimmiez.pcu.io.ply.PlyWriter.generatePlyHeaderString:136
+Finish cn.jimmiez.pcu.io.ply.PlyWriter.generatePlyHeaderString:136
+Starting cn.jimmiez.pcu.io.ply.PlyWriter.findPropertiesGetters:75
+Finish cn.jimmiez.pcu.io.ply.PlyWriter.findPropertiesGetters:75
+Starting cn.jimmiez.pcu.common.graphics.NormalizerTest.genData:29
+Finish cn.jimmiez.pcu.common.graphics.NormalizerTest.genData:29
+Starting cn.jimmiez.pcu.common.graph.DirectedGraph.addEdge:20
+Finish cn.jimmiez.pcu.common.graph.DirectedGraph.addEdge:20
+Starting cn.jimmiez.pcu.io.ply.PlyData$AsciiParser.next:80
+Finish cn.jimmiez.pcu.io.ply.PlyData$AsciiParser.next:80
+Starting cn.jimmiez.pcu.util.PcuReflectUtil.fetchAllMethods:26
+Finish cn.jimmiez.pcu.util.PcuReflectUtil.fetchAllMethods:26
+Starting cn.jimmiez.pcu.common.graphics.curve.CardinalInterpolator.interpolate:161
+Finish cn.jimmiez.pcu.common.graphics.curve.CardinalInterpolator.interpolate:161
+Starting cn.jimmiez.pcu.io.ply.PlyData.parse:25
+Finish cn.jimmiez.pcu.io.ply.PlyData.parse:25
+Starting cn.jimmiez.pcu.io.obj.ObjData.<init>:24
+Finish cn.jimmiez.pcu.io.obj.ObjData.<init>:24
+Starting cn.jimmiez.pcu.io.ply.PlyReader.injectScalar:174
+Finish cn.jimmiez.pcu.io.ply.PlyReader.injectScalar:174
+Starting cn.jimmiez.pcu.common.graph.UndirectedGraph.addVertex:56
+Finish cn.jimmiez.pcu.common.graph.UndirectedGraph.addVertex:56
+Starting cn.jimmiez.pcu.io.ply.PlyWriter$PlyWriterRequest.checkData:562
+Finish cn.jimmiez.pcu.io.ply.PlyWriter$PlyWriterRequest.checkData:562
+Starting cn.jimmiez.pcu.common.graph.UndirectedGraph.removeEdge:34
+Finish cn.jimmiez.pcu.common.graph.UndirectedGraph.removeEdge:34
+Starting cn.jimmiez.pcu.io.ply.PlyWriter.writeBinaryPlyImpl:298
+Finish cn.jimmiez.pcu.io.ply.PlyWriter.writeBinaryPlyImpl:298
+Starting cn.jimmiez.pcu.io.off.OffReader.injectData:224
+Finish cn.jimmiez.pcu.io.off.OffReader.injectData:224
+Starting cn.jimmiez.pcu.common.graph.ShortestPathTest.generateTestGraphs:100
+Finish cn.jimmiez.pcu.common.graph.ShortestPathTest.generateTestGraphs:100
+Starting cn.jimmiez.pcu.alg.skeleton.LevelSetSkeleton.generateResultingSkeleton:265
+Finish cn.jimmiez.pcu.alg.skeleton.LevelSetSkeleton.generateResultingSkeleton:265
+Starting cn.jimmiez.pcu.io.off.OffReader.readImpl:38
+Finish cn.jimmiez.pcu.io.off.OffReader.readImpl:38
+Starting cn.jimmiez.pcu.common.graph.Graphs.adjacentMatrix2List:289
+Finish cn.jimmiez.pcu.common.graph.Graphs.adjacentMatrix2List:289
+Starting cn.jimmiez.pcu.common.graphics.curve.CardinalInterpolator.insertPointsIntoVertexPair:100
+Finish cn.jimmiez.pcu.common.graphics.curve.CardinalInterpolator.insertPointsIntoVertexPair:100
+Starting cn.jimmiez.pcu.common.graphics.Octree.createRootNode:177
+Finish cn.jimmiez.pcu.common.graphics.Octree.createRootNode:177
+Starting cn.jimmiez.pcu.io.ply.PlyReader.readHeader:266
+Finish cn.jimmiez.pcu.io.ply.PlyReader.readHeader:266
+Starting cn.jimmiez.pcu.alg.projector.WeightedLOProjectorTest.testProject:16
+Finish cn.jimmiez.pcu.alg.projector.WeightedLOProjectorTest.testProject:16
+Starting cn.jimmiez.pcu.alg.projector.LocalOptimalProjectorTest.testProject:17
+Finish cn.jimmiez.pcu.alg.projector.LocalOptimalProjectorTest.testProject:17
+Starting cn.jimmiez.pcu.common.graph.UndirectedGraph.removeVertex:64
+Finish cn.jimmiez.pcu.common.graph.UndirectedGraph.removeVertex:64
+Starting cn.jimmiez.pcu.io.obj.ObjReader$ObjParser.<init>:20
+Finish cn.jimmiez.pcu.io.obj.ObjReader$ObjParser.<init>:20
+Starting cn.jimmiez.pcu.common.graph.GraphsTest.edgeWeightSum:432
+Finish cn.jimmiez.pcu.common.graph.GraphsTest.edgeWeightSum:432
+Starting cn.jimmiez.pcu.util.PcuCommonUtil.incrementalIntegerList:18
+Finish cn.jimmiez.pcu.util.PcuCommonUtil.incrementalIntegerList:18
+Starting cn.jimmiez.pcu.io.ply.PlyReader.injectList:103
+Finish cn.jimmiez.pcu.io.ply.PlyReader.injectList:103
+Starting cn.jimmiez.pcu.common.graphics.HoppeEstimatorTest.generatePlaneData:32
+Finish cn.jimmiez.pcu.common.graphics.HoppeEstimatorTest.generatePlaneData:32
+Starting cn.jimmiez.pcu.alg.normal.HoppeEstimator.estimateNormals:27
+Finish cn.jimmiez.pcu.alg.normal.HoppeEstimator.estimateNormals:27
+Starting cn.jimmiez.pcu.common.graph.GraphsTest.generateGraph3:405
+Finish cn.jimmiez.pcu.common.graph.GraphsTest.generateGraph3:405
+Starting cn.jimmiez.pcu.common.graph.Graphs.fullConnectedGraph:211
+Finish cn.jimmiez.pcu.common.graph.Graphs.fullConnectedGraph:211
+Starting cn.jimmiez.pcu.common.graphics.OctreeTest.testSearchNearestNeighbors:74
+Finish cn.jimmiez.pcu.common.graphics.OctreeTest.testSearchNearestNeighbors:74
+Starting cn.jimmiez.pcu.common.graphics.curve.CardinalInterpolator.insertPoints:82
+Finish cn.jimmiez.pcu.common.graphics.curve.CardinalInterpolator.insertPoints:82
+Starting cn.jimmiez.pcu.common.graphics.curve.CardinalInterpolator.adjacentPoint:62
+Finish cn.jimmiez.pcu.common.graphics.curve.CardinalInterpolator.adjacentPoint:62
+Starting cn.jimmiez.pcu.io.ply.PlyReader.injectData:240
+Finish cn.jimmiez.pcu.io.ply.PlyReader.injectData:240
+Starting cn.jimmiez.pcu.common.graph.Graphs.subGraph:158
+Finish cn.jimmiez.pcu.common.graph.Graphs.subGraph:158
+Starting cn.jimmiez.pcu.alg.projector.LocallyOptimalProjector.successiveIteration:105
+Finish cn.jimmiez.pcu.alg.projector.LocallyOptimalProjector.successiveIteration:105
+Starting cn.jimmiez.pcu.common.graph.Graphs$3.edgeWeight:173
+Finish cn.jimmiez.pcu.common.graph.Graphs$3.edgeWeight:173
+Starting cn.jimmiez.pcu.io.ply.PlyWriter$PlyWriterRequest.defineListProperty:498
+Finish cn.jimmiez.pcu.io.ply.PlyWriter$PlyWriterRequest.defineListProperty:498
+Starting cn.jimmiez.pcu.common.graph.UndirectedGraph.adjacentVertices:110
+Finish cn.jimmiez.pcu.common.graph.UndirectedGraph.adjacentVertices:110
+Starting cn.jimmiez.pcu.common.graph.EntityGraph.addVertex:37
+Finish cn.jimmiez.pcu.common.graph.EntityGraph.addVertex:37
+Starting cn.jimmiez.pcu.alg.projector.WeightedLocallyOptimalProjector.computeDensity:152
+Finish cn.jimmiez.pcu.alg.projector.WeightedLocallyOptimalProjector.computeDensity:152
+Starting cn.jimmiez.pcu.alg.skeleton.LevelSetSkeleton.searchAdjacentSkeletonPoint:318
+Finish cn.jimmiez.pcu.alg.skeleton.LevelSetSkeleton.searchAdjacentSkeletonPoint:318
+Starting cn.jimmiez.pcu.alg.projector.LocallyOptimalProjector.firstIteration:69
+Finish cn.jimmiez.pcu.alg.projector.LocallyOptimalProjector.firstIteration:69
+Starting cn.jimmiez.pcu.io.ply.PlyWriter$PlyWriterRequest.defineElement:467
+Finish cn.jimmiez.pcu.io.ply.PlyWriter$PlyWriterRequest.defineElement:467
+Starting cn.jimmiez.pcu.DataUtil.generateRandomGraph:31
+Finish cn.jimmiez.pcu.DataUtil.generateRandomGraph:31
+Starting cn.jimmiez.pcu.io.ply.PlyWriterTest$PlyEntity.<init>:196
+Finish cn.jimmiez.pcu.io.ply.PlyWriterTest$PlyEntity.<init>:196
+Starting cn.jimmiez.pcu.io.ply.PlyWriter.writeWithObject:31
+Finish cn.jimmiez.pcu.io.ply.PlyWriter.writeWithObject:31
+Starting cn.jimmiez.pcu.io.ply.PlyWriter$PlyWriterRequest.defineScalarProperties:475
+Finish cn.jimmiez.pcu.io.ply.PlyWriter$PlyWriterRequest.defineScalarProperties:475
+Starting cn.jimmiez.pcu.alg.skeleton.LevelSetSkeleton$LevelSet.addPoint:409
+Finish cn.jimmiez.pcu.alg.skeleton.LevelSetSkeleton$LevelSet.addPoint:409
+Starting cn.jimmiez.pcu.common.graph.Graphs.containsCycle:58
+Finish cn.jimmiez.pcu.common.graph.Graphs.containsCycle:58
+Starting cn.jimmiez.pcu.alg.projector.WeightedLocallyOptimalProjector.computeAverageTerm:89
+Finish cn.jimmiez.pcu.alg.projector.WeightedLocallyOptimalProjector.computeAverageTerm:89
+Starting cn.jimmiez.pcu.DataUtil.generateRandomData:12
+Finish cn.jimmiez.pcu.DataUtil.generateRandomData:12
+Starting cn.jimmiez.pcu.io.ply.PlyWriter.typeString:107
+Finish cn.jimmiez.pcu.io.ply.PlyWriter.typeString:107
+Starting cn.jimmiez.pcu.io.obj.ObjReaderTest.testObjDataType:15
+Finish cn.jimmiez.pcu.io.obj.ObjReaderTest.testObjDataType:15
+
+#1
+Inspecting hot method cn.jimmiez.pcu.common.graph.ShortestPath.dijkstra:17...
+Checking for isolation...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+	processed 22000 traces
+	processed 23000 traces
+	processed 24000 traces
+	processed 25000 traces
+	processed 26000 traces
+	processed 27000 traces
+	processed 28000 traces
+	processed 29000 traces
+	processed 30000 traces
+	processed 31000 traces
+	processed 32000 traces
+	processed 33000 traces
+	processed 34000 traces
+240467503,76417,76410,7
+Total 240467503 (164352802 unique) events are in hot method
+Total 76417 (34982 unique) traces are in hot method
+Total 76410 (34975 unique) isolated traces are in hot method
+Total 7 (7 unique) non-isolated traces that have events in hot method
+Total 240400726 (164286025 unique) events are in isolated traces
+Total 1294325 (1294325 unique) events are in non-isolated traces (66777 / 66777 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (19107 traces / 15880 unique traces) (103796903 events / 96003342 unique events)
+	Iterator_HasNext (19107 traces / 9546 unique traces) (91050131 events / 45524966 unique events)
+	Iterator_RemoveOnce (19102 traces / 9544 unique traces) (45515512 events / 22757710 unique events)
+	Collections_SortBeforeBinarySearch (9549 traces / 2 unique traces) (19092 events / 3 unique events)
+	Collection_UnsynchronizedAddAll (9543 traces / 1 unique traces) (19086 events / 2 unique events)
+	Throwable_InitCauseOnce (2 traces / 2 unique traces) (2 events / 2 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (4 traces / 4 unique traces) (87 events / 87 unique events) (76 events / 76 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (201948 events / 201948 unique events) (23786 events / 23786 unique events in hot method)
+	Set_ItselfAsElement (1 traces / 1 unique traces) (890342 events / 890342 unique events) (19129 events / 19129 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (201948 events / 201948 unique events) (23786 events / 23786 unique events in hot method)
+Classifier (cn.jimmiez.pcu.common.graph.ShortestPath.dijkstra:17): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#2
+Inspecting hot method cn.jimmiez.pcu.CommonAssertions.assertLessEqualThan:21...
+Checking for isolation...
+34320836,6240152,6240152,0
+Total 34320836 (11 unique) events are in hot method
+Total 6240152 (2 unique) traces are in hot method
+Total 6240152 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 34320836 (11 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (3120076 traces / 1 unique traces) (18720456 events / 6 unique events)
+	Appendable_ThreadSafe (3120076 traces / 1 unique traces) (15600380 events / 5 unique events)
+Classifier (cn.jimmiez.pcu.CommonAssertions.assertLessEqualThan:21): CUT,ISOLATED_ONE_UNIQUE
+
+#3
+Inspecting hot method cn.jimmiez.pcu.common.graphics.Octree.searchNearestNeighbors:126...
+Checking for isolation...
+14098557,204433,204430,3
+Total 14098557 (2024103 unique) events are in hot method
+Total 204433 (340 unique) traces are in hot method
+Total 204430 (337 unique) isolated traces are in hot method
+Total 3 (3 unique) non-isolated traces that have events in hot method
+Total 12096262 (21808 unique) events are in isolated traces
+Total 2506688 (2506688 unique) events are in non-isolated traces (2002295 / 2002295 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (68234 traces / 112 unique traces) (4824856 events / 8700 unique events)
+	Collection_UnsafeIterator (68234 traces / 112 unique traces) (4893090 events / 8812 unique events)
+	Iterator_RemoveOnce (67957 traces / 111 unique traces) (2378311 events / 4294 unique events)
+	Throwable_InitCauseOnce (5 traces / 2 unique traces) (5 events / 2 unique events)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (890342 events / 890342 unique events) (674567 events / 674567 unique events in hot method)
+	PriorityQueue_NonNull (1 traces / 1 unique traces) (808173 events / 808173 unique events) (663864 events / 663864 unique events in hot method)
+	PriorityQueue_NonComparable (1 traces / 1 unique traces) (808173 events / 808173 unique events) (663864 events / 663864 unique events in hot method)
+Classifier (cn.jimmiez.pcu.common.graphics.Octree.searchNearestNeighbors:126): CUT,ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#4
+Inspecting hot method cn.jimmiez.pcu.common.graph.Graphs.connectedComponents:23...
+Checking for isolation...
+7127203,39434,33952,5482
+Total 7127203 (1251348 unique) events are in hot method
+Total 39434 (471 unique) traces are in hot method
+Total 33952 (364 unique) isolated traces are in hot method
+Total 5482 (107 unique) non-isolated traces that have events in hot method
+Total 6917499 (1222699 unique) events are in isolated traces
+Total 1094972 (908152 unique) events are in non-isolated traces (209704 / 28649 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (11261 traces / 89 unique traces) (2305789 events / 30597 unique events)
+	Collection_UnsafeIterator (11261 traces / 89 unique traces) (2317050 events / 30686 unique events)
+	Iterator_RemoveOnce (11252 traces / 87 unique traces) (1147264 events / 15254 unique events)
+	Collections_SortBeforeBinarySearch (178 traces / 99 unique traces) (1147396 events / 1146162 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (5476 traces / 104 unique traces) (204619 events / 17805 unique events) (198484 events / 17432 unique events in hot method)
+	Collections_SortBeforeBinarySearch (5 traces / 2 unique traces) (11 events / 5 unique events) (6 events / 3 unique events in hot method)
+	Set_ItselfAsElement (1 traces / 1 unique traces) (890342 events / 890342 unique events) (11214 events / 11214 unique events in hot method)
+Classifier (cn.jimmiez.pcu.common.graph.Graphs.connectedComponents:23): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#5
+Inspecting hot method cn.jimmiez.pcu.common.graphics.OctreeTest.testSearchAllNeighborsWithinDistance:205...
+Checking for isolation...
+	processed 1000 traces
+5993306,9382,9381,1
+Total 5993306 (943202 unique) events are in hot method
+Total 9382 (1528 unique) traces are in hot method
+Total 9381 (1527 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 5992306 (942202 unique) events are in isolated traces
+Total 8328 (8328 unique) events are in non-isolated traces (1000 / 1000 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (3127 traces / 509 unique traces) (2396297 events / 376779 unique events)
+	Iterator_RemoveOnce (3127 traces / 509 unique traces) (1196585 events / 188135 unique events)
+	Collection_UnsafeIterator (3127 traces / 509 unique traces) (2399424 events / 377288 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (8328 events / 8328 unique events) (1000 events / 1000 unique events in hot method)
+Classifier (cn.jimmiez.pcu.common.graphics.OctreeTest.testSearchAllNeighborsWithinDistance:205): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_SINGLE_TRACE
+
+#6
+Inspecting hot method cn.jimmiez.pcu.common.graphics.Octree.searchAllNeighborsWithinDistance:278...
+Checking for isolation...
+1199791,3436,3436,0
+Total 1199791 (188336 unique) events are in hot method
+Total 3436 (515 unique) traces are in hot method
+Total 3436 (515 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1199791 (188336 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (3436 traces / 515 unique traces) (1199791 events / 188336 unique events)
+Classifier (cn.jimmiez.pcu.common.graphics.Octree.searchAllNeighborsWithinDistance:278): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#7
+Inspecting hot method cn.jimmiez.pcu.common.graphics.Octree.searchNeighborsInNodes:255...
+Checking for isolation...
+1056692,85384,85382,2
+Total 1056692 (269474 unique) events are in hot method
+Total 85384 (249 unique) traces are in hot method
+Total 85382 (247 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 797676 (10458 unique) events are in isolated traces
+Total 1616346 (1616346 unique) events are in non-isolated traces (259016 / 259016 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsynchronizedAddAll (64754 traces / 1 unique traces) (129508 events / 2 unique events)
+	Iterator_HasNext (6876 traces / 82 unique traces) (265892 events / 4166 unique events)
+	Iterator_RemoveOnce (6876 traces / 82 unique traces) (129508 events / 2042 unique events)
+	Collection_UnsafeIterator (6876 traces / 82 unique traces) (272768 events / 4248 unique events)
+Specs that have non-isolated traces:
+	PriorityQueue_NonNull (1 traces / 1 unique traces) (808173 events / 808173 unique events) (129508 events / 129508 unique events in hot method)
+	PriorityQueue_NonComparable (1 traces / 1 unique traces) (808173 events / 808173 unique events) (129508 events / 129508 unique events in hot method)
+Classifier (cn.jimmiez.pcu.common.graphics.Octree.searchNeighborsInNodes:255): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#8
+Inspecting hot method cn.jimmiez.pcu.common.graphics.Octree.createOctree:190...
+Checking for isolation...
+868149,5138,5136,2
+Total 868149 (632275 unique) events are in hot method
+Total 5138 (772 unique) traces are in hot method
+Total 5136 (770 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 862091 (626217 unique) events are in isolated traces
+Total 403896 (403896 unique) events are in non-isolated traces (6058 / 6058 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (3522 traces / 224 unique traces) (141857 events / 69546 unique events)
+	Iterator_HasNext (538 traces / 182 unique traces) (287986 events / 222632 unique events)
+	Iterator_RemoveOnce (538 traces / 182 unique traces) (143724 events / 111225 unique events)
+	Collection_UnsafeIterator (538 traces / 182 unique traces) (288524 events / 222814 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (201948 events / 201948 unique events) (3029 events / 3029 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (201948 events / 201948 unique events) (3029 events / 3029 unique events in hot method)
+Classifier (cn.jimmiez.pcu.common.graphics.Octree.createOctree:190): CUT,ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#9
+Inspecting hot method cn.jimmiez.pcu.common.graphics.OctreeTest.assertNeighborsWithinRadius:62...
+Checking for isolation...
+732813,952,951,1
+Total 732813 (560002 unique) events are in hot method
+Total 952 (691 unique) traces are in hot method
+Total 951 (690 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 610836 (438025 unique) events are in isolated traces
+Total 890342 (890342 unique) events are in non-isolated traces (121977 / 121977 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (317 traces / 230 unique traces) (244271 events / 175164 unique events)
+	Iterator_RemoveOnce (317 traces / 230 unique traces) (121977 events / 87467 unique events)
+	Collection_UnsafeIterator (317 traces / 230 unique traces) (244588 events / 175394 unique events)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (890342 events / 890342 unique events) (121977 events / 121977 unique events in hot method)
+Classifier (cn.jimmiez.pcu.common.graphics.OctreeTest.assertNeighborsWithinRadius:62): CUT,ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#10
+Inspecting hot method cn.jimmiez.pcu.common.graphics.BoundingBox.of:57...
+Checking for isolation...
+479543,168,166,2
+Total 479543 (239790 unique) events are in hot method
+Total 168 (105 unique) traces are in hot method
+Total 166 (103 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 477537 (237784 unique) events are in isolated traces
+Total 2009 (2009 unique) events are in non-isolated traces (2006 / 2006 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (56 traces / 35 unique traces) (191806 events / 95909 unique events)
+	Iterator_RemoveOnce (56 traces / 35 unique traces) (95875 events / 47937 unique events)
+	Collection_UnsafeIterator (54 traces / 33 unique traces) (189856 events / 93938 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (2 traces / 2 unique traces) (2009 events / 2009 unique events) (2006 events / 2006 unique events in hot method)
+Classifier (cn.jimmiez.pcu.common.graphics.BoundingBox.of:57): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT
+
+#11
+Inspecting hot method cn.jimmiez.pcu.common.graph.UndirectedGraph.addEdge:18...
+Checking for isolation...
+272439,157,4,153
+Total 272439 (272303 unique) events are in hot method
+Total 157 (69 unique) traces are in hot method
+Total 4 (2 unique) isolated traces are in hot method
+Total 153 (67 unique) non-isolated traces that have events in hot method
+Total 4 (2 unique) events are in isolated traces
+Total 405877 (404897 unique) events are in non-isolated traces (272435 / 272301 unique are in hot method)
+Specs that have isolated traces:
+	Throwable_InitCauseOnce (4 traces / 2 unique traces) (4 events / 2 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (151 traces / 65 unique traces) (1981 events / 1001 unique events) (263 events / 129 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (201948 events / 201948 unique events) (136086 events / 136086 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (201948 events / 201948 unique events) (136086 events / 136086 unique events in hot method)
+Classifier (cn.jimmiez.pcu.common.graph.UndirectedGraph.addEdge:18): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#12
+Inspecting hot method cn.jimmiez.pcu.common.graphics.Octree.determineCandidatesWithinRadius:308...
+Checking for isolation...
+254804,17801,17801,0
+Total 254804 (2624 unique) events are in hot method
+Total 17801 (97 unique) traces are in hot method
+Total 17801 (97 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 254804 (2624 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (17801 traces / 97 unique traces) (254804 events / 2624 unique events)
+Classifier (cn.jimmiez.pcu.common.graphics.Octree.determineCandidatesWithinRadius:308): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#13
+Inspecting hot method cn.jimmiez.pcu.common.graph.Graphs.minimalSpanningTree:108...
+Checking for isolation...
+237922,1217,907,310
+Total 237922 (50768 unique) events are in hot method
+Total 1217 (134 unique) traces are in hot method
+Total 907 (97 unique) isolated traces are in hot method
+Total 310 (37 unique) non-isolated traces that have events in hot method
+Total 148406 (14881 unique) events are in isolated traces
+Total 2566905 (2512733 unique) events are in non-isolated traces (89516 / 35887 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (302 traces / 32 unique traces) (59300 events / 5944 unique events)
+	Iterator_RemoveOnce (302 traces / 32 unique traces) (29499 events / 2956 unique events)
+	Collection_UnsafeIterator (302 traces / 32 unique traces) (59602 events / 5976 unique events)
+	Collections_Comparable (1 traces / 1 unique traces) (5 events / 5 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (302 traces / 32 unique traces) (60206 events / 6040 unique events) (59602 events / 5976 unique events in hot method)
+	Collections_SortBeforeBinarySearch (5 traces / 2 unique traces) (11 events / 5 unique events) (5 events / 2 unique events in hot method)
+	Set_ItselfAsElement (1 traces / 1 unique traces) (890342 events / 890342 unique events) (307 events / 307 unique events in hot method)
+	PriorityQueue_NonNull (1 traces / 1 unique traces) (808173 events / 808173 unique events) (14801 events / 14801 unique events in hot method)
+	PriorityQueue_NonComparable (1 traces / 1 unique traces) (808173 events / 808173 unique events) (14801 events / 14801 unique events in hot method)
+Classifier (cn.jimmiez.pcu.common.graph.Graphs.minimalSpanningTree:108): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,RAW_ISOLATED_SINGLE_TRACE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#14
+Inspecting hot method cn.jimmiez.pcu.common.graph.Graphs.adjacentMatrix2List:309...
+Checking for isolation...
+76398,4786,4786,0
+Total 76398 (28687 unique) events are in hot method
+Total 4786 (10 unique) traces are in hot method
+Total 4786 (10 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 76398 (28687 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (4780 traces / 4 unique traces) (52502 events / 4791 unique events)
+	Collection_UnsafeIterator (2 traces / 2 unique traces) (9560 events / 9560 unique events)
+	Iterator_HasNext (2 traces / 2 unique traces) (9558 events / 9558 unique events)
+	Iterator_RemoveOnce (2 traces / 2 unique traces) (4778 events / 4778 unique events)
+Classifier (cn.jimmiez.pcu.common.graph.Graphs.adjacentMatrix2List:309): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT
+
+#15
+Inspecting hot method cn.jimmiez.pcu.io.ply.PlyReader.injectScalar:174...
+Checking for isolation...
+67012,9,0,9
+Total 67012 (62232 unique) events are in hot method
+Total 9 (6 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 9 (6 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 67021 (62238 unique) events are in non-isolated traces (67012 / 62232 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (9 traces / 6 unique traces) (67021 events / 62238 unique events) (67012 events / 62232 unique events in hot method)
+Classifier (cn.jimmiez.pcu.io.ply.PlyReader.injectScalar:174): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#16
+Inspecting hot method cn.jimmiez.pcu.common.graph.UndirectedGraph.addVertex:56...
+Checking for isolation...
+59788,30,0,30
+Total 59788 (59775 unique) events are in hot method
+Total 30 (27 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 30 (27 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 418408 (418382 unique) events are in non-isolated traces (59788 / 59775 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (28 traces / 25 unique traces) (14512 events / 14486 unique events) (14264 events / 14251 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (201948 events / 201948 unique events) (22762 events / 22762 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (201948 events / 201948 unique events) (22762 events / 22762 unique events in hot method)
+Classifier (cn.jimmiez.pcu.common.graph.UndirectedGraph.addVertex:56): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#17
+Inspecting hot method cn.jimmiez.pcu.util.PcuCommonUtil.incrementalIntegerList:18...
+Checking for isolation...
+58744,56,56,0
+Total 58744 (46303 unique) events are in hot method
+Total 56 (36 unique) traces are in hot method
+Total 56 (36 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 58744 (46303 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (56 traces / 36 unique traces) (58744 events / 46303 unique events)
+Classifier (cn.jimmiez.pcu.util.PcuCommonUtil.incrementalIntegerList:18): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#18
+Inspecting hot method cn.jimmiez.pcu.io.ply.PlyReader.injectList:103...
+Checking for isolation...
+54407,6,0,6
+Total 54407 (54403 unique) events are in hot method
+Total 6 (4 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 6 (4 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 54413 (54407 unique) events are in non-isolated traces (54407 / 54403 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (6 traces / 4 unique traces) (54413 events / 54407 unique events) (54407 events / 54403 unique events in hot method)
+Classifier (cn.jimmiez.pcu.io.ply.PlyReader.injectList:103): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#19
+Inspecting hot method cn.jimmiez.pcu.common.graph.Graphs.knnGraph:248...
+Checking for isolation...
+52502,3,2,1
+Total 52502 (52502 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 4778 (4778 unique) events are in isolated traces
+Total 890342 (890342 unique) events are in non-isolated traces (47724 / 47724 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (2 traces / 2 unique traces) (4778 events / 4778 unique events)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (890342 events / 890342 unique events) (47724 events / 47724 unique events in hot method)
+Classifier (cn.jimmiez.pcu.common.graph.Graphs.knnGraph:248): CUT,NOT_REDUNDANT_TRACES
+
+#20
+Inspecting hot method cn.jimmiez.pcu.io.ply.PlyData$BinaryParser.next:128...
+Checking for isolation...
+52117,3,3,0
+Total 52117 (52115 unique) events are in hot method
+Total 3 (2 unique) traces are in hot method
+Total 3 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 52117 (52115 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (3 traces / 2 unique traces) (52117 events / 52115 unique events)
+Classifier (cn.jimmiez.pcu.io.ply.PlyData$BinaryParser.next:128): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#21
+Inspecting hot method cn.jimmiez.pcu.CommonAssertions.assertGreaterThan:36...
+Checking for isolation...
+51249,9318,9318,0
+Total 51249 (11 unique) events are in hot method
+Total 9318 (2 unique) traces are in hot method
+Total 9318 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 51249 (11 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (4659 traces / 1 unique traces) (27954 events / 6 unique events)
+	Appendable_ThreadSafe (4659 traces / 1 unique traces) (23295 events / 5 unique events)
+Classifier (cn.jimmiez.pcu.CommonAssertions.assertGreaterThan:36): CUT,ISOLATED_ONE_UNIQUE
+
+#22
+Inspecting hot method cn.jimmiez.pcu.common.graphics.OctreeTest.randomData:17...
+Checking for isolation...
+40132,4,2,2
+Total 40132 (40132 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 25476 (25476 unique) events are in isolated traces
+Total 16656 (16656 unique) events are in non-isolated traces (14656 / 14656 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (2 traces / 2 unique traces) (25476 events / 25476 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (2 traces / 2 unique traces) (16656 events / 16656 unique events) (14656 events / 14656 unique events in hot method)
+Classifier (cn.jimmiez.pcu.common.graphics.OctreeTest.randomData:17): CUT,NOT_REDUNDANT_TRACES
+
+#23
+Inspecting hot method cn.jimmiez.pcu.util.PcuCommonUtil.arrayList2VecList:10...
+Checking for isolation...
+28623,4,4,0
+Total 28623 (28623 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 4 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 28623 (28623 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (4770 events / 4770 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (9542 events / 9542 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (9541 events / 9541 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (4770 events / 4770 unique events)
+Classifier (cn.jimmiez.pcu.util.PcuCommonUtil.arrayList2VecList:10): CUT,NOT_REDUNDANT_TRACES
+
+#24
+Inspecting hot method cn.jimmiez.pcu.alg.skeleton.LevelSetSkeleton.buildGeodesicGraph:163...
+Checking for isolation...
+28616,4773,4772,1
+Total 28616 (19116 unique) events are in hot method
+Total 4773 (11 unique) traces are in hot method
+Total 4772 (10 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 19078 (9578 unique) events are in isolated traces
+Total 890342 (890342 unique) events are in non-isolated traces (9538 / 9538 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (4772 traces / 10 unique traces) (19078 events / 9578 unique events)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (890342 events / 890342 unique events) (9538 events / 9538 unique events in hot method)
+Classifier (cn.jimmiez.pcu.alg.skeleton.LevelSetSkeleton.buildGeodesicGraph:163): CUT,ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#25
+Inspecting hot method cn.jimmiez.pcu.io.ply.PlyWriter.writeAsciiPlyImpl:180...
+Checking for isolation...
+26136,6031,6031,0
+Total 26136 (41 unique) events are in hot method
+Total 6031 (11 unique) traces are in hot method
+Total 6031 (11 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 26136 (41 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (2009 traces / 3 unique traces) (10051 events / 15 unique events)
+	Collection_UnsafeIterator (2009 traces / 3 unique traces) (12060 events / 18 unique events)
+	Iterator_RemoveOnce (2009 traces / 3 unique traces) (4021 events / 6 unique events)
+	Closeable_MultipleClose (2 traces / 1 unique traces) (2 events / 1 unique events)
+	OutputStream_ManipulateAfterClose (2 traces / 1 unique traces) (2 events / 1 unique events)
+Classifier (cn.jimmiez.pcu.io.ply.PlyWriter.writeAsciiPlyImpl:180): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE
+
+#26
+Inspecting hot method cn.jimmiez.pcu.alg.skeleton.LevelSetSkeleton.baryCenter:305...
+Checking for isolation...
+23937,87,87,0
+Total 23937 (20587 unique) events are in hot method
+Total 87 (72 unique) traces are in hot method
+Total 87 (72 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 23937 (20587 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (29 traces / 24 unique traces) (9598 events / 8254 unique events)
+	Iterator_HasNext (29 traces / 24 unique traces) (9569 events / 8230 unique events)
+	Iterator_RemoveOnce (29 traces / 24 unique traces) (4770 events / 4103 unique events)
+Classifier (cn.jimmiez.pcu.alg.skeleton.LevelSetSkeleton.baryCenter:305): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#27
+Inspecting hot method cn.jimmiez.pcu.common.graph.UndirectedGraph.adjacentVertices:110...
+Checking for isolation...
+20691,18706,12502,6204
+Total 20691 (642 unique) events are in hot method
+Total 18706 (176 unique) traces are in hot method
+Total 12502 (10 unique) isolated traces are in hot method
+Total 6204 (166 unique) non-isolated traces that have events in hot method
+Total 13222 (40 unique) events are in isolated traces
+Total 257550 (13910 unique) events are in non-isolated traces (7469 / 602 unique are in hot method)
+Specs that have isolated traces:
+	Map_CollectionViewAdd (6266 traces / 8 unique traces) (6681 events / 37 unique events)
+	Map_UnsafeIterator (6236 traces / 2 unique traces) (6541 events / 3 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (6202 traces / 165 unique traces) (257546 events / 13908 unique events) (7467 events / 601 unique events in hot method)
+	Map_CollectionViewAdd (2 traces / 1 unique traces) (4 events / 2 unique events) (2 events / 1 unique events in hot method)
+Classifier (cn.jimmiez.pcu.common.graph.UndirectedGraph.adjacentVertices:110): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_ONE_UNIQUE
+
+#28
+Inspecting hot method cn.jimmiez.pcu.common.graph.EntityGraph.addVertex:37...
+Checking for isolation...
+20484,8,2,6
+Total 20484 (20483 unique) events are in hot method
+Total 8 (7 unique) traces are in hot method
+Total 2 (1 unique) isolated traces are in hot method
+Total 6 (6 unique) non-isolated traces that have events in hot method
+Total 2 (1 unique) events are in isolated traces
+Total 403923 (403923 unique) events are in non-isolated traces (20482 / 20482 unique are in hot method)
+Specs that have isolated traces:
+	Throwable_InitCauseOnce (2 traces / 1 unique traces) (2 events / 1 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (4 traces / 4 unique traces) (27 events / 27 unique events) (4 events / 4 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (201948 events / 201948 unique events) (10239 events / 10239 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (201948 events / 201948 unique events) (10239 events / 10239 unique events in hot method)
+Classifier (cn.jimmiez.pcu.common.graph.EntityGraph.addVertex:37): CUT,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#29
+Inspecting hot method cn.jimmiez.pcu.alg.sampler.OctreeVoxelizer.voxelize:24...
+Checking for isolation...
+12256,7,7,0
+Total 12256 (12256 unique) events are in hot method
+Total 7 (7 unique) traces are in hot method
+Total 7 (7 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 12256 (12256 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Map_UnsafeIterator (2 traces / 2 unique traces) (3066 events / 3066 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (3063 events / 3063 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (1531 events / 1531 unique events)
+	Map_CollectionViewAdd (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (3064 events / 3064 unique events)
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (1531 events / 1531 unique events)
+Classifier (cn.jimmiez.pcu.alg.sampler.OctreeVoxelizer.voxelize:24): CUT,NOT_REDUNDANT_TRACES
+
+#30
+Inspecting hot method cn.jimmiez.pcu.alg.projector.WeightedLocallyOptimalProjector.computeRepulsionTerm:119...
+Checking for isolation...
+12020,470,470,0
+Total 12020 (110 unique) events are in hot method
+Total 470 (5 unique) traces are in hot method
+Total 470 (5 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 12020 (110 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (150 traces / 1 unique traces) (4650 events / 31 unique events)
+	Iterator_RemoveOnce (150 traces / 1 unique traces) (2250 events / 15 unique events)
+	Collection_UnsafeIterator (150 traces / 1 unique traces) (4800 events / 32 unique events)
+	Collections_SortBeforeBinarySearch (20 traces / 2 unique traces) (320 events / 32 unique events)
+Classifier (cn.jimmiez.pcu.alg.projector.WeightedLocallyOptimalProjector.computeRepulsionTerm:119): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE
+
+#31
+Inspecting hot method cn.jimmiez.pcu.alg.projector.WeightedLocallyOptimalProjector.computeDensity:152...
+Checking for isolation...
+11995,467,465,2
+Total 11995 (261 unique) events are in hot method
+Total 467 (8 unique) traces are in hot method
+Total 465 (6 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 11840 (106 unique) events are in isolated traces
+Total 176 (176 unique) events are in non-isolated traces (155 / 155 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (155 traces / 2 unique traces) (4705 events / 42 unique events)
+	Iterator_RemoveOnce (155 traces / 2 unique traces) (2275 events / 20 unique events)
+	Collection_UnsafeIterator (155 traces / 2 unique traces) (4860 events / 44 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (2 traces / 2 unique traces) (176 events / 176 unique events) (155 events / 155 unique events in hot method)
+Classifier (cn.jimmiez.pcu.alg.projector.WeightedLocallyOptimalProjector.computeDensity:152): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT
+
+#32
+Inspecting hot method cn.jimmiez.pcu.alg.skeleton.LevelSetSkeleton.searchAdjacentSkeletonPoint:318...
+Checking for isolation...
+11221,102,102,0
+Total 11221 (10188 unique) events are in hot method
+Total 102 (84 unique) traces are in hot method
+Total 102 (84 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 11221 (10188 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (34 traces / 28 unique traces) (4510 events / 4093 unique events)
+	Iterator_HasNext (34 traces / 28 unique traces) (4476 events / 4065 unique events)
+	Iterator_RemoveOnce (34 traces / 28 unique traces) (2235 events / 2030 unique events)
+Classifier (cn.jimmiez.pcu.alg.skeleton.LevelSetSkeleton.searchAdjacentSkeletonPoint:318): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#33
+Inspecting hot method cn.jimmiez.pcu.alg.skeleton.LevelSetSkeleton$LevelSet.addPoint:409...
+Checking for isolation...
+9540,44,44,0
+Total 9540 (9304 unique) events are in hot method
+Total 44 (42 unique) traces are in hot method
+Total 44 (42 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 9540 (9304 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (44 traces / 42 unique traces) (9540 events / 9304 unique events)
+Classifier (cn.jimmiez.pcu.alg.skeleton.LevelSetSkeleton$LevelSet.addPoint:409): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#34
+Inspecting hot method cn.jimmiez.pcu.common.graph.Graphs.containsCycle:58...
+Checking for isolation...
+8918,1353,1016,337
+Total 8918 (3205 unique) events are in hot method
+Total 1353 (99 unique) traces are in hot method
+Total 1016 (67 unique) isolated traces are in hot method
+Total 337 (32 unique) non-isolated traces that have events in hot method
+Total 6039 (2112 unique) events are in isolated traces
+Total 893283 (891188 unique) events are in non-isolated traces (2879 / 1093 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (336 traces / 20 unique traces) (2210 events / 708 unique events)
+	Collection_UnsafeIterator (336 traces / 20 unique traces) (2546 events / 728 unique events)
+	Iterator_RemoveOnce (329 traces / 17 unique traces) (940 events / 343 unique events)
+	Collections_SortBeforeBinarySearch (8 traces / 8 unique traces) (325 events / 325 unique events)
+	Collection_UnsynchronizedAddAll (6 traces / 1 unique traces) (12 events / 2 unique events)
+	CharSequence_NotInSet (1 traces / 1 unique traces) (6 events / 6 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (336 traces / 31 unique traces) (2941 events / 846 unique events) (2546 events / 760 unique events in hot method)
+	Set_ItselfAsElement (1 traces / 1 unique traces) (890342 events / 890342 unique events) (333 events / 333 unique events in hot method)
+Classifier (cn.jimmiez.pcu.common.graph.Graphs.containsCycle:58): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,RAW_ISOLATED_SINGLE_TRACE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#35
+Inspecting hot method cn.jimmiez.pcu.common.graph.EntityGraph.addVertex:50...
+Checking for isolation...
+7866,2,0,2
+Total 7866 (7866 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 403896 (403896 unique) events are in non-isolated traces (7866 / 7866 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (201948 events / 201948 unique events) (3933 events / 3933 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (201948 events / 201948 unique events) (3933 events / 3933 unique events in hot method)
+Classifier (cn.jimmiez.pcu.common.graph.EntityGraph.addVertex:50): LIB,NOT_REDUNDANT_TRACES
+
+#36
+Inspecting hot method cn.jimmiez.pcu.alg.sampler.OctreeVoxelizerTest.testVoxelize:16...
+Checking for isolation...
+7658,3,3,0
+Total 7658 (7658 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 7658 (7658 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (3063 events / 3063 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (1531 events / 1531 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (3064 events / 3064 unique events)
+Classifier (cn.jimmiez.pcu.alg.sampler.OctreeVoxelizerTest.testVoxelize:16): LIB,NOT_REDUNDANT_TRACES
+
+#37
+Inspecting hot method cn.jimmiez.pcu.io.obj.ObjReader$ObjParser.parseObjData:111...
+Checking for isolation...
+7471,2,1,1
+Total 7471 (7471 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 4968 (4968 unique) events are in isolated traces
+Total 2504 (2504 unique) events are in non-isolated traces (2503 / 2503 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (4968 events / 4968 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (2504 events / 2504 unique events) (2503 events / 2503 unique events in hot method)
+Classifier (cn.jimmiez.pcu.io.obj.ObjReader$ObjParser.parseObjData:111): CUT,NOT_REDUNDANT_TRACES
+
+#38
+Inspecting hot method cn.jimmiez.pcu.common.graph.Graphs.edgesCountOf:203...
+Checking for isolation...
+6921,36,29,7
+Total 6921 (6078 unique) events are in hot method
+Total 36 (33 unique) traces are in hot method
+Total 29 (26 unique) isolated traces are in hot method
+Total 7 (7 unique) non-isolated traces that have events in hot method
+Total 4955 (4112 unique) events are in isolated traces
+Total 1975 (1975 unique) events are in non-isolated traces (1966 / 1966 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (10 traces / 9 unique traces) (1980 events / 1643 unique events)
+	Collection_UnsafeIterator (10 traces / 9 unique traces) (1990 events / 1652 unique events)
+	Iterator_RemoveOnce (9 traces / 8 unique traces) (985 events / 817 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (7 traces / 7 unique traces) (1975 events / 1975 unique events) (1966 events / 1966 unique events in hot method)
+Classifier (cn.jimmiez.pcu.common.graph.Graphs.edgesCountOf:203): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT
+
+#39
+Inspecting hot method cn.jimmiez.pcu.common.graphics.OctreeTest.assertKNearestNeighbors:41...
+Checking for isolation...
+5452,1,0,1
+Total 5452 (5452 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 890342 (890342 unique) events are in non-isolated traces (5452 / 5452 unique are in hot method)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (890342 events / 890342 unique events) (5452 events / 5452 unique events in hot method)
+Classifier (cn.jimmiez.pcu.common.graphics.OctreeTest.assertKNearestNeighbors:41): CUT,NOT_REDUNDANT_TRACES
+
+#40
+Inspecting hot method cn.jimmiez.pcu.common.graphics.HoppeEstimatorTest.testEstimateNormals:19...
+Checking for isolation...
+5003,3,3,0
+Total 5003 (5003 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5003 (5003 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (2001 events / 2001 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (1000 events / 1000 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (2002 events / 2002 unique events)
+Classifier (cn.jimmiez.pcu.common.graphics.HoppeEstimatorTest.testEstimateNormals:19): CUT,NOT_REDUNDANT_TRACES
+
+#41
+Inspecting hot method com.mkobos.pca_transform.covmatrixevd.EVD.calculateNondecreasingPermutation:52...
+Checking for isolation...
+5000,1001,1001,0
+Total 5000 (1004 unique) events are in hot method
+Total 1001 (2 unique) traces are in hot method
+Total 1001 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5000 (1004 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1000 traces / 1 unique traces) (4000 events / 4 unique events)
+	Collections_ImplementComparable (1 traces / 1 unique traces) (1000 events / 1000 unique events)
+Classifier (com.mkobos.pca_transform.covmatrixevd.EVD.calculateNondecreasingPermutation:52): LIB,ISOLATED_ONE_UNIQUE,RAW_ISOLATED_SINGLE_TRACE
+
+#42
+Inspecting hot method cn.jimmiez.pcu.alg.skeleton.LevelSetSkeleton.buildNeighborhoodGraph:102...
+Checking for isolation...
+4770,1,1,0
+Total 4770 (4770 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 4770 (4770 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (4770 events / 4770 unique events)
+Classifier (cn.jimmiez.pcu.alg.skeleton.LevelSetSkeleton.buildNeighborhoodGraph:102): LIB,NOT_REDUNDANT_TRACES
+
+#43
+Inspecting hot method cn.jimmiez.pcu.alg.projector.WeightedLocallyOptimalProjector.computeAverageTerm:89...
+Checking for isolation...
+4520,470,470,0
+Total 4520 (60 unique) events are in hot method
+Total 470 (5 unique) traces are in hot method
+Total 470 (5 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 4520 (60 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (150 traces / 1 unique traces) (1650 events / 11 unique events)
+	Iterator_RemoveOnce (150 traces / 1 unique traces) (750 events / 5 unique events)
+	Collection_UnsafeIterator (150 traces / 1 unique traces) (1800 events / 12 unique events)
+	Collections_SortBeforeBinarySearch (20 traces / 2 unique traces) (320 events / 32 unique events)
+Classifier (cn.jimmiez.pcu.alg.projector.WeightedLocallyOptimalProjector.computeAverageTerm:89): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE
+
+#44
+Inspecting hot method cn.jimmiez.pcu.DataUtil.generateRandomData:12...
+Checking for isolation...
+3590,5,4,1
+Total 3590 (3530 unique) events are in hot method
+Total 5 (3 unique) traces are in hot method
+Total 4 (2 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 3090 (3030 unique) events are in isolated traces
+Total 502 (502 unique) events are in non-isolated traces (500 / 500 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (4 traces / 2 unique traces) (3090 events / 3030 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (502 events / 502 unique events) (500 events / 500 unique events in hot method)
+Classifier (cn.jimmiez.pcu.DataUtil.generateRandomData:12): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_SINGLE_TRACE
+
+#45
+Inspecting hot method cn.jimmiez.pcu.common.graph.DirectedGraph.addEdge:20...
+Checking for isolation...
+2939,10,4,6
+Total 2939 (2938 unique) events are in hot method
+Total 10 (9 unique) traces are in hot method
+Total 4 (3 unique) isolated traces are in hot method
+Total 6 (6 unique) non-isolated traces that have events in hot method
+Total 4 (3 unique) events are in isolated traces
+Total 403911 (403911 unique) events are in non-isolated traces (2935 / 2935 unique are in hot method)
+Specs that have isolated traces:
+	Throwable_InitCauseOnce (4 traces / 3 unique traces) (4 events / 3 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (4 traces / 4 unique traces) (15 events / 15 unique events) (7 events / 7 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (201948 events / 201948 unique events) (1464 events / 1464 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (201948 events / 201948 unique events) (1464 events / 1464 unique events in hot method)
+Classifier (cn.jimmiez.pcu.common.graph.DirectedGraph.addEdge:20): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#46
+Inspecting hot method cn.jimmiez.pcu.io.ply.PlyData$AsciiParser.next:80...
+Checking for isolation...
+2290,3,3,0
+Total 2290 (2290 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2290 (2290 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (3 traces / 3 unique traces) (2290 events / 2290 unique events)
+Classifier (cn.jimmiez.pcu.io.ply.PlyData$AsciiParser.next:80): CUT,NOT_REDUNDANT_TRACES
+
+#47
+Inspecting hot method cn.jimmiez.pcu.DataUtil.generateRandomGraph:31...
+Checking for isolation...
+2112,88,88,0
+Total 2112 (1056 unique) events are in hot method
+Total 88 (48 unique) traces are in hot method
+Total 88 (48 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2112 (1056 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (22 traces / 12 unique traces) (341 events / 170 unique events)
+	Collection_UnsafeIterator (22 traces / 12 unique traces) (726 events / 364 unique events)
+	Iterator_HasNext (22 traces / 12 unique traces) (704 events / 352 unique events)
+	Iterator_RemoveOnce (22 traces / 12 unique traces) (341 events / 170 unique events)
+Classifier (cn.jimmiez.pcu.DataUtil.generateRandomGraph:31): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#48
+Inspecting hot method cn.jimmiez.pcu.io.ply.PlyWriterTest$PlyEntity.<init>:196...
+Checking for isolation...
+2000,2,2,0
+Total 2000 (2000 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2000 (2000 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (2 traces / 2 unique traces) (2000 events / 2000 unique events)
+Classifier (cn.jimmiez.pcu.io.ply.PlyWriterTest$PlyEntity.<init>:196): CUT,NOT_REDUNDANT_TRACES
+
+#49
+Inspecting hot method cn.jimmiez.pcu.common.graphics.Normalizer.normalize:23...
+Checking for isolation...
+1506,6,6,0
+Total 1506 (1506 unique) events are in hot method
+Total 6 (6 unique) traces are in hot method
+Total 6 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1506 (1506 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (2 traces / 2 unique traces) (602 events / 602 unique events)
+	Iterator_RemoveOnce (2 traces / 2 unique traces) (300 events / 300 unique events)
+	Collection_UnsafeIterator (2 traces / 2 unique traces) (604 events / 604 unique events)
+Classifier (cn.jimmiez.pcu.common.graphics.Normalizer.normalize:23): CUT,NOT_REDUNDANT_TRACES
+
+#50
+Inspecting hot method cn.jimmiez.pcu.common.graphics.curve.CardinalInterpolator.interpolateImpl:116...
+Checking for isolation...
+1255,294,233,61
+Total 1255 (442 unique) events are in hot method
+Total 294 (70 unique) traces are in hot method
+Total 233 (41 unique) isolated traces are in hot method
+Total 61 (29 unique) non-isolated traces that have events in hot method
+Total 861 (198 unique) events are in isolated traces
+Total 1295037 (1294653 unique) events are in non-isolated traces (394 / 244 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (75 traces / 12 unique traces) (313 events / 68 unique events)
+	Iterator_RemoveOnce (75 traces / 12 unique traces) (135 events / 30 unique events)
+	Collection_UnsafeIterator (75 traces / 12 unique traces) (388 events / 80 unique events)
+	Collections_SortBeforeBinarySearch (8 traces / 5 unique traces) (25 events / 20 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (58 traces / 26 unique traces) (799 events / 415 unique events) (292 events / 142 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (201948 events / 201948 unique events) (25 events / 25 unique events in hot method)
+	Set_ItselfAsElement (1 traces / 1 unique traces) (890342 events / 890342 unique events) (52 events / 52 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (201948 events / 201948 unique events) (25 events / 25 unique events in hot method)
+Classifier (cn.jimmiez.pcu.common.graphics.curve.CardinalInterpolator.interpolateImpl:116): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#51
+Inspecting hot method cn.jimmiez.pcu.common.graph.DirectedGraph.addVertex:56...
+Checking for isolation...
+1142,17,0,17
+Total 1142 (1139 unique) events are in hot method
+Total 17 (15 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 17 (15 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 404176 (404165 unique) events are in non-isolated traces (1142 / 1139 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (15 traces / 13 unique traces) (280 events / 269 unique events) (66 events / 63 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (201948 events / 201948 unique events) (538 events / 538 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (201948 events / 201948 unique events) (538 events / 538 unique events in hot method)
+Classifier (cn.jimmiez.pcu.common.graph.DirectedGraph.addVertex:56): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#52
+Inspecting hot method cn.jimmiez.pcu.common.graph.DirectedGraph.adjacentVertices:110...
+Checking for isolation...
+1093,1033,1005,28
+Total 1093 (83 unique) events are in hot method
+Total 1033 (32 unique) traces are in hot method
+Total 1005 (8 unique) isolated traces are in hot method
+Total 28 (24 unique) non-isolated traces that have events in hot method
+Total 1028 (22 unique) events are in isolated traces
+Total 141 (122 unique) events are in non-isolated traces (65 / 61 unique are in hot method)
+Specs that have isolated traces:
+	Map_CollectionViewAdd (505 traces / 4 unique traces) (519 events / 11 unique events)
+	Map_UnsafeIterator (500 traces / 4 unique traces) (509 events / 11 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (26 traces / 22 unique traces) (136 events / 117 unique events) (62 events / 58 unique events in hot method)
+	Map_CollectionViewAdd (2 traces / 2 unique traces) (5 events / 5 unique events) (3 events / 3 unique events in hot method)
+Classifier (cn.jimmiez.pcu.common.graph.DirectedGraph.adjacentVertices:110): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT
+
+#53
+Inspecting hot method cn.jimmiez.pcu.common.graphics.HoppeEstimatorTest.generatePlaneData:32...
+Checking for isolation...
+1000,1,1,0
+Total 1000 (1000 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1000 (1000 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (1000 events / 1000 unique events)
+Classifier (cn.jimmiez.pcu.common.graphics.HoppeEstimatorTest.generatePlaneData:32): LIB,NOT_REDUNDANT_TRACES
+
+#54
+Inspecting hot method cn.jimmiez.pcu.alg.normal.HoppeEstimator.estimateNormals:27...
+Checking for isolation...
+1000,1,1,0
+Total 1000 (1000 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1000 (1000 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (1000 events / 1000 unique events)
+Classifier (cn.jimmiez.pcu.alg.normal.HoppeEstimator.estimateNormals:27): LIB,NOT_REDUNDANT_TRACES
+
+#55
+Inspecting hot method cn.jimmiez.pcu.common.graph.GraphsTest.generateGraph3:405...
+Checking for isolation...
+1000,1,1,0
+Total 1000 (1000 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1000 (1000 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (1000 events / 1000 unique events)
+Classifier (cn.jimmiez.pcu.common.graph.GraphsTest.generateGraph3:405): LIB,NOT_REDUNDANT_TRACES
+
+#56
+Inspecting hot method cn.jimmiez.pcu.common.graph.Graphs.fullConnectedGraph:211...
+Checking for isolation...
+1000,1,1,0
+Total 1000 (1000 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1000 (1000 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (1000 events / 1000 unique events)
+Classifier (cn.jimmiez.pcu.common.graph.Graphs.fullConnectedGraph:211): LIB,NOT_REDUNDANT_TRACES
+
+#57
+Inspecting hot method cn.jimmiez.pcu.common.graphics.OctreeTest.testSearchNearestNeighbors:74...
+Checking for isolation...
+1000,1,0,1
+Total 1000 (1000 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 8328 (8328 unique) events are in non-isolated traces (1000 / 1000 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (8328 events / 8328 unique events) (1000 events / 1000 unique events in hot method)
+Classifier (cn.jimmiez.pcu.common.graphics.OctreeTest.testSearchNearestNeighbors:74): LIB,NOT_REDUNDANT_TRACES
+
+#58
+Inspecting hot method cn.jimmiez.pcu.common.graphics.curve.CardinalInterpolator.insertPoints:82...
+Checking for isolation...
+879,112,112,0
+Total 879 (174 unique) events are in hot method
+Total 112 (26 unique) traces are in hot method
+Total 112 (26 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 879 (174 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (30 traces / 7 unique traces) (312 events / 53 unique events)
+	Collection_UnsafeIterator (30 traces / 7 unique traces) (342 events / 60 unique events)
+	Iterator_RemoveOnce (28 traces / 6 unique traces) (141 events / 23 unique events)
+	Map_UnsafeIterator (16 traces / 5 unique traces) (76 events / 37 unique events)
+	Map_CollectionViewAdd (8 traces / 1 unique traces) (8 events / 1 unique events)
+Classifier (cn.jimmiez.pcu.common.graphics.curve.CardinalInterpolator.insertPoints:82): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE
+
+#59
+Inspecting hot method cn.jimmiez.pcu.common.graphics.curve.CardinalInterpolator.adjacentPoint:62...
+Checking for isolation...
+674,136,102,34
+Total 674 (147 unique) events are in hot method
+Total 136 (24 unique) traces are in hot method
+Total 102 (6 unique) isolated traces are in hot method
+Total 34 (18 unique) non-isolated traces that have events in hot method
+Total 462 (31 unique) events are in isolated traces
+Total 572 (332 unique) events are in non-isolated traces (212 / 116 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (34 traces / 2 unique traces) (178 events / 12 unique events)
+	Iterator_RemoveOnce (34 traces / 2 unique traces) (72 events / 5 unique events)
+	Collection_UnsafeIterator (34 traces / 2 unique traces) (212 events / 14 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (34 traces / 18 unique traces) (572 events / 332 unique events) (212 events / 116 unique events in hot method)
+Classifier (cn.jimmiez.pcu.common.graphics.curve.CardinalInterpolator.adjacentPoint:62): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#60
+Inspecting hot method cn.jimmiez.pcu.io.ply.PlyReader.injectData:240...
+Checking for isolation...
+584,24,24,0
+Total 584 (219 unique) events are in hot method
+Total 24 (9 unique) traces are in hot method
+Total 24 (9 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 584 (219 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (8 traces / 3 unique traces) (240 events / 90 unique events)
+	Iterator_HasNext (8 traces / 3 unique traces) (232 events / 87 unique events)
+	Iterator_RemoveOnce (8 traces / 3 unique traces) (112 events / 42 unique events)
+Classifier (cn.jimmiez.pcu.io.ply.PlyReader.injectData:240): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#61
+Inspecting hot method cn.jimmiez.pcu.common.graph.Graphs.subGraph:158...
+Checking for isolation...
+457,81,76,5
+Total 457 (193 unique) events are in hot method
+Total 81 (26 unique) traces are in hot method
+Total 76 (21 unique) isolated traces are in hot method
+Total 5 (5 unique) non-isolated traces that have events in hot method
+Total 397 (133 unique) events are in isolated traces
+Total 403945 (403945 unique) events are in non-isolated traces (60 / 60 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (21 traces / 7 unique traces) (148 events / 58 unique events)
+	Iterator_RemoveOnce (20 traces / 6 unique traces) (64 events / 26 unique events)
+	Collection_UnsafeIterator (18 traces / 4 unique traces) (143 events / 39 unique events)
+	Collections_SortBeforeBinarySearch (17 traces / 4 unique traces) (42 events / 10 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (3 traces / 3 unique traces) (49 events / 49 unique events) (26 events / 26 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (201948 events / 201948 unique events) (17 events / 17 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (201948 events / 201948 unique events) (17 events / 17 unique events in hot method)
+Classifier (cn.jimmiez.pcu.common.graph.Graphs.subGraph:158): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#62
+Inspecting hot method cn.jimmiez.pcu.alg.projector.LocallyOptimalProjector.successiveIteration:105...
+Checking for isolation...
+420,42,40,2
+Total 420 (39 unique) events are in hot method
+Total 42 (3 unique) traces are in hot method
+Total 40 (2 unique) isolated traces are in hot method
+Total 2 (1 unique) non-isolated traces that have events in hot method
+Total 380 (19 unique) events are in isolated traces
+Total 72 (36 unique) events are in non-isolated traces (40 / 20 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (20 traces / 1 unique traces) (320 events / 16 unique events)
+	Collection_UnsynchronizedAddAll (20 traces / 1 unique traces) (60 events / 3 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (2 traces / 1 unique traces) (72 events / 36 unique events) (40 events / 20 unique events in hot method)
+Classifier (cn.jimmiez.pcu.alg.projector.LocallyOptimalProjector.successiveIteration:105): CUT,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_ONE_UNIQUE
+
+#63
+Inspecting hot method cn.jimmiez.pcu.alg.projector.WeightedLocallyOptimalProjector.iterate:173...
+Checking for isolation...
+335,3,3,0
+Total 335 (335 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 335 (335 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (3 traces / 3 unique traces) (335 events / 335 unique events)
+Classifier (cn.jimmiez.pcu.alg.projector.WeightedLocallyOptimalProjector.iterate:173): LIB,NOT_REDUNDANT_TRACES
+
+#64
+Inspecting hot method cn.jimmiez.pcu.common.graph.UndirectedGraph.vertices:82...
+Checking for isolation...
+314,191,115,76
+Total 314 (158 unique) events are in hot method
+Total 191 (79 unique) traces are in hot method
+Total 115 (8 unique) isolated traces are in hot method
+Total 76 (71 unique) non-isolated traces that have events in hot method
+Total 169 (20 unique) events are in isolated traces
+Total 27155 (26883 unique) events are in non-isolated traces (145 / 138 unique are in hot method)
+Specs that have isolated traces:
+	Map_CollectionViewAdd (64 traces / 4 unique traces) (99 events / 10 unique events)
+	Map_UnsafeIterator (51 traces / 4 unique traces) (70 events / 10 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (74 traces / 69 unique traces) (27146 events / 26874 unique events) (139 events / 132 unique events in hot method)
+	Map_CollectionViewAdd (2 traces / 2 unique traces) (9 events / 9 unique events) (6 events / 6 unique events in hot method)
+Classifier (cn.jimmiez.pcu.common.graph.UndirectedGraph.vertices:82): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT
+
+#65
+Inspecting hot method cn.jimmiez.pcu.io.ply.PlyWriter$PlyWriterRequest.checkData:562...
+Checking for isolation...
+264,72,72,0
+Total 264 (64 unique) events are in hot method
+Total 72 (16 unique) traces are in hot method
+Total 72 (16 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 264 (64 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Map_UnsafeIterator (24 traces / 5 unique traces) (96 events / 23 unique events)
+	Map_CollectionViewAdd (12 traces / 2 unique traces) (12 events / 2 unique events)
+	Iterator_HasNext (12 traces / 3 unique traces) (60 events / 15 unique events)
+	Collection_UnsafeIterator (12 traces / 3 unique traces) (72 events / 18 unique events)
+	Iterator_RemoveOnce (12 traces / 3 unique traces) (24 events / 6 unique events)
+Classifier (cn.jimmiez.pcu.io.ply.PlyWriter$PlyWriterRequest.checkData:562): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#66
+Inspecting hot method cn.jimmiez.pcu.common.graph.UndirectedGraph.removeEdge:34...
+Checking for isolation...
+259,152,0,152
+Total 259 (125 unique) events are in hot method
+Total 152 (66 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 152 (66 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 1984 (1004 unique) events are in non-isolated traces (259 / 125 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (152 traces / 66 unique traces) (1984 events / 1004 unique events) (259 events / 125 unique events in hot method)
+Classifier (cn.jimmiez.pcu.common.graph.UndirectedGraph.removeEdge:34): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#67
+Inspecting hot method cn.jimmiez.pcu.common.graphics.curve.CardinalInterpolatorTest.testInterpolate:19...
+Checking for isolation...
+250,4,3,1
+Total 250 (250 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 178 (178 unique) events are in isolated traces
+Total 105 (105 unique) events are in non-isolated traces (72 / 72 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (71 events / 71 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (35 events / 35 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (72 events / 72 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (1 traces / 1 unique traces) (105 events / 105 unique events) (72 events / 72 unique events in hot method)
+Classifier (cn.jimmiez.pcu.common.graphics.curve.CardinalInterpolatorTest.testInterpolate:19): LIB,NOT_REDUNDANT_TRACES
+
+#68
+Inspecting hot method cn.jimmiez.pcu.common.graph.DirectedGraph.removeVertex:64...
+Checking for isolation...
+238,55,36,19
+Total 238 (200 unique) events are in hot method
+Total 55 (34 unique) traces are in hot method
+Total 36 (15 unique) isolated traces are in hot method
+Total 19 (19 unique) non-isolated traces that have events in hot method
+Total 87 (49 unique) events are in isolated traces
+Total 303 (303 unique) events are in non-isolated traces (151 / 151 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (9 traces / 4 unique traces) (27 events / 16 unique events)
+	Collection_UnsafeIterator (9 traces / 4 unique traces) (36 events / 20 unique events)
+	Map_UnsafeIterator (6 traces / 2 unique traces) (8 events / 4 unique events)
+	Map_CollectionViewAdd (6 traces / 2 unique traces) (7 events / 3 unique events)
+	Iterator_RemoveOnce (6 traces / 3 unique traces) (9 events / 6 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (14 traces / 14 unique traces) (273 events / 273 unique events) (140 events / 140 unique events in hot method)
+	Map_CollectionViewAdd (5 traces / 5 unique traces) (30 events / 30 unique events) (11 events / 11 unique events in hot method)
+Classifier (cn.jimmiez.pcu.common.graph.DirectedGraph.removeVertex:64): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT
+
+#69
+Inspecting hot method cn.jimmiez.pcu.io.ply.PlyWriter.writeBinaryPlyImpl:298...
+Checking for isolation...
+238,48,48,0
+Total 238 (39 unique) events are in hot method
+Total 48 (9 unique) traces are in hot method
+Total 48 (9 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 238 (39 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (16 traces / 3 unique traces) (108 events / 18 unique events)
+	Iterator_HasNext (16 traces / 3 unique traces) (92 events / 15 unique events)
+	Iterator_RemoveOnce (16 traces / 3 unique traces) (38 events / 6 unique events)
+Classifier (cn.jimmiez.pcu.io.ply.PlyWriter.writeBinaryPlyImpl:298): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#70
+Inspecting hot method cn.jimmiez.pcu.io.off.OffReader.injectData:224...
+Checking for isolation...
+224,9,9,0
+Total 224 (146 unique) events are in hot method
+Total 9 (6 unique) traces are in hot method
+Total 9 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 224 (146 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (3 traces / 2 unique traces) (89 events / 58 unique events)
+	Iterator_RemoveOnce (3 traces / 2 unique traces) (43 events / 28 unique events)
+	Collection_UnsafeIterator (3 traces / 2 unique traces) (92 events / 60 unique events)
+Classifier (cn.jimmiez.pcu.io.off.OffReader.injectData:224): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#71
+Inspecting hot method cn.jimmiez.pcu.common.graph.DirectedGraph.vertices:82...
+Checking for isolation...
+214,48,20,28
+Total 214 (173 unique) events are in hot method
+Total 48 (34 unique) traces are in hot method
+Total 20 (9 unique) isolated traces are in hot method
+Total 28 (25 unique) non-isolated traces that have events in hot method
+Total 73 (43 unique) events are in isolated traces
+Total 1356 (1337 unique) events are in non-isolated traces (141 / 130 unique are in hot method)
+Specs that have isolated traces:
+	Map_CollectionViewAdd (13 traces / 5 unique traces) (46 events / 23 unique events)
+	Map_UnsafeIterator (7 traces / 4 unique traces) (27 events / 20 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (25 traces / 22 unique traces) (1331 events / 1312 unique events) (125 events / 114 unique events in hot method)
+	Map_CollectionViewAdd (3 traces / 3 unique traces) (25 events / 25 unique events) (16 events / 16 unique events in hot method)
+Classifier (cn.jimmiez.pcu.common.graph.DirectedGraph.vertices:82): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT
+
+#72
+Inspecting hot method cn.jimmiez.pcu.io.ply.PlyWriter.generatePlyHeaderString:136...
+Checking for isolation...
+203,48,48,0
+Total 203 (60 unique) events are in hot method
+Total 48 (15 unique) traces are in hot method
+Total 48 (15 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 203 (60 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (16 traces / 5 unique traces) (78 events / 23 unique events)
+	Collection_UnsafeIterator (16 traces / 5 unique traces) (94 events / 28 unique events)
+	Iterator_RemoveOnce (16 traces / 5 unique traces) (31 events / 9 unique events)
+Classifier (cn.jimmiez.pcu.io.ply.PlyWriter.generatePlyHeaderString:136): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#73
+Inspecting hot method cn.jimmiez.pcu.common.graph.ShortestPathTest.generateTestGraphs:100...
+Checking for isolation...
+183,92,62,30
+Total 183 (38 unique) events are in hot method
+Total 92 (5 unique) traces are in hot method
+Total 62 (4 unique) isolated traces are in hot method
+Total 30 (1 unique) non-isolated traces that have events in hot method
+Total 123 (36 unique) events are in isolated traces
+Total 90 (3 unique) events are in non-isolated traces (60 / 2 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (30 traces / 1 unique traces) (60 events / 2 unique events)
+	Iterator_HasNext (30 traces / 1 unique traces) (30 events / 1 unique events)
+	Collections_SortBeforeBinarySearch (2 traces / 2 unique traces) (33 events / 33 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (30 traces / 1 unique traces) (90 events / 3 unique events) (60 events / 2 unique events in hot method)
+Classifier (cn.jimmiez.pcu.common.graph.ShortestPathTest.generateTestGraphs:100): LIB,ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_ONE_UNIQUE
+
+#74
+Inspecting hot method cn.jimmiez.pcu.alg.skeleton.LevelSetSkeleton.generateResultingSkeleton:265...
+Checking for isolation...
+171,47,47,0
+Total 171 (119 unique) events are in hot method
+Total 47 (7 unique) traces are in hot method
+Total 47 (7 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 171 (119 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (44 traces / 4 unique traces) (58 events / 6 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (46 events / 46 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (45 events / 45 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (22 events / 22 unique events)
+Classifier (cn.jimmiez.pcu.alg.skeleton.LevelSetSkeleton.generateResultingSkeleton:265): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_SINGLE_TRACE
+
+#75
+Inspecting hot method cn.jimmiez.pcu.io.ply.PlyWriter.findPropertiesGetters:75...
+Checking for isolation...
+162,10,8,2
+Total 162 (162 unique) events are in hot method
+Total 10 (10 unique) traces are in hot method
+Total 8 (8 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 158 (158 unique) events are in isolated traces
+Total 403896 (403896 unique) events are in non-isolated traces (4 / 4 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (2 traces / 2 unique traces) (62 events / 62 unique events)
+	Iterator_RemoveOnce (2 traces / 2 unique traces) (30 events / 30 unique events)
+	Collection_UnsafeIterator (2 traces / 2 unique traces) (64 events / 64 unique events)
+	Collections_SortBeforeBinarySearch (2 traces / 2 unique traces) (2 events / 2 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (201948 events / 201948 unique events) (2 events / 2 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (201948 events / 201948 unique events) (2 events / 2 unique events in hot method)
+Classifier (cn.jimmiez.pcu.io.ply.PlyWriter.findPropertiesGetters:75): CUT,NOT_REDUNDANT_TRACES
+
+#76
+Inspecting hot method cn.jimmiez.pcu.common.graphics.NormalizerTest.genData:29...
+Checking for isolation...
+150,1,1,0
+Total 150 (150 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 150 (150 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (150 events / 150 unique events)
+Classifier (cn.jimmiez.pcu.common.graphics.NormalizerTest.genData:29): CUT,NOT_REDUNDANT_TRACES
+
+#77
+Inspecting hot method cn.jimmiez.pcu.io.off.OffReader.readImpl:38...
+Checking for isolation...
+148,16,16,0
+Total 148 (60 unique) events are in hot method
+Total 16 (6 unique) traces are in hot method
+Total 16 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 148 (60 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (16 traces / 6 unique traces) (148 events / 60 unique events)
+Classifier (cn.jimmiez.pcu.io.off.OffReader.readImpl:38): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#78
+Inspecting hot method cn.jimmiez.pcu.common.graph.Graphs.adjacentMatrix2List:289...
+Checking for isolation...
+145,48,48,0
+Total 145 (52 unique) events are in hot method
+Total 48 (17 unique) traces are in hot method
+Total 48 (17 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 145 (52 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (47 traces / 16 unique traces) (144 events / 51 unique events)
+	Throwable_InitCauseOnce (1 traces / 1 unique traces) (1 events / 1 unique events)
+Classifier (cn.jimmiez.pcu.common.graph.Graphs.adjacentMatrix2List:289): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_SINGLE_TRACE
+
+#79
+Inspecting hot method cn.jimmiez.pcu.common.graphics.curve.CardinalInterpolator.insertPointsIntoVertexPair:100...
+Checking for isolation...
+137,23,23,0
+Total 137 (11 unique) events are in hot method
+Total 23 (2 unique) traces are in hot method
+Total 23 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 137 (11 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (23 traces / 2 unique traces) (137 events / 11 unique events)
+Classifier (cn.jimmiez.pcu.common.graphics.curve.CardinalInterpolator.insertPointsIntoVertexPair:100): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#80
+Inspecting hot method cn.jimmiez.pcu.common.graphics.Octree.createRootNode:177...
+Checking for isolation...
+135,90,90,0
+Total 135 (3 unique) events are in hot method
+Total 90 (2 unique) traces are in hot method
+Total 90 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 135 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (45 traces / 1 unique traces) (45 events / 1 unique events)
+	Collection_UnsynchronizedAddAll (45 traces / 1 unique traces) (90 events / 2 unique events)
+Classifier (cn.jimmiez.pcu.common.graphics.Octree.createRootNode:177): CUT,ISOLATED_ONE_UNIQUE
+
+#81
+Inspecting hot method cn.jimmiez.pcu.io.ply.PlyReader.readHeader:266...
+Checking for isolation...
+124,35,35,0
+Total 124 (58 unique) events are in hot method
+Total 35 (12 unique) traces are in hot method
+Total 35 (12 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 124 (58 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (35 traces / 12 unique traces) (124 events / 58 unique events)
+Classifier (cn.jimmiez.pcu.io.ply.PlyReader.readHeader:266): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#82
+Inspecting hot method cn.jimmiez.pcu.alg.projector.WeightedLOProjectorTest.testProject:16...
+Checking for isolation...
+101,5,5,0
+Total 101 (101 unique) events are in hot method
+Total 5 (5 unique) traces are in hot method
+Total 5 (5 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 101 (101 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (2 traces / 2 unique traces) (23 events / 23 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (31 events / 31 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (15 events / 15 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (32 events / 32 unique events)
+Classifier (cn.jimmiez.pcu.alg.projector.WeightedLOProjectorTest.testProject:16): CUT,NOT_REDUNDANT_TRACES
+
+#83
+Inspecting hot method cn.jimmiez.pcu.alg.projector.LocalOptimalProjectorTest.testProject:17...
+Checking for isolation...
+100,5,5,0
+Total 100 (100 unique) events are in hot method
+Total 5 (5 unique) traces are in hot method
+Total 5 (5 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 100 (100 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (2 traces / 2 unique traces) (22 events / 22 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (32 events / 32 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (31 events / 31 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (15 events / 15 unique events)
+Classifier (cn.jimmiez.pcu.alg.projector.LocalOptimalProjectorTest.testProject:17): CUT,NOT_REDUNDANT_TRACES
+
+#84
+Inspecting hot method cn.jimmiez.pcu.common.graph.UndirectedGraph.removeVertex:64...
+Checking for isolation...
+91,31,20,11
+Total 91 (76 unique) events are in hot method
+Total 31 (22 unique) traces are in hot method
+Total 20 (13 unique) isolated traces are in hot method
+Total 11 (9 unique) non-isolated traces that have events in hot method
+Total 56 (44 unique) events are in isolated traces
+Total 65 (60 unique) events are in non-isolated traces (35 / 32 unique are in hot method)
+Specs that have isolated traces:
+	Map_UnsafeIterator (5 traces / 3 unique traces) (15 events / 13 unique events)
+	Iterator_HasNext (4 traces / 3 unique traces) (14 events / 11 unique events)
+	Collection_UnsafeIterator (4 traces / 3 unique traces) (18 events / 14 unique events)
+	Map_CollectionViewAdd (4 traces / 2 unique traces) (4 events / 2 unique events)
+	Iterator_RemoveOnce (3 traces / 2 unique traces) (5 events / 4 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (7 traces / 6 unique traces) (52 events / 49 unique events) (30 events / 28 unique events in hot method)
+	Map_CollectionViewAdd (4 traces / 3 unique traces) (13 events / 11 unique events) (5 events / 4 unique events in hot method)
+Classifier (cn.jimmiez.pcu.common.graph.UndirectedGraph.removeVertex:64): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#85
+Inspecting hot method cn.jimmiez.pcu.util.PcuReflectUtil.fetchAllMethods:26...
+Checking for isolation...
+81,39,39,0
+Total 81 (7 unique) events are in hot method
+Total 39 (3 unique) traces are in hot method
+Total 39 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 81 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsynchronizedAddAll (27 traces / 1 unique traces) (54 events / 2 unique events)
+	Collections_SortBeforeBinarySearch (12 traces / 2 unique traces) (27 events / 5 unique events)
+Classifier (cn.jimmiez.pcu.util.PcuReflectUtil.fetchAllMethods:26): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE
+
+#86
+Inspecting hot method cn.jimmiez.pcu.common.graphics.curve.CardinalInterpolator.interpolate:161...
+Checking for isolation...
+80,29,29,0
+Total 80 (24 unique) events are in hot method
+Total 29 (8 unique) traces are in hot method
+Total 29 (8 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 80 (24 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (10 traces / 3 unique traces) (30 events / 9 unique events)
+	Collection_UnsafeIterator (10 traces / 3 unique traces) (40 events / 12 unique events)
+	Iterator_RemoveOnce (9 traces / 2 unique traces) (10 events / 3 unique events)
+Classifier (cn.jimmiez.pcu.common.graphics.curve.CardinalInterpolator.interpolate:161): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#87
+Inspecting hot method cn.jimmiez.pcu.io.obj.ObjReader$ObjParser.<init>:20...
+Checking for isolation...
+72,2,0,2
+Total 72 (72 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 403896 (403896 unique) events are in non-isolated traces (72 / 72 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (201948 events / 201948 unique events) (36 events / 36 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (201948 events / 201948 unique events) (36 events / 36 unique events in hot method)
+Classifier (cn.jimmiez.pcu.io.obj.ObjReader$ObjParser.<init>:20): CUT,NOT_REDUNDANT_TRACES
+
+#88
+Inspecting hot method cn.jimmiez.pcu.common.graph.GraphsTest.edgeWeightSum:432...
+Checking for isolation...
+69,16,12,4
+Total 69 (57 unique) events are in hot method
+Total 16 (12 unique) traces are in hot method
+Total 12 (9 unique) isolated traces are in hot method
+Total 4 (3 unique) non-isolated traces that have events in hot method
+Total 47 (39 unique) events are in isolated traces
+Total 31 (25 unique) events are in non-isolated traces (22 / 18 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (4 traces / 3 unique traces) (18 events / 15 unique events)
+	Iterator_RemoveOnce (4 traces / 3 unique traces) (7 events / 6 unique events)
+	Collection_UnsafeIterator (4 traces / 3 unique traces) (22 events / 18 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (4 traces / 3 unique traces) (31 events / 25 unique events) (22 events / 18 unique events in hot method)
+Classifier (cn.jimmiez.pcu.common.graph.GraphsTest.edgeWeightSum:432): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#89
+Inspecting hot method cn.jimmiez.pcu.common.graph.EntityGraph.removeVertex:75...
+Checking for isolation...
+59,25,17,8
+Total 59 (43 unique) events are in hot method
+Total 25 (16 unique) traces are in hot method
+Total 17 (8 unique) isolated traces are in hot method
+Total 8 (8 unique) non-isolated traces that have events in hot method
+Total 30 (14 unique) events are in isolated traces
+Total 43 (43 unique) events are in non-isolated traces (29 / 29 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (5 traces / 2 unique traces) (8 events / 3 unique events)
+	Collection_UnsafeIterator (5 traces / 2 unique traces) (13 events / 5 unique events)
+	Iterator_RemoveOnce (3 traces / 1 unique traces) (3 events / 1 unique events)
+	Map_CollectionViewAdd (3 traces / 2 unique traces) (5 events / 4 unique events)
+	Throwable_InitCauseOnce (1 traces / 1 unique traces) (1 events / 1 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (8 traces / 8 unique traces) (43 events / 43 unique events) (29 events / 29 unique events in hot method)
+Classifier (cn.jimmiez.pcu.common.graph.EntityGraph.removeVertex:75): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,ISOLATED_SINGLE_TRACE,NOT_ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT
+
+#90
+Inspecting hot method cn.jimmiez.pcu.io.obj.ObjData.clear:39...
+Checking for isolation...
+40,10,9,1
+Total 40 (38 unique) events are in hot method
+Total 10 (8 unique) traces are in hot method
+Total 9 (7 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 39 (37 unique) events are in isolated traces
+Total 2504 (2504 unique) events are in non-isolated traces (1 / 1 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (3 traces / 1 unique traces) (3 events / 1 unique events)
+	Map_UnsafeIterator (2 traces / 2 unique traces) (12 events / 12 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (10 events / 10 unique events)
+	Map_CollectionViewAdd (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (9 events / 9 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (4 events / 4 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (2504 events / 2504 unique events) (1 events / 1 unique events in hot method)
+Classifier (cn.jimmiez.pcu.io.obj.ObjData.clear:39): CUT,ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT,ISOLATED_ONE_UNIQUE,ISOLATED_SINGLE_TRACE,NOT_ISOLATED_SINGLE_TRACE
+
+#91
+Inspecting hot method cn.jimmiez.pcu.io.ply.PlyWriter.writeWithObject:31...
+Checking for isolation...
+38,12,12,0
+Total 38 (30 unique) events are in hot method
+Total 12 (9 unique) traces are in hot method
+Total 12 (9 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 38 (30 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (3 traces / 2 unique traces) (11 events / 8 unique events)
+	Collection_UnsafeIterator (3 traces / 2 unique traces) (14 events / 10 unique events)
+	Iterator_RemoveOnce (3 traces / 2 unique traces) (4 events / 3 unique events)
+	Map_UnsafeIterator (2 traces / 2 unique traces) (8 events / 8 unique events)
+	Map_CollectionViewAdd (1 traces / 1 unique traces) (1 events / 1 unique events)
+Classifier (cn.jimmiez.pcu.io.ply.PlyWriter.writeWithObject:31): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT,ISOLATED_SINGLE_TRACE
+
+#92
+Inspecting hot method cn.jimmiez.pcu.io.ply.PlyWriter$PlyWriterRequest.defineScalarProperties:475...
+Checking for isolation...
+36,6,4,2
+Total 36 (27 unique) events are in hot method
+Total 6 (3 unique) traces are in hot method
+Total 4 (1 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 12 (3 unique) events are in isolated traces
+Total 403896 (403896 unique) events are in non-isolated traces (24 / 24 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (4 traces / 1 unique traces) (12 events / 3 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (201948 events / 201948 unique events) (12 events / 12 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (201948 events / 201948 unique events) (12 events / 12 unique events in hot method)
+Classifier (cn.jimmiez.pcu.io.ply.PlyWriter$PlyWriterRequest.defineScalarProperties:475): CUT,ISOLATED_ONE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#93
+Inspecting hot method cn.jimmiez.pcu.io.ply.PlyWriter.typeString:107...
+Checking for isolation...
+36,8,8,0
+Total 36 (9 unique) events are in hot method
+Total 8 (2 unique) traces are in hot method
+Total 8 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 36 (9 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (4 traces / 1 unique traces) (16 events / 4 unique events)
+	StringBuilder_ThreadSafe (4 traces / 1 unique traces) (20 events / 5 unique events)
+Classifier (cn.jimmiez.pcu.io.ply.PlyWriter.typeString:107): CUT,ISOLATED_ONE_UNIQUE
+
+#94
+Inspecting hot method cn.jimmiez.pcu.io.obj.ObjReaderTest.testObjDataType:15...
+Checking for isolation...
+36,1,0,1
+Total 36 (36 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 890342 (890342 unique) events are in non-isolated traces (36 / 36 unique are in hot method)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (890342 events / 890342 unique events) (36 events / 36 unique events in hot method)
+Classifier (cn.jimmiez.pcu.io.obj.ObjReaderTest.testObjDataType:15): CUT,NOT_REDUNDANT_TRACES
+
+#95
+Inspecting hot method cn.jimmiez.pcu.io.ply.PlyReader.checkAnnotation:62...
+Checking for isolation...
+34,15,15,0
+Total 34 (8 unique) events are in hot method
+Total 15 (3 unique) traces are in hot method
+Total 15 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 34 (8 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (15 traces / 3 unique traces) (34 events / 8 unique events)
+Classifier (cn.jimmiez.pcu.io.ply.PlyReader.checkAnnotation:62): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#96
+Inspecting hot method cn.jimmiez.pcu.common.graph.GraphsTest.testSubGraph:339...
+Checking for isolation...
+34,4,0,4
+Total 34 (34 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 4 (4 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 890391 (890391 unique) events are in non-isolated traces (34 / 34 unique are in hot method)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (3 traces / 3 unique traces) (49 events / 49 unique events) (23 events / 23 unique events in hot method)
+	Set_ItselfAsElement (1 traces / 1 unique traces) (890342 events / 890342 unique events) (11 events / 11 unique events in hot method)
+Classifier (cn.jimmiez.pcu.common.graph.GraphsTest.testSubGraph:339): CUT,NOT_REDUNDANT_TRACES
+
+#97
+Inspecting hot method cn.jimmiez.pcu.alg.projector.LocallyOptimalProjector.firstIteration:69...
+Checking for isolation...
+32,2,0,2
+Total 32 (16 unique) events are in hot method
+Total 2 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 72 (36 unique) events are in non-isolated traces (32 / 16 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (2 traces / 1 unique traces) (72 events / 36 unique events) (32 events / 16 unique events in hot method)
+Classifier (cn.jimmiez.pcu.alg.projector.LocallyOptimalProjector.firstIteration:69): CUT,NOT_ISOLATED_ONE_UNIQUE
+
+#98
+Inspecting hot method cn.jimmiez.pcu.io.ply.PlyWriter$PlyWriterRequest.defineElement:467...
+Checking for isolation...
+24,6,4,2
+Total 24 (18 unique) events are in hot method
+Total 6 (3 unique) traces are in hot method
+Total 4 (1 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 8 (2 unique) events are in isolated traces
+Total 403896 (403896 unique) events are in non-isolated traces (16 / 16 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (4 traces / 1 unique traces) (8 events / 2 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (201948 events / 201948 unique events) (8 events / 8 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (201948 events / 201948 unique events) (8 events / 8 unique events in hot method)
+Classifier (cn.jimmiez.pcu.io.ply.PlyWriter$PlyWriterRequest.defineElement:467): CUT,ISOLATED_ONE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#99
+Inspecting hot method cn.jimmiez.pcu.alg.skeleton.LevelSetSkeleton.divideLevelSets:222...
+Checking for isolation...
+22,1,1,0
+Total 22 (22 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 22 (22 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (22 events / 22 unique events)
+Classifier (cn.jimmiez.pcu.alg.skeleton.LevelSetSkeleton.divideLevelSets:222): CUT,NOT_REDUNDANT_TRACES
+
+#100
+Inspecting hot method cn.jimmiez.pcu.alg.projector.WeightedLocallyOptimalProjector.project:228...
+Checking for isolation...
+18,3,2,1
+Total 18 (18 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 2 (2 unique) events are in isolated traces
+Total 166 (166 unique) events are in non-isolated traces (16 / 16 unique are in hot method)
+Specs that have isolated traces:
+	Throwable_InitCauseOnce (2 traces / 2 unique traces) (2 events / 2 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (166 events / 166 unique events) (16 events / 16 unique events in hot method)
+Classifier (cn.jimmiez.pcu.alg.projector.WeightedLocallyOptimalProjector.project:228): CUT,NOT_REDUNDANT_TRACES
+
+#101
+Inspecting hot method cn.jimmiez.pcu.io.ply.PlyWriterTest.testPrepareChainBinary:61...
+Checking for isolation...
+17,6,6,0
+Total 17 (17 unique) events are in hot method
+Total 6 (6 unique) traces are in hot method
+Total 6 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 17 (17 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (2 traces / 2 unique traces) (7 events / 7 unique events)
+	Appendable_ThreadSafe (2 traces / 2 unique traces) (4 events / 4 unique events)
+	StringBuilder_ThreadSafe (2 traces / 2 unique traces) (6 events / 6 unique events)
+Classifier (cn.jimmiez.pcu.io.ply.PlyWriterTest.testPrepareChainBinary:61): CUT,NOT_REDUNDANT_TRACES
+
+#102
+Inspecting hot method cn.jimmiez.pcu.io.ply.PlyWriterTest.testPrepareChainAscii:153...
+Checking for isolation...
+17,6,6,0
+Total 17 (17 unique) events are in hot method
+Total 6 (6 unique) traces are in hot method
+Total 6 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 17 (17 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (2 traces / 2 unique traces) (7 events / 7 unique events)
+	StringBuilder_ThreadSafe (2 traces / 2 unique traces) (6 events / 6 unique events)
+	Appendable_ThreadSafe (2 traces / 2 unique traces) (4 events / 4 unique events)
+Classifier (cn.jimmiez.pcu.io.ply.PlyWriterTest.testPrepareChainAscii:153): CUT,NOT_REDUNDANT_TRACES
+
+#103
+Inspecting hot method cn.jimmiez.pcu.common.graph.GraphsTest.testKnnGraph:87...
+Checking for isolation...
+16,2,2,0
+Total 16 (16 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 16 (16 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (2 traces / 2 unique traces) (16 events / 16 unique events)
+Classifier (cn.jimmiez.pcu.common.graph.GraphsTest.testKnnGraph:87): CUT,NOT_REDUNDANT_TRACES
+
+#104
+Inspecting hot method cn.jimmiez.pcu.io.ply.PlyReader.injectDataImpl:81...
+Checking for isolation...
+15,15,0,15
+Total 15 (10 unique) events are in hot method
+Total 15 (10 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 15 (10 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 121434 (116645 unique) events are in non-isolated traces (15 / 10 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (15 traces / 10 unique traces) (121434 events / 116645 unique events) (15 events / 10 unique events in hot method)
+Classifier (cn.jimmiez.pcu.io.ply.PlyReader.injectDataImpl:81): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#105
+Inspecting hot method cn.jimmiez.pcu.io.ply.PlyData.parse:25...
+Checking for isolation...
+14,8,8,0
+Total 14 (3 unique) events are in hot method
+Total 8 (2 unique) traces are in hot method
+Total 8 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 14 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (8 traces / 2 unique traces) (14 events / 3 unique events)
+Classifier (cn.jimmiez.pcu.io.ply.PlyData.parse:25): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#106
+Inspecting hot method cn.jimmiez.pcu.io.obj.ObjData.<init>:24...
+Checking for isolation...
+14,2,0,2
+Total 14 (14 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 403896 (403896 unique) events are in non-isolated traces (14 / 14 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (201948 events / 201948 unique events) (7 events / 7 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (201948 events / 201948 unique events) (7 events / 7 unique events in hot method)
+Classifier (cn.jimmiez.pcu.io.obj.ObjData.<init>:24): CUT,NOT_REDUNDANT_TRACES
+
+#107
+Inspecting hot method cn.jimmiez.pcu.common.graph.Graphs$3.edgeWeight:173...
+Checking for isolation...
+12,3,3,0
+Total 12 (12 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 12 (12 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Throwable_InitCauseOnce (1 traces / 1 unique traces) (1 events / 1 unique events)
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (6 events / 6 unique events)
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (5 events / 5 unique events)
+Classifier (cn.jimmiez.pcu.common.graph.Graphs$3.edgeWeight:173): CUT,NOT_REDUNDANT_TRACES
+
+#108
+Inspecting hot method cn.jimmiez.pcu.io.ply.PlyWriter$PlyWriterRequest.defineListProperty:498...
+Checking for isolation...
+12,6,4,2
+Total 12 (9 unique) events are in hot method
+Total 6 (3 unique) traces are in hot method
+Total 4 (1 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 4 (1 unique) events are in isolated traces
+Total 403896 (403896 unique) events are in non-isolated traces (8 / 8 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (4 traces / 1 unique traces) (4 events / 1 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (201948 events / 201948 unique events) (4 events / 4 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (201948 events / 201948 unique events) (4 events / 4 unique events in hot method)
+Classifier (cn.jimmiez.pcu.io.ply.PlyWriter$PlyWriterRequest.defineListProperty:498): CUT,ISOLATED_ONE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#109
+Inspecting hot method cn.jimmiez.pcu.CommonAssertions.assertGreaterEqualThan:50...
+Checking for isolation...
+11,2,2,0
+Total 11 (11 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 11 (11 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (6 events / 6 unique events)
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (5 events / 5 unique events)
+Classifier (cn.jimmiez.pcu.CommonAssertions.assertGreaterEqualThan:50): CUT,NOT_REDUNDANT_TRACES
+
+#110
+Inspecting hot method cn.jimmiez.pcu.CommonAssertions.assertLessThan:26...
+Checking for isolation...
+11,2,2,0
+Total 11 (11 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 11 (11 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (6 events / 6 unique events)
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (5 events / 5 unique events)
+Classifier (cn.jimmiez.pcu.CommonAssertions.assertLessThan:26): CUT,NOT_REDUNDANT_TRACES
+
+#111
+Inspecting hot method cn.jimmiez.pcu.io.ply.PlyWriterTest.testWrite:132...
+Checking for isolation...
+10,4,4,0
+Total 10 (10 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 4 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 10 (10 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (2 traces / 2 unique traces) (6 events / 6 unique events)
+	Appendable_ThreadSafe (2 traces / 2 unique traces) (4 events / 4 unique events)
+Classifier (cn.jimmiez.pcu.io.ply.PlyWriterTest.testWrite:132): CUT,NOT_REDUNDANT_TRACES
+
+#112
+Inspecting hot method cn.jimmiez.pcu.io.ply.PlyWriterTest.createTempDir:21...
+Checking for isolation...
+10,4,4,0
+Total 10 (10 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 4 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 10 (10 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (2 traces / 2 unique traces) (6 events / 6 unique events)
+	Appendable_ThreadSafe (2 traces / 2 unique traces) (4 events / 4 unique events)
+Classifier (cn.jimmiez.pcu.io.ply.PlyWriterTest.createTempDir:21): CUT,NOT_REDUNDANT_TRACES
+
+#113
+Inspecting hot method cn.jimmiez.pcu.common.graph.EntityGraph.removeVertex:65...
+Checking for isolation...
+10,8,0,8
+Total 10 (10 unique) events are in hot method
+Total 8 (8 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 8 (8 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 43 (43 unique) events are in non-isolated traces (10 / 10 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (8 traces / 8 unique traces) (43 events / 43 unique events) (10 events / 10 unique events in hot method)
+Classifier (cn.jimmiez.pcu.common.graph.EntityGraph.removeVertex:65): CUT,NOT_REDUNDANT_TRACES
+
+#114
+Inspecting hot method cn.jimmiez.pcu.io.off.OffReader.injectVerticesData:245...
+Checking for isolation...
+9,6,6,0
+Total 9 (3 unique) events are in hot method
+Total 6 (2 unique) traces are in hot method
+Total 6 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 9 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsynchronizedAddAll (3 traces / 1 unique traces) (6 events / 2 unique events)
+	Collections_SortBeforeBinarySearch (3 traces / 1 unique traces) (3 events / 1 unique events)
+Classifier (cn.jimmiez.pcu.io.off.OffReader.injectVerticesData:245): CUT,ISOLATED_ONE_UNIQUE
+
+#115
+Inspecting hot method cn.jimmiez.pcu.common.graph.Graphs$6.adjacentVertices:338...
+Checking for isolation...
+8,3,3,0
+Total 8 (8 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 8 (8 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Throwable_InitCauseOnce (1 traces / 1 unique traces) (1 events / 1 unique events)
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (4 events / 4 unique events)
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+Classifier (cn.jimmiez.pcu.common.graph.Graphs$6.adjacentVertices:338): CUT,NOT_REDUNDANT_TRACES
+
+#116
+Inspecting hot method cn.jimmiez.pcu.io.ply.PlyReader.readPlyImpl:44...
+Checking for isolation...
+8,8,8,0
+Total 8 (1 unique) events are in hot method
+Total 8 (1 unique) traces are in hot method
+Total 8 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 8 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Scanner_ManipulateAfterClose (8 traces / 1 unique traces) (8 events / 1 unique events)
+Classifier (cn.jimmiez.pcu.io.ply.PlyReader.readPlyImpl:44): CUT,ISOLATED_ONE_UNIQUE
+
+#117
+Inspecting hot method cn.jimmiez.pcu.io.ply.PlyWriter$PlyWriterRequest.comment:530...
+Checking for isolation...
+7,4,4,0
+Total 7 (3 unique) events are in hot method
+Total 4 (2 unique) traces are in hot method
+Total 4 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 7 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (4 traces / 2 unique traces) (7 events / 3 unique events)
+Classifier (cn.jimmiez.pcu.io.ply.PlyWriter$PlyWriterRequest.comment:530): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#118
+Inspecting hot method cn.jimmiez.pcu.io.off.OffReader.injectFacesData:251...
+Checking for isolation...
+6,4,4,0
+Total 6 (3 unique) events are in hot method
+Total 4 (2 unique) traces are in hot method
+Total 4 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 6 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsynchronizedAddAll (2 traces / 1 unique traces) (4 events / 2 unique events)
+	Collections_SortBeforeBinarySearch (2 traces / 1 unique traces) (2 events / 1 unique events)
+Classifier (cn.jimmiez.pcu.io.off.OffReader.injectFacesData:251): CUT,ISOLATED_ONE_UNIQUE
+
+#119
+Inspecting hot method cn.jimmiez.pcu.alg.projector.WeightedLocallyOptimalProjector.<init>:21...
+Checking for isolation...
+5,1,0,1
+Total 5 (5 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 10 (10 unique) events are in non-isolated traces (5 / 5 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (10 events / 10 unique events) (5 events / 5 unique events in hot method)
+Classifier (cn.jimmiez.pcu.alg.projector.WeightedLocallyOptimalProjector.<init>:21): CUT,NOT_REDUNDANT_TRACES
+
+#120
+Inspecting hot method cn.jimmiez.pcu.common.graphics.BoundingBoxTest.testOf:51...
+Checking for isolation...
+5,3,0,3
+Total 5 (5 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 3 (3 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 2511 (2511 unique) events are in non-isolated traces (5 / 5 unique are in hot method)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (2 traces / 2 unique traces) (2009 events / 2009 unique events) (3 events / 3 unique events in hot method)
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (502 events / 502 unique events) (2 events / 2 unique events in hot method)
+Classifier (cn.jimmiez.pcu.common.graphics.BoundingBoxTest.testOf:51): CUT,NOT_REDUNDANT_TRACES
+
+#121
+Inspecting hot method cn.jimmiez.pcu.io.ply.PlyData$AsciiParser.<init>:66...
+Checking for isolation...
+5,5,5,0
+Total 5 (1 unique) events are in hot method
+Total 5 (1 unique) traces are in hot method
+Total 5 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Scanner_ManipulateAfterClose (5 traces / 1 unique traces) (5 events / 1 unique events)
+Classifier (cn.jimmiez.pcu.io.ply.PlyData$AsciiParser.<init>:66): CUT,ISOLATED_ONE_UNIQUE
+
+#122
+Inspecting hot method cn.jimmiez.pcu.common.graph.DirectedGraph.clear:74...
+Checking for isolation...
+4,2,0,2
+Total 4 (2 unique) events are in hot method
+Total 2 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 12 (6 unique) events are in non-isolated traces (4 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (2 traces / 1 unique traces) (12 events / 6 unique events) (4 events / 2 unique events in hot method)
+Classifier (cn.jimmiez.pcu.common.graph.DirectedGraph.clear:74): CUT,NOT_ISOLATED_ONE_UNIQUE
+
+#123
+Inspecting hot method cn.jimmiez.pcu.common.graphics.shape.Box.<init>:36...
+Checking for isolation...
+4,4,4,0
+Total 4 (2 unique) events are in hot method
+Total 4 (2 unique) traces are in hot method
+Total 4 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 4 (2 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Throwable_InitCauseOnce (4 traces / 2 unique traces) (4 events / 2 unique events)
+Classifier (cn.jimmiez.pcu.common.graphics.shape.Box.<init>:36): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#124
+Inspecting hot method cn.jimmiez.pcu.io.BinaryWriter.close:90...
+Checking for isolation...
+4,4,4,0
+Total 4 (2 unique) events are in hot method
+Total 4 (2 unique) traces are in hot method
+Total 4 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 4 (2 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Closeable_MultipleClose (2 traces / 1 unique traces) (2 events / 1 unique events)
+	OutputStream_ManipulateAfterClose (2 traces / 1 unique traces) (2 events / 1 unique events)
+Classifier (cn.jimmiez.pcu.io.BinaryWriter.close:90): CUT,ISOLATED_ONE_UNIQUE
+
+#125
+Inspecting hot method cn.jimmiez.pcu.io.off.OffReader.injectVertexColorsData:257...
+Checking for isolation...
+3,2,2,0
+Total 3 (3 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsynchronizedAddAll (1 traces / 1 unique traces) (2 events / 2 unique events)
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (1 events / 1 unique events)
+Classifier (cn.jimmiez.pcu.io.off.OffReader.injectVertexColorsData:257): CUT,NOT_REDUNDANT_TRACES
+
+#126
+Inspecting hot method cn.jimmiez.pcu.io.off.OffReader.injectVertexNormalsData:263...
+Checking for isolation...
+3,2,2,0
+Total 3 (3 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsynchronizedAddAll (1 traces / 1 unique traces) (2 events / 2 unique events)
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (1 events / 1 unique events)
+Classifier (cn.jimmiez.pcu.io.off.OffReader.injectVertexNormalsData:263): CUT,NOT_REDUNDANT_TRACES
+
+#127
+Inspecting hot method cn.jimmiez.pcu.common.graphics.BoundingBox.<init>:23...
+Checking for isolation...
+3,3,3,0
+Total 3 (3 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Throwable_InitCauseOnce (3 traces / 3 unique traces) (3 events / 3 unique events)
+Classifier (cn.jimmiez.pcu.common.graphics.BoundingBox.<init>:23): CUT,NOT_REDUNDANT_TRACES
+
+#128
+Inspecting hot method cn.jimmiez.pcu.alg.projector.LocallyOptimalProjector.<init>:29...
+Checking for isolation...
+3,3,3,0
+Total 3 (2 unique) events are in hot method
+Total 3 (2 unique) traces are in hot method
+Total 3 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3 (2 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Throwable_InitCauseOnce (3 traces / 2 unique traces) (3 events / 2 unique events)
+Classifier (cn.jimmiez.pcu.alg.projector.LocallyOptimalProjector.<init>:29): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#129
+Inspecting hot method cn.jimmiez.pcu.common.graph.DirectedGraph.edgeWeight:95...
+Checking for isolation...
+2,2,2,0
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2 (2 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Throwable_InitCauseOnce (2 traces / 2 unique traces) (2 events / 2 unique events)
+Classifier (cn.jimmiez.pcu.common.graph.DirectedGraph.edgeWeight:95): CUT,NOT_REDUNDANT_TRACES
+
+#130
+Inspecting hot method cn.jimmiez.pcu.common.graph.VertexPairTest.testEquals:14...
+Checking for isolation...
+2,1,0,1
+Total 2 (2 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 890342 (890342 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (890342 events / 890342 unique events) (2 events / 2 unique events in hot method)
+Classifier (cn.jimmiez.pcu.common.graph.VertexPairTest.testEquals:14): CUT,NOT_REDUNDANT_TRACES
+

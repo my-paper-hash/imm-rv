@@ -1,0 +1,384 @@
+Reading traces...
+	read 1000 traces
+	read 2000 traces
+	read 3000 traces
+	read 4000 traces
+	read 5000 traces
+	read 6000 traces
+	read 7000 traces
+	read 8000 traces
+	read 9000 traces
+	read 10000 traces
+	read 11000 traces
+	read 12000 traces
+	read 13000 traces
+	read 14000 traces
+	read 15000 traces
+	read 16000 traces
+	read 17000 traces
+	read 18000 traces
+	read 19000 traces
+	read 20000 traces
+	read 21000 traces
+Reading specs frequency...
+Reading locations...
+Counting events...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Total 3565787144 events and 160506 traces
+Inspecting top 200 IMM
+Finding hot methods...
+Number of events, method name
+3555549338,com.zaxxer.sparsebits.PreviousSetBitTest.randomMultiEntry:210
+10090000,com.zaxxer.sparsebits.PreviousClearBitTest.randomMultiEntry:190
+50000,com.zaxxer.sparsebits.PreviousClearBitTest.randomSingleEntry:179
+50000,com.zaxxer.sparsebits.PreviousSetBitTest.randomSingleEntry:188
+42255,com.zaxxer.sparsebits.SparseBitSet.resize:1716
+5050,com.zaxxer.sparsebits.SerializationTest.createData:55
+300,com.zaxxer.sparsebits.SerializationTest.read:78
+200,com.zaxxer.sparsebits.SerializationTest.write:72
+1,com.zaxxer.sparsebits.SparseBitSet.<clinit>:121
+^^^ Last method that contains more than one event ^^^
+Starting com.zaxxer.sparsebits.PreviousSetBitTest.randomSingleEntry:188
+Finish com.zaxxer.sparsebits.PreviousSetBitTest.randomSingleEntry:188
+Starting com.zaxxer.sparsebits.SparseBitSet.resize:1716
+Finish com.zaxxer.sparsebits.SparseBitSet.resize:1716
+Starting com.zaxxer.sparsebits.PreviousClearBitTest.randomMultiEntry:190
+Finish com.zaxxer.sparsebits.PreviousClearBitTest.randomMultiEntry:190
+Starting com.zaxxer.sparsebits.SerializationTest.read:78
+Finish com.zaxxer.sparsebits.SerializationTest.read:78
+
+#1
+Inspecting hot method com.zaxxer.sparsebits.PreviousSetBitTest.randomMultiEntry:210...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+3555549338,100003,100003,0
+Total 3555549338 (3446211049 unique) events are in hot method
+Total 100003 (21516 unique) traces are in hot method
+Total 100003 (21516 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3555549338 (3446211049 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (20000 traces / 1 unique traces) (40000 events / 2 unique events)
+	StringBuilder_ThreadSafe (20000 traces / 1 unique traces) (60000 events / 3 unique events)
+	Iterator_HasNext (20000 traces / 1001 unique traces) (19985990 events / 1003001 unique events)
+	Iterator_RemoveOnce (20000 traces / 1000 unique traces) (9992986 events / 500500 unique events)
+	Collection_UnsafeIterator (20000 traces / 19511 unique traces) (3505410362 events / 3434667543 unique events)
+	Collections_SortBeforeBinarySearch (2 traces / 1 unique traces) (20040000 events / 10020000 unique events)
+	Collections_ImplementComparable (1 traces / 1 unique traces) (20000 events / 20000 unique events)
+Classifier (com.zaxxer.sparsebits.PreviousSetBitTest.randomMultiEntry:210): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,RAW_ISOLATED_SINGLE_TRACE
+
+#2
+Inspecting hot method com.zaxxer.sparsebits.PreviousClearBitTest.randomMultiEntry:190...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+10090000,20001,20000,1
+Total 10090000 (10000009 unique) events are in hot method
+Total 20001 (3 unique) traces are in hot method
+Total 20000 (2 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 90000 (9 unique) events are in isolated traces
+Total 10005050 (10005050 unique) events are in non-isolated traces (10000000 / 10000000 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (10000 traces / 1 unique traces) (40000 events / 4 unique events)
+	StringBuilder_ThreadSafe (10000 traces / 1 unique traces) (50000 events / 5 unique events)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (10005050 events / 10005050 unique events) (10000000 events / 10000000 unique events in hot method)
+Classifier (com.zaxxer.sparsebits.PreviousClearBitTest.randomMultiEntry:190): CUT,ISOLATED_ONE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#3
+Inspecting hot method com.zaxxer.sparsebits.PreviousClearBitTest.randomSingleEntry:179...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+50000,20000,20000,0
+Total 50000 (5 unique) events are in hot method
+Total 20000 (2 unique) traces are in hot method
+Total 20000 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 50000 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (10000 traces / 1 unique traces) (20000 events / 2 unique events)
+	StringBuilder_ThreadSafe (10000 traces / 1 unique traces) (30000 events / 3 unique events)
+Classifier (com.zaxxer.sparsebits.PreviousClearBitTest.randomSingleEntry:179): CUT,ISOLATED_ONE_UNIQUE
+
+#4
+Inspecting hot method com.zaxxer.sparsebits.PreviousSetBitTest.randomSingleEntry:188...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+50000,20000,20000,0
+Total 50000 (5 unique) events are in hot method
+Total 20000 (2 unique) traces are in hot method
+Total 20000 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 50000 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (10000 traces / 1 unique traces) (20000 events / 2 unique events)
+	StringBuilder_ThreadSafe (10000 traces / 1 unique traces) (30000 events / 3 unique events)
+Classifier (com.zaxxer.sparsebits.PreviousSetBitTest.randomSingleEntry:188): CUT,ISOLATED_ONE_UNIQUE
+
+#5
+Inspecting hot method com.zaxxer.sparsebits.SparseBitSet.resize:1716...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+42255,1,1,0
+Total 42255 (42255 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 42255 (42255 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (42255 events / 42255 unique events)
+Classifier (com.zaxxer.sparsebits.SparseBitSet.resize:1716): CUT,NOT_REDUNDANT_TRACES
+
+#6
+Inspecting hot method com.zaxxer.sparsebits.SerializationTest.createData:55...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+5050,1,0,1
+Total 5050 (5050 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 10005050 (10005050 unique) events are in non-isolated traces (5050 / 5050 unique are in hot method)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (10005050 events / 10005050 unique events) (5050 events / 5050 unique events in hot method)
+Classifier (com.zaxxer.sparsebits.SerializationTest.createData:55): CUT,NOT_REDUNDANT_TRACES
+
+#7
+Inspecting hot method com.zaxxer.sparsebits.SerializationTest.read:78...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+300,300,300,0
+Total 300 (3 unique) events are in hot method
+Total 300 (3 unique) traces are in hot method
+Total 300 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 300 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	InputStream_MarkAfterClose (100 traces / 1 unique traces) (100 events / 1 unique events)
+	InputStream_ManipulateAfterClose (100 traces / 1 unique traces) (100 events / 1 unique events)
+	Closeable_MultipleClose (100 traces / 1 unique traces) (100 events / 1 unique events)
+Classifier (com.zaxxer.sparsebits.SerializationTest.read:78): CUT,ISOLATED_ONE_UNIQUE
+
+#8
+Inspecting hot method com.zaxxer.sparsebits.SerializationTest.write:72...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+200,200,200,0
+Total 200 (2 unique) events are in hot method
+Total 200 (2 unique) traces are in hot method
+Total 200 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 200 (2 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Closeable_MultipleClose (100 traces / 1 unique traces) (100 events / 1 unique events)
+	OutputStream_ManipulateAfterClose (100 traces / 1 unique traces) (100 events / 1 unique events)
+Classifier (com.zaxxer.sparsebits.SerializationTest.write:72): CUT,ISOLATED_ONE_UNIQUE
+

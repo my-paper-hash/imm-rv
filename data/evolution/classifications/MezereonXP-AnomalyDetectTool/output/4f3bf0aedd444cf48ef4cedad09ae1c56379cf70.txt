@@ -1,0 +1,552 @@
+Reading traces...
+Reading specs frequency...
+Reading locations...
+Counting events...
+Total 224322617 events and 1323073 traces
+Inspecting top 200 IMM
+Finding hot methods...
+Number of events, method name
+201431380,com.anomalydetect.IsolationTree.IsolationForest.searchForest:50
+11360002,com.anomalydetect.LOF.LOF.findKthPoint:57
+11306598,com.anomalydetect.IsolationTree.IsolationTree.createByR:32
+65064,com.google.gson.stream.JsonReader.nextQuotedValue:1001
+56748,com.anomalydetect.BruteForce.AlphabetTreeNode.increase:63
+26711,com.anomalydetect.BruteForce.AlphabetTreeNode.getNodeByLabel:54
+21600,com.anomalydetect.Tool.FileTool.getData:22
+11621,com.anomalydetect.BruteForce.AlphabetTree.addNote:18
+10200,com.anomalydetect.IsolationTree.IsolationForest.createForest:28
+9662,com.anomalydetect.ESD.ESDTool.timeSeriesAnalyse:31
+7080,com.google.gson.Gson.getAdapter:335
+4320,com.google.gson.internal.bind.ArrayTypeAdapter.read:64
+4100,com.anomalydetect.IsolationTree.IsolationTreeToolTest.setUp:20
+2140,com.anomalydetect.ExponentialMoving.HoltWintersTool.trainModel:56
+1793,com.anomalydetect.BruteForce.HeuristicTool.findMinCount:86
+1526,com.anomalydetect.Tool.DisplayTool.showResult:14
+576,com.google.gson.internal.Excluder.excludeClass:192
+468,com.google.gson.Gson.<init>:111
+452,com.anomalydetect.IsolationTree.IsolationTreeTool.cutAnomaly:47
+358,com.anomalydetect.BruteForce.HeuristicTool.timeSeriesAnalyse:30
+72,com.google.gson.internal.bind.ReflectiveTypeAdapterFactory.getBoundFields:126
+48,com.anomalydetect.ExponentialMoving.HoltWintersTool.testModel:103
+36,com.google.gson.internal.Primitives.add:62
+24,com.google.gson.stream.JsonReader.fillBuffer:1289
+12,com.anomalydetect.ESD.GrubbsTool.timeSeriesAnalyse:31
+5,com.anomalydetect.LOF.LOFDetectTool.timeSeriesAnalyse:38
+4,com.anomalydetect.BruteForce.BruteForceTool.timeSeriesAnalyse:28
+2,com.anomalydetect.ReadJson.ItemsTest.setItems:32
+2,com.anomalydetect.ReadJson.ItemsTest.setUp:20
+1,com.anomalydetect.BruteForce.HeuristicTool.doTheHeuristicAnalysis:48
+1,org.apiguardian.api.API$Status.<clinit>:87
+1,com.google.gson.FieldNamingPolicy$1.<clinit>:0
+1,com.google.gson.FieldNamingPolicy$2.<clinit>:0
+1,com.google.gson.FieldNamingPolicy$3.<clinit>:0
+1,com.google.gson.FieldNamingPolicy$4.<clinit>:0
+1,com.google.gson.FieldNamingPolicy$5.<clinit>:0
+1,com.google.gson.FieldNamingPolicy.<clinit>:36
+1,com.google.gson.LongSerializationPolicy$1.<clinit>:0
+1,com.google.gson.LongSerializationPolicy$2.<clinit>:0
+1,com.google.gson.LongSerializationPolicy.<clinit>:34
+1,com.google.gson.stream.JsonToken.<clinit>:31
+1,com.google.gson.internal.$Gson$Types$GenericArrayTypeImpl.<clinit>:0
+^^^ Last method that contains more than one event ^^^
+Starting com.anomalydetect.Tool.DisplayTool.showResult:14
+Finish com.anomalydetect.Tool.DisplayTool.showResult:14
+Starting com.google.gson.internal.bind.ReflectiveTypeAdapterFactory.getBoundFields:126
+Finish com.google.gson.internal.bind.ReflectiveTypeAdapterFactory.getBoundFields:126
+Starting com.anomalydetect.ExponentialMoving.HoltWintersTool.trainModel:56
+Finish com.anomalydetect.ExponentialMoving.HoltWintersTool.trainModel:56
+Starting com.anomalydetect.ESD.GrubbsTool.timeSeriesAnalyse:31
+Finish com.anomalydetect.ESD.GrubbsTool.timeSeriesAnalyse:31
+Starting com.anomalydetect.ESD.ESDTool.timeSeriesAnalyse:31
+Finish com.anomalydetect.ESD.ESDTool.timeSeriesAnalyse:31
+Starting com.anomalydetect.BruteForce.AlphabetTreeNode.increase:63
+Finish com.anomalydetect.BruteForce.AlphabetTreeNode.increase:63
+Starting com.google.gson.stream.JsonReader.nextQuotedValue:1001
+Finish com.google.gson.stream.JsonReader.nextQuotedValue:1001
+Starting com.anomalydetect.BruteForce.HeuristicTool.findMinCount:86
+Finish com.anomalydetect.BruteForce.HeuristicTool.findMinCount:86
+Starting com.anomalydetect.BruteForce.HeuristicTool.timeSeriesAnalyse:30
+Finish com.anomalydetect.BruteForce.HeuristicTool.timeSeriesAnalyse:30
+Starting com.google.gson.internal.Excluder.excludeClass:192
+Finish com.google.gson.internal.Excluder.excludeClass:192
+Starting com.anomalydetect.IsolationTree.IsolationTreeTool.cutAnomaly:47
+Finish com.anomalydetect.IsolationTree.IsolationTreeTool.cutAnomaly:47
+Starting com.anomalydetect.Tool.FileTool.getData:22
+Finish com.anomalydetect.Tool.FileTool.getData:22
+Starting com.google.gson.Gson.<init>:111
+Finish com.google.gson.Gson.<init>:111
+Starting com.anomalydetect.BruteForce.AlphabetTreeNode.getNodeByLabel:54
+Finish com.anomalydetect.BruteForce.AlphabetTreeNode.getNodeByLabel:54
+Starting com.google.gson.internal.bind.ArrayTypeAdapter.read:64
+Finish com.google.gson.internal.bind.ArrayTypeAdapter.read:64
+Starting com.anomalydetect.IsolationTree.IsolationForest.searchForest:50
+Finish com.anomalydetect.IsolationTree.IsolationForest.searchForest:50
+Starting com.anomalydetect.ExponentialMoving.HoltWintersTool.testModel:103
+Finish com.anomalydetect.ExponentialMoving.HoltWintersTool.testModel:103
+Starting com.google.gson.Gson.getAdapter:335
+Finish com.google.gson.Gson.getAdapter:335
+Starting com.anomalydetect.LOF.LOF.findKthPoint:57
+Finish com.anomalydetect.LOF.LOF.findKthPoint:57
+Starting com.anomalydetect.IsolationTree.IsolationTreeToolTest.setUp:20
+Finish com.anomalydetect.IsolationTree.IsolationTreeToolTest.setUp:20
+Starting com.anomalydetect.IsolationTree.IsolationTree.createByR:32
+Finish com.anomalydetect.IsolationTree.IsolationTree.createByR:32
+Starting com.google.gson.internal.Primitives.add:62
+Finish com.google.gson.internal.Primitives.add:62
+Starting com.anomalydetect.BruteForce.BruteForceTool.timeSeriesAnalyse:28
+Finish com.anomalydetect.BruteForce.BruteForceTool.timeSeriesAnalyse:28
+Starting com.anomalydetect.IsolationTree.IsolationForest.createForest:28
+Finish com.anomalydetect.IsolationTree.IsolationForest.createForest:28
+Starting com.anomalydetect.LOF.LOFDetectTool.timeSeriesAnalyse:38
+Finish com.anomalydetect.LOF.LOFDetectTool.timeSeriesAnalyse:38
+Starting com.google.gson.stream.JsonReader.fillBuffer:1289
+Finish com.google.gson.stream.JsonReader.fillBuffer:1289
+Starting com.anomalydetect.ReadJson.ItemsTest.setItems:32
+Finish com.anomalydetect.ReadJson.ItemsTest.setItems:32
+Starting com.anomalydetect.BruteForce.AlphabetTree.addNote:18
+Finish com.anomalydetect.BruteForce.AlphabetTree.addNote:18
+Starting com.anomalydetect.ReadJson.ItemsTest.setUp:20
+Finish com.anomalydetect.ReadJson.ItemsTest.setUp:20
+
+#1
+Inspecting hot method com.anomalydetect.IsolationTree.IsolationForest.searchForest:50...
+Checking for isolation...
+201431380,1201380,1201380,0
+Total 201431380 (503 unique) events are in hot method
+Total 1201380 (3 unique) traces are in hot method
+Total 1201380 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 201431380 (503 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (400460 traces / 1 unique traces) (80492460 events / 201 unique events)
+	Collection_UnsafeIterator (400460 traces / 1 unique traces) (80892920 events / 202 unique events)
+	Iterator_RemoveOnce (400460 traces / 1 unique traces) (40046000 events / 100 unique events)
+Classifier (com.anomalydetect.IsolationTree.IsolationForest.searchForest:50): CUT,ISOLATED_ONE_UNIQUE
+
+#2
+Inspecting hot method com.anomalydetect.LOF.LOF.findKthPoint:57...
+Checking for isolation...
+11360002,56801,56801,0
+Total 11360002 (202 unique) events are in hot method
+Total 56801 (2 unique) traces are in hot method
+Total 56801 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 11360002 (202 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (56801 traces / 2 unique traces) (11360002 events / 202 unique events)
+Classifier (com.anomalydetect.LOF.LOF.findKthPoint:57): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#3
+Inspecting hot method com.anomalydetect.IsolationTree.IsolationTree.createByR:32...
+Checking for isolation...
+11306598,1,0,1
+Total 11306598 (11306598 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 11310698 (11310698 unique) events are in non-isolated traces (11306598 / 11306598 unique are in hot method)
+Specs that have non-isolated traces:
+	Math_ContendedRandom (1 traces / 1 unique traces) (11310698 events / 11310698 unique events) (11306598 events / 11306598 unique events in hot method)
+Classifier (com.anomalydetect.IsolationTree.IsolationTree.createByR:32): CUT,NOT_REDUNDANT_TRACES
+
+#4
+Inspecting hot method com.google.gson.stream.JsonReader.nextQuotedValue:1001...
+Checking for isolation...
+65064,43200,43200,0
+Total 65064 (8 unique) events are in hot method
+Total 43200 (4 unique) traces are in hot method
+Total 43200 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 65064 (8 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (21600 traces / 2 unique traces) (21732 events / 3 unique events)
+	StringBuilder_ThreadSafe (21600 traces / 2 unique traces) (43332 events / 5 unique events)
+Classifier (com.google.gson.stream.JsonReader.nextQuotedValue:1001): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#5
+Inspecting hot method com.anomalydetect.BruteForce.AlphabetTreeNode.increase:63...
+Checking for isolation...
+56748,1023,696,327
+Total 56748 (40080 unique) events are in hot method
+Total 1023 (521 unique) traces are in hot method
+Total 696 (225 unique) isolated traces are in hot method
+Total 327 (296 unique) non-isolated traces that have events in hot method
+Total 34514 (18420 unique) events are in isolated traces
+Total 32697 (31898 unique) events are in non-isolated traces (22234 / 21660 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (341 traces / 107 unique traces) (22631 events / 11877 unique events)
+	Iterator_RemoveOnce (341 traces / 107 unique traces) (11145 events / 5885 unique events)
+	Collection_UnsafeIterator (14 traces / 11 unique traces) (738 events / 658 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (327 traces / 296 unique traces) (32697 events / 31898 unique events) (22234 events / 21660 unique events in hot method)
+Classifier (com.anomalydetect.BruteForce.AlphabetTreeNode.increase:63): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#6
+Inspecting hot method com.anomalydetect.BruteForce.AlphabetTreeNode.getNodeByLabel:54...
+Checking for isolation...
+26711,9603,8998,605
+Total 26711 (73 unique) events are in hot method
+Total 9603 (21 unique) traces are in hot method
+Total 8998 (12 unique) isolated traces are in hot method
+Total 605 (9 unique) non-isolated traces that have events in hot method
+Total 24788 (42 unique) events are in isolated traces
+Total 2695 (45 unique) events are in non-isolated traces (1923 / 31 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (3205 traces / 6 unique traces) (9408 events / 21 unique events)
+	Iterator_RemoveOnce (3193 traces / 3 unique traces) (4690 events / 6 unique events)
+	Collection_UnsafeIterator (2600 traces / 3 unique traces) (10690 events / 15 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (605 traces / 9 unique traces) (2695 events / 45 unique events) (1923 events / 31 unique events in hot method)
+Classifier (com.anomalydetect.BruteForce.AlphabetTreeNode.getNodeByLabel:54): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#7
+Inspecting hot method com.anomalydetect.Tool.FileTool.getData:22...
+Checking for isolation...
+21600,8640,8640,0
+Total 21600 (5 unique) events are in hot method
+Total 8640 (2 unique) traces are in hot method
+Total 8640 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 21600 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (4320 traces / 1 unique traces) (12960 events / 3 unique events)
+	Appendable_ThreadSafe (4320 traces / 1 unique traces) (8640 events / 2 unique events)
+Classifier (com.anomalydetect.Tool.FileTool.getData:22): CUT,ISOLATED_ONE_UNIQUE
+
+#8
+Inspecting hot method com.anomalydetect.BruteForce.AlphabetTree.addNote:18...
+Checking for isolation...
+11621,961,29,932
+Total 11621 (10577 unique) events are in hot method
+Total 961 (320 unique) traces are in hot method
+Total 29 (15 unique) isolated traces are in hot method
+Total 932 (305 unique) non-isolated traces that have events in hot method
+Total 386 (325 unique) events are in isolated traces
+Total 35392 (31943 unique) events are in non-isolated traces (11235 / 10252 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (29 traces / 15 unique traces) (386 events / 325 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (932 traces / 305 unique traces) (35392 events / 31943 unique events) (11235 events / 10252 unique events in hot method)
+Classifier (com.anomalydetect.BruteForce.AlphabetTree.addNote:18): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#9
+Inspecting hot method com.anomalydetect.IsolationTree.IsolationForest.createForest:28...
+Checking for isolation...
+10200,102,102,0
+Total 10200 (100 unique) events are in hot method
+Total 102 (1 unique) traces are in hot method
+Total 102 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 10200 (100 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (102 traces / 1 unique traces) (10200 events / 100 unique events)
+Classifier (com.anomalydetect.IsolationTree.IsolationForest.createForest:28): LIB,ISOLATED_ONE_UNIQUE
+
+#10
+Inspecting hot method com.anomalydetect.ESD.ESDTool.timeSeriesAnalyse:31...
+Checking for isolation...
+9662,716,716,0
+Total 9662 (874 unique) events are in hot method
+Total 716 (33 unique) traces are in hot method
+Total 716 (33 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 9662 (874 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (716 traces / 33 unique traces) (9662 events / 874 unique events)
+Classifier (com.anomalydetect.ESD.ESDTool.timeSeriesAnalyse:31): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#11
+Inspecting hot method com.google.gson.Gson.getAdapter:335...
+Checking for isolation...
+7080,182,180,2
+Total 7080 (634 unique) events are in hot method
+Total 182 (14 unique) traces are in hot method
+Total 180 (12 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 6840 (394 unique) events are in isolated traces
+Total 348 (348 unique) events are in non-isolated traces (240 / 240 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (60 traces / 4 unique traces) (2772 events / 160 unique events)
+	Iterator_RemoveOnce (60 traces / 4 unique traces) (1356 events / 78 unique events)
+	Iterator_HasNext (60 traces / 4 unique traces) (2712 events / 156 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (174 events / 174 unique events) (120 events / 120 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (174 events / 174 unique events) (120 events / 120 unique events in hot method)
+Classifier (com.google.gson.Gson.getAdapter:335): LIB,ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#12
+Inspecting hot method com.google.gson.internal.bind.ArrayTypeAdapter.read:64...
+Checking for isolation...
+4320,12,12,0
+Total 4320 (360 unique) events are in hot method
+Total 12 (1 unique) traces are in hot method
+Total 12 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 4320 (360 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (12 traces / 1 unique traces) (4320 events / 360 unique events)
+Classifier (com.google.gson.internal.bind.ArrayTypeAdapter.read:64): LIB,ISOLATED_ONE_UNIQUE
+
+#13
+Inspecting hot method com.anomalydetect.IsolationTree.IsolationTreeToolTest.setUp:20...
+Checking for isolation...
+4100,1,0,1
+Total 4100 (4100 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 11310698 (11310698 unique) events are in non-isolated traces (4100 / 4100 unique are in hot method)
+Specs that have non-isolated traces:
+	Math_ContendedRandom (1 traces / 1 unique traces) (11310698 events / 11310698 unique events) (4100 events / 4100 unique events in hot method)
+Classifier (com.anomalydetect.IsolationTree.IsolationTreeToolTest.setUp:20): CUT,NOT_REDUNDANT_TRACES
+
+#14
+Inspecting hot method com.anomalydetect.ExponentialMoving.HoltWintersTool.trainModel:56...
+Checking for isolation...
+2140,856,856,0
+Total 2140 (5 unique) events are in hot method
+Total 856 (2 unique) traces are in hot method
+Total 856 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2140 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (428 traces / 1 unique traces) (856 events / 2 unique events)
+	StringBuilder_ThreadSafe (428 traces / 1 unique traces) (1284 events / 3 unique events)
+Classifier (com.anomalydetect.ExponentialMoving.HoltWintersTool.trainModel:56): LIB,ISOLATED_ONE_UNIQUE
+
+#15
+Inspecting hot method com.anomalydetect.BruteForce.HeuristicTool.findMinCount:86...
+Checking for isolation...
+1793,3,3,0
+Total 1793 (1793 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1793 (1793 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (718 events / 718 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (358 events / 358 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (717 events / 717 unique events)
+Classifier (com.anomalydetect.BruteForce.HeuristicTool.findMinCount:86): CUT,NOT_REDUNDANT_TRACES
+
+#16
+Inspecting hot method com.anomalydetect.Tool.DisplayTool.showResult:14...
+Checking for isolation...
+1526,358,358,0
+Total 1526 (430 unique) events are in hot method
+Total 358 (34 unique) traces are in hot method
+Total 358 (34 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1526 (430 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (146 traces / 2 unique traces) (292 events / 4 unique events)
+	StringBuilder_ThreadSafe (146 traces / 2 unique traces) (438 events / 6 unique events)
+	Iterator_HasNext (22 traces / 10 unique traces) (314 events / 166 unique events)
+	Collection_UnsafeIterator (22 traces / 10 unique traces) (336 events / 176 unique events)
+	Iterator_RemoveOnce (22 traces / 10 unique traces) (146 events / 78 unique events)
+Classifier (com.anomalydetect.Tool.DisplayTool.showResult:14): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#17
+Inspecting hot method com.google.gson.internal.Excluder.excludeClass:192...
+Checking for isolation...
+576,2,2,0
+Total 576 (576 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 576 (576 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (384 events / 384 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (192 events / 192 unique events)
+Classifier (com.google.gson.internal.Excluder.excludeClass:192): LIB,NOT_REDUNDANT_TRACES
+
+#18
+Inspecting hot method com.google.gson.Gson.<init>:111...
+Checking for isolation...
+468,36,36,0
+Total 468 (39 unique) events are in hot method
+Total 36 (3 unique) traces are in hot method
+Total 36 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 468 (39 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SynchronizedMap (12 traces / 1 unique traces) (12 events / 1 unique events)
+	Collection_UnsynchronizedAddAll (12 traces / 1 unique traces) (24 events / 2 unique events)
+	Collections_SortBeforeBinarySearch (12 traces / 1 unique traces) (432 events / 36 unique events)
+Classifier (com.google.gson.Gson.<init>:111): LIB,ISOLATED_ONE_UNIQUE
+
+#19
+Inspecting hot method com.anomalydetect.IsolationTree.IsolationTreeTool.cutAnomaly:47...
+Checking for isolation...
+452,102,102,0
+Total 452 (21 unique) events are in hot method
+Total 102 (6 unique) traces are in hot method
+Total 102 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 452 (21 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (102 traces / 6 unique traces) (452 events / 21 unique events)
+Classifier (com.anomalydetect.IsolationTree.IsolationTreeTool.cutAnomaly:47): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#20
+Inspecting hot method com.anomalydetect.BruteForce.HeuristicTool.timeSeriesAnalyse:30...
+Checking for isolation...
+358,1,1,0
+Total 358 (358 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 358 (358 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (358 events / 358 unique events)
+Classifier (com.anomalydetect.BruteForce.HeuristicTool.timeSeriesAnalyse:30): CUT,NOT_REDUNDANT_TRACES
+
+#21
+Inspecting hot method com.google.gson.internal.bind.ReflectiveTypeAdapterFactory.getBoundFields:126...
+Checking for isolation...
+72,2,0,2
+Total 72 (72 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 348 (348 unique) events are in non-isolated traces (72 / 72 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (174 events / 174 unique events) (36 events / 36 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (174 events / 174 unique events) (36 events / 36 unique events in hot method)
+Classifier (com.google.gson.internal.bind.ReflectiveTypeAdapterFactory.getBoundFields:126): LIB,NOT_REDUNDANT_TRACES
+
+#22
+Inspecting hot method com.anomalydetect.ExponentialMoving.HoltWintersTool.testModel:103...
+Checking for isolation...
+48,9,9,0
+Total 48 (15 unique) events are in hot method
+Total 9 (3 unique) traces are in hot method
+Total 9 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 48 (15 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (4 traces / 1 unique traces) (20 events / 5 unique events)
+	StringBuilder_ThreadSafe (4 traces / 1 unique traces) (24 events / 6 unique events)
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (4 events / 4 unique events)
+Classifier (com.anomalydetect.ExponentialMoving.HoltWintersTool.testModel:103): CUT,ISOLATED_ONE_UNIQUE,ISOLATED_SINGLE_TRACE
+
+#23
+Inspecting hot method com.google.gson.internal.Primitives.add:62...
+Checking for isolation...
+36,2,0,2
+Total 36 (36 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 348 (348 unique) events are in non-isolated traces (36 / 36 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (174 events / 174 unique events) (18 events / 18 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (174 events / 174 unique events) (18 events / 18 unique events in hot method)
+Classifier (com.google.gson.internal.Primitives.add:62): LIB,NOT_REDUNDANT_TRACES
+
+#24
+Inspecting hot method com.google.gson.stream.JsonReader.fillBuffer:1289...
+Checking for isolation...
+24,1,1,0
+Total 24 (24 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 24 (24 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (24 events / 24 unique events)
+Classifier (com.google.gson.stream.JsonReader.fillBuffer:1289): LIB,NOT_REDUNDANT_TRACES
+
+#25
+Inspecting hot method com.anomalydetect.ESD.GrubbsTool.timeSeriesAnalyse:31...
+Checking for isolation...
+12,5,5,0
+Total 12 (7 unique) events are in hot method
+Total 5 (3 unique) traces are in hot method
+Total 5 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 12 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (2 traces / 1 unique traces) (4 events / 2 unique events)
+	StringBuilder_ThreadSafe (2 traces / 1 unique traces) (6 events / 3 unique events)
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (2 events / 2 unique events)
+Classifier (com.anomalydetect.ESD.GrubbsTool.timeSeriesAnalyse:31): CUT,ISOLATED_ONE_UNIQUE,ISOLATED_SINGLE_TRACE
+
+#26
+Inspecting hot method com.anomalydetect.LOF.LOFDetectTool.timeSeriesAnalyse:38...
+Checking for isolation...
+5,2,2,0
+Total 5 (5 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (2 events / 2 unique events)
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+Classifier (com.anomalydetect.LOF.LOFDetectTool.timeSeriesAnalyse:38): CUT,NOT_REDUNDANT_TRACES
+
+#27
+Inspecting hot method com.anomalydetect.BruteForce.BruteForceTool.timeSeriesAnalyse:28...
+Checking for isolation...
+4,4,4,0
+Total 4 (1 unique) events are in hot method
+Total 4 (1 unique) traces are in hot method
+Total 4 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 4 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (4 traces / 1 unique traces) (4 events / 1 unique events)
+Classifier (com.anomalydetect.BruteForce.BruteForceTool.timeSeriesAnalyse:28): CUT,ISOLATED_ONE_UNIQUE
+
+#28
+Inspecting hot method com.anomalydetect.ReadJson.ItemsTest.setItems:32...
+Checking for isolation...
+2,1,1,0
+Total 2 (2 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2 (2 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (2 events / 2 unique events)
+Classifier (com.anomalydetect.ReadJson.ItemsTest.setItems:32): CUT,NOT_REDUNDANT_TRACES
+
+#29
+Inspecting hot method com.anomalydetect.ReadJson.ItemsTest.setUp:20...
+Checking for isolation...
+2,2,2,0
+Total 2 (1 unique) events are in hot method
+Total 2 (1 unique) traces are in hot method
+Total 2 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (2 traces / 1 unique traces) (2 events / 1 unique events)
+Classifier (com.anomalydetect.ReadJson.ItemsTest.setUp:20): CUT,ISOLATED_ONE_UNIQUE
+

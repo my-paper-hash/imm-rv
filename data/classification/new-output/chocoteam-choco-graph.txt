@@ -1,0 +1,3845 @@
+Reading traces...
+	read 1000 traces
+	read 2000 traces
+	read 3000 traces
+	read 4000 traces
+	read 5000 traces
+	read 6000 traces
+	read 7000 traces
+	read 8000 traces
+	read 9000 traces
+	read 10000 traces
+	read 11000 traces
+	read 12000 traces
+Reading specs frequency...
+Reading locations...
+Counting events...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Total 602877780 events and 15169526 traces
+Inspecting top 200 IMM
+Finding hot methods...
+Number of events, method name
+156335205,org.chocosolver.SymmetryBreakingDirectedTest$1.dfs:35
+118250755,org.chocosolver.graphsolver.cstrs.symmbreaking.PropGirth.getLowerGraphGirth:106
+76958115,org.chocosolver.graphsolver.cstrs.cycles.PropACyclic.propagateIJ:107
+66100695,org.chocosolver.graphsolver.cstrs.basic.PropNbArcs.filter:86
+59801871,org.chocosolver.graphsolver.cstrs.symmbreaking.PropGirth.getUpperGraphGirth:86
+42959162,org.chocosolver.graphsolver.cstrs.basic.PropNbArcs.propagate:71
+23041401,org.chocosolver.graphsolver.search.strategy.nodes.LexNode.nextNode:40
+17810628,org.chocosolver.graphsolver.search.strategy.arcs.LexArc.computeNextArc:42
+12259411,org.chocosolver.graphsolver.variables.GraphVar.isInstantiated:92
+5196024,org.chocosolver.graphsolver.variables.DirectedGraphVar.removeArc:63
+3980542,org.chocosolver.graphsolver.util.UGVarConnectivityHelper.exploreFrom:41
+3867003,org.chocosolver.graphsolver.util.UGVarConnectivityHelper.findMAPBFrom:105
+2457668,org.chocosolver.graphsolver.cstrs.tree.PropArborescences.remBackArcs:127
+2265022,org.chocosolver.util.graphOperations.dominance.AbstractLengauerTarjanDominatorsFinder.DFS:123
+1129864,org.chocosolver.graphsolver.cstrs.tree.PropArborescences.reset:109
+1070961,org.chocosolver.graphsolver.cstrs.tree.PropArborescence.reset:85
+1070825,org.chocosolver.graphsolver.cstrs.tree.PropArborescence.explore:101
+1052836,org.chocosolver.solver.search.strategy.decision.DecisionPath.pushDecision:89
+1050870,org.chocosolver.solver.search.strategy.decision.DecisionPath.synchronize:114
+887430,org.chocosolver.graphsolver.search.strategy.arcs.RandomArc.computeNextArc:50
+807979,org.chocosolver.util.graphOperations.dominance.AbstractLengauerTarjanDominatorsFinder.findAllIdom:159
+650297,org.chocosolver.graphsolver.cstrs.tree.PropArborescences.enforceDominatorsFrom:149
+429948,org.chocosolver.util.objects.setDataStructures.ISet.toArray:112
+426728,org.chocosolver.graphsolver.cstrs.symmbreaking.PropIncrementalAdjacencyMatrix.propagateTChanged:65
+380371,org.chocosolver.solver.variables.impl.AbstractVariable.notifyViews:342
+342517,org.chocosolver.util.graphOperations.dominance.AbstractLengauerTarjanDominatorsFinder.preprocessDominanceRequests:257
+341597,org.chocosolver.graphsolver.cstrs.degree.PropNodeDegreeAtMostCoarse.propagate:102
+322284,org.chocosolver.graphsolver.cstrs.symmbreaking.PropIncrementalAdjacencyUndirectedMatrix.propagateTChanged:74
+289019,org.chocosolver.SymmetryBreakingDirectedTest$1.propagate:56
+245577,org.chocosolver.graphsolver.cstrs.tree.PropArborescences.enforceDominators:139
+146889,org.chocosolver.graphsolver.cstrs.connectivity.PropConnected.propagate:85
+110453,org.chocosolver.solver.variables.view.BoolNotView.<init>:41
+98768,org.chocosolver.graphsolver.cstrs.degree.PropNodeDegreeAtMostCoarse.isEntailed:119
+85215,org.chocosolver.solver.variables.IVariableFactory.generateName:890
+84820,org.chocosolver.graphsolver.cstrs.degree.PropNodeDegreeAtLeastIncr.isEntailed:144
+77139,org.chocosolver.solver.variables.IVariableFactory.boolVarArray:104
+71046,org.chocosolver.graphsolver.cstrs.degree.PropNodeDegreeAtMostCoarse.checkAtMost:142
+58203,org.chocosolver.util.tools.ArrayUtils.append:231
+54800,org.chocosolver.solver.constraints.Constraint.<init>:98
+31778,org.chocosolver.graphsolver.cstrs.cycles.PropACyclic.isEntailed:160
+25760,org.chocosolver.graphsolver.cstrs.tree.PropArborescences.isEntailed:177
+25700,org.chocosolver.SymmetryBreakingTest.getGraphVertexGirth:51
+24396,org.chocosolver.solver.search.strategy.Search.defaultSearch:442
+22724,org.chocosolver.solver.constraints.ReificationConstraint.prepareConstraint:91
+17384,org.chocosolver.graphsolver.cstrs.connectivity.PropNbCC.exploreLBFrom:183
+16555,org.chocosolver.solver.variables.IVariableFactory.boolVar:58
+15805,org.chocosolver.solver.variables.IVariableFactory.intVar:198
+13494,org.chocosolver.graphsolver.search.strategy.nodes.RandomNode.nextNode:46
+12395,org.chocosolver.solver.variables.IVariableFactory.intVar:150
+11354,org.chocosolver.solver.constraints.nary.sum.IntLinCombFactory.reduce:72
+8360,org.chocosolver.util.objects.queues.CircularQueue.<init>:39
+6616,org.chocosolver.graphsolver.util.ConnectivityFinder.findAllCC:118
+6570,org.chocosolver.graphsolver.cstrs.degree.PropNodeDegreeAtLeastIncr.checkAtLeast:161
+6404,org.chocosolver.util.tools.ArrayUtils.append:251
+5541,org.chocosolver.graphsolver.util.ConnectivityFinder.findCC:151
+4571,org.chocosolver.graphsolver.cstrs.connectivity.PropConnected.isEntailed:128
+4508,org.chocosolver.graphsolver.cstrs.IGraphConstraintFactory.postSymmetryBreaking:1076
+4298,org.chocosolver.graphsolver.cstrs.IGraphConstraintFactory.postSymmetryBreaking:1126
+4180,org.chocosolver.memory.trailing.EnvironmentTrailing.increaseTrail:181
+3666,org.chocosolver.graphsolver.variables.GraphVar.graphVizExport:404
+3470,gnu.trove.list.array.TIntArrayList.ensureCapacity:184
+3224,org.chocosolver.solver.variables.impl.AbstractVariable.link:176
+2886,org.chocosolver.SymmetryBreakingTest.test:124
+2586,org.chocosolver.util.objects.queues.CircularQueue.doubleCapacity:285
+2173,org.chocosolver.graphsolver.cstrs.basic.PropNbArcs.isEntailed:129
+1696,org.chocosolver.solver.Model.addHook:738
+1672,gnu.trove.map.hash.TIntObjectHashMap.setUp:142
+1660,org.chocosolver.util.objects.setDataStructures.swapList.Set_Swap.add:69
+1524,org.chocosolver.memory.trailing.trail.flatten.StoredIntTrail.buildFakeHistory:152
+1335,org.chocosolver.graphsolver.variables.GraphVar.removeNode:114
+1260,org.chocosolver.SymmetryBreakingDirectedTest.test:113
+1134,org.chocosolver.solver.search.loop.monitors.SearchMonitorList.add:171
+1028,org.chocosolver.graphsolver.cstrs.degree.PropNodeDegreeAtLeastIncr.propagate:118
+845,org.chocosolver.solver.variables.IVariableFactory.boolVar:48
+836,org.chocosolver.solver.Solver.<init>:114
+836,org.chocosolver.solver.search.strategy.decision.DecisionPath.<init>:54
+836,org.chocosolver.solver.Settings.load:53
+732,org.chocosolver.solver.Model.associates:779
+661,org.chocosolver.graphsolver.cstrs.connectivity.PropSizeMinCC.propagate:83
+653,org.chocosolver.graphsolver.cstrs.connectivity.PropSizeMinCC.getGLBCCPotentialNeighbors:315
+570,org.chocosolver.solver.Model._post:880
+490,org.chocosolver.util.objects.graphs.DirectedGraph.toString:95
+405,org.chocosolver.graphsolver.cstrs.connectivity.PropNbCC.propagate:85
+325,org.chocosolver.graphsolver.GraphModel.retrieveGraphVars:83
+248,org.chocosolver.utils.GraphGenerator.generateRandomUndirectedAdjacencyMatrix:150
+192,org.chocosolver.memory.trailing.trail.flatten.OperationTrail.resizeUpdateCapacity:106
+188,org.chocosolver.checked.SizeMaxCCTest.batchTest:238
+186,org.chocosolver.checked.SizeMinCCTest.batchTest:302
+180,org.chocosolver.checked.ArborescenceTest.smallTrees:83
+160,org.chocosolver.util.objects.graphs.DirectedGraph.removeNode:130
+148,org.chocosolver.solver.variables.delta.EnumDelta.ensureCapacity:36
+144,org.chocosolver.memory.trailing.trail.flatten.StoredIntTrail.resizeUpdateCapacity:176
+128,org.chocosolver.util.objects.graphs.UndirectedGraph.toString:90
+112,org.chocosolver.util.objects.setDataStructures.bitset.Set_Std_BitSet.toString:114
+96,org.chocosolver.solver.search.measure.IMeasures.toMultiLineString:194
+88,org.chocosolver.solver.constraints.Propagator.toString:779
+84,org.chocosolver.graphsolver.cstrs.basic.PropNbNodes.propagate:71
+84,org.chocosolver.graphsolver.cstrs.connectivity.PropSizeMinCC.getGUBMandatoryCCs:251
+72,org.chocosolver.solver.constraints.Constraint.toString:168
+70,org.chocosolver.util.objects.graphs.UndirectedGraph.removeNode:134
+64,org.chocosolver.checked.GraphTest.test:25
+63,org.chocosolver.graphsolver.cstrs.degree.PropNodeDegreeAtMostIncr.checkAtMost:162
+62,org.chocosolver.graphsolver.variables.GraphVar.toString:300
+52,org.chocosolver.graphsolver.cstrs.degree.PropNodeDegreeAtMostIncr.isEntailed:139
+52,org.chocosolver.graphsolver.cstrs.cycles.PropCycle.isEntailed:119
+49,org.chocosolver.graphsolver.cstrs.connectivity.PropSizeMinCC.getGLBCCNodes:294
+40,org.chocosolver.util.objects.setDataStructures.StdSet.clear:106
+40,org.chocosolver.checked.ArboTest.debug:66
+39,org.chocosolver.graphsolver.cstrs.connectivity.PropSizeMaxCC.getGLBCCPotentialNeighbors:188
+35,org.chocosolver.solver.variables.impl.BitsetIntVarImpl.toString:660
+27,org.chocosolver.checked.ArborescenceTest.testAllDataStructure:108
+27,org.chocosolver.checked.ArboTest.testAllDataStructure:74
+26,org.chocosolver.graphsolver.cstrs.degree.PropNodeDegreeAtMostIncr.propagate:114
+23,org.chocosolver.graphsolver.cstrs.connectivity.PropSizeMaxCC.propagate:52
+22,org.chocosolver.solver.search.measure.IMeasures.toOneLineString:156
+20,org.chocosolver.graphsolver.cstrs.cycles.PropCycle.propagate:85
+19,org.chocosolver.solver.constraints.Operator.<clinit>:22
+13,org.chocosolver.graphsolver.cstrs.channeling.nodes.PropNodeBoolsChannel.propagate:89
+12,org.chocosolver.solver.search.IResolutionHelper.findAllSolutions:140
+10,org.chocosolver.graphsolver.cstrs.connectivity.PropSizeMinCC.getGUBOptionalCCs:269
+9,org.chocosolver.checked.ArborescenceTest.bigTrees:96
+3,org.chocosolver.graphsolver.cstrs.connectivity.PropSizeMaxCC.getGLBCCNodes:167
+2,org.chocosolver.memory.trailing.trail.flatten.StoredBoolTrail.resizeWorldCapacity:192
+2,org.chocosolver.memory.trailing.trail.flatten.StoredIntTrail.resizeWorldCapacity:192
+2,org.chocosolver.memory.trailing.trail.flatten.StoredDoubleTrail.resizeWorldCapacity:192
+2,org.chocosolver.memory.trailing.trail.flatten.OperationTrail.resizeWorldCapacity:114
+2,org.chocosolver.memory.trailing.trail.flatten.StoredLongTrail.resizeWorldCapacity:192
+2,bsh.Interpreter.<clinit>:0
+1,gnu.trove.map.hash.TIntObjectHashMap.rehash:151
+1,gnu.trove.map.hash.THashMap.setUp:127
+1,gnu.trove.impl.hash.TObjectHash.setUp:117
+1,org.chocosolver.util.objects.setDataStructures.SetType.<clinit>:13
+1,gnu.trove.impl.hash.THash.<clinit>:0
+1,gnu.trove.impl.hash.TObjectHash.<clinit>:54
+1,gnu.trove.map.hash.THashMap.<clinit>:0
+1,org.chocosolver.solver.ResolutionPolicy.<clinit>:22
+1,gnu.trove.impl.hash.TPrimitiveHash.<clinit>:0
+1,gnu.trove.impl.hash.TIntHash.<clinit>:0
+1,gnu.trove.map.hash.TIntObjectHashMap.<clinit>:0
+1,org.chocosolver.solver.search.measure.IMeasures.<clinit>:0
+1,org.chocosolver.solver.Solver.<clinit>:77
+1,org.chocosolver.util.ESat.<clinit>:20
+1,org.chocosolver.solver.exception.ContradictionException.<clinit>:31
+1,org.chocosolver.solver.Cause$1.<clinit>:0
+1,org.chocosolver.solver.Cause.<clinit>:24
+1,org.chocosolver.solver.objective.IBoundsManager.<clinit>:0
+1,org.chocosolver.solver.objective.SATManager.<clinit>:117
+1,org.chocosolver.solver.search.strategy.decision.DecisionPath.<clinit>:0
+1,org.chocosolver.solver.search.strategy.decision.Decision.<clinit>:0
+1,org.chocosolver.solver.search.strategy.decision.RootDecision.<clinit>:23
+1,org.chocosolver.solver.Solver$Action.<clinit>:84
+1,org.chocosolver.solver.search.measure.Measures.<clinit>:0
+1,org.chocosolver.solver.search.measure.MeasuresRecorder.<clinit>:0
+1,org.chocosolver.solver.search.SearchState.<clinit>:27
+1,org.chocosolver.solver.constraints.PropagatorPriority.<clinit>:20
+1,gnu.trove.list.array.TIntArrayList.<clinit>:0
+1,org.chocosolver.util.objects.graphs.Orientation.<clinit>:20
+1,org.chocosolver.solver.constraints.Constraint$Status.<clinit>:46
+1,org.chocosolver.graphsolver.variables.GraphEventType.<clinit>:39
+1,org.chocosolver.graphsolver.search.strategy.GraphStrategy$NodeArcPriority.<clinit>:59
+1,org.chocosolver.solver.variables.events.PropagatorEventType.<clinit>:24
+1,org.chocosolver.graphsolver.search.GraphDecision.<clinit>:0
+1,org.chocosolver.graphsolver.search.GraphAssignment$1.<clinit>:0
+1,org.chocosolver.graphsolver.search.GraphAssignment$2.<clinit>:0
+1,org.chocosolver.graphsolver.search.GraphAssignment.<clinit>:54
+1,org.chocosolver.solver.variables.delta.NoDelta.<clinit>:23
+1,org.chocosolver.solver.variables.events.IntEventType.<clinit>:118
+1,org.chocosolver.util.tools.ArrayUtils.<clinit>:32
+1,gnu.trove.impl.hash.TIntIntHash.<clinit>:0
+1,gnu.trove.map.hash.TIntIntHashMap.<clinit>:0
+1,org.chocosolver.solver.search.strategy.assignments.DecisionOperatorFactory$IntEqDecision.<clinit>:58
+1,org.chocosolver.solver.objective.AbstractObjManager.<clinit>:23
+1,org.chocosolver.solver.objective.AbstractIntObjManager.<clinit>:0
+1,org.chocosolver.solver.objective.MaxIntObjManager.<clinit>:0
+1,org.chocosolver.solver.search.strategy.decision.IntDecision.<clinit>:0
+^^^ Last method that contains more than one event ^^^
+Starting org.chocosolver.SymmetryBreakingDirectedTest$1.dfs:35
+Finish org.chocosolver.SymmetryBreakingDirectedTest$1.dfs:35
+Starting org.chocosolver.graphsolver.cstrs.symmbreaking.PropGirth.getLowerGraphGirth:106
+Finish org.chocosolver.graphsolver.cstrs.symmbreaking.PropGirth.getLowerGraphGirth:106
+Starting org.chocosolver.graphsolver.cstrs.cycles.PropACyclic.propagateIJ:107
+Finish org.chocosolver.graphsolver.cstrs.cycles.PropACyclic.propagateIJ:107
+Starting org.chocosolver.graphsolver.cstrs.basic.PropNbArcs.filter:86
+Finish org.chocosolver.graphsolver.cstrs.basic.PropNbArcs.filter:86
+Starting org.chocosolver.graphsolver.cstrs.symmbreaking.PropGirth.getUpperGraphGirth:86
+Finish org.chocosolver.graphsolver.cstrs.symmbreaking.PropGirth.getUpperGraphGirth:86
+Starting org.chocosolver.graphsolver.cstrs.basic.PropNbArcs.propagate:71
+Finish org.chocosolver.graphsolver.cstrs.basic.PropNbArcs.propagate:71
+Starting org.chocosolver.graphsolver.search.strategy.nodes.LexNode.nextNode:40
+Finish org.chocosolver.graphsolver.search.strategy.nodes.LexNode.nextNode:40
+Starting org.chocosolver.util.objects.queues.CircularQueue.doubleCapacity:285
+Finish org.chocosolver.util.objects.queues.CircularQueue.doubleCapacity:285
+Starting org.chocosolver.graphsolver.cstrs.basic.PropNbArcs.isEntailed:129
+Finish org.chocosolver.graphsolver.cstrs.basic.PropNbArcs.isEntailed:129
+Starting org.chocosolver.solver.Model.addHook:738
+Finish org.chocosolver.solver.Model.addHook:738
+Starting gnu.trove.map.hash.TIntObjectHashMap.setUp:142
+Finish gnu.trove.map.hash.TIntObjectHashMap.setUp:142
+Starting org.chocosolver.util.objects.setDataStructures.swapList.Set_Swap.add:69
+Finish org.chocosolver.util.objects.setDataStructures.swapList.Set_Swap.add:69
+Starting org.chocosolver.memory.trailing.trail.flatten.StoredIntTrail.buildFakeHistory:152
+Finish org.chocosolver.memory.trailing.trail.flatten.StoredIntTrail.buildFakeHistory:152
+Starting org.chocosolver.graphsolver.variables.GraphVar.removeNode:114
+Finish org.chocosolver.graphsolver.variables.GraphVar.removeNode:114
+Starting org.chocosolver.solver.constraints.Constraint.toString:168
+Finish org.chocosolver.solver.constraints.Constraint.toString:168
+Starting org.chocosolver.util.objects.graphs.UndirectedGraph.removeNode:134
+Finish org.chocosolver.util.objects.graphs.UndirectedGraph.removeNode:134
+Starting org.chocosolver.checked.GraphTest.test:25
+Finish org.chocosolver.checked.GraphTest.test:25
+Starting org.chocosolver.graphsolver.cstrs.degree.PropNodeDegreeAtMostIncr.checkAtMost:162
+Finish org.chocosolver.graphsolver.cstrs.degree.PropNodeDegreeAtMostIncr.checkAtMost:162
+Starting org.chocosolver.graphsolver.variables.GraphVar.toString:300
+Finish org.chocosolver.graphsolver.variables.GraphVar.toString:300
+Starting org.chocosolver.graphsolver.cstrs.degree.PropNodeDegreeAtMostIncr.isEntailed:139
+Finish org.chocosolver.graphsolver.cstrs.degree.PropNodeDegreeAtMostIncr.isEntailed:139
+Starting org.chocosolver.graphsolver.cstrs.cycles.PropCycle.isEntailed:119
+Finish org.chocosolver.graphsolver.cstrs.cycles.PropCycle.isEntailed:119
+Starting org.chocosolver.memory.trailing.trail.flatten.StoredLongTrail.resizeWorldCapacity:192
+Finish org.chocosolver.memory.trailing.trail.flatten.StoredLongTrail.resizeWorldCapacity:192
+Starting bsh.Interpreter.<clinit>:0
+Finish bsh.Interpreter.<clinit>:0
+Starting org.chocosolver.SymmetryBreakingDirectedTest$1.propagate:56
+Finish org.chocosolver.SymmetryBreakingDirectedTest$1.propagate:56
+Starting org.chocosolver.graphsolver.cstrs.tree.PropArborescences.enforceDominators:139
+Finish org.chocosolver.graphsolver.cstrs.tree.PropArborescences.enforceDominators:139
+Starting org.chocosolver.graphsolver.cstrs.connectivity.PropConnected.propagate:85
+Finish org.chocosolver.graphsolver.cstrs.connectivity.PropConnected.propagate:85
+Starting org.chocosolver.solver.variables.view.BoolNotView.<init>:41
+Finish org.chocosolver.solver.variables.view.BoolNotView.<init>:41
+Starting org.chocosolver.graphsolver.cstrs.degree.PropNodeDegreeAtMostCoarse.isEntailed:119
+Finish org.chocosolver.graphsolver.cstrs.degree.PropNodeDegreeAtMostCoarse.isEntailed:119
+Starting org.chocosolver.solver.variables.IVariableFactory.generateName:890
+Finish org.chocosolver.solver.variables.IVariableFactory.generateName:890
+Starting org.chocosolver.graphsolver.cstrs.degree.PropNodeDegreeAtLeastIncr.isEntailed:144
+Finish org.chocosolver.graphsolver.cstrs.degree.PropNodeDegreeAtLeastIncr.isEntailed:144
+Starting org.chocosolver.solver.variables.IVariableFactory.boolVarArray:104
+Finish org.chocosolver.solver.variables.IVariableFactory.boolVarArray:104
+Starting org.chocosolver.graphsolver.cstrs.degree.PropNodeDegreeAtMostCoarse.checkAtMost:142
+Finish org.chocosolver.graphsolver.cstrs.degree.PropNodeDegreeAtMostCoarse.checkAtMost:142
+Starting org.chocosolver.util.tools.ArrayUtils.append:231
+Finish org.chocosolver.util.tools.ArrayUtils.append:231
+Starting org.chocosolver.solver.constraints.Constraint.<init>:98
+Finish org.chocosolver.solver.constraints.Constraint.<init>:98
+Starting org.chocosolver.graphsolver.cstrs.cycles.PropACyclic.isEntailed:160
+Finish org.chocosolver.graphsolver.cstrs.cycles.PropACyclic.isEntailed:160
+Starting org.chocosolver.graphsolver.cstrs.tree.PropArborescences.isEntailed:177
+Finish org.chocosolver.graphsolver.cstrs.tree.PropArborescences.isEntailed:177
+Starting org.chocosolver.SymmetryBreakingTest.getGraphVertexGirth:51
+Finish org.chocosolver.SymmetryBreakingTest.getGraphVertexGirth:51
+Starting org.chocosolver.SymmetryBreakingDirectedTest.test:113
+Finish org.chocosolver.SymmetryBreakingDirectedTest.test:113
+Starting org.chocosolver.solver.search.loop.monitors.SearchMonitorList.add:171
+Finish org.chocosolver.solver.search.loop.monitors.SearchMonitorList.add:171
+Starting org.chocosolver.graphsolver.cstrs.degree.PropNodeDegreeAtLeastIncr.propagate:118
+Finish org.chocosolver.graphsolver.cstrs.degree.PropNodeDegreeAtLeastIncr.propagate:118
+Starting org.chocosolver.solver.variables.IVariableFactory.boolVar:48
+Finish org.chocosolver.solver.variables.IVariableFactory.boolVar:48
+Starting org.chocosolver.solver.Solver.<init>:114
+Finish org.chocosolver.solver.Solver.<init>:114
+Starting org.chocosolver.solver.search.strategy.decision.DecisionPath.<init>:54
+Finish org.chocosolver.solver.search.strategy.decision.DecisionPath.<init>:54
+Starting org.chocosolver.solver.Settings.load:53
+Finish org.chocosolver.solver.Settings.load:53
+Starting org.chocosolver.graphsolver.cstrs.connectivity.PropSizeMinCC.getGLBCCNodes:294
+Finish org.chocosolver.graphsolver.cstrs.connectivity.PropSizeMinCC.getGLBCCNodes:294
+Starting org.chocosolver.util.objects.setDataStructures.StdSet.clear:106
+Finish org.chocosolver.util.objects.setDataStructures.StdSet.clear:106
+Starting org.chocosolver.checked.ArboTest.debug:66
+Finish org.chocosolver.checked.ArboTest.debug:66
+Starting org.chocosolver.graphsolver.cstrs.connectivity.PropSizeMaxCC.getGLBCCPotentialNeighbors:188
+Finish org.chocosolver.graphsolver.cstrs.connectivity.PropSizeMaxCC.getGLBCCPotentialNeighbors:188
+Starting org.chocosolver.solver.variables.impl.BitsetIntVarImpl.toString:660
+Finish org.chocosolver.solver.variables.impl.BitsetIntVarImpl.toString:660
+Starting org.chocosolver.checked.ArborescenceTest.testAllDataStructure:108
+Finish org.chocosolver.checked.ArborescenceTest.testAllDataStructure:108
+Starting org.chocosolver.checked.ArboTest.testAllDataStructure:74
+Finish org.chocosolver.checked.ArboTest.testAllDataStructure:74
+
+#1
+Inspecting hot method org.chocosolver.SymmetryBreakingDirectedTest$1.dfs:35...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+	processed 1000 traces
+	processed 2000 traces
+156335205,3136,452,2684
+Total 156335205 (156313543 unique) events are in hot method
+Total 3136 (2395 unique) traces are in hot method
+Total 452 (14 unique) isolated traces are in hot method
+Total 2684 (2381 unique) non-isolated traces that have events in hot method
+Total 4098 (93 unique) events are in isolated traces
+Total 229497187 (229468035 unique) events are in non-isolated traces (156331107 / 156313450 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (227 traces / 7 unique traces) (1293 events / 28 unique events)
+	Iterator_HasNext (225 traces / 7 unique traces) (2805 events / 65 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (1343 traces / 1205 unique traces) (160069520 events / 160054655 unique events) (109136084 events / 109127125 unique events in hot method)
+	Iterator_RemoveOnce (1341 traces / 1176 unique traces) (69427667 events / 69413380 unique events) (47195023 events / 47186325 unique events in hot method)
+Classifier (org.chocosolver.SymmetryBreakingDirectedTest$1.dfs:35): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#2
+Inspecting hot method org.chocosolver.graphsolver.cstrs.symmbreaking.PropGirth.getLowerGraphGirth:106...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+	processed 1000 traces
+	processed 2000 traces
+118250755,5712826,5710201,2625
+Total 118250755 (83265807 unique) events are in hot method
+Total 5712826 (2376 unique) traces are in hot method
+Total 5710201 (687 unique) isolated traces are in hot method
+Total 2625 (1689 unique) non-isolated traces that have events in hot method
+Total 35055419 (98577 unique) events are in isolated traces
+Total 97389509 (97350084 unique) events are in non-isolated traces (83195336 / 83167230 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (1924564 traces / 261 unique traces) (13555540 events / 41413 unique events)
+	Collection_UnsafeIterator (1924564 traces / 261 unique traces) (15480104 events / 41674 unique events)
+	Iterator_RemoveOnce (1861073 traces / 165 unique traces) (6019775 events / 15490 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (1312 traces / 879 unique traces) (53389052 events / 53363299 unique events) (47034141 events / 47015874 unique events in hot method)
+	Iterator_RemoveOnce (1312 traces / 809 unique traces) (23443174 events / 23429502 unique events) (20711470 events / 20701631 unique events in hot method)
+	Set_ItselfAsElement (1 traces / 1 unique traces) (20557283 events / 20557283 unique events) (15449725 events / 15449725 unique events in hot method)
+Classifier (org.chocosolver.graphsolver.cstrs.symmbreaking.PropGirth.getLowerGraphGirth:106): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#3
+Inspecting hot method org.chocosolver.graphsolver.cstrs.cycles.PropACyclic.propagateIJ:107...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+76958115,4947,1511,3436
+Total 76958115 (76943861 unique) events are in hot method
+Total 4947 (3887 unique) traces are in hot method
+Total 1511 (1171 unique) isolated traces are in hot method
+Total 3436 (2716 unique) non-isolated traces that have events in hot method
+Total 34736828 (34726466 unique) events are in isolated traces
+Total 356484001 (356469769 unique) events are in non-isolated traces (42221287 / 42217395 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (811 traces / 658 unique traces) (25120744 events / 25119244 unique events)
+	Iterator_RemoveOnce (700 traces / 513 unique traces) (9616084 events / 9607222 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (2071 traces / 1473 unique traces) (246426903 events / 246414267 unique events) (29194286 events / 29191192 unique events in hot method)
+	Iterator_RemoveOnce (1365 traces / 1243 unique traces) (110057098 events / 110055502 unique events) (13027001 events / 13026203 unique events in hot method)
+Classifier (org.chocosolver.graphsolver.cstrs.cycles.PropACyclic.propagateIJ:107): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#4
+Inspecting hot method org.chocosolver.graphsolver.cstrs.basic.PropNbArcs.filter:86...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+66100695,5080,0,5080
+Total 66100695 (66072610 unique) events are in hot method
+Total 5080 (4477 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 5080 (4477 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 435680409 (435521166 unique) events are in non-isolated traces (66100695 / 66072610 unique are in hot method)
+Specs that have non-isolated traces:
+	Iterator_HasNext (2559 traces / 2275 unique traces) (301290287 events / 301186737 unique events) (45925785 events / 45907489 unique events in hot method)
+	Iterator_RemoveOnce (2521 traces / 2202 unique traces) (134390122 events / 134334429 unique events) (20174910 events / 20165121 unique events in hot method)
+Classifier (org.chocosolver.graphsolver.cstrs.basic.PropNbArcs.filter:86): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#5
+Inspecting hot method org.chocosolver.graphsolver.cstrs.symmbreaking.PropGirth.getUpperGraphGirth:86...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+	processed 1000 traces
+59801871,7869069,7868224,845
+Total 59801871 (32060472 unique) events are in hot method
+Total 7869069 (1297 unique) traces are in hot method
+Total 7868224 (681 unique) isolated traces are in hot method
+Total 845 (616 unique) non-isolated traces that have events in hot method
+Total 31844209 (4112114 unique) events are in isolated traces
+Total 43709976 (43698198 unique) events are in non-isolated traces (27957662 / 27948358 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (3017747 traces / 306 unique traces) (13352964 events / 2887627 unique events)
+	Collection_UnsafeIterator (3016945 traces / 104 unique traces) (13467010 events / 6619 unique events)
+	Iterator_RemoveOnce (1833532 traces / 271 unique traces) (5024235 events / 1217868 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (510 traces / 338 unique traces) (16503327 events / 16494331 unique events) (16446423 events / 16439441 unique events in hot method)
+	Iterator_RemoveOnce (334 traces / 277 unique traces) (6649366 events / 6646584 unique events) (6629450 events / 6627128 unique events in hot method)
+	Set_ItselfAsElement (1 traces / 1 unique traces) (20557283 events / 20557283 unique events) (4881789 events / 4881789 unique events in hot method)
+Classifier (org.chocosolver.graphsolver.cstrs.symmbreaking.PropGirth.getUpperGraphGirth:86): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#6
+Inspecting hot method org.chocosolver.graphsolver.cstrs.basic.PropNbArcs.propagate:71...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+42959162,1468,640,828
+Total 42959162 (42901570 unique) events are in hot method
+Total 1468 (664 unique) traces are in hot method
+Total 640 (14 unique) isolated traces are in hot method
+Total 828 (650 unique) non-isolated traces that have events in hot method
+Total 3302 (91 unique) events are in isolated traces
+Total 129419823 (129294165 unique) events are in non-isolated traces (42955860 / 42901479 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (320 traces / 7 unique traces) (994 events / 28 unique events)
+	Iterator_HasNext (320 traces / 7 unique traces) (2308 events / 63 unique events)
+Specs that have non-isolated traces:
+	Iterator_RemoveOnce (414 traces / 325 unique traces) (41551320 events / 41511351 unique events) (13667118 events / 13649986 unique events in hot method)
+	Iterator_HasNext (414 traces / 325 unique traces) (87868503 events / 87782814 unique events) (29288742 events / 29251493 unique events in hot method)
+Classifier (org.chocosolver.graphsolver.cstrs.basic.PropNbArcs.propagate:71): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#7
+Inspecting hot method org.chocosolver.graphsolver.search.strategy.nodes.LexNode.nextNode:40...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+23041401,774,0,774
+Total 23041401 (23009858 unique) events are in hot method
+Total 774 (652 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 774 (652 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 129449430 (129311625 unique) events are in non-isolated traces (23041401 / 23009858 unique are in hot method)
+Specs that have non-isolated traces:
+	Iterator_HasNext (387 traces / 326 unique traces) (87888622 events / 87794688 unique events) (15710453 events / 15688854 unique events in hot method)
+	Iterator_RemoveOnce (387 traces / 326 unique traces) (41560808 events / 41516937 unique events) (7330948 events / 7321004 unique events in hot method)
+Classifier (org.chocosolver.graphsolver.search.strategy.nodes.LexNode.nextNode:40): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#8
+Inspecting hot method org.chocosolver.graphsolver.search.strategy.arcs.LexArc.computeNextArc:42...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+	processed 1000 traces
+	processed 2000 traces
+17810628,2654,0,2654
+Total 17810628 (17798475 unique) events are in hot method
+Total 2654 (2524 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2654 (2524 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 322964032 (322825861 unique) events are in non-isolated traces (17810628 / 17798475 unique are in hot method)
+Specs that have non-isolated traces:
+	Iterator_HasNext (1327 traces / 1262 unique traces) (223315911 events / 223221717 unique events) (11873752 events / 11865650 unique events in hot method)
+	Iterator_RemoveOnce (1327 traces / 1262 unique traces) (99648121 events / 99604144 unique events) (5936876 events / 5932825 unique events in hot method)
+Classifier (org.chocosolver.graphsolver.search.strategy.arcs.LexArc.computeNextArc:42): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#9
+Inspecting hot method org.chocosolver.graphsolver.variables.GraphVar.isInstantiated:92...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+12259411,914,5,909
+Total 12259411 (12198953 unique) events are in hot method
+Total 914 (752 unique) traces are in hot method
+Total 5 (3 unique) isolated traces are in hot method
+Total 909 (749 unique) non-isolated traces that have events in hot method
+Total 61 (31 unique) events are in isolated traces
+Total 130486382 (130224960 unique) events are in non-isolated traces (12259350 / 12198922 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (3 traces / 2 unique traces) (43 events / 22 unique events)
+	Iterator_RemoveOnce (2 traces / 1 unique traces) (18 events / 9 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (456 traces / 376 unique traces) (88591134 events / 88412481 unique events) (8176775 events / 8135615 unique events in hot method)
+	Iterator_RemoveOnce (453 traces / 373 unique traces) (41895248 events / 41812479 unique events) (4082575 events / 4063307 unique events in hot method)
+Classifier (org.chocosolver.graphsolver.variables.GraphVar.isInstantiated:92): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#10
+Inspecting hot method org.chocosolver.graphsolver.variables.DirectedGraphVar.removeArc:63...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+5196024,1154672,1154672,0
+Total 5196024 (9 unique) events are in hot method
+Total 1154672 (2 unique) traces are in hot method
+Total 1154672 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5196024 (9 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (577336 traces / 1 unique traces) (2886680 events / 5 unique events)
+	Appendable_ThreadSafe (577336 traces / 1 unique traces) (2309344 events / 4 unique events)
+Classifier (org.chocosolver.graphsolver.variables.DirectedGraphVar.removeArc:63): CUT,ISOLATED_ONE_UNIQUE
+
+#11
+Inspecting hot method org.chocosolver.graphsolver.util.UGVarConnectivityHelper.exploreFrom:41...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+	processed 1000 traces
+3980542,3383,14,3369
+Total 3980542 (3973253 unique) events are in hot method
+Total 3383 (1880 unique) traces are in hot method
+Total 14 (6 unique) isolated traces are in hot method
+Total 3369 (1874 unique) non-isolated traces that have events in hot method
+Total 32 (16 unique) events are in isolated traces
+Total 76905262 (76861893 unique) events are in non-isolated traces (3980510 / 3973237 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (9 traces / 3 unique traces) (13 events / 6 unique events)
+	Iterator_HasNext (5 traces / 3 unique traces) (19 events / 10 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (1687 traces / 975 unique traces) (53441279 events / 53412672 unique events) (2785195 events / 2780264 unique events in hot method)
+	Iterator_RemoveOnce (1682 traces / 899 unique traces) (23463983 events / 23449221 unique events) (1195315 events / 1192973 unique events in hot method)
+Classifier (org.chocosolver.graphsolver.util.UGVarConnectivityHelper.exploreFrom:41): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#12
+Inspecting hot method org.chocosolver.graphsolver.util.UGVarConnectivityHelper.findMAPBFrom:105...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+	processed 1000 traces
+3867003,3346,0,3346
+Total 3867003 (3860031 unique) events are in hot method
+Total 3346 (1857 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 3346 (1857 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 76905025 (76861692 unique) events are in non-isolated traces (3867003 / 3860031 unique are in hot method)
+Specs that have non-isolated traces:
+	Iterator_RemoveOnce (1673 traces / 893 unique traces) (23463931 events / 23449179 unique events) (1163722 events / 1161464 unique events in hot method)
+	Iterator_HasNext (1673 traces / 964 unique traces) (53441094 events / 53412513 unique events) (2703281 events / 2698567 unique events in hot method)
+Classifier (org.chocosolver.graphsolver.util.UGVarConnectivityHelper.findMAPBFrom:105): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#13
+Inspecting hot method org.chocosolver.graphsolver.cstrs.tree.PropArborescences.remBackArcs:127...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+2457668,828,0,828
+Total 2457668 (2388755 unique) events are in hot method
+Total 828 (672 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 828 (672 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 5071912 (4871160 unique) events are in non-isolated traces (2457668 / 2388755 unique are in hot method)
+Specs that have non-isolated traces:
+	Iterator_HasNext (414 traces / 338 unique traces) (3440674 events / 3299495 unique events) (1668951 events / 1619618 unique events in hot method)
+	Iterator_RemoveOnce (414 traces / 334 unique traces) (1631238 events / 1571665 unique events) (788717 events / 769137 unique events in hot method)
+Classifier (org.chocosolver.graphsolver.cstrs.tree.PropArborescences.remBackArcs:127): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#14
+Inspecting hot method org.chocosolver.util.graphOperations.dominance.AbstractLengauerTarjanDominatorsFinder.DFS:123...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+2265022,828,828,0
+Total 2265022 (2096995 unique) events are in hot method
+Total 828 (582 unique) traces are in hot method
+Total 828 (582 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2265022 (2096995 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (414 traces / 329 unique traces) (1540615 events / 1500889 unique events)
+	Iterator_RemoveOnce (414 traces / 253 unique traces) (724407 events / 596106 unique events)
+Classifier (org.chocosolver.util.graphOperations.dominance.AbstractLengauerTarjanDominatorsFinder.DFS:123): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#15
+Inspecting hot method org.chocosolver.graphsolver.cstrs.tree.PropArborescences.reset:109...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+1129864,387,21,366
+Total 1129864 (1101506 unique) events are in hot method
+Total 387 (316 unique) traces are in hot method
+Total 21 (12 unique) isolated traces are in hot method
+Total 366 (304 unique) non-isolated traces that have events in hot method
+Total 3471 (2386 unique) events are in isolated traces
+Total 1168617 (1136894 unique) events are in non-isolated traces (1126393 / 1099120 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (21 traces / 12 unique traces) (3471 events / 2386 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (183 traces / 153 unique traces) (795109 events / 771995 unique events) (765936 events / 745984 unique events in hot method)
+	Iterator_RemoveOnce (183 traces / 151 unique traces) (373508 events / 364899 unique events) (360457 events / 353136 unique events in hot method)
+Classifier (org.chocosolver.graphsolver.cstrs.tree.PropArborescences.reset:109): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#16
+Inspecting hot method org.chocosolver.graphsolver.cstrs.tree.PropArborescence.reset:85...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+1070961,299,21,278
+Total 1070961 (1049861 unique) events are in hot method
+Total 299 (238 unique) traces are in hot method
+Total 21 (8 unique) isolated traces are in hot method
+Total 278 (230 unique) non-isolated traces that have events in hot method
+Total 3089 (1425 unique) events are in isolated traces
+Total 1754203 (1724268 unique) events are in non-isolated traces (1067872 / 1048436 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (21 traces / 8 unique traces) (3089 events / 1425 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (139 traces / 116 unique traces) (1182942 events / 1161439 unique events) (722578 events / 708454 unique events in hot method)
+	Iterator_RemoveOnce (139 traces / 114 unique traces) (571261 events / 562829 unique events) (345294 events / 339982 unique events in hot method)
+Classifier (org.chocosolver.graphsolver.cstrs.tree.PropArborescence.reset:85): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#17
+Inspecting hot method org.chocosolver.graphsolver.cstrs.tree.PropArborescence.explore:101...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+1070825,320,0,320
+Total 1070825 (1051283 unique) events are in hot method
+Total 320 (258 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 320 (258 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 2515508 (2467925 unique) events are in non-isolated traces (1070825 / 1051283 unique are in hot method)
+Specs that have non-isolated traces:
+	Iterator_HasNext (160 traces / 130 unique traces) (1704272 events / 1669426 unique events) (725531 events / 711152 unique events in hot method)
+	Iterator_RemoveOnce (160 traces / 128 unique traces) (811236 events / 798499 unique events) (345294 events / 340131 unique events in hot method)
+Classifier (org.chocosolver.graphsolver.cstrs.tree.PropArborescence.explore:101): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#18
+Inspecting hot method org.chocosolver.solver.search.strategy.decision.DecisionPath.pushDecision:89...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+1052836,437,0,437
+Total 1052836 (1048126 unique) events are in hot method
+Total 437 (198 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 437 (198 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 2104143 (2095476 unique) events are in non-isolated traces (1052836 / 1048126 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (437 traces / 198 unique traces) (2104143 events / 2095476 unique events) (1052836 events / 1048126 unique events in hot method)
+Classifier (org.chocosolver.solver.search.strategy.decision.DecisionPath.pushDecision:89): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#19
+Inspecting hot method org.chocosolver.solver.search.strategy.decision.DecisionPath.synchronize:114...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+1050870,329,0,329
+Total 1050870 (1047152 unique) events are in hot method
+Total 329 (177 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 329 (177 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 2103113 (2095224 unique) events are in non-isolated traces (1050870 / 1047152 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (329 traces / 177 unique traces) (2103113 events / 2095224 unique events) (1050870 events / 1047152 unique events in hot method)
+Classifier (org.chocosolver.solver.search.strategy.decision.DecisionPath.synchronize:114): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#20
+Inspecting hot method org.chocosolver.graphsolver.search.strategy.arcs.RandomArc.computeNextArc:50...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+887430,828,0,828
+Total 887430 (857282 unique) events are in hot method
+Total 828 (672 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 828 (672 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 5071912 (4871160 unique) events are in non-isolated traces (887430 / 857282 unique are in hot method)
+Specs that have non-isolated traces:
+	Iterator_HasNext (414 traces / 338 unique traces) (3440674 events / 3299495 unique events) (601671 events / 580503 unique events in hot method)
+	Iterator_RemoveOnce (414 traces / 334 unique traces) (1631238 events / 1571665 unique events) (285759 events / 276779 unique events in hot method)
+Classifier (org.chocosolver.graphsolver.search.strategy.arcs.RandomArc.computeNextArc:50): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#21
+Inspecting hot method org.chocosolver.util.graphOperations.dominance.AbstractLengauerTarjanDominatorsFinder.findAllIdom:159...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+807979,364,364,0
+Total 807979 (776775 unique) events are in hot method
+Total 364 (278 unique) traces are in hot method
+Total 364 (278 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 807979 (776775 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (364 traces / 278 unique traces) (807979 events / 776775 unique events)
+Classifier (org.chocosolver.util.graphOperations.dominance.AbstractLengauerTarjanDominatorsFinder.findAllIdom:159): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#22
+Inspecting hot method org.chocosolver.graphsolver.cstrs.tree.PropArborescences.enforceDominatorsFrom:149...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+650297,278,0,278
+Total 650297 (643835 unique) events are in hot method
+Total 278 (230 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 278 (230 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 1754203 (1724268 unique) events are in non-isolated traces (650297 / 643835 unique are in hot method)
+Specs that have non-isolated traces:
+	Iterator_HasNext (139 traces / 116 unique traces) (1182942 events / 1161439 unique events) (435599 events / 431078 unique events in hot method)
+	Iterator_RemoveOnce (139 traces / 114 unique traces) (571261 events / 562829 unique events) (214698 events / 212757 unique events in hot method)
+Classifier (org.chocosolver.graphsolver.cstrs.tree.PropArborescences.enforceDominatorsFrom:149): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#23
+Inspecting hot method org.chocosolver.util.objects.setDataStructures.ISet.toArray:112...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+429948,415,11,404
+Total 429948 (416574 unique) events are in hot method
+Total 415 (125 unique) traces are in hot method
+Total 11 (10 unique) isolated traces are in hot method
+Total 404 (115 unique) non-isolated traces that have events in hot method
+Total 8505 (8474 unique) events are in isolated traces
+Total 475075 (458582 unique) events are in non-isolated traces (421443 / 408100 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (11 traces / 10 unique traces) (8505 events / 8474 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (404 traces / 115 unique traces) (475075 events / 458582 unique events) (421443 events / 408100 unique events in hot method)
+Classifier (org.chocosolver.util.objects.setDataStructures.ISet.toArray:112): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#24
+Inspecting hot method org.chocosolver.graphsolver.cstrs.symmbreaking.PropIncrementalAdjacencyMatrix.propagateTChanged:65...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+	processed 1000 traces
+426728,2111,238,1873
+Total 426728 (418931 unique) events are in hot method
+Total 2111 (1480 unique) traces are in hot method
+Total 238 (57 unique) isolated traces are in hot method
+Total 1873 (1423 unique) non-isolated traces that have events in hot method
+Total 3713 (2593 unique) events are in isolated traces
+Total 40326110 (40298158 unique) events are in non-isolated traces (423015 / 416338 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (170 traces / 38 unique traces) (2800 events / 1970 unique events)
+	Iterator_RemoveOnce (68 traces / 19 unique traces) (913 events / 623 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (1174 traces / 800 unique traces) (13873499 events / 13857686 unique events) (238950 events / 235089 unique events in hot method)
+	Iterator_RemoveOnce (698 traces / 622 unique traces) (5895328 events / 5883189 unique events) (98909 events / 96093 unique events in hot method)
+	Set_ItselfAsElement (1 traces / 1 unique traces) (20557283 events / 20557283 unique events) (85156 events / 85156 unique events in hot method)
+Classifier (org.chocosolver.graphsolver.cstrs.symmbreaking.PropIncrementalAdjacencyMatrix.propagateTChanged:65): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#25
+Inspecting hot method org.chocosolver.solver.variables.impl.AbstractVariable.notifyViews:342...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+380371,1,1,0
+Total 380371 (380371 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 380371 (380371 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Object_MonitorOwner (1 traces / 1 unique traces) (380371 events / 380371 unique events)
+Classifier (org.chocosolver.solver.variables.impl.AbstractVariable.notifyViews:342): LIB,NOT_REDUNDANT_TRACES
+
+#26
+Inspecting hot method org.chocosolver.util.graphOperations.dominance.AbstractLengauerTarjanDominatorsFinder.preprocessDominanceRequests:257...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+342517,828,828,0
+Total 342517 (287968 unique) events are in hot method
+Total 828 (531 unique) traces are in hot method
+Total 828 (531 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 342517 (287968 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (414 traces / 329 unique traces) (258945 events / 227889 unique events)
+	Iterator_RemoveOnce (414 traces / 202 unique traces) (83572 events / 60079 unique events)
+Classifier (org.chocosolver.util.graphOperations.dominance.AbstractLengauerTarjanDominatorsFinder.preprocessDominanceRequests:257): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#27
+Inspecting hot method org.chocosolver.graphsolver.cstrs.degree.PropNodeDegreeAtMostCoarse.propagate:102...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+341597,100,0,100
+Total 341597 (302144 unique) events are in hot method
+Total 100 (68 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 100 (68 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 1035348 (911862 unique) events are in non-isolated traces (341597 / 302144 unique are in hot method)
+Specs that have non-isolated traces:
+	Iterator_HasNext (50 traces / 34 unique traces) (701390 events / 616764 unique events) (231439 events / 204376 unique events in hot method)
+	Iterator_RemoveOnce (50 traces / 34 unique traces) (333958 events / 295098 unique events) (110158 events / 97768 unique events in hot method)
+Classifier (org.chocosolver.graphsolver.cstrs.degree.PropNodeDegreeAtMostCoarse.propagate:102): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#28
+Inspecting hot method org.chocosolver.graphsolver.cstrs.symmbreaking.PropIncrementalAdjacencyUndirectedMatrix.propagateTChanged:74...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+	processed 1000 traces
+322284,1457,0,1457
+Total 322284 (319630 unique) events are in hot method
+Total 1457 (1214 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1457 (1214 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 106448547 (106435594 unique) events are in non-isolated traces (322284 / 319630 unique are in hot method)
+Specs that have non-isolated traces:
+	Iterator_HasNext (852 traces / 670 unique traces) (60650392 events / 60640487 unique events) (184812 events / 182657 unique events in hot method)
+	Iterator_RemoveOnce (604 traces / 543 unique traces) (25240872 events / 25237824 unique events) (76858 events / 76359 unique events in hot method)
+	Set_ItselfAsElement (1 traces / 1 unique traces) (20557283 events / 20557283 unique events) (60614 events / 60614 unique events in hot method)
+Classifier (org.chocosolver.graphsolver.cstrs.symmbreaking.PropIncrementalAdjacencyUndirectedMatrix.propagateTChanged:74): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#29
+Inspecting hot method org.chocosolver.SymmetryBreakingDirectedTest$1.propagate:56...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+289019,289019,289019,0
+Total 289019 (1 unique) events are in hot method
+Total 289019 (1 unique) traces are in hot method
+Total 289019 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 289019 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Throwable_InitCauseOnce (289019 traces / 1 unique traces) (289019 events / 1 unique events)
+Classifier (org.chocosolver.SymmetryBreakingDirectedTest$1.propagate:56): CUT,ISOLATED_ONE_UNIQUE
+
+#30
+Inspecting hot method org.chocosolver.graphsolver.cstrs.tree.PropArborescences.enforceDominators:139...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+245577,100,0,100
+Total 245577 (217638 unique) events are in hot method
+Total 100 (68 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 100 (68 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 429113 (375214 unique) events are in non-isolated traces (245577 / 217638 unique are in hot method)
+Specs that have non-isolated traces:
+	Iterator_HasNext (50 traces / 34 unique traces) (291005 events / 254028 unique events) (166461 events / 147292 unique events in hot method)
+	Iterator_RemoveOnce (50 traces / 34 unique traces) (138108 events / 121186 unique events) (79116 events / 70346 unique events in hot method)
+Classifier (org.chocosolver.graphsolver.cstrs.tree.PropArborescences.enforceDominators:139): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#31
+Inspecting hot method org.chocosolver.graphsolver.cstrs.connectivity.PropConnected.propagate:85...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+146889,1198,745,453
+Total 146889 (137543 unique) events are in hot method
+Total 1198 (266 unique) traces are in hot method
+Total 745 (118 unique) isolated traces are in hot method
+Total 453 (148 unique) non-isolated traces that have events in hot method
+Total 72303 (66118 unique) events are in isolated traces
+Total 500433 (483772 unique) events are in non-isolated traces (74586 / 71425 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (397 traces / 64 unique traces) (46485 events / 43241 unique events)
+	Iterator_RemoveOnce (348 traces / 54 unique traces) (25818 events / 22877 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (396 traces / 108 unique traces) (474412 events / 458010 unique events) (50197 events / 47213 unique events in hot method)
+	Iterator_RemoveOnce (57 traces / 40 unique traces) (26021 events / 25762 unique events) (24389 events / 24212 unique events in hot method)
+Classifier (org.chocosolver.graphsolver.cstrs.connectivity.PropConnected.propagate:85): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#32
+Inspecting hot method org.chocosolver.solver.variables.view.BoolNotView.<init>:41...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+110453,31558,31558,0
+Total 110453 (7 unique) events are in hot method
+Total 31558 (2 unique) traces are in hot method
+Total 31558 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 110453 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (15779 traces / 1 unique traces) (63116 events / 4 unique events)
+	Appendable_ThreadSafe (15779 traces / 1 unique traces) (47337 events / 3 unique events)
+Classifier (org.chocosolver.solver.variables.view.BoolNotView.<init>:41): LIB,ISOLATED_ONE_UNIQUE
+
+#33
+Inspecting hot method org.chocosolver.graphsolver.cstrs.degree.PropNodeDegreeAtMostCoarse.isEntailed:119...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+98768,100,0,100
+Total 98768 (85788 unique) events are in hot method
+Total 100 (68 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 100 (68 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 429113 (375214 unique) events are in non-isolated traces (98768 / 85788 unique are in hot method)
+Specs that have non-isolated traces:
+	Iterator_HasNext (50 traces / 34 unique traces) (291005 events / 254028 unique events) (67072 events / 58168 unique events in hot method)
+	Iterator_RemoveOnce (50 traces / 34 unique traces) (138108 events / 121186 unique events) (31696 events / 27620 unique events in hot method)
+Classifier (org.chocosolver.graphsolver.cstrs.degree.PropNodeDegreeAtMostCoarse.isEntailed:119): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#34
+Inspecting hot method org.chocosolver.solver.variables.IVariableFactory.generateName:890...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+85215,34086,34086,0
+Total 85215 (5 unique) events are in hot method
+Total 34086 (2 unique) traces are in hot method
+Total 34086 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 85215 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (17043 traces / 1 unique traces) (34086 events / 2 unique events)
+	StringBuilder_ThreadSafe (17043 traces / 1 unique traces) (51129 events / 3 unique events)
+Classifier (org.chocosolver.solver.variables.IVariableFactory.generateName:890): LIB,ISOLATED_ONE_UNIQUE
+
+#35
+Inspecting hot method org.chocosolver.graphsolver.cstrs.degree.PropNodeDegreeAtLeastIncr.isEntailed:144...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+84820,88,0,88
+Total 84820 (71840 unique) events are in hot method
+Total 88 (56 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 88 (56 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 386683 (332784 unique) events are in non-isolated traces (84820 / 71840 unique are in hot method)
+Specs that have non-isolated traces:
+	Iterator_HasNext (44 traces / 28 unique traces) (261910 events / 224933 unique events) (57508 events / 48604 unique events in hot method)
+	Iterator_RemoveOnce (44 traces / 28 unique traces) (124773 events / 107851 unique events) (27312 events / 23236 unique events in hot method)
+Classifier (org.chocosolver.graphsolver.cstrs.degree.PropNodeDegreeAtLeastIncr.isEntailed:144): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#36
+Inspecting hot method org.chocosolver.solver.variables.IVariableFactory.boolVarArray:104...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+77139,17142,17142,0
+Total 77139 (9 unique) events are in hot method
+Total 17142 (2 unique) traces are in hot method
+Total 17142 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 77139 (9 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (8571 traces / 1 unique traces) (42855 events / 5 unique events)
+	Appendable_ThreadSafe (8571 traces / 1 unique traces) (34284 events / 4 unique events)
+Classifier (org.chocosolver.solver.variables.IVariableFactory.boolVarArray:104): LIB,ISOLATED_ONE_UNIQUE
+
+#37
+Inspecting hot method org.chocosolver.graphsolver.cstrs.degree.PropNodeDegreeAtMostCoarse.checkAtMost:142...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+71046,644,0,644
+Total 71046 (64398 unique) events are in hot method
+Total 644 (534 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 644 (534 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 2922820 (2861162 unique) events are in non-isolated traces (71046 / 64398 unique are in hot method)
+Specs that have non-isolated traces:
+	Iterator_HasNext (322 traces / 269 unique traces) (1978051 events / 1933434 unique events) (48526 events / 43871 unique events in hot method)
+	Iterator_RemoveOnce (322 traces / 265 unique traces) (944769 events / 927728 unique events) (22520 events / 20527 unique events in hot method)
+Classifier (org.chocosolver.graphsolver.cstrs.degree.PropNodeDegreeAtMostCoarse.checkAtMost:142): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#38
+Inspecting hot method org.chocosolver.util.tools.ArrayUtils.append:231...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+58203,1,0,1
+Total 58203 (58203 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 93539 (93539 unique) events are in non-isolated traces (58203 / 58203 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (93539 events / 93539 unique events) (58203 events / 58203 unique events in hot method)
+Classifier (org.chocosolver.util.tools.ArrayUtils.append:231): LIB,NOT_REDUNDANT_TRACES
+
+#39
+Inspecting hot method org.chocosolver.solver.constraints.Constraint.<init>:98...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+54800,1,0,1
+Total 54800 (54800 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 20557283 (20557283 unique) events are in non-isolated traces (54800 / 54800 unique are in hot method)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (20557283 events / 20557283 unique events) (54800 events / 54800 unique events in hot method)
+Classifier (org.chocosolver.solver.constraints.Constraint.<init>:98): LIB,NOT_REDUNDANT_TRACES
+
+#40
+Inspecting hot method org.chocosolver.graphsolver.cstrs.cycles.PropACyclic.isEntailed:160...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+31778,1224,428,796
+Total 31778 (11093 unique) events are in hot method
+Total 1224 (229 unique) traces are in hot method
+Total 428 (106 unique) isolated traces are in hot method
+Total 796 (123 unique) non-isolated traces that have events in hot method
+Total 19010 (8098 unique) events are in isolated traces
+Total 18399 (4414 unique) events are in non-isolated traces (12768 / 2995 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (304 traces / 58 unique traces) (7754 events / 2638 unique events)
+	Iterator_HasNext (124 traces / 48 unique traces) (11256 events / 5460 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (656 traces / 105 unique traces) (16455 events / 4066 unique events) (11796 events / 2821 unique events in hot method)
+	Iterator_RemoveOnce (140 traces / 18 unique traces) (1944 events / 348 unique events) (972 events / 174 unique events in hot method)
+Classifier (org.chocosolver.graphsolver.cstrs.cycles.PropACyclic.isEntailed:160): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#41
+Inspecting hot method org.chocosolver.graphsolver.cstrs.tree.PropArborescences.isEntailed:177...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+25760,7360,7360,0
+Total 25760 (7 unique) events are in hot method
+Total 7360 (2 unique) traces are in hot method
+Total 7360 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 25760 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (3680 traces / 1 unique traces) (11040 events / 3 unique events)
+	StringBuilder_ThreadSafe (3680 traces / 1 unique traces) (14720 events / 4 unique events)
+Classifier (org.chocosolver.graphsolver.cstrs.tree.PropArborescences.isEntailed:177): CUT,ISOLATED_ONE_UNIQUE
+
+#42
+Inspecting hot method org.chocosolver.SymmetryBreakingTest.getGraphVertexGirth:51...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+25700,3121,2708,413
+Total 25700 (15002 unique) events are in hot method
+Total 3121 (427 unique) traces are in hot method
+Total 2708 (33 unique) isolated traces are in hot method
+Total 413 (394 unique) non-isolated traces that have events in hot method
+Total 10860 (254 unique) events are in isolated traces
+Total 41585707 (41585375 unique) events are in non-isolated traces (14840 / 14748 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (914 traces / 13 unique traces) (4128 events / 104 unique events)
+	Collection_UnsafeIterator (914 traces / 13 unique traces) (5042 events / 117 unique events)
+	Iterator_RemoveOnce (880 traces / 7 unique traces) (1690 events / 33 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (206 traces / 199 unique traces) (14904957 events / 14904799 unique events) (8868 events / 8820 unique events in hot method)
+	Iterator_RemoveOnce (206 traces / 194 unique traces) (6123467 events / 6123293 unique events) (3672 events / 3628 unique events in hot method)
+	Set_ItselfAsElement (1 traces / 1 unique traces) (20557283 events / 20557283 unique events) (2300 events / 2300 unique events in hot method)
+Classifier (org.chocosolver.SymmetryBreakingTest.getGraphVertexGirth:51): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#43
+Inspecting hot method org.chocosolver.solver.search.strategy.Search.defaultSearch:442...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+24396,481,481,0
+Total 24396 (713 unique) events are in hot method
+Total 481 (12 unique) traces are in hot method
+Total 481 (12 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 24396 (713 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (481 traces / 12 unique traces) (24396 events / 713 unique events)
+Classifier (org.chocosolver.solver.search.strategy.Search.defaultSearch:442): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#44
+Inspecting hot method org.chocosolver.solver.constraints.ReificationConstraint.prepareConstraint:91...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+22724,1,0,1
+Total 22724 (22724 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 20557283 (20557283 unique) events are in non-isolated traces (22724 / 22724 unique are in hot method)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (20557283 events / 20557283 unique events) (22724 events / 22724 unique events in hot method)
+Classifier (org.chocosolver.solver.constraints.ReificationConstraint.prepareConstraint:91): LIB,NOT_REDUNDANT_TRACES
+
+#45
+Inspecting hot method org.chocosolver.graphsolver.cstrs.connectivity.PropNbCC.exploreLBFrom:183...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+17384,129,86,43
+Total 17384 (16974 unique) events are in hot method
+Total 129 (71 unique) traces are in hot method
+Total 86 (50 unique) isolated traces are in hot method
+Total 43 (21 unique) non-isolated traces that have events in hot method
+Total 16923 (16726 unique) events are in isolated traces
+Total 540 (290 unique) events are in non-isolated traces (461 / 248 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (44 traces / 28 unique traces) (12291 events / 12159 unique events)
+	Iterator_RemoveOnce (42 traces / 22 unique traces) (4632 events / 4567 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (29 traces / 14 unique traces) (418 events / 226 unique events) (355 events / 193 unique events in hot method)
+	Iterator_RemoveOnce (14 traces / 7 unique traces) (122 events / 64 unique events) (106 events / 55 unique events in hot method)
+Classifier (org.chocosolver.graphsolver.cstrs.connectivity.PropNbCC.exploreLBFrom:183): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#46
+Inspecting hot method org.chocosolver.solver.variables.IVariableFactory.boolVar:58...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+16555,6622,6622,0
+Total 16555 (10 unique) events are in hot method
+Total 6622 (4 unique) traces are in hot method
+Total 6622 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 16555 (10 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (3311 traces / 2 unique traces) (9933 events / 6 unique events)
+	Appendable_ThreadSafe (3311 traces / 2 unique traces) (6622 events / 4 unique events)
+Classifier (org.chocosolver.solver.variables.IVariableFactory.boolVar:58): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#47
+Inspecting hot method org.chocosolver.solver.variables.IVariableFactory.intVar:198...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+15805,6322,6322,0
+Total 15805 (10 unique) events are in hot method
+Total 6322 (4 unique) traces are in hot method
+Total 6322 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 15805 (10 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (3161 traces / 2 unique traces) (9483 events / 6 unique events)
+	Appendable_ThreadSafe (3161 traces / 2 unique traces) (6322 events / 4 unique events)
+Classifier (org.chocosolver.solver.variables.IVariableFactory.intVar:198): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#48
+Inspecting hot method org.chocosolver.graphsolver.search.strategy.nodes.RandomNode.nextNode:46...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+13494,100,0,100
+Total 13494 (12774 unique) events are in hot method
+Total 100 (68 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 100 (68 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 1035348 (911862 unique) events are in non-isolated traces (13494 / 12774 unique are in hot method)
+Specs that have non-isolated traces:
+	Iterator_HasNext (50 traces / 34 unique traces) (701390 events / 616764 unique events) (8996 events / 8516 unique events in hot method)
+	Iterator_RemoveOnce (50 traces / 34 unique traces) (333958 events / 295098 unique events) (4498 events / 4258 unique events in hot method)
+Classifier (org.chocosolver.graphsolver.search.strategy.nodes.RandomNode.nextNode:46): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#49
+Inspecting hot method org.chocosolver.solver.variables.IVariableFactory.intVar:150...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+12395,4958,4958,0
+Total 12395 (5 unique) events are in hot method
+Total 4958 (2 unique) traces are in hot method
+Total 4958 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 12395 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (2479 traces / 1 unique traces) (7437 events / 3 unique events)
+	Appendable_ThreadSafe (2479 traces / 1 unique traces) (4958 events / 2 unique events)
+Classifier (org.chocosolver.solver.variables.IVariableFactory.intVar:150): LIB,ISOLATED_ONE_UNIQUE
+
+#50
+Inspecting hot method org.chocosolver.solver.constraints.nary.sum.IntLinCombFactory.reduce:72...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+11354,1,0,1
+Total 11354 (11354 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 93539 (93539 unique) events are in non-isolated traces (11354 / 11354 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (93539 events / 93539 unique events) (11354 events / 11354 unique events in hot method)
+Classifier (org.chocosolver.solver.constraints.nary.sum.IntLinCombFactory.reduce:72): LIB,NOT_REDUNDANT_TRACES
+
+#51
+Inspecting hot method org.chocosolver.util.objects.queues.CircularQueue.<init>:39...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+8360,8360,8360,0
+Total 8360 (1 unique) events are in hot method
+Total 8360 (1 unique) traces are in hot method
+Total 8360 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 8360 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Arrays_SortBeforeBinarySearch (8360 traces / 1 unique traces) (8360 events / 1 unique events)
+Classifier (org.chocosolver.util.objects.queues.CircularQueue.<init>:39): LIB,ISOLATED_ONE_UNIQUE
+
+#52
+Inspecting hot method org.chocosolver.graphsolver.util.ConnectivityFinder.findAllCC:118...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+6616,53,30,23
+Total 6616 (6604 unique) events are in hot method
+Total 53 (50 unique) traces are in hot method
+Total 30 (27 unique) isolated traces are in hot method
+Total 23 (23 unique) non-isolated traces that have events in hot method
+Total 2960 (2948 unique) events are in isolated traces
+Total 5454 (5454 unique) events are in non-isolated traces (3656 / 3656 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (16 traces / 14 unique traces) (2036 events / 2026 unique events)
+	Iterator_RemoveOnce (14 traces / 13 unique traces) (924 events / 922 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (12 traces / 12 unique traces) (3713 events / 3713 unique events) (2492 events / 2492 unique events in hot method)
+	Iterator_RemoveOnce (11 traces / 11 unique traces) (1741 events / 1741 unique events) (1164 events / 1164 unique events in hot method)
+Classifier (org.chocosolver.graphsolver.util.ConnectivityFinder.findAllCC:118): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT
+
+#53
+Inspecting hot method org.chocosolver.graphsolver.cstrs.degree.PropNodeDegreeAtLeastIncr.checkAtLeast:161...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+6570,286,0,286
+Total 6570 (4949 unique) events are in hot method
+Total 286 (208 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 286 (208 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 354690 (308827 unique) events are in non-isolated traces (6570 / 4949 unique are in hot method)
+Specs that have non-isolated traces:
+	Iterator_HasNext (143 traces / 106 unique traces) (246933 events / 213997 unique events) (4926 events / 3717 unique events in hot method)
+	Iterator_RemoveOnce (143 traces / 102 unique traces) (107757 events / 94830 unique events) (1644 events / 1232 unique events in hot method)
+Classifier (org.chocosolver.graphsolver.cstrs.degree.PropNodeDegreeAtLeastIncr.checkAtLeast:161): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#54
+Inspecting hot method org.chocosolver.util.tools.ArrayUtils.append:251...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+6404,1,0,1
+Total 6404 (6404 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 93539 (93539 unique) events are in non-isolated traces (6404 / 6404 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (93539 events / 93539 unique events) (6404 events / 6404 unique events in hot method)
+Classifier (org.chocosolver.util.tools.ArrayUtils.append:251): LIB,NOT_REDUNDANT_TRACES
+
+#55
+Inspecting hot method org.chocosolver.graphsolver.util.ConnectivityFinder.findCC:151...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+5541,328,196,132
+Total 5541 (3880 unique) events are in hot method
+Total 328 (167 unique) traces are in hot method
+Total 196 (81 unique) isolated traces are in hot method
+Total 132 (86 unique) non-isolated traces that have events in hot method
+Total 3220 (2017 unique) events are in isolated traces
+Total 3003 (2366 unique) events are in non-isolated traces (2321 / 1863 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (100 traces / 58 unique traces) (2361 events / 1707 unique events)
+	Iterator_RemoveOnce (96 traces / 23 unique traces) (859 events / 310 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (69 traces / 45 unique traces) (2182 events / 1727 unique events) (1681 events / 1355 unique events in hot method)
+	Iterator_RemoveOnce (63 traces / 41 unique traces) (821 events / 639 unique events) (640 events / 508 unique events in hot method)
+Classifier (org.chocosolver.graphsolver.util.ConnectivityFinder.findCC:151): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#56
+Inspecting hot method org.chocosolver.graphsolver.cstrs.connectivity.PropConnected.isEntailed:128...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+4571,112,0,112
+Total 4571 (4333 unique) events are in hot method
+Total 112 (79 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 112 (79 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 315110 (313418 unique) events are in non-isolated traces (4571 / 4333 unique are in hot method)
+Specs that have non-isolated traces:
+	Iterator_RemoveOnce (56 traces / 39 unique traces) (26010 events / 25751 unique events) (1526 events / 1444 unique events in hot method)
+	Iterator_HasNext (56 traces / 40 unique traces) (289100 events / 287667 unique events) (3045 events / 2889 unique events in hot method)
+Classifier (org.chocosolver.graphsolver.cstrs.connectivity.PropConnected.isEntailed:128): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#57
+Inspecting hot method org.chocosolver.graphsolver.cstrs.IGraphConstraintFactory.postSymmetryBreaking:1076...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+4508,1288,1288,0
+Total 4508 (7 unique) events are in hot method
+Total 1288 (2 unique) traces are in hot method
+Total 1288 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 4508 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (644 traces / 1 unique traces) (2576 events / 4 unique events)
+	Appendable_ThreadSafe (644 traces / 1 unique traces) (1932 events / 3 unique events)
+Classifier (org.chocosolver.graphsolver.cstrs.IGraphConstraintFactory.postSymmetryBreaking:1076): CUT,ISOLATED_ONE_UNIQUE
+
+#58
+Inspecting hot method org.chocosolver.graphsolver.cstrs.IGraphConstraintFactory.postSymmetryBreaking:1126...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+4298,1228,1228,0
+Total 4298 (7 unique) events are in hot method
+Total 1228 (2 unique) traces are in hot method
+Total 1228 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 4298 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (614 traces / 1 unique traces) (1842 events / 3 unique events)
+	StringBuilder_ThreadSafe (614 traces / 1 unique traces) (2456 events / 4 unique events)
+Classifier (org.chocosolver.graphsolver.cstrs.IGraphConstraintFactory.postSymmetryBreaking:1126): CUT,ISOLATED_ONE_UNIQUE
+
+#59
+Inspecting hot method org.chocosolver.memory.trailing.EnvironmentTrailing.increaseTrail:181...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+4180,1,0,1
+Total 4180 (4180 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 93539 (93539 unique) events are in non-isolated traces (4180 / 4180 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (93539 events / 93539 unique events) (4180 events / 4180 unique events in hot method)
+Classifier (org.chocosolver.memory.trailing.EnvironmentTrailing.increaseTrail:181): LIB,NOT_REDUNDANT_TRACES
+
+#60
+Inspecting hot method org.chocosolver.graphsolver.variables.GraphVar.graphVizExport:404...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+3666,688,463,225
+Total 3666 (1592 unique) events are in hot method
+Total 688 (197 unique) traces are in hot method
+Total 463 (45 unique) isolated traces are in hot method
+Total 225 (152 unique) non-isolated traces that have events in hot method
+Total 2210 (504 unique) events are in isolated traces
+Total 8196 (6295 unique) events are in non-isolated traces (1456 / 1088 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (216 traces / 15 unique traces) (1079 events / 189 unique events)
+	Appendable_ThreadSafe (216 traces / 15 unique traces) (863 events / 174 unique events)
+	Iterator_RemoveOnce (19 traces / 10 unique traces) (142 events / 79 unique events)
+	Iterator_HasNext (12 traces / 5 unique traces) (126 events / 62 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (132 traces / 88 unique traces) (6068 events / 4662 unique events) (1098 events / 817 unique events in hot method)
+	Iterator_RemoveOnce (93 traces / 64 unique traces) (2128 events / 1633 unique events) (358 events / 271 unique events in hot method)
+Classifier (org.chocosolver.graphsolver.variables.GraphVar.graphVizExport:404): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#61
+Inspecting hot method gnu.trove.list.array.TIntArrayList.ensureCapacity:184...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+3470,1,0,1
+Total 3470 (3470 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 93539 (93539 unique) events are in non-isolated traces (3470 / 3470 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (93539 events / 93539 unique events) (3470 events / 3470 unique events in hot method)
+Classifier (gnu.trove.list.array.TIntArrayList.ensureCapacity:184): LIB,NOT_REDUNDANT_TRACES
+
+#62
+Inspecting hot method org.chocosolver.solver.variables.impl.AbstractVariable.link:176...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+3224,1,0,1
+Total 3224 (3224 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 93539 (93539 unique) events are in non-isolated traces (3224 / 3224 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (93539 events / 93539 unique events) (3224 events / 3224 unique events in hot method)
+Classifier (org.chocosolver.solver.variables.impl.AbstractVariable.link:176): LIB,NOT_REDUNDANT_TRACES
+
+#63
+Inspecting hot method org.chocosolver.SymmetryBreakingTest.test:124...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+2886,444,444,0
+Total 2886 (13 unique) events are in hot method
+Total 444 (2 unique) traces are in hot method
+Total 444 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2886 (13 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (222 traces / 1 unique traces) (1554 events / 7 unique events)
+	Appendable_ThreadSafe (222 traces / 1 unique traces) (1332 events / 6 unique events)
+Classifier (org.chocosolver.SymmetryBreakingTest.test:124): CUT,ISOLATED_ONE_UNIQUE
+
+#64
+Inspecting hot method org.chocosolver.util.objects.queues.CircularQueue.doubleCapacity:285...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+2586,863,862,1
+Total 2586 (1725 unique) events are in hot method
+Total 863 (2 unique) traces are in hot method
+Total 862 (1 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 862 (1 unique) events are in isolated traces
+Total 93539 (93539 unique) events are in non-isolated traces (1724 / 1724 unique are in hot method)
+Specs that have isolated traces:
+	Arrays_SortBeforeBinarySearch (862 traces / 1 unique traces) (862 events / 1 unique events)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (93539 events / 93539 unique events) (1724 events / 1724 unique events in hot method)
+Classifier (org.chocosolver.util.objects.queues.CircularQueue.doubleCapacity:285): LIB,ISOLATED_ONE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#65
+Inspecting hot method org.chocosolver.graphsolver.cstrs.basic.PropNbArcs.isEntailed:129...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+2173,254,0,254
+Total 2173 (2124 unique) events are in hot method
+Total 254 (246 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 254 (246 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 1819134 (1813641 unique) events are in non-isolated traces (2173 / 2124 unique are in hot method)
+Specs that have non-isolated traces:
+	Iterator_RemoveOnce (127 traces / 123 unique traces) (590853 events / 589108 unique events) (682 events / 667 unique events in hot method)
+	Iterator_HasNext (127 traces / 123 unique traces) (1228281 events / 1224533 unique events) (1491 events / 1457 unique events in hot method)
+Classifier (org.chocosolver.graphsolver.cstrs.basic.PropNbArcs.isEntailed:129): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#66
+Inspecting hot method org.chocosolver.solver.Model.addHook:738...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+1696,2,0,2
+Total 1696 (1696 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 1762 (1762 unique) events are in non-isolated traces (1696 / 1696 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (881 events / 881 unique events) (848 events / 848 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (881 events / 881 unique events) (848 events / 848 unique events in hot method)
+Classifier (org.chocosolver.solver.Model.addHook:738): LIB,NOT_REDUNDANT_TRACES
+
+#67
+Inspecting hot method gnu.trove.map.hash.TIntObjectHashMap.setUp:142...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+1672,1672,1672,0
+Total 1672 (1 unique) events are in hot method
+Total 1672 (1 unique) traces are in hot method
+Total 1672 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1672 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Arrays_SortBeforeBinarySearch (1672 traces / 1 unique traces) (1672 events / 1 unique events)
+Classifier (gnu.trove.map.hash.TIntObjectHashMap.setUp:142): LIB,ISOLATED_ONE_UNIQUE
+
+#68
+Inspecting hot method org.chocosolver.util.objects.setDataStructures.swapList.Set_Swap.add:69...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+1660,1,0,1
+Total 1660 (1660 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 93539 (93539 unique) events are in non-isolated traces (1660 / 1660 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (93539 events / 93539 unique events) (1660 events / 1660 unique events in hot method)
+Classifier (org.chocosolver.util.objects.setDataStructures.swapList.Set_Swap.add:69): LIB,NOT_REDUNDANT_TRACES
+
+#69
+Inspecting hot method org.chocosolver.memory.trailing.trail.flatten.StoredIntTrail.buildFakeHistory:152...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+1524,1,0,1
+Total 1524 (1524 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 93539 (93539 unique) events are in non-isolated traces (1524 / 1524 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (93539 events / 93539 unique events) (1524 events / 1524 unique events in hot method)
+Classifier (org.chocosolver.memory.trailing.trail.flatten.StoredIntTrail.buildFakeHistory:152): LIB,NOT_REDUNDANT_TRACES
+
+#70
+Inspecting hot method org.chocosolver.graphsolver.variables.GraphVar.removeNode:114...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+1335,245,2,243
+Total 1335 (1015 unique) events are in hot method
+Total 245 (172 unique) traces are in hot method
+Total 2 (1 unique) isolated traces are in hot method
+Total 243 (171 unique) non-isolated traces that have events in hot method
+Total 2 (1 unique) events are in isolated traces
+Total 54284 (48183 unique) events are in non-isolated traces (1333 / 1014 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (2 traces / 1 unique traces) (2 events / 1 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (126 traces / 93 unique traces) (39563 events / 35121 unique events) (990 events / 766 unique events in hot method)
+	Iterator_RemoveOnce (117 traces / 78 unique traces) (14721 events / 13062 unique events) (343 events / 248 unique events in hot method)
+Classifier (org.chocosolver.graphsolver.variables.GraphVar.removeNode:114): CUT,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#71
+Inspecting hot method org.chocosolver.SymmetryBreakingDirectedTest.test:113...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+1260,280,280,0
+Total 1260 (9 unique) events are in hot method
+Total 280 (2 unique) traces are in hot method
+Total 280 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1260 (9 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (140 traces / 1 unique traces) (700 events / 5 unique events)
+	Appendable_ThreadSafe (140 traces / 1 unique traces) (560 events / 4 unique events)
+Classifier (org.chocosolver.SymmetryBreakingDirectedTest.test:113): CUT,ISOLATED_ONE_UNIQUE
+
+#72
+Inspecting hot method org.chocosolver.solver.search.loop.monitors.SearchMonitorList.add:171...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+1134,975,975,0
+Total 1134 (7 unique) events are in hot method
+Total 975 (5 unique) traces are in hot method
+Total 975 (5 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1134 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (975 traces / 5 unique traces) (1134 events / 7 unique events)
+Classifier (org.chocosolver.solver.search.loop.monitors.SearchMonitorList.add:171): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#73
+Inspecting hot method org.chocosolver.graphsolver.cstrs.degree.PropNodeDegreeAtLeastIncr.propagate:118...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+1028,88,0,88
+Total 1028 (802 unique) events are in hot method
+Total 88 (56 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 88 (56 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 922049 (798563 unique) events are in non-isolated traces (1028 / 802 unique are in hot method)
+Specs that have non-isolated traces:
+	Iterator_RemoveOnce (44 traces / 28 unique traces) (298242 events / 259382 unique events) (328 events / 258 unique events in hot method)
+	Iterator_HasNext (44 traces / 28 unique traces) (623807 events / 539181 unique events) (700 events / 544 unique events in hot method)
+Classifier (org.chocosolver.graphsolver.cstrs.degree.PropNodeDegreeAtLeastIncr.propagate:118): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#74
+Inspecting hot method org.chocosolver.solver.variables.IVariableFactory.boolVar:48...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+845,338,338,0
+Total 845 (5 unique) events are in hot method
+Total 338 (2 unique) traces are in hot method
+Total 338 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 845 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (169 traces / 1 unique traces) (507 events / 3 unique events)
+	Appendable_ThreadSafe (169 traces / 1 unique traces) (338 events / 2 unique events)
+Classifier (org.chocosolver.solver.variables.IVariableFactory.boolVar:48): LIB,ISOLATED_ONE_UNIQUE
+
+#75
+Inspecting hot method org.chocosolver.solver.Solver.<init>:114...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+836,836,836,0
+Total 836 (1 unique) events are in hot method
+Total 836 (1 unique) traces are in hot method
+Total 836 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 836 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Throwable_InitCauseOnce (836 traces / 1 unique traces) (836 events / 1 unique events)
+Classifier (org.chocosolver.solver.Solver.<init>:114): LIB,ISOLATED_ONE_UNIQUE
+
+#76
+Inspecting hot method org.chocosolver.solver.search.strategy.decision.DecisionPath.<init>:54...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+836,836,399,437
+Total 836 (199 unique) events are in hot method
+Total 836 (199 unique) traces are in hot method
+Total 399 (1 unique) isolated traces are in hot method
+Total 437 (198 unique) non-isolated traces that have events in hot method
+Total 399 (1 unique) events are in isolated traces
+Total 2104143 (2095476 unique) events are in non-isolated traces (437 / 198 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (399 traces / 1 unique traces) (399 events / 1 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (437 traces / 198 unique traces) (2104143 events / 2095476 unique events) (437 events / 198 unique events in hot method)
+Classifier (org.chocosolver.solver.search.strategy.decision.DecisionPath.<init>:54): LIB,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#77
+Inspecting hot method org.chocosolver.solver.Settings.load:53...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+836,1,1,0
+Total 836 (836 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 836 (836 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Byte_BadParsingArgs (1 traces / 1 unique traces) (836 events / 836 unique events)
+Classifier (org.chocosolver.solver.Settings.load:53): LIB,NOT_REDUNDANT_TRACES
+
+#78
+Inspecting hot method org.chocosolver.solver.Model.associates:779...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+732,1,0,1
+Total 732 (732 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 93539 (93539 unique) events are in non-isolated traces (732 / 732 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (93539 events / 93539 unique events) (732 events / 732 unique events in hot method)
+Classifier (org.chocosolver.solver.Model.associates:779): LIB,NOT_REDUNDANT_TRACES
+
+#79
+Inspecting hot method org.chocosolver.graphsolver.cstrs.connectivity.PropSizeMinCC.propagate:83...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+661,348,346,2
+Total 661 (132 unique) events are in hot method
+Total 348 (47 unique) traces are in hot method
+Total 346 (45 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 645 (116 unique) events are in isolated traces
+Total 52 (52 unique) events are in non-isolated traces (16 / 16 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (93 traces / 13 unique traces) (254 events / 48 unique events)
+	Iterator_HasNext (93 traces / 13 unique traces) (161 events / 35 unique events)
+	Iterator_RemoveOnce (67 traces / 9 unique traces) (73 events / 13 unique events)
+	Map_UnsafeIterator (62 traces / 7 unique traces) (126 events / 17 unique events)
+	Map_CollectionViewAdd (31 traces / 3 unique traces) (31 events / 3 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (37 events / 37 unique events) (11 events / 11 unique events in hot method)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (15 events / 15 unique events) (5 events / 5 unique events in hot method)
+Classifier (org.chocosolver.graphsolver.cstrs.connectivity.PropSizeMinCC.propagate:83): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_SINGLE_TRACE
+
+#80
+Inspecting hot method org.chocosolver.graphsolver.cstrs.connectivity.PropSizeMinCC.getGLBCCPotentialNeighbors:315...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+653,130,93,37
+Total 653 (339 unique) events are in hot method
+Total 130 (42 unique) traces are in hot method
+Total 93 (9 unique) isolated traces are in hot method
+Total 37 (33 unique) non-isolated traces that have events in hot method
+Total 338 (39 unique) events are in isolated traces
+Total 20560106 (20560020 unique) events are in non-isolated traces (315 / 300 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (31 traces / 3 unique traces) (49 events / 6 unique events)
+	Collection_UnsafeIterator (31 traces / 3 unique traces) (160 events / 18 unique events)
+	Iterator_HasNext (31 traces / 3 unique traces) (129 events / 15 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (17 traces / 15 unique traces) (783 events / 721 unique events) (177 events / 166 unique events in hot method)
+	Iterator_RemoveOnce (17 traces / 15 unique traces) (278 events / 254 unique events) (64 events / 60 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (881 events / 881 unique events) (23 events / 23 unique events in hot method)
+	Set_ItselfAsElement (1 traces / 1 unique traces) (20557283 events / 20557283 unique events) (28 events / 28 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (881 events / 881 unique events) (23 events / 23 unique events in hot method)
+Classifier (org.chocosolver.graphsolver.cstrs.connectivity.PropSizeMinCC.getGLBCCPotentialNeighbors:315): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#81
+Inspecting hot method org.chocosolver.solver.Model._post:880...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+570,1,0,1
+Total 570 (570 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 93539 (93539 unique) events are in non-isolated traces (570 / 570 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (93539 events / 93539 unique events) (570 events / 570 unique events in hot method)
+Classifier (org.chocosolver.solver.Model._post:880): LIB,NOT_REDUNDANT_TRACES
+
+#82
+Inspecting hot method org.chocosolver.util.objects.graphs.DirectedGraph.toString:95...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+490,21,21,0
+Total 490 (214 unique) events are in hot method
+Total 21 (9 unique) traces are in hot method
+Total 21 (9 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 490 (214 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (7 traces / 3 unique traces) (134 events / 46 unique events)
+	Iterator_RemoveOnce (6 traces / 2 unique traces) (60 events / 20 unique events)
+	StringBuilder_ThreadSafe (4 traces / 2 unique traces) (150 events / 75 unique events)
+	Appendable_ThreadSafe (4 traces / 2 unique traces) (146 events / 73 unique events)
+Classifier (org.chocosolver.util.objects.graphs.DirectedGraph.toString:95): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#83
+Inspecting hot method org.chocosolver.graphsolver.cstrs.connectivity.PropNbCC.propagate:85...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+405,51,23,28
+Total 405 (367 unique) events are in hot method
+Total 51 (31 unique) traces are in hot method
+Total 23 (9 unique) isolated traces are in hot method
+Total 28 (22 unique) non-isolated traces that have events in hot method
+Total 253 (228 unique) events are in isolated traces
+Total 495 (459 unique) events are in non-isolated traces (152 / 139 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (15 traces / 8 unique traces) (245 events / 227 unique events)
+	Iterator_RemoveOnce (8 traces / 1 unique traces) (8 events / 1 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (17 traces / 14 unique traces) (362 events / 336 unique events) (109 events / 101 unique events in hot method)
+	Iterator_RemoveOnce (11 traces / 8 unique traces) (133 events / 123 unique events) (43 events / 38 unique events in hot method)
+Classifier (org.chocosolver.graphsolver.cstrs.connectivity.PropNbCC.propagate:85): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#84
+Inspecting hot method org.chocosolver.graphsolver.GraphModel.retrieveGraphVars:83...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+325,325,325,0
+Total 325 (1 unique) events are in hot method
+Total 325 (1 unique) traces are in hot method
+Total 325 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 325 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (325 traces / 1 unique traces) (325 events / 1 unique events)
+Classifier (org.chocosolver.graphsolver.GraphModel.retrieveGraphVars:83): CUT,ISOLATED_ONE_UNIQUE
+
+#85
+Inspecting hot method org.chocosolver.utils.GraphGenerator.generateRandomUndirectedAdjacencyMatrix:150...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+248,1,1,0
+Total 248 (248 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 248 (248 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Math_ContendedRandom (1 traces / 1 unique traces) (248 events / 248 unique events)
+Classifier (org.chocosolver.utils.GraphGenerator.generateRandomUndirectedAdjacencyMatrix:150): CUT,NOT_REDUNDANT_TRACES
+
+#86
+Inspecting hot method org.chocosolver.memory.trailing.trail.flatten.OperationTrail.resizeUpdateCapacity:106...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+192,1,0,1
+Total 192 (192 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 93539 (93539 unique) events are in non-isolated traces (192 / 192 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (93539 events / 93539 unique events) (192 events / 192 unique events in hot method)
+Classifier (org.chocosolver.memory.trailing.trail.flatten.OperationTrail.resizeUpdateCapacity:106): LIB,NOT_REDUNDANT_TRACES
+
+#87
+Inspecting hot method org.chocosolver.checked.SizeMaxCCTest.batchTest:238...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+188,33,0,33
+Total 188 (119 unique) events are in hot method
+Total 33 (15 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 33 (15 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 899 (623 unique) events are in non-isolated traces (188 / 119 unique are in hot method)
+Specs that have non-isolated traces:
+	Iterator_HasNext (17 traces / 8 unique traces) (623 events / 427 unique events) (131 events / 82 unique events in hot method)
+	Iterator_RemoveOnce (16 traces / 7 unique traces) (276 events / 196 unique events) (57 events / 37 unique events in hot method)
+Classifier (org.chocosolver.checked.SizeMaxCCTest.batchTest:238): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#88
+Inspecting hot method org.chocosolver.checked.SizeMinCCTest.batchTest:302...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+186,33,0,33
+Total 186 (103 unique) events are in hot method
+Total 33 (13 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 33 (13 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 662 (413 unique) events are in non-isolated traces (186 / 103 unique are in hot method)
+Specs that have non-isolated traces:
+	Iterator_HasNext (18 traces / 7 unique traces) (460 events / 283 unique events) (130 events / 71 unique events in hot method)
+	Iterator_RemoveOnce (15 traces / 6 unique traces) (202 events / 130 unique events) (56 events / 32 unique events in hot method)
+Classifier (org.chocosolver.checked.SizeMinCCTest.batchTest:302): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#89
+Inspecting hot method org.chocosolver.checked.ArborescenceTest.smallTrees:83...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+180,40,40,0
+Total 180 (9 unique) events are in hot method
+Total 40 (2 unique) traces are in hot method
+Total 40 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 180 (9 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (20 traces / 1 unique traces) (100 events / 5 unique events)
+	Appendable_ThreadSafe (20 traces / 1 unique traces) (80 events / 4 unique events)
+Classifier (org.chocosolver.checked.ArborescenceTest.smallTrees:83): CUT,ISOLATED_ONE_UNIQUE
+
+#90
+Inspecting hot method org.chocosolver.util.objects.graphs.DirectedGraph.removeNode:130...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+160,80,0,80
+Total 160 (108 unique) events are in hot method
+Total 80 (52 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 80 (52 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 15995 (11584 unique) events are in non-isolated traces (160 / 108 unique are in hot method)
+Specs that have non-isolated traces:
+	Iterator_HasNext (80 traces / 52 unique traces) (15995 events / 11584 unique events) (160 events / 108 unique events in hot method)
+Classifier (org.chocosolver.util.objects.graphs.DirectedGraph.removeNode:130): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#91
+Inspecting hot method org.chocosolver.solver.variables.delta.EnumDelta.ensureCapacity:36...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+148,1,0,1
+Total 148 (148 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 93539 (93539 unique) events are in non-isolated traces (148 / 148 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (93539 events / 93539 unique events) (148 events / 148 unique events in hot method)
+Classifier (org.chocosolver.solver.variables.delta.EnumDelta.ensureCapacity:36): LIB,NOT_REDUNDANT_TRACES
+
+#92
+Inspecting hot method org.chocosolver.memory.trailing.trail.flatten.StoredIntTrail.resizeUpdateCapacity:176...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+144,1,0,1
+Total 144 (144 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 93539 (93539 unique) events are in non-isolated traces (144 / 144 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (93539 events / 93539 unique events) (144 events / 144 unique events in hot method)
+Classifier (org.chocosolver.memory.trailing.trail.flatten.StoredIntTrail.resizeUpdateCapacity:176): LIB,NOT_REDUNDANT_TRACES
+
+#93
+Inspecting hot method org.chocosolver.util.objects.graphs.UndirectedGraph.toString:90...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+128,20,8,12
+Total 128 (84 unique) events are in hot method
+Total 20 (16 unique) traces are in hot method
+Total 8 (4 unique) isolated traces are in hot method
+Total 12 (12 unique) non-isolated traces that have events in hot method
+Total 88 (44 unique) events are in isolated traces
+Total 200 (200 unique) events are in non-isolated traces (40 / 40 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (4 traces / 2 unique traces) (46 events / 23 unique events)
+	Appendable_ThreadSafe (4 traces / 2 unique traces) (42 events / 21 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (6 traces / 6 unique traces) (149 events / 149 unique events) (30 events / 30 unique events in hot method)
+	Iterator_RemoveOnce (6 traces / 6 unique traces) (51 events / 51 unique events) (10 events / 10 unique events in hot method)
+Classifier (org.chocosolver.util.objects.graphs.UndirectedGraph.toString:90): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT
+
+#94
+Inspecting hot method org.chocosolver.util.objects.setDataStructures.bitset.Set_Std_BitSet.toString:114...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+112,24,24,0
+Total 112 (56 unique) events are in hot method
+Total 24 (12 unique) traces are in hot method
+Total 24 (12 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 112 (56 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (8 traces / 4 unique traces) (48 events / 24 unique events)
+	Appendable_ThreadSafe (8 traces / 4 unique traces) (40 events / 20 unique events)
+	Iterator_HasNext (8 traces / 4 unique traces) (24 events / 12 unique events)
+Classifier (org.chocosolver.util.objects.setDataStructures.bitset.Set_Std_BitSet.toString:114): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#95
+Inspecting hot method org.chocosolver.solver.search.measure.IMeasures.toMultiLineString:194...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+96,16,16,0
+Total 96 (58 unique) events are in hot method
+Total 16 (8 unique) traces are in hot method
+Total 16 (8 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 96 (58 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (8 traces / 4 unique traces) (52 events / 31 unique events)
+	Appendable_ThreadSafe (8 traces / 4 unique traces) (44 events / 27 unique events)
+Classifier (org.chocosolver.solver.search.measure.IMeasures.toMultiLineString:194): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#96
+Inspecting hot method org.chocosolver.solver.constraints.Propagator.toString:779...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+88,16,16,0
+Total 88 (22 unique) events are in hot method
+Total 16 (4 unique) traces are in hot method
+Total 16 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 88 (22 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (8 traces / 2 unique traces) (48 events / 12 unique events)
+	Appendable_ThreadSafe (8 traces / 2 unique traces) (40 events / 10 unique events)
+Classifier (org.chocosolver.solver.constraints.Propagator.toString:779): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#97
+Inspecting hot method org.chocosolver.graphsolver.cstrs.basic.PropNbNodes.propagate:71...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+84,14,2,12
+Total 84 (60 unique) events are in hot method
+Total 14 (10 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 12 (8 unique) non-isolated traces that have events in hot method
+Total 10 (10 unique) events are in isolated traces
+Total 1181 (811 unique) events are in non-isolated traces (74 / 50 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (3 events / 3 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (7 events / 7 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (6 traces / 4 unique traces) (817 events / 561 unique events) (52 events / 35 unique events in hot method)
+	Iterator_RemoveOnce (6 traces / 4 unique traces) (364 events / 250 unique events) (22 events / 15 unique events in hot method)
+Classifier (org.chocosolver.graphsolver.cstrs.basic.PropNbNodes.propagate:71): CUT,ISOLATED_SINGLE_TRACE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#98
+Inspecting hot method org.chocosolver.graphsolver.cstrs.connectivity.PropSizeMinCC.getGUBMandatoryCCs:251...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+84,1,0,1
+Total 84 (84 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 20557283 (20557283 unique) events are in non-isolated traces (84 / 84 unique are in hot method)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (20557283 events / 20557283 unique events) (84 events / 84 unique events in hot method)
+Classifier (org.chocosolver.graphsolver.cstrs.connectivity.PropSizeMinCC.getGUBMandatoryCCs:251): CUT,NOT_REDUNDANT_TRACES
+
+#99
+Inspecting hot method org.chocosolver.solver.constraints.Constraint.toString:168...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+72,16,16,0
+Total 72 (9 unique) events are in hot method
+Total 16 (2 unique) traces are in hot method
+Total 16 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 72 (9 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (8 traces / 1 unique traces) (40 events / 5 unique events)
+	Appendable_ThreadSafe (8 traces / 1 unique traces) (32 events / 4 unique events)
+Classifier (org.chocosolver.solver.constraints.Constraint.toString:168): LIB,ISOLATED_ONE_UNIQUE
+
+#100
+Inspecting hot method org.chocosolver.util.objects.graphs.UndirectedGraph.removeNode:134...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+70,46,0,46
+Total 70 (65 unique) events are in hot method
+Total 46 (41 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 46 (41 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 23568 (23537 unique) events are in non-isolated traces (70 / 65 unique are in hot method)
+Specs that have non-isolated traces:
+	Iterator_HasNext (46 traces / 41 unique traces) (23568 events / 23537 unique events) (70 events / 65 unique events in hot method)
+Classifier (org.chocosolver.util.objects.graphs.UndirectedGraph.removeNode:134): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#101
+Inspecting hot method org.chocosolver.checked.GraphTest.test:25...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+64,20,20,0
+Total 64 (19 unique) events are in hot method
+Total 20 (6 unique) traces are in hot method
+Total 20 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 64 (19 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (10 traces / 3 unique traces) (37 events / 11 unique events)
+	Appendable_ThreadSafe (10 traces / 3 unique traces) (27 events / 8 unique events)
+Classifier (org.chocosolver.checked.GraphTest.test:25): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#102
+Inspecting hot method org.chocosolver.graphsolver.cstrs.degree.PropNodeDegreeAtMostIncr.checkAtMost:162...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+63,12,0,12
+Total 63 (63 unique) events are in hot method
+Total 12 (12 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 12 (12 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 659 (659 unique) events are in non-isolated traces (63 / 63 unique are in hot method)
+Specs that have non-isolated traces:
+	Iterator_HasNext (6 traces / 6 unique traces) (467 events / 467 unique events) (44 events / 44 unique events in hot method)
+	Iterator_RemoveOnce (6 traces / 6 unique traces) (192 events / 192 unique events) (19 events / 19 unique events in hot method)
+Classifier (org.chocosolver.graphsolver.cstrs.degree.PropNodeDegreeAtMostIncr.checkAtMost:162): CUT,NOT_REDUNDANT_TRACES
+
+#103
+Inspecting hot method org.chocosolver.graphsolver.variables.GraphVar.toString:300...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+62,12,12,0
+Total 62 (22 unique) events are in hot method
+Total 12 (4 unique) traces are in hot method
+Total 12 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 62 (22 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (6 traces / 2 unique traces) (34 events / 12 unique events)
+	Appendable_ThreadSafe (6 traces / 2 unique traces) (28 events / 10 unique events)
+Classifier (org.chocosolver.graphsolver.variables.GraphVar.toString:300): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#104
+Inspecting hot method org.chocosolver.graphsolver.cstrs.degree.PropNodeDegreeAtMostIncr.isEntailed:139...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+52,4,0,4
+Total 52 (52 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 4 (4 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 362 (362 unique) events are in non-isolated traces (52 / 52 unique are in hot method)
+Specs that have non-isolated traces:
+	Iterator_RemoveOnce (2 traces / 2 unique traces) (106 events / 106 unique events) (16 events / 16 unique events in hot method)
+	Iterator_HasNext (2 traces / 2 unique traces) (256 events / 256 unique events) (36 events / 36 unique events in hot method)
+Classifier (org.chocosolver.graphsolver.cstrs.degree.PropNodeDegreeAtMostIncr.isEntailed:139): CUT,NOT_REDUNDANT_TRACES
+
+#105
+Inspecting hot method org.chocosolver.graphsolver.cstrs.cycles.PropCycle.isEntailed:119...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+52,4,0,4
+Total 52 (52 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 4 (4 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 362 (362 unique) events are in non-isolated traces (52 / 52 unique are in hot method)
+Specs that have non-isolated traces:
+	Iterator_RemoveOnce (2 traces / 2 unique traces) (106 events / 106 unique events) (16 events / 16 unique events in hot method)
+	Iterator_HasNext (2 traces / 2 unique traces) (256 events / 256 unique events) (36 events / 36 unique events in hot method)
+Classifier (org.chocosolver.graphsolver.cstrs.cycles.PropCycle.isEntailed:119): CUT,NOT_REDUNDANT_TRACES
+
+#106
+Inspecting hot method org.chocosolver.graphsolver.cstrs.connectivity.PropSizeMinCC.getGLBCCNodes:294...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+49,1,0,1
+Total 49 (49 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 20557283 (20557283 unique) events are in non-isolated traces (49 / 49 unique are in hot method)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (20557283 events / 20557283 unique events) (49 events / 49 unique events in hot method)
+Classifier (org.chocosolver.graphsolver.cstrs.connectivity.PropSizeMinCC.getGLBCCNodes:294): CUT,NOT_REDUNDANT_TRACES
+
+#107
+Inspecting hot method org.chocosolver.util.objects.setDataStructures.StdSet.clear:106...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+40,20,0,20
+Total 40 (40 unique) events are in hot method
+Total 20 (20 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 20 (20 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 4009 (4009 unique) events are in non-isolated traces (40 / 40 unique are in hot method)
+Specs that have non-isolated traces:
+	Iterator_HasNext (20 traces / 20 unique traces) (4009 events / 4009 unique events) (40 events / 40 unique events in hot method)
+Classifier (org.chocosolver.util.objects.setDataStructures.StdSet.clear:106): LIB,NOT_REDUNDANT_TRACES
+
+#108
+Inspecting hot method org.chocosolver.checked.ArboTest.debug:66...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+40,16,16,0
+Total 40 (5 unique) events are in hot method
+Total 16 (2 unique) traces are in hot method
+Total 16 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 40 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (8 traces / 1 unique traces) (24 events / 3 unique events)
+	Appendable_ThreadSafe (8 traces / 1 unique traces) (16 events / 2 unique events)
+Classifier (org.chocosolver.checked.ArboTest.debug:66): CUT,ISOLATED_ONE_UNIQUE
+
+#109
+Inspecting hot method org.chocosolver.graphsolver.cstrs.connectivity.PropSizeMaxCC.getGLBCCPotentialNeighbors:188...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+39,12,3,9
+Total 39 (39 unique) events are in hot method
+Total 12 (12 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 9 (9 unique) non-isolated traces that have events in hot method
+Total 18 (18 unique) events are in isolated traces
+Total 20559141 (20559141 unique) events are in non-isolated traces (21 / 21 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (8 events / 8 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (7 events / 7 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (3 events / 3 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (3 traces / 3 unique traces) (70 events / 70 unique events) (13 events / 13 unique events in hot method)
+	Iterator_RemoveOnce (3 traces / 3 unique traces) (26 events / 26 unique events) (5 events / 5 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (881 events / 881 unique events) (1 events / 1 unique events in hot method)
+	Set_ItselfAsElement (1 traces / 1 unique traces) (20557283 events / 20557283 unique events) (1 events / 1 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (881 events / 881 unique events) (1 events / 1 unique events in hot method)
+Classifier (org.chocosolver.graphsolver.cstrs.connectivity.PropSizeMaxCC.getGLBCCPotentialNeighbors:188): CUT,NOT_REDUNDANT_TRACES
+
+#110
+Inspecting hot method org.chocosolver.solver.variables.impl.BitsetIntVarImpl.toString:660...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+35,10,10,0
+Total 35 (7 unique) events are in hot method
+Total 10 (2 unique) traces are in hot method
+Total 10 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 35 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (5 traces / 1 unique traces) (15 events / 3 unique events)
+	StringBuilder_ThreadSafe (5 traces / 1 unique traces) (20 events / 4 unique events)
+Classifier (org.chocosolver.solver.variables.impl.BitsetIntVarImpl.toString:660): LIB,ISOLATED_ONE_UNIQUE
+
+#111
+Inspecting hot method org.chocosolver.checked.ArborescenceTest.testAllDataStructure:108...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+27,6,6,0
+Total 27 (9 unique) events are in hot method
+Total 6 (2 unique) traces are in hot method
+Total 6 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 27 (9 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (3 traces / 1 unique traces) (15 events / 5 unique events)
+	Appendable_ThreadSafe (3 traces / 1 unique traces) (12 events / 4 unique events)
+Classifier (org.chocosolver.checked.ArborescenceTest.testAllDataStructure:108): CUT,ISOLATED_ONE_UNIQUE
+
+#112
+Inspecting hot method org.chocosolver.checked.ArboTest.testAllDataStructure:74...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+27,6,6,0
+Total 27 (9 unique) events are in hot method
+Total 6 (2 unique) traces are in hot method
+Total 6 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 27 (9 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (3 traces / 1 unique traces) (12 events / 4 unique events)
+	StringBuilder_ThreadSafe (3 traces / 1 unique traces) (15 events / 5 unique events)
+Classifier (org.chocosolver.checked.ArboTest.testAllDataStructure:74): CUT,ISOLATED_ONE_UNIQUE
+
+#113
+Inspecting hot method org.chocosolver.graphsolver.cstrs.degree.PropNodeDegreeAtMostIncr.propagate:114...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+26,4,0,4
+Total 26 (26 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 4 (4 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 441 (441 unique) events are in non-isolated traces (26 / 26 unique are in hot method)
+Specs that have non-isolated traces:
+	Iterator_RemoveOnce (2 traces / 2 unique traces) (136 events / 136 unique events) (8 events / 8 unique events in hot method)
+	Iterator_HasNext (2 traces / 2 unique traces) (305 events / 305 unique events) (18 events / 18 unique events in hot method)
+Classifier (org.chocosolver.graphsolver.cstrs.degree.PropNodeDegreeAtMostIncr.propagate:114): CUT,NOT_REDUNDANT_TRACES
+
+#114
+Inspecting hot method org.chocosolver.graphsolver.cstrs.connectivity.PropSizeMaxCC.propagate:52...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+23,9,9,0
+Total 23 (23 unique) events are in hot method
+Total 9 (9 unique) traces are in hot method
+Total 9 (9 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 23 (23 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (2 traces / 2 unique traces) (8 events / 8 unique events)
+	Map_UnsafeIterator (2 traces / 2 unique traces) (6 events / 6 unique events)
+	Iterator_HasNext (2 traces / 2 unique traces) (6 events / 6 unique events)
+	Iterator_RemoveOnce (2 traces / 2 unique traces) (2 events / 2 unique events)
+	Map_CollectionViewAdd (1 traces / 1 unique traces) (1 events / 1 unique events)
+Classifier (org.chocosolver.graphsolver.cstrs.connectivity.PropSizeMaxCC.propagate:52): CUT,NOT_REDUNDANT_TRACES
+
+#115
+Inspecting hot method org.chocosolver.solver.search.measure.IMeasures.toOneLineString:156...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+22,4,4,0
+Total 22 (22 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 4 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 22 (22 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (2 traces / 2 unique traces) (10 events / 10 unique events)
+	StringBuilder_ThreadSafe (2 traces / 2 unique traces) (12 events / 12 unique events)
+Classifier (org.chocosolver.solver.search.measure.IMeasures.toOneLineString:156): LIB,NOT_REDUNDANT_TRACES
+
+#116
+Inspecting hot method org.chocosolver.graphsolver.cstrs.cycles.PropCycle.propagate:85...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+20,11,0,11
+Total 20 (13 unique) events are in hot method
+Total 11 (6 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 11 (6 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 106 (47 unique) events are in non-isolated traces (20 / 13 unique are in hot method)
+Specs that have non-isolated traces:
+	Iterator_HasNext (8 traces / 4 unique traces) (96 events / 40 unique events) (16 events / 10 unique events in hot method)
+	Iterator_RemoveOnce (3 traces / 2 unique traces) (10 events / 7 unique events) (4 events / 3 unique events in hot method)
+Classifier (org.chocosolver.graphsolver.cstrs.cycles.PropCycle.propagate:85): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#117
+Inspecting hot method org.chocosolver.solver.constraints.Operator.<clinit>:22...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+19,3,0,3
+Total 19 (19 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 3 (3 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 1808 (1808 unique) events are in non-isolated traces (19 / 19 unique are in hot method)
+Specs that have non-isolated traces:
+	Serializable_NoArgConstructor (1 traces / 1 unique traces) (46 events / 46 unique events) (1 events / 1 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (881 events / 881 unique events) (9 events / 9 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (881 events / 881 unique events) (9 events / 9 unique events in hot method)
+Classifier (org.chocosolver.solver.constraints.Operator.<clinit>:22): LIB,NOT_REDUNDANT_TRACES
+
+#118
+Inspecting hot method org.chocosolver.graphsolver.cstrs.channeling.nodes.PropNodeBoolsChannel.propagate:89...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+13,2,0,2
+Total 13 (13 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 127 (127 unique) events are in non-isolated traces (13 / 13 unique are in hot method)
+Specs that have non-isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (88 events / 88 unique events) (9 events / 9 unique events in hot method)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (39 events / 39 unique events) (4 events / 4 unique events in hot method)
+Classifier (org.chocosolver.graphsolver.cstrs.channeling.nodes.PropNodeBoolsChannel.propagate:89): CUT,NOT_REDUNDANT_TRACES
+
+#119
+Inspecting hot method org.chocosolver.solver.search.IResolutionHelper.findAllSolutions:140...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+12,4,4,0
+Total 12 (12 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 4 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 12 (12 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (4 traces / 4 unique traces) (12 events / 12 unique events)
+Classifier (org.chocosolver.solver.search.IResolutionHelper.findAllSolutions:140): LIB,NOT_REDUNDANT_TRACES
+
+#120
+Inspecting hot method org.chocosolver.graphsolver.cstrs.connectivity.PropSizeMinCC.getGUBOptionalCCs:269...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+10,1,0,1
+Total 10 (10 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 20557283 (20557283 unique) events are in non-isolated traces (10 / 10 unique are in hot method)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (20557283 events / 20557283 unique events) (10 events / 10 unique events in hot method)
+Classifier (org.chocosolver.graphsolver.cstrs.connectivity.PropSizeMinCC.getGUBOptionalCCs:269): CUT,NOT_REDUNDANT_TRACES
+
+#121
+Inspecting hot method org.chocosolver.checked.ArborescenceTest.bigTrees:96...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+9,2,2,0
+Total 9 (9 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 9 (9 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (5 events / 5 unique events)
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (4 events / 4 unique events)
+Classifier (org.chocosolver.checked.ArborescenceTest.bigTrees:96): CUT,NOT_REDUNDANT_TRACES
+
+#122
+Inspecting hot method org.chocosolver.graphsolver.cstrs.connectivity.PropSizeMaxCC.getGLBCCNodes:167...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+3,1,0,1
+Total 3 (3 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 20557283 (20557283 unique) events are in non-isolated traces (3 / 3 unique are in hot method)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (20557283 events / 20557283 unique events) (3 events / 3 unique events in hot method)
+Classifier (org.chocosolver.graphsolver.cstrs.connectivity.PropSizeMaxCC.getGLBCCNodes:167): CUT,NOT_REDUNDANT_TRACES
+
+#123
+Inspecting hot method org.chocosolver.memory.trailing.trail.flatten.StoredBoolTrail.resizeWorldCapacity:192...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+2,1,0,1
+Total 2 (2 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 93539 (93539 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (93539 events / 93539 unique events) (2 events / 2 unique events in hot method)
+Classifier (org.chocosolver.memory.trailing.trail.flatten.StoredBoolTrail.resizeWorldCapacity:192): LIB,NOT_REDUNDANT_TRACES
+
+#124
+Inspecting hot method org.chocosolver.memory.trailing.trail.flatten.StoredIntTrail.resizeWorldCapacity:192...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+2,1,0,1
+Total 2 (2 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 93539 (93539 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (93539 events / 93539 unique events) (2 events / 2 unique events in hot method)
+Classifier (org.chocosolver.memory.trailing.trail.flatten.StoredIntTrail.resizeWorldCapacity:192): LIB,NOT_REDUNDANT_TRACES
+
+#125
+Inspecting hot method org.chocosolver.memory.trailing.trail.flatten.StoredDoubleTrail.resizeWorldCapacity:192...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+2,1,0,1
+Total 2 (2 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 93539 (93539 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (93539 events / 93539 unique events) (2 events / 2 unique events in hot method)
+Classifier (org.chocosolver.memory.trailing.trail.flatten.StoredDoubleTrail.resizeWorldCapacity:192): LIB,NOT_REDUNDANT_TRACES
+
+#126
+Inspecting hot method org.chocosolver.memory.trailing.trail.flatten.OperationTrail.resizeWorldCapacity:114...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+2,1,0,1
+Total 2 (2 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 93539 (93539 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (93539 events / 93539 unique events) (2 events / 2 unique events in hot method)
+Classifier (org.chocosolver.memory.trailing.trail.flatten.OperationTrail.resizeWorldCapacity:114): LIB,NOT_REDUNDANT_TRACES
+
+#127
+Inspecting hot method org.chocosolver.memory.trailing.trail.flatten.StoredLongTrail.resizeWorldCapacity:192...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+2,1,0,1
+Total 2 (2 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 93539 (93539 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (93539 events / 93539 unique events) (2 events / 2 unique events in hot method)
+Classifier (org.chocosolver.memory.trailing.trail.flatten.StoredLongTrail.resizeWorldCapacity:192): LIB,NOT_REDUNDANT_TRACES
+
+#128
+Inspecting hot method bsh.Interpreter.<clinit>:0...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+Checking for isolation...
+2,2,1,1
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 1 (1 unique) events are in isolated traces
+Total 46 (46 unique) events are in non-isolated traces (1 / 1 unique are in hot method)
+Specs that have isolated traces:
+	Runnable_OverrideRun (1 traces / 1 unique traces) (1 events / 1 unique events)
+Specs that have non-isolated traces:
+	Serializable_NoArgConstructor (1 traces / 1 unique traces) (46 events / 46 unique events) (1 events / 1 unique events in hot method)
+Classifier (bsh.Interpreter.<clinit>:0): LIB,NOT_REDUNDANT_TRACES
+

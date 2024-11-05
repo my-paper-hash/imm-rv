@@ -1,0 +1,305 @@
+Reading traces...
+Reading specs frequency...
+Reading locations...
+Counting events...
+Total 94368207 events and 36922519 traces
+Inspecting top 200 IMM
+Finding hot methods...
+Number of events, method name
+84080060,Xml.XmlDocument.readToken:65
+8084301,Xml.XmlElement.getAttributeValue:64
+865166,Xml.XmlElement.addAttribute:89
+261386,PropBank.FramesetListTest.testArgName:34
+261386,PropBank.FramesetListTest.testArgFunction:53
+135400,PropBank.RoleSet.addRole:47
+119036,PropBank.Frameset.<init>:29
+114757,PropBank.PredicateListTest.testFunction:45
+114757,PropBank.PredicateListTest.testN:78
+86560,PropBank.PredicateList.<init>:18
+70764,PropBank.FramesetList.<init>:18
+60597,PropBank.PredicateListTest.testRoleSize:34
+60597,PropBank.PredicateListTest.testRoleSetSize:25
+53425,PropBank.Predicate.addRoleSet:35
+12,PropBank.PredicateList.getLemmaList:91
+1,PropBank.ArgumentType.<clinit>:8
+1,Xml.XmlTokenType.<clinit>:4
+1,Xml.XmlTextType.<clinit>:4
+^^^ Last method that contains more than one event ^^^
+Starting PropBank.PredicateListTest.testFunction:45
+Finish PropBank.PredicateListTest.testFunction:45
+Starting PropBank.Predicate.addRoleSet:35
+Finish PropBank.Predicate.addRoleSet:35
+Starting PropBank.PredicateList.getLemmaList:91
+Finish PropBank.PredicateList.getLemmaList:91
+Starting PropBank.FramesetListTest.testArgFunction:53
+Finish PropBank.FramesetListTest.testArgFunction:53
+Starting PropBank.PredicateList.<init>:18
+Finish PropBank.PredicateList.<init>:18
+Starting PropBank.FramesetListTest.testArgName:34
+Finish PropBank.FramesetListTest.testArgName:34
+Starting PropBank.PredicateListTest.testRoleSize:34
+Finish PropBank.PredicateListTest.testRoleSize:34
+Starting PropBank.PredicateListTest.testN:78
+Finish PropBank.PredicateListTest.testN:78
+Starting Xml.XmlElement.getAttributeValue:64
+Finish Xml.XmlElement.getAttributeValue:64
+Starting Xml.XmlElement.addAttribute:89
+Finish Xml.XmlElement.addAttribute:89
+Starting Xml.XmlDocument.readToken:65
+Finish Xml.XmlDocument.readToken:65
+Starting PropBank.RoleSet.addRole:47
+Finish PropBank.RoleSet.addRole:47
+Starting PropBank.Frameset.<init>:29
+Finish PropBank.Frameset.<init>:29
+Starting PropBank.FramesetList.<init>:18
+Finish PropBank.FramesetList.<init>:18
+Starting PropBank.PredicateListTest.testRoleSetSize:25
+Finish PropBank.PredicateListTest.testRoleSetSize:25
+
+#1
+Inspecting hot method Xml.XmlDocument.readToken:65...
+Checking for isolation...
+84080060,33632024,33632024,0
+Total 84080060 (5 unique) events are in hot method
+Total 33632024 (2 unique) traces are in hot method
+Total 33632024 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 84080060 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (16816012 traces / 1 unique traces) (33632024 events / 2 unique events)
+	StringBuilder_ThreadSafe (16816012 traces / 1 unique traces) (50448036 events / 3 unique events)
+Classifier (Xml.XmlDocument.readToken:65): LIB,ISOLATED_ONE_UNIQUE
+
+#2
+Inspecting hot method Xml.XmlElement.getAttributeValue:64...
+Checking for isolation...
+8084301,2595498,2595498,0
+Total 8084301 (33 unique) events are in hot method
+Total 2595498 (9 unique) traces are in hot method
+Total 2595498 (9 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 8084301 (33 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (865166 traces / 3 unique traces) (2887654 events / 12 unique events)
+	Iterator_RemoveOnce (865166 traces / 3 unique traces) (1443827 events / 6 unique events)
+	Collection_UnsafeIterator (865166 traces / 3 unique traces) (3752820 events / 15 unique events)
+Classifier (Xml.XmlElement.getAttributeValue:64): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#3
+Inspecting hot method Xml.XmlElement.addAttribute:89...
+Checking for isolation...
+865166,421905,421905,0
+Total 865166 (6 unique) events are in hot method
+Total 421905 (3 unique) traces are in hot method
+Total 421905 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 865166 (6 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (421905 traces / 3 unique traces) (865166 events / 6 unique events)
+Classifier (Xml.XmlElement.addAttribute:89): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#4
+Inspecting hot method PropBank.FramesetListTest.testArgName:34...
+Checking for isolation...
+261386,52996,52994,2
+Total 261386 (59611 unique) events are in hot method
+Total 52996 (19 unique) traces are in hot method
+Total 52994 (17 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 201868 (93 unique) events are in isolated traces
+Total 313916 (313916 unique) events are in non-isolated traces (59518 / 59518 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (17691 traces / 6 unique traces) (77209 events / 36 unique events)
+	Collection_UnsafeIterator (17691 traces / 6 unique traces) (94900 events / 42 unique events)
+	Iterator_RemoveOnce (17612 traces / 5 unique traces) (29759 events / 15 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (156958 events / 156958 unique events) (29759 events / 29759 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (156958 events / 156958 unique events) (29759 events / 29759 unique events in hot method)
+Classifier (PropBank.FramesetListTest.testArgName:34): LIB,ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#5
+Inspecting hot method PropBank.FramesetListTest.testArgFunction:53...
+Checking for isolation...
+261386,52996,52994,2
+Total 261386 (59611 unique) events are in hot method
+Total 52996 (19 unique) traces are in hot method
+Total 52994 (17 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 201868 (93 unique) events are in isolated traces
+Total 313916 (313916 unique) events are in non-isolated traces (59518 / 59518 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (17691 traces / 6 unique traces) (77209 events / 36 unique events)
+	Collection_UnsafeIterator (17691 traces / 6 unique traces) (94900 events / 42 unique events)
+	Iterator_RemoveOnce (17612 traces / 5 unique traces) (29759 events / 15 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (156958 events / 156958 unique events) (29759 events / 29759 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (156958 events / 156958 unique events) (29759 events / 29759 unique events in hot method)
+Classifier (PropBank.FramesetListTest.testArgFunction:53): LIB,ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#6
+Inspecting hot method PropBank.RoleSet.addRole:47...
+Checking for isolation...
+135400,53350,53350,0
+Total 135400 (28 unique) events are in hot method
+Total 53350 (7 unique) traces are in hot method
+Total 53350 (7 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 135400 (28 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (53350 traces / 7 unique traces) (135400 events / 28 unique events)
+Classifier (PropBank.RoleSet.addRole:47): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#7
+Inspecting hot method PropBank.Frameset.<init>:29...
+Checking for isolation...
+119036,70448,70448,0
+Total 119036 (15 unique) events are in hot method
+Total 70448 (5 unique) traces are in hot method
+Total 70448 (5 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 119036 (15 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (70448 traces / 5 unique traces) (119036 events / 15 unique events)
+Classifier (PropBank.Frameset.<init>:29): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#8
+Inspecting hot method PropBank.PredicateListTest.testFunction:45...
+Checking for isolation...
+114757,6,3,3
+Total 114757 (114757 unique) events are in hot method
+Total 6 (6 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 3 (3 unique) non-isolated traces that have events in hot method
+Total 43283 (43283 unique) events are in isolated traces
+Total 331231 (331231 unique) events are in non-isolated traces (71474 / 71474 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (17314 events / 17314 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (8656 events / 8656 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (17313 events / 17313 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (1 traces / 1 unique traces) (17315 events / 17315 unique events) (17314 events / 17314 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (156958 events / 156958 unique events) (27080 events / 27080 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (156958 events / 156958 unique events) (27080 events / 27080 unique events in hot method)
+Classifier (PropBank.PredicateListTest.testFunction:45): LIB,NOT_REDUNDANT_TRACES
+
+#9
+Inspecting hot method PropBank.PredicateListTest.testN:78...
+Checking for isolation...
+114757,6,3,3
+Total 114757 (114757 unique) events are in hot method
+Total 6 (6 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 3 (3 unique) non-isolated traces that have events in hot method
+Total 43283 (43283 unique) events are in isolated traces
+Total 331231 (331231 unique) events are in non-isolated traces (71474 / 71474 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (17314 events / 17314 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (8656 events / 8656 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (17313 events / 17313 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (1 traces / 1 unique traces) (17315 events / 17315 unique events) (17314 events / 17314 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (156958 events / 156958 unique events) (27080 events / 27080 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (156958 events / 156958 unique events) (27080 events / 27080 unique events in hot method)
+Classifier (PropBank.PredicateListTest.testN:78): LIB,NOT_REDUNDANT_TRACES
+
+#10
+Inspecting hot method PropBank.PredicateList.<init>:18...
+Checking for isolation...
+86560,2,0,2
+Total 86560 (86560 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 313916 (313916 unique) events are in non-isolated traces (86560 / 86560 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (156958 events / 156958 unique events) (43280 events / 43280 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (156958 events / 156958 unique events) (43280 events / 43280 unique events in hot method)
+Classifier (PropBank.PredicateList.<init>:18): LIB,NOT_REDUNDANT_TRACES
+
+#11
+Inspecting hot method PropBank.FramesetList.<init>:18...
+Checking for isolation...
+70764,4,4,0
+Total 70764 (17691 unique) events are in hot method
+Total 4 (1 unique) traces are in hot method
+Total 4 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 70764 (17691 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (4 traces / 1 unique traces) (70764 events / 17691 unique events)
+Classifier (PropBank.FramesetList.<init>:18): CUT,ISOLATED_ONE_UNIQUE
+
+#12
+Inspecting hot method PropBank.PredicateListTest.testRoleSize:34...
+Checking for isolation...
+60597,4,3,1
+Total 60597 (60597 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 43283 (43283 unique) events are in isolated traces
+Total 17315 (17315 unique) events are in non-isolated traces (17314 / 17314 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (17314 events / 17314 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (8656 events / 8656 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (17313 events / 17313 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (1 traces / 1 unique traces) (17315 events / 17315 unique events) (17314 events / 17314 unique events in hot method)
+Classifier (PropBank.PredicateListTest.testRoleSize:34): LIB,NOT_REDUNDANT_TRACES
+
+#13
+Inspecting hot method PropBank.PredicateListTest.testRoleSetSize:25...
+Checking for isolation...
+60597,4,3,1
+Total 60597 (60597 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 43283 (43283 unique) events are in isolated traces
+Total 17315 (17315 unique) events are in non-isolated traces (17314 / 17314 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (17314 events / 17314 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (8656 events / 8656 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (17313 events / 17313 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (1 traces / 1 unique traces) (17315 events / 17315 unique events) (17314 events / 17314 unique events in hot method)
+Classifier (PropBank.PredicateListTest.testRoleSetSize:25): CUT,NOT_REDUNDANT_TRACES
+
+#14
+Inspecting hot method PropBank.Predicate.addRoleSet:35...
+Checking for isolation...
+53425,43275,43275,0
+Total 53425 (113 unique) events are in hot method
+Total 43275 (14 unique) traces are in hot method
+Total 43275 (14 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 53425 (113 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (43275 traces / 14 unique traces) (53425 events / 113 unique events)
+Classifier (PropBank.Predicate.addRoleSet:35): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#15
+Inspecting hot method PropBank.PredicateList.getLemmaList:91...
+Checking for isolation...
+12,12,8,4
+Total 12 (6 unique) events are in hot method
+Total 12 (6 unique) traces are in hot method
+Total 8 (2 unique) isolated traces are in hot method
+Total 4 (4 unique) non-isolated traces that have events in hot method
+Total 8 (2 unique) events are in isolated traces
+Total 69260 (69260 unique) events are in non-isolated traces (4 / 4 unique are in hot method)
+Specs that have isolated traces:
+	Map_CollectionViewAdd (4 traces / 1 unique traces) (4 events / 1 unique events)
+	Map_UnsafeIterator (4 traces / 1 unique traces) (4 events / 1 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (4 traces / 4 unique traces) (69260 events / 69260 unique events) (4 events / 4 unique events in hot method)
+Classifier (PropBank.PredicateList.getLemmaList:91): LIB,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT
+

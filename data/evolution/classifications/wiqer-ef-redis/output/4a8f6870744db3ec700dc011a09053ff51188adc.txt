@@ -1,0 +1,518 @@
+Reading traces...
+Reading specs frequency...
+Reading locations...
+Counting events...
+Total 100000630 events and 40000177 traces
+Inspecting top 200 IMM
+Finding hot methods...
+Number of events, method name
+100000014,RingBlockingQueueTest.RingBlockingQueueTestMain:10
+106,io.netty.util.internal.logging.MessageFormatter.arrayFormat:172
+87,org.apache.log4j.Hierarchy.updateParents:504
+80,io.netty.util.internal.StringUtil.<clinit>:29
+57,org.apache.log4j.Hierarchy.getLogger:266
+50,RingBlockingQueueTest.RingBlockingQueueTest2:26
+30,io.netty.util.internal.logging.MessageFormatter.safeObjectAppend:276
+25,io.netty.util.NetUtilInitializations.determineLoopback:71
+16,io.netty.util.internal.logging.MessageFormatter.deeplyAppendParameter:225
+15,DefaultChannelSelectStrategyTest.testChannelSelect:12
+15,StringTest.matched:14
+15,org.slf4j.helpers.Util.report:128
+12,io.netty.util.collection.IntObjectHashMap.<init>:62
+11,io.netty.util.internal.NativeLibraryLoader.load:131
+10,com.wiqer.redis.util.StringUtil.EscapeString:9
+9,org.apache.log4j.ProvisionNode.<init>:27
+9,io.netty.util.concurrent.DefaultThreadFactory.<init>:33
+7,io.netty.channel.epoll.Native.loadNativeLibrary:297
+7,io.netty.util.internal.NativeLibraryLoader.<clinit>:44
+5,io.netty.util.concurrent.DefaultPromise.<clinit>:36
+5,io.netty.util.concurrent.DefaultThreadFactory.toPoolName:68
+3,io.netty.util.internal.PlatformDependent$4.run:228
+3,io.netty.util.NetUtil$1.run:158
+2,io.netty.util.internal.NativeLibraryLoader.closeQuietly:479
+2,com.wiqer.redis.aof.RingBlockingQueue.<clinit>:0
+2,org.apache.log4j.ProvisionNode.<clinit>:0
+1,io.netty.channel.epoll.Native.<clinit>:53
+1,io.netty.util.concurrent.GlobalEventExecutor.<init>:47
+1,io.netty.channel.kqueue.Native.loadNativeLibrary:136
+1,io.netty.util.concurrent.DefaultPromise$StacklessCancellationException.newInstance:862
+1,io.netty.util.internal.logging.Slf4JLoggerFactory.<init>:43
+1,io.netty.util.internal.logging.AbstractInternalLogger.<clinit>:0
+1,io.netty.util.internal.logging.Log4JLogger.<clinit>:59
+1,org.apache.log4j.Level.<clinit>:51
+1,org.apache.log4j.spi.LoggingEvent.<clinit>:57
+1,io.netty.channel.unix.DatagramSocketAddress.<clinit>:0
+1,io.netty.channel.unix.DomainSocketAddress.<clinit>:0
+1,io.netty.channel.unix.DomainDatagramSocketAddress.<clinit>:0
+1,io.netty.channel.ChannelException.<clinit>:26
+1,io.netty.util.concurrent.DefaultPromise$StacklessCancellationException.<clinit>:0
+1,io.netty.util.internal.DefaultPriorityQueue.<clinit>:33
+1,io.netty.util.internal.shaded.org.jctools.queues.BaseMpscLinkedArrayQueuePad1.<clinit>:0
+1,io.netty.util.internal.shaded.org.jctools.queues.BaseMpscLinkedArrayQueueProducerFields.<clinit>:55
+1,io.netty.util.internal.shaded.org.jctools.queues.BaseMpscLinkedArrayQueuePad2.<clinit>:0
+1,io.netty.util.internal.shaded.org.jctools.queues.BaseMpscLinkedArrayQueueConsumerFields.<clinit>:99
+1,io.netty.util.internal.shaded.org.jctools.queues.BaseMpscLinkedArrayQueuePad3.<clinit>:0
+1,io.netty.util.internal.shaded.org.jctools.queues.BaseMpscLinkedArrayQueueColdProducerFields.<clinit>:145
+1,io.netty.util.internal.shaded.org.jctools.queues.BaseMpscLinkedArrayQueue.<clinit>:173
+1,io.netty.util.internal.shaded.org.jctools.queues.MpscUnboundedArrayQueue.<clinit>:0
+1,io.netty.util.collection.IntObjectHashMap$KeySet.<clinit>:0
+1,io.netty.util.collection.IntObjectHashMap$EntrySet.<clinit>:0
+1,io.netty.channel.epoll.Native$1.<clinit>:0
+1,io.netty.util.concurrent.AbstractScheduledEventExecutor$2.<clinit>:0
+1,io.netty.util.concurrent.PromiseTask$SentinelRunnable.<clinit>:0
+1,io.netty.util.concurrent.PromiseTask.<clinit>:44
+1,io.netty.util.concurrent.ScheduledFutureTask.<clinit>:26
+1,io.netty.util.concurrent.GlobalEventExecutor$1.<clinit>:0
+1,io.netty.util.concurrent.GlobalEventExecutor$TaskRunner.<clinit>:233
+1,io.netty.util.concurrent.SingleThreadEventExecutor$1.<clinit>:0
+^^^ Last method that contains more than one event ^^^
+Starting org.apache.log4j.Hierarchy.getLogger:266
+Finish org.apache.log4j.Hierarchy.getLogger:266
+Starting RingBlockingQueueTest.RingBlockingQueueTestMain:10
+Finish RingBlockingQueueTest.RingBlockingQueueTestMain:10
+Starting org.apache.log4j.ProvisionNode.<clinit>:0
+Finish org.apache.log4j.ProvisionNode.<clinit>:0
+Starting io.netty.util.internal.StringUtil.<clinit>:29
+Finish io.netty.util.internal.StringUtil.<clinit>:29
+Starting io.netty.util.internal.logging.MessageFormatter.arrayFormat:172
+Finish io.netty.util.internal.logging.MessageFormatter.arrayFormat:172
+Starting org.apache.log4j.Hierarchy.updateParents:504
+Finish org.apache.log4j.Hierarchy.updateParents:504
+Starting DefaultChannelSelectStrategyTest.testChannelSelect:12
+Finish DefaultChannelSelectStrategyTest.testChannelSelect:12
+Starting io.netty.util.internal.logging.MessageFormatter.safeObjectAppend:276
+Finish io.netty.util.internal.logging.MessageFormatter.safeObjectAppend:276
+Starting io.netty.util.collection.IntObjectHashMap.<init>:62
+Finish io.netty.util.collection.IntObjectHashMap.<init>:62
+Starting org.apache.log4j.ProvisionNode.<init>:27
+Finish org.apache.log4j.ProvisionNode.<init>:27
+Starting RingBlockingQueueTest.RingBlockingQueueTest2:26
+Finish RingBlockingQueueTest.RingBlockingQueueTest2:26
+Starting StringTest.matched:14
+Finish StringTest.matched:14
+Starting io.netty.util.concurrent.DefaultThreadFactory.<init>:33
+Finish io.netty.util.concurrent.DefaultThreadFactory.<init>:33
+Starting com.wiqer.redis.util.StringUtil.EscapeString:9
+Finish com.wiqer.redis.util.StringUtil.EscapeString:9
+Starting io.netty.util.NetUtilInitializations.determineLoopback:71
+Finish io.netty.util.NetUtilInitializations.determineLoopback:71
+Starting io.netty.util.concurrent.DefaultThreadFactory.toPoolName:68
+Finish io.netty.util.concurrent.DefaultThreadFactory.toPoolName:68
+Starting io.netty.util.internal.logging.MessageFormatter.deeplyAppendParameter:225
+Finish io.netty.util.internal.logging.MessageFormatter.deeplyAppendParameter:225
+Starting org.slf4j.helpers.Util.report:128
+Finish org.slf4j.helpers.Util.report:128
+Starting io.netty.util.internal.NativeLibraryLoader.load:131
+Finish io.netty.util.internal.NativeLibraryLoader.load:131
+Starting io.netty.util.internal.NativeLibraryLoader.<clinit>:44
+Finish io.netty.util.internal.NativeLibraryLoader.<clinit>:44
+Starting io.netty.util.concurrent.DefaultPromise.<clinit>:36
+Finish io.netty.util.concurrent.DefaultPromise.<clinit>:36
+Starting io.netty.util.internal.PlatformDependent$4.run:228
+Finish io.netty.util.internal.PlatformDependent$4.run:228
+Starting io.netty.util.NetUtil$1.run:158
+Finish io.netty.util.NetUtil$1.run:158
+Starting io.netty.channel.epoll.Native.loadNativeLibrary:297
+Finish io.netty.channel.epoll.Native.loadNativeLibrary:297
+Starting io.netty.util.internal.NativeLibraryLoader.closeQuietly:479
+Finish io.netty.util.internal.NativeLibraryLoader.closeQuietly:479
+Starting com.wiqer.redis.aof.RingBlockingQueue.<clinit>:0
+Finish com.wiqer.redis.aof.RingBlockingQueue.<clinit>:0
+
+#1
+Inspecting hot method RingBlockingQueueTest.RingBlockingQueueTestMain:10...
+Checking for isolation...
+100000014,40000004,40000004,0
+Total 100000014 (24 unique) events are in hot method
+Total 40000004 (8 unique) traces are in hot method
+Total 40000004 (8 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 100000014 (24 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (20000002 traces / 4 unique traces) (40000006 events / 10 unique events)
+	StringBuilder_ThreadSafe (20000002 traces / 4 unique traces) (60000008 events / 14 unique events)
+Classifier (RingBlockingQueueTest.RingBlockingQueueTestMain:10): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#2
+Inspecting hot method io.netty.util.internal.logging.MessageFormatter.arrayFormat:172...
+Checking for isolation...
+106,40,0,40
+Total 106 (31 unique) events are in hot method
+Total 40 (10 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 40 (10 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 152 (47 unique) events are in non-isolated traces (106 / 31 unique are in hot method)
+Specs that have non-isolated traces:
+	Appendable_ThreadSafe (20 traces / 5 unique traces) (66 events / 21 unique events) (43 events / 13 unique events in hot method)
+	StringBuilder_ThreadSafe (20 traces / 5 unique traces) (86 events / 26 unique events) (63 events / 18 unique events in hot method)
+Classifier (io.netty.util.internal.logging.MessageFormatter.arrayFormat:172): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#3
+Inspecting hot method org.apache.log4j.Hierarchy.updateParents:504...
+Checking for isolation...
+87,10,0,10
+Total 87 (70 unique) events are in hot method
+Total 10 (9 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 10 (9 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 151 (133 unique) events are in non-isolated traces (87 / 70 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (7 traces / 6 unique traces) (67 events / 49 unique events) (60 events / 43 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (28 events / 28 unique events) (9 events / 9 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (28 events / 28 unique events) (9 events / 9 unique events in hot method)
+	Dictionary_NullKeyOrValue (1 traces / 1 unique traces) (28 events / 28 unique events) (9 events / 9 unique events in hot method)
+Classifier (org.apache.log4j.Hierarchy.updateParents:504): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#4
+Inspecting hot method io.netty.util.internal.StringUtil.<clinit>:29...
+Checking for isolation...
+80,32,32,0
+Total 80 (5 unique) events are in hot method
+Total 32 (2 unique) traces are in hot method
+Total 32 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 80 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (16 traces / 1 unique traces) (32 events / 2 unique events)
+	StringBuilder_ThreadSafe (16 traces / 1 unique traces) (48 events / 3 unique events)
+Classifier (io.netty.util.internal.StringUtil.<clinit>:29): LIB,ISOLATED_ONE_UNIQUE
+
+#5
+Inspecting hot method org.apache.log4j.Hierarchy.getLogger:266...
+Checking for isolation...
+57,3,0,3
+Total 57 (57 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 3 (3 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 84 (84 unique) events are in non-isolated traces (57 / 57 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (28 events / 28 unique events) (19 events / 19 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (28 events / 28 unique events) (19 events / 19 unique events in hot method)
+	Dictionary_NullKeyOrValue (1 traces / 1 unique traces) (28 events / 28 unique events) (19 events / 19 unique events in hot method)
+Classifier (org.apache.log4j.Hierarchy.getLogger:266): LIB,NOT_REDUNDANT_TRACES
+
+#6
+Inspecting hot method RingBlockingQueueTest.RingBlockingQueueTest2:26...
+Checking for isolation...
+50,20,20,0
+Total 50 (5 unique) events are in hot method
+Total 20 (2 unique) traces are in hot method
+Total 20 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 50 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (10 traces / 1 unique traces) (20 events / 2 unique events)
+	StringBuilder_ThreadSafe (10 traces / 1 unique traces) (30 events / 3 unique events)
+Classifier (RingBlockingQueueTest.RingBlockingQueueTest2:26): LIB,ISOLATED_ONE_UNIQUE
+
+#7
+Inspecting hot method io.netty.util.internal.logging.MessageFormatter.safeObjectAppend:276...
+Checking for isolation...
+30,26,0,26
+Total 30 (10 unique) events are in hot method
+Total 26 (6 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 26 (6 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 103 (33 unique) events are in non-isolated traces (30 / 10 unique are in hot method)
+Specs that have non-isolated traces:
+	Appendable_ThreadSafe (13 traces / 3 unique traces) (45 events / 15 unique events) (15 events / 5 unique events in hot method)
+	StringBuilder_ThreadSafe (13 traces / 3 unique traces) (58 events / 18 unique events) (15 events / 5 unique events in hot method)
+Classifier (io.netty.util.internal.logging.MessageFormatter.safeObjectAppend:276): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#8
+Inspecting hot method io.netty.util.NetUtilInitializations.determineLoopback:71...
+Checking for isolation...
+25,4,4,0
+Total 25 (25 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 4 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 25 (25 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (9 events / 9 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (4 events / 4 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (8 events / 8 unique events)
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (4 events / 4 unique events)
+Classifier (io.netty.util.NetUtilInitializations.determineLoopback:71): LIB,NOT_REDUNDANT_TRACES
+
+#9
+Inspecting hot method io.netty.util.internal.logging.MessageFormatter.deeplyAppendParameter:225...
+Checking for isolation...
+16,16,0,16
+Total 16 (6 unique) events are in hot method
+Total 16 (6 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 16 (6 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 60 (25 unique) events are in non-isolated traces (16 / 6 unique are in hot method)
+Specs that have non-isolated traces:
+	Appendable_ThreadSafe (8 traces / 3 unique traces) (26 events / 11 unique events) (8 events / 3 unique events in hot method)
+	StringBuilder_ThreadSafe (8 traces / 3 unique traces) (34 events / 14 unique events) (8 events / 3 unique events in hot method)
+Classifier (io.netty.util.internal.logging.MessageFormatter.deeplyAppendParameter:225): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#10
+Inspecting hot method DefaultChannelSelectStrategyTest.testChannelSelect:12...
+Checking for isolation...
+15,6,6,0
+Total 15 (15 unique) events are in hot method
+Total 6 (6 unique) traces are in hot method
+Total 6 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 15 (15 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (3 traces / 3 unique traces) (6 events / 6 unique events)
+	StringBuilder_ThreadSafe (3 traces / 3 unique traces) (9 events / 9 unique events)
+Classifier (DefaultChannelSelectStrategyTest.testChannelSelect:12): LIB,NOT_REDUNDANT_TRACES
+
+#11
+Inspecting hot method StringTest.matched:14...
+Checking for isolation...
+15,6,6,0
+Total 15 (15 unique) events are in hot method
+Total 6 (6 unique) traces are in hot method
+Total 6 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 15 (15 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (3 traces / 3 unique traces) (6 events / 6 unique events)
+	StringBuilder_ThreadSafe (3 traces / 3 unique traces) (9 events / 9 unique events)
+Classifier (StringTest.matched:14): LIB,NOT_REDUNDANT_TRACES
+
+#12
+Inspecting hot method org.slf4j.helpers.Util.report:128...
+Checking for isolation...
+15,6,6,0
+Total 15 (5 unique) events are in hot method
+Total 6 (2 unique) traces are in hot method
+Total 6 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 15 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (3 traces / 1 unique traces) (6 events / 2 unique events)
+	StringBuilder_ThreadSafe (3 traces / 1 unique traces) (9 events / 3 unique events)
+Classifier (org.slf4j.helpers.Util.report:128): LIB,ISOLATED_ONE_UNIQUE
+
+#13
+Inspecting hot method io.netty.util.collection.IntObjectHashMap.<init>:62...
+Checking for isolation...
+12,12,12,0
+Total 12 (1 unique) events are in hot method
+Total 12 (1 unique) traces are in hot method
+Total 12 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 12 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Arrays_SortBeforeBinarySearch (12 traces / 1 unique traces) (12 events / 1 unique events)
+Classifier (io.netty.util.collection.IntObjectHashMap.<init>:62): LIB,ISOLATED_ONE_UNIQUE
+
+#14
+Inspecting hot method io.netty.util.internal.NativeLibraryLoader.load:131...
+Checking for isolation...
+11,5,5,0
+Total 11 (11 unique) events are in hot method
+Total 5 (5 unique) traces are in hot method
+Total 5 (5 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 11 (11 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (2 traces / 2 unique traces) (4 events / 4 unique events)
+	StringBuilder_ThreadSafe (2 traces / 2 unique traces) (6 events / 6 unique events)
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (1 events / 1 unique events)
+Classifier (io.netty.util.internal.NativeLibraryLoader.load:131): LIB,NOT_REDUNDANT_TRACES
+
+#15
+Inspecting hot method com.wiqer.redis.util.StringUtil.EscapeString:9...
+Checking for isolation...
+10,4,4,0
+Total 10 (5 unique) events are in hot method
+Total 4 (2 unique) traces are in hot method
+Total 4 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 10 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (2 traces / 1 unique traces) (4 events / 2 unique events)
+	StringBuilder_ThreadSafe (2 traces / 1 unique traces) (6 events / 3 unique events)
+Classifier (com.wiqer.redis.util.StringUtil.EscapeString:9): CUT,ISOLATED_ONE_UNIQUE
+
+#16
+Inspecting hot method org.apache.log4j.ProvisionNode.<init>:27...
+Checking for isolation...
+9,9,2,7
+Total 9 (7 unique) events are in hot method
+Total 9 (7 unique) traces are in hot method
+Total 2 (1 unique) isolated traces are in hot method
+Total 7 (6 unique) non-isolated traces that have events in hot method
+Total 2 (1 unique) events are in isolated traces
+Total 67 (49 unique) events are in non-isolated traces (7 / 6 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (2 traces / 1 unique traces) (2 events / 1 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (7 traces / 6 unique traces) (67 events / 49 unique events) (7 events / 6 unique events in hot method)
+Classifier (org.apache.log4j.ProvisionNode.<init>:27): LIB,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#17
+Inspecting hot method io.netty.util.concurrent.DefaultThreadFactory.<init>:33...
+Checking for isolation...
+9,2,2,0
+Total 9 (9 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 9 (9 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (4 events / 4 unique events)
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (5 events / 5 unique events)
+Classifier (io.netty.util.concurrent.DefaultThreadFactory.<init>:33): LIB,NOT_REDUNDANT_TRACES
+
+#18
+Inspecting hot method io.netty.channel.epoll.Native.loadNativeLibrary:297...
+Checking for isolation...
+7,2,2,0
+Total 7 (7 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 7 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (4 events / 4 unique events)
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+Classifier (io.netty.channel.epoll.Native.loadNativeLibrary:297): LIB,NOT_REDUNDANT_TRACES
+
+#19
+Inspecting hot method io.netty.util.internal.NativeLibraryLoader.<clinit>:44...
+Checking for isolation...
+7,2,2,0
+Total 7 (7 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 7 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (4 events / 4 unique events)
+Classifier (io.netty.util.internal.NativeLibraryLoader.<clinit>:44): LIB,NOT_REDUNDANT_TRACES
+
+#20
+Inspecting hot method io.netty.util.concurrent.DefaultPromise.<clinit>:36...
+Checking for isolation...
+5,2,2,0
+Total 5 (5 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (2 events / 2 unique events)
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+Classifier (io.netty.util.concurrent.DefaultPromise.<clinit>:36): LIB,NOT_REDUNDANT_TRACES
+
+#21
+Inspecting hot method io.netty.util.concurrent.DefaultThreadFactory.toPoolName:68...
+Checking for isolation...
+5,2,2,0
+Total 5 (5 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (2 events / 2 unique events)
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+Classifier (io.netty.util.concurrent.DefaultThreadFactory.toPoolName:68): LIB,NOT_REDUNDANT_TRACES
+
+#22
+Inspecting hot method io.netty.util.internal.PlatformDependent$4.run:228...
+Checking for isolation...
+3,3,3,0
+Total 3 (3 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Reader_ManipulateAfterClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Closeable_MultipleClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Console_CloseReader (1 traces / 1 unique traces) (1 events / 1 unique events)
+Classifier (io.netty.util.internal.PlatformDependent$4.run:228): LIB,NOT_REDUNDANT_TRACES
+
+#23
+Inspecting hot method io.netty.util.NetUtil$1.run:158...
+Checking for isolation...
+3,3,3,0
+Total 3 (3 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Reader_ManipulateAfterClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Closeable_MultipleClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Console_CloseReader (1 traces / 1 unique traces) (1 events / 1 unique events)
+Classifier (io.netty.util.NetUtil$1.run:158): LIB,NOT_REDUNDANT_TRACES
+
+#24
+Inspecting hot method io.netty.util.internal.NativeLibraryLoader.closeQuietly:479...
+Checking for isolation...
+2,2,2,0
+Total 2 (1 unique) events are in hot method
+Total 2 (1 unique) traces are in hot method
+Total 2 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Closeable_MultipleClose (2 traces / 1 unique traces) (2 events / 1 unique events)
+Classifier (io.netty.util.internal.NativeLibraryLoader.closeQuietly:479): LIB,ISOLATED_ONE_UNIQUE
+
+#25
+Inspecting hot method com.wiqer.redis.aof.RingBlockingQueue.<clinit>:0...
+Checking for isolation...
+2,2,0,2
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 24 (24 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	Serializable_NoArgConstructor (1 traces / 1 unique traces) (11 events / 11 unique events) (1 events / 1 unique events in hot method)
+	Collection_HashCode (1 traces / 1 unique traces) (13 events / 13 unique events) (1 events / 1 unique events in hot method)
+Classifier (com.wiqer.redis.aof.RingBlockingQueue.<clinit>:0): CUT,NOT_REDUNDANT_TRACES
+
+#26
+Inspecting hot method org.apache.log4j.ProvisionNode.<clinit>:0...
+Checking for isolation...
+2,2,0,2
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 24 (24 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	Serializable_NoArgConstructor (1 traces / 1 unique traces) (11 events / 11 unique events) (1 events / 1 unique events in hot method)
+	Collection_HashCode (1 traces / 1 unique traces) (13 events / 13 unique events) (1 events / 1 unique events in hot method)
+Classifier (org.apache.log4j.ProvisionNode.<clinit>:0): LIB,NOT_REDUNDANT_TRACES
+

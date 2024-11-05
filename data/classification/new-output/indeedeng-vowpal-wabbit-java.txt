@@ -1,0 +1,1050 @@
+Reading traces...
+Reading specs frequency...
+Reading locations...
+Counting events...
+Total 1268285808 events and 287481165 traces
+Inspecting top 200 IMM
+Finding hot methods...
+Number of events, method name
+257648766,com.indeed.vw.wrapper.api.example.ExampleBuilder.createNamespace:264
+168035120,com.indeed.vw.wrapper.api.example.ExampleBuilder$NamespaceBuilder.addCategoricalFeature:112
+144987690,com.indeed.vw.wrapper.api.example.ExampleBuilder$NamespaceBuilder.toString:154
+120343565,com.indeed.vw.wrapper.api.example.ExampleBuilder.namespaceThatStartWithSameCharacter:284
+112402157,com.google.common.base.Splitter.splitToList:416
+104721353,com.google.common.base.Joiner.appendTo:106
+54611466,com.indeed.vw.wrapper.api.example.ExampleBuilder$NamespaceBuilder.addCategoricalFeature:97
+50906193,com.indeed.vw.wrapper.progvalidation.Metrics.updateScore:68
+40167216,com.indeed.vw.wrapper.api.example.ExampleBuilder$NamespaceBuilder.addTextAsFeatures:127
+35146367,com.indeed.vw.wrapper.integration.IntegrationSuite.readColumnsFromCsv:169
+35146329,com.indeed.vw.wrapper.api.example.ExampleBuilder.toString:299
+35146307,com.google.common.base.CharMatcher.is:413
+26845314,com.google.common.base.AbstractIterator.next:74
+21004395,com.indeed.vw.wrapper.api.example.ExampleBuilder$NamespaceBuilder.namespaceWeight:84
+10502205,com.indeed.vw.wrapper.api.example.ExampleBuilder.label:174
+10502195,com.indeed.vw.wrapper.integration.tests.TestOnMovieLensDataset.parseWvExample:65
+8947641,com.indeed.vw.wrapper.integration.IntegrationSuite.testSaveAndReadModelFile:134
+8947629,com.indeed.vw.wrapper.integration.IntegrationSuite.testInteractingTroughJava:105
+5525208,com.indeed.vw.wrapper.integration.tests.TestOnTwitterSentimentDataset.trainFeatureMask:27
+5020951,com.google.common.base.Joiner.join:183
+5020951,com.google.common.base.Joiner.join:193
+5020913,org.apache.commons.io.IOUtils.readLines:500
+1684083,com.indeed.vw.wrapper.integration.IntegrationSuite.testReadModelTrainedInCommandLine:79
+448,com.indeed.vw.wrapper.progvalidation.ProgressiveValidation.toString:39
+288,com.indeed.vw.wrapper.progvalidation.Metrics.printScores:81
+238,com.indeed.vw.wrapper.progvalidation.Metrics.getScores:85
+136,com.indeed.vw.wrapper.api.VowpalWabbit$Builder.addFlag:1327
+102,com.indeed.vw.wrapper.api.example.ExampleBuilder$NamespaceBuilder.addNumericalFeature:142
+70,com.indeed.vw.wrapper.api.VowpalWabbit$Builder.buildFloatLearner:1366
+63,com.google.common.base.CharMatcher.<clinit>:66
+56,com.indeed.vw.wrapper.api.VowpalWabbit$Builder.ngram:304
+50,org.apache.log4j.spi.LoggingEvent.getLocationInformation:252
+36,org.apache.log4j.Hierarchy.updateParents:504
+36,com.google.common.collect.Iterables$9.iterator:850
+28,com.indeed.vw.wrapper.api.VowpalWabbit$Builder.quadratic:432
+28,com.indeed.vw.wrapper.api.VowpalWabbit$Builder.skips:322
+23,com.google.common.primitives.Doubles.fpPattern:593
+22,com.indeed.vw.wrapper.api.VowpalWabbit$Builder.lrqfa:1001
+22,com.google.common.base.CharMatcher.inRange:548
+20,com.indeed.vw.wrapper.jni.NativeUtils.loadLibraryFromJar:95
+16,com.indeed.vw.wrapper.api.VowpalWabbit$Builder.getCommand:1349
+15,com.indeed.vw.wrapper.api.VowpalWabbit$Builder.getCommandArguments:1336
+14,com.indeed.vw.wrapper.jni.NativeUtils.loadOSDependentLibrary:68
+12,org.apache.log4j.Hierarchy.getLogger:266
+11,com.google.common.base.CharMatcher$Or.<init>:732
+8,org.apache.log4j.ProvisionNode.<init>:27
+6,org.apache.log4j.PropertyConfigurator.doConfigure:550
+5,com.indeed.vw.wrapper.api.parameters.VWUtility.getFilePathFromRelativePath:50
+5,com.indeed.vw.wrapper.api.example.ExampleBuilder.exampleTag:241
+5,com.indeed.vw.wrapper.api.example.ExampleBuilder.exampleImportance:257
+5,org.apache.log4j.PropertyConfigurator.parseCategory:726
+5,com.indeed.vw.wrapper.api.VowpalWabbit$Builder.buildIntLearner:1357
+3,com.google.common.base.Preconditions.checkArgument:124
+3,org.apache.log4j.PropertyConfigurator.registryPut:936
+2,com.indeed.vw.wrapper.learner.VWLearnersTest.testCreateTwoLearners:20
+2,org.apache.log4j.ProvisionNode.<clinit>:0
+1,com.indeed.vw.wrapper.learner.VWLearnersTest.testCreateModelFileWithWhiteSpace:32
+1,com.indeed.vw.wrapper.learner.VWLearnersTest.testIntLearner:43
+1,org.apache.log4j.helpers.AppenderAttachableImpl.addAppender:45
+1,com.indeed.vw.wrapper.api.parameters.VWUtility.countNumberOfNonZeroWeights:29
+1,org.apache.log4j.Level.<clinit>:51
+1,org.apache.log4j.spi.LoggingEvent.<clinit>:57
+1,org.apache.log4j.spi.LocationInfo.<clinit>:60
+1,com.indeed.vw.wrapper.learner.VWLearners$VWReturnType.<clinit>:18
+1,com.indeed.vw.wrapper.api.parameters.Link.<clinit>:10
+1,com.indeed.vw.wrapper.api.parameters.Loss.<clinit>:10
+1,com.google.common.base.AbstractIterator$State.<clinit>:37
+^^^ Last method that contains more than one event ^^^
+Starting com.indeed.vw.wrapper.api.example.ExampleBuilder$NamespaceBuilder.toString:154
+Finish com.indeed.vw.wrapper.api.example.ExampleBuilder$NamespaceBuilder.toString:154
+Starting com.google.common.base.CharMatcher.inRange:548
+Finish com.google.common.base.CharMatcher.inRange:548
+Starting com.indeed.vw.wrapper.api.example.ExampleBuilder.createNamespace:264
+Finish com.indeed.vw.wrapper.api.example.ExampleBuilder.createNamespace:264
+Starting org.apache.log4j.Hierarchy.getLogger:266
+Finish org.apache.log4j.Hierarchy.getLogger:266
+Starting com.indeed.vw.wrapper.api.example.ExampleBuilder.toString:299
+Finish com.indeed.vw.wrapper.api.example.ExampleBuilder.toString:299
+Starting com.google.common.base.CharMatcher.<clinit>:66
+Finish com.google.common.base.CharMatcher.<clinit>:66
+Starting com.google.common.base.CharMatcher.is:413
+Finish com.google.common.base.CharMatcher.is:413
+Starting com.indeed.vw.wrapper.api.VowpalWabbit$Builder.ngram:304
+Finish com.indeed.vw.wrapper.api.VowpalWabbit$Builder.ngram:304
+Starting com.google.common.base.Joiner.join:193
+Finish com.google.common.base.Joiner.join:193
+Starting com.google.common.primitives.Doubles.fpPattern:593
+Finish com.google.common.primitives.Doubles.fpPattern:593
+Starting com.indeed.vw.wrapper.integration.IntegrationSuite.testReadModelTrainedInCommandLine:79
+Finish com.indeed.vw.wrapper.integration.IntegrationSuite.testReadModelTrainedInCommandLine:79
+Starting com.google.common.base.CharMatcher$Or.<init>:732
+Finish com.google.common.base.CharMatcher$Or.<init>:732
+Starting org.apache.commons.io.IOUtils.readLines:500
+Finish org.apache.commons.io.IOUtils.readLines:500
+Starting org.apache.log4j.ProvisionNode.<init>:27
+Finish org.apache.log4j.ProvisionNode.<init>:27
+Starting com.google.common.base.Joiner.appendTo:106
+Finish com.google.common.base.Joiner.appendTo:106
+Starting org.apache.log4j.spi.LoggingEvent.getLocationInformation:252
+Finish org.apache.log4j.spi.LoggingEvent.getLocationInformation:252
+Starting com.indeed.vw.wrapper.progvalidation.Metrics.printScores:81
+Finish com.indeed.vw.wrapper.progvalidation.Metrics.printScores:81
+Starting com.indeed.vw.wrapper.api.VowpalWabbit$Builder.quadratic:432
+Finish com.indeed.vw.wrapper.api.VowpalWabbit$Builder.quadratic:432
+Starting com.indeed.vw.wrapper.api.example.ExampleBuilder$NamespaceBuilder.addCategoricalFeature:97
+Finish com.indeed.vw.wrapper.api.example.ExampleBuilder$NamespaceBuilder.addCategoricalFeature:97
+Starting com.indeed.vw.wrapper.jni.NativeUtils.loadOSDependentLibrary:68
+Finish com.indeed.vw.wrapper.jni.NativeUtils.loadOSDependentLibrary:68
+Starting com.indeed.vw.wrapper.api.example.ExampleBuilder.label:174
+Finish com.indeed.vw.wrapper.api.example.ExampleBuilder.label:174
+Starting org.apache.log4j.Hierarchy.updateParents:504
+Finish org.apache.log4j.Hierarchy.updateParents:504
+Starting com.indeed.vw.wrapper.progvalidation.Metrics.updateScore:68
+Finish com.indeed.vw.wrapper.progvalidation.Metrics.updateScore:68
+Starting com.indeed.vw.wrapper.jni.NativeUtils.loadLibraryFromJar:95
+Finish com.indeed.vw.wrapper.jni.NativeUtils.loadLibraryFromJar:95
+Starting com.indeed.vw.wrapper.integration.IntegrationSuite.testSaveAndReadModelFile:134
+Finish com.indeed.vw.wrapper.integration.IntegrationSuite.testSaveAndReadModelFile:134
+Starting com.indeed.vw.wrapper.api.VowpalWabbit$Builder.lrqfa:1001
+Finish com.indeed.vw.wrapper.api.VowpalWabbit$Builder.lrqfa:1001
+Starting com.indeed.vw.wrapper.api.example.ExampleBuilder$NamespaceBuilder.namespaceWeight:84
+Finish com.indeed.vw.wrapper.api.example.ExampleBuilder$NamespaceBuilder.namespaceWeight:84
+Starting com.indeed.vw.wrapper.progvalidation.Metrics.getScores:85
+Finish com.indeed.vw.wrapper.progvalidation.Metrics.getScores:85
+Starting com.indeed.vw.wrapper.api.VowpalWabbit$Builder.buildIntLearner:1357
+Finish com.indeed.vw.wrapper.api.VowpalWabbit$Builder.buildIntLearner:1357
+Starting com.google.common.base.AbstractIterator.next:74
+Finish com.google.common.base.AbstractIterator.next:74
+Starting com.indeed.vw.wrapper.api.parameters.VWUtility.getFilePathFromRelativePath:50
+Finish com.indeed.vw.wrapper.api.parameters.VWUtility.getFilePathFromRelativePath:50
+Starting com.indeed.vw.wrapper.progvalidation.ProgressiveValidation.toString:39
+Finish com.indeed.vw.wrapper.progvalidation.ProgressiveValidation.toString:39
+Starting com.indeed.vw.wrapper.api.VowpalWabbit$Builder.addFlag:1327
+Finish com.indeed.vw.wrapper.api.VowpalWabbit$Builder.addFlag:1327
+Starting org.apache.log4j.PropertyConfigurator.parseCategory:726
+Finish org.apache.log4j.PropertyConfigurator.parseCategory:726
+Starting com.google.common.base.Joiner.join:183
+Finish com.google.common.base.Joiner.join:183
+Starting com.indeed.vw.wrapper.api.example.ExampleBuilder$NamespaceBuilder.addNumericalFeature:142
+Finish com.indeed.vw.wrapper.api.example.ExampleBuilder$NamespaceBuilder.addNumericalFeature:142
+Starting com.google.common.base.Preconditions.checkArgument:124
+Finish com.google.common.base.Preconditions.checkArgument:124
+Starting com.indeed.vw.wrapper.api.example.ExampleBuilder$NamespaceBuilder.addTextAsFeatures:127
+Finish com.indeed.vw.wrapper.api.example.ExampleBuilder$NamespaceBuilder.addTextAsFeatures:127
+Starting com.indeed.vw.wrapper.api.VowpalWabbit$Builder.getCommandArguments:1336
+Finish com.indeed.vw.wrapper.api.VowpalWabbit$Builder.getCommandArguments:1336
+Starting com.indeed.vw.wrapper.integration.tests.TestOnMovieLensDataset.parseWvExample:65
+Finish com.indeed.vw.wrapper.integration.tests.TestOnMovieLensDataset.parseWvExample:65
+Starting com.indeed.vw.wrapper.api.example.ExampleBuilder.exampleTag:241
+Finish com.indeed.vw.wrapper.api.example.ExampleBuilder.exampleTag:241
+Starting com.indeed.vw.wrapper.integration.IntegrationSuite.readColumnsFromCsv:169
+Finish com.indeed.vw.wrapper.integration.IntegrationSuite.readColumnsFromCsv:169
+Starting com.indeed.vw.wrapper.api.VowpalWabbit$Builder.skips:322
+Finish com.indeed.vw.wrapper.api.VowpalWabbit$Builder.skips:322
+Starting org.apache.log4j.ProvisionNode.<clinit>:0
+Finish org.apache.log4j.ProvisionNode.<clinit>:0
+
+#1
+Inspecting hot method com.indeed.vw.wrapper.api.example.ExampleBuilder.createNamespace:264...
+Checking for isolation...
+257648766,76234337,61991652,14242685
+Total 257648766 (14242727 unique) events are in hot method
+Total 76234337 (17 unique) traces are in hot method
+Total 61991652 (8 unique) isolated traces are in hot method
+Total 14242685 (9 unique) non-isolated traces that have events in hot method
+Total 227882981 (14242708 unique) events are in isolated traces
+Total 89297359 (57 unique) events are in non-isolated traces (29765785 / 19 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (28485374 traces / 2 unique traces) (113941492 events / 8 unique events)
+	Appendable_ThreadSafe (28485374 traces / 2 unique traces) (85456118 events / 6 unique events)
+	Collections_SortBeforeBinarySearch (5020903 traces / 3 unique traces) (14242686 events / 9 unique events)
+	Set_ItselfAsElement (1 traces / 1 unique traces) (14242685 events / 14242685 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (14242685 traces / 9 unique traces) (89297359 events / 57 unique events) (29765785 events / 19 unique events in hot method)
+Classifier (com.indeed.vw.wrapper.api.example.ExampleBuilder.createNamespace:264): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,RAW_ISOLATED_SINGLE_TRACE
+
+#2
+Inspecting hot method com.indeed.vw.wrapper.api.example.ExampleBuilder$NamespaceBuilder.addCategoricalFeature:112...
+Checking for isolation...
+168035120,42008780,37807902,4200878
+Total 168035120 (32 unique) events are in hot method
+Total 42008780 (8 unique) traces are in hot method
+Total 37807902 (6 unique) isolated traces are in hot method
+Total 4200878 (2 unique) non-isolated traces that have events in hot method
+Total 159633364 (28 unique) events are in isolated traces
+Total 25205268 (12 unique) events are in non-isolated traces (8401756 / 4 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (18903951 traces / 3 unique traces) (88218438 events / 15 unique events)
+	Appendable_ThreadSafe (18903951 traces / 3 unique traces) (71414926 events / 13 unique events)
+Specs that have non-isolated traces:
+	StringBuilder_ThreadSafe (2100439 traces / 1 unique traces) (12602634 events / 6 unique events) (4200878 events / 2 unique events in hot method)
+	Appendable_ThreadSafe (2100439 traces / 1 unique traces) (12602634 events / 6 unique events) (4200878 events / 2 unique events in hot method)
+Classifier (com.indeed.vw.wrapper.api.example.ExampleBuilder$NamespaceBuilder.addCategoricalFeature:112): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_ONE_UNIQUE
+
+#3
+Inspecting hot method com.indeed.vw.wrapper.api.example.ExampleBuilder$NamespaceBuilder.toString:154...
+Checking for isolation...
+144987690,28485372,28485372,0
+Total 144987690 (22 unique) events are in hot method
+Total 28485372 (4 unique) traces are in hot method
+Total 28485372 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 144987690 (22 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (14242686 traces / 2 unique traces) (65372502 events / 10 unique events)
+	StringBuilder_ThreadSafe (14242686 traces / 2 unique traces) (79615188 events / 12 unique events)
+Classifier (com.indeed.vw.wrapper.api.example.ExampleBuilder$NamespaceBuilder.toString:154): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#4
+Inspecting hot method com.indeed.vw.wrapper.api.example.ExampleBuilder.namespaceThatStartWithSameCharacter:284...
+Checking for isolation...
+120343565,37707153,23464468,14242685
+Total 120343565 (60 unique) events are in hot method
+Total 37707153 (16 unique) traces are in hot method
+Total 23464468 (7 unique) isolated traces are in hot method
+Total 14242685 (9 unique) non-isolated traces that have events in hot method
+Total 60811991 (22 unique) events are in isolated traces
+Total 89297359 (57 unique) events are in non-isolated traces (59531574 / 38 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (14242685 traces / 4 unique traces) (45288889 events / 16 unique events)
+	Iterator_RemoveOnce (9221783 traces / 3 unique traces) (15523102 events / 6 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (14242685 traces / 9 unique traces) (89297359 events / 57 unique events) (59531574 events / 38 unique events in hot method)
+Classifier (com.indeed.vw.wrapper.api.example.ExampleBuilder.namespaceThatStartWithSameCharacter:284): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#5
+Inspecting hot method com.google.common.base.Splitter.splitToList:416...
+Checking for isolation...
+112402157,15062703,10041802,5020901
+Total 112402157 (50 unique) events are in hot method
+Total 15062703 (6 unique) traces are in hot method
+Total 10041802 (4 unique) isolated traces are in hot method
+Total 5020901 (2 unique) non-isolated traces that have events in hot method
+Total 53690628 (24 unique) events are in isolated traces
+Total 85556843 (38 unique) events are in non-isolated traces (58711529 / 26 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (5020901 traces / 2 unique traces) (26845314 events / 12 unique events)
+	Collections_SortBeforeBinarySearch (5020901 traces / 2 unique traces) (26845314 events / 12 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (5020901 traces / 2 unique traces) (85556843 events / 38 unique events) (58711529 events / 26 unique events in hot method)
+Classifier (com.google.common.base.Splitter.splitToList:416): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#6
+Inspecting hot method com.google.common.base.Joiner.appendTo:106...
+Checking for isolation...
+104721353,20083820,15062869,5020951
+Total 104721353 (917 unique) events are in hot method
+Total 20083820 (53 unique) traces are in hot method
+Total 15062869 (42 unique) isolated traces are in hot method
+Total 5020951 (11 unique) non-isolated traces that have events in hot method
+Total 71214614 (678 unique) events are in isolated traces
+Total 38527690 (250 unique) events are in non-isolated traces (33506739 / 239 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (5020951 traces / 11 unique traces) (23464837 events / 217 unique events)
+	Iterator_RemoveOnce (5020951 traces / 11 unique traces) (14242894 events / 114 unique events)
+	Iterator_HasNext (5020951 traces / 11 unique traces) (33506739 events / 239 unique events)
+	ListIterator_RemoveOnce (16 traces / 9 unique traces) (144 events / 108 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (5020951 traces / 11 unique traces) (38527690 events / 250 unique events) (33506739 events / 239 unique events in hot method)
+Classifier (com.google.common.base.Joiner.appendTo:106): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#7
+Inspecting hot method com.indeed.vw.wrapper.api.example.ExampleBuilder$NamespaceBuilder.addCategoricalFeature:97...
+Checking for isolation...
+54611466,16803526,16803526,0
+Total 54611466 (21 unique) events are in hot method
+Total 16803526 (6 unique) traces are in hot method
+Total 16803526 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 54611466 (21 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (8401763 traces / 3 unique traces) (29406174 events / 11 unique events)
+	Appendable_ThreadSafe (8401763 traces / 3 unique traces) (25205292 events / 10 unique events)
+Classifier (com.indeed.vw.wrapper.api.example.ExampleBuilder$NamespaceBuilder.addCategoricalFeature:97): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#8
+Inspecting hot method com.indeed.vw.wrapper.progvalidation.Metrics.updateScore:68...
+Checking for isolation...
+50906193,11747583,11747583,0
+Total 50906193 (13 unique) events are in hot method
+Total 11747583 (3 unique) traces are in hot method
+Total 11747583 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 50906193 (13 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (3915861 traces / 1 unique traces) (23495166 events / 6 unique events)
+	Iterator_RemoveOnce (3915861 traces / 1 unique traces) (7831722 events / 2 unique events)
+	Iterator_HasNext (3915861 traces / 1 unique traces) (19579305 events / 5 unique events)
+Classifier (com.indeed.vw.wrapper.progvalidation.Metrics.updateScore:68): CUT,ISOLATED_ONE_UNIQUE
+
+#9
+Inspecting hot method com.indeed.vw.wrapper.api.example.ExampleBuilder$NamespaceBuilder.addTextAsFeatures:127...
+Checking for isolation...
+40167216,15882730,11681852,4200878
+Total 40167216 (12 unique) events are in hot method
+Total 15882730 (4 unique) traces are in hot method
+Total 11681852 (2 unique) isolated traces are in hot method
+Total 4200878 (2 unique) non-isolated traces that have events in hot method
+Total 23363704 (4 unique) events are in isolated traces
+Total 25205268 (12 unique) events are in non-isolated traces (16803512 / 8 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (5840926 traces / 1 unique traces) (11681852 events / 2 unique events)
+	Appendable_ThreadSafe (5840926 traces / 1 unique traces) (11681852 events / 2 unique events)
+Specs that have non-isolated traces:
+	StringBuilder_ThreadSafe (2100439 traces / 1 unique traces) (12602634 events / 6 unique events) (8401756 events / 4 unique events in hot method)
+	Appendable_ThreadSafe (2100439 traces / 1 unique traces) (12602634 events / 6 unique events) (8401756 events / 4 unique events in hot method)
+Classifier (com.indeed.vw.wrapper.api.example.ExampleBuilder$NamespaceBuilder.addTextAsFeatures:127): CUT,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_ONE_UNIQUE
+
+#10
+Inspecting hot method com.indeed.vw.wrapper.integration.IntegrationSuite.readColumnsFromCsv:169...
+Checking for isolation...
+35146367,96,84,12
+Total 35146367 (12526672 unique) events are in hot method
+Total 96 (23 unique) traces are in hot method
+Total 84 (19 unique) isolated traces are in hot method
+Total 12 (4 unique) non-isolated traces that have events in hot method
+Total 25104553 (8947622 unique) events are in isolated traces
+Total 10041826 (3579054 unique) events are in non-isolated traces (10041814 / 3579050 unique are in hot method)
+Specs that have isolated traces:
+	InputStream_MarkAfterClose (12 traces / 1 unique traces) (12 events / 1 unique events)
+	ListIterator_RemoveOnce (12 traces / 4 unique traces) (5020901 events / 1789523 unique events)
+	Closeable_MultipleClose (12 traces / 1 unique traces) (12 events / 1 unique events)
+	Iterator_HasNext (12 traces / 4 unique traces) (10041814 events / 3579050 unique events)
+	Iterator_RemoveOnce (12 traces / 4 unique traces) (5020901 events / 1789523 unique events)
+	Collections_SortBeforeBinarySearch (12 traces / 4 unique traces) (5020901 events / 1789523 unique events)
+	InputStream_ManipulateAfterClose (12 traces / 1 unique traces) (12 events / 1 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (12 traces / 4 unique traces) (10041826 events / 3579054 unique events) (10041814 events / 3579050 unique events in hot method)
+Classifier (com.indeed.vw.wrapper.integration.IntegrationSuite.readColumnsFromCsv:169): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#11
+Inspecting hot method com.indeed.vw.wrapper.api.example.ExampleBuilder.toString:299...
+Checking for isolation...
+35146329,10041806,10041806,0
+Total 35146329 (22 unique) events are in hot method
+Total 10041806 (4 unique) traces are in hot method
+Total 10041806 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 35146329 (22 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (5020903 traces / 2 unique traces) (20083616 events / 12 unique events)
+	Appendable_ThreadSafe (5020903 traces / 2 unique traces) (15062713 events / 10 unique events)
+Classifier (com.indeed.vw.wrapper.api.example.ExampleBuilder.toString:299): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#12
+Inspecting hot method com.google.common.base.CharMatcher.is:413...
+Checking for isolation...
+35146307,10041802,10041802,0
+Total 35146307 (7 unique) events are in hot method
+Total 10041802 (2 unique) traces are in hot method
+Total 10041802 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 35146307 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (5020901 traces / 1 unique traces) (15062703 events / 3 unique events)
+	StringBuilder_ThreadSafe (5020901 traces / 1 unique traces) (20083604 events / 4 unique events)
+Classifier (com.google.common.base.CharMatcher.is:413): LIB,ISOLATED_ONE_UNIQUE
+
+#13
+Inspecting hot method com.google.common.base.AbstractIterator.next:74...
+Checking for isolation...
+26845314,5020901,0,5020901
+Total 26845314 (12 unique) events are in hot method
+Total 5020901 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 5020901 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 85556843 (38 unique) events are in non-isolated traces (26845314 / 12 unique are in hot method)
+Specs that have non-isolated traces:
+	Iterator_HasNext (5020901 traces / 2 unique traces) (85556843 events / 38 unique events) (26845314 events / 12 unique events in hot method)
+Classifier (com.google.common.base.AbstractIterator.next:74): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#14
+Inspecting hot method com.indeed.vw.wrapper.api.example.ExampleBuilder$NamespaceBuilder.namespaceWeight:84...
+Checking for isolation...
+21004395,8401758,8401758,0
+Total 21004395 (5 unique) events are in hot method
+Total 8401758 (2 unique) traces are in hot method
+Total 8401758 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 21004395 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (4200879 traces / 1 unique traces) (12602637 events / 3 unique events)
+	Appendable_ThreadSafe (4200879 traces / 1 unique traces) (8401758 events / 2 unique events)
+Classifier (com.indeed.vw.wrapper.api.example.ExampleBuilder$NamespaceBuilder.namespaceWeight:84): LIB,ISOLATED_ONE_UNIQUE
+
+#15
+Inspecting hot method com.indeed.vw.wrapper.api.example.ExampleBuilder.label:174...
+Checking for isolation...
+10502205,4200882,4200882,0
+Total 10502205 (5 unique) events are in hot method
+Total 4200882 (2 unique) traces are in hot method
+Total 4200882 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 10502205 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (2100441 traces / 1 unique traces) (6301323 events / 3 unique events)
+	Appendable_ThreadSafe (2100441 traces / 1 unique traces) (4200882 events / 2 unique events)
+Classifier (com.indeed.vw.wrapper.api.example.ExampleBuilder.label:174): LIB,ISOLATED_ONE_UNIQUE
+
+#16
+Inspecting hot method com.indeed.vw.wrapper.integration.tests.TestOnMovieLensDataset.parseWvExample:65...
+Checking for isolation...
+10502195,4200878,4200878,0
+Total 10502195 (5 unique) events are in hot method
+Total 4200878 (2 unique) traces are in hot method
+Total 4200878 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 10502195 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (2100439 traces / 1 unique traces) (6301317 events / 3 unique events)
+	Appendable_ThreadSafe (2100439 traces / 1 unique traces) (4200878 events / 2 unique events)
+Classifier (com.indeed.vw.wrapper.integration.tests.TestOnMovieLensDataset.parseWvExample:65): CUT,ISOLATED_ONE_UNIQUE
+
+#17
+Inspecting hot method com.indeed.vw.wrapper.integration.IntegrationSuite.testSaveAndReadModelFile:134...
+Checking for isolation...
+8947641,20,20,0
+Total 8947641 (8947634 unique) events are in hot method
+Total 20 (16 unique) traces are in hot method
+Total 20 (16 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 8947641 (8947634 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (4 traces / 4 unique traces) (3579054 events / 3579054 unique events)
+	Closeable_MultipleClose (4 traces / 2 unique traces) (4 events / 2 unique events)
+	Iterator_HasNext (4 traces / 4 unique traces) (3579050 events / 3579050 unique events)
+	Iterator_RemoveOnce (4 traces / 4 unique traces) (1789523 events / 1789523 unique events)
+	StringBuilder_ThreadSafe (2 traces / 1 unique traces) (6 events / 3 unique events)
+	Appendable_ThreadSafe (2 traces / 1 unique traces) (4 events / 2 unique events)
+Classifier (com.indeed.vw.wrapper.integration.IntegrationSuite.testSaveAndReadModelFile:134): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT,ISOLATED_ONE_UNIQUE
+
+#18
+Inspecting hot method com.indeed.vw.wrapper.integration.IntegrationSuite.testInteractingTroughJava:105...
+Checking for isolation...
+8947629,14,14,0
+Total 8947629 (8947628 unique) events are in hot method
+Total 14 (13 unique) traces are in hot method
+Total 14 (13 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 8947629 (8947628 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (4 traces / 4 unique traces) (3579054 events / 3579054 unique events)
+	Iterator_RemoveOnce (4 traces / 4 unique traces) (1789523 events / 1789523 unique events)
+	Iterator_HasNext (4 traces / 4 unique traces) (3579050 events / 3579050 unique events)
+	Closeable_MultipleClose (2 traces / 1 unique traces) (2 events / 1 unique events)
+Classifier (com.indeed.vw.wrapper.integration.IntegrationSuite.testInteractingTroughJava:105): LIB,ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT,ISOLATED_ONE_UNIQUE
+
+#19
+Inspecting hot method com.indeed.vw.wrapper.integration.tests.TestOnTwitterSentimentDataset.trainFeatureMask:27...
+Checking for isolation...
+5525208,8,8,0
+Total 5525208 (2762604 unique) events are in hot method
+Total 8 (4 unique) traces are in hot method
+Total 8 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5525208 (2762604 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (2 traces / 1 unique traces) (2210084 events / 1105042 unique events)
+	Iterator_RemoveOnce (2 traces / 1 unique traces) (1105040 events / 552520 unique events)
+	Iterator_HasNext (2 traces / 1 unique traces) (2210082 events / 1105041 unique events)
+	Closeable_MultipleClose (2 traces / 1 unique traces) (2 events / 1 unique events)
+Classifier (com.indeed.vw.wrapper.integration.tests.TestOnTwitterSentimentDataset.trainFeatureMask:27): LIB,ISOLATED_ONE_UNIQUE
+
+#20
+Inspecting hot method com.google.common.base.Joiner.join:183...
+Checking for isolation...
+5020951,5020951,0,5020951
+Total 5020951 (11 unique) events are in hot method
+Total 5020951 (11 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 5020951 (11 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 38527690 (250 unique) events are in non-isolated traces (5020951 / 11 unique are in hot method)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (5020951 traces / 11 unique traces) (38527690 events / 250 unique events) (5020951 events / 11 unique events in hot method)
+Classifier (com.google.common.base.Joiner.join:183): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#21
+Inspecting hot method com.google.common.base.Joiner.join:193...
+Checking for isolation...
+5020951,5020951,5020951,0
+Total 5020951 (1 unique) events are in hot method
+Total 5020951 (1 unique) traces are in hot method
+Total 5020951 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5020951 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (5020951 traces / 1 unique traces) (5020951 events / 1 unique events)
+Classifier (com.google.common.base.Joiner.join:193): LIB,ISOLATED_ONE_UNIQUE
+
+#22
+Inspecting hot method org.apache.commons.io.IOUtils.readLines:500...
+Checking for isolation...
+5020913,12,12,0
+Total 5020913 (1789527 unique) events are in hot method
+Total 12 (4 unique) traces are in hot method
+Total 12 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5020913 (1789527 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (12 traces / 4 unique traces) (5020913 events / 1789527 unique events)
+Classifier (org.apache.commons.io.IOUtils.readLines:500): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#23
+Inspecting hot method com.indeed.vw.wrapper.integration.IntegrationSuite.testReadModelTrainedInCommandLine:79...
+Checking for isolation...
+1684083,8,8,0
+Total 1684083 (1684082 unique) events are in hot method
+Total 8 (7 unique) traces are in hot method
+Total 8 (7 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1684083 (1684082 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Closeable_MultipleClose (2 traces / 1 unique traces) (2 events / 1 unique events)
+	Collection_UnsafeIterator (2 traces / 2 unique traces) (673634 events / 673634 unique events)
+	Iterator_HasNext (2 traces / 2 unique traces) (673632 events / 673632 unique events)
+	Iterator_RemoveOnce (2 traces / 2 unique traces) (336815 events / 336815 unique events)
+Classifier (com.indeed.vw.wrapper.integration.IntegrationSuite.testReadModelTrainedInCommandLine:79): CUT,ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT,ISOLATED_ONE_UNIQUE
+
+#24
+Inspecting hot method com.indeed.vw.wrapper.progvalidation.ProgressiveValidation.toString:39...
+Checking for isolation...
+448,128,128,0
+Total 448 (7 unique) events are in hot method
+Total 128 (2 unique) traces are in hot method
+Total 128 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 448 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (64 traces / 1 unique traces) (192 events / 3 unique events)
+	StringBuilder_ThreadSafe (64 traces / 1 unique traces) (256 events / 4 unique events)
+Classifier (com.indeed.vw.wrapper.progvalidation.ProgressiveValidation.toString:39): LIB,ISOLATED_ONE_UNIQUE
+
+#25
+Inspecting hot method com.indeed.vw.wrapper.progvalidation.Metrics.printScores:81...
+Checking for isolation...
+288,64,64,0
+Total 288 (9 unique) events are in hot method
+Total 64 (2 unique) traces are in hot method
+Total 64 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 288 (9 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (32 traces / 1 unique traces) (128 events / 4 unique events)
+	StringBuilder_ThreadSafe (32 traces / 1 unique traces) (160 events / 5 unique events)
+Classifier (com.indeed.vw.wrapper.progvalidation.Metrics.printScores:81): LIB,ISOLATED_ONE_UNIQUE
+
+#26
+Inspecting hot method com.indeed.vw.wrapper.progvalidation.Metrics.getScores:85...
+Checking for isolation...
+238,44,42,2
+Total 238 (69 unique) events are in hot method
+Total 44 (5 unique) traces are in hot method
+Total 42 (3 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 182 (13 unique) events are in isolated traces
+Total 82 (82 unique) events are in non-isolated traces (56 / 56 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (14 traces / 1 unique traces) (84 events / 6 unique events)
+	Iterator_RemoveOnce (14 traces / 1 unique traces) (28 events / 2 unique events)
+	Iterator_HasNext (14 traces / 1 unique traces) (70 events / 5 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (41 events / 41 unique events) (28 events / 28 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (41 events / 41 unique events) (28 events / 28 unique events in hot method)
+Classifier (com.indeed.vw.wrapper.progvalidation.Metrics.getScores:85): CUT,ISOLATED_ONE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#27
+Inspecting hot method com.indeed.vw.wrapper.api.VowpalWabbit$Builder.addFlag:1327...
+Checking for isolation...
+136,16,16,0
+Total 136 (106 unique) events are in hot method
+Total 16 (10 unique) traces are in hot method
+Total 16 (10 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 136 (106 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (16 traces / 10 unique traces) (136 events / 106 unique events)
+Classifier (com.indeed.vw.wrapper.api.VowpalWabbit$Builder.addFlag:1327): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#28
+Inspecting hot method com.indeed.vw.wrapper.api.example.ExampleBuilder$NamespaceBuilder.addNumericalFeature:142...
+Checking for isolation...
+102,14,14,0
+Total 102 (50 unique) events are in hot method
+Total 14 (6 unique) traces are in hot method
+Total 14 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 102 (50 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (7 traces / 3 unique traces) (54 events / 26 unique events)
+	Appendable_ThreadSafe (7 traces / 3 unique traces) (48 events / 24 unique events)
+Classifier (com.indeed.vw.wrapper.api.example.ExampleBuilder$NamespaceBuilder.addNumericalFeature:142): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#29
+Inspecting hot method com.indeed.vw.wrapper.api.VowpalWabbit$Builder.buildFloatLearner:1366...
+Checking for isolation...
+70,28,28,0
+Total 70 (5 unique) events are in hot method
+Total 28 (2 unique) traces are in hot method
+Total 28 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 70 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (14 traces / 1 unique traces) (28 events / 2 unique events)
+	StringBuilder_ThreadSafe (14 traces / 1 unique traces) (42 events / 3 unique events)
+Classifier (com.indeed.vw.wrapper.api.VowpalWabbit$Builder.buildFloatLearner:1366): CUT,ISOLATED_ONE_UNIQUE
+
+#30
+Inspecting hot method com.google.common.base.CharMatcher.<clinit>:66...
+Checking for isolation...
+63,2,2,0
+Total 63 (63 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 63 (63 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (31 events / 31 unique events)
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (32 events / 32 unique events)
+Classifier (com.google.common.base.CharMatcher.<clinit>:66): LIB,NOT_REDUNDANT_TRACES
+
+#31
+Inspecting hot method com.indeed.vw.wrapper.api.VowpalWabbit$Builder.ngram:304...
+Checking for isolation...
+56,16,16,0
+Total 56 (7 unique) events are in hot method
+Total 16 (2 unique) traces are in hot method
+Total 16 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 56 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (8 traces / 1 unique traces) (24 events / 3 unique events)
+	StringBuilder_ThreadSafe (8 traces / 1 unique traces) (32 events / 4 unique events)
+Classifier (com.indeed.vw.wrapper.api.VowpalWabbit$Builder.ngram:304): CUT,ISOLATED_ONE_UNIQUE
+
+#32
+Inspecting hot method org.apache.log4j.spi.LoggingEvent.getLocationInformation:252...
+Checking for isolation...
+50,50,50,0
+Total 50 (1 unique) events are in hot method
+Total 50 (1 unique) traces are in hot method
+Total 50 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 50 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Throwable_InitCauseOnce (50 traces / 1 unique traces) (50 events / 1 unique events)
+Classifier (org.apache.log4j.spi.LoggingEvent.getLocationInformation:252): LIB,ISOLATED_ONE_UNIQUE
+
+#33
+Inspecting hot method org.apache.log4j.Hierarchy.updateParents:504...
+Checking for isolation...
+36,7,0,7
+Total 36 (27 unique) events are in hot method
+Total 7 (4 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 7 (4 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 111 (99 unique) events are in non-isolated traces (36 / 27 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (4 traces / 1 unique traces) (16 events / 4 unique events) (12 events / 3 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (41 events / 41 unique events) (8 events / 8 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (41 events / 41 unique events) (8 events / 8 unique events in hot method)
+	Dictionary_NullKeyOrValue (1 traces / 1 unique traces) (13 events / 13 unique events) (8 events / 8 unique events in hot method)
+Classifier (org.apache.log4j.Hierarchy.updateParents:504): LIB,NOT_ISOLATED_ONE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#34
+Inspecting hot method com.google.common.collect.Iterables$9.iterator:850...
+Checking for isolation...
+36,24,12,12
+Total 36 (6 unique) events are in hot method
+Total 24 (5 unique) traces are in hot method
+Total 12 (1 unique) isolated traces are in hot method
+Total 12 (4 unique) non-isolated traces that have events in hot method
+Total 24 (2 unique) events are in isolated traces
+Total 10041826 (3579054 unique) events are in non-isolated traces (12 / 4 unique are in hot method)
+Specs that have isolated traces:
+	List_UnsynchronizedSubList (12 traces / 1 unique traces) (24 events / 2 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (12 traces / 4 unique traces) (10041826 events / 3579054 unique events) (12 events / 4 unique events in hot method)
+Classifier (com.google.common.collect.Iterables$9.iterator:850): LIB,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#35
+Inspecting hot method com.indeed.vw.wrapper.api.VowpalWabbit$Builder.quadratic:432...
+Checking for isolation...
+28,8,8,0
+Total 28 (7 unique) events are in hot method
+Total 8 (2 unique) traces are in hot method
+Total 8 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 28 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (4 traces / 1 unique traces) (16 events / 4 unique events)
+	Appendable_ThreadSafe (4 traces / 1 unique traces) (12 events / 3 unique events)
+Classifier (com.indeed.vw.wrapper.api.VowpalWabbit$Builder.quadratic:432): CUT,ISOLATED_ONE_UNIQUE
+
+#36
+Inspecting hot method com.indeed.vw.wrapper.api.VowpalWabbit$Builder.skips:322...
+Checking for isolation...
+28,8,8,0
+Total 28 (7 unique) events are in hot method
+Total 8 (2 unique) traces are in hot method
+Total 8 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 28 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (4 traces / 1 unique traces) (12 events / 3 unique events)
+	StringBuilder_ThreadSafe (4 traces / 1 unique traces) (16 events / 4 unique events)
+Classifier (com.indeed.vw.wrapper.api.VowpalWabbit$Builder.skips:322): CUT,ISOLATED_ONE_UNIQUE
+
+#37
+Inspecting hot method com.google.common.primitives.Doubles.fpPattern:593...
+Checking for isolation...
+23,6,6,0
+Total 23 (23 unique) events are in hot method
+Total 6 (6 unique) traces are in hot method
+Total 6 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 23 (23 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (3 traces / 3 unique traces) (10 events / 10 unique events)
+	StringBuilder_ThreadSafe (3 traces / 3 unique traces) (13 events / 13 unique events)
+Classifier (com.google.common.primitives.Doubles.fpPattern:593): LIB,NOT_REDUNDANT_TRACES
+
+#38
+Inspecting hot method com.indeed.vw.wrapper.api.VowpalWabbit$Builder.lrqfa:1001...
+Checking for isolation...
+22,4,4,0
+Total 22 (11 unique) events are in hot method
+Total 4 (2 unique) traces are in hot method
+Total 4 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 22 (11 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (2 traces / 1 unique traces) (12 events / 6 unique events)
+	Appendable_ThreadSafe (2 traces / 1 unique traces) (10 events / 5 unique events)
+Classifier (com.indeed.vw.wrapper.api.VowpalWabbit$Builder.lrqfa:1001): CUT,ISOLATED_ONE_UNIQUE
+
+#39
+Inspecting hot method com.google.common.base.CharMatcher.inRange:548...
+Checking for isolation...
+22,4,4,0
+Total 22 (11 unique) events are in hot method
+Total 4 (2 unique) traces are in hot method
+Total 4 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 22 (11 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (2 traces / 1 unique traces) (10 events / 5 unique events)
+	StringBuilder_ThreadSafe (2 traces / 1 unique traces) (12 events / 6 unique events)
+Classifier (com.google.common.base.CharMatcher.inRange:548): LIB,ISOLATED_ONE_UNIQUE
+
+#40
+Inspecting hot method com.indeed.vw.wrapper.jni.NativeUtils.loadLibraryFromJar:95...
+Checking for isolation...
+20,11,11,0
+Total 20 (20 unique) events are in hot method
+Total 11 (11 unique) traces are in hot method
+Total 11 (11 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 20 (20 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (3 traces / 3 unique traces) (6 events / 6 unique events)
+	StringBuilder_ThreadSafe (3 traces / 3 unique traces) (9 events / 9 unique events)
+	Closeable_MultipleClose (2 traces / 2 unique traces) (2 events / 2 unique events)
+	OutputStream_ManipulateAfterClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+	InputStream_ManipulateAfterClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+	InputStream_MarkAfterClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+Classifier (com.indeed.vw.wrapper.jni.NativeUtils.loadLibraryFromJar:95): CUT,NOT_REDUNDANT_TRACES
+
+#41
+Inspecting hot method com.indeed.vw.wrapper.api.VowpalWabbit$Builder.getCommand:1349...
+Checking for isolation...
+16,16,16,0
+Total 16 (1 unique) events are in hot method
+Total 16 (1 unique) traces are in hot method
+Total 16 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 16 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	List_UnsynchronizedSubList (16 traces / 1 unique traces) (16 events / 1 unique events)
+Classifier (com.indeed.vw.wrapper.api.VowpalWabbit$Builder.getCommand:1349): CUT,ISOLATED_ONE_UNIQUE
+
+#42
+Inspecting hot method com.indeed.vw.wrapper.api.VowpalWabbit$Builder.getCommandArguments:1336...
+Checking for isolation...
+15,15,15,0
+Total 15 (1 unique) events are in hot method
+Total 15 (1 unique) traces are in hot method
+Total 15 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 15 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (15 traces / 1 unique traces) (15 events / 1 unique events)
+Classifier (com.indeed.vw.wrapper.api.VowpalWabbit$Builder.getCommandArguments:1336): CUT,ISOLATED_ONE_UNIQUE
+
+#43
+Inspecting hot method com.indeed.vw.wrapper.jni.NativeUtils.loadOSDependentLibrary:68...
+Checking for isolation...
+14,4,4,0
+Total 14 (14 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 4 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 14 (14 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (2 traces / 2 unique traces) (6 events / 6 unique events)
+	StringBuilder_ThreadSafe (2 traces / 2 unique traces) (8 events / 8 unique events)
+Classifier (com.indeed.vw.wrapper.jni.NativeUtils.loadOSDependentLibrary:68): CUT,NOT_REDUNDANT_TRACES
+
+#44
+Inspecting hot method org.apache.log4j.Hierarchy.getLogger:266...
+Checking for isolation...
+12,3,0,3
+Total 12 (12 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 3 (3 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 95 (95 unique) events are in non-isolated traces (12 / 12 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (41 events / 41 unique events) (4 events / 4 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (41 events / 41 unique events) (4 events / 4 unique events in hot method)
+	Dictionary_NullKeyOrValue (1 traces / 1 unique traces) (13 events / 13 unique events) (4 events / 4 unique events in hot method)
+Classifier (org.apache.log4j.Hierarchy.getLogger:266): LIB,NOT_REDUNDANT_TRACES
+
+#45
+Inspecting hot method com.google.common.base.CharMatcher$Or.<init>:732...
+Checking for isolation...
+11,2,2,0
+Total 11 (11 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 11 (11 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (5 events / 5 unique events)
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (6 events / 6 unique events)
+Classifier (com.google.common.base.CharMatcher$Or.<init>:732): LIB,NOT_REDUNDANT_TRACES
+
+#46
+Inspecting hot method org.apache.log4j.ProvisionNode.<init>:27...
+Checking for isolation...
+8,8,4,4
+Total 8 (2 unique) events are in hot method
+Total 8 (2 unique) traces are in hot method
+Total 4 (1 unique) isolated traces are in hot method
+Total 4 (1 unique) non-isolated traces that have events in hot method
+Total 4 (1 unique) events are in isolated traces
+Total 16 (4 unique) events are in non-isolated traces (4 / 1 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (4 traces / 1 unique traces) (4 events / 1 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (4 traces / 1 unique traces) (16 events / 4 unique events) (4 events / 1 unique events in hot method)
+Classifier (org.apache.log4j.ProvisionNode.<init>:27): LIB,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_ONE_UNIQUE
+
+#47
+Inspecting hot method org.apache.log4j.PropertyConfigurator.doConfigure:550...
+Checking for isolation...
+6,5,5,0
+Total 6 (6 unique) events are in hot method
+Total 5 (5 unique) traces are in hot method
+Total 5 (5 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 6 (6 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	URLConnection_Connect (1 traces / 1 unique traces) (1 events / 1 unique events)
+	InputStream_ManipulateAfterClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+	URLConnection_SetBeforeConnect (1 traces / 1 unique traces) (2 events / 2 unique events)
+	InputStream_MarkAfterClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Closeable_MultipleClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+Classifier (org.apache.log4j.PropertyConfigurator.doConfigure:550): LIB,NOT_REDUNDANT_TRACES
+
+#48
+Inspecting hot method com.indeed.vw.wrapper.api.parameters.VWUtility.getFilePathFromRelativePath:50...
+Checking for isolation...
+5,5,5,0
+Total 5 (4 unique) events are in hot method
+Total 5 (4 unique) traces are in hot method
+Total 5 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5 (4 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Closeable_MultipleClose (2 traces / 1 unique traces) (2 events / 1 unique events)
+	InputStream_ManipulateAfterClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+	InputStream_MarkAfterClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+	OutputStream_ManipulateAfterClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+Classifier (com.indeed.vw.wrapper.api.parameters.VWUtility.getFilePathFromRelativePath:50): CUT,ISOLATED_ONE_UNIQUE,ISOLATED_SINGLE_TRACE
+
+#49
+Inspecting hot method com.indeed.vw.wrapper.api.example.ExampleBuilder.exampleTag:241...
+Checking for isolation...
+5,2,2,0
+Total 5 (5 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (2 events / 2 unique events)
+Classifier (com.indeed.vw.wrapper.api.example.ExampleBuilder.exampleTag:241): CUT,NOT_REDUNDANT_TRACES
+
+#50
+Inspecting hot method com.indeed.vw.wrapper.api.example.ExampleBuilder.exampleImportance:257...
+Checking for isolation...
+5,2,2,0
+Total 5 (5 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (2 events / 2 unique events)
+Classifier (com.indeed.vw.wrapper.api.example.ExampleBuilder.exampleImportance:257): CUT,NOT_REDUNDANT_TRACES
+
+#51
+Inspecting hot method org.apache.log4j.PropertyConfigurator.parseCategory:726...
+Checking for isolation...
+5,1,1,0
+Total 5 (5 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringTokenizer_HasMoreElements (1 traces / 1 unique traces) (5 events / 5 unique events)
+Classifier (org.apache.log4j.PropertyConfigurator.parseCategory:726): LIB,NOT_REDUNDANT_TRACES
+
+#52
+Inspecting hot method com.indeed.vw.wrapper.api.VowpalWabbit$Builder.buildIntLearner:1357...
+Checking for isolation...
+5,2,2,0
+Total 5 (5 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (2 events / 2 unique events)
+Classifier (com.indeed.vw.wrapper.api.VowpalWabbit$Builder.buildIntLearner:1357): CUT,NOT_REDUNDANT_TRACES
+
+#53
+Inspecting hot method com.google.common.base.Preconditions.checkArgument:124...
+Checking for isolation...
+3,3,3,0
+Total 3 (1 unique) events are in hot method
+Total 3 (1 unique) traces are in hot method
+Total 3 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Throwable_InitCauseOnce (3 traces / 1 unique traces) (3 events / 1 unique events)
+Classifier (com.google.common.base.Preconditions.checkArgument:124): LIB,ISOLATED_ONE_UNIQUE
+
+#54
+Inspecting hot method org.apache.log4j.PropertyConfigurator.registryPut:936...
+Checking for isolation...
+3,3,0,3
+Total 3 (3 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 3 (3 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 95 (95 unique) events are in non-isolated traces (3 / 3 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (41 events / 41 unique events) (1 events / 1 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (41 events / 41 unique events) (1 events / 1 unique events in hot method)
+	Dictionary_NullKeyOrValue (1 traces / 1 unique traces) (13 events / 13 unique events) (1 events / 1 unique events in hot method)
+Classifier (org.apache.log4j.PropertyConfigurator.registryPut:936): LIB,NOT_REDUNDANT_TRACES
+
+#55
+Inspecting hot method com.indeed.vw.wrapper.learner.VWLearnersTest.testCreateTwoLearners:20...
+Checking for isolation...
+2,2,2,0
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2 (2 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Closeable_MultipleClose (2 traces / 2 unique traces) (2 events / 2 unique events)
+Classifier (com.indeed.vw.wrapper.learner.VWLearnersTest.testCreateTwoLearners:20): CUT,NOT_REDUNDANT_TRACES
+
+#56
+Inspecting hot method org.apache.log4j.ProvisionNode.<clinit>:0...
+Checking for isolation...
+2,2,1,1
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 1 (1 unique) events are in isolated traces
+Total 8 (8 unique) events are in non-isolated traces (1 / 1 unique are in hot method)
+Specs that have isolated traces:
+	Collection_HashCode (1 traces / 1 unique traces) (1 events / 1 unique events)
+Specs that have non-isolated traces:
+	Serializable_NoArgConstructor (1 traces / 1 unique traces) (8 events / 8 unique events) (1 events / 1 unique events in hot method)
+Classifier (org.apache.log4j.ProvisionNode.<clinit>:0): LIB,NOT_REDUNDANT_TRACES
+

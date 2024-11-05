@@ -1,0 +1,1796 @@
+Reading traces...
+Reading specs frequency...
+Reading locations...
+Counting events...
+Total 12060 events and 2111 traces
+Inspecting top 20000000 IMM
+Finding hot methods...
+Number of events, method name
+1182,com.google.inject.internal.cglib.core.CollectionUtils.bucket:29
+1072,com.google.inject.AbstractProcessor.process:59
+886,com.google.inject.internal.cglib.core.EmitUtils.getSwitchKeys:246
+883,com.google.inject.internal.Iterators$4.hasNext:169
+780,com.google.inject.internal.cglib.core.EmitUtils$6.processCase:270
+735,com.google.inject.internal.ImmutableSet.create:332
+648,com.google.inject.internal.Stopwatch.resetAndLog:47
+612,com.google.inject.internal.cglib.core.CollectionUtils.transform:60
+547,com.google.inject.internal.cglib.core.CollectionUtils.filter:50
+382,com.google.inject.internal.cglib.core.TypeUtils.parseSignature:164
+332,com.google.inject.internal.Iterators$4.next:175
+296,com.google.inject.internal.Lists.newArrayList:107
+288,com.google.inject.InjectorImpl.index:92
+260,com.google.inject.InjectorBuilder.loadEagerSingletons:188
+243,com.google.inject.internal.cglib.reflect.FastClassEmitter$GetIndexCallback.<init>:198
+144,com.google.inject.MembersInjectorStore.getInjectors:107
+140,com.google.inject.TypeConverterBindingProcessor.convertToPrimitiveType:115
+140,com.google.inject.internal.Strings.capitalize:48
+124,com.google.inject.MembersInjectorImpl.getInjectionPoints:118
+124,com.google.inject.internal.ImmutableList.createFromIterable:546
+116,com.google.inject.internal.ProviderMethodsModule.configure:70
+108,com.google.inject.InjectorImpl$BindingsMultimap.put:663
+96,com.google.inject.InjectorBuilder.initializeStatically:120
+89,com.google.inject.internal.cglib.core.CollectionUtils.reverse:43
+80,com.google.inject.internal.ToStringBuilder.toString:50
+72,com.google.inject.internal.BytecodeGen.newFastClass:158
+72,com.google.inject.InheritingState.putBinding:73
+66,com.google.inject.internal.cglib.core.EmitUtils$10.getParameterTypes:692
+64,com.google.inject.AbstractProcessor.process:53
+64,com.google.inject.internal.ToStringBuilder.add:43
+63,com.google.inject.internal.asm.ByteVector.a:0
+60,com.google.inject.BindingProcessor.runCreationListeners:229
+52,com.google.inject.spi.Elements.getElements:99
+50,com.google.inject.internal.cglib.core.TypeUtils.parseTypes:208
+48,com.google.inject.internal.ImmutableList$Builder.addAll:658
+48,com.google.inject.internal.ProviderMethodsModule.createProviderMethod:88
+48,com.google.inject.internal.Iterators$5.hasNext:205
+48,com.google.inject.internal.Iterators$5.next:208
+44,com.google.inject.internal.cglib.core.DuplicatesPredicate.evaluate:25
+40,com.google.inject.internal.Iterators$7.next:277
+40,com.google.inject.InheritingState.addConverter:90
+36,com.google.inject.InjectorShell$Builder.addModules:103
+36,com.google.inject.internal.AbstractBindingBuilder.setBinding:65
+32,com.google.inject.internal.ImmutableSet.copyOfInternal:149
+32,com.google.inject.spi.InjectionPoint.forMember:104
+32,com.google.inject.InjectorShell$Builder.build:120
+32,com.google.inject.Initializer.validateOustandingInjections:73
+32,com.google.inject.InjectorBuilder.injectDynamically:168
+32,com.google.inject.internal.cglib.core.ReflectUtils.<clinit>:33
+32,com.google.inject.spi.Elements$RecordingBinder.install:216
+31,com.google.inject.internal.asm.Label.a:0
+29,com.google.inject.internal.ImmutableList$RegularImmutableList.<init>:344
+28,com.google.inject.internal.AbstractBindingBuilder.<init>:53
+24,com.google.inject.internal.Iterables$1.apply:97
+24,com.google.inject.MembersInjectorStore.createWithListeners:74
+24,com.google.inject.ProxyFactory.<init>:67
+24,com.google.inject.Initializer.injectAll:90
+24,com.google.inject.internal.SourceProvider.asStrings:52
+24,com.google.inject.InheritingState.getTypeListenerBindings:127
+20,com.google.inject.spi.InjectionPoint.addInjectorsForMembers:359
+20,com.google.inject.internal.ImmutableSet$Builder.add:588
+18,com.google.inject.internal.cglib.core.ReflectUtils.addAllMethods:348
+18,com.google.inject.internal.cglib.core.TypeUtils.<clinit>:22
+17,com.google.inject.internal.ImmutableSet$RegularImmutableSet.<init>:431
+17,com.google.inject.internal.ImmutableSet$ArrayImmutableSet.<init>:366
+17,com.google.inject.internal.cglib.core.AbstractClassGenerator.create:188
+16,com.google.inject.internal.ProviderMethodsModule.getProviderMethods:76
+16,com.google.inject.InjectorImpl.initializeBinding:372
+16,com.google.inject.InjectorImpl.createJustInTimeBindingRecursive:570
+12,com.google.inject.MembersInjectorImpl.notifyListeners:85
+12,com.google.inject.InjectionRequestProcessor.validate:67
+12,com.google.inject.InjectionRequestProcessor.injectMembers:73
+12,com.google.inject.BindingProcessor.initializeBindings:223
+9,com.google.inject.internal.ImmutableMap$Builder.put:168
+8,com.google.inject.internal.Iterables$3.iterator:123
+8,com.google.inject.internal.SourceProvider.get:64
+8,com.google.inject.BindingProcessor$1.visit:131
+8,com.google.inject.InheritingState.putAnnotation:82
+8,com.google.inject.internal.InternalContext.getConstructionContext:35
+7,com.google.inject.internal.cglib.core.ClassNameReader$1.visit:46
+6,com.google.inject.internal.cglib.core.ClassEmitter.declare_field:179
+4,com.google.inject.internal.cglib.core.EmitUtils.member_helper_type:764
+4,com.google.inject.spi.Elements$RecordingBinder.bindScope:182
+4,com.google.inject.internal.cglib.core.EmitUtils.member_switch_helper:689
+3,com.google.inject.internal.ImmutableCollection.<clinit>:36
+3,com.google.inject.internal.ImmutableList$EmptyImmutableList.<clinit>:276
+3,com.google.inject.internal.ImmutableSet$EmptyImmutableSet.<clinit>:222
+2,com.google.inject.internal.ImmutableCollection$EmptyImmutableCollection.<clinit>:0
+2,com.google.inject.internal.ImmutableList.<clinit>:53
+2,com.google.inject.internal.ImmutableList$RegularImmutableList.<clinit>:0
+2,com.google.inject.internal.ImmutableSet.<clinit>:62
+2,com.google.inject.internal.ImmutableSet$SingletonImmutableSet.<clinit>:0
+2,com.google.inject.internal.ImmutableSet$ArrayImmutableSet.<clinit>:0
+2,com.google.inject.internal.ImmutableSet$RegularImmutableSet.<clinit>:0
+1,com.google.inject.internal.ImmutableMap$RegularImmutableMap.<init>:570
+1,com.google.inject.SingleParameterInjector.<clinit>:29
+1,com.google.inject.Stage.<clinit>:32
+1,com.google.inject.internal.Errors.<clinit>:561
+1,com.google.inject.internal.MapMaker$Strength$1.<clinit>:0
+1,com.google.inject.internal.MapMaker$Strength$2.<clinit>:0
+1,com.google.inject.internal.MapMaker$Strength$3.<clinit>:0
+1,com.google.inject.internal.MapMaker$Strength.<clinit>:298
+1,com.google.inject.internal.MapMaker$StrategyImpl.<clinit>:0
+1,com.google.inject.internal.CustomConcurrentHashMap$Impl.<clinit>:0
+1,com.google.inject.internal.CustomConcurrentHashMap$ComputingImpl.<clinit>:0
+1,com.google.inject.internal.CustomConcurrentHashMap$Impl$Segment.<clinit>:0
+1,com.google.inject.internal.CustomConcurrentHashMap$Impl$InternalsImpl.<clinit>:0
+1,com.google.inject.matcher.Matchers$Any.<clinit>:0
+1,com.google.inject.matcher.Matchers$IdenticalTo.<clinit>:0
+1,com.google.inject.matcher.Matchers$SubclassesOf.<clinit>:0
+1,com.google.inject.Key$NullAnnotationStrategy.<clinit>:373
+1,com.google.inject.internal.ImmutableMap$EmptyImmutableMap.<clinit>:0
+1,com.google.inject.internal.ImmutableMap.<clinit>:49
+1,com.google.inject.internal.ImmutableEntry.<clinit>:0
+1,com.google.inject.internal.ImmutableMap$RegularImmutableMap.<clinit>:0
+1,com.google.inject.internal.MoreTypes$ParameterizedTypeImpl.<clinit>:0
+1,com.google.inject.internal.BytecodeGen$Visibility$1.<clinit>:0
+1,com.google.inject.internal.BytecodeGen$Visibility$2.<clinit>:0
+1,com.google.inject.internal.BytecodeGen$Visibility.<clinit>:195
+1,com.google.inject.internal.cglib.core.ClassNameReader$EarlyExitException.<clinit>:0
+^^^ Last method that contains more than one event ^^^
+Starting com.google.inject.InjectorImpl$BindingsMultimap.put:663
+Finish com.google.inject.InjectorImpl$BindingsMultimap.put:663
+Starting com.google.inject.spi.Elements$RecordingBinder.bindScope:182
+Finish com.google.inject.spi.Elements$RecordingBinder.bindScope:182
+Starting com.google.inject.InjectorBuilder.loadEagerSingletons:188
+Finish com.google.inject.InjectorBuilder.loadEagerSingletons:188
+Starting com.google.inject.InjectorBuilder.injectDynamically:168
+Finish com.google.inject.InjectorBuilder.injectDynamically:168
+Starting com.google.inject.internal.ProviderMethodsModule.getProviderMethods:76
+Finish com.google.inject.internal.ProviderMethodsModule.getProviderMethods:76
+Starting com.google.inject.internal.ImmutableList$EmptyImmutableList.<clinit>:276
+Finish com.google.inject.internal.ImmutableList$EmptyImmutableList.<clinit>:276
+Starting com.google.inject.internal.Iterators$4.next:175
+Finish com.google.inject.internal.Iterators$4.next:175
+Starting com.google.inject.internal.ProviderMethodsModule.configure:70
+Finish com.google.inject.internal.ProviderMethodsModule.configure:70
+Starting com.google.inject.internal.cglib.core.CollectionUtils.reverse:43
+Finish com.google.inject.internal.cglib.core.CollectionUtils.reverse:43
+Starting com.google.inject.spi.Elements.getElements:99
+Finish com.google.inject.spi.Elements.getElements:99
+Starting com.google.inject.internal.Iterators$5.next:208
+Finish com.google.inject.internal.Iterators$5.next:208
+Starting com.google.inject.MembersInjectorStore.createWithListeners:74
+Finish com.google.inject.MembersInjectorStore.createWithListeners:74
+Starting com.google.inject.InjectorImpl.createJustInTimeBindingRecursive:570
+Finish com.google.inject.InjectorImpl.createJustInTimeBindingRecursive:570
+Starting com.google.inject.internal.ImmutableSet.create:332
+Finish com.google.inject.internal.ImmutableSet.create:332
+Starting com.google.inject.internal.BytecodeGen.newFastClass:158
+Finish com.google.inject.internal.BytecodeGen.newFastClass:158
+Starting com.google.inject.internal.cglib.core.TypeUtils.parseTypes:208
+Finish com.google.inject.internal.cglib.core.TypeUtils.parseTypes:208
+Starting com.google.inject.Initializer.validateOustandingInjections:73
+Finish com.google.inject.Initializer.validateOustandingInjections:73
+Starting com.google.inject.internal.cglib.core.AbstractClassGenerator.create:188
+Finish com.google.inject.internal.cglib.core.AbstractClassGenerator.create:188
+Starting com.google.inject.internal.cglib.core.CollectionUtils.filter:50
+Finish com.google.inject.internal.cglib.core.CollectionUtils.filter:50
+Starting com.google.inject.InjectorShell$Builder.addModules:103
+Finish com.google.inject.InjectorShell$Builder.addModules:103
+Starting com.google.inject.internal.ImmutableSet$RegularImmutableSet.<init>:431
+Finish com.google.inject.internal.ImmutableSet$RegularImmutableSet.<init>:431
+Starting com.google.inject.internal.ToStringBuilder.toString:50
+Finish com.google.inject.internal.ToStringBuilder.toString:50
+Starting com.google.inject.BindingProcessor$1.visit:131
+Finish com.google.inject.BindingProcessor$1.visit:131
+Starting com.google.inject.internal.ImmutableList.<clinit>:53
+Finish com.google.inject.internal.ImmutableList.<clinit>:53
+Starting com.google.inject.internal.ImmutableList$Builder.addAll:658
+Finish com.google.inject.internal.ImmutableList$Builder.addAll:658
+Starting com.google.inject.internal.cglib.core.CollectionUtils.transform:60
+Finish com.google.inject.internal.cglib.core.CollectionUtils.transform:60
+Starting com.google.inject.InheritingState.putBinding:73
+Finish com.google.inject.InheritingState.putBinding:73
+Starting com.google.inject.BindingProcessor.initializeBindings:223
+Finish com.google.inject.BindingProcessor.initializeBindings:223
+Starting com.google.inject.InjectorBuilder.initializeStatically:120
+Finish com.google.inject.InjectorBuilder.initializeStatically:120
+Starting com.google.inject.internal.Iterables$3.iterator:123
+Finish com.google.inject.internal.Iterables$3.iterator:123
+Starting com.google.inject.internal.cglib.core.EmitUtils.member_switch_helper:689
+Finish com.google.inject.internal.cglib.core.EmitUtils.member_switch_helper:689
+Starting com.google.inject.internal.Lists.newArrayList:107
+Finish com.google.inject.internal.Lists.newArrayList:107
+Starting com.google.inject.internal.ProviderMethodsModule.createProviderMethod:88
+Finish com.google.inject.internal.ProviderMethodsModule.createProviderMethod:88
+Starting com.google.inject.internal.SourceProvider.asStrings:52
+Finish com.google.inject.internal.SourceProvider.asStrings:52
+Starting com.google.inject.internal.cglib.core.EmitUtils.member_helper_type:764
+Finish com.google.inject.internal.cglib.core.EmitUtils.member_helper_type:764
+Starting com.google.inject.AbstractProcessor.process:59
+Finish com.google.inject.AbstractProcessor.process:59
+Starting com.google.inject.internal.cglib.core.EmitUtils$10.getParameterTypes:692
+Finish com.google.inject.internal.cglib.core.EmitUtils$10.getParameterTypes:692
+Starting com.google.inject.ProxyFactory.<init>:67
+Finish com.google.inject.ProxyFactory.<init>:67
+Starting com.google.inject.InheritingState.putAnnotation:82
+Finish com.google.inject.InheritingState.putAnnotation:82
+Starting com.google.inject.internal.cglib.core.EmitUtils.getSwitchKeys:246
+Finish com.google.inject.internal.cglib.core.EmitUtils.getSwitchKeys:246
+Starting com.google.inject.AbstractProcessor.process:53
+Finish com.google.inject.AbstractProcessor.process:53
+Starting com.google.inject.spi.InjectionPoint.forMember:104
+Finish com.google.inject.spi.InjectionPoint.forMember:104
+Starting com.google.inject.InjectorImpl.initializeBinding:372
+Finish com.google.inject.InjectorImpl.initializeBinding:372
+Starting com.google.inject.internal.cglib.core.CollectionUtils.bucket:29
+Finish com.google.inject.internal.cglib.core.CollectionUtils.bucket:29
+Starting com.google.inject.internal.ImmutableList$RegularImmutableList.<init>:344
+Finish com.google.inject.internal.ImmutableList$RegularImmutableList.<init>:344
+Starting com.google.inject.InjectionRequestProcessor.validate:67
+Finish com.google.inject.InjectionRequestProcessor.validate:67
+Starting com.google.inject.internal.ImmutableSet$EmptyImmutableSet.<clinit>:222
+Finish com.google.inject.internal.ImmutableSet$EmptyImmutableSet.<clinit>:222
+Starting com.google.inject.internal.Iterators$4.hasNext:169
+Finish com.google.inject.internal.Iterators$4.hasNext:169
+Starting com.google.inject.internal.ToStringBuilder.add:43
+Finish com.google.inject.internal.ToStringBuilder.add:43
+Starting com.google.inject.InheritingState.addConverter:90
+Finish com.google.inject.InheritingState.addConverter:90
+Starting com.google.inject.internal.cglib.core.ReflectUtils.addAllMethods:348
+Finish com.google.inject.internal.cglib.core.ReflectUtils.addAllMethods:348
+Starting com.google.inject.internal.ImmutableCollection.<clinit>:36
+Finish com.google.inject.internal.ImmutableCollection.<clinit>:36
+Starting com.google.inject.internal.cglib.core.EmitUtils$6.processCase:270
+Finish com.google.inject.internal.cglib.core.EmitUtils$6.processCase:270
+Starting com.google.inject.BindingProcessor.runCreationListeners:229
+Finish com.google.inject.BindingProcessor.runCreationListeners:229
+Starting com.google.inject.internal.asm.Label.a:0
+Finish com.google.inject.internal.asm.Label.a:0
+Starting com.google.inject.spi.InjectionPoint.addInjectorsForMembers:359
+Finish com.google.inject.spi.InjectionPoint.addInjectorsForMembers:359
+Starting com.google.inject.internal.ImmutableCollection$EmptyImmutableCollection.<clinit>:0
+Finish com.google.inject.internal.ImmutableCollection$EmptyImmutableCollection.<clinit>:0
+Starting com.google.inject.internal.cglib.reflect.FastClassEmitter$GetIndexCallback.<init>:198
+Finish com.google.inject.internal.cglib.reflect.FastClassEmitter$GetIndexCallback.<init>:198
+Starting com.google.inject.internal.Iterators$7.next:277
+Finish com.google.inject.internal.Iterators$7.next:277
+Starting com.google.inject.internal.InternalContext.getConstructionContext:35
+Finish com.google.inject.internal.InternalContext.getConstructionContext:35
+Starting com.google.inject.MembersInjectorStore.getInjectors:107
+Finish com.google.inject.MembersInjectorStore.getInjectors:107
+Starting com.google.inject.internal.cglib.core.ReflectUtils.<clinit>:33
+Finish com.google.inject.internal.cglib.core.ReflectUtils.<clinit>:33
+Starting com.google.inject.internal.SourceProvider.get:64
+Finish com.google.inject.internal.SourceProvider.get:64
+Starting com.google.inject.InjectorImpl.index:92
+Finish com.google.inject.InjectorImpl.index:92
+Starting com.google.inject.internal.cglib.core.DuplicatesPredicate.evaluate:25
+Finish com.google.inject.internal.cglib.core.DuplicatesPredicate.evaluate:25
+Starting com.google.inject.Initializer.injectAll:90
+Finish com.google.inject.Initializer.injectAll:90
+Starting com.google.inject.InjectionRequestProcessor.injectMembers:73
+Finish com.google.inject.InjectionRequestProcessor.injectMembers:73
+Starting com.google.inject.internal.Stopwatch.resetAndLog:47
+Finish com.google.inject.internal.Stopwatch.resetAndLog:47
+Starting com.google.inject.internal.asm.ByteVector.a:0
+Finish com.google.inject.internal.asm.ByteVector.a:0
+Starting com.google.inject.InjectorShell$Builder.build:120
+Finish com.google.inject.InjectorShell$Builder.build:120
+Starting com.google.inject.internal.cglib.core.TypeUtils.<clinit>:22
+Finish com.google.inject.internal.cglib.core.TypeUtils.<clinit>:22
+Starting com.google.inject.internal.ImmutableSet$SingletonImmutableSet.<clinit>:0
+Finish com.google.inject.internal.ImmutableSet$SingletonImmutableSet.<clinit>:0
+Starting com.google.inject.MembersInjectorImpl.getInjectionPoints:118
+Finish com.google.inject.MembersInjectorImpl.getInjectionPoints:118
+Starting com.google.inject.spi.Elements$RecordingBinder.install:216
+Finish com.google.inject.spi.Elements$RecordingBinder.install:216
+Starting com.google.inject.internal.ImmutableSet$ArrayImmutableSet.<init>:366
+Finish com.google.inject.internal.ImmutableSet$ArrayImmutableSet.<init>:366
+Starting com.google.inject.internal.cglib.core.ClassNameReader$1.visit:46
+Finish com.google.inject.internal.cglib.core.ClassNameReader$1.visit:46
+Starting com.google.inject.internal.ImmutableSet.<clinit>:62
+Finish com.google.inject.internal.ImmutableSet.<clinit>:62
+Starting com.google.inject.internal.Iterables$1.apply:97
+Finish com.google.inject.internal.Iterables$1.apply:97
+Starting com.google.inject.TypeConverterBindingProcessor.convertToPrimitiveType:115
+Finish com.google.inject.TypeConverterBindingProcessor.convertToPrimitiveType:115
+Starting com.google.inject.internal.Iterators$5.hasNext:205
+Finish com.google.inject.internal.Iterators$5.hasNext:205
+Starting com.google.inject.InheritingState.getTypeListenerBindings:127
+Finish com.google.inject.InheritingState.getTypeListenerBindings:127
+Starting com.google.inject.internal.ImmutableList$RegularImmutableList.<clinit>:0
+Finish com.google.inject.internal.ImmutableList$RegularImmutableList.<clinit>:0
+Starting com.google.inject.internal.Strings.capitalize:48
+Finish com.google.inject.internal.Strings.capitalize:48
+Starting com.google.inject.internal.ImmutableSet.copyOfInternal:149
+Finish com.google.inject.internal.ImmutableSet.copyOfInternal:149
+Starting com.google.inject.internal.ImmutableSet$Builder.add:588
+Finish com.google.inject.internal.ImmutableSet$Builder.add:588
+Starting com.google.inject.internal.ImmutableSet$ArrayImmutableSet.<clinit>:0
+Finish com.google.inject.internal.ImmutableSet$ArrayImmutableSet.<clinit>:0
+Starting com.google.inject.internal.ImmutableList.createFromIterable:546
+Finish com.google.inject.internal.ImmutableList.createFromIterable:546
+Starting com.google.inject.internal.AbstractBindingBuilder.<init>:53
+Finish com.google.inject.internal.AbstractBindingBuilder.<init>:53
+Starting com.google.inject.internal.ImmutableMap$Builder.put:168
+Finish com.google.inject.internal.ImmutableMap$Builder.put:168
+Starting com.google.inject.internal.cglib.core.ClassEmitter.declare_field:179
+Finish com.google.inject.internal.cglib.core.ClassEmitter.declare_field:179
+Starting com.google.inject.internal.cglib.core.TypeUtils.parseSignature:164
+Finish com.google.inject.internal.cglib.core.TypeUtils.parseSignature:164
+Starting com.google.inject.internal.AbstractBindingBuilder.setBinding:65
+Finish com.google.inject.internal.AbstractBindingBuilder.setBinding:65
+Starting com.google.inject.MembersInjectorImpl.notifyListeners:85
+Finish com.google.inject.MembersInjectorImpl.notifyListeners:85
+Starting com.google.inject.internal.ImmutableSet$RegularImmutableSet.<clinit>:0
+Finish com.google.inject.internal.ImmutableSet$RegularImmutableSet.<clinit>:0
+
+#1
+Inspecting hot method com.google.inject.internal.cglib.core.CollectionUtils.bucket:29...
+Checking for isolation...
+1182,260,258,2
+Total 1182 (578 unique) events are in hot method
+Total 260 (29 unique) traces are in hot method
+Total 258 (27 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 942 (338 unique) events are in isolated traces
+Total 716 (716 unique) events are in non-isolated traces (240 / 240 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (120 traces / 3 unique traces) (132 events / 6 unique events)
+	Iterator_HasNext (37 traces / 7 unique traces) (301 events / 129 unique events)
+	Iterator_RemoveOnce (37 traces / 7 unique traces) (132 events / 61 unique events)
+	Collection_UnsafeIterator (37 traces / 7 unique traces) (338 events / 136 unique events)
+	ListIterator_RemoveOnce (27 traces / 3 unique traces) (39 events / 6 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (358 events / 358 unique events) (120 events / 120 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (358 events / 358 unique events) (120 events / 120 unique events in hot method)
+Classifier (com.google.inject.internal.cglib.core.CollectionUtils.bucket:29): LIB,ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#2
+Inspecting hot method com.google.inject.AbstractProcessor.process:59...
+Checking for isolation...
+1072,104,104,0
+Total 1072 (107 unique) events are in hot method
+Total 104 (10 unique) traces are in hot method
+Total 104 (10 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1072 (107 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (40 traces / 3 unique traces) (408 events / 33 unique events)
+	Collection_UnsafeIterator (40 traces / 3 unique traces) (448 events / 36 unique events)
+	Iterator_RemoveOnce (24 traces / 4 unique traces) (216 events / 38 unique events)
+Classifier (com.google.inject.AbstractProcessor.process:59): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#3
+Inspecting hot method com.google.inject.internal.cglib.core.EmitUtils.getSwitchKeys:246...
+Checking for isolation...
+886,192,192,0
+Total 886 (471 unique) events are in hot method
+Total 192 (30 unique) traces are in hot method
+Total 192 (30 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 886 (471 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Map_UnsafeIterator (64 traces / 8 unique traces) (308 events / 144 unique events)
+	Iterator_HasNext (32 traces / 7 unique traces) (212 events / 129 unique events)
+	Iterator_RemoveOnce (32 traces / 7 unique traces) (90 events / 61 unique events)
+	Collection_UnsafeIterator (32 traces / 7 unique traces) (244 events / 136 unique events)
+	Map_CollectionViewAdd (32 traces / 1 unique traces) (32 events / 1 unique events)
+Classifier (com.google.inject.internal.cglib.core.EmitUtils.getSwitchKeys:246): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE
+
+#4
+Inspecting hot method com.google.inject.internal.Iterators$4.hasNext:169...
+Checking for isolation...
+883,58,16,42
+Total 883 (225 unique) events are in hot method
+Total 58 (14 unique) traces are in hot method
+Total 16 (2 unique) isolated traces are in hot method
+Total 42 (12 unique) non-isolated traces that have events in hot method
+Total 56 (7 unique) events are in isolated traces
+Total 1207 (430 unique) events are in non-isolated traces (827 / 218 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (8 traces / 1 unique traces) (16 events / 2 unique events)
+	Iterator_HasNext (8 traces / 1 unique traces) (40 events / 5 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (17 traces / 5 unique traces) (444 events / 156 unique events) (320 events / 86 unique events in hot method)
+	Collection_UnsafeIterator (17 traces / 5 unique traces) (511 events / 211 unique events) (319 events / 85 unique events in hot method)
+	Map_UnsafeIterator (8 traces / 2 unique traces) (252 events / 63 unique events) (188 events / 47 unique events in hot method)
+Classifier (com.google.inject.internal.Iterators$4.hasNext:169): LIB,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#5
+Inspecting hot method com.google.inject.internal.cglib.core.EmitUtils$6.processCase:270...
+Checking for isolation...
+780,240,240,0
+Total 780 (13 unique) events are in hot method
+Total 240 (4 unique) traces are in hot method
+Total 240 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 780 (13 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (60 traces / 1 unique traces) (60 events / 1 unique events)
+	Collection_UnsafeIterator (60 traces / 1 unique traces) (360 events / 6 unique events)
+	Iterator_HasNext (60 traces / 1 unique traces) (300 events / 5 unique events)
+	ListIterator_RemoveOnce (60 traces / 1 unique traces) (60 events / 1 unique events)
+Classifier (com.google.inject.internal.cglib.core.EmitUtils$6.processCase:270): LIB,ISOLATED_ONE_UNIQUE
+
+#6
+Inspecting hot method com.google.inject.internal.ImmutableSet.create:332...
+Checking for isolation...
+735,68,68,0
+Total 735 (204 unique) events are in hot method
+Total 68 (16 unique) traces are in hot method
+Total 68 (16 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 735 (204 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (17 traces / 4 unique traces) (262 events / 72 unique events)
+	Iterator_RemoveOnce (17 traces / 4 unique traces) (114 events / 32 unique events)
+	Iterator_HasNext (17 traces / 4 unique traces) (245 events / 68 unique events)
+	Collections_SortBeforeBinarySearch (17 traces / 4 unique traces) (114 events / 32 unique events)
+Classifier (com.google.inject.internal.ImmutableSet.create:332): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#7
+Inspecting hot method com.google.inject.internal.Stopwatch.resetAndLog:47...
+Checking for isolation...
+648,144,144,0
+Total 648 (9 unique) events are in hot method
+Total 144 (2 unique) traces are in hot method
+Total 144 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 648 (9 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (72 traces / 1 unique traces) (288 events / 4 unique events)
+	StringBuilder_ThreadSafe (72 traces / 1 unique traces) (360 events / 5 unique events)
+Classifier (com.google.inject.internal.Stopwatch.resetAndLog:47): LIB,ISOLATED_ONE_UNIQUE
+
+#8
+Inspecting hot method com.google.inject.internal.cglib.core.CollectionUtils.transform:60...
+Checking for isolation...
+612,40,40,0
+Total 612 (201 unique) events are in hot method
+Total 40 (12 unique) traces are in hot method
+Total 40 (12 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 612 (201 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (10 traces / 3 unique traces) (204 events / 67 unique events)
+	Iterator_RemoveOnce (10 traces / 3 unique traces) (97 events / 32 unique events)
+	Collection_UnsafeIterator (10 traces / 3 unique traces) (214 events / 70 unique events)
+	Collections_SortBeforeBinarySearch (10 traces / 3 unique traces) (97 events / 32 unique events)
+Classifier (com.google.inject.internal.cglib.core.CollectionUtils.transform:60): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#9
+Inspecting hot method com.google.inject.internal.cglib.core.CollectionUtils.filter:50...
+Checking for isolation...
+547,18,18,0
+Total 547 (539 unique) events are in hot method
+Total 18 (15 unique) traces are in hot method
+Total 18 (15 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 547 (539 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (6 traces / 5 unique traces) (208 events / 205 unique events)
+	Iterator_RemoveOnce (6 traces / 5 unique traces) (125 events / 124 unique events)
+	Collection_UnsafeIterator (6 traces / 5 unique traces) (214 events / 210 unique events)
+Classifier (com.google.inject.internal.cglib.core.CollectionUtils.filter:50): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#10
+Inspecting hot method com.google.inject.internal.cglib.core.TypeUtils.parseSignature:164...
+Checking for isolation...
+382,132,132,0
+Total 382 (39 unique) events are in hot method
+Total 132 (9 unique) traces are in hot method
+Total 132 (9 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 382 (39 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (44 traces / 3 unique traces) (50 events / 6 unique events)
+	Collection_UnsafeIterator (44 traces / 3 unique traces) (188 events / 18 unique events)
+	Iterator_HasNext (44 traces / 3 unique traces) (144 events / 15 unique events)
+Classifier (com.google.inject.internal.cglib.core.TypeUtils.parseSignature:164): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#11
+Inspecting hot method com.google.inject.internal.Iterators$4.next:175...
+Checking for isolation...
+332,64,16,48
+Total 332 (83 unique) events are in hot method
+Total 64 (16 unique) traces are in hot method
+Total 16 (4 unique) isolated traces are in hot method
+Total 48 (12 unique) non-isolated traces that have events in hot method
+Total 72 (18 unique) events are in isolated traces
+Total 1260 (315 unique) events are in non-isolated traces (260 / 65 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (16 traces / 4 unique traces) (72 events / 18 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (24 traces / 6 unique traces) (608 events / 152 unique events) (144 events / 36 unique events in hot method)
+	Collection_UnsafeIterator (16 traces / 4 unique traces) (400 events / 100 unique events) (72 events / 18 unique events in hot method)
+	Map_UnsafeIterator (8 traces / 2 unique traces) (252 events / 63 unique events) (44 events / 11 unique events in hot method)
+Classifier (com.google.inject.internal.Iterators$4.next:175): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#12
+Inspecting hot method com.google.inject.internal.Lists.newArrayList:107...
+Checking for isolation...
+296,24,16,8
+Total 296 (74 unique) events are in hot method
+Total 24 (6 unique) traces are in hot method
+Total 16 (4 unique) isolated traces are in hot method
+Total 8 (2 unique) non-isolated traces that have events in hot method
+Total 144 (36 unique) events are in isolated traces
+Total 224 (56 unique) events are in non-isolated traces (152 / 38 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (8 traces / 2 unique traces) (72 events / 18 unique events)
+	Iterator_RemoveOnce (8 traces / 2 unique traces) (72 events / 18 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (8 traces / 2 unique traces) (224 events / 56 unique events) (152 events / 38 unique events in hot method)
+Classifier (com.google.inject.internal.Lists.newArrayList:107): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#13
+Inspecting hot method com.google.inject.InjectorImpl.index:92...
+Checking for isolation...
+288,28,12,16
+Total 288 (72 unique) events are in hot method
+Total 28 (7 unique) traces are in hot method
+Total 12 (3 unique) isolated traces are in hot method
+Total 16 (4 unique) non-isolated traces that have events in hot method
+Total 192 (48 unique) events are in isolated traces
+Total 300 (75 unique) events are in non-isolated traces (96 / 24 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (4 traces / 1 unique traces) (76 events / 19 unique events)
+	Collection_UnsafeIterator (4 traces / 1 unique traces) (80 events / 20 unique events)
+	Iterator_RemoveOnce (4 traces / 1 unique traces) (36 events / 9 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (12 traces / 3 unique traces) (292 events / 73 unique events) (92 events / 23 unique events in hot method)
+	Map_CollectionViewAdd (4 traces / 1 unique traces) (8 events / 2 unique events) (4 events / 1 unique events in hot method)
+Classifier (com.google.inject.InjectorImpl.index:92): LIB,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_ONE_UNIQUE
+
+#14
+Inspecting hot method com.google.inject.InjectorBuilder.loadEagerSingletons:188...
+Checking for isolation...
+260,40,20,20
+Total 260 (65 unique) events are in hot method
+Total 40 (10 unique) traces are in hot method
+Total 20 (5 unique) isolated traces are in hot method
+Total 20 (5 unique) non-isolated traces that have events in hot method
+Total 240 (60 unique) events are in isolated traces
+Total 356 (89 unique) events are in non-isolated traces (20 / 5 unique are in hot method)
+Specs that have isolated traces:
+	Map_UnsafeIterator (4 traces / 1 unique traces) (4 events / 1 unique events)
+	Map_CollectionViewAdd (4 traces / 1 unique traces) (4 events / 1 unique events)
+	Collection_UnsafeIterator (4 traces / 1 unique traces) (96 events / 24 unique events)
+	Iterator_RemoveOnce (4 traces / 1 unique traces) (44 events / 11 unique events)
+	Iterator_HasNext (4 traces / 1 unique traces) (92 events / 23 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (16 traces / 4 unique traces) (348 events / 87 unique events) (16 events / 4 unique events in hot method)
+	Map_CollectionViewAdd (4 traces / 1 unique traces) (8 events / 2 unique events) (4 events / 1 unique events in hot method)
+Classifier (com.google.inject.InjectorBuilder.loadEagerSingletons:188): LIB,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_ONE_UNIQUE
+
+#15
+Inspecting hot method com.google.inject.internal.cglib.reflect.FastClassEmitter$GetIndexCallback.<init>:198...
+Checking for isolation...
+243,14,12,2
+Total 243 (235 unique) events are in hot method
+Total 14 (11 unique) traces are in hot method
+Total 12 (9 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 177 (169 unique) events are in isolated traces
+Total 716 (716 unique) events are in non-isolated traces (66 / 66 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (4 traces / 3 unique traces) (33 events / 32 unique events)
+	Collection_UnsafeIterator (4 traces / 3 unique traces) (74 events / 70 unique events)
+	Iterator_HasNext (4 traces / 3 unique traces) (70 events / 67 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (358 events / 358 unique events) (33 events / 33 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (358 events / 358 unique events) (33 events / 33 unique events in hot method)
+Classifier (com.google.inject.internal.cglib.reflect.FastClassEmitter$GetIndexCallback.<init>:198): LIB,ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#16
+Inspecting hot method com.google.inject.MembersInjectorStore.getInjectors:107...
+Checking for isolation...
+144,32,32,0
+Total 144 (36 unique) events are in hot method
+Total 32 (8 unique) traces are in hot method
+Total 32 (8 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 144 (36 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (8 traces / 2 unique traces) (56 events / 14 unique events)
+	Iterator_RemoveOnce (8 traces / 2 unique traces) (20 events / 5 unique events)
+	Iterator_HasNext (8 traces / 2 unique traces) (48 events / 12 unique events)
+	Collections_SortBeforeBinarySearch (8 traces / 2 unique traces) (20 events / 5 unique events)
+Classifier (com.google.inject.MembersInjectorStore.getInjectors:107): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#17
+Inspecting hot method com.google.inject.TypeConverterBindingProcessor.convertToPrimitiveType:115...
+Checking for isolation...
+140,56,56,0
+Total 140 (5 unique) events are in hot method
+Total 56 (2 unique) traces are in hot method
+Total 56 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 140 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (28 traces / 1 unique traces) (56 events / 2 unique events)
+	StringBuilder_ThreadSafe (28 traces / 1 unique traces) (84 events / 3 unique events)
+Classifier (com.google.inject.TypeConverterBindingProcessor.convertToPrimitiveType:115): LIB,ISOLATED_ONE_UNIQUE
+
+#18
+Inspecting hot method com.google.inject.internal.Strings.capitalize:48...
+Checking for isolation...
+140,56,56,0
+Total 140 (5 unique) events are in hot method
+Total 56 (2 unique) traces are in hot method
+Total 56 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 140 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (28 traces / 1 unique traces) (56 events / 2 unique events)
+	StringBuilder_ThreadSafe (28 traces / 1 unique traces) (84 events / 3 unique events)
+Classifier (com.google.inject.internal.Strings.capitalize:48): LIB,ISOLATED_ONE_UNIQUE
+
+#19
+Inspecting hot method com.google.inject.MembersInjectorImpl.getInjectionPoints:118...
+Checking for isolation...
+124,24,8,16
+Total 124 (31 unique) events are in hot method
+Total 24 (6 unique) traces are in hot method
+Total 8 (2 unique) isolated traces are in hot method
+Total 16 (4 unique) non-isolated traces that have events in hot method
+Total 20 (5 unique) events are in isolated traces
+Total 144 (36 unique) events are in non-isolated traces (104 / 26 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (8 traces / 2 unique traces) (20 events / 5 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (8 traces / 2 unique traces) (76 events / 19 unique events) (56 events / 14 unique events in hot method)
+	Iterator_HasNext (8 traces / 2 unique traces) (68 events / 17 unique events) (48 events / 12 unique events in hot method)
+Classifier (com.google.inject.MembersInjectorImpl.getInjectionPoints:118): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#20
+Inspecting hot method com.google.inject.internal.ImmutableList.createFromIterable:546...
+Checking for isolation...
+124,24,24,0
+Total 124 (31 unique) events are in hot method
+Total 24 (6 unique) traces are in hot method
+Total 24 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 124 (31 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (8 traces / 2 unique traces) (56 events / 14 unique events)
+	Iterator_RemoveOnce (8 traces / 2 unique traces) (20 events / 5 unique events)
+	Iterator_HasNext (8 traces / 2 unique traces) (48 events / 12 unique events)
+Classifier (com.google.inject.internal.ImmutableList.createFromIterable:546): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#21
+Inspecting hot method com.google.inject.internal.ProviderMethodsModule.configure:70...
+Checking for isolation...
+116,28,28,0
+Total 116 (26 unique) events are in hot method
+Total 28 (5 unique) traces are in hot method
+Total 28 (5 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 116 (26 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (12 traces / 2 unique traces) (44 events / 10 unique events)
+	Collection_UnsafeIterator (12 traces / 2 unique traces) (56 events / 12 unique events)
+	Iterator_RemoveOnce (4 traces / 1 unique traces) (16 events / 4 unique events)
+Classifier (com.google.inject.internal.ProviderMethodsModule.configure:70): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE
+
+#22
+Inspecting hot method com.google.inject.InjectorImpl$BindingsMultimap.put:663...
+Checking for isolation...
+108,38,36,2
+Total 108 (73 unique) events are in hot method
+Total 38 (3 unique) traces are in hot method
+Total 36 (1 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 36 (1 unique) events are in isolated traces
+Total 716 (716 unique) events are in non-isolated traces (72 / 72 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (36 traces / 1 unique traces) (36 events / 1 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (358 events / 358 unique events) (36 events / 36 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (358 events / 358 unique events) (36 events / 36 unique events in hot method)
+Classifier (com.google.inject.InjectorImpl$BindingsMultimap.put:663): LIB,ISOLATED_ONE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#23
+Inspecting hot method com.google.inject.InjectorBuilder.initializeStatically:120...
+Checking for isolation...
+96,36,36,0
+Total 96 (24 unique) events are in hot method
+Total 36 (9 unique) traces are in hot method
+Total 36 (9 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 96 (24 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (12 traces / 3 unique traces) (48 events / 12 unique events)
+	Iterator_HasNext (12 traces / 3 unique traces) (36 events / 9 unique events)
+	Iterator_RemoveOnce (12 traces / 3 unique traces) (12 events / 3 unique events)
+Classifier (com.google.inject.InjectorBuilder.initializeStatically:120): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#24
+Inspecting hot method com.google.inject.internal.cglib.core.CollectionUtils.reverse:43...
+Checking for isolation...
+89,8,6,2
+Total 89 (89 unique) events are in hot method
+Total 8 (8 unique) traces are in hot method
+Total 6 (6 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 71 (71 unique) events are in isolated traces
+Total 716 (716 unique) events are in non-isolated traces (18 / 18 unique are in hot method)
+Specs that have isolated traces:
+	Map_UnsafeIterator (2 traces / 2 unique traces) (22 events / 22 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (20 events / 20 unique events)
+	Map_CollectionViewAdd (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (19 events / 19 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (9 events / 9 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (358 events / 358 unique events) (9 events / 9 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (358 events / 358 unique events) (9 events / 9 unique events in hot method)
+Classifier (com.google.inject.internal.cglib.core.CollectionUtils.reverse:43): LIB,NOT_REDUNDANT_TRACES
+
+#25
+Inspecting hot method com.google.inject.internal.ToStringBuilder.toString:50...
+Checking for isolation...
+80,32,32,0
+Total 80 (5 unique) events are in hot method
+Total 32 (2 unique) traces are in hot method
+Total 32 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 80 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (16 traces / 1 unique traces) (32 events / 2 unique events)
+	StringBuilder_ThreadSafe (16 traces / 1 unique traces) (48 events / 3 unique events)
+Classifier (com.google.inject.internal.ToStringBuilder.toString:50): LIB,ISOLATED_ONE_UNIQUE
+
+#26
+Inspecting hot method com.google.inject.internal.BytecodeGen.newFastClass:158...
+Checking for isolation...
+72,16,16,0
+Total 72 (9 unique) events are in hot method
+Total 16 (2 unique) traces are in hot method
+Total 16 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 72 (9 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (8 traces / 1 unique traces) (40 events / 5 unique events)
+	Appendable_ThreadSafe (8 traces / 1 unique traces) (32 events / 4 unique events)
+Classifier (com.google.inject.internal.BytecodeGen.newFastClass:158): LIB,ISOLATED_ONE_UNIQUE
+
+#27
+Inspecting hot method com.google.inject.InheritingState.putBinding:73...
+Checking for isolation...
+72,2,0,2
+Total 72 (72 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 716 (716 unique) events are in non-isolated traces (72 / 72 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (358 events / 358 unique events) (36 events / 36 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (358 events / 358 unique events) (36 events / 36 unique events in hot method)
+Classifier (com.google.inject.InheritingState.putBinding:73): LIB,NOT_REDUNDANT_TRACES
+
+#28
+Inspecting hot method com.google.inject.internal.cglib.core.EmitUtils$10.getParameterTypes:692...
+Checking for isolation...
+66,2,0,2
+Total 66 (66 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 716 (716 unique) events are in non-isolated traces (66 / 66 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (358 events / 358 unique events) (33 events / 33 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (358 events / 358 unique events) (33 events / 33 unique events in hot method)
+Classifier (com.google.inject.internal.cglib.core.EmitUtils$10.getParameterTypes:692): LIB,NOT_REDUNDANT_TRACES
+
+#29
+Inspecting hot method com.google.inject.AbstractProcessor.process:53...
+Checking for isolation...
+64,24,24,0
+Total 64 (8 unique) events are in hot method
+Total 24 (3 unique) traces are in hot method
+Total 24 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 64 (8 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (8 traces / 1 unique traces) (24 events / 3 unique events)
+	Collection_UnsafeIterator (8 traces / 1 unique traces) (32 events / 4 unique events)
+	Iterator_RemoveOnce (8 traces / 1 unique traces) (8 events / 1 unique events)
+Classifier (com.google.inject.AbstractProcessor.process:53): LIB,ISOLATED_ONE_UNIQUE
+
+#30
+Inspecting hot method com.google.inject.internal.ToStringBuilder.add:43...
+Checking for isolation...
+64,2,0,2
+Total 64 (64 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 716 (716 unique) events are in non-isolated traces (64 / 64 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (358 events / 358 unique events) (32 events / 32 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (358 events / 358 unique events) (32 events / 32 unique events in hot method)
+Classifier (com.google.inject.internal.ToStringBuilder.add:43): LIB,NOT_REDUNDANT_TRACES
+
+#31
+Inspecting hot method com.google.inject.internal.asm.ByteVector.a:0...
+Checking for isolation...
+63,1,0,1
+Total 63 (63 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 94 (94 unique) events are in non-isolated traces (63 / 63 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (94 events / 94 unique events) (63 events / 63 unique events in hot method)
+Classifier (com.google.inject.internal.asm.ByteVector.a:0): LIB,NOT_REDUNDANT_TRACES
+
+#32
+Inspecting hot method com.google.inject.BindingProcessor.runCreationListeners:229...
+Checking for isolation...
+60,13,13,0
+Total 60 (21 unique) events are in hot method
+Total 13 (4 unique) traces are in hot method
+Total 13 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 60 (21 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (4 traces / 1 unique traces) (20 events / 5 unique events)
+	Collection_UnsafeIterator (4 traces / 1 unique traces) (24 events / 6 unique events)
+	Iterator_RemoveOnce (4 traces / 1 unique traces) (8 events / 2 unique events)
+	Object_MonitorOwner (1 traces / 1 unique traces) (8 events / 8 unique events)
+Classifier (com.google.inject.BindingProcessor.runCreationListeners:229): LIB,ISOLATED_ONE_UNIQUE,RAW_ISOLATED_SINGLE_TRACE
+
+#33
+Inspecting hot method com.google.inject.spi.Elements.getElements:99...
+Checking for isolation...
+52,12,12,0
+Total 52 (13 unique) events are in hot method
+Total 12 (3 unique) traces are in hot method
+Total 12 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 52 (13 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (4 traces / 1 unique traces) (20 events / 5 unique events)
+	Collection_UnsafeIterator (4 traces / 1 unique traces) (24 events / 6 unique events)
+	Iterator_RemoveOnce (4 traces / 1 unique traces) (8 events / 2 unique events)
+Classifier (com.google.inject.spi.Elements.getElements:99): LIB,ISOLATED_ONE_UNIQUE
+
+#34
+Inspecting hot method com.google.inject.internal.cglib.core.TypeUtils.parseTypes:208...
+Checking for isolation...
+50,44,44,0
+Total 50 (6 unique) events are in hot method
+Total 44 (3 unique) traces are in hot method
+Total 44 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 50 (6 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (44 traces / 3 unique traces) (50 events / 6 unique events)
+Classifier (com.google.inject.internal.cglib.core.TypeUtils.parseTypes:208): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#35
+Inspecting hot method com.google.inject.internal.ImmutableList$Builder.addAll:658...
+Checking for isolation...
+48,18,16,2
+Total 48 (27 unique) events are in hot method
+Total 18 (4 unique) traces are in hot method
+Total 16 (2 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 24 (3 unique) events are in isolated traces
+Total 171 (171 unique) events are in non-isolated traces (24 / 24 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (8 traces / 1 unique traces) (16 events / 2 unique events)
+	Iterator_HasNext (8 traces / 1 unique traces) (8 events / 1 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (60 events / 60 unique events) (8 events / 8 unique events in hot method)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (111 events / 111 unique events) (16 events / 16 unique events in hot method)
+Classifier (com.google.inject.internal.ImmutableList$Builder.addAll:658): LIB,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_SINGLE_TRACE
+
+#36
+Inspecting hot method com.google.inject.internal.ProviderMethodsModule.createProviderMethod:88...
+Checking for isolation...
+48,2,0,2
+Total 48 (48 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 171 (171 unique) events are in non-isolated traces (48 / 48 unique are in hot method)
+Specs that have non-isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (60 events / 60 unique events) (16 events / 16 unique events in hot method)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (111 events / 111 unique events) (32 events / 32 unique events in hot method)
+Classifier (com.google.inject.internal.ProviderMethodsModule.createProviderMethod:88): LIB,NOT_REDUNDANT_TRACES
+
+#37
+Inspecting hot method com.google.inject.internal.Iterators$5.hasNext:205...
+Checking for isolation...
+48,16,0,16
+Total 48 (6 unique) events are in hot method
+Total 16 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 16 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 88 (11 unique) events are in non-isolated traces (48 / 6 unique are in hot method)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (8 traces / 1 unique traces) (48 events / 6 unique events) (24 events / 3 unique events in hot method)
+	Iterator_HasNext (8 traces / 1 unique traces) (40 events / 5 unique events) (24 events / 3 unique events in hot method)
+Classifier (com.google.inject.internal.Iterators$5.hasNext:205): LIB,NOT_ISOLATED_ONE_UNIQUE
+
+#38
+Inspecting hot method com.google.inject.internal.Iterators$5.next:208...
+Checking for isolation...
+48,24,8,16
+Total 48 (6 unique) events are in hot method
+Total 24 (3 unique) traces are in hot method
+Total 8 (1 unique) isolated traces are in hot method
+Total 16 (2 unique) non-isolated traces that have events in hot method
+Total 16 (2 unique) events are in isolated traces
+Total 88 (11 unique) events are in non-isolated traces (32 / 4 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (8 traces / 1 unique traces) (16 events / 2 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (8 traces / 1 unique traces) (48 events / 6 unique events) (16 events / 2 unique events in hot method)
+	Iterator_HasNext (8 traces / 1 unique traces) (40 events / 5 unique events) (16 events / 2 unique events in hot method)
+Classifier (com.google.inject.internal.Iterators$5.next:208): LIB,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_ONE_UNIQUE
+
+#39
+Inspecting hot method com.google.inject.internal.cglib.core.DuplicatesPredicate.evaluate:25...
+Checking for isolation...
+44,1,0,1
+Total 44 (44 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 79 (79 unique) events are in non-isolated traces (44 / 44 unique are in hot method)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (79 events / 79 unique events) (44 events / 44 unique events in hot method)
+Classifier (com.google.inject.internal.cglib.core.DuplicatesPredicate.evaluate:25): LIB,NOT_REDUNDANT_TRACES
+
+#40
+Inspecting hot method com.google.inject.internal.Iterators$7.next:277...
+Checking for isolation...
+40,16,0,16
+Total 40 (10 unique) events are in hot method
+Total 16 (4 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 16 (4 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 144 (36 unique) events are in non-isolated traces (40 / 10 unique are in hot method)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (8 traces / 2 unique traces) (76 events / 19 unique events) (20 events / 5 unique events in hot method)
+	Iterator_HasNext (8 traces / 2 unique traces) (68 events / 17 unique events) (20 events / 5 unique events in hot method)
+Classifier (com.google.inject.internal.Iterators$7.next:277): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#41
+Inspecting hot method com.google.inject.InheritingState.addConverter:90...
+Checking for isolation...
+40,4,4,0
+Total 40 (10 unique) events are in hot method
+Total 4 (1 unique) traces are in hot method
+Total 4 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 40 (10 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (4 traces / 1 unique traces) (40 events / 10 unique events)
+Classifier (com.google.inject.InheritingState.addConverter:90): LIB,ISOLATED_ONE_UNIQUE
+
+#42
+Inspecting hot method com.google.inject.InjectorShell$Builder.addModules:103...
+Checking for isolation...
+36,16,12,4
+Total 36 (9 unique) events are in hot method
+Total 16 (4 unique) traces are in hot method
+Total 12 (3 unique) isolated traces are in hot method
+Total 4 (1 unique) non-isolated traces that have events in hot method
+Total 32 (8 unique) events are in isolated traces
+Total 8 (2 unique) events are in non-isolated traces (4 / 1 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (4 traces / 1 unique traces) (16 events / 4 unique events)
+	Iterator_RemoveOnce (4 traces / 1 unique traces) (4 events / 1 unique events)
+	Iterator_HasNext (4 traces / 1 unique traces) (12 events / 3 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (4 traces / 1 unique traces) (8 events / 2 unique events) (4 events / 1 unique events in hot method)
+Classifier (com.google.inject.InjectorShell$Builder.addModules:103): LIB,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_ONE_UNIQUE
+
+#43
+Inspecting hot method com.google.inject.internal.AbstractBindingBuilder.setBinding:65...
+Checking for isolation...
+36,4,0,4
+Total 36 (9 unique) events are in hot method
+Total 4 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 4 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 68 (17 unique) events are in non-isolated traces (36 / 9 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (4 traces / 1 unique traces) (68 events / 17 unique events) (36 events / 9 unique events in hot method)
+Classifier (com.google.inject.internal.AbstractBindingBuilder.setBinding:65): LIB,NOT_ISOLATED_ONE_UNIQUE
+
+#44
+Inspecting hot method com.google.inject.internal.ImmutableSet.copyOfInternal:149...
+Checking for isolation...
+32,24,24,0
+Total 32 (4 unique) events are in hot method
+Total 24 (3 unique) traces are in hot method
+Total 24 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 32 (4 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (8 traces / 1 unique traces) (16 events / 2 unique events)
+	Iterator_RemoveOnce (8 traces / 1 unique traces) (8 events / 1 unique events)
+	Iterator_HasNext (8 traces / 1 unique traces) (8 events / 1 unique events)
+Classifier (com.google.inject.internal.ImmutableSet.copyOfInternal:149): LIB,ISOLATED_ONE_UNIQUE
+
+#45
+Inspecting hot method com.google.inject.spi.InjectionPoint.forMember:104...
+Checking for isolation...
+32,10,8,2
+Total 32 (25 unique) events are in hot method
+Total 10 (3 unique) traces are in hot method
+Total 8 (1 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 8 (1 unique) events are in isolated traces
+Total 171 (171 unique) events are in non-isolated traces (24 / 24 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (8 traces / 1 unique traces) (8 events / 1 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (60 events / 60 unique events) (8 events / 8 unique events in hot method)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (111 events / 111 unique events) (16 events / 16 unique events in hot method)
+Classifier (com.google.inject.spi.InjectionPoint.forMember:104): LIB,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_SINGLE_TRACE
+
+#46
+Inspecting hot method com.google.inject.InjectorShell$Builder.build:120...
+Checking for isolation...
+32,24,20,4
+Total 32 (8 unique) events are in hot method
+Total 24 (6 unique) traces are in hot method
+Total 20 (5 unique) isolated traces are in hot method
+Total 4 (1 unique) non-isolated traces that have events in hot method
+Total 28 (7 unique) events are in isolated traces
+Total 8 (2 unique) events are in non-isolated traces (4 / 1 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (8 traces / 2 unique traces) (8 events / 2 unique events)
+	Collection_UnsynchronizedAddAll (4 traces / 1 unique traces) (8 events / 2 unique events)
+	Iterator_HasNext (4 traces / 1 unique traces) (4 events / 1 unique events)
+	Collection_UnsafeIterator (4 traces / 1 unique traces) (8 events / 2 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (4 traces / 1 unique traces) (8 events / 2 unique events) (4 events / 1 unique events in hot method)
+Classifier (com.google.inject.InjectorShell$Builder.build:120): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_ONE_UNIQUE
+
+#47
+Inspecting hot method com.google.inject.Initializer.validateOustandingInjections:73...
+Checking for isolation...
+32,20,8,12
+Total 32 (8 unique) events are in hot method
+Total 20 (5 unique) traces are in hot method
+Total 8 (2 unique) isolated traces are in hot method
+Total 12 (3 unique) non-isolated traces that have events in hot method
+Total 12 (3 unique) events are in isolated traces
+Total 32 (8 unique) events are in non-isolated traces (20 / 5 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (4 traces / 1 unique traces) (8 events / 2 unique events)
+	Iterator_HasNext (4 traces / 1 unique traces) (4 events / 1 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (8 traces / 2 unique traces) (24 events / 6 unique events) (16 events / 4 unique events in hot method)
+	Map_CollectionViewAdd (4 traces / 1 unique traces) (8 events / 2 unique events) (4 events / 1 unique events in hot method)
+Classifier (com.google.inject.Initializer.validateOustandingInjections:73): LIB,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_ONE_UNIQUE
+
+#48
+Inspecting hot method com.google.inject.InjectorBuilder.injectDynamically:168...
+Checking for isolation...
+32,12,12,0
+Total 32 (8 unique) events are in hot method
+Total 12 (3 unique) traces are in hot method
+Total 12 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 32 (8 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (4 traces / 1 unique traces) (16 events / 4 unique events)
+	Iterator_RemoveOnce (4 traces / 1 unique traces) (4 events / 1 unique events)
+	Iterator_HasNext (4 traces / 1 unique traces) (12 events / 3 unique events)
+Classifier (com.google.inject.InjectorBuilder.injectDynamically:168): LIB,ISOLATED_ONE_UNIQUE
+
+#49
+Inspecting hot method com.google.inject.internal.cglib.core.ReflectUtils.<clinit>:33...
+Checking for isolation...
+32,2,0,2
+Total 32 (32 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 716 (716 unique) events are in non-isolated traces (32 / 32 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (358 events / 358 unique events) (16 events / 16 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (358 events / 358 unique events) (16 events / 16 unique events in hot method)
+Classifier (com.google.inject.internal.cglib.core.ReflectUtils.<clinit>:33): LIB,NOT_REDUNDANT_TRACES
+
+#50
+Inspecting hot method com.google.inject.spi.Elements$RecordingBinder.install:216...
+Checking for isolation...
+32,1,0,1
+Total 32 (32 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 79 (79 unique) events are in non-isolated traces (32 / 32 unique are in hot method)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (79 events / 79 unique events) (32 events / 32 unique events in hot method)
+Classifier (com.google.inject.spi.Elements$RecordingBinder.install:216): LIB,NOT_REDUNDANT_TRACES
+
+#51
+Inspecting hot method com.google.inject.internal.asm.Label.a:0...
+Checking for isolation...
+31,1,0,1
+Total 31 (31 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 94 (94 unique) events are in non-isolated traces (31 / 31 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (94 events / 94 unique events) (31 events / 31 unique events in hot method)
+Classifier (com.google.inject.internal.asm.Label.a:0): LIB,NOT_REDUNDANT_TRACES
+
+#52
+Inspecting hot method com.google.inject.internal.ImmutableList$RegularImmutableList.<init>:344...
+Checking for isolation...
+29,29,29,0
+Total 29 (1 unique) events are in hot method
+Total 29 (1 unique) traces are in hot method
+Total 29 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 29 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Arrays_SortBeforeBinarySearch (29 traces / 1 unique traces) (29 events / 1 unique events)
+Classifier (com.google.inject.internal.ImmutableList$RegularImmutableList.<init>:344): LIB,ISOLATED_ONE_UNIQUE
+
+#53
+Inspecting hot method com.google.inject.internal.AbstractBindingBuilder.<init>:53...
+Checking for isolation...
+28,4,0,4
+Total 28 (7 unique) events are in hot method
+Total 4 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 4 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 68 (17 unique) events are in non-isolated traces (28 / 7 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (4 traces / 1 unique traces) (68 events / 17 unique events) (28 events / 7 unique events in hot method)
+Classifier (com.google.inject.internal.AbstractBindingBuilder.<init>:53): LIB,NOT_ISOLATED_ONE_UNIQUE
+
+#54
+Inspecting hot method com.google.inject.internal.Iterables$1.apply:97...
+Checking for isolation...
+24,24,0,24
+Total 24 (6 unique) events are in hot method
+Total 24 (6 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 24 (6 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 652 (163 unique) events are in non-isolated traces (24 / 6 unique are in hot method)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (16 traces / 4 unique traces) (400 events / 100 unique events) (16 events / 4 unique events in hot method)
+	Map_UnsafeIterator (8 traces / 2 unique traces) (252 events / 63 unique events) (8 events / 2 unique events in hot method)
+Classifier (com.google.inject.internal.Iterables$1.apply:97): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#55
+Inspecting hot method com.google.inject.MembersInjectorStore.createWithListeners:74...
+Checking for isolation...
+24,2,0,2
+Total 24 (24 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 171 (171 unique) events are in non-isolated traces (24 / 24 unique are in hot method)
+Specs that have non-isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (60 events / 60 unique events) (8 events / 8 unique events in hot method)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (111 events / 111 unique events) (16 events / 16 unique events in hot method)
+Classifier (com.google.inject.MembersInjectorStore.createWithListeners:74): LIB,NOT_REDUNDANT_TRACES
+
+#56
+Inspecting hot method com.google.inject.ProxyFactory.<init>:67...
+Checking for isolation...
+24,2,0,2
+Total 24 (24 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 171 (171 unique) events are in non-isolated traces (24 / 24 unique are in hot method)
+Specs that have non-isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (60 events / 60 unique events) (8 events / 8 unique events in hot method)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (111 events / 111 unique events) (16 events / 16 unique events in hot method)
+Classifier (com.google.inject.ProxyFactory.<init>:67): LIB,NOT_REDUNDANT_TRACES
+
+#57
+Inspecting hot method com.google.inject.Initializer.injectAll:90...
+Checking for isolation...
+24,20,8,12
+Total 24 (6 unique) events are in hot method
+Total 20 (5 unique) traces are in hot method
+Total 8 (2 unique) isolated traces are in hot method
+Total 12 (3 unique) non-isolated traces that have events in hot method
+Total 12 (3 unique) events are in isolated traces
+Total 32 (8 unique) events are in non-isolated traces (12 / 3 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (4 traces / 1 unique traces) (8 events / 2 unique events)
+	Iterator_HasNext (4 traces / 1 unique traces) (4 events / 1 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (8 traces / 2 unique traces) (24 events / 6 unique events) (8 events / 2 unique events in hot method)
+	Map_CollectionViewAdd (4 traces / 1 unique traces) (8 events / 2 unique events) (4 events / 1 unique events in hot method)
+Classifier (com.google.inject.Initializer.injectAll:90): LIB,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_ONE_UNIQUE
+
+#58
+Inspecting hot method com.google.inject.internal.SourceProvider.asStrings:52...
+Checking for isolation...
+24,4,4,0
+Total 24 (6 unique) events are in hot method
+Total 4 (1 unique) traces are in hot method
+Total 4 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 24 (6 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (4 traces / 1 unique traces) (24 events / 6 unique events)
+Classifier (com.google.inject.internal.SourceProvider.asStrings:52): LIB,ISOLATED_ONE_UNIQUE
+
+#59
+Inspecting hot method com.google.inject.InheritingState.getTypeListenerBindings:127...
+Checking for isolation...
+24,12,12,0
+Total 24 (6 unique) events are in hot method
+Total 12 (3 unique) traces are in hot method
+Total 12 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 24 (6 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsynchronizedAddAll (8 traces / 2 unique traces) (16 events / 4 unique events)
+	Collections_SortBeforeBinarySearch (4 traces / 1 unique traces) (8 events / 2 unique events)
+Classifier (com.google.inject.InheritingState.getTypeListenerBindings:127): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE
+
+#60
+Inspecting hot method com.google.inject.spi.InjectionPoint.addInjectorsForMembers:359...
+Checking for isolation...
+20,8,8,0
+Total 20 (5 unique) events are in hot method
+Total 8 (2 unique) traces are in hot method
+Total 8 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 20 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (8 traces / 2 unique traces) (20 events / 5 unique events)
+Classifier (com.google.inject.spi.InjectionPoint.addInjectorsForMembers:359): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#61
+Inspecting hot method com.google.inject.internal.ImmutableSet$Builder.add:588...
+Checking for isolation...
+20,8,8,0
+Total 20 (5 unique) events are in hot method
+Total 8 (2 unique) traces are in hot method
+Total 8 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 20 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (8 traces / 2 unique traces) (20 events / 5 unique events)
+Classifier (com.google.inject.internal.ImmutableSet$Builder.add:588): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#62
+Inspecting hot method com.google.inject.internal.cglib.core.ReflectUtils.addAllMethods:348...
+Checking for isolation...
+18,8,8,0
+Total 18 (5 unique) events are in hot method
+Total 8 (2 unique) traces are in hot method
+Total 8 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 18 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsynchronizedAddAll (6 traces / 1 unique traces) (12 events / 2 unique events)
+	Collections_SortBeforeBinarySearch (2 traces / 1 unique traces) (6 events / 3 unique events)
+Classifier (com.google.inject.internal.cglib.core.ReflectUtils.addAllMethods:348): LIB,ISOLATED_ONE_UNIQUE
+
+#63
+Inspecting hot method com.google.inject.internal.cglib.core.TypeUtils.<clinit>:22...
+Checking for isolation...
+18,2,0,2
+Total 18 (18 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 716 (716 unique) events are in non-isolated traces (18 / 18 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (358 events / 358 unique events) (9 events / 9 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (358 events / 358 unique events) (9 events / 9 unique events in hot method)
+Classifier (com.google.inject.internal.cglib.core.TypeUtils.<clinit>:22): LIB,NOT_REDUNDANT_TRACES
+
+#64
+Inspecting hot method com.google.inject.internal.ImmutableSet$RegularImmutableSet.<init>:431...
+Checking for isolation...
+17,17,17,0
+Total 17 (1 unique) events are in hot method
+Total 17 (1 unique) traces are in hot method
+Total 17 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 17 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Arrays_SortBeforeBinarySearch (17 traces / 1 unique traces) (17 events / 1 unique events)
+Classifier (com.google.inject.internal.ImmutableSet$RegularImmutableSet.<init>:431): LIB,ISOLATED_ONE_UNIQUE
+
+#65
+Inspecting hot method com.google.inject.internal.ImmutableSet$ArrayImmutableSet.<init>:366...
+Checking for isolation...
+17,17,17,0
+Total 17 (1 unique) events are in hot method
+Total 17 (1 unique) traces are in hot method
+Total 17 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 17 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Arrays_SortBeforeBinarySearch (17 traces / 1 unique traces) (17 events / 1 unique events)
+Classifier (com.google.inject.internal.ImmutableSet$ArrayImmutableSet.<init>:366): LIB,ISOLATED_ONE_UNIQUE
+
+#66
+Inspecting hot method com.google.inject.internal.cglib.core.AbstractClassGenerator.create:188...
+Checking for isolation...
+17,3,0,3
+Total 17 (17 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 3 (3 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 795 (795 unique) events are in non-isolated traces (17 / 17 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (358 events / 358 unique events) (7 events / 7 unique events in hot method)
+	Set_ItselfAsElement (1 traces / 1 unique traces) (79 events / 79 unique events) (3 events / 3 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (358 events / 358 unique events) (7 events / 7 unique events in hot method)
+Classifier (com.google.inject.internal.cglib.core.AbstractClassGenerator.create:188): LIB,NOT_REDUNDANT_TRACES
+
+#67
+Inspecting hot method com.google.inject.internal.ProviderMethodsModule.getProviderMethods:76...
+Checking for isolation...
+16,4,4,0
+Total 16 (4 unique) events are in hot method
+Total 4 (1 unique) traces are in hot method
+Total 4 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 16 (4 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (4 traces / 1 unique traces) (16 events / 4 unique events)
+Classifier (com.google.inject.internal.ProviderMethodsModule.getProviderMethods:76): LIB,ISOLATED_ONE_UNIQUE
+
+#68
+Inspecting hot method com.google.inject.InjectorImpl.initializeBinding:372...
+Checking for isolation...
+16,2,0,2
+Total 16 (16 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 716 (716 unique) events are in non-isolated traces (16 / 16 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (358 events / 358 unique events) (8 events / 8 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (358 events / 358 unique events) (8 events / 8 unique events in hot method)
+Classifier (com.google.inject.InjectorImpl.initializeBinding:372): LIB,NOT_REDUNDANT_TRACES
+
+#69
+Inspecting hot method com.google.inject.InjectorImpl.createJustInTimeBindingRecursive:570...
+Checking for isolation...
+16,2,0,2
+Total 16 (16 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 716 (716 unique) events are in non-isolated traces (16 / 16 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (358 events / 358 unique events) (8 events / 8 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (358 events / 358 unique events) (8 events / 8 unique events in hot method)
+Classifier (com.google.inject.InjectorImpl.createJustInTimeBindingRecursive:570): LIB,NOT_REDUNDANT_TRACES
+
+#70
+Inspecting hot method com.google.inject.MembersInjectorImpl.notifyListeners:85...
+Checking for isolation...
+12,2,0,2
+Total 12 (12 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 171 (171 unique) events are in non-isolated traces (12 / 12 unique are in hot method)
+Specs that have non-isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (60 events / 60 unique events) (4 events / 4 unique events in hot method)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (111 events / 111 unique events) (8 events / 8 unique events in hot method)
+Classifier (com.google.inject.MembersInjectorImpl.notifyListeners:85): LIB,NOT_REDUNDANT_TRACES
+
+#71
+Inspecting hot method com.google.inject.InjectionRequestProcessor.validate:67...
+Checking for isolation...
+12,8,8,0
+Total 12 (3 unique) events are in hot method
+Total 8 (2 unique) traces are in hot method
+Total 8 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 12 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (4 traces / 1 unique traces) (4 events / 1 unique events)
+	Collection_UnsafeIterator (4 traces / 1 unique traces) (8 events / 2 unique events)
+Classifier (com.google.inject.InjectionRequestProcessor.validate:67): LIB,ISOLATED_ONE_UNIQUE
+
+#72
+Inspecting hot method com.google.inject.InjectionRequestProcessor.injectMembers:73...
+Checking for isolation...
+12,8,8,0
+Total 12 (3 unique) events are in hot method
+Total 8 (2 unique) traces are in hot method
+Total 8 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 12 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (4 traces / 1 unique traces) (8 events / 2 unique events)
+	Iterator_HasNext (4 traces / 1 unique traces) (4 events / 1 unique events)
+Classifier (com.google.inject.InjectionRequestProcessor.injectMembers:73): LIB,ISOLATED_ONE_UNIQUE
+
+#73
+Inspecting hot method com.google.inject.BindingProcessor.initializeBindings:223...
+Checking for isolation...
+12,8,8,0
+Total 12 (3 unique) events are in hot method
+Total 8 (2 unique) traces are in hot method
+Total 8 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 12 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (4 traces / 1 unique traces) (4 events / 1 unique events)
+	Collection_UnsafeIterator (4 traces / 1 unique traces) (8 events / 2 unique events)
+Classifier (com.google.inject.BindingProcessor.initializeBindings:223): LIB,ISOLATED_ONE_UNIQUE
+
+#74
+Inspecting hot method com.google.inject.internal.ImmutableMap$Builder.put:168...
+Checking for isolation...
+9,1,1,0
+Total 9 (9 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 9 (9 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (9 events / 9 unique events)
+Classifier (com.google.inject.internal.ImmutableMap$Builder.put:168): LIB,NOT_REDUNDANT_TRACES
+
+#75
+Inspecting hot method com.google.inject.internal.Iterables$3.iterator:123...
+Checking for isolation...
+8,8,0,8
+Total 8 (1 unique) events are in hot method
+Total 8 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 8 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 48 (6 unique) events are in non-isolated traces (8 / 1 unique are in hot method)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (8 traces / 1 unique traces) (48 events / 6 unique events) (8 events / 1 unique events in hot method)
+Classifier (com.google.inject.internal.Iterables$3.iterator:123): LIB,NOT_ISOLATED_ONE_UNIQUE
+
+#76
+Inspecting hot method com.google.inject.internal.SourceProvider.get:64...
+Checking for isolation...
+8,8,8,0
+Total 8 (1 unique) events are in hot method
+Total 8 (1 unique) traces are in hot method
+Total 8 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 8 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Throwable_InitCauseOnce (8 traces / 1 unique traces) (8 events / 1 unique events)
+Classifier (com.google.inject.internal.SourceProvider.get:64): LIB,ISOLATED_ONE_UNIQUE
+
+#77
+Inspecting hot method com.google.inject.BindingProcessor$1.visit:131...
+Checking for isolation...
+8,4,4,0
+Total 8 (2 unique) events are in hot method
+Total 4 (1 unique) traces are in hot method
+Total 4 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 8 (2 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (4 traces / 1 unique traces) (8 events / 2 unique events)
+Classifier (com.google.inject.BindingProcessor$1.visit:131): LIB,ISOLATED_ONE_UNIQUE
+
+#78
+Inspecting hot method com.google.inject.InheritingState.putAnnotation:82...
+Checking for isolation...
+8,2,0,2
+Total 8 (8 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 716 (716 unique) events are in non-isolated traces (8 / 8 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (358 events / 358 unique events) (4 events / 4 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (358 events / 358 unique events) (4 events / 4 unique events in hot method)
+Classifier (com.google.inject.InheritingState.putAnnotation:82): LIB,NOT_REDUNDANT_TRACES
+
+#79
+Inspecting hot method com.google.inject.internal.InternalContext.getConstructionContext:35...
+Checking for isolation...
+8,2,0,2
+Total 8 (8 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 716 (716 unique) events are in non-isolated traces (8 / 8 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (358 events / 358 unique events) (4 events / 4 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (358 events / 358 unique events) (4 events / 4 unique events in hot method)
+Classifier (com.google.inject.internal.InternalContext.getConstructionContext:35): LIB,NOT_REDUNDANT_TRACES
+
+#80
+Inspecting hot method com.google.inject.internal.cglib.core.ClassNameReader$1.visit:46...
+Checking for isolation...
+7,3,3,0
+Total 7 (5 unique) events are in hot method
+Total 3 (2 unique) traces are in hot method
+Total 3 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 7 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (3 traces / 2 unique traces) (7 events / 5 unique events)
+Classifier (com.google.inject.internal.cglib.core.ClassNameReader$1.visit:46): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#81
+Inspecting hot method com.google.inject.internal.cglib.core.ClassEmitter.declare_field:179...
+Checking for isolation...
+6,2,0,2
+Total 6 (6 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 716 (716 unique) events are in non-isolated traces (6 / 6 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (358 events / 358 unique events) (3 events / 3 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (358 events / 358 unique events) (3 events / 3 unique events in hot method)
+Classifier (com.google.inject.internal.cglib.core.ClassEmitter.declare_field:179): LIB,NOT_REDUNDANT_TRACES
+
+#82
+Inspecting hot method com.google.inject.internal.cglib.core.EmitUtils.member_helper_type:764...
+Checking for isolation...
+4,4,4,0
+Total 4 (2 unique) events are in hot method
+Total 4 (2 unique) traces are in hot method
+Total 4 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 4 (2 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Map_UnsafeIterator (2 traces / 1 unique traces) (2 events / 1 unique events)
+	Map_CollectionViewAdd (2 traces / 1 unique traces) (2 events / 1 unique events)
+Classifier (com.google.inject.internal.cglib.core.EmitUtils.member_helper_type:764): LIB,ISOLATED_ONE_UNIQUE
+
+#83
+Inspecting hot method com.google.inject.spi.Elements$RecordingBinder.bindScope:182...
+Checking for isolation...
+4,4,0,4
+Total 4 (1 unique) events are in hot method
+Total 4 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 4 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 68 (17 unique) events are in non-isolated traces (4 / 1 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (4 traces / 1 unique traces) (68 events / 17 unique events) (4 events / 1 unique events in hot method)
+Classifier (com.google.inject.spi.Elements$RecordingBinder.bindScope:182): LIB,NOT_ISOLATED_ONE_UNIQUE
+
+#84
+Inspecting hot method com.google.inject.internal.cglib.core.EmitUtils.member_switch_helper:689...
+Checking for isolation...
+4,4,4,0
+Total 4 (2 unique) events are in hot method
+Total 4 (2 unique) traces are in hot method
+Total 4 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 4 (2 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Map_UnsafeIterator (2 traces / 1 unique traces) (2 events / 1 unique events)
+	Map_CollectionViewAdd (2 traces / 1 unique traces) (2 events / 1 unique events)
+Classifier (com.google.inject.internal.cglib.core.EmitUtils.member_switch_helper:689): LIB,ISOLATED_ONE_UNIQUE
+
+#85
+Inspecting hot method com.google.inject.internal.ImmutableCollection.<clinit>:36...
+Checking for isolation...
+3,3,1,2
+Total 3 (3 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 1 (1 unique) events are in isolated traces
+Total 44 (44 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have isolated traces:
+	Arrays_SortBeforeBinarySearch (1 traces / 1 unique traces) (1 events / 1 unique events)
+Specs that have non-isolated traces:
+	Serializable_NoArgConstructor (1 traces / 1 unique traces) (34 events / 34 unique events) (1 events / 1 unique events in hot method)
+	Collection_HashCode (1 traces / 1 unique traces) (10 events / 10 unique events) (1 events / 1 unique events in hot method)
+Classifier (com.google.inject.internal.ImmutableCollection.<clinit>:36): LIB,NOT_REDUNDANT_TRACES
+
+#86
+Inspecting hot method com.google.inject.internal.ImmutableList$EmptyImmutableList.<clinit>:276...
+Checking for isolation...
+3,3,1,2
+Total 3 (3 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 1 (1 unique) events are in isolated traces
+Total 44 (44 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have isolated traces:
+	Arrays_SortBeforeBinarySearch (1 traces / 1 unique traces) (1 events / 1 unique events)
+Specs that have non-isolated traces:
+	Serializable_NoArgConstructor (1 traces / 1 unique traces) (34 events / 34 unique events) (1 events / 1 unique events in hot method)
+	Collection_HashCode (1 traces / 1 unique traces) (10 events / 10 unique events) (1 events / 1 unique events in hot method)
+Classifier (com.google.inject.internal.ImmutableList$EmptyImmutableList.<clinit>:276): LIB,NOT_REDUNDANT_TRACES
+
+#87
+Inspecting hot method com.google.inject.internal.ImmutableSet$EmptyImmutableSet.<clinit>:222...
+Checking for isolation...
+3,3,1,2
+Total 3 (3 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 1 (1 unique) events are in isolated traces
+Total 44 (44 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have isolated traces:
+	Arrays_SortBeforeBinarySearch (1 traces / 1 unique traces) (1 events / 1 unique events)
+Specs that have non-isolated traces:
+	Serializable_NoArgConstructor (1 traces / 1 unique traces) (34 events / 34 unique events) (1 events / 1 unique events in hot method)
+	Collection_HashCode (1 traces / 1 unique traces) (10 events / 10 unique events) (1 events / 1 unique events in hot method)
+Classifier (com.google.inject.internal.ImmutableSet$EmptyImmutableSet.<clinit>:222): LIB,NOT_REDUNDANT_TRACES
+
+#88
+Inspecting hot method com.google.inject.internal.ImmutableCollection$EmptyImmutableCollection.<clinit>:0...
+Checking for isolation...
+2,2,0,2
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 44 (44 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	Serializable_NoArgConstructor (1 traces / 1 unique traces) (34 events / 34 unique events) (1 events / 1 unique events in hot method)
+	Collection_HashCode (1 traces / 1 unique traces) (10 events / 10 unique events) (1 events / 1 unique events in hot method)
+Classifier (com.google.inject.internal.ImmutableCollection$EmptyImmutableCollection.<clinit>:0): LIB,NOT_REDUNDANT_TRACES
+
+#89
+Inspecting hot method com.google.inject.internal.ImmutableList.<clinit>:53...
+Checking for isolation...
+2,2,0,2
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 44 (44 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	Serializable_NoArgConstructor (1 traces / 1 unique traces) (34 events / 34 unique events) (1 events / 1 unique events in hot method)
+	Collection_HashCode (1 traces / 1 unique traces) (10 events / 10 unique events) (1 events / 1 unique events in hot method)
+Classifier (com.google.inject.internal.ImmutableList.<clinit>:53): LIB,NOT_REDUNDANT_TRACES
+
+#90
+Inspecting hot method com.google.inject.internal.ImmutableList$RegularImmutableList.<clinit>:0...
+Checking for isolation...
+2,2,0,2
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 44 (44 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	Serializable_NoArgConstructor (1 traces / 1 unique traces) (34 events / 34 unique events) (1 events / 1 unique events in hot method)
+	Collection_HashCode (1 traces / 1 unique traces) (10 events / 10 unique events) (1 events / 1 unique events in hot method)
+Classifier (com.google.inject.internal.ImmutableList$RegularImmutableList.<clinit>:0): LIB,NOT_REDUNDANT_TRACES
+
+#91
+Inspecting hot method com.google.inject.internal.ImmutableSet.<clinit>:62...
+Checking for isolation...
+2,2,0,2
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 44 (44 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	Serializable_NoArgConstructor (1 traces / 1 unique traces) (34 events / 34 unique events) (1 events / 1 unique events in hot method)
+	Collection_HashCode (1 traces / 1 unique traces) (10 events / 10 unique events) (1 events / 1 unique events in hot method)
+Classifier (com.google.inject.internal.ImmutableSet.<clinit>:62): LIB,NOT_REDUNDANT_TRACES
+
+#92
+Inspecting hot method com.google.inject.internal.ImmutableSet$SingletonImmutableSet.<clinit>:0...
+Checking for isolation...
+2,2,0,2
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 44 (44 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	Serializable_NoArgConstructor (1 traces / 1 unique traces) (34 events / 34 unique events) (1 events / 1 unique events in hot method)
+	Collection_HashCode (1 traces / 1 unique traces) (10 events / 10 unique events) (1 events / 1 unique events in hot method)
+Classifier (com.google.inject.internal.ImmutableSet$SingletonImmutableSet.<clinit>:0): LIB,NOT_REDUNDANT_TRACES
+
+#93
+Inspecting hot method com.google.inject.internal.ImmutableSet$ArrayImmutableSet.<clinit>:0...
+Checking for isolation...
+2,2,0,2
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 44 (44 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	Serializable_NoArgConstructor (1 traces / 1 unique traces) (34 events / 34 unique events) (1 events / 1 unique events in hot method)
+	Collection_HashCode (1 traces / 1 unique traces) (10 events / 10 unique events) (1 events / 1 unique events in hot method)
+Classifier (com.google.inject.internal.ImmutableSet$ArrayImmutableSet.<clinit>:0): LIB,NOT_REDUNDANT_TRACES
+
+#94
+Inspecting hot method com.google.inject.internal.ImmutableSet$RegularImmutableSet.<clinit>:0...
+Checking for isolation...
+2,2,0,2
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 44 (44 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	Serializable_NoArgConstructor (1 traces / 1 unique traces) (34 events / 34 unique events) (1 events / 1 unique events in hot method)
+	Collection_HashCode (1 traces / 1 unique traces) (10 events / 10 unique events) (1 events / 1 unique events in hot method)
+Classifier (com.google.inject.internal.ImmutableSet$RegularImmutableSet.<clinit>:0): LIB,NOT_REDUNDANT_TRACES
+

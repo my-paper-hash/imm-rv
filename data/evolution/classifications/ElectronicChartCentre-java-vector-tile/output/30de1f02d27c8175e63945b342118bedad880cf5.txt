@@ -1,0 +1,2815 @@
+Reading traces...
+Reading specs frequency...
+Reading locations...
+Counting events...
+Total 277197640 events and 8065667 traces
+Inspecting top 20000000 IMM
+Finding hot methods...
+Number of events, method name
+235930042,no.ecc.vectortile.VectorTileEncoder.addFeature:126
+31088238,no.ecc.vectortile.VectorTileDecoder$FeatureIterator.parseFeature:230
+5086110,no.ecc.vectortile.VectorTileDecoder$FeatureIterator.findNext:166
+4000010,no.ecc.vectortile.VectorTileDecoderTest.testBigTile:267
+1065356,no.ecc.vectortile.VectorTileDecoder$FeatureIterator.parseLayer:196
+12343,no.ecc.vectortile.VectorTileDecoder$FeatureIterable.asList:106
+1100,no.ecc.vectortile.VectorTileEncoderPerformanceTest.testManyPoints:21
+967,com.vividsolutions.jts.noding.MCIndexNoder.intersectChains:89
+508,com.vividsolutions.jts.geomgraph.EdgeEndStar.propagateSideLabels:271
+441,com.vividsolutions.jts.geomgraph.NodeMap.values:115
+411,com.vividsolutions.jts.geomgraph.EdgeIntersectionList.iterator:78
+388,com.vividsolutions.jts.geomgraph.EdgeEndStar.computeLabelling:132
+360,com.vividsolutions.jts.operation.overlay.LineBuilder.findCoveredLineEdges:81
+352,no.ecc.vectortile.VectorTileEncoder.encode:238
+334,com.vividsolutions.jts.geomgraph.GeometryGraph.addSelfIntersectionNodes:415
+297,com.vividsolutions.jts.noding.MCIndexNoder.add:113
+285,com.vividsolutions.jts.geomgraph.EdgeIntersectionList.addSplitEdges:117
+282,com.vividsolutions.jts.index.strtree.STRtree.verticalSlices:160
+263,com.vividsolutions.jts.index.strtree.AbstractSTRtree.createParentBoundables:132
+256,com.vividsolutions.jts.geomgraph.DirectedEdgeStar.getResultAreaEdges:174
+252,com.vividsolutions.jts.geomgraph.EdgeEndStar.iterator:111
+242,com.vividsolutions.jts.geomgraph.EdgeEndStar.computeEdgeEndLabels:208
+239,com.vividsolutions.jts.index.strtree.STRtree$STRtreeNode.computeBounds:73
+234,com.vividsolutions.jts.geomgraph.NodeMap.iterator:111
+222,com.vividsolutions.jts.geomgraph.EdgeIntersectionList.add:64
+216,com.vividsolutions.jts.geomgraph.NodeMap.getBoundaryNodes:120
+210,com.vividsolutions.jts.geomgraph.index.SimpleMCSweepLineIntersector.add:95
+210,com.vividsolutions.jts.geomgraph.index.SimpleMCSweepLineIntersector.add:103
+209,com.vividsolutions.jts.geomgraph.DirectedEdgeStar.findCoveredLineEdges:319
+208,com.vividsolutions.jts.operation.relate.EdgeEndBundle.computeLabelSide:176
+196,com.vividsolutions.jts.operation.overlay.OverlayOp.copyPoints:354
+194,com.vividsolutions.jts.geomgraph.DirectedEdgeStar.mergeSymLabels:151
+194,com.vividsolutions.jts.geomgraph.DirectedEdgeStar.computeLabelling:127
+194,com.vividsolutions.jts.geomgraph.DirectedEdgeStar.updateLabelling:163
+189,com.vividsolutions.jts.operation.overlay.PointBuilder.extractNonCoveredResultNodes:85
+189,com.vividsolutions.jts.geomgraph.PlanarGraph.linkResultDirectedEdges:72
+189,com.vividsolutions.jts.operation.overlay.OverlayOp.computeLabelling:370
+189,com.vividsolutions.jts.operation.overlay.OverlayOp.updateNodeLabelling:398
+189,com.vividsolutions.jts.operation.overlay.OverlayOp.labelIncompleteNodes:422
+189,com.vividsolutions.jts.operation.overlay.OverlayOp.mergeSymLabels:386
+177,com.vividsolutions.jts.geomgraph.NodeMap.addNode:74
+175,com.vividsolutions.jts.geomgraph.Node.isIncidentEdgeInResult:77
+174,com.vividsolutions.jts.operation.overlay.PolygonBuilder.buildMaximalEdgeRings:98
+171,com.vividsolutions.jts.operation.overlay.OverlayOp.cancelDuplicateResultEdges:491
+171,com.vividsolutions.jts.operation.overlay.OverlayOp.findResultAreaEdges:468
+171,com.vividsolutions.jts.operation.overlay.LineBuilder.collectLines:103
+157,no.ecc.vectortile.VectorTileEncoder.commands:396
+146,com.vividsolutions.jts.geomgraph.GeometryGraph.computeSplitEdges:189
+144,com.vividsolutions.jts.geomgraph.PlanarGraph.addEdges:127
+140,com.vividsolutions.jts.operation.valid.IsValidOp.checkNoSelfIntersectingRing:409
+140,com.vividsolutions.jts.io.WKTWriter.appendCoordinate:510
+138,com.vividsolutions.jts.geomgraph.EdgeEndStar.insertEdgeEnd:84
+123,com.vividsolutions.jts.index.strtree.AbstractSTRtree.query:290
+112,com.vividsolutions.jts.operation.relate.EdgeEndBundle.computeLabelOn:134
+111,com.vividsolutions.jts.geomgraph.EdgeNodingValidator.toSegmentStrings:65
+96,com.vividsolutions.jts.noding.MCIndexNoder.computeNodes:79
+96,com.vividsolutions.jts.operation.overlay.OverlayOp.insertUniqueEdges:204
+94,com.vividsolutions.jts.operation.relate.RelateNodeGraph.computeIntersectionNodes:105
+94,com.vividsolutions.jts.geom.GeometryFactory.buildGeometry:479
+89,com.vividsolutions.jts.operation.overlay.OverlayOp.replaceCollapsedEdges:332
+89,com.vividsolutions.jts.operation.overlay.OverlayOp.computeLabelsFromDepths:287
+85,com.vividsolutions.jts.operation.valid.ConsistentAreaTester.hasDuplicateRings:147
+85,com.vividsolutions.jts.geomgraph.index.MonotoneChainIndexer.getChainStartIndices:81
+82,no.ecc.vectortile.VectorTileDecoderTest.assertEquals:290
+80,com.vividsolutions.jts.operation.relate.EdgeEndBuilder.computeEdgeEnds:76
+77,com.vividsolutions.jts.geomgraph.index.SimpleMCSweepLineIntersector.add:87
+69,com.vividsolutions.jts.index.chain.MonotoneChainBuilder.getChainStartIndices:87
+63,com.vividsolutions.jts.operation.overlay.OverlayOp.computeGeometry:541
+61,com.vividsolutions.jts.operation.valid.ConnectedInteriorTester.buildEdgeRings:129
+60,com.vividsolutions.jts.geomgraph.EdgeList.add:69
+60,com.vividsolutions.jts.geomgraph.EdgeEndStar.getEdges:115
+56,com.vividsolutions.jts.operation.relate.EdgeEndBundle.computeLabel:93
+56,com.vividsolutions.jts.operation.relate.EdgeEndBundle.iterator:75
+55,com.vividsolutions.jts.geomgraph.EdgeRing.addPoints:210
+54,com.vividsolutions.jts.geomgraph.index.SimpleMCSweepLineIntersector.prepareEvents:120
+51,com.vividsolutions.jts.operation.overlay.LineBuilder.buildLines:168
+51,com.vividsolutions.jts.index.chain.MonotoneChainBuilder.getChains:69
+49,com.vividsolutions.jts.operation.relate.RelateNodeGraph.insertEdgeEnds:143
+49,com.vividsolutions.jts.operation.valid.ConnectedInteriorTester.setInteriorEdgesInResult:114
+48,com.vividsolutions.jts.geomgraph.EdgeEndStar.checkAreaLabelsConsistent:233
+47,com.vividsolutions.jts.operation.valid.IsValidOp.checkNoSelfIntersectingRings:394
+43,com.vividsolutions.jts.index.strtree.AbstractSTRtree.insert:247
+43,com.vividsolutions.jts.index.strtree.AbstractNode.addChildBoundable:141
+39,com.vividsolutions.jts.operation.overlay.PolygonBuilder.buildMinimalEdgeRings:116
+39,com.vividsolutions.jts.operation.overlay.PolygonBuilder.sortShellsAndHoles:192
+38,com.vividsolutions.jts.geomgraph.PlanarGraph.add:107
+37,com.vividsolutions.jts.operation.relate.RelateNodeGraph.copyNodesAndLabels:133
+37,com.vividsolutions.jts.geomgraph.PlanarGraph.linkResultDirectedEdges:148
+37,com.vividsolutions.jts.operation.valid.ConsistentAreaTester.isNodeEdgeAreaLabelsConsistent:120
+36,com.vividsolutions.jts.geomgraph.DirectedEdgeStar.getOutgoingDegree:84
+33,com.vividsolutions.jts.operation.overlay.PolygonBuilder.computePolygons:274
+32,no.ecc.vectortile.VectorTileDecoder$FeatureIterator.<init>:125
+32,no.ecc.vectortile.VectorTileDecoder$FeatureIterable.getLayerNames:114
+28,com.vividsolutions.jts.geomgraph.GeometryGraph.addPolygonRing:241
+27,com.vividsolutions.jts.operation.overlay.OverlayOp.isCovered:528
+27,com.google.protobuf.nano.CodedOutputByteBufferNano.writeRawBytes:749
+26,com.vividsolutions.jts.operation.overlay.PolygonBuilder.placeFreeHoles:218
+26,com.vividsolutions.jts.operation.relate.EdgeEndBuilder.computeEdgeEnds:62
+24,com.vividsolutions.jts.index.strtree.STRtree.createParentBoundablesFromVerticalSlices:143
+24,no.ecc.vectortile.VectorTileEncoder$Layer.key:480
+22,com.vividsolutions.jts.geomgraph.PlanarGraph.insertEdge:103
+22,no.ecc.vectortile.VectorTileEncoder$Layer.value:494
+21,no.ecc.vectortile.VectorTileEncoder.commands:330
+21,com.vividsolutions.jts.geomgraph.EdgeList.addAll:76
+20,no.ecc.vectortile.VectorTileEncoder$Layer.values:503
+20,no.ecc.vectortile.VectorTileEncoder$Layer.keys:489
+20,com.vividsolutions.jts.algorithm.locate.SimplePointInAreaLocator.containsPoint:75
+18,com.vividsolutions.jts.geomgraph.PlanarGraph.findEdgeEnd:174
+17,com.vividsolutions.jts.geomgraph.EdgeIntersectionList.isIntersection:88
+16,com.vividsolutions.jts.index.strtree.STRtree.createParentBoundables:133
+16,com.vividsolutions.jts.geomgraph.GeometryGraph.addLineString:288
+15,com.google.protobuf.nano.CodedInputByteBufferNano.readRawBytes:594
+14,com.vividsolutions.jts.io.WKTWriter.createFormatter:132
+14,com.vividsolutions.jts.geomgraph.EdgeList.iterator:97
+13,com.vividsolutions.jts.algorithm.MCPointInRing.isInside:100
+12,com.vividsolutions.jts.geomgraph.PlanarGraph.getEdgeIterator:90
+12,no.ecc.vectortile.VectorTileEncoderTest.testAttributeTypes:299
+11,com.vividsolutions.jts.geomgraph.EdgeRing.computePoints:133
+10,no.ecc.vectortile.VectorTileDecoderTest.testPoint:70
+10,com.vividsolutions.jts.algorithm.PointLocator.computeLocation:119
+9,com.vividsolutions.jts.index.bintree.NodeBase.add:78
+8,com.vividsolutions.jts.operation.overlay.PolygonBuilder.findEdgeRingContaining:247
+8,no.ecc.vectortile.VectorTileDecoderTest.testLineString:109
+8,com.vividsolutions.jts.operation.relate.EdgeEndBundle.insert:82
+6,no.ecc.vectortile.VectorTileDecoderTest.testMultiPoint:89
+6,com.vividsolutions.jts.index.bintree.NodeBase.addAllItemsFromOverlapping:102
+6,com.vividsolutions.jts.geom.PrecisionModel$Type.<init>:117
+6,no.ecc.vectortile.VectorTileEncoderTest.testNullAttributeValue:276
+5,com.vividsolutions.jts.operation.overlay.LineBuilder.collectLineEdge:122
+4,no.ecc.vectortile.VectorTileEncoderTest.testCommandsFilter:98
+4,no.ecc.vectortile.VectorTileDecoderTest.testPolygonWithHole:189
+4,no.ecc.vectortile.VectorTileDecoderTest.testMultiLineString:134
+4,no.ecc.vectortile.VectorTileDecoderTest.testPolygon:162
+4,no.ecc.vectortile.VectorTileEncoderTest.testEncode:41
+4,no.ecc.vectortile.VectorTileEncoderTest.testCCWPolygon:156
+4,no.ecc.vectortile.VectorTileEncoderTest.testCWPolygon:185
+4,com.vividsolutions.jts.operation.overlay.MaximalEdgeRing.buildMinimalRings:93
+4,no.ecc.vectortile.VectorTileEncoderTest.testFourEqualPoints:241
+4,com.vividsolutions.jts.operation.relate.EdgeEndBuilder.createEdgeEndForNext:150
+4,com.vividsolutions.jts.operation.relate.EdgeEndBuilder.createEdgeEndForPrev:117
+3,no.ecc.vectortile.VectorTileEncoderTest.testCommands:74
+3,no.ecc.vectortile.VectorTileEncoderTest.testToGeomType:63
+2,no.ecc.vectortile.VectorTileDecoderTest.testWithoutScaling:53
+2,com.vividsolutions.jts.operation.overlay.PointBuilder.filterCoveredNodeToPoint:120
+2,no.ecc.vectortile.VectorTileEncoderTest.testMultiPoint:137
+1,no.ecc.vectortile.VectorTileEncoderTest.testExtentWithScale:213
+1,com.vividsolutions.jts.geomgraph.EdgeRing.addHole:92
+1,com.vividsolutions.jts.operation.valid.IndexedNestedRingTester.add:67
+1,no.ecc.vectortile.VectorTileEncoderTest.testPoint:122
+1,no.ecc.vectortile.VectorTileEncoderTest.testExtentWithoutScale:227
+1,com.vividsolutions.jts.geom.GeometryFactory.<clinit>:0
+1,com.vividsolutions.jts.geom.PrecisionModel$Type.<clinit>:115
+1,com.vividsolutions.jts.geom.PrecisionModel.<clinit>:136
+1,com.vividsolutions.jts.geom.impl.CoordinateArraySequenceFactory.<clinit>:47
+1,com.vividsolutions.jts.geom.Coordinate.<clinit>:0
+1,com.vividsolutions.jts.geom.impl.CoordinateArraySequence.<clinit>:0
+1,com.vividsolutions.jts.geom.Geometry.<clinit>:177
+1,com.vividsolutions.jts.geom.LineString.<clinit>:0
+1,com.vividsolutions.jts.geom.LinearRing.<clinit>:0
+1,com.vividsolutions.jts.geom.Polygon.<clinit>:0
+1,com.vividsolutions.jts.geom.Point.<clinit>:0
+1,com.vividsolutions.jts.geom.Envelope.<clinit>:0
+1,com.vividsolutions.jts.index.strtree.AbstractSTRtree.<clinit>:0
+1,com.vividsolutions.jts.index.strtree.STRtree.<clinit>:92
+1,com.vividsolutions.jts.index.strtree.ItemBoundable.<clinit>:0
+1,com.vividsolutions.jts.geom.LineSegment.<clinit>:0
+1,com.vividsolutions.jts.index.strtree.AbstractNode.<clinit>:0
+1,com.vividsolutions.jts.index.strtree.STRtree$STRtreeNode.<clinit>:0
+1,com.vividsolutions.jts.math.DD.<clinit>:107
+1,com.vividsolutions.jts.geom.GeometryCollection.<clinit>:0
+1,com.vividsolutions.jts.geom.MultiPoint.<clinit>:0
+1,com.vividsolutions.jts.geom.MultiLineString.<clinit>:0
+^^^ Last method that contains more than one event ^^^
+Starting com.vividsolutions.jts.operation.overlay.PointBuilder.extractNonCoveredResultNodes:85
+Finish com.vividsolutions.jts.operation.overlay.PointBuilder.extractNonCoveredResultNodes:85
+Starting com.vividsolutions.jts.geomgraph.PlanarGraph.linkResultDirectedEdges:72
+Finish com.vividsolutions.jts.geomgraph.PlanarGraph.linkResultDirectedEdges:72
+Starting com.vividsolutions.jts.operation.valid.ConsistentAreaTester.isNodeEdgeAreaLabelsConsistent:120
+Finish com.vividsolutions.jts.operation.valid.ConsistentAreaTester.isNodeEdgeAreaLabelsConsistent:120
+Starting com.vividsolutions.jts.geomgraph.DirectedEdgeStar.getOutgoingDegree:84
+Finish com.vividsolutions.jts.geomgraph.DirectedEdgeStar.getOutgoingDegree:84
+Starting no.ecc.vectortile.VectorTileEncoder$Layer.values:503
+Finish no.ecc.vectortile.VectorTileEncoder$Layer.values:503
+Starting no.ecc.vectortile.VectorTileEncoder$Layer.keys:489
+Finish no.ecc.vectortile.VectorTileEncoder$Layer.keys:489
+Starting com.vividsolutions.jts.index.bintree.NodeBase.add:78
+Finish com.vividsolutions.jts.index.bintree.NodeBase.add:78
+Starting com.vividsolutions.jts.operation.overlay.PolygonBuilder.findEdgeRingContaining:247
+Finish com.vividsolutions.jts.operation.overlay.PolygonBuilder.findEdgeRingContaining:247
+Starting com.vividsolutions.jts.operation.relate.EdgeEndBuilder.createEdgeEndForNext:150
+Finish com.vividsolutions.jts.operation.relate.EdgeEndBuilder.createEdgeEndForNext:150
+Starting com.vividsolutions.jts.operation.relate.EdgeEndBuilder.createEdgeEndForPrev:117
+Finish com.vividsolutions.jts.operation.relate.EdgeEndBuilder.createEdgeEndForPrev:117
+Starting no.ecc.vectortile.VectorTileEncoder.commands:396
+Finish no.ecc.vectortile.VectorTileEncoder.commands:396
+Starting com.vividsolutions.jts.geomgraph.GeometryGraph.computeSplitEdges:189
+Finish com.vividsolutions.jts.geomgraph.GeometryGraph.computeSplitEdges:189
+Starting no.ecc.vectortile.VectorTileDecoderTest.testPolygonWithHole:189
+Finish no.ecc.vectortile.VectorTileDecoderTest.testPolygonWithHole:189
+Starting no.ecc.vectortile.VectorTileDecoderTest.testMultiLineString:134
+Finish no.ecc.vectortile.VectorTileDecoderTest.testMultiLineString:134
+Starting com.vividsolutions.jts.geomgraph.EdgeNodingValidator.toSegmentStrings:65
+Finish com.vividsolutions.jts.geomgraph.EdgeNodingValidator.toSegmentStrings:65
+Starting com.vividsolutions.jts.noding.MCIndexNoder.computeNodes:79
+Finish com.vividsolutions.jts.noding.MCIndexNoder.computeNodes:79
+Starting no.ecc.vectortile.VectorTileEncoderTest.testCommands:74
+Finish no.ecc.vectortile.VectorTileEncoderTest.testCommands:74
+Starting no.ecc.vectortile.VectorTileEncoderTest.testToGeomType:63
+Finish no.ecc.vectortile.VectorTileEncoderTest.testToGeomType:63
+Starting com.vividsolutions.jts.geomgraph.DirectedEdgeStar.computeLabelling:127
+Finish com.vividsolutions.jts.geomgraph.DirectedEdgeStar.computeLabelling:127
+Starting com.vividsolutions.jts.geomgraph.DirectedEdgeStar.updateLabelling:163
+Finish com.vividsolutions.jts.geomgraph.DirectedEdgeStar.updateLabelling:163
+Starting com.vividsolutions.jts.operation.overlay.PolygonBuilder.sortShellsAndHoles:192
+Finish com.vividsolutions.jts.operation.overlay.PolygonBuilder.sortShellsAndHoles:192
+Starting com.vividsolutions.jts.geomgraph.PlanarGraph.add:107
+Finish com.vividsolutions.jts.geomgraph.PlanarGraph.add:107
+Starting com.vividsolutions.jts.io.WKTWriter.createFormatter:132
+Finish com.vividsolutions.jts.io.WKTWriter.createFormatter:132
+Starting com.vividsolutions.jts.geomgraph.EdgeList.iterator:97
+Finish com.vividsolutions.jts.geomgraph.EdgeList.iterator:97
+Starting no.ecc.vectortile.VectorTileEncoderTest.testCCWPolygon:156
+Finish no.ecc.vectortile.VectorTileEncoderTest.testCCWPolygon:156
+Starting no.ecc.vectortile.VectorTileEncoderTest.testCWPolygon:185
+Finish no.ecc.vectortile.VectorTileEncoderTest.testCWPolygon:185
+Starting com.vividsolutions.jts.index.strtree.AbstractSTRtree.createParentBoundables:132
+Finish com.vividsolutions.jts.index.strtree.AbstractSTRtree.createParentBoundables:132
+Starting com.vividsolutions.jts.geomgraph.DirectedEdgeStar.getResultAreaEdges:174
+Finish com.vividsolutions.jts.geomgraph.DirectedEdgeStar.getResultAreaEdges:174
+Starting com.vividsolutions.jts.operation.relate.EdgeEndBundle.iterator:75
+Finish com.vividsolutions.jts.operation.relate.EdgeEndBundle.iterator:75
+Starting com.vividsolutions.jts.geomgraph.EdgeRing.addPoints:210
+Finish com.vividsolutions.jts.geomgraph.EdgeRing.addPoints:210
+Starting com.vividsolutions.jts.geomgraph.EdgeIntersectionList.isIntersection:88
+Finish com.vividsolutions.jts.geomgraph.EdgeIntersectionList.isIntersection:88
+Starting com.vividsolutions.jts.index.strtree.STRtree.createParentBoundables:133
+Finish com.vividsolutions.jts.index.strtree.STRtree.createParentBoundables:133
+Starting com.vividsolutions.jts.operation.overlay.MaximalEdgeRing.buildMinimalRings:93
+Finish com.vividsolutions.jts.operation.overlay.MaximalEdgeRing.buildMinimalRings:93
+Starting no.ecc.vectortile.VectorTileEncoderTest.testFourEqualPoints:241
+Finish no.ecc.vectortile.VectorTileEncoderTest.testFourEqualPoints:241
+Starting com.vividsolutions.jts.geomgraph.DirectedEdgeStar.findCoveredLineEdges:319
+Finish com.vividsolutions.jts.geomgraph.DirectedEdgeStar.findCoveredLineEdges:319
+Starting com.vividsolutions.jts.operation.relate.EdgeEndBundle.computeLabelSide:176
+Finish com.vividsolutions.jts.operation.relate.EdgeEndBundle.computeLabelSide:176
+Starting com.vividsolutions.jts.index.chain.MonotoneChainBuilder.getChains:69
+Finish com.vividsolutions.jts.index.chain.MonotoneChainBuilder.getChains:69
+Starting com.vividsolutions.jts.operation.relate.RelateNodeGraph.insertEdgeEnds:143
+Finish com.vividsolutions.jts.operation.relate.RelateNodeGraph.insertEdgeEnds:143
+Starting com.vividsolutions.jts.operation.overlay.PolygonBuilder.computePolygons:274
+Finish com.vividsolutions.jts.operation.overlay.PolygonBuilder.computePolygons:274
+Starting no.ecc.vectortile.VectorTileDecoder$FeatureIterator.<init>:125
+Finish no.ecc.vectortile.VectorTileDecoder$FeatureIterator.<init>:125
+Starting no.ecc.vectortile.VectorTileDecoderTest.testPolygon:162
+Finish no.ecc.vectortile.VectorTileDecoderTest.testPolygon:162
+Starting no.ecc.vectortile.VectorTileEncoderTest.testEncode:41
+Finish no.ecc.vectortile.VectorTileEncoderTest.testEncode:41
+Starting no.ecc.vectortile.VectorTileEncoderTest.testMultiPoint:137
+Finish no.ecc.vectortile.VectorTileEncoderTest.testMultiPoint:137
+Starting com.vividsolutions.jts.geomgraph.index.SimpleMCSweepLineIntersector.add:95
+Finish com.vividsolutions.jts.geomgraph.index.SimpleMCSweepLineIntersector.add:95
+Starting com.vividsolutions.jts.geomgraph.index.SimpleMCSweepLineIntersector.add:103
+Finish com.vividsolutions.jts.geomgraph.index.SimpleMCSweepLineIntersector.add:103
+Starting com.vividsolutions.jts.geomgraph.index.SimpleMCSweepLineIntersector.prepareEvents:120
+Finish com.vividsolutions.jts.geomgraph.index.SimpleMCSweepLineIntersector.prepareEvents:120
+Starting com.vividsolutions.jts.operation.overlay.LineBuilder.buildLines:168
+Finish com.vividsolutions.jts.operation.overlay.LineBuilder.buildLines:168
+Starting com.vividsolutions.jts.operation.overlay.PolygonBuilder.placeFreeHoles:218
+Finish com.vividsolutions.jts.operation.overlay.PolygonBuilder.placeFreeHoles:218
+Starting com.vividsolutions.jts.operation.relate.EdgeEndBuilder.computeEdgeEnds:62
+Finish com.vividsolutions.jts.operation.relate.EdgeEndBuilder.computeEdgeEnds:62
+Starting com.vividsolutions.jts.algorithm.MCPointInRing.isInside:100
+Finish com.vividsolutions.jts.algorithm.MCPointInRing.isInside:100
+Starting com.vividsolutions.jts.geomgraph.PlanarGraph.getEdgeIterator:90
+Finish com.vividsolutions.jts.geomgraph.PlanarGraph.getEdgeIterator:90
+Starting com.vividsolutions.jts.operation.overlay.LineBuilder.collectLineEdge:122
+Finish com.vividsolutions.jts.operation.overlay.LineBuilder.collectLineEdge:122
+Starting no.ecc.vectortile.VectorTileEncoderTest.testCommandsFilter:98
+Finish no.ecc.vectortile.VectorTileEncoderTest.testCommandsFilter:98
+Starting no.ecc.vectortile.VectorTileDecoderTest.testWithoutScaling:53
+Finish no.ecc.vectortile.VectorTileDecoderTest.testWithoutScaling:53
+Starting com.vividsolutions.jts.operation.overlay.PointBuilder.filterCoveredNodeToPoint:120
+Finish com.vividsolutions.jts.operation.overlay.PointBuilder.filterCoveredNodeToPoint:120
+Starting com.vividsolutions.jts.operation.overlay.OverlayOp.insertUniqueEdges:204
+Finish com.vividsolutions.jts.operation.overlay.OverlayOp.insertUniqueEdges:204
+Starting com.vividsolutions.jts.operation.relate.RelateNodeGraph.computeIntersectionNodes:105
+Finish com.vividsolutions.jts.operation.relate.RelateNodeGraph.computeIntersectionNodes:105
+Starting com.vividsolutions.jts.operation.overlay.OverlayOp.computeLabelsFromDepths:287
+Finish com.vividsolutions.jts.operation.overlay.OverlayOp.computeLabelsFromDepths:287
+Starting com.vividsolutions.jts.operation.valid.ConsistentAreaTester.hasDuplicateRings:147
+Finish com.vividsolutions.jts.operation.valid.ConsistentAreaTester.hasDuplicateRings:147
+Starting no.ecc.vectortile.VectorTileDecoder$FeatureIterator.parseLayer:196
+Finish no.ecc.vectortile.VectorTileDecoder$FeatureIterator.parseLayer:196
+Starting no.ecc.vectortile.VectorTileDecoder$FeatureIterable.asList:106
+Finish no.ecc.vectortile.VectorTileDecoder$FeatureIterable.asList:106
+Starting no.ecc.vectortile.VectorTileDecoder$FeatureIterator.findNext:166
+Finish no.ecc.vectortile.VectorTileDecoder$FeatureIterator.findNext:166
+Starting no.ecc.vectortile.VectorTileDecoderTest.testBigTile:267
+Finish no.ecc.vectortile.VectorTileDecoderTest.testBigTile:267
+Starting com.vividsolutions.jts.operation.overlay.LineBuilder.findCoveredLineEdges:81
+Finish com.vividsolutions.jts.operation.overlay.LineBuilder.findCoveredLineEdges:81
+Starting no.ecc.vectortile.VectorTileEncoder.encode:238
+Finish no.ecc.vectortile.VectorTileEncoder.encode:238
+Starting com.vividsolutions.jts.io.WKTWriter.appendCoordinate:510
+Finish com.vividsolutions.jts.io.WKTWriter.appendCoordinate:510
+Starting com.vividsolutions.jts.geomgraph.EdgeEndStar.insertEdgeEnd:84
+Finish com.vividsolutions.jts.geomgraph.EdgeEndStar.insertEdgeEnd:84
+Starting com.vividsolutions.jts.geomgraph.EdgeIntersectionList.add:64
+Finish com.vividsolutions.jts.geomgraph.EdgeIntersectionList.add:64
+Starting com.vividsolutions.jts.geomgraph.NodeMap.getBoundaryNodes:120
+Finish com.vividsolutions.jts.geomgraph.NodeMap.getBoundaryNodes:120
+Starting com.vividsolutions.jts.geomgraph.EdgeIntersectionList.addSplitEdges:117
+Finish com.vividsolutions.jts.geomgraph.EdgeIntersectionList.addSplitEdges:117
+Starting com.vividsolutions.jts.index.strtree.STRtree.verticalSlices:160
+Finish com.vividsolutions.jts.index.strtree.STRtree.verticalSlices:160
+Starting com.vividsolutions.jts.operation.overlay.PolygonBuilder.buildMaximalEdgeRings:98
+Finish com.vividsolutions.jts.operation.overlay.PolygonBuilder.buildMaximalEdgeRings:98
+Starting com.vividsolutions.jts.operation.overlay.OverlayOp.cancelDuplicateResultEdges:491
+Finish com.vividsolutions.jts.operation.overlay.OverlayOp.cancelDuplicateResultEdges:491
+Starting com.vividsolutions.jts.index.chain.MonotoneChainBuilder.getChainStartIndices:87
+Finish com.vividsolutions.jts.index.chain.MonotoneChainBuilder.getChainStartIndices:87
+Starting com.vividsolutions.jts.operation.overlay.OverlayOp.computeGeometry:541
+Finish com.vividsolutions.jts.operation.overlay.OverlayOp.computeGeometry:541
+Starting com.vividsolutions.jts.geomgraph.PlanarGraph.insertEdge:103
+Finish com.vividsolutions.jts.geomgraph.PlanarGraph.insertEdge:103
+Starting no.ecc.vectortile.VectorTileEncoder$Layer.value:494
+Finish no.ecc.vectortile.VectorTileEncoder$Layer.value:494
+Starting com.vividsolutions.jts.geomgraph.GeometryGraph.addSelfIntersectionNodes:415
+Finish com.vividsolutions.jts.geomgraph.GeometryGraph.addSelfIntersectionNodes:415
+Starting com.vividsolutions.jts.noding.MCIndexNoder.add:113
+Finish com.vividsolutions.jts.noding.MCIndexNoder.add:113
+Starting com.vividsolutions.jts.operation.relate.EdgeEndBuilder.computeEdgeEnds:76
+Finish com.vividsolutions.jts.operation.relate.EdgeEndBuilder.computeEdgeEnds:76
+Starting com.vividsolutions.jts.geomgraph.index.SimpleMCSweepLineIntersector.add:87
+Finish com.vividsolutions.jts.geomgraph.index.SimpleMCSweepLineIntersector.add:87
+Starting com.vividsolutions.jts.operation.relate.RelateNodeGraph.copyNodesAndLabels:133
+Finish com.vividsolutions.jts.operation.relate.RelateNodeGraph.copyNodesAndLabels:133
+Starting com.vividsolutions.jts.geomgraph.PlanarGraph.linkResultDirectedEdges:148
+Finish com.vividsolutions.jts.geomgraph.PlanarGraph.linkResultDirectedEdges:148
+Starting com.vividsolutions.jts.geomgraph.GeometryGraph.addLineString:288
+Finish com.vividsolutions.jts.geomgraph.GeometryGraph.addLineString:288
+Starting com.google.protobuf.nano.CodedInputByteBufferNano.readRawBytes:594
+Finish com.google.protobuf.nano.CodedInputByteBufferNano.readRawBytes:594
+Starting com.vividsolutions.jts.index.strtree.STRtree$STRtreeNode.computeBounds:73
+Finish com.vividsolutions.jts.index.strtree.STRtree$STRtreeNode.computeBounds:73
+Starting com.vividsolutions.jts.geomgraph.NodeMap.iterator:111
+Finish com.vividsolutions.jts.geomgraph.NodeMap.iterator:111
+Starting com.vividsolutions.jts.operation.valid.IsValidOp.checkNoSelfIntersectingRings:394
+Finish com.vividsolutions.jts.operation.valid.IsValidOp.checkNoSelfIntersectingRings:394
+Starting com.vividsolutions.jts.index.strtree.AbstractSTRtree.insert:247
+Finish com.vividsolutions.jts.index.strtree.AbstractSTRtree.insert:247
+Starting no.ecc.vectortile.VectorTileDecoder$FeatureIterable.getLayerNames:114
+Finish no.ecc.vectortile.VectorTileDecoder$FeatureIterable.getLayerNames:114
+Starting com.vividsolutions.jts.geomgraph.GeometryGraph.addPolygonRing:241
+Finish com.vividsolutions.jts.geomgraph.GeometryGraph.addPolygonRing:241
+Starting no.ecc.vectortile.VectorTileEncoderPerformanceTest.testManyPoints:21
+Finish no.ecc.vectortile.VectorTileEncoderPerformanceTest.testManyPoints:21
+Starting com.vividsolutions.jts.noding.MCIndexNoder.intersectChains:89
+Finish com.vividsolutions.jts.noding.MCIndexNoder.intersectChains:89
+Starting com.vividsolutions.jts.operation.overlay.OverlayOp.computeLabelling:370
+Finish com.vividsolutions.jts.operation.overlay.OverlayOp.computeLabelling:370
+Starting com.vividsolutions.jts.operation.overlay.OverlayOp.updateNodeLabelling:398
+Finish com.vividsolutions.jts.operation.overlay.OverlayOp.updateNodeLabelling:398
+Starting com.vividsolutions.jts.geomgraph.index.MonotoneChainIndexer.getChainStartIndices:81
+Finish com.vividsolutions.jts.geomgraph.index.MonotoneChainIndexer.getChainStartIndices:81
+Starting no.ecc.vectortile.VectorTileDecoderTest.assertEquals:290
+Finish no.ecc.vectortile.VectorTileDecoderTest.assertEquals:290
+Starting no.ecc.vectortile.VectorTileEncoder.commands:330
+Finish no.ecc.vectortile.VectorTileEncoder.commands:330
+Starting com.vividsolutions.jts.geomgraph.EdgeList.addAll:76
+Finish com.vividsolutions.jts.geomgraph.EdgeList.addAll:76
+Starting no.ecc.vectortile.VectorTileDecoderTest.testMultiPoint:89
+Finish no.ecc.vectortile.VectorTileDecoderTest.testMultiPoint:89
+Starting com.vividsolutions.jts.index.bintree.NodeBase.addAllItemsFromOverlapping:102
+Finish com.vividsolutions.jts.index.bintree.NodeBase.addAllItemsFromOverlapping:102
+Starting com.vividsolutions.jts.geomgraph.PlanarGraph.addEdges:127
+Finish com.vividsolutions.jts.geomgraph.PlanarGraph.addEdges:127
+Starting com.vividsolutions.jts.operation.valid.IsValidOp.checkNoSelfIntersectingRing:409
+Finish com.vividsolutions.jts.operation.valid.IsValidOp.checkNoSelfIntersectingRing:409
+Starting no.ecc.vectortile.VectorTileEncoderTest.testAttributeTypes:299
+Finish no.ecc.vectortile.VectorTileEncoderTest.testAttributeTypes:299
+Starting com.vividsolutions.jts.geomgraph.EdgeRing.computePoints:133
+Finish com.vividsolutions.jts.geomgraph.EdgeRing.computePoints:133
+Starting com.vividsolutions.jts.geomgraph.EdgeEndStar.iterator:111
+Finish com.vividsolutions.jts.geomgraph.EdgeEndStar.iterator:111
+Starting com.vividsolutions.jts.geomgraph.EdgeEndStar.computeEdgeEndLabels:208
+Finish com.vividsolutions.jts.geomgraph.EdgeEndStar.computeEdgeEndLabels:208
+Starting com.vividsolutions.jts.operation.valid.ConnectedInteriorTester.buildEdgeRings:129
+Finish com.vividsolutions.jts.operation.valid.ConnectedInteriorTester.buildEdgeRings:129
+Starting com.vividsolutions.jts.geomgraph.EdgeList.add:69
+Finish com.vividsolutions.jts.geomgraph.EdgeList.add:69
+Starting com.vividsolutions.jts.geomgraph.EdgeIntersectionList.iterator:78
+Finish com.vividsolutions.jts.geomgraph.EdgeIntersectionList.iterator:78
+Starting com.vividsolutions.jts.geomgraph.EdgeEndStar.computeLabelling:132
+Finish com.vividsolutions.jts.geomgraph.EdgeEndStar.computeLabelling:132
+Starting com.vividsolutions.jts.index.strtree.AbstractSTRtree.query:290
+Finish com.vividsolutions.jts.index.strtree.AbstractSTRtree.query:290
+Starting com.vividsolutions.jts.operation.relate.EdgeEndBundle.computeLabelOn:134
+Finish com.vividsolutions.jts.operation.relate.EdgeEndBundle.computeLabelOn:134
+Starting com.vividsolutions.jts.geom.GeometryFactory.buildGeometry:479
+Finish com.vividsolutions.jts.geom.GeometryFactory.buildGeometry:479
+Starting com.vividsolutions.jts.operation.overlay.OverlayOp.replaceCollapsedEdges:332
+Finish com.vividsolutions.jts.operation.overlay.OverlayOp.replaceCollapsedEdges:332
+Starting com.vividsolutions.jts.geomgraph.EdgeEndStar.getEdges:115
+Finish com.vividsolutions.jts.geomgraph.EdgeEndStar.getEdges:115
+Starting com.vividsolutions.jts.operation.relate.EdgeEndBundle.computeLabel:93
+Finish com.vividsolutions.jts.operation.relate.EdgeEndBundle.computeLabel:93
+Starting com.vividsolutions.jts.index.strtree.AbstractNode.addChildBoundable:141
+Finish com.vividsolutions.jts.index.strtree.AbstractNode.addChildBoundable:141
+Starting com.vividsolutions.jts.operation.overlay.PolygonBuilder.buildMinimalEdgeRings:116
+Finish com.vividsolutions.jts.operation.overlay.PolygonBuilder.buildMinimalEdgeRings:116
+Starting com.vividsolutions.jts.index.strtree.STRtree.createParentBoundablesFromVerticalSlices:143
+Finish com.vividsolutions.jts.index.strtree.STRtree.createParentBoundablesFromVerticalSlices:143
+Starting no.ecc.vectortile.VectorTileEncoder$Layer.key:480
+Finish no.ecc.vectortile.VectorTileEncoder$Layer.key:480
+Starting com.vividsolutions.jts.operation.overlay.OverlayOp.copyPoints:354
+Finish com.vividsolutions.jts.operation.overlay.OverlayOp.copyPoints:354
+Starting com.vividsolutions.jts.geomgraph.DirectedEdgeStar.mergeSymLabels:151
+Finish com.vividsolutions.jts.geomgraph.DirectedEdgeStar.mergeSymLabels:151
+Starting com.vividsolutions.jts.operation.valid.ConnectedInteriorTester.setInteriorEdgesInResult:114
+Finish com.vividsolutions.jts.operation.valid.ConnectedInteriorTester.setInteriorEdgesInResult:114
+Starting com.vividsolutions.jts.geomgraph.EdgeEndStar.checkAreaLabelsConsistent:233
+Finish com.vividsolutions.jts.geomgraph.EdgeEndStar.checkAreaLabelsConsistent:233
+Starting com.vividsolutions.jts.operation.overlay.OverlayOp.isCovered:528
+Finish com.vividsolutions.jts.operation.overlay.OverlayOp.isCovered:528
+Starting com.google.protobuf.nano.CodedOutputByteBufferNano.writeRawBytes:749
+Finish com.google.protobuf.nano.CodedOutputByteBufferNano.writeRawBytes:749
+Starting com.vividsolutions.jts.algorithm.locate.SimplePointInAreaLocator.containsPoint:75
+Finish com.vividsolutions.jts.algorithm.locate.SimplePointInAreaLocator.containsPoint:75
+Starting com.vividsolutions.jts.geomgraph.PlanarGraph.findEdgeEnd:174
+Finish com.vividsolutions.jts.geomgraph.PlanarGraph.findEdgeEnd:174
+Starting no.ecc.vectortile.VectorTileDecoderTest.testLineString:109
+Finish no.ecc.vectortile.VectorTileDecoderTest.testLineString:109
+Starting com.vividsolutions.jts.operation.relate.EdgeEndBundle.insert:82
+Finish com.vividsolutions.jts.operation.relate.EdgeEndBundle.insert:82
+Starting com.vividsolutions.jts.operation.overlay.OverlayOp.findResultAreaEdges:468
+Finish com.vividsolutions.jts.operation.overlay.OverlayOp.findResultAreaEdges:468
+Starting com.vividsolutions.jts.operation.overlay.LineBuilder.collectLines:103
+Finish com.vividsolutions.jts.operation.overlay.LineBuilder.collectLines:103
+Starting no.ecc.vectortile.VectorTileDecoderTest.testPoint:70
+Finish no.ecc.vectortile.VectorTileDecoderTest.testPoint:70
+Starting com.vividsolutions.jts.algorithm.PointLocator.computeLocation:119
+Finish com.vividsolutions.jts.algorithm.PointLocator.computeLocation:119
+Starting com.vividsolutions.jts.geomgraph.EdgeEndStar.propagateSideLabels:271
+Finish com.vividsolutions.jts.geomgraph.EdgeEndStar.propagateSideLabels:271
+Starting com.vividsolutions.jts.geomgraph.NodeMap.values:115
+Finish com.vividsolutions.jts.geomgraph.NodeMap.values:115
+Starting com.vividsolutions.jts.geomgraph.NodeMap.addNode:74
+Finish com.vividsolutions.jts.geomgraph.NodeMap.addNode:74
+Starting com.vividsolutions.jts.geomgraph.Node.isIncidentEdgeInResult:77
+Finish com.vividsolutions.jts.geomgraph.Node.isIncidentEdgeInResult:77
+Starting no.ecc.vectortile.VectorTileEncoder.addFeature:126
+Finish no.ecc.vectortile.VectorTileEncoder.addFeature:126
+Starting no.ecc.vectortile.VectorTileDecoder$FeatureIterator.parseFeature:230
+Finish no.ecc.vectortile.VectorTileDecoder$FeatureIterator.parseFeature:230
+Starting com.vividsolutions.jts.operation.overlay.OverlayOp.labelIncompleteNodes:422
+Finish com.vividsolutions.jts.operation.overlay.OverlayOp.labelIncompleteNodes:422
+Starting com.vividsolutions.jts.operation.overlay.OverlayOp.mergeSymLabels:386
+Finish com.vividsolutions.jts.operation.overlay.OverlayOp.mergeSymLabels:386
+Starting com.vividsolutions.jts.geom.PrecisionModel$Type.<init>:117
+Finish com.vividsolutions.jts.geom.PrecisionModel$Type.<init>:117
+Starting no.ecc.vectortile.VectorTileEncoderTest.testNullAttributeValue:276
+Finish no.ecc.vectortile.VectorTileEncoderTest.testNullAttributeValue:276
+
+#1
+Inspecting hot method no.ecc.vectortile.VectorTileEncoder.addFeature:126...
+Checking for isolation...
+235930042,181,155,26
+Total 235930042 (209977726 unique) events are in hot method
+Total 181 (43 unique) traces are in hot method
+Total 155 (33 unique) isolated traces are in hot method
+Total 26 (10 unique) non-isolated traces that have events in hot method
+Total 235929778 (209977486 unique) events are in isolated traces
+Total 2030374 (2030326 unique) events are in non-isolated traces (264 / 240 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (115 traces / 6 unique traces) (26214435 events / 262165 unique events)
+	Iterator_HasNext (11 traces / 6 unique traces) (26214437 events / 26214430 unique events)
+	Collection_UnsafeIterator (11 traces / 6 unique traces) (52428848 events / 52428836 unique events)
+	Map_UnsafeIterator (9 traces / 8 unique traces) (104857640 events / 104857639 unique events)
+	Iterator_RemoveOnce (5 traces / 4 unique traces) (13 events / 12 unique events)
+	Map_CollectionViewAdd (4 traces / 3 unique traces) (26214405 events / 26214404 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (18 traces / 7 unique traces) (76 events / 38 unique events) (38 events / 19 unique events in hot method)
+	Map_CollectionViewAdd (6 traces / 1 unique traces) (12 events / 2 unique events) (6 events / 1 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (110 events / 110 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (110 events / 110 unique events in hot method)
+Classifier (no.ecc.vectortile.VectorTileEncoder.addFeature:126): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_ONE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#2
+Inspecting hot method no.ecc.vectortile.VectorTileDecoder$FeatureIterator.parseFeature:230...
+Checking for isolation...
+31088238,8021611,8021609,2
+Total 31088238 (2030546 unique) events are in hot method
+Total 8021611 (69 unique) traces are in hot method
+Total 8021609 (67 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 29058622 (930 unique) events are in isolated traces
+Total 2030286 (2030286 unique) events are in non-isolated traces (2029616 / 2029616 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (4009275 traces / 47 unique traces) (14027671 events / 863 unique events)
+	Iterator_RemoveOnce (1003084 traces / 6 unique traces) (2003107 events / 9 unique events)
+	Iterator_HasNext (1003084 traces / 6 unique traces) (5009298 events / 24 unique events)
+	Collection_UnsafeIterator (1003084 traces / 6 unique traces) (6012382 events / 30 unique events)
+	List_UnsynchronizedSubList (1001955 traces / 1 unique traces) (2003910 events / 2 unique events)
+	Collection_UnsynchronizedAddAll (1127 traces / 1 unique traces) (2254 events / 2 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (1014808 events / 1014808 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (1014808 events / 1014808 unique events in hot method)
+Classifier (no.ecc.vectortile.VectorTileDecoder$FeatureIterator.parseFeature:230): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#3
+Inspecting hot method no.ecc.vectortile.VectorTileDecoder$FeatureIterator.findNext:166...
+Checking for isolation...
+5086110,30162,20108,10054
+Total 5086110 (13735 unique) events are in hot method
+Total 30162 (27 unique) traces are in hot method
+Total 20108 (17 unique) isolated traces are in hot method
+Total 10054 (10 unique) non-isolated traces that have events in hot method
+Total 3049646 (8195 unique) events are in isolated traces
+Total 2046518 (5550 unique) events are in non-isolated traces (2036464 / 5540 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (10054 traces / 10 unique traces) (2036464 events / 5540 unique events)
+	Iterator_RemoveOnce (10054 traces / 7 unique traces) (1013182 events / 2655 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (10054 traces / 10 unique traces) (2046518 events / 5550 unique events) (2036464 events / 5540 unique events in hot method)
+Classifier (no.ecc.vectortile.VectorTileDecoder$FeatureIterator.findNext:166): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#4
+Inspecting hot method no.ecc.vectortile.VectorTileDecoderTest.testBigTile:267...
+Checking for isolation...
+4000010,20,20,0
+Total 4000010 (400001 unique) events are in hot method
+Total 20 (2 unique) traces are in hot method
+Total 20 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 4000010 (400001 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (10 traces / 1 unique traces) (3000010 events / 300001 unique events)
+	Iterator_RemoveOnce (10 traces / 1 unique traces) (1000000 events / 100000 unique events)
+Classifier (no.ecc.vectortile.VectorTileDecoderTest.testBigTile:267): CUT,ISOLATED_ONE_UNIQUE
+
+#5
+Inspecting hot method no.ecc.vectortile.VectorTileDecoder$FeatureIterator.parseLayer:196...
+Checking for isolation...
+1065356,20108,10086,10022
+Total 1065356 (105628 unique) events are in hot method
+Total 20108 (17 unique) traces are in hot method
+Total 10086 (11 unique) isolated traces are in hot method
+Total 10022 (6 unique) non-isolated traces that have events in hot method
+Total 1055334 (105622 unique) events are in isolated traces
+Total 2026251 (3498 unique) events are in non-isolated traces (10022 / 6 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsynchronizedAddAll (10022 traces / 1 unique traces) (20044 events / 2 unique events)
+	Collections_SortBeforeBinarySearch (64 traces / 10 unique traces) (1035290 events / 105620 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (10022 traces / 6 unique traces) (2026251 events / 3498 unique events) (10022 events / 6 unique events in hot method)
+Classifier (no.ecc.vectortile.VectorTileDecoder$FeatureIterator.parseLayer:196): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#6
+Inspecting hot method no.ecc.vectortile.VectorTileDecoder$FeatureIterable.asList:106...
+Checking for isolation...
+12343,57,57,0
+Total 12343 (6139 unique) events are in hot method
+Total 57 (9 unique) traces are in hot method
+Total 57 (9 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 12343 (6139 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (19 traces / 3 unique traces) (6181 events / 3071 unique events)
+	Collections_SortBeforeBinarySearch (19 traces / 3 unique traces) (3081 events / 1534 unique events)
+	Iterator_RemoveOnce (19 traces / 3 unique traces) (3081 events / 1534 unique events)
+Classifier (no.ecc.vectortile.VectorTileDecoder$FeatureIterable.asList:106): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#7
+Inspecting hot method no.ecc.vectortile.VectorTileEncoderPerformanceTest.testManyPoints:21...
+Checking for isolation...
+1100,200,200,0
+Total 1100 (11 unique) events are in hot method
+Total 200 (2 unique) traces are in hot method
+Total 200 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1100 (11 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (100 traces / 1 unique traces) (600 events / 6 unique events)
+	Appendable_ThreadSafe (100 traces / 1 unique traces) (500 events / 5 unique events)
+Classifier (no.ecc.vectortile.VectorTileEncoderPerformanceTest.testManyPoints:21): CUT,ISOLATED_ONE_UNIQUE
+
+#8
+Inspecting hot method com.vividsolutions.jts.noding.MCIndexNoder.intersectChains:89...
+Checking for isolation...
+967,147,147,0
+Total 967 (257 unique) events are in hot method
+Total 147 (27 unique) traces are in hot method
+Total 147 (27 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 967 (257 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (49 traces / 9 unique traces) (164 events / 46 unique events)
+	Iterator_HasNext (49 traces / 9 unique traces) (377 events / 101 unique events)
+	Collection_UnsafeIterator (49 traces / 9 unique traces) (426 events / 110 unique events)
+Classifier (com.vividsolutions.jts.noding.MCIndexNoder.intersectChains:89): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#9
+Inspecting hot method com.vividsolutions.jts.geomgraph.EdgeEndStar.propagateSideLabels:271...
+Checking for isolation...
+508,158,104,54
+Total 508 (33 unique) events are in hot method
+Total 158 (11 unique) traces are in hot method
+Total 104 (7 unique) isolated traces are in hot method
+Total 54 (4 unique) non-isolated traces that have events in hot method
+Total 294 (19 unique) events are in isolated traces
+Total 268 (18 unique) events are in non-isolated traces (214 / 14 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (54 traces / 4 unique traces) (214 events / 14 unique events)
+	Iterator_RemoveOnce (50 traces / 3 unique traces) (80 events / 5 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (54 traces / 4 unique traces) (268 events / 18 unique events) (214 events / 14 unique events in hot method)
+Classifier (com.vividsolutions.jts.geomgraph.EdgeEndStar.propagateSideLabels:271): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#10
+Inspecting hot method com.vividsolutions.jts.geomgraph.NodeMap.values:115...
+Checking for isolation...
+441,63,14,49
+Total 441 (161 unique) events are in hot method
+Total 63 (23 unique) traces are in hot method
+Total 14 (2 unique) isolated traces are in hot method
+Total 49 (21 unique) non-isolated traces that have events in hot method
+Total 98 (14 unique) events are in isolated traces
+Total 749 (329 unique) events are in non-isolated traces (343 / 147 unique are in hot method)
+Specs that have isolated traces:
+	Map_CollectionViewAdd (7 traces / 1 unique traces) (49 events / 7 unique events)
+	Map_UnsafeIterator (7 traces / 1 unique traces) (49 events / 7 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (49 traces / 21 unique traces) (749 events / 329 unique events) (343 events / 147 unique events in hot method)
+Classifier (com.vividsolutions.jts.geomgraph.NodeMap.values:115): LIB,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#11
+Inspecting hot method com.vividsolutions.jts.geomgraph.EdgeIntersectionList.iterator:78...
+Checking for isolation...
+411,158,29,129
+Total 411 (119 unique) events are in hot method
+Total 158 (29 unique) traces are in hot method
+Total 29 (6 unique) isolated traces are in hot method
+Total 129 (23 unique) non-isolated traces that have events in hot method
+Total 84 (26 unique) events are in isolated traces
+Total 837 (200 unique) events are in non-isolated traces (327 / 93 unique are in hot method)
+Specs that have isolated traces:
+	Map_CollectionViewAdd (22 traces / 3 unique traces) (57 events / 13 unique events)
+	Map_UnsafeIterator (7 traces / 3 unique traces) (27 events / 13 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (72 traces / 16 unique traces) (570 events / 162 unique events) (270 events / 86 unique events in hot method)
+	Collection_UnsafeIterator (57 traces / 7 unique traces) (267 events / 38 unique events) (57 events / 7 unique events in hot method)
+Classifier (com.vividsolutions.jts.geomgraph.EdgeIntersectionList.iterator:78): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#12
+Inspecting hot method com.vividsolutions.jts.geomgraph.EdgeEndStar.computeLabelling:132...
+Checking for isolation...
+388,128,84,44
+Total 388 (42 unique) events are in hot method
+Total 128 (16 unique) traces are in hot method
+Total 84 (10 unique) isolated traces are in hot method
+Total 44 (6 unique) non-isolated traces that have events in hot method
+Total 224 (24 unique) events are in isolated traces
+Total 208 (24 unique) events are in non-isolated traces (164 / 18 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (44 traces / 6 unique traces) (164 events / 18 unique events)
+	Iterator_RemoveOnce (40 traces / 4 unique traces) (60 events / 6 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (44 traces / 6 unique traces) (208 events / 24 unique events) (164 events / 18 unique events in hot method)
+Classifier (com.vividsolutions.jts.geomgraph.EdgeEndStar.computeLabelling:132): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#13
+Inspecting hot method com.vividsolutions.jts.operation.overlay.LineBuilder.findCoveredLineEdges:81...
+Checking for isolation...
+360,49,42,7
+Total 360 (154 unique) events are in hot method
+Total 49 (21 unique) traces are in hot method
+Total 42 (18 unique) isolated traces are in hot method
+Total 7 (3 unique) non-isolated traces that have events in hot method
+Total 302 (128 unique) events are in isolated traces
+Total 107 (47 unique) events are in non-isolated traces (58 / 26 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (14 traces / 6 unique traces) (132 events / 56 unique events)
+	Iterator_HasNext (14 traces / 6 unique traces) (118 events / 50 unique events)
+	Iterator_RemoveOnce (14 traces / 6 unique traces) (52 events / 22 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (7 traces / 3 unique traces) (107 events / 47 unique events) (58 events / 26 unique events in hot method)
+Classifier (com.vividsolutions.jts.operation.overlay.LineBuilder.findCoveredLineEdges:81): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#14
+Inspecting hot method no.ecc.vectortile.VectorTileEncoder.encode:238...
+Checking for isolation...
+352,140,140,0
+Total 352 (106 unique) events are in hot method
+Total 140 (29 unique) traces are in hot method
+Total 140 (29 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 352 (106 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (30 traces / 7 unique traces) (124 events / 40 unique events)
+	Iterator_HasNext (30 traces / 7 unique traces) (94 events / 33 unique events)
+	Collections_SortBeforeBinarySearch (25 traces / 6 unique traces) (32 events / 13 unique events)
+	Iterator_RemoveOnce (25 traces / 6 unique traces) (32 events / 13 unique events)
+	Map_UnsafeIterator (20 traces / 2 unique traces) (60 events / 6 unique events)
+	Map_CollectionViewAdd (10 traces / 1 unique traces) (10 events / 1 unique events)
+Classifier (no.ecc.vectortile.VectorTileEncoder.encode:238): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE
+
+#15
+Inspecting hot method com.vividsolutions.jts.geomgraph.GeometryGraph.addSelfIntersectionNodes:415...
+Checking for isolation...
+334,132,88,44
+Total 334 (54 unique) events are in hot method
+Total 132 (17 unique) traces are in hot method
+Total 88 (11 unique) isolated traces are in hot method
+Total 44 (6 unique) non-isolated traces that have events in hot method
+Total 234 (32 unique) events are in isolated traces
+Total 231 (45 unique) events are in non-isolated traces (100 / 22 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (42 traces / 5 unique traces) (114 events / 15 unique events)
+	Iterator_RemoveOnce (26 traces / 3 unique traces) (36 events / 5 unique events)
+	Collection_UnsafeIterator (20 traces / 3 unique traces) (84 events / 12 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (22 traces / 2 unique traces) (72 events / 8 unique events) (50 events / 6 unique events in hot method)
+	Map_UnsafeIterator (22 traces / 4 unique traces) (159 events / 37 unique events) (50 events / 16 unique events in hot method)
+Classifier (com.vividsolutions.jts.geomgraph.GeometryGraph.addSelfIntersectionNodes:415): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#16
+Inspecting hot method com.vividsolutions.jts.noding.MCIndexNoder.add:113...
+Checking for isolation...
+297,52,52,0
+Total 297 (81 unique) events are in hot method
+Total 52 (14 unique) traces are in hot method
+Total 52 (14 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 297 (81 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (15 traces / 3 unique traces) (42 events / 8 unique events)
+	Iterator_HasNext (15 traces / 3 unique traces) (99 events / 19 unique events)
+	Collection_UnsafeIterator (15 traces / 3 unique traces) (114 events / 22 unique events)
+	Collections_SortBeforeBinarySearch (7 traces / 5 unique traces) (42 events / 32 unique events)
+Classifier (com.vividsolutions.jts.noding.MCIndexNoder.add:113): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#17
+Inspecting hot method com.vividsolutions.jts.geomgraph.EdgeIntersectionList.addSplitEdges:117...
+Checking for isolation...
+285,86,48,38
+Total 285 (28 unique) events are in hot method
+Total 86 (9 unique) traces are in hot method
+Total 48 (5 unique) isolated traces are in hot method
+Total 38 (4 unique) non-isolated traces that have events in hot method
+Total 133 (12 unique) events are in isolated traces
+Total 271 (35 unique) events are in non-isolated traces (152 / 16 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (19 traces / 1 unique traces) (76 events / 4 unique events)
+	Iterator_RemoveOnce (19 traces / 1 unique traces) (38 events / 2 unique events)
+	Collections_SortBeforeBinarySearch (10 traces / 3 unique traces) (19 events / 6 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (19 traces / 1 unique traces) (95 events / 5 unique events) (76 events / 4 unique events in hot method)
+	Map_UnsafeIterator (19 traces / 3 unique traces) (176 events / 30 unique events) (76 events / 12 unique events in hot method)
+Classifier (com.vividsolutions.jts.geomgraph.EdgeIntersectionList.addSplitEdges:117): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_ONE_UNIQUE
+
+#18
+Inspecting hot method com.vividsolutions.jts.index.strtree.STRtree.verticalSlices:160...
+Checking for isolation...
+282,32,32,0
+Total 282 (216 unique) events are in hot method
+Total 32 (24 unique) traces are in hot method
+Total 32 (24 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 282 (216 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (8 traces / 6 unique traces) (43 events / 33 unique events)
+	Iterator_HasNext (8 traces / 6 unique traces) (94 events / 72 unique events)
+	Collection_UnsafeIterator (8 traces / 6 unique traces) (102 events / 78 unique events)
+	Collections_SortBeforeBinarySearch (8 traces / 6 unique traces) (43 events / 33 unique events)
+Classifier (com.vividsolutions.jts.index.strtree.STRtree.verticalSlices:160): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#19
+Inspecting hot method com.vividsolutions.jts.index.strtree.AbstractSTRtree.createParentBoundables:132...
+Checking for isolation...
+263,41,40,1
+Total 263 (193 unique) events are in hot method
+Total 41 (21 unique) traces are in hot method
+Total 40 (20 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 255 (185 unique) events are in isolated traces
+Total 16 (16 unique) events are in non-isolated traces (8 / 8 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (16 traces / 2 unique traces) (16 events / 2 unique events)
+	Iterator_RemoveOnce (8 traces / 6 unique traces) (43 events / 33 unique events)
+	Iterator_HasNext (8 traces / 6 unique traces) (94 events / 72 unique events)
+	Collection_UnsafeIterator (8 traces / 6 unique traces) (102 events / 78 unique events)
+Specs that have non-isolated traces:
+	Collections_Comparable (1 traces / 1 unique traces) (16 events / 16 unique events) (8 events / 8 unique events in hot method)
+Classifier (com.vividsolutions.jts.index.strtree.AbstractSTRtree.createParentBoundables:132): LIB,ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#20
+Inspecting hot method com.vividsolutions.jts.geomgraph.DirectedEdgeStar.getResultAreaEdges:174...
+Checking for isolation...
+256,83,57,26
+Total 256 (23 unique) events are in hot method
+Total 83 (9 unique) traces are in hot method
+Total 57 (6 unique) isolated traces are in hot method
+Total 26 (3 unique) non-isolated traces that have events in hot method
+Total 154 (14 unique) events are in isolated traces
+Total 128 (12 unique) events are in non-isolated traces (102 / 9 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (26 traces / 3 unique traces) (102 events / 9 unique events)
+	Iterator_RemoveOnce (24 traces / 2 unique traces) (38 events / 3 unique events)
+	Collections_SortBeforeBinarySearch (7 traces / 1 unique traces) (14 events / 2 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (26 traces / 3 unique traces) (128 events / 12 unique events) (102 events / 9 unique events in hot method)
+Classifier (com.vividsolutions.jts.geomgraph.DirectedEdgeStar.getResultAreaEdges:174): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#21
+Inspecting hot method com.vividsolutions.jts.geomgraph.EdgeEndStar.iterator:111...
+Checking for isolation...
+252,252,0,252
+Total 252 (33 unique) events are in hot method
+Total 252 (33 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 252 (33 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 1223 (141 unique) events are in non-isolated traces (252 / 33 unique are in hot method)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (252 traces / 33 unique traces) (1223 events / 141 unique events) (252 events / 33 unique events in hot method)
+Classifier (com.vividsolutions.jts.geomgraph.EdgeEndStar.iterator:111): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#22
+Inspecting hot method com.vividsolutions.jts.geomgraph.EdgeEndStar.computeEdgeEndLabels:208...
+Checking for isolation...
+242,76,50,26
+Total 242 (21 unique) events are in hot method
+Total 76 (8 unique) traces are in hot method
+Total 50 (5 unique) isolated traces are in hot method
+Total 26 (3 unique) non-isolated traces that have events in hot method
+Total 140 (12 unique) events are in isolated traces
+Total 128 (12 unique) events are in non-isolated traces (102 / 9 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (26 traces / 3 unique traces) (102 events / 9 unique events)
+	Iterator_RemoveOnce (24 traces / 2 unique traces) (38 events / 3 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (26 traces / 3 unique traces) (128 events / 12 unique events) (102 events / 9 unique events in hot method)
+Classifier (com.vividsolutions.jts.geomgraph.EdgeEndStar.computeEdgeEndLabels:208): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#23
+Inspecting hot method com.vividsolutions.jts.index.strtree.STRtree$STRtreeNode.computeBounds:73...
+Checking for isolation...
+239,24,24,0
+Total 239 (183 unique) events are in hot method
+Total 24 (18 unique) traces are in hot method
+Total 24 (18 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 239 (183 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (8 traces / 6 unique traces) (43 events / 33 unique events)
+	Collection_UnsafeIterator (8 traces / 6 unique traces) (102 events / 78 unique events)
+	Iterator_HasNext (8 traces / 6 unique traces) (94 events / 72 unique events)
+Classifier (com.vividsolutions.jts.index.strtree.STRtree$STRtreeNode.computeBounds:73): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#24
+Inspecting hot method com.vividsolutions.jts.geomgraph.NodeMap.iterator:111...
+Checking for isolation...
+234,126,46,80
+Total 234 (58 unique) events are in hot method
+Total 126 (32 unique) traces are in hot method
+Total 46 (4 unique) isolated traces are in hot method
+Total 80 (28 unique) non-isolated traces that have events in hot method
+Total 80 (6 unique) events are in isolated traces
+Total 474 (184 unique) events are in non-isolated traces (154 / 52 unique are in hot method)
+Specs that have isolated traces:
+	Map_CollectionViewAdd (23 traces / 2 unique traces) (40 events / 3 unique events)
+	Map_UnsafeIterator (23 traces / 2 unique traces) (40 events / 3 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (40 traces / 14 unique traces) (200 events / 80 unique events) (40 events / 14 unique events in hot method)
+	Map_UnsafeIterator (40 traces / 14 unique traces) (274 events / 104 unique events) (114 events / 38 unique events in hot method)
+Classifier (com.vividsolutions.jts.geomgraph.NodeMap.iterator:111): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#25
+Inspecting hot method com.vividsolutions.jts.geomgraph.EdgeIntersectionList.add:64...
+Checking for isolation...
+222,48,0,48
+Total 222 (138 unique) events are in hot method
+Total 48 (6 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 48 (6 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 2030735 (2030469 unique) events are in non-isolated traces (222 / 138 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (45 traces / 3 unique traces) (285 events / 19 unique events) (90 events / 6 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (44 events / 44 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (44 events / 44 unique events in hot method)
+	TreeMap_Comparable (1 traces / 1 unique traces) (164 events / 164 unique events) (44 events / 44 unique events in hot method)
+Classifier (com.vividsolutions.jts.geomgraph.EdgeIntersectionList.add:64): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#26
+Inspecting hot method com.vividsolutions.jts.geomgraph.NodeMap.getBoundaryNodes:120...
+Checking for isolation...
+216,69,41,28
+Total 216 (65 unique) events are in hot method
+Total 69 (15 unique) traces are in hot method
+Total 41 (9 unique) isolated traces are in hot method
+Total 28 (6 unique) non-isolated traces that have events in hot method
+Total 100 (31 unique) events are in isolated traces
+Total 172 (46 unique) events are in non-isolated traces (116 / 34 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (14 traces / 3 unique traces) (58 events / 17 unique events)
+	Iterator_RemoveOnce (14 traces / 3 unique traces) (22 events / 7 unique events)
+	Collections_SortBeforeBinarySearch (13 traces / 3 unique traces) (20 events / 7 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (14 traces / 3 unique traces) (72 events / 20 unique events) (58 events / 17 unique events in hot method)
+	Map_UnsafeIterator (14 traces / 3 unique traces) (100 events / 26 unique events) (58 events / 17 unique events in hot method)
+Classifier (com.vividsolutions.jts.geomgraph.NodeMap.getBoundaryNodes:120): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#27
+Inspecting hot method com.vividsolutions.jts.geomgraph.index.SimpleMCSweepLineIntersector.add:95...
+Checking for isolation...
+210,73,73,0
+Total 210 (24 unique) events are in hot method
+Total 73 (8 unique) traces are in hot method
+Total 73 (8 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 210 (24 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (25 traces / 3 unique traces) (104 events / 12 unique events)
+	Iterator_HasNext (25 traces / 3 unique traces) (79 events / 9 unique events)
+	Iterator_RemoveOnce (23 traces / 2 unique traces) (27 events / 3 unique events)
+Classifier (com.vividsolutions.jts.geomgraph.index.SimpleMCSweepLineIntersector.add:95): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#28
+Inspecting hot method com.vividsolutions.jts.geomgraph.index.SimpleMCSweepLineIntersector.add:103...
+Checking for isolation...
+210,26,0,26
+Total 210 (76 unique) events are in hot method
+Total 26 (8 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 26 (8 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 236 (84 unique) events are in non-isolated traces (210 / 76 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (26 traces / 8 unique traces) (236 events / 84 unique events) (210 events / 76 unique events in hot method)
+Classifier (com.vividsolutions.jts.geomgraph.index.SimpleMCSweepLineIntersector.add:103): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#29
+Inspecting hot method com.vividsolutions.jts.geomgraph.DirectedEdgeStar.findCoveredLineEdges:319...
+Checking for isolation...
+209,73,48,25
+Total 209 (37 unique) events are in hot method
+Total 73 (13 unique) traces are in hot method
+Total 48 (8 unique) isolated traces are in hot method
+Total 25 (5 unique) non-isolated traces that have events in hot method
+Total 121 (21 unique) events are in isolated traces
+Total 113 (21 unique) events are in non-isolated traces (88 / 16 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (25 traces / 5 unique traces) (88 events / 16 unique events)
+	Iterator_RemoveOnce (23 traces / 3 unique traces) (33 events / 5 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (25 traces / 5 unique traces) (113 events / 21 unique events) (88 events / 16 unique events in hot method)
+Classifier (com.vividsolutions.jts.geomgraph.DirectedEdgeStar.findCoveredLineEdges:319): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#30
+Inspecting hot method com.vividsolutions.jts.operation.relate.EdgeEndBundle.computeLabelSide:176...
+Checking for isolation...
+208,96,64,32
+Total 208 (11 unique) events are in hot method
+Total 96 (5 unique) traces are in hot method
+Total 64 (3 unique) isolated traces are in hot method
+Total 32 (2 unique) non-isolated traces that have events in hot method
+Total 120 (6 unique) events are in isolated traces
+Total 120 (7 unique) events are in non-isolated traces (88 / 5 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (32 traces / 1 unique traces) (32 events / 1 unique events)
+	Iterator_HasNext (32 traces / 2 unique traces) (88 events / 5 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (32 traces / 2 unique traces) (120 events / 7 unique events) (88 events / 5 unique events in hot method)
+Classifier (com.vividsolutions.jts.operation.relate.EdgeEndBundle.computeLabelSide:176): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#31
+Inspecting hot method com.vividsolutions.jts.operation.overlay.OverlayOp.copyPoints:354...
+Checking for isolation...
+196,56,28,28
+Total 196 (58 unique) events are in hot method
+Total 56 (12 unique) traces are in hot method
+Total 28 (6 unique) isolated traces are in hot method
+Total 28 (6 unique) non-isolated traces that have events in hot method
+Total 80 (24 unique) events are in isolated traces
+Total 172 (46 unique) events are in non-isolated traces (116 / 34 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (14 traces / 3 unique traces) (58 events / 17 unique events)
+	Iterator_RemoveOnce (14 traces / 3 unique traces) (22 events / 7 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (14 traces / 3 unique traces) (72 events / 20 unique events) (58 events / 17 unique events in hot method)
+	Map_UnsafeIterator (14 traces / 3 unique traces) (100 events / 26 unique events) (58 events / 17 unique events in hot method)
+Classifier (com.vividsolutions.jts.operation.overlay.OverlayOp.copyPoints:354): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#32
+Inspecting hot method com.vividsolutions.jts.geomgraph.DirectedEdgeStar.mergeSymLabels:151...
+Checking for isolation...
+194,64,42,22
+Total 194 (21 unique) events are in hot method
+Total 64 (8 unique) traces are in hot method
+Total 42 (5 unique) isolated traces are in hot method
+Total 22 (3 unique) non-isolated traces that have events in hot method
+Total 112 (12 unique) events are in isolated traces
+Total 104 (12 unique) events are in non-isolated traces (82 / 9 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (22 traces / 3 unique traces) (82 events / 9 unique events)
+	Iterator_RemoveOnce (20 traces / 2 unique traces) (30 events / 3 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (22 traces / 3 unique traces) (104 events / 12 unique events) (82 events / 9 unique events in hot method)
+Classifier (com.vividsolutions.jts.geomgraph.DirectedEdgeStar.mergeSymLabels:151): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#33
+Inspecting hot method com.vividsolutions.jts.geomgraph.DirectedEdgeStar.computeLabelling:127...
+Checking for isolation...
+194,64,42,22
+Total 194 (21 unique) events are in hot method
+Total 64 (8 unique) traces are in hot method
+Total 42 (5 unique) isolated traces are in hot method
+Total 22 (3 unique) non-isolated traces that have events in hot method
+Total 112 (12 unique) events are in isolated traces
+Total 104 (12 unique) events are in non-isolated traces (82 / 9 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (22 traces / 3 unique traces) (82 events / 9 unique events)
+	Iterator_RemoveOnce (20 traces / 2 unique traces) (30 events / 3 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (22 traces / 3 unique traces) (104 events / 12 unique events) (82 events / 9 unique events in hot method)
+Classifier (com.vividsolutions.jts.geomgraph.DirectedEdgeStar.computeLabelling:127): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#34
+Inspecting hot method com.vividsolutions.jts.geomgraph.DirectedEdgeStar.updateLabelling:163...
+Checking for isolation...
+194,64,42,22
+Total 194 (21 unique) events are in hot method
+Total 64 (8 unique) traces are in hot method
+Total 42 (5 unique) isolated traces are in hot method
+Total 22 (3 unique) non-isolated traces that have events in hot method
+Total 112 (12 unique) events are in isolated traces
+Total 104 (12 unique) events are in non-isolated traces (82 / 9 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (22 traces / 3 unique traces) (82 events / 9 unique events)
+	Iterator_RemoveOnce (20 traces / 2 unique traces) (30 events / 3 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (22 traces / 3 unique traces) (104 events / 12 unique events) (82 events / 9 unique events in hot method)
+Classifier (com.vividsolutions.jts.geomgraph.DirectedEdgeStar.updateLabelling:163): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#35
+Inspecting hot method com.vividsolutions.jts.operation.overlay.PointBuilder.extractNonCoveredResultNodes:85...
+Checking for isolation...
+189,28,21,7
+Total 189 (85 unique) events are in hot method
+Total 28 (12 unique) traces are in hot method
+Total 21 (9 unique) isolated traces are in hot method
+Total 7 (3 unique) non-isolated traces that have events in hot method
+Total 131 (59 unique) events are in isolated traces
+Total 107 (47 unique) events are in non-isolated traces (58 / 26 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (7 traces / 3 unique traces) (58 events / 26 unique events)
+	Iterator_HasNext (7 traces / 3 unique traces) (51 events / 23 unique events)
+	Iterator_RemoveOnce (7 traces / 3 unique traces) (22 events / 10 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (7 traces / 3 unique traces) (107 events / 47 unique events) (58 events / 26 unique events in hot method)
+Classifier (com.vividsolutions.jts.operation.overlay.PointBuilder.extractNonCoveredResultNodes:85): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#36
+Inspecting hot method com.vividsolutions.jts.geomgraph.PlanarGraph.linkResultDirectedEdges:72...
+Checking for isolation...
+189,28,21,7
+Total 189 (85 unique) events are in hot method
+Total 28 (12 unique) traces are in hot method
+Total 21 (9 unique) isolated traces are in hot method
+Total 7 (3 unique) non-isolated traces that have events in hot method
+Total 131 (59 unique) events are in isolated traces
+Total 107 (47 unique) events are in non-isolated traces (58 / 26 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (7 traces / 3 unique traces) (58 events / 26 unique events)
+	Iterator_HasNext (7 traces / 3 unique traces) (51 events / 23 unique events)
+	Iterator_RemoveOnce (7 traces / 3 unique traces) (22 events / 10 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (7 traces / 3 unique traces) (107 events / 47 unique events) (58 events / 26 unique events in hot method)
+Classifier (com.vividsolutions.jts.geomgraph.PlanarGraph.linkResultDirectedEdges:72): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#37
+Inspecting hot method com.vividsolutions.jts.operation.overlay.OverlayOp.computeLabelling:370...
+Checking for isolation...
+189,28,21,7
+Total 189 (85 unique) events are in hot method
+Total 28 (12 unique) traces are in hot method
+Total 21 (9 unique) isolated traces are in hot method
+Total 7 (3 unique) non-isolated traces that have events in hot method
+Total 131 (59 unique) events are in isolated traces
+Total 107 (47 unique) events are in non-isolated traces (58 / 26 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (7 traces / 3 unique traces) (22 events / 10 unique events)
+	Collection_UnsafeIterator (7 traces / 3 unique traces) (58 events / 26 unique events)
+	Iterator_HasNext (7 traces / 3 unique traces) (51 events / 23 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (7 traces / 3 unique traces) (107 events / 47 unique events) (58 events / 26 unique events in hot method)
+Classifier (com.vividsolutions.jts.operation.overlay.OverlayOp.computeLabelling:370): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#38
+Inspecting hot method com.vividsolutions.jts.operation.overlay.OverlayOp.updateNodeLabelling:398...
+Checking for isolation...
+189,28,21,7
+Total 189 (85 unique) events are in hot method
+Total 28 (12 unique) traces are in hot method
+Total 21 (9 unique) isolated traces are in hot method
+Total 7 (3 unique) non-isolated traces that have events in hot method
+Total 131 (59 unique) events are in isolated traces
+Total 107 (47 unique) events are in non-isolated traces (58 / 26 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (7 traces / 3 unique traces) (22 events / 10 unique events)
+	Collection_UnsafeIterator (7 traces / 3 unique traces) (58 events / 26 unique events)
+	Iterator_HasNext (7 traces / 3 unique traces) (51 events / 23 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (7 traces / 3 unique traces) (107 events / 47 unique events) (58 events / 26 unique events in hot method)
+Classifier (com.vividsolutions.jts.operation.overlay.OverlayOp.updateNodeLabelling:398): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#39
+Inspecting hot method com.vividsolutions.jts.operation.overlay.OverlayOp.labelIncompleteNodes:422...
+Checking for isolation...
+189,28,21,7
+Total 189 (85 unique) events are in hot method
+Total 28 (12 unique) traces are in hot method
+Total 21 (9 unique) isolated traces are in hot method
+Total 7 (3 unique) non-isolated traces that have events in hot method
+Total 131 (59 unique) events are in isolated traces
+Total 107 (47 unique) events are in non-isolated traces (58 / 26 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (7 traces / 3 unique traces) (22 events / 10 unique events)
+	Collection_UnsafeIterator (7 traces / 3 unique traces) (58 events / 26 unique events)
+	Iterator_HasNext (7 traces / 3 unique traces) (51 events / 23 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (7 traces / 3 unique traces) (107 events / 47 unique events) (58 events / 26 unique events in hot method)
+Classifier (com.vividsolutions.jts.operation.overlay.OverlayOp.labelIncompleteNodes:422): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#40
+Inspecting hot method com.vividsolutions.jts.operation.overlay.OverlayOp.mergeSymLabels:386...
+Checking for isolation...
+189,28,21,7
+Total 189 (85 unique) events are in hot method
+Total 28 (12 unique) traces are in hot method
+Total 21 (9 unique) isolated traces are in hot method
+Total 7 (3 unique) non-isolated traces that have events in hot method
+Total 131 (59 unique) events are in isolated traces
+Total 107 (47 unique) events are in non-isolated traces (58 / 26 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (7 traces / 3 unique traces) (22 events / 10 unique events)
+	Collection_UnsafeIterator (7 traces / 3 unique traces) (58 events / 26 unique events)
+	Iterator_HasNext (7 traces / 3 unique traces) (51 events / 23 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (7 traces / 3 unique traces) (107 events / 47 unique events) (58 events / 26 unique events in hot method)
+Classifier (com.vividsolutions.jts.operation.overlay.OverlayOp.mergeSymLabels:386): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#41
+Inspecting hot method com.vividsolutions.jts.geomgraph.NodeMap.addNode:74...
+Checking for isolation...
+177,3,0,3
+Total 177 (177 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 3 (3 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 2030450 (2030450 unique) events are in non-isolated traces (177 / 177 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (59 events / 59 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (59 events / 59 unique events in hot method)
+	TreeMap_Comparable (1 traces / 1 unique traces) (164 events / 164 unique events) (59 events / 59 unique events in hot method)
+Classifier (com.vividsolutions.jts.geomgraph.NodeMap.addNode:74): LIB,NOT_REDUNDANT_TRACES
+
+#42
+Inspecting hot method com.vividsolutions.jts.geomgraph.Node.isIncidentEdgeInResult:77...
+Checking for isolation...
+175,64,64,0
+Total 175 (22 unique) events are in hot method
+Total 64 (8 unique) traces are in hot method
+Total 64 (8 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 175 (22 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (22 traces / 3 unique traces) (85 events / 11 unique events)
+	Iterator_HasNext (22 traces / 3 unique traces) (63 events / 8 unique events)
+	Iterator_RemoveOnce (20 traces / 2 unique traces) (27 events / 3 unique events)
+Classifier (com.vividsolutions.jts.geomgraph.Node.isIncidentEdgeInResult:77): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#43
+Inspecting hot method com.vividsolutions.jts.operation.overlay.PolygonBuilder.buildMaximalEdgeRings:98...
+Checking for isolation...
+174,23,23,0
+Total 174 (72 unique) events are in hot method
+Total 23 (11 unique) traces are in hot method
+Total 23 (11 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 174 (72 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (7 traces / 3 unique traces) (74 events / 30 unique events)
+	Iterator_HasNext (7 traces / 3 unique traces) (67 events / 27 unique events)
+	Iterator_RemoveOnce (7 traces / 3 unique traces) (30 events / 12 unique events)
+	Collections_SortBeforeBinarySearch (2 traces / 2 unique traces) (3 events / 3 unique events)
+Classifier (com.vividsolutions.jts.operation.overlay.PolygonBuilder.buildMaximalEdgeRings:98): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT
+
+#44
+Inspecting hot method com.vividsolutions.jts.operation.overlay.OverlayOp.cancelDuplicateResultEdges:491...
+Checking for isolation...
+171,21,21,0
+Total 171 (69 unique) events are in hot method
+Total 21 (9 unique) traces are in hot method
+Total 21 (9 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 171 (69 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (7 traces / 3 unique traces) (74 events / 30 unique events)
+	Iterator_HasNext (7 traces / 3 unique traces) (67 events / 27 unique events)
+	Iterator_RemoveOnce (7 traces / 3 unique traces) (30 events / 12 unique events)
+Classifier (com.vividsolutions.jts.operation.overlay.OverlayOp.cancelDuplicateResultEdges:491): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#45
+Inspecting hot method com.vividsolutions.jts.operation.overlay.OverlayOp.findResultAreaEdges:468...
+Checking for isolation...
+171,21,21,0
+Total 171 (69 unique) events are in hot method
+Total 21 (9 unique) traces are in hot method
+Total 21 (9 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 171 (69 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (7 traces / 3 unique traces) (74 events / 30 unique events)
+	Iterator_HasNext (7 traces / 3 unique traces) (67 events / 27 unique events)
+	Iterator_RemoveOnce (7 traces / 3 unique traces) (30 events / 12 unique events)
+Classifier (com.vividsolutions.jts.operation.overlay.OverlayOp.findResultAreaEdges:468): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#46
+Inspecting hot method com.vividsolutions.jts.operation.overlay.LineBuilder.collectLines:103...
+Checking for isolation...
+171,21,21,0
+Total 171 (69 unique) events are in hot method
+Total 21 (9 unique) traces are in hot method
+Total 21 (9 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 171 (69 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (7 traces / 3 unique traces) (74 events / 30 unique events)
+	Iterator_HasNext (7 traces / 3 unique traces) (67 events / 27 unique events)
+	Iterator_RemoveOnce (7 traces / 3 unique traces) (30 events / 12 unique events)
+Classifier (com.vividsolutions.jts.operation.overlay.LineBuilder.collectLines:103): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#47
+Inspecting hot method no.ecc.vectortile.VectorTileEncoder.commands:396...
+Checking for isolation...
+157,22,22,0
+Total 157 (62 unique) events are in hot method
+Total 22 (8 unique) traces are in hot method
+Total 22 (8 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 157 (62 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (22 traces / 8 unique traces) (157 events / 62 unique events)
+Classifier (no.ecc.vectortile.VectorTileEncoder.commands:396): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#48
+Inspecting hot method com.vividsolutions.jts.geomgraph.GeometryGraph.computeSplitEdges:189...
+Checking for isolation...
+146,50,50,0
+Total 146 (24 unique) events are in hot method
+Total 50 (8 unique) traces are in hot method
+Total 50 (8 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 146 (24 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (17 traces / 3 unique traces) (72 events / 12 unique events)
+	Iterator_HasNext (17 traces / 3 unique traces) (55 events / 9 unique events)
+	Iterator_RemoveOnce (16 traces / 2 unique traces) (19 events / 3 unique events)
+Classifier (com.vividsolutions.jts.geomgraph.GeometryGraph.computeSplitEdges:189): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#49
+Inspecting hot method com.vividsolutions.jts.geomgraph.PlanarGraph.addEdges:127...
+Checking for isolation...
+144,40,40,0
+Total 144 (45 unique) events are in hot method
+Total 40 (12 unique) traces are in hot method
+Total 40 (12 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 144 (45 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (10 traces / 3 unique traces) (19 events / 6 unique events)
+	Collection_UnsafeIterator (10 traces / 3 unique traces) (58 events / 18 unique events)
+	Iterator_HasNext (10 traces / 3 unique traces) (48 events / 15 unique events)
+	Collections_SortBeforeBinarySearch (10 traces / 3 unique traces) (19 events / 6 unique events)
+Classifier (com.vividsolutions.jts.geomgraph.PlanarGraph.addEdges:127): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#50
+Inspecting hot method com.vividsolutions.jts.operation.valid.IsValidOp.checkNoSelfIntersectingRing:409...
+Checking for isolation...
+140,31,16,15
+Total 140 (48 unique) events are in hot method
+Total 31 (9 unique) traces are in hot method
+Total 16 (4 unique) isolated traces are in hot method
+Total 15 (5 unique) non-isolated traces that have events in hot method
+Total 63 (21 unique) events are in isolated traces
+Total 150 (76 unique) events are in non-isolated traces (77 / 27 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (7 traces / 1 unique traces) (14 events / 2 unique events)
+	Iterator_HasNext (7 traces / 1 unique traces) (35 events / 5 unique events)
+	SortedSet_Comparable (1 traces / 1 unique traces) (7 events / 7 unique events)
+	TreeSet_Comparable (1 traces / 1 unique traces) (7 events / 7 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (7 traces / 1 unique traces) (42 events / 6 unique events) (35 events / 5 unique events in hot method)
+	Map_UnsafeIterator (7 traces / 3 unique traces) (69 events / 31 unique events) (35 events / 15 unique events in hot method)
+	Set_ItselfAsElement (1 traces / 1 unique traces) (39 events / 39 unique events) (7 events / 7 unique events in hot method)
+Classifier (com.vividsolutions.jts.operation.valid.IsValidOp.checkNoSelfIntersectingRing:409): LIB,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_ONE_UNIQUE,RAW_ISOLATED_SINGLE_TRACE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#51
+Inspecting hot method com.vividsolutions.jts.io.WKTWriter.appendCoordinate:510...
+Checking for isolation...
+140,40,40,0
+Total 140 (7 unique) events are in hot method
+Total 40 (2 unique) traces are in hot method
+Total 40 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 140 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (20 traces / 1 unique traces) (80 events / 4 unique events)
+	Appendable_ThreadSafe (20 traces / 1 unique traces) (60 events / 3 unique events)
+Classifier (com.vividsolutions.jts.io.WKTWriter.appendCoordinate:510): LIB,ISOLATED_ONE_UNIQUE
+
+#52
+Inspecting hot method com.vividsolutions.jts.geomgraph.EdgeEndStar.insertEdgeEnd:84...
+Checking for isolation...
+138,3,0,3
+Total 138 (138 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 3 (3 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 2030450 (2030450 unique) events are in non-isolated traces (138 / 138 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (46 events / 46 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (46 events / 46 unique events in hot method)
+	TreeMap_Comparable (1 traces / 1 unique traces) (164 events / 164 unique events) (46 events / 46 unique events in hot method)
+Classifier (com.vividsolutions.jts.geomgraph.EdgeEndStar.insertEdgeEnd:84): LIB,NOT_REDUNDANT_TRACES
+
+#53
+Inspecting hot method com.vividsolutions.jts.index.strtree.AbstractSTRtree.query:290...
+Checking for isolation...
+123,43,43,0
+Total 123 (14 unique) events are in hot method
+Total 43 (4 unique) traces are in hot method
+Total 43 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 123 (14 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (43 traces / 4 unique traces) (123 events / 14 unique events)
+Classifier (com.vividsolutions.jts.index.strtree.AbstractSTRtree.query:290): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#54
+Inspecting hot method com.vividsolutions.jts.operation.relate.EdgeEndBundle.computeLabelOn:134...
+Checking for isolation...
+112,48,32,16
+Total 112 (7 unique) events are in hot method
+Total 48 (3 unique) traces are in hot method
+Total 32 (2 unique) isolated traces are in hot method
+Total 16 (1 unique) non-isolated traces that have events in hot method
+Total 64 (4 unique) events are in isolated traces
+Total 64 (4 unique) events are in non-isolated traces (48 / 3 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (16 traces / 1 unique traces) (16 events / 1 unique events)
+	Iterator_HasNext (16 traces / 1 unique traces) (48 events / 3 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (16 traces / 1 unique traces) (64 events / 4 unique events) (48 events / 3 unique events in hot method)
+Classifier (com.vividsolutions.jts.operation.relate.EdgeEndBundle.computeLabelOn:134): LIB,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_ONE_UNIQUE
+
+#55
+Inspecting hot method com.vividsolutions.jts.geomgraph.EdgeNodingValidator.toSegmentStrings:65...
+Checking for isolation...
+111,28,28,0
+Total 111 (45 unique) events are in hot method
+Total 28 (12 unique) traces are in hot method
+Total 28 (12 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 111 (45 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (7 traces / 3 unique traces) (15 events / 6 unique events)
+	Collections_SortBeforeBinarySearch (7 traces / 3 unique traces) (15 events / 6 unique events)
+	Iterator_HasNext (7 traces / 3 unique traces) (37 events / 15 unique events)
+	Collection_UnsafeIterator (7 traces / 3 unique traces) (44 events / 18 unique events)
+Classifier (com.vividsolutions.jts.geomgraph.EdgeNodingValidator.toSegmentStrings:65): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#56
+Inspecting hot method com.vividsolutions.jts.noding.MCIndexNoder.computeNodes:79...
+Checking for isolation...
+96,21,21,0
+Total 96 (39 unique) events are in hot method
+Total 21 (9 unique) traces are in hot method
+Total 21 (9 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 96 (39 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (7 traces / 3 unique traces) (15 events / 6 unique events)
+	Iterator_HasNext (7 traces / 3 unique traces) (37 events / 15 unique events)
+	Collection_UnsafeIterator (7 traces / 3 unique traces) (44 events / 18 unique events)
+Classifier (com.vividsolutions.jts.noding.MCIndexNoder.computeNodes:79): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#57
+Inspecting hot method com.vividsolutions.jts.operation.overlay.OverlayOp.insertUniqueEdges:204...
+Checking for isolation...
+96,21,21,0
+Total 96 (39 unique) events are in hot method
+Total 21 (9 unique) traces are in hot method
+Total 21 (9 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 96 (39 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (7 traces / 3 unique traces) (15 events / 6 unique events)
+	Collection_UnsafeIterator (7 traces / 3 unique traces) (44 events / 18 unique events)
+	Iterator_HasNext (7 traces / 3 unique traces) (37 events / 15 unique events)
+Classifier (com.vividsolutions.jts.operation.overlay.OverlayOp.insertUniqueEdges:204): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#58
+Inspecting hot method com.vividsolutions.jts.operation.relate.RelateNodeGraph.computeIntersectionNodes:105...
+Checking for isolation...
+94,25,14,11
+Total 94 (41 unique) events are in hot method
+Total 25 (11 unique) traces are in hot method
+Total 14 (6 unique) isolated traces are in hot method
+Total 11 (5 unique) non-isolated traces that have events in hot method
+Total 43 (18 unique) events are in isolated traces
+Total 83 (39 unique) events are in non-isolated traces (51 / 23 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (7 traces / 3 unique traces) (12 events / 5 unique events)
+	Iterator_HasNext (7 traces / 3 unique traces) (31 events / 13 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (7 traces / 3 unique traces) (38 events / 16 unique events) (31 events / 13 unique events in hot method)
+	Map_UnsafeIterator (4 traces / 2 unique traces) (45 events / 23 unique events) (20 events / 10 unique events in hot method)
+Classifier (com.vividsolutions.jts.operation.relate.RelateNodeGraph.computeIntersectionNodes:105): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#59
+Inspecting hot method com.vividsolutions.jts.geom.GeometryFactory.buildGeometry:479...
+Checking for isolation...
+94,42,42,0
+Total 94 (25 unique) events are in hot method
+Total 42 (9 unique) traces are in hot method
+Total 42 (9 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 94 (25 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (14 traces / 3 unique traces) (46 events / 12 unique events)
+	Iterator_HasNext (14 traces / 3 unique traces) (32 events / 9 unique events)
+	Iterator_RemoveOnce (14 traces / 3 unique traces) (16 events / 4 unique events)
+Classifier (com.vividsolutions.jts.geom.GeometryFactory.buildGeometry:479): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#60
+Inspecting hot method com.vividsolutions.jts.operation.overlay.OverlayOp.replaceCollapsedEdges:332...
+Checking for isolation...
+89,21,14,7
+Total 89 (36 unique) events are in hot method
+Total 21 (9 unique) traces are in hot method
+Total 14 (6 unique) isolated traces are in hot method
+Total 7 (3 unique) non-isolated traces that have events in hot method
+Total 52 (21 unique) events are in isolated traces
+Total 44 (18 unique) events are in non-isolated traces (37 / 15 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (7 traces / 3 unique traces) (15 events / 6 unique events)
+	Iterator_HasNext (7 traces / 3 unique traces) (37 events / 15 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (7 traces / 3 unique traces) (44 events / 18 unique events) (37 events / 15 unique events in hot method)
+Classifier (com.vividsolutions.jts.operation.overlay.OverlayOp.replaceCollapsedEdges:332): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#61
+Inspecting hot method com.vividsolutions.jts.operation.overlay.OverlayOp.computeLabelsFromDepths:287...
+Checking for isolation...
+89,21,14,7
+Total 89 (36 unique) events are in hot method
+Total 21 (9 unique) traces are in hot method
+Total 14 (6 unique) isolated traces are in hot method
+Total 7 (3 unique) non-isolated traces that have events in hot method
+Total 52 (21 unique) events are in isolated traces
+Total 44 (18 unique) events are in non-isolated traces (37 / 15 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (7 traces / 3 unique traces) (15 events / 6 unique events)
+	Iterator_HasNext (7 traces / 3 unique traces) (37 events / 15 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (7 traces / 3 unique traces) (44 events / 18 unique events) (37 events / 15 unique events in hot method)
+Classifier (com.vividsolutions.jts.operation.overlay.OverlayOp.computeLabelsFromDepths:287): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#62
+Inspecting hot method com.vividsolutions.jts.operation.valid.ConsistentAreaTester.hasDuplicateRings:147...
+Checking for isolation...
+85,24,14,10
+Total 85 (39 unique) events are in hot method
+Total 24 (11 unique) traces are in hot method
+Total 14 (6 unique) isolated traces are in hot method
+Total 10 (5 unique) non-isolated traces that have events in hot method
+Total 43 (18 unique) events are in isolated traces
+Total 58 (30 unique) events are in non-isolated traces (42 / 21 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (7 traces / 3 unique traces) (12 events / 5 unique events)
+	Iterator_HasNext (7 traces / 3 unique traces) (31 events / 13 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (7 traces / 3 unique traces) (38 events / 16 unique events) (31 events / 13 unique events in hot method)
+	Map_UnsafeIterator (3 traces / 2 unique traces) (20 events / 14 unique events) (11 events / 8 unique events in hot method)
+Classifier (com.vividsolutions.jts.operation.valid.ConsistentAreaTester.hasDuplicateRings:147): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#63
+Inspecting hot method com.vividsolutions.jts.geomgraph.index.MonotoneChainIndexer.getChainStartIndices:81...
+Checking for isolation...
+85,22,22,0
+Total 85 (11 unique) events are in hot method
+Total 22 (3 unique) traces are in hot method
+Total 22 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 85 (11 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (22 traces / 3 unique traces) (85 events / 11 unique events)
+Classifier (com.vividsolutions.jts.geomgraph.index.MonotoneChainIndexer.getChainStartIndices:81): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#64
+Inspecting hot method no.ecc.vectortile.VectorTileDecoderTest.assertEquals:290...
+Checking for isolation...
+82,39,15,24
+Total 82 (44 unique) events are in hot method
+Total 39 (16 unique) traces are in hot method
+Total 15 (8 unique) isolated traces are in hot method
+Total 24 (8 unique) non-isolated traces that have events in hot method
+Total 38 (24 unique) events are in isolated traces
+Total 88 (40 unique) events are in non-isolated traces (44 / 20 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (6 traces / 3 unique traces) (14 events / 9 unique events)
+	Collection_UnsafeIterator (6 traces / 3 unique traces) (20 events / 12 unique events)
+	Iterator_RemoveOnce (3 traces / 2 unique traces) (4 events / 3 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (18 traces / 7 unique traces) (76 events / 38 unique events) (38 events / 19 unique events in hot method)
+	Map_CollectionViewAdd (6 traces / 1 unique traces) (12 events / 2 unique events) (6 events / 1 unique events in hot method)
+Classifier (no.ecc.vectortile.VectorTileDecoderTest.assertEquals:290): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_ONE_UNIQUE
+
+#65
+Inspecting hot method com.vividsolutions.jts.operation.relate.EdgeEndBuilder.computeEdgeEnds:76...
+Checking for isolation...
+80,16,8,8
+Total 80 (26 unique) events are in hot method
+Total 16 (5 unique) traces are in hot method
+Total 8 (2 unique) isolated traces are in hot method
+Total 8 (3 unique) non-isolated traces that have events in hot method
+Total 32 (8 unique) events are in isolated traces
+Total 77 (32 unique) events are in non-isolated traces (48 / 18 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (4 traces / 1 unique traces) (8 events / 2 unique events)
+	Iterator_HasNext (4 traces / 1 unique traces) (24 events / 6 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (4 traces / 1 unique traces) (28 events / 7 unique events) (24 events / 6 unique events in hot method)
+	Map_UnsafeIterator (4 traces / 2 unique traces) (49 events / 25 unique events) (24 events / 12 unique events in hot method)
+Classifier (com.vividsolutions.jts.operation.relate.EdgeEndBuilder.computeEdgeEnds:76): LIB,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_ONE_UNIQUE
+
+#66
+Inspecting hot method com.vividsolutions.jts.geomgraph.index.SimpleMCSweepLineIntersector.add:87...
+Checking for isolation...
+77,27,27,0
+Total 77 (21 unique) events are in hot method
+Total 27 (6 unique) traces are in hot method
+Total 27 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 77 (21 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (9 traces / 2 unique traces) (38 events / 10 unique events)
+	Iterator_HasNext (9 traces / 2 unique traces) (29 events / 8 unique events)
+	Iterator_RemoveOnce (9 traces / 2 unique traces) (10 events / 3 unique events)
+Classifier (com.vividsolutions.jts.geomgraph.index.SimpleMCSweepLineIntersector.add:87): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#67
+Inspecting hot method com.vividsolutions.jts.index.chain.MonotoneChainBuilder.getChainStartIndices:87...
+Checking for isolation...
+69,18,18,0
+Total 69 (11 unique) events are in hot method
+Total 18 (3 unique) traces are in hot method
+Total 18 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 69 (11 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (18 traces / 3 unique traces) (69 events / 11 unique events)
+Classifier (com.vividsolutions.jts.index.chain.MonotoneChainBuilder.getChainStartIndices:87): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#68
+Inspecting hot method com.vividsolutions.jts.operation.overlay.OverlayOp.computeGeometry:541...
+Checking for isolation...
+63,28,28,0
+Total 63 (9 unique) events are in hot method
+Total 28 (4 unique) traces are in hot method
+Total 28 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 63 (9 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsynchronizedAddAll (21 traces / 3 unique traces) (42 events / 6 unique events)
+	Collections_SortBeforeBinarySearch (7 traces / 1 unique traces) (21 events / 3 unique events)
+Classifier (com.vividsolutions.jts.operation.overlay.OverlayOp.computeGeometry:541): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE
+
+#69
+Inspecting hot method com.vividsolutions.jts.operation.valid.ConnectedInteriorTester.buildEdgeRings:129...
+Checking for isolation...
+61,16,16,0
+Total 61 (41 unique) events are in hot method
+Total 16 (9 unique) traces are in hot method
+Total 16 (9 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 61 (41 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsynchronizedAddAll (4 traces / 1 unique traces) (8 events / 2 unique events)
+	Iterator_RemoveOnce (3 traces / 2 unique traces) (8 events / 6 unique events)
+	Collection_UnsafeIterator (3 traces / 2 unique traces) (22 events / 16 unique events)
+	Collections_SortBeforeBinarySearch (3 traces / 2 unique traces) (4 events / 3 unique events)
+	Iterator_HasNext (3 traces / 2 unique traces) (19 events / 14 unique events)
+Classifier (com.vividsolutions.jts.operation.valid.ConnectedInteriorTester.buildEdgeRings:129): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE
+
+#70
+Inspecting hot method com.vividsolutions.jts.geomgraph.EdgeList.add:69...
+Checking for isolation...
+60,10,7,3
+Total 60 (51 unique) events are in hot method
+Total 10 (6 unique) traces are in hot method
+Total 7 (3 unique) isolated traces are in hot method
+Total 3 (3 unique) non-isolated traces that have events in hot method
+Total 15 (6 unique) events are in isolated traces
+Total 2030450 (2030450 unique) events are in non-isolated traces (45 / 45 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (7 traces / 3 unique traces) (15 events / 6 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (15 events / 15 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (15 events / 15 unique events in hot method)
+	TreeMap_Comparable (1 traces / 1 unique traces) (164 events / 164 unique events) (15 events / 15 unique events in hot method)
+Classifier (com.vividsolutions.jts.geomgraph.EdgeList.add:69): LIB,ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#71
+Inspecting hot method com.vividsolutions.jts.geomgraph.EdgeEndStar.getEdges:115...
+Checking for isolation...
+60,60,60,0
+Total 60 (2 unique) events are in hot method
+Total 60 (2 unique) traces are in hot method
+Total 60 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 60 (2 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Map_UnsafeIterator (30 traces / 1 unique traces) (30 events / 1 unique events)
+	Map_CollectionViewAdd (30 traces / 1 unique traces) (30 events / 1 unique events)
+Classifier (com.vividsolutions.jts.geomgraph.EdgeEndStar.getEdges:115): LIB,ISOLATED_ONE_UNIQUE
+
+#72
+Inspecting hot method com.vividsolutions.jts.operation.relate.EdgeEndBundle.computeLabel:93...
+Checking for isolation...
+56,24,16,8
+Total 56 (7 unique) events are in hot method
+Total 24 (3 unique) traces are in hot method
+Total 16 (2 unique) isolated traces are in hot method
+Total 8 (1 unique) non-isolated traces that have events in hot method
+Total 32 (4 unique) events are in isolated traces
+Total 32 (4 unique) events are in non-isolated traces (24 / 3 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (8 traces / 1 unique traces) (8 events / 1 unique events)
+	Iterator_HasNext (8 traces / 1 unique traces) (24 events / 3 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (8 traces / 1 unique traces) (32 events / 4 unique events) (24 events / 3 unique events in hot method)
+Classifier (com.vividsolutions.jts.operation.relate.EdgeEndBundle.computeLabel:93): LIB,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_ONE_UNIQUE
+
+#73
+Inspecting hot method com.vividsolutions.jts.operation.relate.EdgeEndBundle.iterator:75...
+Checking for isolation...
+56,56,0,56
+Total 56 (4 unique) events are in hot method
+Total 56 (4 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 56 (4 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 216 (15 unique) events are in non-isolated traces (56 / 4 unique are in hot method)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (56 traces / 4 unique traces) (216 events / 15 unique events) (56 events / 4 unique events in hot method)
+Classifier (com.vividsolutions.jts.operation.relate.EdgeEndBundle.iterator:75): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#74
+Inspecting hot method com.vividsolutions.jts.geomgraph.EdgeRing.addPoints:210...
+Checking for isolation...
+55,11,11,0
+Total 55 (5 unique) events are in hot method
+Total 11 (1 unique) traces are in hot method
+Total 11 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 55 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (11 traces / 1 unique traces) (55 events / 5 unique events)
+Classifier (com.vividsolutions.jts.geomgraph.EdgeRing.addPoints:210): LIB,ISOLATED_ONE_UNIQUE
+
+#75
+Inspecting hot method com.vividsolutions.jts.geomgraph.index.SimpleMCSweepLineIntersector.prepareEvents:120...
+Checking for isolation...
+54,28,2,26
+Total 54 (36 unique) events are in hot method
+Total 28 (10 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 26 (8 unique) non-isolated traces that have events in hot method
+Total 28 (28 unique) events are in isolated traces
+Total 236 (84 unique) events are in non-isolated traces (26 / 8 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Collections_ImplementComparable (1 traces / 1 unique traces) (27 events / 27 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (26 traces / 8 unique traces) (236 events / 84 unique events) (26 events / 8 unique events in hot method)
+Classifier (com.vividsolutions.jts.geomgraph.index.SimpleMCSweepLineIntersector.prepareEvents:120): LIB,ISOLATED_SINGLE_TRACE,NOT_ISOLATED_MULTIPLE_UNIQUE,RAW_ISOLATED_SINGLE_TRACE
+
+#76
+Inspecting hot method com.vividsolutions.jts.operation.overlay.LineBuilder.buildLines:168...
+Checking for isolation...
+51,22,22,0
+Total 51 (27 unique) events are in hot method
+Total 22 (10 unique) traces are in hot method
+Total 22 (10 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 51 (27 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (7 traces / 3 unique traces) (24 events / 12 unique events)
+	Iterator_HasNext (7 traces / 3 unique traces) (17 events / 9 unique events)
+	Collections_SortBeforeBinarySearch (4 traces / 2 unique traces) (5 events / 3 unique events)
+	Iterator_RemoveOnce (4 traces / 2 unique traces) (5 events / 3 unique events)
+Classifier (com.vividsolutions.jts.operation.overlay.LineBuilder.buildLines:168): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#77
+Inspecting hot method com.vividsolutions.jts.index.chain.MonotoneChainBuilder.getChains:69...
+Checking for isolation...
+51,18,18,0
+Total 51 (8 unique) events are in hot method
+Total 18 (3 unique) traces are in hot method
+Total 18 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 51 (8 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (18 traces / 3 unique traces) (51 events / 8 unique events)
+Classifier (com.vividsolutions.jts.index.chain.MonotoneChainBuilder.getChains:69): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#78
+Inspecting hot method com.vividsolutions.jts.operation.relate.RelateNodeGraph.insertEdgeEnds:143...
+Checking for isolation...
+49,9,9,0
+Total 49 (36 unique) events are in hot method
+Total 9 (6 unique) traces are in hot method
+Total 9 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 49 (36 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (3 traces / 2 unique traces) (8 events / 6 unique events)
+	Iterator_HasNext (3 traces / 2 unique traces) (19 events / 14 unique events)
+	Collection_UnsafeIterator (3 traces / 2 unique traces) (22 events / 16 unique events)
+Classifier (com.vividsolutions.jts.operation.relate.RelateNodeGraph.insertEdgeEnds:143): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#79
+Inspecting hot method com.vividsolutions.jts.operation.valid.ConnectedInteriorTester.setInteriorEdgesInResult:114...
+Checking for isolation...
+49,9,9,0
+Total 49 (36 unique) events are in hot method
+Total 9 (6 unique) traces are in hot method
+Total 9 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 49 (36 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (3 traces / 2 unique traces) (8 events / 6 unique events)
+	Collection_UnsafeIterator (3 traces / 2 unique traces) (22 events / 16 unique events)
+	Iterator_HasNext (3 traces / 2 unique traces) (19 events / 14 unique events)
+Classifier (com.vividsolutions.jts.operation.valid.ConnectedInteriorTester.setInteriorEdgesInResult:114): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#80
+Inspecting hot method com.vividsolutions.jts.geomgraph.EdgeEndStar.checkAreaLabelsConsistent:233...
+Checking for isolation...
+48,12,8,4
+Total 48 (12 unique) events are in hot method
+Total 12 (3 unique) traces are in hot method
+Total 8 (2 unique) isolated traces are in hot method
+Total 4 (1 unique) non-isolated traces that have events in hot method
+Total 28 (7 unique) events are in isolated traces
+Total 24 (6 unique) events are in non-isolated traces (20 / 5 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (4 traces / 1 unique traces) (8 events / 2 unique events)
+	Iterator_HasNext (4 traces / 1 unique traces) (20 events / 5 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (4 traces / 1 unique traces) (24 events / 6 unique events) (20 events / 5 unique events in hot method)
+Classifier (com.vividsolutions.jts.geomgraph.EdgeEndStar.checkAreaLabelsConsistent:233): LIB,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_ONE_UNIQUE
+
+#81
+Inspecting hot method com.vividsolutions.jts.operation.valid.IsValidOp.checkNoSelfIntersectingRings:394...
+Checking for isolation...
+47,18,12,6
+Total 47 (19 unique) events are in hot method
+Total 18 (6 unique) traces are in hot method
+Total 12 (4 unique) isolated traces are in hot method
+Total 6 (2 unique) non-isolated traces that have events in hot method
+Total 27 (11 unique) events are in isolated traces
+Total 26 (10 unique) events are in non-isolated traces (20 / 8 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (6 traces / 2 unique traces) (7 events / 3 unique events)
+	Iterator_HasNext (6 traces / 2 unique traces) (20 events / 8 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (6 traces / 2 unique traces) (26 events / 10 unique events) (20 events / 8 unique events in hot method)
+Classifier (com.vividsolutions.jts.operation.valid.IsValidOp.checkNoSelfIntersectingRings:394): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#82
+Inspecting hot method com.vividsolutions.jts.index.strtree.AbstractSTRtree.insert:247...
+Checking for isolation...
+43,8,8,0
+Total 43 (33 unique) events are in hot method
+Total 8 (6 unique) traces are in hot method
+Total 8 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 43 (33 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (8 traces / 6 unique traces) (43 events / 33 unique events)
+Classifier (com.vividsolutions.jts.index.strtree.AbstractSTRtree.insert:247): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#83
+Inspecting hot method com.vividsolutions.jts.index.strtree.AbstractNode.addChildBoundable:141...
+Checking for isolation...
+43,8,8,0
+Total 43 (33 unique) events are in hot method
+Total 8 (6 unique) traces are in hot method
+Total 8 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 43 (33 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (8 traces / 6 unique traces) (43 events / 33 unique events)
+Classifier (com.vividsolutions.jts.index.strtree.AbstractNode.addChildBoundable:141): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#84
+Inspecting hot method com.vividsolutions.jts.operation.overlay.PolygonBuilder.buildMinimalEdgeRings:116...
+Checking for isolation...
+39,18,18,0
+Total 39 (27 unique) events are in hot method
+Total 18 (10 unique) traces are in hot method
+Total 18 (10 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 39 (27 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (7 traces / 3 unique traces) (20 events / 12 unique events)
+	Iterator_HasNext (7 traces / 3 unique traces) (13 events / 9 unique events)
+	Collections_SortBeforeBinarySearch (2 traces / 2 unique traces) (3 events / 3 unique events)
+	Iterator_RemoveOnce (2 traces / 2 unique traces) (3 events / 3 unique events)
+Classifier (com.vividsolutions.jts.operation.overlay.PolygonBuilder.buildMinimalEdgeRings:116): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT
+
+#85
+Inspecting hot method com.vividsolutions.jts.operation.overlay.PolygonBuilder.sortShellsAndHoles:192...
+Checking for isolation...
+39,19,19,0
+Total 39 (26 unique) events are in hot method
+Total 19 (10 unique) traces are in hot method
+Total 19 (10 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 39 (26 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (7 traces / 3 unique traces) (20 events / 12 unique events)
+	Iterator_HasNext (7 traces / 3 unique traces) (13 events / 9 unique events)
+	Collections_SortBeforeBinarySearch (3 traces / 2 unique traces) (3 events / 2 unique events)
+	Iterator_RemoveOnce (2 traces / 2 unique traces) (3 events / 3 unique events)
+Classifier (com.vividsolutions.jts.operation.overlay.PolygonBuilder.sortShellsAndHoles:192): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT
+
+#86
+Inspecting hot method com.vividsolutions.jts.geomgraph.PlanarGraph.add:107...
+Checking for isolation...
+38,10,10,0
+Total 38 (12 unique) events are in hot method
+Total 10 (3 unique) traces are in hot method
+Total 10 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 38 (12 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (10 traces / 3 unique traces) (38 events / 12 unique events)
+Classifier (com.vividsolutions.jts.geomgraph.PlanarGraph.add:107): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#87
+Inspecting hot method com.vividsolutions.jts.operation.relate.RelateNodeGraph.copyNodesAndLabels:133...
+Checking for isolation...
+37,12,6,6
+Total 37 (27 unique) events are in hot method
+Total 12 (8 unique) traces are in hot method
+Total 6 (4 unique) isolated traces are in hot method
+Total 6 (4 unique) non-isolated traces that have events in hot method
+Total 15 (11 unique) events are in isolated traces
+Total 31 (22 unique) events are in non-isolated traces (22 / 16 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (3 traces / 2 unique traces) (4 events / 3 unique events)
+	Iterator_HasNext (3 traces / 2 unique traces) (11 events / 8 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (3 traces / 2 unique traces) (14 events / 10 unique events) (11 events / 8 unique events in hot method)
+	Map_UnsafeIterator (3 traces / 2 unique traces) (17 events / 12 unique events) (11 events / 8 unique events in hot method)
+Classifier (com.vividsolutions.jts.operation.relate.RelateNodeGraph.copyNodesAndLabels:133): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#88
+Inspecting hot method com.vividsolutions.jts.geomgraph.PlanarGraph.linkResultDirectedEdges:148...
+Checking for isolation...
+37,12,6,6
+Total 37 (27 unique) events are in hot method
+Total 12 (8 unique) traces are in hot method
+Total 6 (4 unique) isolated traces are in hot method
+Total 6 (4 unique) non-isolated traces that have events in hot method
+Total 15 (11 unique) events are in isolated traces
+Total 31 (22 unique) events are in non-isolated traces (22 / 16 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (3 traces / 2 unique traces) (4 events / 3 unique events)
+	Iterator_HasNext (3 traces / 2 unique traces) (11 events / 8 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (3 traces / 2 unique traces) (14 events / 10 unique events) (11 events / 8 unique events in hot method)
+	Map_UnsafeIterator (3 traces / 2 unique traces) (17 events / 12 unique events) (11 events / 8 unique events in hot method)
+Classifier (com.vividsolutions.jts.geomgraph.PlanarGraph.linkResultDirectedEdges:148): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#89
+Inspecting hot method com.vividsolutions.jts.operation.valid.ConsistentAreaTester.isNodeEdgeAreaLabelsConsistent:120...
+Checking for isolation...
+37,12,6,6
+Total 37 (27 unique) events are in hot method
+Total 12 (8 unique) traces are in hot method
+Total 6 (4 unique) isolated traces are in hot method
+Total 6 (4 unique) non-isolated traces that have events in hot method
+Total 15 (11 unique) events are in isolated traces
+Total 34 (24 unique) events are in non-isolated traces (22 / 16 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (3 traces / 2 unique traces) (4 events / 3 unique events)
+	Iterator_HasNext (3 traces / 2 unique traces) (11 events / 8 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (3 traces / 2 unique traces) (14 events / 10 unique events) (11 events / 8 unique events in hot method)
+	Map_UnsafeIterator (3 traces / 2 unique traces) (20 events / 14 unique events) (11 events / 8 unique events in hot method)
+Classifier (com.vividsolutions.jts.operation.valid.ConsistentAreaTester.isNodeEdgeAreaLabelsConsistent:120): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#90
+Inspecting hot method com.vividsolutions.jts.geomgraph.DirectedEdgeStar.getOutgoingDegree:84...
+Checking for isolation...
+36,9,6,3
+Total 36 (12 unique) events are in hot method
+Total 9 (3 unique) traces are in hot method
+Total 6 (2 unique) isolated traces are in hot method
+Total 3 (1 unique) non-isolated traces that have events in hot method
+Total 21 (7 unique) events are in isolated traces
+Total 18 (6 unique) events are in non-isolated traces (15 / 5 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (3 traces / 1 unique traces) (15 events / 5 unique events)
+	Iterator_RemoveOnce (3 traces / 1 unique traces) (6 events / 2 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (3 traces / 1 unique traces) (18 events / 6 unique events) (15 events / 5 unique events in hot method)
+Classifier (com.vividsolutions.jts.geomgraph.DirectedEdgeStar.getOutgoingDegree:84): LIB,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_ONE_UNIQUE
+
+#91
+Inspecting hot method com.vividsolutions.jts.operation.overlay.PolygonBuilder.computePolygons:274...
+Checking for isolation...
+33,18,18,0
+Total 33 (12 unique) events are in hot method
+Total 18 (6 unique) traces are in hot method
+Total 18 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 33 (12 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (7 traces / 2 unique traces) (18 events / 6 unique events)
+	Iterator_HasNext (7 traces / 2 unique traces) (11 events / 4 unique events)
+	Collections_SortBeforeBinarySearch (2 traces / 1 unique traces) (2 events / 1 unique events)
+	Iterator_RemoveOnce (2 traces / 1 unique traces) (2 events / 1 unique events)
+Classifier (com.vividsolutions.jts.operation.overlay.PolygonBuilder.computePolygons:274): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE
+
+#92
+Inspecting hot method no.ecc.vectortile.VectorTileDecoder$FeatureIterator.<init>:125...
+Checking for isolation...
+32,32,0,32
+Total 32 (4 unique) events are in hot method
+Total 32 (4 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 32 (4 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 20267 (2052 unique) events are in non-isolated traces (32 / 4 unique are in hot method)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (32 traces / 4 unique traces) (20267 events / 2052 unique events) (32 events / 4 unique events in hot method)
+Classifier (no.ecc.vectortile.VectorTileDecoder$FeatureIterator.<init>:125): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#93
+Inspecting hot method no.ecc.vectortile.VectorTileDecoder$FeatureIterable.getLayerNames:114...
+Checking for isolation...
+32,1,0,1
+Total 32 (32 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 39 (39 unique) events are in non-isolated traces (32 / 32 unique are in hot method)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (39 events / 39 unique events) (32 events / 32 unique events in hot method)
+Classifier (no.ecc.vectortile.VectorTileDecoder$FeatureIterable.getLayerNames:114): CUT,NOT_REDUNDANT_TRACES
+
+#94
+Inspecting hot method com.vividsolutions.jts.geomgraph.GeometryGraph.addPolygonRing:241...
+Checking for isolation...
+28,2,0,2
+Total 28 (28 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 2030286 (2030286 unique) events are in non-isolated traces (28 / 28 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (14 events / 14 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (14 events / 14 unique events in hot method)
+Classifier (com.vividsolutions.jts.geomgraph.GeometryGraph.addPolygonRing:241): LIB,NOT_REDUNDANT_TRACES
+
+#95
+Inspecting hot method com.vividsolutions.jts.operation.overlay.OverlayOp.isCovered:528...
+Checking for isolation...
+27,18,18,0
+Total 27 (3 unique) events are in hot method
+Total 18 (2 unique) traces are in hot method
+Total 18 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 27 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (9 traces / 1 unique traces) (18 events / 2 unique events)
+	Iterator_HasNext (9 traces / 1 unique traces) (9 events / 1 unique events)
+Classifier (com.vividsolutions.jts.operation.overlay.OverlayOp.isCovered:528): LIB,ISOLATED_ONE_UNIQUE
+
+#96
+Inspecting hot method com.google.protobuf.nano.CodedOutputByteBufferNano.writeRawBytes:749...
+Checking for isolation...
+27,1,0,1
+Total 27 (27 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 42 (42 unique) events are in non-isolated traces (27 / 27 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (42 events / 42 unique events) (27 events / 27 unique events in hot method)
+Classifier (com.google.protobuf.nano.CodedOutputByteBufferNano.writeRawBytes:749): LIB,NOT_REDUNDANT_TRACES
+
+#97
+Inspecting hot method com.vividsolutions.jts.operation.overlay.PolygonBuilder.placeFreeHoles:218...
+Checking for isolation...
+26,15,15,0
+Total 26 (11 unique) events are in hot method
+Total 15 (5 unique) traces are in hot method
+Total 15 (5 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 26 (11 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (7 traces / 2 unique traces) (16 events / 6 unique events)
+	Iterator_HasNext (7 traces / 2 unique traces) (9 events / 4 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (1 events / 1 unique events)
+Classifier (com.vividsolutions.jts.operation.overlay.PolygonBuilder.placeFreeHoles:218): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_SINGLE_TRACE
+
+#98
+Inspecting hot method com.vividsolutions.jts.operation.relate.EdgeEndBuilder.computeEdgeEnds:62...
+Checking for isolation...
+26,9,6,3
+Total 26 (19 unique) events are in hot method
+Total 9 (6 unique) traces are in hot method
+Total 6 (4 unique) isolated traces are in hot method
+Total 3 (2 unique) non-isolated traces that have events in hot method
+Total 15 (11 unique) events are in isolated traces
+Total 14 (10 unique) events are in non-isolated traces (11 / 8 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (3 traces / 2 unique traces) (4 events / 3 unique events)
+	Iterator_HasNext (3 traces / 2 unique traces) (11 events / 8 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (3 traces / 2 unique traces) (14 events / 10 unique events) (11 events / 8 unique events in hot method)
+Classifier (com.vividsolutions.jts.operation.relate.EdgeEndBuilder.computeEdgeEnds:62): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#99
+Inspecting hot method com.vividsolutions.jts.index.strtree.STRtree.createParentBoundablesFromVerticalSlices:143...
+Checking for isolation...
+24,16,16,0
+Total 24 (3 unique) events are in hot method
+Total 16 (2 unique) traces are in hot method
+Total 16 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 24 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsynchronizedAddAll (8 traces / 1 unique traces) (16 events / 2 unique events)
+	Collections_SortBeforeBinarySearch (8 traces / 1 unique traces) (8 events / 1 unique events)
+Classifier (com.vividsolutions.jts.index.strtree.STRtree.createParentBoundablesFromVerticalSlices:143): LIB,ISOLATED_ONE_UNIQUE
+
+#100
+Inspecting hot method no.ecc.vectortile.VectorTileEncoder$Layer.key:480...
+Checking for isolation...
+24,2,0,2
+Total 24 (24 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 2030286 (2030286 unique) events are in non-isolated traces (24 / 24 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (12 events / 12 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (12 events / 12 unique events in hot method)
+Classifier (no.ecc.vectortile.VectorTileEncoder$Layer.key:480): CUT,NOT_REDUNDANT_TRACES
+
+#101
+Inspecting hot method com.vividsolutions.jts.geomgraph.PlanarGraph.insertEdge:103...
+Checking for isolation...
+22,19,19,0
+Total 22 (3 unique) events are in hot method
+Total 19 (2 unique) traces are in hot method
+Total 19 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 22 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (19 traces / 2 unique traces) (22 events / 3 unique events)
+Classifier (com.vividsolutions.jts.geomgraph.PlanarGraph.insertEdge:103): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#102
+Inspecting hot method no.ecc.vectortile.VectorTileEncoder$Layer.value:494...
+Checking for isolation...
+22,2,0,2
+Total 22 (22 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 2030286 (2030286 unique) events are in non-isolated traces (22 / 22 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (11 events / 11 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (11 events / 11 unique events in hot method)
+Classifier (no.ecc.vectortile.VectorTileEncoder$Layer.value:494): CUT,NOT_REDUNDANT_TRACES
+
+#103
+Inspecting hot method no.ecc.vectortile.VectorTileEncoder.commands:330...
+Checking for isolation...
+21,12,12,0
+Total 21 (11 unique) events are in hot method
+Total 12 (6 unique) traces are in hot method
+Total 12 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 21 (11 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsynchronizedAddAll (7 traces / 3 unique traces) (14 events / 6 unique events)
+	Collections_SortBeforeBinarySearch (5 traces / 3 unique traces) (7 events / 5 unique events)
+Classifier (no.ecc.vectortile.VectorTileEncoder.commands:330): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#104
+Inspecting hot method com.vividsolutions.jts.geomgraph.EdgeList.addAll:76...
+Checking for isolation...
+21,14,14,0
+Total 21 (3 unique) events are in hot method
+Total 14 (2 unique) traces are in hot method
+Total 14 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 21 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (7 traces / 1 unique traces) (14 events / 2 unique events)
+	Iterator_HasNext (7 traces / 1 unique traces) (7 events / 1 unique events)
+Classifier (com.vividsolutions.jts.geomgraph.EdgeList.addAll:76): LIB,ISOLATED_ONE_UNIQUE
+
+#105
+Inspecting hot method no.ecc.vectortile.VectorTileEncoder$Layer.values:503...
+Checking for isolation...
+20,20,20,0
+Total 20 (2 unique) events are in hot method
+Total 20 (2 unique) traces are in hot method
+Total 20 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 20 (2 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Map_CollectionViewAdd (10 traces / 1 unique traces) (10 events / 1 unique events)
+	Map_UnsafeIterator (10 traces / 1 unique traces) (10 events / 1 unique events)
+Classifier (no.ecc.vectortile.VectorTileEncoder$Layer.values:503): CUT,ISOLATED_ONE_UNIQUE
+
+#106
+Inspecting hot method no.ecc.vectortile.VectorTileEncoder$Layer.keys:489...
+Checking for isolation...
+20,20,20,0
+Total 20 (2 unique) events are in hot method
+Total 20 (2 unique) traces are in hot method
+Total 20 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 20 (2 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Map_CollectionViewAdd (10 traces / 1 unique traces) (10 events / 1 unique events)
+	Map_UnsafeIterator (10 traces / 1 unique traces) (10 events / 1 unique events)
+Classifier (no.ecc.vectortile.VectorTileEncoder$Layer.keys:489): CUT,ISOLATED_ONE_UNIQUE
+
+#107
+Inspecting hot method com.vividsolutions.jts.algorithm.locate.SimplePointInAreaLocator.containsPoint:75...
+Checking for isolation...
+20,4,4,0
+Total 20 (10 unique) events are in hot method
+Total 4 (2 unique) traces are in hot method
+Total 4 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 20 (10 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (2 traces / 1 unique traces) (14 events / 7 unique events)
+	Iterator_RemoveOnce (2 traces / 1 unique traces) (6 events / 3 unique events)
+Classifier (com.vividsolutions.jts.algorithm.locate.SimplePointInAreaLocator.containsPoint:75): LIB,ISOLATED_ONE_UNIQUE
+
+#108
+Inspecting hot method com.vividsolutions.jts.geomgraph.PlanarGraph.findEdgeEnd:174...
+Checking for isolation...
+18,9,9,0
+Total 18 (6 unique) events are in hot method
+Total 9 (3 unique) traces are in hot method
+Total 9 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 18 (6 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (3 traces / 1 unique traces) (6 events / 2 unique events)
+	Collection_UnsafeIterator (3 traces / 1 unique traces) (9 events / 3 unique events)
+	Iterator_RemoveOnce (3 traces / 1 unique traces) (3 events / 1 unique events)
+Classifier (com.vividsolutions.jts.geomgraph.PlanarGraph.findEdgeEnd:174): LIB,ISOLATED_ONE_UNIQUE
+
+#109
+Inspecting hot method com.vividsolutions.jts.geomgraph.EdgeIntersectionList.isIntersection:88...
+Checking for isolation...
+17,4,2,2
+Total 17 (17 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 7 (7 unique) events are in isolated traces
+Total 18 (18 unique) events are in non-isolated traces (10 / 10 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (5 events / 5 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (2 events / 2 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (6 events / 6 unique events) (5 events / 5 unique events in hot method)
+	Map_UnsafeIterator (1 traces / 1 unique traces) (12 events / 12 unique events) (5 events / 5 unique events in hot method)
+Classifier (com.vividsolutions.jts.geomgraph.EdgeIntersectionList.isIntersection:88): LIB,NOT_REDUNDANT_TRACES
+
+#110
+Inspecting hot method com.vividsolutions.jts.index.strtree.STRtree.createParentBoundables:133...
+Checking for isolation...
+16,9,8,1
+Total 16 (9 unique) events are in hot method
+Total 9 (2 unique) traces are in hot method
+Total 8 (1 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 8 (1 unique) events are in isolated traces
+Total 16 (16 unique) events are in non-isolated traces (8 / 8 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (8 traces / 1 unique traces) (8 events / 1 unique events)
+Specs that have non-isolated traces:
+	Collections_Comparable (1 traces / 1 unique traces) (16 events / 16 unique events) (8 events / 8 unique events in hot method)
+Classifier (com.vividsolutions.jts.index.strtree.STRtree.createParentBoundables:133): LIB,ISOLATED_ONE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#111
+Inspecting hot method com.vividsolutions.jts.geomgraph.GeometryGraph.addLineString:288...
+Checking for isolation...
+16,2,0,2
+Total 16 (16 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 2030286 (2030286 unique) events are in non-isolated traces (16 / 16 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (8 events / 8 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (8 events / 8 unique events in hot method)
+Classifier (com.vividsolutions.jts.geomgraph.GeometryGraph.addLineString:288): LIB,NOT_REDUNDANT_TRACES
+
+#112
+Inspecting hot method com.google.protobuf.nano.CodedInputByteBufferNano.readRawBytes:594...
+Checking for isolation...
+15,1,0,1
+Total 15 (15 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 42 (42 unique) events are in non-isolated traces (15 / 15 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (42 events / 42 unique events) (15 events / 15 unique events in hot method)
+Classifier (com.google.protobuf.nano.CodedInputByteBufferNano.readRawBytes:594): LIB,NOT_REDUNDANT_TRACES
+
+#113
+Inspecting hot method com.vividsolutions.jts.io.WKTWriter.createFormatter:132...
+Checking for isolation...
+14,4,4,0
+Total 14 (7 unique) events are in hot method
+Total 4 (2 unique) traces are in hot method
+Total 4 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 14 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (2 traces / 1 unique traces) (8 events / 4 unique events)
+	Appendable_ThreadSafe (2 traces / 1 unique traces) (6 events / 3 unique events)
+Classifier (com.vividsolutions.jts.io.WKTWriter.createFormatter:132): LIB,ISOLATED_ONE_UNIQUE
+
+#114
+Inspecting hot method com.vividsolutions.jts.geomgraph.EdgeList.iterator:97...
+Checking for isolation...
+14,14,0,14
+Total 14 (6 unique) events are in hot method
+Total 14 (6 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 14 (6 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 88 (36 unique) events are in non-isolated traces (14 / 6 unique are in hot method)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (14 traces / 6 unique traces) (88 events / 36 unique events) (14 events / 6 unique events in hot method)
+Classifier (com.vividsolutions.jts.geomgraph.EdgeList.iterator:97): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#115
+Inspecting hot method com.vividsolutions.jts.algorithm.MCPointInRing.isInside:100...
+Checking for isolation...
+13,3,3,0
+Total 13 (13 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 13 (13 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (6 events / 6 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (5 events / 5 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (2 events / 2 unique events)
+Classifier (com.vividsolutions.jts.algorithm.MCPointInRing.isInside:100): LIB,NOT_REDUNDANT_TRACES
+
+#116
+Inspecting hot method com.vividsolutions.jts.geomgraph.PlanarGraph.getEdgeIterator:90...
+Checking for isolation...
+12,12,0,12
+Total 12 (6 unique) events are in hot method
+Total 12 (6 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 12 (6 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 54 (30 unique) events are in non-isolated traces (12 / 6 unique are in hot method)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (12 traces / 6 unique traces) (54 events / 30 unique events) (12 events / 6 unique events in hot method)
+Classifier (com.vividsolutions.jts.geomgraph.PlanarGraph.getEdgeIterator:90): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#117
+Inspecting hot method no.ecc.vectortile.VectorTileEncoderTest.testAttributeTypes:299...
+Checking for isolation...
+12,2,0,2
+Total 12 (12 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 2030286 (2030286 unique) events are in non-isolated traces (12 / 12 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (6 events / 6 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (6 events / 6 unique events in hot method)
+Classifier (no.ecc.vectortile.VectorTileEncoderTest.testAttributeTypes:299): CUT,NOT_REDUNDANT_TRACES
+
+#118
+Inspecting hot method com.vividsolutions.jts.geomgraph.EdgeRing.computePoints:133...
+Checking for isolation...
+11,11,11,0
+Total 11 (1 unique) events are in hot method
+Total 11 (1 unique) traces are in hot method
+Total 11 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 11 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (11 traces / 1 unique traces) (11 events / 1 unique events)
+Classifier (com.vividsolutions.jts.geomgraph.EdgeRing.computePoints:133): LIB,ISOLATED_ONE_UNIQUE
+
+#119
+Inspecting hot method no.ecc.vectortile.VectorTileDecoderTest.testPoint:70...
+Checking for isolation...
+10,9,7,2
+Total 10 (10 unique) events are in hot method
+Total 9 (9 unique) traces are in hot method
+Total 7 (7 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 8 (8 unique) events are in isolated traces
+Total 2030286 (2030286 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (3 traces / 3 unique traces) (3 events / 3 unique events)
+	Iterator_RemoveOnce (3 traces / 3 unique traces) (3 events / 3 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (2 events / 2 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (1 events / 1 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (1 events / 1 unique events in hot method)
+Classifier (no.ecc.vectortile.VectorTileDecoderTest.testPoint:70): CUT,NOT_REDUNDANT_TRACES
+
+#120
+Inspecting hot method com.vividsolutions.jts.algorithm.PointLocator.computeLocation:119...
+Checking for isolation...
+10,2,2,0
+Total 10 (10 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 10 (10 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (7 events / 7 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (3 events / 3 unique events)
+Classifier (com.vividsolutions.jts.algorithm.PointLocator.computeLocation:119): LIB,NOT_REDUNDANT_TRACES
+
+#121
+Inspecting hot method com.vividsolutions.jts.index.bintree.NodeBase.add:78...
+Checking for isolation...
+9,6,6,0
+Total 9 (3 unique) events are in hot method
+Total 6 (2 unique) traces are in hot method
+Total 6 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 9 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (6 traces / 2 unique traces) (9 events / 3 unique events)
+Classifier (com.vividsolutions.jts.index.bintree.NodeBase.add:78): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#122
+Inspecting hot method com.vividsolutions.jts.operation.overlay.PolygonBuilder.findEdgeRingContaining:247...
+Checking for isolation...
+8,3,3,0
+Total 8 (8 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 8 (8 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (4 events / 4 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (3 events / 3 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (1 events / 1 unique events)
+Classifier (com.vividsolutions.jts.operation.overlay.PolygonBuilder.findEdgeRingContaining:247): LIB,NOT_REDUNDANT_TRACES
+
+#123
+Inspecting hot method no.ecc.vectortile.VectorTileDecoderTest.testLineString:109...
+Checking for isolation...
+8,5,3,2
+Total 8 (8 unique) events are in hot method
+Total 5 (5 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 4 (4 unique) events are in isolated traces
+Total 2030286 (2030286 unique) events are in non-isolated traces (4 / 4 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (2 events / 2 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (2 events / 2 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (2 events / 2 unique events in hot method)
+Classifier (no.ecc.vectortile.VectorTileDecoderTest.testLineString:109): CUT,NOT_REDUNDANT_TRACES
+
+#124
+Inspecting hot method com.vividsolutions.jts.operation.relate.EdgeEndBundle.insert:82...
+Checking for isolation...
+8,8,8,0
+Total 8 (1 unique) events are in hot method
+Total 8 (1 unique) traces are in hot method
+Total 8 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 8 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (8 traces / 1 unique traces) (8 events / 1 unique events)
+Classifier (com.vividsolutions.jts.operation.relate.EdgeEndBundle.insert:82): LIB,ISOLATED_ONE_UNIQUE
+
+#125
+Inspecting hot method no.ecc.vectortile.VectorTileDecoderTest.testMultiPoint:89...
+Checking for isolation...
+6,5,3,2
+Total 6 (6 unique) events are in hot method
+Total 5 (5 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 4 (4 unique) events are in isolated traces
+Total 2030286 (2030286 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (2 events / 2 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (1 events / 1 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (1 events / 1 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (1 events / 1 unique events in hot method)
+Classifier (no.ecc.vectortile.VectorTileDecoderTest.testMultiPoint:89): CUT,NOT_REDUNDANT_TRACES
+
+#126
+Inspecting hot method com.vividsolutions.jts.index.bintree.NodeBase.addAllItemsFromOverlapping:102...
+Checking for isolation...
+6,3,3,0
+Total 6 (4 unique) events are in hot method
+Total 3 (2 unique) traces are in hot method
+Total 3 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 6 (4 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsynchronizedAddAll (2 traces / 1 unique traces) (4 events / 2 unique events)
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (2 events / 2 unique events)
+Classifier (com.vividsolutions.jts.index.bintree.NodeBase.addAllItemsFromOverlapping:102): LIB,ISOLATED_ONE_UNIQUE,ISOLATED_SINGLE_TRACE
+
+#127
+Inspecting hot method com.vividsolutions.jts.geom.PrecisionModel$Type.<init>:117...
+Checking for isolation...
+6,2,0,2
+Total 6 (6 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 2030286 (2030286 unique) events are in non-isolated traces (6 / 6 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (3 events / 3 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (3 events / 3 unique events in hot method)
+Classifier (com.vividsolutions.jts.geom.PrecisionModel$Type.<init>:117): LIB,NOT_REDUNDANT_TRACES
+
+#128
+Inspecting hot method no.ecc.vectortile.VectorTileEncoderTest.testNullAttributeValue:276...
+Checking for isolation...
+6,2,0,2
+Total 6 (6 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 2030286 (2030286 unique) events are in non-isolated traces (6 / 6 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (3 events / 3 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (1015143 events / 1015143 unique events) (3 events / 3 unique events in hot method)
+Classifier (no.ecc.vectortile.VectorTileEncoderTest.testNullAttributeValue:276): CUT,NOT_REDUNDANT_TRACES
+
+#129
+Inspecting hot method com.vividsolutions.jts.operation.overlay.LineBuilder.collectLineEdge:122...
+Checking for isolation...
+5,4,4,0
+Total 5 (3 unique) events are in hot method
+Total 4 (2 unique) traces are in hot method
+Total 4 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (4 traces / 2 unique traces) (5 events / 3 unique events)
+Classifier (com.vividsolutions.jts.operation.overlay.LineBuilder.collectLineEdge:122): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#130
+Inspecting hot method no.ecc.vectortile.VectorTileEncoderTest.testCommandsFilter:98...
+Checking for isolation...
+4,1,1,0
+Total 4 (4 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 4 (4 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (4 events / 4 unique events)
+Classifier (no.ecc.vectortile.VectorTileEncoderTest.testCommandsFilter:98): CUT,NOT_REDUNDANT_TRACES
+
+#131
+Inspecting hot method no.ecc.vectortile.VectorTileDecoderTest.testPolygonWithHole:189...
+Checking for isolation...
+4,3,3,0
+Total 4 (4 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 4 (4 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (2 events / 2 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (1 events / 1 unique events)
+Classifier (no.ecc.vectortile.VectorTileDecoderTest.testPolygonWithHole:189): CUT,NOT_REDUNDANT_TRACES
+
+#132
+Inspecting hot method no.ecc.vectortile.VectorTileDecoderTest.testMultiLineString:134...
+Checking for isolation...
+4,3,3,0
+Total 4 (4 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 4 (4 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (2 events / 2 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (1 events / 1 unique events)
+Classifier (no.ecc.vectortile.VectorTileDecoderTest.testMultiLineString:134): CUT,NOT_REDUNDANT_TRACES
+
+#133
+Inspecting hot method no.ecc.vectortile.VectorTileDecoderTest.testPolygon:162...
+Checking for isolation...
+4,3,3,0
+Total 4 (4 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 4 (4 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (2 events / 2 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (1 events / 1 unique events)
+Classifier (no.ecc.vectortile.VectorTileDecoderTest.testPolygon:162): CUT,NOT_REDUNDANT_TRACES
+
+#134
+Inspecting hot method no.ecc.vectortile.VectorTileEncoderTest.testEncode:41...
+Checking for isolation...
+4,1,1,0
+Total 4 (4 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 4 (4 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (4 events / 4 unique events)
+Classifier (no.ecc.vectortile.VectorTileEncoderTest.testEncode:41): CUT,NOT_REDUNDANT_TRACES
+
+#135
+Inspecting hot method no.ecc.vectortile.VectorTileEncoderTest.testCCWPolygon:156...
+Checking for isolation...
+4,1,1,0
+Total 4 (4 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 4 (4 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (4 events / 4 unique events)
+Classifier (no.ecc.vectortile.VectorTileEncoderTest.testCCWPolygon:156): CUT,NOT_REDUNDANT_TRACES
+
+#136
+Inspecting hot method no.ecc.vectortile.VectorTileEncoderTest.testCWPolygon:185...
+Checking for isolation...
+4,1,1,0
+Total 4 (4 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 4 (4 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (4 events / 4 unique events)
+Classifier (no.ecc.vectortile.VectorTileEncoderTest.testCWPolygon:185): CUT,NOT_REDUNDANT_TRACES
+
+#137
+Inspecting hot method com.vividsolutions.jts.operation.overlay.MaximalEdgeRing.buildMinimalRings:93...
+Checking for isolation...
+4,4,4,0
+Total 4 (1 unique) events are in hot method
+Total 4 (1 unique) traces are in hot method
+Total 4 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 4 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (4 traces / 1 unique traces) (4 events / 1 unique events)
+Classifier (com.vividsolutions.jts.operation.overlay.MaximalEdgeRing.buildMinimalRings:93): LIB,ISOLATED_ONE_UNIQUE
+
+#138
+Inspecting hot method no.ecc.vectortile.VectorTileEncoderTest.testFourEqualPoints:241...
+Checking for isolation...
+4,1,1,0
+Total 4 (4 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 4 (4 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (4 events / 4 unique events)
+Classifier (no.ecc.vectortile.VectorTileEncoderTest.testFourEqualPoints:241): CUT,NOT_REDUNDANT_TRACES
+
+#139
+Inspecting hot method com.vividsolutions.jts.operation.relate.EdgeEndBuilder.createEdgeEndForNext:150...
+Checking for isolation...
+4,3,0,3
+Total 4 (3 unique) events are in hot method
+Total 3 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 3 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 8 (6 unique) events are in non-isolated traces (4 / 3 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (3 traces / 2 unique traces) (8 events / 6 unique events) (4 events / 3 unique events in hot method)
+Classifier (com.vividsolutions.jts.operation.relate.EdgeEndBuilder.createEdgeEndForNext:150): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#140
+Inspecting hot method com.vividsolutions.jts.operation.relate.EdgeEndBuilder.createEdgeEndForPrev:117...
+Checking for isolation...
+4,3,0,3
+Total 4 (3 unique) events are in hot method
+Total 3 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 3 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 8 (6 unique) events are in non-isolated traces (4 / 3 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (3 traces / 2 unique traces) (8 events / 6 unique events) (4 events / 3 unique events in hot method)
+Classifier (com.vividsolutions.jts.operation.relate.EdgeEndBuilder.createEdgeEndForPrev:117): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#141
+Inspecting hot method no.ecc.vectortile.VectorTileEncoderTest.testCommands:74...
+Checking for isolation...
+3,1,1,0
+Total 3 (3 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (3 events / 3 unique events)
+Classifier (no.ecc.vectortile.VectorTileEncoderTest.testCommands:74): CUT,NOT_REDUNDANT_TRACES
+
+#142
+Inspecting hot method no.ecc.vectortile.VectorTileEncoderTest.testToGeomType:63...
+Checking for isolation...
+3,1,1,0
+Total 3 (3 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (3 events / 3 unique events)
+Classifier (no.ecc.vectortile.VectorTileEncoderTest.testToGeomType:63): CUT,NOT_REDUNDANT_TRACES
+
+#143
+Inspecting hot method no.ecc.vectortile.VectorTileDecoderTest.testWithoutScaling:53...
+Checking for isolation...
+2,2,2,0
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2 (2 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (1 events / 1 unique events)
+Classifier (no.ecc.vectortile.VectorTileDecoderTest.testWithoutScaling:53): CUT,NOT_REDUNDANT_TRACES
+
+#144
+Inspecting hot method com.vividsolutions.jts.operation.overlay.PointBuilder.filterCoveredNodeToPoint:120...
+Checking for isolation...
+2,1,1,0
+Total 2 (2 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2 (2 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (2 events / 2 unique events)
+Classifier (com.vividsolutions.jts.operation.overlay.PointBuilder.filterCoveredNodeToPoint:120): LIB,NOT_REDUNDANT_TRACES
+
+#145
+Inspecting hot method no.ecc.vectortile.VectorTileEncoderTest.testMultiPoint:137...
+Checking for isolation...
+2,1,1,0
+Total 2 (2 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2 (2 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (2 events / 2 unique events)
+Classifier (no.ecc.vectortile.VectorTileEncoderTest.testMultiPoint:137): CUT,NOT_REDUNDANT_TRACES
+

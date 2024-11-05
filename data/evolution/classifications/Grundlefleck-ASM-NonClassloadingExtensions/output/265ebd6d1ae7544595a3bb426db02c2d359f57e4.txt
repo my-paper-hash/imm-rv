@@ -1,0 +1,848 @@
+Reading traces...
+Reading specs frequency...
+Reading locations...
+Counting events...
+Total 187447735 events and 38492658 traces
+Inspecting top 200 IMM
+Finding hot methods...
+Number of events, method name
+78918074,org.objectweb.asm.tree.analysis.Frame.init:110
+41959800,org.objectweb.asm.tree.analysis.Subroutine.copy:63
+23535470,org.objectweb.asm.ClassReader.<init>:437
+14121278,org.objectweb.asm.ClassReader.readClass:454
+8051644,org.objectweb.asm.tree.analysis.Frame.execute:248
+6402860,org.objectweb.asm.tree.analysis.SimpleVerifier.newValue:138
+5059176,org.objectweb.asm.tree.analysis.Analyzer.analyze:107
+1678264,com.google.classpath.ResourceFinder.findResources:38
+1272840,org.objectweb.asm.tree.analysis.BasicInterpreter.unaryOperation:168
+984962,org.mutabilitydetector.asm.TypeHierarchyReader$TypeHierarchy.isAssignableFromAnyInterfaceImplementedBy:326
+984962,org.objectweb.asm.tree.analysis.TypeHierarchyReader$TypeHierarchy.isAssignableFromAnyInterfaceImplementedBy:326
+969954,org.objectweb.asm.tree.analysis.Subroutine.<init>:56
+807468,org.objectweb.asm.tree.FrameNode.asList:196
+743652,org.objectweb.asm.ClassReader.readCode:1038
+639624,org.objectweb.asm.tree.MethodNode.visitLocalVariable:571
+508626,org.objectweb.asm.tree.MethodNode.<init>:295
+479856,com.google.classpath.JARClassPath.addResource:86
+175870,org.objectweb.asm.tree.MethodNode.visitTryCatchBlock:542
+46338,org.objectweb.asm.tree.LookupSwitchInsnNode.<init>:78
+29844,org.objectweb.asm.tree.TableSwitchInsnNode.<init>:85
+23640,com.google.classpath.JARClassPath.addPackage:70
+15776,com.google.classpath.JARClassPath.listPackages:121
+11226,org.objectweb.asm.tree.MethodNode.visitAnnotation:339
+8826,org.objectweb.asm.tree.analysis.Subroutine.merge:72
+6486,org.objectweb.asm.tree.MethodNode.visitParameterAnnotation:375
+3096,org.objectweb.asm.tree.InvokeDynamicInsnNode.<init>:80
+2790,org.objectweb.asm.tree.AnnotationNode.visit:111
+1870,org.objectweb.asm.tree.analysis.Frame.toString:728
+1666,org.objectweb.asm.tree.analysis.Analyzer.findSubroutine:307
+1164,org.objectweb.asm.tree.AnnotationNode.visitArray:148
+340,org.objectweb.asm.tree.analysis.AnalyzerException.<init>:58
+108,org.objectweb.asm.tree.AnnotationNode.visitEnum:123
+64,com.google.classpath.CompositeClassPath.findResources:76
+20,org.mutabilitydetector.asmoverride.CanCalculateFramesForEveryJdkRuntimeClassTest.<init>:29
+20,org.mutabilitydetector.asm.CanCalculateFramesForEveryJdkRuntimeClassTest.<init>:28
+14,org.objectweb.asm.tree.analysis.BasicVerifier.ternaryOperation:321
+12,org.objectweb.asm.tree.analysis.Frame.setLocal:174
+10,org.objectweb.asm.tree.analysis.BasicVerifier.naryOperation:377
+10,org.mutabilitydetector.asm.CachingTypeHierarchyReader.hierarchyOf:25
+10,org.mutabilitydetector.asmoverride.CachingTypeHierarchyReader.hierarchyOf:26
+8,com.google.classpath.ClassPathFactory.createFromPaths:43
+4,org.objenesis.ObjenesisBase.getInstantiatorOf:71
+2,org.objectweb.asm.tree.analysis.Frame.getLocal:155
+2,org.objectweb.asm.tree.analysis.Frame.pop:219
+2,org.objectweb.asm.tree.analysis.Frame.push:235
+2,org.objectweb.asm.tree.MethodNode$1.<clinit>:0
+1,org.mutabilitydetector.asm.TypeHierarchyReader$$EnhancerByMockitoWithCGLIB$$b17b3f39.CGLIB$STATICHOOK1:0
+1,org.objectweb.asm.tree.analysis.TypeHierarchyReader$$EnhancerByMockitoWithCGLIB$$69e196dc.CGLIB$STATICHOOK2:0
+1,org.objectweb.asm.tree.analysis.TypeHierarchyReader.hierarchyOf:151
+1,org.mutabilitydetector.asm.TypeHierarchyReader.hierarchyOf:151
+1,org.objectweb.asm.tree.analysis.AnalyzerException.<clinit>:0
+^^^ Last method that contains more than one event ^^^
+Starting org.objectweb.asm.tree.MethodNode.visitParameterAnnotation:375
+Finish org.objectweb.asm.tree.MethodNode.visitParameterAnnotation:375
+Starting org.objectweb.asm.tree.FrameNode.asList:196
+Finish org.objectweb.asm.tree.FrameNode.asList:196
+Starting org.objectweb.asm.tree.analysis.Frame.init:110
+Finish org.objectweb.asm.tree.analysis.Frame.init:110
+Starting org.objectweb.asm.tree.analysis.Subroutine.copy:63
+Finish org.objectweb.asm.tree.analysis.Subroutine.copy:63
+Starting org.objectweb.asm.tree.analysis.SimpleVerifier.newValue:138
+Finish org.objectweb.asm.tree.analysis.SimpleVerifier.newValue:138
+Starting org.objectweb.asm.tree.AnnotationNode.visit:111
+Finish org.objectweb.asm.tree.AnnotationNode.visit:111
+Starting org.objectweb.asm.ClassReader.readCode:1038
+Finish org.objectweb.asm.ClassReader.readCode:1038
+Starting org.objectweb.asm.tree.InvokeDynamicInsnNode.<init>:80
+Finish org.objectweb.asm.tree.InvokeDynamicInsnNode.<init>:80
+Starting org.objectweb.asm.tree.LookupSwitchInsnNode.<init>:78
+Finish org.objectweb.asm.tree.LookupSwitchInsnNode.<init>:78
+Starting org.objectweb.asm.tree.analysis.Analyzer.findSubroutine:307
+Finish org.objectweb.asm.tree.analysis.Analyzer.findSubroutine:307
+Starting org.objectweb.asm.tree.MethodNode.visitLocalVariable:571
+Finish org.objectweb.asm.tree.MethodNode.visitLocalVariable:571
+Starting org.objectweb.asm.tree.analysis.Frame.setLocal:174
+Finish org.objectweb.asm.tree.analysis.Frame.setLocal:174
+Starting org.objectweb.asm.tree.MethodNode.<init>:295
+Finish org.objectweb.asm.tree.MethodNode.<init>:295
+Starting org.mutabilitydetector.asm.CanCalculateFramesForEveryJdkRuntimeClassTest.<init>:28
+Finish org.mutabilitydetector.asm.CanCalculateFramesForEveryJdkRuntimeClassTest.<init>:28
+Starting com.google.classpath.JARClassPath.listPackages:121
+Finish com.google.classpath.JARClassPath.listPackages:121
+Starting org.objectweb.asm.tree.analysis.BasicVerifier.ternaryOperation:321
+Finish org.objectweb.asm.tree.analysis.BasicVerifier.ternaryOperation:321
+Starting org.objectweb.asm.tree.analysis.Subroutine.<init>:56
+Finish org.objectweb.asm.tree.analysis.Subroutine.<init>:56
+Starting org.objectweb.asm.tree.analysis.Frame.getLocal:155
+Finish org.objectweb.asm.tree.analysis.Frame.getLocal:155
+Starting com.google.classpath.ResourceFinder.findResources:38
+Finish com.google.classpath.ResourceFinder.findResources:38
+Starting org.objectweb.asm.tree.analysis.BasicVerifier.naryOperation:377
+Finish org.objectweb.asm.tree.analysis.BasicVerifier.naryOperation:377
+Starting com.google.classpath.JARClassPath.addResource:86
+Finish com.google.classpath.JARClassPath.addResource:86
+Starting org.objectweb.asm.tree.AnnotationNode.visitArray:148
+Finish org.objectweb.asm.tree.AnnotationNode.visitArray:148
+Starting com.google.classpath.JARClassPath.addPackage:70
+Finish com.google.classpath.JARClassPath.addPackage:70
+Starting org.objectweb.asm.tree.analysis.Frame.toString:728
+Finish org.objectweb.asm.tree.analysis.Frame.toString:728
+Starting org.objectweb.asm.tree.analysis.Frame.execute:248
+Finish org.objectweb.asm.tree.analysis.Frame.execute:248
+Starting org.mutabilitydetector.asmoverride.CanCalculateFramesForEveryJdkRuntimeClassTest.<init>:29
+Finish org.mutabilitydetector.asmoverride.CanCalculateFramesForEveryJdkRuntimeClassTest.<init>:29
+Starting org.objectweb.asm.tree.MethodNode.visitTryCatchBlock:542
+Finish org.objectweb.asm.tree.MethodNode.visitTryCatchBlock:542
+Starting org.objectweb.asm.tree.AnnotationNode.visitEnum:123
+Finish org.objectweb.asm.tree.AnnotationNode.visitEnum:123
+Starting org.objectweb.asm.tree.analysis.TypeHierarchyReader$TypeHierarchy.isAssignableFromAnyInterfaceImplementedBy:326
+Finish org.objectweb.asm.tree.analysis.TypeHierarchyReader$TypeHierarchy.isAssignableFromAnyInterfaceImplementedBy:326
+Starting org.mutabilitydetector.asm.CachingTypeHierarchyReader.hierarchyOf:25
+Finish org.mutabilitydetector.asm.CachingTypeHierarchyReader.hierarchyOf:25
+Starting org.objectweb.asm.tree.analysis.Subroutine.merge:72
+Finish org.objectweb.asm.tree.analysis.Subroutine.merge:72
+Starting org.objectweb.asm.tree.analysis.Frame.push:235
+Finish org.objectweb.asm.tree.analysis.Frame.push:235
+Starting org.objectweb.asm.tree.TableSwitchInsnNode.<init>:85
+Finish org.objectweb.asm.tree.TableSwitchInsnNode.<init>:85
+Starting org.mutabilitydetector.asmoverride.CachingTypeHierarchyReader.hierarchyOf:26
+Finish org.mutabilitydetector.asmoverride.CachingTypeHierarchyReader.hierarchyOf:26
+Starting org.objectweb.asm.tree.analysis.Analyzer.analyze:107
+Finish org.objectweb.asm.tree.analysis.Analyzer.analyze:107
+Starting org.objectweb.asm.tree.analysis.Frame.pop:219
+Finish org.objectweb.asm.tree.analysis.Frame.pop:219
+Starting org.objectweb.asm.ClassReader.<init>:437
+Finish org.objectweb.asm.ClassReader.<init>:437
+Starting org.objectweb.asm.tree.MethodNode$1.<clinit>:0
+Finish org.objectweb.asm.tree.MethodNode$1.<clinit>:0
+Starting org.objectweb.asm.tree.analysis.BasicInterpreter.unaryOperation:168
+Finish org.objectweb.asm.tree.analysis.BasicInterpreter.unaryOperation:168
+Starting org.objectweb.asm.tree.analysis.AnalyzerException.<init>:58
+Finish org.objectweb.asm.tree.analysis.AnalyzerException.<init>:58
+Starting org.objectweb.asm.ClassReader.readClass:454
+Finish org.objectweb.asm.ClassReader.readClass:454
+Starting com.google.classpath.ClassPathFactory.createFromPaths:43
+Finish com.google.classpath.ClassPathFactory.createFromPaths:43
+Starting org.objectweb.asm.tree.MethodNode.visitAnnotation:339
+Finish org.objectweb.asm.tree.MethodNode.visitAnnotation:339
+Starting org.objenesis.ObjenesisBase.getInstantiatorOf:71
+Finish org.objenesis.ObjenesisBase.getInstantiatorOf:71
+
+#1
+Inspecting hot method org.objectweb.asm.tree.analysis.Frame.init:110...
+Checking for isolation...
+78918074,1,0,1
+Total 78918074 (78918074 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 120877874 (120877874 unique) events are in non-isolated traces (78918074 / 78918074 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (120877874 events / 120877874 unique events) (78918074 events / 78918074 unique events in hot method)
+Classifier (org.objectweb.asm.tree.analysis.Frame.init:110): CUT,NOT_REDUNDANT_TRACES
+
+#2
+Inspecting hot method org.objectweb.asm.tree.analysis.Subroutine.copy:63...
+Checking for isolation...
+41959800,1,0,1
+Total 41959800 (41959800 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 120877874 (120877874 unique) events are in non-isolated traces (41959800 / 41959800 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (120877874 events / 120877874 unique events) (41959800 events / 41959800 unique events in hot method)
+Classifier (org.objectweb.asm.tree.analysis.Subroutine.copy:63): CUT,NOT_REDUNDANT_TRACES
+
+#3
+Inspecting hot method org.objectweb.asm.ClassReader.<init>:437...
+Checking for isolation...
+23535470,9414188,9414188,0
+Total 23535470 (5 unique) events are in hot method
+Total 9414188 (2 unique) traces are in hot method
+Total 9414188 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 23535470 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (4707094 traces / 1 unique traces) (9414188 events / 2 unique events)
+	StringBuilder_ThreadSafe (4707094 traces / 1 unique traces) (14121282 events / 3 unique events)
+Classifier (org.objectweb.asm.ClassReader.<init>:437): LIB,ISOLATED_ONE_UNIQUE
+
+#4
+Inspecting hot method org.objectweb.asm.ClassReader.readClass:454...
+Checking for isolation...
+14121278,14121278,14121278,0
+Total 14121278 (4 unique) events are in hot method
+Total 14121278 (4 unique) traces are in hot method
+Total 14121278 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 14121278 (4 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	InputStream_ManipulateAfterClose (4707092 traces / 1 unique traces) (4707092 events / 1 unique events)
+	InputStream_MarkAfterClose (4707092 traces / 1 unique traces) (4707092 events / 1 unique events)
+	Closeable_MultipleClose (4707092 traces / 1 unique traces) (4707092 events / 1 unique events)
+	Throwable_InitCauseOnce (2 traces / 1 unique traces) (2 events / 1 unique events)
+Classifier (org.objectweb.asm.ClassReader.readClass:454): LIB,ISOLATED_ONE_UNIQUE
+
+#5
+Inspecting hot method org.objectweb.asm.tree.analysis.Frame.execute:248...
+Checking for isolation...
+8051644,4148166,4148166,0
+Total 8051644 (648 unique) events are in hot method
+Total 4148166 (56 unique) traces are in hot method
+Total 4148166 (56 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 8051644 (648 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (4148160 traces / 53 unique traces) (8051632 events / 642 unique events)
+	Appendable_ThreadSafe (2 traces / 1 unique traces) (4 events / 2 unique events)
+	StringBuilder_ThreadSafe (2 traces / 1 unique traces) (6 events / 3 unique events)
+	Throwable_InitCauseOnce (2 traces / 1 unique traces) (2 events / 1 unique events)
+Classifier (org.objectweb.asm.tree.analysis.Frame.execute:248): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE
+
+#6
+Inspecting hot method org.objectweb.asm.tree.analysis.SimpleVerifier.newValue:138...
+Checking for isolation...
+6402860,2561144,2561144,0
+Total 6402860 (5 unique) events are in hot method
+Total 2561144 (2 unique) traces are in hot method
+Total 2561144 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 6402860 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (1280572 traces / 1 unique traces) (2561144 events / 2 unique events)
+	StringBuilder_ThreadSafe (1280572 traces / 1 unique traces) (3841716 events / 3 unique events)
+Classifier (org.objectweb.asm.tree.analysis.SimpleVerifier.newValue:138): CUT,ISOLATED_ONE_UNIQUE
+
+#7
+Inspecting hot method org.objectweb.asm.tree.analysis.Analyzer.analyze:107...
+Checking for isolation...
+5059176,3597118,3596066,1052
+Total 5059176 (1504 unique) events are in hot method
+Total 3597118 (23 unique) traces are in hot method
+Total 3596066 (15 unique) isolated traces are in hot method
+Total 1052 (8 unique) non-isolated traces that have events in hot method
+Total 5055146 (84 unique) events are in isolated traces
+Total 22176 (17219 unique) events are in non-isolated traces (4030 / 1420 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (3595934 traces / 11 unique traces) (5054552 events / 66 unique events)
+	Appendable_ThreadSafe (66 traces / 2 unique traces) (264 events / 8 unique events)
+	StringBuilder_ThreadSafe (66 traces / 2 unique traces) (330 events / 10 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (1050 traces / 6 unique traces) (4988 events / 31 unique events) (2626 events / 16 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (8594 events / 8594 unique events) (702 events / 702 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (8594 events / 8594 unique events) (702 events / 702 unique events in hot method)
+Classifier (org.objectweb.asm.tree.analysis.Analyzer.analyze:107): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#8
+Inspecting hot method com.google.classpath.ResourceFinder.findResources:38...
+Checking for isolation...
+1678264,335651,335648,3
+Total 1678264 (503510 unique) events are in hot method
+Total 335651 (7 unique) traces are in hot method
+Total 335648 (4 unique) isolated traces are in hot method
+Total 3 (3 unique) non-isolated traces that have events in hot method
+Total 1174768 (14 unique) events are in isolated traces
+Total 983392 (983392 unique) events are in non-isolated traces (503496 / 503496 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (167824 traces / 2 unique traces) (503472 events / 6 unique events)
+	StringBuilder_ThreadSafe (167824 traces / 2 unique traces) (671296 events / 8 unique events)
+Specs that have non-isolated traces:
+	SortedSet_Comparable (1 traces / 1 unique traces) (327800 events / 327800 unique events) (167832 events / 167832 unique events in hot method)
+	Set_ItselfAsElement (1 traces / 1 unique traces) (327792 events / 327792 unique events) (167832 events / 167832 unique events in hot method)
+	TreeSet_Comparable (1 traces / 1 unique traces) (327800 events / 327800 unique events) (167832 events / 167832 unique events in hot method)
+Classifier (com.google.classpath.ResourceFinder.findResources:38): LIB,ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#9
+Inspecting hot method org.objectweb.asm.tree.analysis.BasicInterpreter.unaryOperation:168...
+Checking for isolation...
+1272840,509136,509136,0
+Total 1272840 (5 unique) events are in hot method
+Total 509136 (2 unique) traces are in hot method
+Total 509136 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1272840 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (254568 traces / 1 unique traces) (509136 events / 2 unique events)
+	StringBuilder_ThreadSafe (254568 traces / 1 unique traces) (763704 events / 3 unique events)
+Classifier (org.objectweb.asm.tree.analysis.BasicInterpreter.unaryOperation:168): CUT,ISOLATED_ONE_UNIQUE
+
+#10
+Inspecting hot method org.mutabilitydetector.asm.TypeHierarchyReader$TypeHierarchy.isAssignableFromAnyInterfaceImplementedBy:326...
+Checking for isolation...
+984962,283170,283170,0
+Total 984962 (185 unique) events are in hot method
+Total 283170 (25 unique) traces are in hot method
+Total 283170 (25 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 984962 (185 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (94390 traces / 7 unique traces) (140380 events / 30 unique events)
+	Collection_UnsafeIterator (94390 traces / 9 unique traces) (469486 events / 82 unique events)
+	Iterator_HasNext (94390 traces / 9 unique traces) (375096 events / 73 unique events)
+Classifier (org.mutabilitydetector.asm.TypeHierarchyReader$TypeHierarchy.isAssignableFromAnyInterfaceImplementedBy:326): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#11
+Inspecting hot method org.objectweb.asm.tree.analysis.TypeHierarchyReader$TypeHierarchy.isAssignableFromAnyInterfaceImplementedBy:326...
+Checking for isolation...
+984962,283170,283170,0
+Total 984962 (185 unique) events are in hot method
+Total 283170 (25 unique) traces are in hot method
+Total 283170 (25 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 984962 (185 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (94390 traces / 9 unique traces) (469486 events / 82 unique events)
+	Iterator_RemoveOnce (94390 traces / 7 unique traces) (140380 events / 30 unique events)
+	Iterator_HasNext (94390 traces / 9 unique traces) (375096 events / 73 unique events)
+Classifier (org.objectweb.asm.tree.analysis.TypeHierarchyReader$TypeHierarchy.isAssignableFromAnyInterfaceImplementedBy:326): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#12
+Inspecting hot method org.objectweb.asm.tree.analysis.Subroutine.<init>:56...
+Checking for isolation...
+969954,969954,969256,698
+Total 969954 (3 unique) events are in hot method
+Total 969954 (3 unique) traces are in hot method
+Total 969256 (1 unique) isolated traces are in hot method
+Total 698 (2 unique) non-isolated traces that have events in hot method
+Total 969256 (1 unique) events are in isolated traces
+Total 1660 (5 unique) events are in non-isolated traces (698 / 2 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (969256 traces / 1 unique traces) (969256 events / 1 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (698 traces / 2 unique traces) (1660 events / 5 unique events) (698 events / 2 unique events in hot method)
+Classifier (org.objectweb.asm.tree.analysis.Subroutine.<init>:56): CUT,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#13
+Inspecting hot method org.objectweb.asm.tree.FrameNode.asList:196...
+Checking for isolation...
+807468,807468,807468,0
+Total 807468 (1 unique) events are in hot method
+Total 807468 (1 unique) traces are in hot method
+Total 807468 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 807468 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	List_UnsynchronizedSubList (807468 traces / 1 unique traces) (807468 events / 1 unique events)
+Classifier (org.objectweb.asm.tree.FrameNode.asList:196): LIB,ISOLATED_ONE_UNIQUE
+
+#14
+Inspecting hot method org.objectweb.asm.ClassReader.readCode:1038...
+Checking for isolation...
+743652,743652,743652,0
+Total 743652 (2 unique) events are in hot method
+Total 743652 (2 unique) traces are in hot method
+Total 743652 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 743652 (2 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Arrays_SortBeforeBinarySearch (743652 traces / 2 unique traces) (743652 events / 2 unique events)
+Classifier (org.objectweb.asm.ClassReader.readCode:1038): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#15
+Inspecting hot method org.objectweb.asm.tree.MethodNode.visitLocalVariable:571...
+Checking for isolation...
+639624,222702,222702,0
+Total 639624 (1959 unique) events are in hot method
+Total 222702 (52 unique) traces are in hot method
+Total 222702 (52 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 639624 (1959 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (222702 traces / 52 unique traces) (639624 events / 1959 unique events)
+Classifier (org.objectweb.asm.tree.MethodNode.visitLocalVariable:571): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#16
+Inspecting hot method org.objectweb.asm.tree.MethodNode.<init>:295...
+Checking for isolation...
+508626,339084,339084,0
+Total 508626 (3 unique) events are in hot method
+Total 339084 (2 unique) traces are in hot method
+Total 339084 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 508626 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsynchronizedAddAll (169542 traces / 1 unique traces) (339084 events / 2 unique events)
+	Collections_SortBeforeBinarySearch (169542 traces / 1 unique traces) (169542 events / 1 unique events)
+Classifier (org.objectweb.asm.tree.MethodNode.<init>:295): LIB,ISOLATED_ONE_UNIQUE
+
+#17
+Inspecting hot method com.google.classpath.JARClassPath.addResource:86...
+Checking for isolation...
+479856,3,0,3
+Total 479856 (479856 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 3 (3 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 983392 (983392 unique) events are in non-isolated traces (479856 / 479856 unique are in hot method)
+Specs that have non-isolated traces:
+	SortedSet_Comparable (1 traces / 1 unique traces) (327800 events / 327800 unique events) (159952 events / 159952 unique events in hot method)
+	Set_ItselfAsElement (1 traces / 1 unique traces) (327792 events / 327792 unique events) (159952 events / 159952 unique events in hot method)
+	TreeSet_Comparable (1 traces / 1 unique traces) (327800 events / 327800 unique events) (159952 events / 159952 unique events in hot method)
+Classifier (com.google.classpath.JARClassPath.addResource:86): LIB,NOT_REDUNDANT_TRACES
+
+#18
+Inspecting hot method org.objectweb.asm.tree.MethodNode.visitTryCatchBlock:542...
+Checking for isolation...
+175870,73430,73430,0
+Total 175870 (944 unique) events are in hot method
+Total 73430 (38 unique) traces are in hot method
+Total 73430 (38 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 175870 (944 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (73430 traces / 38 unique traces) (175870 events / 944 unique events)
+Classifier (org.objectweb.asm.tree.MethodNode.visitTryCatchBlock:542): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#19
+Inspecting hot method org.objectweb.asm.tree.LookupSwitchInsnNode.<init>:78...
+Checking for isolation...
+46338,18954,18954,0
+Total 46338 (944 unique) events are in hot method
+Total 18954 (33 unique) traces are in hot method
+Total 18954 (33 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 46338 (944 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (12636 traces / 32 unique traces) (33702 events / 942 unique events)
+	Collection_UnsynchronizedAddAll (6318 traces / 1 unique traces) (12636 events / 2 unique events)
+Classifier (org.objectweb.asm.tree.LookupSwitchInsnNode.<init>:78): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE
+
+#20
+Inspecting hot method org.objectweb.asm.tree.TableSwitchInsnNode.<init>:85...
+Checking for isolation...
+29844,19896,19896,0
+Total 29844 (3 unique) events are in hot method
+Total 19896 (2 unique) traces are in hot method
+Total 19896 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 29844 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsynchronizedAddAll (9948 traces / 1 unique traces) (19896 events / 2 unique events)
+	Collections_SortBeforeBinarySearch (9948 traces / 1 unique traces) (9948 events / 1 unique events)
+Classifier (org.objectweb.asm.tree.TableSwitchInsnNode.<init>:85): LIB,ISOLATED_ONE_UNIQUE
+
+#21
+Inspecting hot method com.google.classpath.JARClassPath.addPackage:70...
+Checking for isolation...
+23640,3,1,2
+Total 23640 (23640 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 7880 (7880 unique) events are in isolated traces
+Total 17188 (17188 unique) events are in non-isolated traces (15760 / 15760 unique are in hot method)
+Specs that have isolated traces:
+	TreeMap_Comparable (1 traces / 1 unique traces) (7880 events / 7880 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (8594 events / 8594 unique events) (7880 events / 7880 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (8594 events / 8594 unique events) (7880 events / 7880 unique events in hot method)
+Classifier (com.google.classpath.JARClassPath.addPackage:70): LIB,NOT_REDUNDANT_TRACES
+
+#22
+Inspecting hot method com.google.classpath.JARClassPath.listPackages:121...
+Checking for isolation...
+15776,15776,15776,0
+Total 15776 (2 unique) events are in hot method
+Total 15776 (2 unique) traces are in hot method
+Total 15776 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 15776 (2 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Map_CollectionViewAdd (7888 traces / 1 unique traces) (7888 events / 1 unique events)
+	Map_UnsafeIterator (7888 traces / 1 unique traces) (7888 events / 1 unique events)
+Classifier (com.google.classpath.JARClassPath.listPackages:121): LIB,ISOLATED_ONE_UNIQUE
+
+#23
+Inspecting hot method org.objectweb.asm.tree.MethodNode.visitAnnotation:339...
+Checking for isolation...
+11226,11094,11094,0
+Total 11226 (4 unique) events are in hot method
+Total 11094 (3 unique) traces are in hot method
+Total 11094 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 11226 (4 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (11094 traces / 3 unique traces) (11226 events / 4 unique events)
+Classifier (org.objectweb.asm.tree.MethodNode.visitAnnotation:339): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#24
+Inspecting hot method org.objectweb.asm.tree.analysis.Subroutine.merge:72...
+Checking for isolation...
+8826,5922,5922,0
+Total 8826 (3 unique) events are in hot method
+Total 5922 (2 unique) traces are in hot method
+Total 5922 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 8826 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (5922 traces / 2 unique traces) (8826 events / 3 unique events)
+Classifier (org.objectweb.asm.tree.analysis.Subroutine.merge:72): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#25
+Inspecting hot method org.objectweb.asm.tree.MethodNode.visitParameterAnnotation:375...
+Checking for isolation...
+6486,6486,6486,0
+Total 6486 (1 unique) events are in hot method
+Total 6486 (1 unique) traces are in hot method
+Total 6486 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 6486 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (6486 traces / 1 unique traces) (6486 events / 1 unique events)
+Classifier (org.objectweb.asm.tree.MethodNode.visitParameterAnnotation:375): LIB,ISOLATED_ONE_UNIQUE
+
+#26
+Inspecting hot method org.objectweb.asm.tree.InvokeDynamicInsnNode.<init>:80...
+Checking for isolation...
+3096,3096,3096,0
+Total 3096 (1 unique) events are in hot method
+Total 3096 (1 unique) traces are in hot method
+Total 3096 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3096 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Arrays_SortBeforeBinarySearch (3096 traces / 1 unique traces) (3096 events / 1 unique events)
+Classifier (org.objectweb.asm.tree.InvokeDynamicInsnNode.<init>:80): LIB,ISOLATED_ONE_UNIQUE
+
+#27
+Inspecting hot method org.objectweb.asm.tree.AnnotationNode.visit:111...
+Checking for isolation...
+2790,1794,1794,0
+Total 2790 (42 unique) events are in hot method
+Total 1794 (10 unique) traces are in hot method
+Total 1794 (10 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2790 (42 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1794 traces / 10 unique traces) (2790 events / 42 unique events)
+Classifier (org.objectweb.asm.tree.AnnotationNode.visit:111): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#28
+Inspecting hot method org.objectweb.asm.tree.analysis.Frame.toString:728...
+Checking for isolation...
+1870,156,156,0
+Total 1870 (48 unique) events are in hot method
+Total 156 (4 unique) traces are in hot method
+Total 156 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1870 (48 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (78 traces / 2 unique traces) (896 events / 23 unique events)
+	StringBuilder_ThreadSafe (78 traces / 2 unique traces) (974 events / 25 unique events)
+Classifier (org.objectweb.asm.tree.analysis.Frame.toString:728): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#29
+Inspecting hot method org.objectweb.asm.tree.analysis.Analyzer.findSubroutine:307...
+Checking for isolation...
+1666,354,2,352
+Total 1666 (14 unique) events are in hot method
+Total 354 (5 unique) traces are in hot method
+Total 2 (1 unique) isolated traces are in hot method
+Total 352 (4 unique) non-isolated traces that have events in hot method
+Total 2 (1 unique) events are in isolated traces
+Total 3328 (26 unique) events are in non-isolated traces (1664 / 13 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (2 traces / 1 unique traces) (2 events / 1 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (352 traces / 4 unique traces) (3328 events / 26 unique events) (1664 events / 13 unique events in hot method)
+Classifier (org.objectweb.asm.tree.analysis.Analyzer.findSubroutine:307): CUT,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#30
+Inspecting hot method org.objectweb.asm.tree.AnnotationNode.visitArray:148...
+Checking for isolation...
+1164,612,612,0
+Total 1164 (3 unique) events are in hot method
+Total 612 (2 unique) traces are in hot method
+Total 612 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1164 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (612 traces / 2 unique traces) (1164 events / 3 unique events)
+Classifier (org.objectweb.asm.tree.AnnotationNode.visitArray:148): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#31
+Inspecting hot method org.objectweb.asm.tree.analysis.AnalyzerException.<init>:58...
+Checking for isolation...
+340,88,88,0
+Total 340 (14 unique) events are in hot method
+Total 88 (4 unique) traces are in hot method
+Total 88 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 340 (14 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (44 traces / 2 unique traces) (148 events / 6 unique events)
+	StringBuilder_ThreadSafe (44 traces / 2 unique traces) (192 events / 8 unique events)
+Classifier (org.objectweb.asm.tree.analysis.AnalyzerException.<init>:58): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#32
+Inspecting hot method org.objectweb.asm.tree.AnnotationNode.visitEnum:123...
+Checking for isolation...
+108,108,108,0
+Total 108 (1 unique) events are in hot method
+Total 108 (1 unique) traces are in hot method
+Total 108 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 108 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (108 traces / 1 unique traces) (108 events / 1 unique events)
+Classifier (org.objectweb.asm.tree.AnnotationNode.visitEnum:123): LIB,ISOLATED_ONE_UNIQUE
+
+#33
+Inspecting hot method com.google.classpath.CompositeClassPath.findResources:76...
+Checking for isolation...
+64,12,9,3
+Total 64 (50 unique) events are in hot method
+Total 12 (5 unique) traces are in hot method
+Total 9 (2 unique) isolated traces are in hot method
+Total 3 (3 unique) non-isolated traces that have events in hot method
+Total 24 (10 unique) events are in isolated traces
+Total 983392 (983392 unique) events are in non-isolated traces (40 / 40 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsynchronizedAddAll (8 traces / 1 unique traces) (16 events / 2 unique events)
+	CharSequence_NotInSet (1 traces / 1 unique traces) (8 events / 8 unique events)
+Specs that have non-isolated traces:
+	SortedSet_Comparable (1 traces / 1 unique traces) (327800 events / 327800 unique events) (16 events / 16 unique events in hot method)
+	Set_ItselfAsElement (1 traces / 1 unique traces) (327792 events / 327792 unique events) (8 events / 8 unique events in hot method)
+	TreeSet_Comparable (1 traces / 1 unique traces) (327800 events / 327800 unique events) (16 events / 16 unique events in hot method)
+Classifier (com.google.classpath.CompositeClassPath.findResources:76): LIB,ISOLATED_ONE_UNIQUE,RAW_ISOLATED_SINGLE_TRACE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#34
+Inspecting hot method org.mutabilitydetector.asmoverride.CanCalculateFramesForEveryJdkRuntimeClassTest.<init>:29...
+Checking for isolation...
+20,8,8,0
+Total 20 (5 unique) events are in hot method
+Total 8 (2 unique) traces are in hot method
+Total 8 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 20 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (4 traces / 1 unique traces) (8 events / 2 unique events)
+	StringBuilder_ThreadSafe (4 traces / 1 unique traces) (12 events / 3 unique events)
+Classifier (org.mutabilitydetector.asmoverride.CanCalculateFramesForEveryJdkRuntimeClassTest.<init>:29): CUT,ISOLATED_ONE_UNIQUE
+
+#35
+Inspecting hot method org.mutabilitydetector.asm.CanCalculateFramesForEveryJdkRuntimeClassTest.<init>:28...
+Checking for isolation...
+20,8,8,0
+Total 20 (5 unique) events are in hot method
+Total 8 (2 unique) traces are in hot method
+Total 8 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 20 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (4 traces / 1 unique traces) (12 events / 3 unique events)
+	Appendable_ThreadSafe (4 traces / 1 unique traces) (8 events / 2 unique events)
+Classifier (org.mutabilitydetector.asm.CanCalculateFramesForEveryJdkRuntimeClassTest.<init>:28): CUT,ISOLATED_ONE_UNIQUE
+
+#36
+Inspecting hot method org.objectweb.asm.tree.analysis.BasicVerifier.ternaryOperation:321...
+Checking for isolation...
+14,4,4,0
+Total 14 (7 unique) events are in hot method
+Total 4 (2 unique) traces are in hot method
+Total 4 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 14 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (2 traces / 1 unique traces) (6 events / 3 unique events)
+	StringBuilder_ThreadSafe (2 traces / 1 unique traces) (8 events / 4 unique events)
+Classifier (org.objectweb.asm.tree.analysis.BasicVerifier.ternaryOperation:321): CUT,ISOLATED_ONE_UNIQUE
+
+#37
+Inspecting hot method org.objectweb.asm.tree.analysis.Frame.setLocal:174...
+Checking for isolation...
+12,6,6,0
+Total 12 (6 unique) events are in hot method
+Total 6 (3 unique) traces are in hot method
+Total 6 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 12 (6 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Throwable_InitCauseOnce (2 traces / 1 unique traces) (2 events / 1 unique events)
+	Appendable_ThreadSafe (2 traces / 1 unique traces) (4 events / 2 unique events)
+	StringBuilder_ThreadSafe (2 traces / 1 unique traces) (6 events / 3 unique events)
+Classifier (org.objectweb.asm.tree.analysis.Frame.setLocal:174): CUT,ISOLATED_ONE_UNIQUE
+
+#38
+Inspecting hot method org.objectweb.asm.tree.analysis.BasicVerifier.naryOperation:377...
+Checking for isolation...
+10,4,4,0
+Total 10 (5 unique) events are in hot method
+Total 4 (2 unique) traces are in hot method
+Total 4 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 10 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (2 traces / 1 unique traces) (4 events / 2 unique events)
+	StringBuilder_ThreadSafe (2 traces / 1 unique traces) (6 events / 3 unique events)
+Classifier (org.objectweb.asm.tree.analysis.BasicVerifier.naryOperation:377): CUT,ISOLATED_ONE_UNIQUE
+
+#39
+Inspecting hot method org.mutabilitydetector.asm.CachingTypeHierarchyReader.hierarchyOf:25...
+Checking for isolation...
+10,2,0,2
+Total 10 (10 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 17188 (17188 unique) events are in non-isolated traces (10 / 10 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (8594 events / 8594 unique events) (5 events / 5 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (8594 events / 8594 unique events) (5 events / 5 unique events in hot method)
+Classifier (org.mutabilitydetector.asm.CachingTypeHierarchyReader.hierarchyOf:25): CUT,NOT_REDUNDANT_TRACES
+
+#40
+Inspecting hot method org.mutabilitydetector.asmoverride.CachingTypeHierarchyReader.hierarchyOf:26...
+Checking for isolation...
+10,2,0,2
+Total 10 (10 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 17188 (17188 unique) events are in non-isolated traces (10 / 10 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (8594 events / 8594 unique events) (5 events / 5 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (8594 events / 8594 unique events) (5 events / 5 unique events in hot method)
+Classifier (org.mutabilitydetector.asmoverride.CachingTypeHierarchyReader.hierarchyOf:26): CUT,NOT_REDUNDANT_TRACES
+
+#41
+Inspecting hot method com.google.classpath.ClassPathFactory.createFromPaths:43...
+Checking for isolation...
+8,8,8,0
+Total 8 (1 unique) events are in hot method
+Total 8 (1 unique) traces are in hot method
+Total 8 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 8 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (8 traces / 1 unique traces) (8 events / 1 unique events)
+Classifier (com.google.classpath.ClassPathFactory.createFromPaths:43): LIB,ISOLATED_ONE_UNIQUE
+
+#42
+Inspecting hot method org.objenesis.ObjenesisBase.getInstantiatorOf:71...
+Checking for isolation...
+4,2,0,2
+Total 4 (4 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 17188 (17188 unique) events are in non-isolated traces (4 / 4 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (8594 events / 8594 unique events) (2 events / 2 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (8594 events / 8594 unique events) (2 events / 2 unique events in hot method)
+Classifier (org.objenesis.ObjenesisBase.getInstantiatorOf:71): LIB,NOT_REDUNDANT_TRACES
+
+#43
+Inspecting hot method org.objectweb.asm.tree.analysis.Frame.getLocal:155...
+Checking for isolation...
+2,2,2,0
+Total 2 (1 unique) events are in hot method
+Total 2 (1 unique) traces are in hot method
+Total 2 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Throwable_InitCauseOnce (2 traces / 1 unique traces) (2 events / 1 unique events)
+Classifier (org.objectweb.asm.tree.analysis.Frame.getLocal:155): CUT,ISOLATED_ONE_UNIQUE
+
+#44
+Inspecting hot method org.objectweb.asm.tree.analysis.Frame.pop:219...
+Checking for isolation...
+2,2,2,0
+Total 2 (1 unique) events are in hot method
+Total 2 (1 unique) traces are in hot method
+Total 2 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Throwable_InitCauseOnce (2 traces / 1 unique traces) (2 events / 1 unique events)
+Classifier (org.objectweb.asm.tree.analysis.Frame.pop:219): CUT,ISOLATED_ONE_UNIQUE
+
+#45
+Inspecting hot method org.objectweb.asm.tree.analysis.Frame.push:235...
+Checking for isolation...
+2,2,2,0
+Total 2 (1 unique) events are in hot method
+Total 2 (1 unique) traces are in hot method
+Total 2 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Throwable_InitCauseOnce (2 traces / 1 unique traces) (2 events / 1 unique events)
+Classifier (org.objectweb.asm.tree.analysis.Frame.push:235): CUT,ISOLATED_ONE_UNIQUE
+
+#46
+Inspecting hot method org.objectweb.asm.tree.MethodNode$1.<clinit>:0...
+Checking for isolation...
+2,2,1,1
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 1 (1 unique) events are in isolated traces
+Total 2 (2 unique) events are in non-isolated traces (1 / 1 unique are in hot method)
+Specs that have isolated traces:
+	Collection_HashCode (1 traces / 1 unique traces) (1 events / 1 unique events)
+Specs that have non-isolated traces:
+	Serializable_NoArgConstructor (1 traces / 1 unique traces) (2 events / 2 unique events) (1 events / 1 unique events in hot method)
+Classifier (org.objectweb.asm.tree.MethodNode$1.<clinit>:0): LIB,NOT_REDUNDANT_TRACES
+

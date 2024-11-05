@@ -1,0 +1,3548 @@
+Reading traces...
+	read 1000 traces
+	read 2000 traces
+	read 3000 traces
+	read 4000 traces
+	read 5000 traces
+	read 6000 traces
+	read 7000 traces
+	read 8000 traces
+	read 9000 traces
+	read 10000 traces
+	read 11000 traces
+	read 12000 traces
+	read 13000 traces
+	read 14000 traces
+	read 15000 traces
+	read 16000 traces
+	read 17000 traces
+	read 18000 traces
+	read 19000 traces
+	read 20000 traces
+	read 21000 traces
+Reading specs frequency...
+Reading locations...
+Counting events...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Total 530392991 events and 189045718 traces
+Inspecting top 200 IMM
+Finding hot methods...
+Number of events, method name
+191335815,com.eightbitjim.cassettenibbler.DataSource.AudioInputLibrary.AudioInput.pushSampleToConsumers:70
+116521866,com.eightbitjim.cassettenibbler.Platforms.General.Filters.LowPass.distributeToConsumers:103
+100032924,com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.pushFileToConsumers:485
+87045165,com.eightbitjim.cassettenibbler.Platforms.General.Filters.HighPass.distributeSampleToConsumers:111
+19915227,com.eightbitjim.cassettenibbler.Platforms.General.Demodulation.ZeroCrossingIntervalExtractor.pushIntervalToConsumers:106
+6837360,com.eightbitjim.cassettenibbler.Platforms.Acorn.PulseExtraction.AcornPulseExtractor.pushPulseToConsumers:130
+5337666,com.eightbitjim.cassettenibbler.Platforms.Commodore.PulseExtraction.Commodore64Vic20PulseExtractor.pushPulseToConsumers:169
+2506650,com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreTapeFile.getSequentialFileData:265
+496665,com.eightbitjim.cassettenibbler.Platforms.Sinclair.PulseExtraction.SpectrumPulseExtractor.pushPulseToConsumers:191
+165585,com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.pushPulseToStream:517
+43519,com.eightbitjim.cassettenibbler.Platforms.Commodore.ByteExtraction.CommodoreByteFrame.addPulseAndReturnStatus:91
+43518,com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.FileBuilder.getData:80
+41385,com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.AcornByte.processBit:100
+14527,com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.checkDataChecksum:448
+7246,com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.FileBuilder.addBytesAndReturnTrueIfSuccessful:92
+6188,com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.AcornByte.recordErroneousNumberOfLongCycles:203
+6090,com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.AcornByte.recordErroneousNumberOfShortCycles:207
+4949,com.eightbitjim.cassettenibbler.Platforms.Acorn.Formats.BBCBasicVariableData.getStringVariable:125
+4922,com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.outputPartialDataFragment:187
+4461,com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.EmulatorTAPFile.byteArrayFromDataList:46
+4390,com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.addPulseToByte:246
+3008,com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCFileBlock.toString:195
+2915,com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCFileStateMachine.changeStateTo:78
+2018,com.eightbitjim.cassettenibbler.Platforms.Acorn.Formats.BBCBasicVariableData.processLineFromInputStream:71
+1275,com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreBlockRecognisingStateMachine.switchStateTo:80
+958,com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCFileBlock.getFilename:154
+848,com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.EmulatorTAPFile.addArray:36
+715,com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreBlockRecognisingStateMachine.blockReceived:369
+646,com.eightbitjim.cassettenibbler.Platforms.Commodore.PulseExtraction.CommodorePulseTest.pushPulse:75
+425,com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.checkHeaderContents:344
+420,com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCFileStateMachine.checkSyncByte:229
+320,com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCFileStateMachine.processByteInHeader:199
+242,com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreTapeFile.getFilename:94
+220,com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.CommodoreFileTest.checkFileResult:141
+195,com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCFileStateMachine.addDataToFile:282
+190,com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.FileBuilder.getFilename:120
+175,com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.AcornByte.checkForStopBit:146
+162,com.eightbitjim.cassettenibbler.Platforms.Commodore.ByteExtraction.CommodoreByteFrame.dataMarkerIsInvalid:202
+154,com.eightbitjim.cassettenibbler.DataSource.AudioInputLibrary.AudioFile.recordFileDataInLoggingOutput:94
+153,com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCFileExtractor.pushFileToconsumers:57
+140,com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCFileTest.checkFileResult:123
+126,com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.isHeaderChecksumValid:423
+114,com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCTapeFile.getFilename:76
+108,com.eightbitjim.cassettenibbler.Platforms.General.Filters.LowPass.registerSamplePeriod:60
+105,com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileTest.checkFileResult:131
+99,com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreFileExtractor.pushFileToConsumers:75
+98,com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumTapeFile.getFilename:56
+90,com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreBlockRecognisingStateMachine.stateReceivingHeaderSyncChain:220
+88,com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreFileBuilder.pushCurrentFileToOutputQueue:121
+84,com.eightbitjim.cassettenibbler.Platforms.General.Filters.LowPass.push:74
+81,com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.CommodoreFileTest.parseFile:130
+63,com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileTest.parseFile:120
+45,com.eightbitjim.cassettenibbler.Platforms.General.Filters.HighPass.registerSamplePeriod:96
+45,com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.isDataChecksumValid:432
+45,com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCFileTest.parseFile:112
+43,com.eightbitjim.cassettenibbler.Platforms.General.FileExtraction.GenericTapeFile.getFilename:97
+40,com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.outputFileFragmentIfAllowedTo:163
+40,com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.EmulatorTAPFile.addByte:32
+36,com.eightbitjim.cassettenibbler.DataSink.Directory.pushFileToConsumers:94
+35,com.eightbitjim.cassettenibbler.Platforms.General.Filters.HighPass.push:65
+32,com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCTapeFile.addBlock:124
+23,com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreTapeFile.addBlock:51
+22,com.eightbitjim.cassettenibbler.DataSource.AudioInputLibrary.AudioInput.registerSampleStreamConsumer:77
+22,com.eightbitjim.cassettenibbler.Platforms.General.Demodulation.ZeroCrossingIntervalExtractor.registerIntervalStreamConsumer:112
+16,com.eightbitjim.cassettenibbler.DataSink.Directory.removeFile:42
+13,com.eightbitjim.cassettenibbler.DataSink.Directory.addFile:37
+12,com.eightbitjim.cassettenibbler.Platforms.General.Filters.LowPass.registerSampleStreamConsumer:109
+11,com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreBlockRecognisingStateMachine.addFileToReturnQueue:180
+11,com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreBlockRecognisingStateMachine.getFile:152
+11,com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.CommodoreFileTest.pushFile:164
+11,com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreFileBuilder.getFile:178
+10,com.eightbitjim.cassettenibbler.Platforms.Commodore.PulseExtraction.Commodore64Vic20PulseExtractor.registerPulseStreamConsumer:150
+10,com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCFileExtractor.registerFileStreamConsumer:47
+10,com.eightbitjim.cassettenibbler.Platforms.Acorn.PulseExtraction.AcornPulseExtractor.registerPulseStreamConsumer:109
+10,com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.startReceivingOrphanDataBlock:410
+9,com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreFileExtractor.registerFileStreamConsumer:65
+7,com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCFileTest.pushFile:143
+7,com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileTest.pushFile:152
+7,com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.registerFileStreamConsumer:475
+7,com.eightbitjim.cassettenibbler.Platforms.Sinclair.PulseExtraction.SpectrumPulseExtractor.registerPulseStreamConsumer:166
+6,com.eightbitjim.cassettenibbler.Platforms.Commodore.PulseExtraction.CommodorePulseTest.checkResultString:65
+6,com.eightbitjim.cassettenibbler.DataSink.DirectoryTest.pushFile:270
+5,com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCFileTest.checkTextFileHash:132
+5,com.eightbitjim.cassettenibbler.Platforms.General.Filters.HighPass.registerSampleStreamConsumer:117
+5,com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.pushStringToPulseStream:522
+3,com.eightbitjim.cassettenibbler.TapeExtractionLogging.getInstance:49
+2,com.eightbitjim.cassettenibbler.DataSink.Directory.registerFileStreamConsumer:84
+2,com.eightbitjim.cassettenibbler.DataSink.Directory.deregisterFileStreamConsumer:90
+2,com.eightbitjim.cassettenibbler.Platforms.Acorn.Formats.BBCBasicVariableData.processInputStreamIntoString:55
+1,com.eightbitjim.cassettenibbler.Platforms.Acorn.Formats.BBCBasicVariableData.toString:51
+1,com.eightbitjim.cassettenibbler.TapeExtractionOptions$LoggingMode.<clinit>:23
+1,com.eightbitjim.cassettenibbler.Platforms.Sinclair.PulseExtraction.SpectrumPulseExtractor$State.<clinit>:27
+1,com.eightbitjim.cassettenibbler.TapeFile$FormatType.<clinit>:25
+1,com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreBlockRecognisingStateMachine$State.<clinit>:38
+1,com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreFileBlock$DataStatus.<clinit>:57
+1,com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreBlockRecognisingStateMachine$RepeatedStatus.<clinit>:45
+1,com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreTapeFile$Type.<clinit>:32
+1,com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.AcornByte$Baud.<clinit>:32
+1,com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCTapeFile$Type.<clinit>:31
+1,com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCFileStateMachine$State.<clinit>:29
+1,com.eightbitjim.cassettenibbler.Platforms.Acorn.Formats.BBCBasicVariableData$Type.<clinit>:32
+^^^ Last method that contains more than one event ^^^
+Starting com.eightbitjim.cassettenibbler.Platforms.Commodore.PulseExtraction.Commodore64Vic20PulseExtractor.pushPulseToConsumers:169
+Finish com.eightbitjim.cassettenibbler.Platforms.Commodore.PulseExtraction.Commodore64Vic20PulseExtractor.pushPulseToConsumers:169
+Starting com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCFileTest.checkFileResult:123
+Finish com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCFileTest.checkFileResult:123
+Starting com.eightbitjim.cassettenibbler.Platforms.General.Filters.LowPass.registerSampleStreamConsumer:109
+Finish com.eightbitjim.cassettenibbler.Platforms.General.Filters.LowPass.registerSampleStreamConsumer:109
+Starting com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCFileBlock.toString:195
+Finish com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCFileBlock.toString:195
+Starting com.eightbitjim.cassettenibbler.Platforms.General.Filters.LowPass.registerSamplePeriod:60
+Finish com.eightbitjim.cassettenibbler.Platforms.General.Filters.LowPass.registerSamplePeriod:60
+Starting com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreBlockRecognisingStateMachine.getFile:152
+Finish com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreBlockRecognisingStateMachine.getFile:152
+Starting com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.outputPartialDataFragment:187
+Finish com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.outputPartialDataFragment:187
+Starting com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileTest.checkFileResult:131
+Finish com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileTest.checkFileResult:131
+Starting com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.CommodoreFileTest.pushFile:164
+Finish com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.CommodoreFileTest.pushFile:164
+Starting com.eightbitjim.cassettenibbler.Platforms.Sinclair.PulseExtraction.SpectrumPulseExtractor.pushPulseToConsumers:191
+Finish com.eightbitjim.cassettenibbler.Platforms.Sinclair.PulseExtraction.SpectrumPulseExtractor.pushPulseToConsumers:191
+Starting com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumTapeFile.getFilename:56
+Finish com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumTapeFile.getFilename:56
+Starting com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreFileBuilder.getFile:178
+Finish com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreFileBuilder.getFile:178
+Starting com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.checkDataChecksum:448
+Finish com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.checkDataChecksum:448
+Starting com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCFileExtractor.pushFileToconsumers:57
+Finish com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCFileExtractor.pushFileToconsumers:57
+Starting com.eightbitjim.cassettenibbler.DataSink.Directory.addFile:37
+Finish com.eightbitjim.cassettenibbler.DataSink.Directory.addFile:37
+Starting com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreTapeFile.getSequentialFileData:265
+Finish com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreTapeFile.getSequentialFileData:265
+Starting com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCTapeFile.getFilename:76
+Finish com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCTapeFile.getFilename:76
+Starting com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreBlockRecognisingStateMachine.addFileToReturnQueue:180
+Finish com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreBlockRecognisingStateMachine.addFileToReturnQueue:180
+Starting com.eightbitjim.cassettenibbler.Platforms.Commodore.ByteExtraction.CommodoreByteFrame.addPulseAndReturnStatus:91
+Finish com.eightbitjim.cassettenibbler.Platforms.Commodore.ByteExtraction.CommodoreByteFrame.addPulseAndReturnStatus:91
+Starting com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreFileBuilder.pushCurrentFileToOutputQueue:121
+Finish com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreFileBuilder.pushCurrentFileToOutputQueue:121
+Starting com.eightbitjim.cassettenibbler.Platforms.Commodore.PulseExtraction.Commodore64Vic20PulseExtractor.registerPulseStreamConsumer:150
+Finish com.eightbitjim.cassettenibbler.Platforms.Commodore.PulseExtraction.Commodore64Vic20PulseExtractor.registerPulseStreamConsumer:150
+Starting com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.addPulseToByte:246
+Finish com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.addPulseToByte:246
+Starting com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.isHeaderChecksumValid:423
+Finish com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.isHeaderChecksumValid:423
+Starting com.eightbitjim.cassettenibbler.DataSink.Directory.removeFile:42
+Finish com.eightbitjim.cassettenibbler.DataSink.Directory.removeFile:42
+Starting com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreBlockRecognisingStateMachine.switchStateTo:80
+Finish com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreBlockRecognisingStateMachine.switchStateTo:80
+Starting com.eightbitjim.cassettenibbler.Platforms.General.Filters.LowPass.push:74
+Finish com.eightbitjim.cassettenibbler.Platforms.General.Filters.LowPass.push:74
+Starting com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.startReceivingOrphanDataBlock:410
+Finish com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.startReceivingOrphanDataBlock:410
+Starting com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.FileBuilder.addBytesAndReturnTrueIfSuccessful:92
+Finish com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.FileBuilder.addBytesAndReturnTrueIfSuccessful:92
+Starting com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.EmulatorTAPFile.addArray:36
+Finish com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.EmulatorTAPFile.addArray:36
+Starting com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.isDataChecksumValid:432
+Finish com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.isDataChecksumValid:432
+Starting com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.registerFileStreamConsumer:475
+Finish com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.registerFileStreamConsumer:475
+Starting com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.AcornByte.recordErroneousNumberOfLongCycles:203
+Finish com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.AcornByte.recordErroneousNumberOfLongCycles:203
+Starting com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCFileStateMachine.checkSyncByte:229
+Finish com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCFileStateMachine.checkSyncByte:229
+Starting com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.outputFileFragmentIfAllowedTo:163
+Finish com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.outputFileFragmentIfAllowedTo:163
+Starting com.eightbitjim.cassettenibbler.Platforms.Commodore.PulseExtraction.CommodorePulseTest.checkResultString:65
+Finish com.eightbitjim.cassettenibbler.Platforms.Commodore.PulseExtraction.CommodorePulseTest.checkResultString:65
+Starting com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.pushFileToConsumers:485
+Finish com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.pushFileToConsumers:485
+Starting com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreFileExtractor.pushFileToConsumers:75
+Finish com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreFileExtractor.pushFileToConsumers:75
+Starting com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCFileExtractor.registerFileStreamConsumer:47
+Finish com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCFileExtractor.registerFileStreamConsumer:47
+Starting com.eightbitjim.cassettenibbler.DataSource.AudioInputLibrary.AudioInput.pushSampleToConsumers:70
+Finish com.eightbitjim.cassettenibbler.DataSource.AudioInputLibrary.AudioInput.pushSampleToConsumers:70
+Starting com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.checkHeaderContents:344
+Finish com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.checkHeaderContents:344
+Starting com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCFileTest.parseFile:112
+Finish com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCFileTest.parseFile:112
+Starting com.eightbitjim.cassettenibbler.Platforms.Sinclair.PulseExtraction.SpectrumPulseExtractor.registerPulseStreamConsumer:166
+Finish com.eightbitjim.cassettenibbler.Platforms.Sinclair.PulseExtraction.SpectrumPulseExtractor.registerPulseStreamConsumer:166
+Starting com.eightbitjim.cassettenibbler.Platforms.Acorn.Formats.BBCBasicVariableData.processLineFromInputStream:71
+Finish com.eightbitjim.cassettenibbler.Platforms.Acorn.Formats.BBCBasicVariableData.processLineFromInputStream:71
+Starting com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCFileStateMachine.processByteInHeader:199
+Finish com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCFileStateMachine.processByteInHeader:199
+Starting com.eightbitjim.cassettenibbler.Platforms.General.FileExtraction.GenericTapeFile.getFilename:97
+Finish com.eightbitjim.cassettenibbler.Platforms.General.FileExtraction.GenericTapeFile.getFilename:97
+Starting com.eightbitjim.cassettenibbler.DataSink.DirectoryTest.pushFile:270
+Finish com.eightbitjim.cassettenibbler.DataSink.DirectoryTest.pushFile:270
+Starting com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCFileStateMachine.changeStateTo:78
+Finish com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCFileStateMachine.changeStateTo:78
+Starting com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreBlockRecognisingStateMachine.stateReceivingHeaderSyncChain:220
+Finish com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreBlockRecognisingStateMachine.stateReceivingHeaderSyncChain:220
+Starting com.eightbitjim.cassettenibbler.Platforms.Acorn.PulseExtraction.AcornPulseExtractor.registerPulseStreamConsumer:109
+Finish com.eightbitjim.cassettenibbler.Platforms.Acorn.PulseExtraction.AcornPulseExtractor.registerPulseStreamConsumer:109
+Starting com.eightbitjim.cassettenibbler.Platforms.Acorn.Formats.BBCBasicVariableData.getStringVariable:125
+Finish com.eightbitjim.cassettenibbler.Platforms.Acorn.Formats.BBCBasicVariableData.getStringVariable:125
+Starting com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCFileStateMachine.addDataToFile:282
+Finish com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCFileStateMachine.addDataToFile:282
+Starting com.eightbitjim.cassettenibbler.DataSink.Directory.pushFileToConsumers:94
+Finish com.eightbitjim.cassettenibbler.DataSink.Directory.pushFileToConsumers:94
+Starting com.eightbitjim.cassettenibbler.TapeExtractionLogging.getInstance:49
+Finish com.eightbitjim.cassettenibbler.TapeExtractionLogging.getInstance:49
+Starting com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.pushPulseToStream:517
+Finish com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.pushPulseToStream:517
+Starting com.eightbitjim.cassettenibbler.Platforms.Commodore.PulseExtraction.CommodorePulseTest.pushPulse:75
+Finish com.eightbitjim.cassettenibbler.Platforms.Commodore.PulseExtraction.CommodorePulseTest.pushPulse:75
+Starting com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileTest.parseFile:120
+Finish com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileTest.parseFile:120
+Starting com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCFileTest.pushFile:143
+Finish com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCFileTest.pushFile:143
+Starting com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.AcornByte.recordErroneousNumberOfShortCycles:207
+Finish com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.AcornByte.recordErroneousNumberOfShortCycles:207
+Starting com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreTapeFile.getFilename:94
+Finish com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreTapeFile.getFilename:94
+Starting com.eightbitjim.cassettenibbler.Platforms.General.Filters.HighPass.push:65
+Finish com.eightbitjim.cassettenibbler.Platforms.General.Filters.HighPass.push:65
+Starting com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.pushStringToPulseStream:522
+Finish com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.pushStringToPulseStream:522
+Starting com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.FileBuilder.getData:80
+Finish com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.FileBuilder.getData:80
+Starting com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCFileBlock.getFilename:154
+Finish com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCFileBlock.getFilename:154
+Starting com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.CommodoreFileTest.parseFile:130
+Finish com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.CommodoreFileTest.parseFile:130
+Starting com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreFileExtractor.registerFileStreamConsumer:65
+Finish com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreFileExtractor.registerFileStreamConsumer:65
+
+#1
+Inspecting hot method com.eightbitjim.cassettenibbler.DataSource.AudioInputLibrary.AudioInput.pushSampleToConsumers:70...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+191335815,85038140,85038140,0
+Total 191335815 (9 unique) events are in hot method
+Total 85038140 (4 unique) traces are in hot method
+Total 85038140 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 191335815 (9 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (21259535 traces / 1 unique traces) (21259535 events / 1 unique events)
+	Collection_UnsafeIterator (21259535 traces / 1 unique traces) (85038140 events / 4 unique events)
+	Iterator_HasNext (21259535 traces / 1 unique traces) (63778605 events / 3 unique events)
+	ListIterator_RemoveOnce (21259535 traces / 1 unique traces) (21259535 events / 1 unique events)
+Classifier (com.eightbitjim.cassettenibbler.DataSource.AudioInputLibrary.AudioInput.pushSampleToConsumers:70): LIB,ISOLATED_ONE_UNIQUE
+
+#2
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.General.Filters.LowPass.distributeToConsumers:103...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+116521866,51787496,51787496,0
+Total 116521866 (9 unique) events are in hot method
+Total 51787496 (4 unique) traces are in hot method
+Total 51787496 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 116521866 (9 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (12946874 traces / 1 unique traces) (12946874 events / 1 unique events)
+	Collection_UnsafeIterator (12946874 traces / 1 unique traces) (51787496 events / 4 unique events)
+	Iterator_HasNext (12946874 traces / 1 unique traces) (38840622 events / 3 unique events)
+	ListIterator_RemoveOnce (12946874 traces / 1 unique traces) (12946874 events / 1 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.General.Filters.LowPass.distributeToConsumers:103): LIB,ISOLATED_ONE_UNIQUE
+
+#3
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.pushFileToConsumers:485...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+100032924,110412,90984,19428
+Total 100032924 (44062182 unique) events are in hot method
+Total 110412 (21457 unique) traces are in hot method
+Total 90984 (4858 unique) isolated traces are in hot method
+Total 19428 (16599 unique) non-isolated traces that have events in hot method
+Total 63743007 (11990304 unique) events are in isolated traces
+Total 36309346 (32088478 unique) events are in non-isolated traces (36289917 / 32071878 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (55192 traces / 3 unique traces) (55220 events / 7 unique events)
+	Collection_UnsafeIterator (35770 traces / 4851 unique traces) (63683218 events / 11985746 unique events)
+	Iterator_RemoveOnce (14 traces / 2 unique traces) (14 events / 2 unique events)
+	ListIterator_RemoveOnce (7 traces / 1 unique traces) (7 events / 1 unique events)
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (4548 events / 4548 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (19422 traces / 16593 unique traces) (36258702 events / 32037834 unique events) (36239280 events / 32021241 unique events in hot method)
+	Collections_SortBeforeBinarySearch (6 traces / 6 unique traces) (50644 events / 50644 unique events) (50637 events / 50637 unique events in hot method)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.pushFileToConsumers:485): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,ISOLATED_SINGLE_TRACE,NOT_ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT
+
+#4
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.General.Filters.HighPass.distributeSampleToConsumers:111...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+87045165,38686740,38686740,0
+Total 87045165 (9 unique) events are in hot method
+Total 38686740 (4 unique) traces are in hot method
+Total 38686740 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 87045165 (9 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (9671685 traces / 1 unique traces) (29015055 events / 3 unique events)
+	Collection_UnsafeIterator (9671685 traces / 1 unique traces) (38686740 events / 4 unique events)
+	ListIterator_RemoveOnce (9671685 traces / 1 unique traces) (9671685 events / 1 unique events)
+	Iterator_RemoveOnce (9671685 traces / 1 unique traces) (9671685 events / 1 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.General.Filters.HighPass.distributeSampleToConsumers:111): LIB,ISOLATED_ONE_UNIQUE
+
+#5
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.General.Demodulation.ZeroCrossingIntervalExtractor.pushIntervalToConsumers:106...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+19915227,8851212,8851212,0
+Total 19915227 (9 unique) events are in hot method
+Total 8851212 (4 unique) traces are in hot method
+Total 8851212 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 19915227 (9 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (2212803 traces / 1 unique traces) (2212803 events / 1 unique events)
+	Collection_UnsafeIterator (2212803 traces / 1 unique traces) (8851212 events / 4 unique events)
+	Iterator_HasNext (2212803 traces / 1 unique traces) (6638409 events / 3 unique events)
+	ListIterator_RemoveOnce (2212803 traces / 1 unique traces) (2212803 events / 1 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.General.Demodulation.ZeroCrossingIntervalExtractor.pushIntervalToConsumers:106): CUT,ISOLATED_ONE_UNIQUE
+
+#6
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Acorn.PulseExtraction.AcornPulseExtractor.pushPulseToConsumers:130...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+6837360,1823296,1823296,0
+Total 6837360 (15 unique) events are in hot method
+Total 1823296 (4 unique) traces are in hot method
+Total 1823296 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 6837360 (15 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (455824 traces / 1 unique traces) (2734944 events / 6 unique events)
+	Iterator_HasNext (455824 traces / 1 unique traces) (2279120 events / 5 unique events)
+	ListIterator_RemoveOnce (455824 traces / 1 unique traces) (911648 events / 2 unique events)
+	Iterator_RemoveOnce (455824 traces / 1 unique traces) (911648 events / 2 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Acorn.PulseExtraction.AcornPulseExtractor.pushPulseToConsumers:130): CUT,ISOLATED_ONE_UNIQUE
+
+#7
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Commodore.PulseExtraction.Commodore64Vic20PulseExtractor.pushPulseToConsumers:169...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+5337666,2372296,2372296,0
+Total 5337666 (9 unique) events are in hot method
+Total 2372296 (4 unique) traces are in hot method
+Total 2372296 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5337666 (9 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (593074 traces / 1 unique traces) (2372296 events / 4 unique events)
+	Iterator_HasNext (593074 traces / 1 unique traces) (1779222 events / 3 unique events)
+	ListIterator_RemoveOnce (593074 traces / 1 unique traces) (593074 events / 1 unique events)
+	Iterator_RemoveOnce (593074 traces / 1 unique traces) (593074 events / 1 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Commodore.PulseExtraction.Commodore64Vic20PulseExtractor.pushPulseToConsumers:169): CUT,ISOLATED_ONE_UNIQUE
+
+#8
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreTapeFile.getSequentialFileData:265...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+2506650,5950,5950,0
+Total 2506650 (2949 unique) events are in hot method
+Total 5950 (7 unique) traces are in hot method
+Total 5950 (7 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2506650 (2949 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	ListIterator_hasNextPrevious (850 traces / 1 unique traces) (357850 events / 421 unique events)
+	Collections_SortBeforeBinarySearch (850 traces / 1 unique traces) (357850 events / 421 unique events)
+	ListIterator_RemoveOnce (850 traces / 1 unique traces) (357850 events / 421 unique events)
+	Iterator_HasNext (850 traces / 1 unique traces) (357850 events / 421 unique events)
+	ListIterator_Set (850 traces / 1 unique traces) (358700 events / 422 unique events)
+	Iterator_RemoveOnce (850 traces / 1 unique traces) (357850 events / 421 unique events)
+	List_UnsafeListIterator (850 traces / 1 unique traces) (358700 events / 422 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreTapeFile.getSequentialFileData:265): CUT,ISOLATED_ONE_UNIQUE
+
+#9
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Sinclair.PulseExtraction.SpectrumPulseExtractor.pushPulseToConsumers:191...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+496665,220740,220740,0
+Total 496665 (9 unique) events are in hot method
+Total 220740 (4 unique) traces are in hot method
+Total 220740 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 496665 (9 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (55185 traces / 1 unique traces) (55185 events / 1 unique events)
+	Collection_UnsafeIterator (55185 traces / 1 unique traces) (220740 events / 4 unique events)
+	Iterator_HasNext (55185 traces / 1 unique traces) (165555 events / 3 unique events)
+	ListIterator_RemoveOnce (55185 traces / 1 unique traces) (55185 events / 1 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Sinclair.PulseExtraction.SpectrumPulseExtractor.pushPulseToConsumers:191): CUT,ISOLATED_ONE_UNIQUE
+
+#10
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.pushPulseToStream:517...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+165585,110390,110390,0
+Total 165585 (3 unique) events are in hot method
+Total 110390 (2 unique) traces are in hot method
+Total 110390 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 165585 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (55195 traces / 1 unique traces) (110390 events / 2 unique events)
+	Iterator_HasNext (55195 traces / 1 unique traces) (55195 events / 1 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.pushPulseToStream:517): LIB,ISOLATED_ONE_UNIQUE
+
+#11
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Commodore.ByteExtraction.CommodoreByteFrame.addPulseAndReturnStatus:91...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+43519,12434,12434,0
+Total 43519 (7 unique) events are in hot method
+Total 12434 (2 unique) traces are in hot method
+Total 12434 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 43519 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (6217 traces / 1 unique traces) (24868 events / 4 unique events)
+	Appendable_ThreadSafe (6217 traces / 1 unique traces) (18651 events / 3 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Commodore.ByteExtraction.CommodoreByteFrame.addPulseAndReturnStatus:91): CUT,ISOLATED_ONE_UNIQUE
+
+#12
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.FileBuilder.getData:80...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+43518,42,42,0
+Total 43518 (36894 unique) events are in hot method
+Total 42 (22 unique) traces are in hot method
+Total 42 (22 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 43518 (36894 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (14 traces / 6 unique traces) (14520 events / 12304 unique events)
+	Iterator_HasNext (14 traces / 6 unique traces) (14506 events / 12298 unique events)
+	ListIterator_RemoveOnce (7 traces / 5 unique traces) (7246 events / 6146 unique events)
+	Iterator_RemoveOnce (7 traces / 5 unique traces) (7246 events / 6146 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.FileBuilder.getData:80): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#13
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.AcornByte.processBit:100...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+41385,16554,16554,0
+Total 41385 (5 unique) events are in hot method
+Total 16554 (2 unique) traces are in hot method
+Total 16554 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 41385 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (8277 traces / 1 unique traces) (16554 events / 2 unique events)
+	StringBuilder_ThreadSafe (8277 traces / 1 unique traces) (24831 events / 3 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.AcornByte.processBit:100): CUT,ISOLATED_ONE_UNIQUE
+
+#14
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.checkDataChecksum:448...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+14527,14526,0,14526
+Total 14527 (11698 unique) events are in hot method
+Total 14526 (11697 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 14526 (11697 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 27361354 (23140486 unique) events are in non-isolated traces (14527 / 11698 unique are in hot method)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (14522 traces / 11693 unique traces) (27320419 events / 23099551 unique events) (14522 events / 11693 unique events in hot method)
+	Collections_SortBeforeBinarySearch (4 traces / 4 unique traces) (40935 events / 40935 unique events) (5 events / 5 unique events in hot method)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.checkDataChecksum:448): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT
+
+#15
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.FileBuilder.addBytesAndReturnTrueIfSuccessful:92...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+7246,7,7,0
+Total 7246 (6146 unique) events are in hot method
+Total 7 (5 unique) traces are in hot method
+Total 7 (5 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 7246 (6146 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (7 traces / 5 unique traces) (7246 events / 6146 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.FileBuilder.addBytesAndReturnTrueIfSuccessful:92): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#16
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.AcornByte.recordErroneousNumberOfLongCycles:203...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+6188,1768,1768,0
+Total 6188 (7 unique) events are in hot method
+Total 1768 (2 unique) traces are in hot method
+Total 1768 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 6188 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (884 traces / 1 unique traces) (3536 events / 4 unique events)
+	Appendable_ThreadSafe (884 traces / 1 unique traces) (2652 events / 3 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.AcornByte.recordErroneousNumberOfLongCycles:203): LIB,ISOLATED_ONE_UNIQUE
+
+#17
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.AcornByte.recordErroneousNumberOfShortCycles:207...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+6090,1740,1740,0
+Total 6090 (7 unique) events are in hot method
+Total 1740 (2 unique) traces are in hot method
+Total 1740 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 6090 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (870 traces / 1 unique traces) (3480 events / 4 unique events)
+	Appendable_ThreadSafe (870 traces / 1 unique traces) (2610 events / 3 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.AcornByte.recordErroneousNumberOfShortCycles:207): LIB,ISOLATED_ONE_UNIQUE
+
+#18
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Acorn.Formats.BBCBasicVariableData.getStringVariable:125...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+4949,303,303,0
+Total 4949 (49 unique) events are in hot method
+Total 303 (3 unique) traces are in hot method
+Total 303 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 4949 (49 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (101 traces / 1 unique traces) (1616 events / 16 unique events)
+	StringBuilder_ThreadSafe (101 traces / 1 unique traces) (1717 events / 17 unique events)
+	Appendable_ThreadSafe (101 traces / 1 unique traces) (1616 events / 16 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Acorn.Formats.BBCBasicVariableData.getStringVariable:125): LIB,ISOLATED_ONE_UNIQUE
+
+#19
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.outputPartialDataFragment:187...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+4922,4910,8,4902
+Total 4922 (4912 unique) events are in hot method
+Total 4910 (4906 unique) traces are in hot method
+Total 8 (4 unique) isolated traces are in hot method
+Total 4902 (4902 unique) non-isolated traces that have events in hot method
+Total 20 (10 unique) events are in isolated traces
+Total 8947992 (8947992 unique) events are in non-isolated traces (4902 / 4902 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (4 traces / 2 unique traces) (8 events / 4 unique events)
+	StringBuilder_ThreadSafe (4 traces / 2 unique traces) (12 events / 6 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (4900 traces / 4900 unique traces) (8938283 events / 8938283 unique events) (4900 events / 4900 unique events in hot method)
+	Collections_SortBeforeBinarySearch (2 traces / 2 unique traces) (9709 events / 9709 unique events) (2 events / 2 unique events in hot method)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.outputPartialDataFragment:187): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT
+
+#20
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.EmulatorTAPFile.byteArrayFromDataList:46...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+4461,21,21,0
+Total 4461 (2682 unique) events are in hot method
+Total 21 (12 unique) traces are in hot method
+Total 21 (12 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 4461 (2682 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (7 traces / 4 unique traces) (1783 events / 1072 unique events)
+	Collection_UnsafeIterator (7 traces / 4 unique traces) (1790 events / 1076 unique events)
+	Iterator_RemoveOnce (7 traces / 4 unique traces) (888 events / 534 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.EmulatorTAPFile.byteArrayFromDataList:46): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#21
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.addPulseToByte:246...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+4390,1756,1756,0
+Total 4390 (5 unique) events are in hot method
+Total 1756 (2 unique) traces are in hot method
+Total 1756 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 4390 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (878 traces / 1 unique traces) (2634 events / 3 unique events)
+	Appendable_ThreadSafe (878 traces / 1 unique traces) (1756 events / 2 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.addPulseToByte:246): CUT,ISOLATED_ONE_UNIQUE
+
+#22
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCFileBlock.toString:195...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+3008,896,896,0
+Total 3008 (47 unique) events are in hot method
+Total 896 (14 unique) traces are in hot method
+Total 896 (14 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3008 (47 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (448 traces / 7 unique traces) (1280 events / 20 unique events)
+	StringBuilder_ThreadSafe (448 traces / 7 unique traces) (1728 events / 27 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCFileBlock.toString:195): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#23
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCFileStateMachine.changeStateTo:78...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+2915,1166,1166,0
+Total 2915 (5 unique) events are in hot method
+Total 1166 (2 unique) traces are in hot method
+Total 1166 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2915 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (583 traces / 1 unique traces) (1166 events / 2 unique events)
+	StringBuilder_ThreadSafe (583 traces / 1 unique traces) (1749 events / 3 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCFileStateMachine.changeStateTo:78): CUT,ISOLATED_ONE_UNIQUE
+
+#24
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Acorn.Formats.BBCBasicVariableData.processLineFromInputStream:71...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+2018,2,0,2
+Total 2018 (2018 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 2021 (2021 unique) events are in non-isolated traces (2018 / 2018 unique are in hot method)
+Specs that have non-isolated traces:
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (1011 events / 1011 unique events) (1009 events / 1009 unique events in hot method)
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (1010 events / 1010 unique events) (1009 events / 1009 unique events in hot method)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Acorn.Formats.BBCBasicVariableData.processLineFromInputStream:71): LIB,NOT_REDUNDANT_TRACES
+
+#25
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreBlockRecognisingStateMachine.switchStateTo:80...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+1275,510,510,0
+Total 1275 (5 unique) events are in hot method
+Total 510 (2 unique) traces are in hot method
+Total 510 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1275 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (255 traces / 1 unique traces) (765 events / 3 unique events)
+	Appendable_ThreadSafe (255 traces / 1 unique traces) (510 events / 2 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreBlockRecognisingStateMachine.switchStateTo:80): CUT,ISOLATED_ONE_UNIQUE
+
+#26
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCFileBlock.getFilename:154...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+958,156,156,0
+Total 958 (56 unique) events are in hot method
+Total 156 (8 unique) traces are in hot method
+Total 156 (8 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 958 (56 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (78 traces / 4 unique traces) (440 events / 26 unique events)
+	StringBuilder_ThreadSafe (78 traces / 4 unique traces) (518 events / 30 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCFileBlock.getFilename:154): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#27
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.EmulatorTAPFile.addArray:36...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+848,7,0,7
+Total 848 (512 unique) events are in hot method
+Total 7 (4 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 7 (4 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 888 (534 unique) events are in non-isolated traces (848 / 512 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (7 traces / 4 unique traces) (888 events / 534 unique events) (848 events / 512 unique events in hot method)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.EmulatorTAPFile.addArray:36): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#28
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreBlockRecognisingStateMachine.blockReceived:369...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+715,110,110,0
+Total 715 (13 unique) events are in hot method
+Total 110 (2 unique) traces are in hot method
+Total 110 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 715 (13 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (55 traces / 1 unique traces) (385 events / 7 unique events)
+	Appendable_ThreadSafe (55 traces / 1 unique traces) (330 events / 6 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreBlockRecognisingStateMachine.blockReceived:369): CUT,ISOLATED_ONE_UNIQUE
+
+#29
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Commodore.PulseExtraction.CommodorePulseTest.pushPulse:75...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+646,2,1,1
+Total 646 (646 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 323 (323 unique) events are in isolated traces
+Total 324 (324 unique) events are in non-isolated traces (323 / 323 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (323 events / 323 unique events)
+Specs that have non-isolated traces:
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (324 events / 324 unique events) (323 events / 323 unique events in hot method)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Commodore.PulseExtraction.CommodorePulseTest.pushPulse:75): CUT,NOT_REDUNDANT_TRACES
+
+#30
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.checkHeaderContents:344...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+425,170,170,0
+Total 425 (20 unique) events are in hot method
+Total 170 (8 unique) traces are in hot method
+Total 170 (8 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 425 (20 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (85 traces / 4 unique traces) (170 events / 8 unique events)
+	StringBuilder_ThreadSafe (85 traces / 4 unique traces) (255 events / 12 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.checkHeaderContents:344): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#31
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCFileStateMachine.checkSyncByte:229...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+420,168,168,0
+Total 420 (5 unique) events are in hot method
+Total 168 (2 unique) traces are in hot method
+Total 168 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 420 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (84 traces / 1 unique traces) (168 events / 2 unique events)
+	StringBuilder_ThreadSafe (84 traces / 1 unique traces) (252 events / 3 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCFileStateMachine.checkSyncByte:229): CUT,ISOLATED_ONE_UNIQUE
+
+#32
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCFileStateMachine.processByteInHeader:199...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+320,128,128,0
+Total 320 (10 unique) events are in hot method
+Total 128 (4 unique) traces are in hot method
+Total 128 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 320 (10 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (64 traces / 2 unique traces) (192 events / 6 unique events)
+	Appendable_ThreadSafe (64 traces / 2 unique traces) (128 events / 4 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCFileStateMachine.processByteInHeader:199): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#33
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreTapeFile.getFilename:94...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+242,44,44,0
+Total 242 (11 unique) events are in hot method
+Total 44 (2 unique) traces are in hot method
+Total 44 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 242 (11 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (22 traces / 1 unique traces) (110 events / 5 unique events)
+	StringBuilder_ThreadSafe (22 traces / 1 unique traces) (132 events / 6 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreTapeFile.getFilename:94): CUT,ISOLATED_ONE_UNIQUE
+
+#34
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.CommodoreFileTest.checkFileResult:141...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+220,88,88,0
+Total 220 (20 unique) events are in hot method
+Total 88 (8 unique) traces are in hot method
+Total 88 (8 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 220 (20 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (44 traces / 4 unique traces) (88 events / 8 unique events)
+	StringBuilder_ThreadSafe (44 traces / 4 unique traces) (132 events / 12 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.CommodoreFileTest.checkFileResult:141): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#35
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCFileStateMachine.addDataToFile:282...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+195,78,78,0
+Total 195 (10 unique) events are in hot method
+Total 78 (4 unique) traces are in hot method
+Total 78 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 195 (10 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (39 traces / 2 unique traces) (117 events / 6 unique events)
+	Appendable_ThreadSafe (39 traces / 2 unique traces) (78 events / 4 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCFileStateMachine.addDataToFile:282): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#36
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.FileBuilder.getFilename:120...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+190,28,28,0
+Total 190 (56 unique) events are in hot method
+Total 28 (8 unique) traces are in hot method
+Total 28 (8 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 190 (56 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (14 traces / 4 unique traces) (102 events / 30 unique events)
+	Appendable_ThreadSafe (14 traces / 4 unique traces) (88 events / 26 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.FileBuilder.getFilename:120): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#37
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.AcornByte.checkForStopBit:146...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+175,70,70,0
+Total 175 (5 unique) events are in hot method
+Total 70 (2 unique) traces are in hot method
+Total 70 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 175 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (35 traces / 1 unique traces) (70 events / 2 unique events)
+	StringBuilder_ThreadSafe (35 traces / 1 unique traces) (105 events / 3 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.AcornByte.checkForStopBit:146): CUT,ISOLATED_ONE_UNIQUE
+
+#38
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Commodore.ByteExtraction.CommodoreByteFrame.dataMarkerIsInvalid:202...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+162,36,36,0
+Total 162 (9 unique) events are in hot method
+Total 36 (2 unique) traces are in hot method
+Total 36 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 162 (9 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (18 traces / 1 unique traces) (72 events / 4 unique events)
+	StringBuilder_ThreadSafe (18 traces / 1 unique traces) (90 events / 5 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Commodore.ByteExtraction.CommodoreByteFrame.dataMarkerIsInvalid:202): CUT,ISOLATED_ONE_UNIQUE
+
+#39
+Inspecting hot method com.eightbitjim.cassettenibbler.DataSource.AudioInputLibrary.AudioFile.recordFileDataInLoggingOutput:94...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+154,44,44,0
+Total 154 (7 unique) events are in hot method
+Total 44 (2 unique) traces are in hot method
+Total 44 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 154 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (22 traces / 1 unique traces) (88 events / 4 unique events)
+	Appendable_ThreadSafe (22 traces / 1 unique traces) (66 events / 3 unique events)
+Classifier (com.eightbitjim.cassettenibbler.DataSource.AudioInputLibrary.AudioFile.recordFileDataInLoggingOutput:94): CUT,ISOLATED_ONE_UNIQUE
+
+#40
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCFileExtractor.pushFileToconsumers:57...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+153,68,68,0
+Total 153 (9 unique) events are in hot method
+Total 68 (4 unique) traces are in hot method
+Total 68 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 153 (9 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (17 traces / 1 unique traces) (68 events / 4 unique events)
+	ListIterator_RemoveOnce (17 traces / 1 unique traces) (17 events / 1 unique events)
+	Iterator_HasNext (17 traces / 1 unique traces) (51 events / 3 unique events)
+	Iterator_RemoveOnce (17 traces / 1 unique traces) (17 events / 1 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCFileExtractor.pushFileToconsumers:57): CUT,ISOLATED_ONE_UNIQUE
+
+#41
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCFileTest.checkFileResult:123...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+140,56,56,0
+Total 140 (20 unique) events are in hot method
+Total 56 (8 unique) traces are in hot method
+Total 56 (8 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 140 (20 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (28 traces / 4 unique traces) (84 events / 12 unique events)
+	Appendable_ThreadSafe (28 traces / 4 unique traces) (56 events / 8 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCFileTest.checkFileResult:123): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#42
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.isHeaderChecksumValid:423...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+126,28,28,0
+Total 126 (9 unique) events are in hot method
+Total 28 (2 unique) traces are in hot method
+Total 28 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 126 (9 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (14 traces / 1 unique traces) (56 events / 4 unique events)
+	StringBuilder_ThreadSafe (14 traces / 1 unique traces) (70 events / 5 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.isHeaderChecksumValid:423): CUT,ISOLATED_ONE_UNIQUE
+
+#43
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCTapeFile.getFilename:76...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+114,28,28,0
+Total 114 (22 unique) events are in hot method
+Total 28 (4 unique) traces are in hot method
+Total 28 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 114 (22 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (14 traces / 2 unique traces) (64 events / 12 unique events)
+	Appendable_ThreadSafe (14 traces / 2 unique traces) (50 events / 10 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCTapeFile.getFilename:76): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#44
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.General.Filters.LowPass.registerSamplePeriod:60...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+108,24,24,0
+Total 108 (9 unique) events are in hot method
+Total 24 (2 unique) traces are in hot method
+Total 24 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 108 (9 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (12 traces / 1 unique traces) (60 events / 5 unique events)
+	Appendable_ThreadSafe (12 traces / 1 unique traces) (48 events / 4 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.General.Filters.LowPass.registerSamplePeriod:60): CUT,ISOLATED_ONE_UNIQUE
+
+#45
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileTest.checkFileResult:131...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+105,42,42,0
+Total 105 (15 unique) events are in hot method
+Total 42 (6 unique) traces are in hot method
+Total 42 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 105 (15 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (21 traces / 3 unique traces) (42 events / 6 unique events)
+	StringBuilder_ThreadSafe (21 traces / 3 unique traces) (63 events / 9 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileTest.checkFileResult:131): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#46
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreFileExtractor.pushFileToConsumers:75...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+99,44,44,0
+Total 99 (9 unique) events are in hot method
+Total 44 (4 unique) traces are in hot method
+Total 44 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 99 (9 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (11 traces / 1 unique traces) (33 events / 3 unique events)
+	Collection_UnsafeIterator (11 traces / 1 unique traces) (44 events / 4 unique events)
+	ListIterator_RemoveOnce (11 traces / 1 unique traces) (11 events / 1 unique events)
+	Iterator_RemoveOnce (11 traces / 1 unique traces) (11 events / 1 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreFileExtractor.pushFileToConsumers:75): CUT,ISOLATED_ONE_UNIQUE
+
+#47
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumTapeFile.getFilename:56...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+98,28,28,0
+Total 98 (7 unique) events are in hot method
+Total 28 (2 unique) traces are in hot method
+Total 28 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 98 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (14 traces / 1 unique traces) (42 events / 3 unique events)
+	StringBuilder_ThreadSafe (14 traces / 1 unique traces) (56 events / 4 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumTapeFile.getFilename:56): CUT,ISOLATED_ONE_UNIQUE
+
+#48
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreBlockRecognisingStateMachine.stateReceivingHeaderSyncChain:220...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+90,36,36,0
+Total 90 (5 unique) events are in hot method
+Total 36 (2 unique) traces are in hot method
+Total 36 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 90 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (18 traces / 1 unique traces) (36 events / 2 unique events)
+	StringBuilder_ThreadSafe (18 traces / 1 unique traces) (54 events / 3 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreBlockRecognisingStateMachine.stateReceivingHeaderSyncChain:220): CUT,ISOLATED_ONE_UNIQUE
+
+#49
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreFileBuilder.pushCurrentFileToOutputQueue:121...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+88,31,22,9
+Total 88 (10 unique) events are in hot method
+Total 31 (4 unique) traces are in hot method
+Total 22 (2 unique) isolated traces are in hot method
+Total 9 (2 unique) non-isolated traces that have events in hot method
+Total 77 (7 unique) events are in isolated traces
+Total 22 (6 unique) events are in non-isolated traces (11 / 3 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (11 traces / 1 unique traces) (44 events / 4 unique events)
+	Appendable_ThreadSafe (11 traces / 1 unique traces) (33 events / 3 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (9 traces / 2 unique traces) (22 events / 6 unique events) (11 events / 3 unique events in hot method)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreFileBuilder.pushCurrentFileToOutputQueue:121): CUT,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#50
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.General.Filters.LowPass.push:74...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+84,24,24,0
+Total 84 (7 unique) events are in hot method
+Total 24 (2 unique) traces are in hot method
+Total 24 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 84 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (12 traces / 1 unique traces) (48 events / 4 unique events)
+	Appendable_ThreadSafe (12 traces / 1 unique traces) (36 events / 3 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.General.Filters.LowPass.push:74): CUT,ISOLATED_ONE_UNIQUE
+
+#51
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.CommodoreFileTest.parseFile:130...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+81,18,18,0
+Total 81 (9 unique) events are in hot method
+Total 18 (2 unique) traces are in hot method
+Total 18 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 81 (9 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (9 traces / 1 unique traces) (36 events / 4 unique events)
+	StringBuilder_ThreadSafe (9 traces / 1 unique traces) (45 events / 5 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.CommodoreFileTest.parseFile:130): CUT,ISOLATED_ONE_UNIQUE
+
+#52
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileTest.parseFile:120...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+63,14,14,0
+Total 63 (9 unique) events are in hot method
+Total 14 (2 unique) traces are in hot method
+Total 14 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 63 (9 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (7 traces / 1 unique traces) (28 events / 4 unique events)
+	StringBuilder_ThreadSafe (7 traces / 1 unique traces) (35 events / 5 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileTest.parseFile:120): CUT,ISOLATED_ONE_UNIQUE
+
+#53
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.General.Filters.HighPass.registerSamplePeriod:96...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+45,10,10,0
+Total 45 (9 unique) events are in hot method
+Total 10 (2 unique) traces are in hot method
+Total 10 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 45 (9 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (5 traces / 1 unique traces) (20 events / 4 unique events)
+	StringBuilder_ThreadSafe (5 traces / 1 unique traces) (25 events / 5 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.General.Filters.HighPass.registerSamplePeriod:96): CUT,ISOLATED_ONE_UNIQUE
+
+#54
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.isDataChecksumValid:432...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+45,10,10,0
+Total 45 (9 unique) events are in hot method
+Total 10 (2 unique) traces are in hot method
+Total 10 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 45 (9 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (5 traces / 1 unique traces) (25 events / 5 unique events)
+	Appendable_ThreadSafe (5 traces / 1 unique traces) (20 events / 4 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.isDataChecksumValid:432): CUT,ISOLATED_ONE_UNIQUE
+
+#55
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCFileTest.parseFile:112...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+45,10,10,0
+Total 45 (9 unique) events are in hot method
+Total 10 (2 unique) traces are in hot method
+Total 10 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 45 (9 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (5 traces / 1 unique traces) (25 events / 5 unique events)
+	Appendable_ThreadSafe (5 traces / 1 unique traces) (20 events / 4 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCFileTest.parseFile:112): CUT,ISOLATED_ONE_UNIQUE
+
+#56
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.General.FileExtraction.GenericTapeFile.getFilename:97...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+43,14,14,0
+Total 43 (12 unique) events are in hot method
+Total 14 (4 unique) traces are in hot method
+Total 14 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 43 (12 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (7 traces / 2 unique traces) (25 events / 7 unique events)
+	Appendable_ThreadSafe (7 traces / 2 unique traces) (18 events / 5 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.General.FileExtraction.GenericTapeFile.getFilename:97): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#57
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.outputFileFragmentIfAllowedTo:163...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+40,16,16,0
+Total 40 (5 unique) events are in hot method
+Total 16 (2 unique) traces are in hot method
+Total 16 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 40 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (8 traces / 1 unique traces) (16 events / 2 unique events)
+	StringBuilder_ThreadSafe (8 traces / 1 unique traces) (24 events / 3 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.outputFileFragmentIfAllowedTo:163): CUT,ISOLATED_ONE_UNIQUE
+
+#58
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.EmulatorTAPFile.addByte:32...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+40,7,0,7
+Total 40 (22 unique) events are in hot method
+Total 7 (4 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 7 (4 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 888 (534 unique) events are in non-isolated traces (40 / 22 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (7 traces / 4 unique traces) (888 events / 534 unique events) (40 events / 22 unique events in hot method)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.EmulatorTAPFile.addByte:32): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#59
+Inspecting hot method com.eightbitjim.cassettenibbler.DataSink.Directory.pushFileToConsumers:94...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+36,18,17,1
+Total 36 (16 unique) events are in hot method
+Total 18 (7 unique) traces are in hot method
+Total 17 (6 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 32 (12 unique) events are in isolated traces
+Total 5 (5 unique) events are in non-isolated traces (4 / 4 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (6 traces / 2 unique traces) (12 events / 4 unique events)
+	Collection_UnsafeIterator (5 traces / 2 unique traces) (14 events / 6 unique events)
+	ListIterator_RemoveOnce (3 traces / 1 unique traces) (3 events / 1 unique events)
+	Iterator_RemoveOnce (3 traces / 1 unique traces) (3 events / 1 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (5 events / 5 unique events) (4 events / 4 unique events in hot method)
+Classifier (com.eightbitjim.cassettenibbler.DataSink.Directory.pushFileToConsumers:94): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_SINGLE_TRACE
+
+#60
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.General.Filters.HighPass.push:65...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+35,10,10,0
+Total 35 (7 unique) events are in hot method
+Total 10 (2 unique) traces are in hot method
+Total 10 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 35 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (5 traces / 1 unique traces) (15 events / 3 unique events)
+	StringBuilder_ThreadSafe (5 traces / 1 unique traces) (20 events / 4 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.General.Filters.HighPass.push:65): CUT,ISOLATED_ONE_UNIQUE
+
+#61
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCTapeFile.addBlock:124...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+32,7,7,0
+Total 32 (26 unique) events are in hot method
+Total 7 (5 unique) traces are in hot method
+Total 7 (5 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 32 (26 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (7 traces / 5 unique traces) (32 events / 26 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCTapeFile.addBlock:124): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#62
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreTapeFile.addBlock:51...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+23,11,11,0
+Total 23 (7 unique) events are in hot method
+Total 11 (3 unique) traces are in hot method
+Total 11 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 23 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (11 traces / 3 unique traces) (23 events / 7 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreTapeFile.addBlock:51): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#63
+Inspecting hot method com.eightbitjim.cassettenibbler.DataSource.AudioInputLibrary.AudioInput.registerSampleStreamConsumer:77...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+22,22,22,0
+Total 22 (1 unique) events are in hot method
+Total 22 (1 unique) traces are in hot method
+Total 22 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 22 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (22 traces / 1 unique traces) (22 events / 1 unique events)
+Classifier (com.eightbitjim.cassettenibbler.DataSource.AudioInputLibrary.AudioInput.registerSampleStreamConsumer:77): CUT,ISOLATED_ONE_UNIQUE
+
+#64
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.General.Demodulation.ZeroCrossingIntervalExtractor.registerIntervalStreamConsumer:112...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+22,22,22,0
+Total 22 (1 unique) events are in hot method
+Total 22 (1 unique) traces are in hot method
+Total 22 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 22 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (22 traces / 1 unique traces) (22 events / 1 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.General.Demodulation.ZeroCrossingIntervalExtractor.registerIntervalStreamConsumer:112): CUT,ISOLATED_ONE_UNIQUE
+
+#65
+Inspecting hot method com.eightbitjim.cassettenibbler.DataSink.Directory.removeFile:42...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+16,1,0,1
+Total 16 (16 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 22 (22 unique) events are in non-isolated traces (16 / 16 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (22 events / 22 unique events) (16 events / 16 unique events in hot method)
+Classifier (com.eightbitjim.cassettenibbler.DataSink.Directory.removeFile:42): CUT,NOT_REDUNDANT_TRACES
+
+#66
+Inspecting hot method com.eightbitjim.cassettenibbler.DataSink.Directory.addFile:37...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+13,5,4,1
+Total 13 (9 unique) events are in hot method
+Total 5 (3 unique) traces are in hot method
+Total 4 (2 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 7 (3 unique) events are in isolated traces
+Total 22 (22 unique) events are in non-isolated traces (6 / 6 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (4 traces / 2 unique traces) (7 events / 3 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (22 events / 22 unique events) (6 events / 6 unique events in hot method)
+Classifier (com.eightbitjim.cassettenibbler.DataSink.Directory.addFile:37): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_SINGLE_TRACE
+
+#67
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.General.Filters.LowPass.registerSampleStreamConsumer:109...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+12,12,12,0
+Total 12 (1 unique) events are in hot method
+Total 12 (1 unique) traces are in hot method
+Total 12 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 12 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (12 traces / 1 unique traces) (12 events / 1 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.General.Filters.LowPass.registerSampleStreamConsumer:109): CUT,ISOLATED_ONE_UNIQUE
+
+#68
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreBlockRecognisingStateMachine.addFileToReturnQueue:180...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+11,9,0,9
+Total 11 (3 unique) events are in hot method
+Total 9 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 9 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 22 (6 unique) events are in non-isolated traces (11 / 3 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (9 traces / 2 unique traces) (22 events / 6 unique events) (11 events / 3 unique events in hot method)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreBlockRecognisingStateMachine.addFileToReturnQueue:180): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#69
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreBlockRecognisingStateMachine.getFile:152...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+11,9,0,9
+Total 11 (3 unique) events are in hot method
+Total 9 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 9 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 22 (6 unique) events are in non-isolated traces (11 / 3 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (9 traces / 2 unique traces) (22 events / 6 unique events) (11 events / 3 unique events in hot method)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreBlockRecognisingStateMachine.getFile:152): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#70
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.CommodoreFileTest.pushFile:164...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+11,9,9,0
+Total 11 (3 unique) events are in hot method
+Total 9 (2 unique) traces are in hot method
+Total 9 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 11 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (9 traces / 2 unique traces) (11 events / 3 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.CommodoreFileTest.pushFile:164): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#71
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreFileBuilder.getFile:178...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+11,9,0,9
+Total 11 (3 unique) events are in hot method
+Total 9 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 9 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 22 (6 unique) events are in non-isolated traces (11 / 3 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (9 traces / 2 unique traces) (22 events / 6 unique events) (11 events / 3 unique events in hot method)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreFileBuilder.getFile:178): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#72
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Commodore.PulseExtraction.Commodore64Vic20PulseExtractor.registerPulseStreamConsumer:150...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+10,10,10,0
+Total 10 (1 unique) events are in hot method
+Total 10 (1 unique) traces are in hot method
+Total 10 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 10 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (10 traces / 1 unique traces) (10 events / 1 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Commodore.PulseExtraction.Commodore64Vic20PulseExtractor.registerPulseStreamConsumer:150): CUT,ISOLATED_ONE_UNIQUE
+
+#73
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCFileExtractor.registerFileStreamConsumer:47...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+10,10,10,0
+Total 10 (1 unique) events are in hot method
+Total 10 (1 unique) traces are in hot method
+Total 10 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 10 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (10 traces / 1 unique traces) (10 events / 1 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCFileExtractor.registerFileStreamConsumer:47): CUT,ISOLATED_ONE_UNIQUE
+
+#74
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Acorn.PulseExtraction.AcornPulseExtractor.registerPulseStreamConsumer:109...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+10,5,5,0
+Total 10 (2 unique) events are in hot method
+Total 5 (1 unique) traces are in hot method
+Total 5 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 10 (2 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (5 traces / 1 unique traces) (10 events / 2 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Acorn.PulseExtraction.AcornPulseExtractor.registerPulseStreamConsumer:109): CUT,ISOLATED_ONE_UNIQUE
+
+#75
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.startReceivingOrphanDataBlock:410...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+10,4,4,0
+Total 10 (10 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 4 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 10 (10 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (2 traces / 2 unique traces) (6 events / 6 unique events)
+	Appendable_ThreadSafe (2 traces / 2 unique traces) (4 events / 4 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.startReceivingOrphanDataBlock:410): CUT,NOT_REDUNDANT_TRACES
+
+#76
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreFileExtractor.registerFileStreamConsumer:65...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+9,9,9,0
+Total 9 (1 unique) events are in hot method
+Total 9 (1 unique) traces are in hot method
+Total 9 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 9 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (9 traces / 1 unique traces) (9 events / 1 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Commodore.FileExtraction.ROMLoader.CommodoreFileExtractor.registerFileStreamConsumer:65): CUT,ISOLATED_ONE_UNIQUE
+
+#77
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCFileTest.pushFile:143...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+7,5,5,0
+Total 7 (3 unique) events are in hot method
+Total 5 (2 unique) traces are in hot method
+Total 5 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 7 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (5 traces / 2 unique traces) (7 events / 3 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCFileTest.pushFile:143): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#78
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileTest.pushFile:152...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+7,6,6,0
+Total 7 (3 unique) events are in hot method
+Total 6 (2 unique) traces are in hot method
+Total 6 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 7 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (6 traces / 2 unique traces) (7 events / 3 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileTest.pushFile:152): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#79
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.registerFileStreamConsumer:475...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+7,7,7,0
+Total 7 (1 unique) events are in hot method
+Total 7 (1 unique) traces are in hot method
+Total 7 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 7 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (7 traces / 1 unique traces) (7 events / 1 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.registerFileStreamConsumer:475): CUT,ISOLATED_ONE_UNIQUE
+
+#80
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Sinclair.PulseExtraction.SpectrumPulseExtractor.registerPulseStreamConsumer:166...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+7,7,7,0
+Total 7 (1 unique) events are in hot method
+Total 7 (1 unique) traces are in hot method
+Total 7 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 7 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (7 traces / 1 unique traces) (7 events / 1 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Sinclair.PulseExtraction.SpectrumPulseExtractor.registerPulseStreamConsumer:166): CUT,ISOLATED_ONE_UNIQUE
+
+#81
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Commodore.PulseExtraction.CommodorePulseTest.checkResultString:65...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+6,3,2,1
+Total 6 (6 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 5 (5 unique) events are in isolated traces
+Total 324 (324 unique) events are in non-isolated traces (1 / 1 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (2 events / 2 unique events)
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+Specs that have non-isolated traces:
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (324 events / 324 unique events) (1 events / 1 unique events in hot method)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Commodore.PulseExtraction.CommodorePulseTest.checkResultString:65): CUT,NOT_REDUNDANT_TRACES
+
+#82
+Inspecting hot method com.eightbitjim.cassettenibbler.DataSink.DirectoryTest.pushFile:270...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+6,4,4,0
+Total 6 (6 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 4 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 6 (6 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (4 traces / 4 unique traces) (6 events / 6 unique events)
+Classifier (com.eightbitjim.cassettenibbler.DataSink.DirectoryTest.pushFile:270): CUT,NOT_REDUNDANT_TRACES
+
+#83
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCFileTest.checkTextFileHash:132...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+5,2,2,0
+Total 5 (5 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (2 events / 2 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Acorn.FileExtraction.BBCFileTest.checkTextFileHash:132): CUT,NOT_REDUNDANT_TRACES
+
+#84
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.General.Filters.HighPass.registerSampleStreamConsumer:117...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+5,5,5,0
+Total 5 (1 unique) events are in hot method
+Total 5 (1 unique) traces are in hot method
+Total 5 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (5 traces / 1 unique traces) (5 events / 1 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.General.Filters.HighPass.registerSampleStreamConsumer:117): CUT,ISOLATED_ONE_UNIQUE
+
+#85
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.pushStringToPulseStream:522...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+5,2,2,0
+Total 5 (5 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (2 events / 2 unique events)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Sinclair.FileExtraction.ZXSpectrum.SpectrumFileStateMachine.pushStringToPulseStream:522): CUT,NOT_REDUNDANT_TRACES
+
+#86
+Inspecting hot method com.eightbitjim.cassettenibbler.TapeExtractionLogging.getInstance:49...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+3,3,3,0
+Total 3 (3 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (1 events / 1 unique events)
+	TreeMap_Comparable (1 traces / 1 unique traces) (1 events / 1 unique events)
+Classifier (com.eightbitjim.cassettenibbler.TapeExtractionLogging.getInstance:49): CUT,NOT_REDUNDANT_TRACES
+
+#87
+Inspecting hot method com.eightbitjim.cassettenibbler.DataSink.Directory.registerFileStreamConsumer:84...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+2,2,1,1
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 1 (1 unique) events are in isolated traces
+Total 2 (2 unique) events are in non-isolated traces (1 / 1 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (1 events / 1 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (2 events / 2 unique events) (1 events / 1 unique events in hot method)
+Classifier (com.eightbitjim.cassettenibbler.DataSink.Directory.registerFileStreamConsumer:84): CUT,NOT_REDUNDANT_TRACES
+
+#88
+Inspecting hot method com.eightbitjim.cassettenibbler.DataSink.Directory.deregisterFileStreamConsumer:90...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+2,2,0,2
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 7 (7 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (2 events / 2 unique events) (1 events / 1 unique events in hot method)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (5 events / 5 unique events) (1 events / 1 unique events in hot method)
+Classifier (com.eightbitjim.cassettenibbler.DataSink.Directory.deregisterFileStreamConsumer:90): CUT,NOT_REDUNDANT_TRACES
+
+#89
+Inspecting hot method com.eightbitjim.cassettenibbler.Platforms.Acorn.Formats.BBCBasicVariableData.processInputStreamIntoString:55...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+	processed 6000 traces
+	processed 7000 traces
+	processed 8000 traces
+	processed 9000 traces
+	processed 10000 traces
+	processed 11000 traces
+	processed 12000 traces
+	processed 13000 traces
+	processed 14000 traces
+	processed 15000 traces
+	processed 16000 traces
+	processed 17000 traces
+	processed 18000 traces
+	processed 19000 traces
+	processed 20000 traces
+	processed 21000 traces
+Checking for isolation...
+2,2,0,2
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 2021 (2021 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (1011 events / 1011 unique events) (1 events / 1 unique events in hot method)
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (1010 events / 1010 unique events) (1 events / 1 unique events in hot method)
+Classifier (com.eightbitjim.cassettenibbler.Platforms.Acorn.Formats.BBCBasicVariableData.processInputStreamIntoString:55): CUT,NOT_REDUNDANT_TRACES
+

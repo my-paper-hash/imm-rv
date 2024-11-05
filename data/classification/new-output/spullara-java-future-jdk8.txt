@@ -1,0 +1,873 @@
+Reading traces...
+Reading specs frequency...
+Reading locations...
+Counting events...
+Total 50000900513 events and 500136 traces
+Inspecting top 200 IMM
+Finding hot methods...
+Number of events, method name
+50000300000,spullara.BenchmarkTest.lambda$testVsFor$0:20
+600000,spullara.BenchmarkTest.testVsFor:13
+39,spullara.util.Benchmarker.lambda$report$1:32
+36,spullara.util.concurrent.CompletableFutureTest.collect:348
+34,spullara.util.Limiter$2.hasNext:49
+34,spullara.util.Limiter$3.hasNext:83
+33,spullara.util.Limiter$1.hasNext:22
+26,spullara.util.concurrent.CompletableFutureTest.testCompleteExceptionally:94
+25,spullara.util.concurrent.CompletableFutureTest.testCancellation:60
+25,spullara.util.concurrent.CompletableFutureTest.testCompleteExceptionally2:128
+16,spullara.util.matching.Match.or:19
+15,spullara.StreamTests.lambda$testGater$10:138
+15,spullara.StreamTests.lambda$testGater$13:145
+14,spullara.util.matching.MatchTest.testCalculator:39
+10,spullara.StreamTests.testGroupingBy:54
+10,spullara.util.matching.MatchTest.testCalculator:61
+10,spullara.StreamTests.testTransformValues1:26
+8,spullara.StreamTests.testPivotTable:107
+8,spullara.StreamTests.testComputeIfAbsent:68
+8,spullara.StreamTests.lambda$testTransformValues1$0:33
+8,spullara.StreamTests.testTransformValues2:41
+8,spullara.StreamTests.lambda$transformValues$7:126
+7,spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$31:239
+7,spullara.util.concurrent.CompletableFutureTest.lambda$testCancellation$9:70
+7,spullara.util.concurrent.CompletableFutureTest.lambda$testCompleteExceptionally$14:104
+7,spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$32:240
+6,spullara.util.concurrent.CompletableFutureTest.testExceptionally:165
+6,spullara.util.Benchmarker.execute:21
+5,spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$33:245
+5,spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$38:284
+5,spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$42:297
+5,spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$51:331
+5,spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$44:317
+5,spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$48:326
+5,spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$53:332
+5,spullara.util.concurrent.CompletableFutureTest.lambda$collect$55:356
+5,spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$54:343
+5,spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$30:234
+5,spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$29:232
+5,spullara.util.LazyTest.lambda$testThreadedLazy$1:29
+5,spullara.util.LazyTest.lambda$testLazy$0:18
+5,spullara.util.matching.MatchTest.s:69
+4,spullara.util.Benchmarker.report:30
+2,spullara.StreamTests.transformValues:125
+2,spullara.util.matching.Match.or:25
+2,spullara.util.CurrierTest.curryOneToZero:14
+2,spullara.nio.channels.FutureSocketChannelTest.testEchoServer:16
+1,spullara.util.concurrent.CompletableFutureTest.lambda$testExceptions$4:51
+1,spullara.util.concurrent.CompletableFutureTest.lambda$testExceptions$1:42
+1,spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$25:191
+1,spullara.util.concurrent.CompletableFutureTest.testCompletableFutures:180
+1,spullara.nio.channels.FutureSocketChannel.close:26
+1,spullara.util.concurrent.CompletableFutureTest.testExceptions:34
+1,spullara.util.concurrent.CompletableFutureTest.lambda$testExceptions$2:45
+1,spullara.util.concurrent.CompletableFutureTest.lambda$testExceptions$0:37
+1,spullara.util.concurrent.CompletableFutureTest.lambda$testExceptions$5:53
+^^^ Last method that contains more than one event ^^^
+Starting spullara.StreamTests.testGroupingBy:54
+Finish spullara.StreamTests.testGroupingBy:54
+Starting spullara.BenchmarkTest.testVsFor:13
+Finish spullara.BenchmarkTest.testVsFor:13
+Starting spullara.util.concurrent.CompletableFutureTest.lambda$testCompleteExceptionally$14:104
+Finish spullara.util.concurrent.CompletableFutureTest.lambda$testCompleteExceptionally$14:104
+Starting spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$32:240
+Finish spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$32:240
+Starting spullara.BenchmarkTest.lambda$testVsFor$0:20
+Finish spullara.BenchmarkTest.lambda$testVsFor$0:20
+Starting spullara.util.concurrent.CompletableFutureTest.collect:348
+Finish spullara.util.concurrent.CompletableFutureTest.collect:348
+Starting spullara.util.Benchmarker.execute:21
+Finish spullara.util.Benchmarker.execute:21
+Starting spullara.StreamTests.lambda$testTransformValues1$0:33
+Finish spullara.StreamTests.lambda$testTransformValues1$0:33
+Starting spullara.util.concurrent.CompletableFutureTest.testExceptionally:165
+Finish spullara.util.concurrent.CompletableFutureTest.testExceptionally:165
+Starting spullara.util.matching.MatchTest.testCalculator:61
+Finish spullara.util.matching.MatchTest.testCalculator:61
+Starting spullara.util.concurrent.CompletableFutureTest.lambda$collect$55:356
+Finish spullara.util.concurrent.CompletableFutureTest.lambda$collect$55:356
+Starting spullara.StreamTests.lambda$testGater$10:138
+Finish spullara.StreamTests.lambda$testGater$10:138
+Starting spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$54:343
+Finish spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$54:343
+Starting spullara.util.concurrent.CompletableFutureTest.lambda$testCancellation$9:70
+Finish spullara.util.concurrent.CompletableFutureTest.lambda$testCancellation$9:70
+Starting spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$53:332
+Finish spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$53:332
+Starting spullara.StreamTests.testTransformValues1:26
+Finish spullara.StreamTests.testTransformValues1:26
+Starting spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$29:232
+Finish spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$29:232
+Starting spullara.StreamTests.testPivotTable:107
+Finish spullara.StreamTests.testPivotTable:107
+Starting spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$30:234
+Finish spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$30:234
+Starting spullara.StreamTests.testComputeIfAbsent:68
+Finish spullara.StreamTests.testComputeIfAbsent:68
+Starting spullara.util.matching.Match.or:25
+Finish spullara.util.matching.Match.or:25
+Starting spullara.StreamTests.testTransformValues2:41
+Finish spullara.StreamTests.testTransformValues2:41
+Starting spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$51:331
+Finish spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$51:331
+Starting spullara.util.matching.Match.or:19
+Finish spullara.util.matching.Match.or:19
+Starting spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$44:317
+Finish spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$44:317
+Starting spullara.util.matching.MatchTest.testCalculator:39
+Finish spullara.util.matching.MatchTest.testCalculator:39
+Starting spullara.nio.channels.FutureSocketChannelTest.testEchoServer:16
+Finish spullara.nio.channels.FutureSocketChannelTest.testEchoServer:16
+Starting spullara.util.Limiter$2.hasNext:49
+Finish spullara.util.Limiter$2.hasNext:49
+Starting spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$48:326
+Finish spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$48:326
+Starting spullara.util.concurrent.CompletableFutureTest.testCompleteExceptionally:94
+Finish spullara.util.concurrent.CompletableFutureTest.testCompleteExceptionally:94
+Starting spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$33:245
+Finish spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$33:245
+Starting spullara.util.Benchmarker.lambda$report$1:32
+Finish spullara.util.Benchmarker.lambda$report$1:32
+Starting spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$42:297
+Finish spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$42:297
+Starting spullara.util.Limiter$3.hasNext:83
+Finish spullara.util.Limiter$3.hasNext:83
+Starting spullara.util.LazyTest.lambda$testThreadedLazy$1:29
+Finish spullara.util.LazyTest.lambda$testThreadedLazy$1:29
+Starting spullara.util.Limiter$1.hasNext:22
+Finish spullara.util.Limiter$1.hasNext:22
+Starting spullara.util.LazyTest.lambda$testLazy$0:18
+Finish spullara.util.LazyTest.lambda$testLazy$0:18
+Starting spullara.util.concurrent.CompletableFutureTest.testCancellation:60
+Finish spullara.util.concurrent.CompletableFutureTest.testCancellation:60
+Starting spullara.util.matching.MatchTest.s:69
+Finish spullara.util.matching.MatchTest.s:69
+Starting spullara.StreamTests.lambda$testGater$13:145
+Finish spullara.StreamTests.lambda$testGater$13:145
+Starting spullara.util.Benchmarker.report:30
+Finish spullara.util.Benchmarker.report:30
+Starting spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$31:239
+Finish spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$31:239
+Starting spullara.util.CurrierTest.curryOneToZero:14
+Finish spullara.util.CurrierTest.curryOneToZero:14
+Starting spullara.StreamTests.lambda$transformValues$7:126
+Finish spullara.StreamTests.lambda$transformValues$7:126
+Starting spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$38:284
+Finish spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$38:284
+Starting spullara.util.concurrent.CompletableFutureTest.testCompleteExceptionally2:128
+Finish spullara.util.concurrent.CompletableFutureTest.testCompleteExceptionally2:128
+Starting spullara.StreamTests.transformValues:125
+Finish spullara.StreamTests.transformValues:125
+
+#1
+Inspecting hot method spullara.BenchmarkTest.lambda$testVsFor$0:20...
+Checking for isolation...
+50000300000,300000,300000,0
+Total 50000300000 (500003 unique) events are in hot method
+Total 300000 (3 unique) traces are in hot method
+Total 300000 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 50000300000 (500003 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (100000 traces / 1 unique traces) (20000100000 events / 200001 unique events)
+	Collection_UnsafeIterator (100000 traces / 1 unique traces) (20000200000 events / 200002 unique events)
+	Iterator_RemoveOnce (100000 traces / 1 unique traces) (10000000000 events / 100000 unique events)
+Classifier (spullara.BenchmarkTest.lambda$testVsFor$0:20): CUT,ISOLATED_ONE_UNIQUE
+
+#2
+Inspecting hot method spullara.BenchmarkTest.testVsFor:13...
+Checking for isolation...
+600000,200001,200001,0
+Total 600000 (100005 unique) events are in hot method
+Total 200001 (3 unique) traces are in hot method
+Total 200001 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 600000 (100005 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (100000 traces / 1 unique traces) (200000 events / 2 unique events)
+	StringBuilder_ThreadSafe (100000 traces / 1 unique traces) (300000 events / 3 unique events)
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (100000 events / 100000 unique events)
+Classifier (spullara.BenchmarkTest.testVsFor:13): CUT,ISOLATED_ONE_UNIQUE,ISOLATED_SINGLE_TRACE
+
+#3
+Inspecting hot method spullara.util.Benchmarker.lambda$report$1:32...
+Checking for isolation...
+39,6,6,0
+Total 39 (13 unique) events are in hot method
+Total 6 (2 unique) traces are in hot method
+Total 6 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 39 (13 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (3 traces / 1 unique traces) (18 events / 6 unique events)
+	StringBuilder_ThreadSafe (3 traces / 1 unique traces) (21 events / 7 unique events)
+Classifier (spullara.util.Benchmarker.lambda$report$1:32): CUT,ISOLATED_ONE_UNIQUE
+
+#4
+Inspecting hot method spullara.util.concurrent.CompletableFutureTest.collect:348...
+Checking for isolation...
+36,6,6,0
+Total 36 (18 unique) events are in hot method
+Total 6 (3 unique) traces are in hot method
+Total 6 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 36 (18 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (2 traces / 1 unique traces) (16 events / 8 unique events)
+	Iterator_RemoveOnce (2 traces / 1 unique traces) (6 events / 3 unique events)
+	Iterator_HasNext (2 traces / 1 unique traces) (14 events / 7 unique events)
+Classifier (spullara.util.concurrent.CompletableFutureTest.collect:348): CUT,ISOLATED_ONE_UNIQUE
+
+#5
+Inspecting hot method spullara.util.Limiter$2.hasNext:49...
+Checking for isolation...
+34,2,2,0
+Total 34 (34 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 34 (34 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (24 events / 24 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (10 events / 10 unique events)
+Classifier (spullara.util.Limiter$2.hasNext:49): CUT,NOT_REDUNDANT_TRACES
+
+#6
+Inspecting hot method spullara.util.Limiter$3.hasNext:83...
+Checking for isolation...
+34,2,2,0
+Total 34 (34 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 34 (34 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (23 events / 23 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (11 events / 11 unique events)
+Classifier (spullara.util.Limiter$3.hasNext:83): CUT,NOT_REDUNDANT_TRACES
+
+#7
+Inspecting hot method spullara.util.Limiter$1.hasNext:22...
+Checking for isolation...
+33,2,2,0
+Total 33 (33 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 33 (33 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (22 events / 22 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (11 events / 11 unique events)
+Classifier (spullara.util.Limiter$1.hasNext:22): CUT,NOT_REDUNDANT_TRACES
+
+#8
+Inspecting hot method spullara.util.concurrent.CompletableFutureTest.testCompleteExceptionally:94...
+Checking for isolation...
+26,11,11,0
+Total 26 (26 unique) events are in hot method
+Total 11 (11 unique) traces are in hot method
+Total 11 (11 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 26 (26 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (5 traces / 5 unique traces) (10 events / 10 unique events)
+	StringBuilder_ThreadSafe (5 traces / 5 unique traces) (15 events / 15 unique events)
+	Throwable_InitCauseOnce (1 traces / 1 unique traces) (1 events / 1 unique events)
+Classifier (spullara.util.concurrent.CompletableFutureTest.testCompleteExceptionally:94): CUT,NOT_REDUNDANT_TRACES
+
+#9
+Inspecting hot method spullara.util.concurrent.CompletableFutureTest.testCancellation:60...
+Checking for isolation...
+25,10,10,0
+Total 25 (25 unique) events are in hot method
+Total 10 (10 unique) traces are in hot method
+Total 10 (10 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 25 (25 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (5 traces / 5 unique traces) (10 events / 10 unique events)
+	StringBuilder_ThreadSafe (5 traces / 5 unique traces) (15 events / 15 unique events)
+Classifier (spullara.util.concurrent.CompletableFutureTest.testCancellation:60): CUT,NOT_REDUNDANT_TRACES
+
+#10
+Inspecting hot method spullara.util.concurrent.CompletableFutureTest.testCompleteExceptionally2:128...
+Checking for isolation...
+25,10,10,0
+Total 25 (25 unique) events are in hot method
+Total 10 (10 unique) traces are in hot method
+Total 10 (10 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 25 (25 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (5 traces / 5 unique traces) (15 events / 15 unique events)
+	Appendable_ThreadSafe (5 traces / 5 unique traces) (10 events / 10 unique events)
+Classifier (spullara.util.concurrent.CompletableFutureTest.testCompleteExceptionally2:128): CUT,NOT_REDUNDANT_TRACES
+
+#11
+Inspecting hot method spullara.util.matching.Match.or:19...
+Checking for isolation...
+16,4,2,2
+Total 16 (16 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 6 (6 unique) events are in isolated traces
+Total 12 (12 unique) events are in non-isolated traces (10 / 10 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (2 traces / 2 unique traces) (6 events / 6 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (2 traces / 2 unique traces) (12 events / 12 unique events) (10 events / 10 unique events in hot method)
+Classifier (spullara.util.matching.Match.or:19): CUT,NOT_REDUNDANT_TRACES
+
+#12
+Inspecting hot method spullara.StreamTests.lambda$testGater$10:138...
+Checking for isolation...
+15,6,6,0
+Total 15 (5 unique) events are in hot method
+Total 6 (2 unique) traces are in hot method
+Total 6 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 15 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (3 traces / 1 unique traces) (6 events / 2 unique events)
+	StringBuilder_ThreadSafe (3 traces / 1 unique traces) (9 events / 3 unique events)
+Classifier (spullara.StreamTests.lambda$testGater$10:138): CUT,ISOLATED_ONE_UNIQUE
+
+#13
+Inspecting hot method spullara.StreamTests.lambda$testGater$13:145...
+Checking for isolation...
+15,6,6,0
+Total 15 (5 unique) events are in hot method
+Total 6 (2 unique) traces are in hot method
+Total 6 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 15 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (3 traces / 1 unique traces) (6 events / 2 unique events)
+	StringBuilder_ThreadSafe (3 traces / 1 unique traces) (9 events / 3 unique events)
+Classifier (spullara.StreamTests.lambda$testGater$13:145): CUT,ISOLATED_ONE_UNIQUE
+
+#14
+Inspecting hot method spullara.util.matching.MatchTest.testCalculator:39...
+Checking for isolation...
+14,4,4,0
+Total 14 (14 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 4 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 14 (14 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (2 traces / 2 unique traces) (8 events / 8 unique events)
+	Appendable_ThreadSafe (2 traces / 2 unique traces) (6 events / 6 unique events)
+Classifier (spullara.util.matching.MatchTest.testCalculator:39): CUT,NOT_REDUNDANT_TRACES
+
+#15
+Inspecting hot method spullara.StreamTests.testGroupingBy:54...
+Checking for isolation...
+10,4,2,2
+Total 10 (10 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 2 (2 unique) events are in isolated traces
+Total 56 (56 unique) events are in non-isolated traces (8 / 8 unique are in hot method)
+Specs that have isolated traces:
+	Map_CollectionViewAdd (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Map_UnsafeIterator (1 traces / 1 unique traces) (1 events / 1 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (28 events / 28 unique events) (4 events / 4 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (28 events / 28 unique events) (4 events / 4 unique events in hot method)
+Classifier (spullara.StreamTests.testGroupingBy:54): CUT,NOT_REDUNDANT_TRACES
+
+#16
+Inspecting hot method spullara.util.matching.MatchTest.testCalculator:61...
+Checking for isolation...
+10,4,4,0
+Total 10 (5 unique) events are in hot method
+Total 4 (2 unique) traces are in hot method
+Total 4 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 10 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (2 traces / 1 unique traces) (6 events / 3 unique events)
+	Appendable_ThreadSafe (2 traces / 1 unique traces) (4 events / 2 unique events)
+Classifier (spullara.util.matching.MatchTest.testCalculator:61): CUT,ISOLATED_ONE_UNIQUE
+
+#17
+Inspecting hot method spullara.StreamTests.testTransformValues1:26...
+Checking for isolation...
+10,4,2,2
+Total 10 (10 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 2 (2 unique) events are in isolated traces
+Total 56 (56 unique) events are in non-isolated traces (8 / 8 unique are in hot method)
+Specs that have isolated traces:
+	Map_UnsafeIterator (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Map_CollectionViewAdd (1 traces / 1 unique traces) (1 events / 1 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (28 events / 28 unique events) (4 events / 4 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (28 events / 28 unique events) (4 events / 4 unique events in hot method)
+Classifier (spullara.StreamTests.testTransformValues1:26): CUT,NOT_REDUNDANT_TRACES
+
+#18
+Inspecting hot method spullara.StreamTests.testPivotTable:107...
+Checking for isolation...
+8,1,1,0
+Total 8 (8 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 8 (8 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (8 events / 8 unique events)
+Classifier (spullara.StreamTests.testPivotTable:107): CUT,NOT_REDUNDANT_TRACES
+
+#19
+Inspecting hot method spullara.StreamTests.testComputeIfAbsent:68...
+Checking for isolation...
+8,2,0,2
+Total 8 (8 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 56 (56 unique) events are in non-isolated traces (8 / 8 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (28 events / 28 unique events) (4 events / 4 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (28 events / 28 unique events) (4 events / 4 unique events in hot method)
+Classifier (spullara.StreamTests.testComputeIfAbsent:68): CUT,NOT_REDUNDANT_TRACES
+
+#20
+Inspecting hot method spullara.StreamTests.lambda$testTransformValues1$0:33...
+Checking for isolation...
+8,2,0,2
+Total 8 (8 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 56 (56 unique) events are in non-isolated traces (8 / 8 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (28 events / 28 unique events) (4 events / 4 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (28 events / 28 unique events) (4 events / 4 unique events in hot method)
+Classifier (spullara.StreamTests.lambda$testTransformValues1$0:33): CUT,NOT_REDUNDANT_TRACES
+
+#21
+Inspecting hot method spullara.StreamTests.testTransformValues2:41...
+Checking for isolation...
+8,2,0,2
+Total 8 (8 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 56 (56 unique) events are in non-isolated traces (8 / 8 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (28 events / 28 unique events) (4 events / 4 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (28 events / 28 unique events) (4 events / 4 unique events in hot method)
+Classifier (spullara.StreamTests.testTransformValues2:41): CUT,NOT_REDUNDANT_TRACES
+
+#22
+Inspecting hot method spullara.StreamTests.lambda$transformValues$7:126...
+Checking for isolation...
+8,2,0,2
+Total 8 (8 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 56 (56 unique) events are in non-isolated traces (8 / 8 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (28 events / 28 unique events) (4 events / 4 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (28 events / 28 unique events) (4 events / 4 unique events in hot method)
+Classifier (spullara.StreamTests.lambda$transformValues$7:126): CUT,NOT_REDUNDANT_TRACES
+
+#23
+Inspecting hot method spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$31:239...
+Checking for isolation...
+7,2,2,0
+Total 7 (7 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 7 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (4 events / 4 unique events)
+Classifier (spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$31:239): CUT,NOT_REDUNDANT_TRACES
+
+#24
+Inspecting hot method spullara.util.concurrent.CompletableFutureTest.lambda$testCancellation$9:70...
+Checking for isolation...
+7,2,2,0
+Total 7 (7 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 7 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (4 events / 4 unique events)
+Classifier (spullara.util.concurrent.CompletableFutureTest.lambda$testCancellation$9:70): CUT,NOT_REDUNDANT_TRACES
+
+#25
+Inspecting hot method spullara.util.concurrent.CompletableFutureTest.lambda$testCompleteExceptionally$14:104...
+Checking for isolation...
+7,2,2,0
+Total 7 (7 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 7 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (4 events / 4 unique events)
+Classifier (spullara.util.concurrent.CompletableFutureTest.lambda$testCompleteExceptionally$14:104): CUT,NOT_REDUNDANT_TRACES
+
+#26
+Inspecting hot method spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$32:240...
+Checking for isolation...
+7,2,2,0
+Total 7 (7 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 7 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (4 events / 4 unique events)
+Classifier (spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$32:240): CUT,NOT_REDUNDANT_TRACES
+
+#27
+Inspecting hot method spullara.util.concurrent.CompletableFutureTest.testExceptionally:165...
+Checking for isolation...
+6,3,3,0
+Total 6 (6 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 6 (6 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (2 events / 2 unique events)
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+	Throwable_InitCauseOnce (1 traces / 1 unique traces) (1 events / 1 unique events)
+Classifier (spullara.util.concurrent.CompletableFutureTest.testExceptionally:165): CUT,NOT_REDUNDANT_TRACES
+
+#28
+Inspecting hot method spullara.util.Benchmarker.execute:21...
+Checking for isolation...
+6,2,0,2
+Total 6 (6 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 56 (56 unique) events are in non-isolated traces (6 / 6 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (28 events / 28 unique events) (3 events / 3 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (28 events / 28 unique events) (3 events / 3 unique events in hot method)
+Classifier (spullara.util.Benchmarker.execute:21): CUT,NOT_REDUNDANT_TRACES
+
+#29
+Inspecting hot method spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$33:245...
+Checking for isolation...
+5,2,2,0
+Total 5 (5 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (2 events / 2 unique events)
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+Classifier (spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$33:245): CUT,NOT_REDUNDANT_TRACES
+
+#30
+Inspecting hot method spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$38:284...
+Checking for isolation...
+5,2,2,0
+Total 5 (5 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (2 events / 2 unique events)
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+Classifier (spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$38:284): CUT,NOT_REDUNDANT_TRACES
+
+#31
+Inspecting hot method spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$42:297...
+Checking for isolation...
+5,2,2,0
+Total 5 (5 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (2 events / 2 unique events)
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+Classifier (spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$42:297): CUT,NOT_REDUNDANT_TRACES
+
+#32
+Inspecting hot method spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$51:331...
+Checking for isolation...
+5,2,2,0
+Total 5 (5 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (2 events / 2 unique events)
+Classifier (spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$51:331): CUT,NOT_REDUNDANT_TRACES
+
+#33
+Inspecting hot method spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$44:317...
+Checking for isolation...
+5,2,2,0
+Total 5 (5 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (2 events / 2 unique events)
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+Classifier (spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$44:317): CUT,NOT_REDUNDANT_TRACES
+
+#34
+Inspecting hot method spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$48:326...
+Checking for isolation...
+5,2,2,0
+Total 5 (5 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (2 events / 2 unique events)
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+Classifier (spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$48:326): CUT,NOT_REDUNDANT_TRACES
+
+#35
+Inspecting hot method spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$53:332...
+Checking for isolation...
+5,2,2,0
+Total 5 (5 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (2 events / 2 unique events)
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+Classifier (spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$53:332): CUT,NOT_REDUNDANT_TRACES
+
+#36
+Inspecting hot method spullara.util.concurrent.CompletableFutureTest.lambda$collect$55:356...
+Checking for isolation...
+5,2,2,0
+Total 5 (5 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (2 traces / 2 unique traces) (5 events / 5 unique events)
+Classifier (spullara.util.concurrent.CompletableFutureTest.lambda$collect$55:356): CUT,NOT_REDUNDANT_TRACES
+
+#37
+Inspecting hot method spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$54:343...
+Checking for isolation...
+5,2,2,0
+Total 5 (5 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (2 events / 2 unique events)
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+Classifier (spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$54:343): CUT,NOT_REDUNDANT_TRACES
+
+#38
+Inspecting hot method spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$30:234...
+Checking for isolation...
+5,2,2,0
+Total 5 (5 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (2 events / 2 unique events)
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+Classifier (spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$30:234): CUT,NOT_REDUNDANT_TRACES
+
+#39
+Inspecting hot method spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$29:232...
+Checking for isolation...
+5,2,2,0
+Total 5 (5 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (2 events / 2 unique events)
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+Classifier (spullara.util.concurrent.CompletableFutureTest.lambda$testCompletableFutures$29:232): CUT,NOT_REDUNDANT_TRACES
+
+#40
+Inspecting hot method spullara.util.LazyTest.lambda$testThreadedLazy$1:29...
+Checking for isolation...
+5,2,2,0
+Total 5 (5 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (2 events / 2 unique events)
+Classifier (spullara.util.LazyTest.lambda$testThreadedLazy$1:29): CUT,NOT_REDUNDANT_TRACES
+
+#41
+Inspecting hot method spullara.util.LazyTest.lambda$testLazy$0:18...
+Checking for isolation...
+5,2,2,0
+Total 5 (5 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (2 events / 2 unique events)
+Classifier (spullara.util.LazyTest.lambda$testLazy$0:18): CUT,NOT_REDUNDANT_TRACES
+
+#42
+Inspecting hot method spullara.util.matching.MatchTest.s:69...
+Checking for isolation...
+5,2,2,0
+Total 5 (5 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (2 events / 2 unique events)
+Classifier (spullara.util.matching.MatchTest.s:69): CUT,NOT_REDUNDANT_TRACES
+
+#43
+Inspecting hot method spullara.util.Benchmarker.report:30...
+Checking for isolation...
+4,4,4,0
+Total 4 (4 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 4 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 4 (4 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Map_UnsafeIterator (2 traces / 2 unique traces) (2 events / 2 unique events)
+	Map_CollectionViewAdd (2 traces / 2 unique traces) (2 events / 2 unique events)
+Classifier (spullara.util.Benchmarker.report:30): CUT,NOT_REDUNDANT_TRACES
+
+#44
+Inspecting hot method spullara.StreamTests.transformValues:125...
+Checking for isolation...
+2,2,2,0
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2 (2 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Map_CollectionViewAdd (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Map_UnsafeIterator (1 traces / 1 unique traces) (1 events / 1 unique events)
+Classifier (spullara.StreamTests.transformValues:125): CUT,NOT_REDUNDANT_TRACES
+
+#45
+Inspecting hot method spullara.util.matching.Match.or:25...
+Checking for isolation...
+2,2,0,2
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 12 (12 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (2 traces / 2 unique traces) (12 events / 12 unique events) (2 events / 2 unique events in hot method)
+Classifier (spullara.util.matching.Match.or:25): CUT,NOT_REDUNDANT_TRACES
+
+#46
+Inspecting hot method spullara.util.CurrierTest.curryOneToZero:14...
+Checking for isolation...
+2,2,0,2
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 56 (56 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (28 events / 28 unique events) (1 events / 1 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (28 events / 28 unique events) (1 events / 1 unique events in hot method)
+Classifier (spullara.util.CurrierTest.curryOneToZero:14): CUT,NOT_REDUNDANT_TRACES
+
+#47
+Inspecting hot method spullara.nio.channels.FutureSocketChannelTest.testEchoServer:16...
+Checking for isolation...
+2,1,1,0
+Total 2 (2 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2 (2 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	InetSocketAddress_Port (1 traces / 1 unique traces) (2 events / 2 unique events)
+Classifier (spullara.nio.channels.FutureSocketChannelTest.testEchoServer:16): CUT,NOT_REDUNDANT_TRACES
+

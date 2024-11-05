@@ -1,0 +1,1036 @@
+Reading traces...
+Reading specs frequency...
+Reading locations...
+Counting events...
+Total 710199 events and 136754 traces
+Inspecting top 200 IMM
+Finding hot methods...
+Number of events, method name
+324800,com.linuxense.javadbf.testutils.DbfToTxtTest.export:40
+199421,com.linuxense.javadbf.DBFReader.nextRecord:311
+147541,com.linuxense.javadbf.DBFUtils.trimRightSpaces:334
+23913,com.linuxense.javadbf.DBFExploderInputStream.fillQueue:55
+2682,com.linuxense.javadbf.DBFHeader.read:80
+2510,com.linuxense.javadbf.DBFReader.createMapFieldNames:254
+1759,com.linuxense.javadbf.testutils.DbfToTxtTest.writeToConsole:61
+1547,com.linuxense.javadbf.DBFReader.getFieldValue:412
+1210,com.linuxense.javadbf.DBFUtils.doubleFormating:244
+880,com.linuxense.javadbf.bug64_excel_dbf.Bug64ExcelDBFTest.testRead:23
+727,com.linuxense.javadbf.DBFField.<init>:90
+501,com.linuxense.javadbf.DBFRow.<init>:39
+495,com.linuxense.javadbf.DBFMemoFile.seek:72
+300,com.linuxense.javadbf.DBFUtils.close:359
+266,com.linuxense.javadbf.DBFWriter.writeToStream:311
+260,com.linuxense.javadbf.DBFRowTest.testBasicDBFRow:21
+237,com.linuxense.javadbf.bug56.Bug56Test.test:24
+175,com.linuxense.javadbf.DBFField.toString:485
+166,com.linuxense.javadbf.DBFReader.toString:618
+152,com.linuxense.javadbf.DBFUtils.textPadding:209
+135,com.linuxense.javadbf.bug49.Bug49Test.testBug49:22
+90,com.linuxense.javadbf.bug102.Bug102Test.basicReadBug102UsingNextRow:55
+88,com.linuxense.javadbf.DBFWriter.addRecord:241
+49,com.linuxense.javadbf.ReadDBFAssert.testReadDBFFile:40
+28,com.linuxense.javadbf.DBFField.setLength:407
+21,com.linuxense.javadbf.DBFWriter.<init>:57
+17,com.linuxense.javadbf.DBFWriterRandomAccesTest.testCreatingFile:66
+17,com.linuxense.javadbf.DBFLockWriterTest.testCreatingFile:49
+16,com.linuxense.javadbf.DBFWriterRandomAccesTest.testAppendingToExistingFile:37
+16,com.linuxense.javadbf.DBFLockWriterTest.testAppendingToExistingFile:20
+12,com.linuxense.javadbf.DBFWriter.setFields:185
+12,com.linuxense.javadbf.DBFUtils.readAllBytes:399
+10,com.linuxense.javadbf.DBFReader.getField:290
+10,com.linuxense.javadbf.testutils.FileUtils.copyFile:16
+10,com.linuxense.javadbf.DBFRow.getString:108
+10,com.linuxense.javadbf.DBFUtils.readNumericStoredAsText:69
+8,com.linuxense.javadbf.bug34_char_encoding.Bug34CharacterEncodingTest.testBug34EncodingStream:30
+8,com.linuxense.javadbf.DBFField.setDecimalCount:449
+8,com.linuxense.javadbf.DBFReader.setMemoFile:584
+8,com.linuxense.javadbf.DBFMemoFile.<init>:68
+7,com.linuxense.javadbf.DeprecatedMethodsTest.testWriteAndReadAgain:37
+7,com.linuxense.javadbf.ReadDBFAssert.testReadDBFFileDeletedRecords:78
+6,com.linuxense.javadbf.DBFRow.getColumnIndex:45
+6,com.linuxense.javadbf.DBFDataType.fromCode:184
+6,com.linuxense.javadbf.DBFField.setType:430
+5,com.linuxense.javadbf.bug46_zero_field_count.ZeroFieldCountTest.test:22
+5,org.hamcrest.StringDescription.append:41
+4,org.hamcrest.StringDescription.append:50
+3,com.linuxense.javadbf.bug94_error_f5.Bug94ErrorF5Test.providedExample:41
+3,com.linuxense.javadbf.EncodingTest.testUtf8:128
+3,com.linuxense.javadbf.FixtureDBaseF5Test.test31:36
+3,com.linuxense.javadbf.BufferedInputStreamTest.testBuffered:37
+3,com.linuxense.javadbf.DBFField.setName:341
+2,com.linuxense.javadbf.bug_dates.BugDatesTest.test1:25
+1,com.linuxense.javadbf.bug94_error_f5.Bug94ErrorF5Test.testWrite:33
+1,com.linuxense.javadbf.ReadAndWriteTest.testWriteAndReadAgainBug31:108
+1,com.linuxense.javadbf.ReadAndWriteTest.testWriteAndReadAgain:38
+1,com.linuxense.javadbf.AnyNumericTypeTest.testNumericInteger:35
+1,com.linuxense.javadbf.EncodingTest.testSetEncodingCP866:189
+1,com.linuxense.javadbf.AnyNumericTypeTest.testNumericBigDecimal:97
+1,com.linuxense.javadbf.CopyExampleTest.test:23
+1,com.linuxense.javadbf.DBFReader.<init>:151
+1,com.linuxense.javadbf.bug33_corrupted_sync.Bug33CorruptedSyncModeTest.testBug:31
+1,com.linuxense.javadbf.mocks.FailInputStream.read:28
+1,com.linuxense.javadbf.DBCDATASUSTest.testExploderOutputStream:146
+1,com.linuxense.javadbf.DBCDATASUSTest.testExploderMemory:133
+1,com.linuxense.javadbf.DBFDataType.<clinit>:30
+1,com.linuxense.javadbf.DBFAlignment.<clinit>:30
+1,com.linuxense.javadbf.DBFException.<clinit>:0
+1,com.linuxense.javadbf.DBFFieldNotFoundException.<clinit>:0
+1,com.linuxense.javadbf.EncodingTest.testUTF8:247
+1,com.linuxense.javadbf.EncodingTest.testUTF8_1:272
+1,com.linuxense.javadbf.EncodingTest.testUTF8_2:297
+1,com.linuxense.javadbf.DBFAlignment.valueOf:26
+1,com.linuxense.javadbf.DBFDataType.valueOf:26
+^^^ Last method that contains more than one event ^^^
+Starting com.linuxense.javadbf.bug102.Bug102Test.basicReadBug102UsingNextRow:55
+Finish com.linuxense.javadbf.bug102.Bug102Test.basicReadBug102UsingNextRow:55
+Starting com.linuxense.javadbf.DBFLockWriterTest.testAppendingToExistingFile:20
+Finish com.linuxense.javadbf.DBFLockWriterTest.testAppendingToExistingFile:20
+Starting com.linuxense.javadbf.DBFUtils.doubleFormating:244
+Finish com.linuxense.javadbf.DBFUtils.doubleFormating:244
+Starting com.linuxense.javadbf.DBFUtils.readAllBytes:399
+Finish com.linuxense.javadbf.DBFUtils.readAllBytes:399
+Starting com.linuxense.javadbf.DBFField.<init>:90
+Finish com.linuxense.javadbf.DBFField.<init>:90
+Starting com.linuxense.javadbf.DBFWriter.setFields:185
+Finish com.linuxense.javadbf.DBFWriter.setFields:185
+Starting com.linuxense.javadbf.DBFReader.createMapFieldNames:254
+Finish com.linuxense.javadbf.DBFReader.createMapFieldNames:254
+Starting com.linuxense.javadbf.testutils.FileUtils.copyFile:16
+Finish com.linuxense.javadbf.testutils.FileUtils.copyFile:16
+Starting com.linuxense.javadbf.bug56.Bug56Test.test:24
+Finish com.linuxense.javadbf.bug56.Bug56Test.test:24
+Starting com.linuxense.javadbf.DBFRow.getString:108
+Finish com.linuxense.javadbf.DBFRow.getString:108
+Starting com.linuxense.javadbf.DBFWriter.addRecord:241
+Finish com.linuxense.javadbf.DBFWriter.addRecord:241
+Starting com.linuxense.javadbf.DBFUtils.readNumericStoredAsText:69
+Finish com.linuxense.javadbf.DBFUtils.readNumericStoredAsText:69
+Starting com.linuxense.javadbf.DBFUtils.close:359
+Finish com.linuxense.javadbf.DBFUtils.close:359
+Starting com.linuxense.javadbf.DBFReader.setMemoFile:584
+Finish com.linuxense.javadbf.DBFReader.setMemoFile:584
+Starting com.linuxense.javadbf.testutils.DbfToTxtTest.export:40
+Finish com.linuxense.javadbf.testutils.DbfToTxtTest.export:40
+Starting com.linuxense.javadbf.DBFMemoFile.<init>:68
+Finish com.linuxense.javadbf.DBFMemoFile.<init>:68
+Starting com.linuxense.javadbf.testutils.DbfToTxtTest.writeToConsole:61
+Finish com.linuxense.javadbf.testutils.DbfToTxtTest.writeToConsole:61
+Starting com.linuxense.javadbf.DBFReader.getField:290
+Finish com.linuxense.javadbf.DBFReader.getField:290
+Starting com.linuxense.javadbf.DBFField.setLength:407
+Finish com.linuxense.javadbf.DBFField.setLength:407
+Starting org.hamcrest.StringDescription.append:41
+Finish org.hamcrest.StringDescription.append:41
+Starting com.linuxense.javadbf.DBFHeader.read:80
+Finish com.linuxense.javadbf.DBFHeader.read:80
+Starting com.linuxense.javadbf.ReadDBFAssert.testReadDBFFileDeletedRecords:78
+Finish com.linuxense.javadbf.ReadDBFAssert.testReadDBFFileDeletedRecords:78
+Starting com.linuxense.javadbf.DBFWriter.writeToStream:311
+Finish com.linuxense.javadbf.DBFWriter.writeToStream:311
+Starting com.linuxense.javadbf.bug94_error_f5.Bug94ErrorF5Test.providedExample:41
+Finish com.linuxense.javadbf.bug94_error_f5.Bug94ErrorF5Test.providedExample:41
+Starting com.linuxense.javadbf.DBFExploderInputStream.fillQueue:55
+Finish com.linuxense.javadbf.DBFExploderInputStream.fillQueue:55
+Starting com.linuxense.javadbf.BufferedInputStreamTest.testBuffered:37
+Finish com.linuxense.javadbf.BufferedInputStreamTest.testBuffered:37
+Starting com.linuxense.javadbf.ReadDBFAssert.testReadDBFFile:40
+Finish com.linuxense.javadbf.ReadDBFAssert.testReadDBFFile:40
+Starting com.linuxense.javadbf.bug34_char_encoding.Bug34CharacterEncodingTest.testBug34EncodingStream:30
+Finish com.linuxense.javadbf.bug34_char_encoding.Bug34CharacterEncodingTest.testBug34EncodingStream:30
+Starting com.linuxense.javadbf.bug49.Bug49Test.testBug49:22
+Finish com.linuxense.javadbf.bug49.Bug49Test.testBug49:22
+Starting com.linuxense.javadbf.bug46_zero_field_count.ZeroFieldCountTest.test:22
+Finish com.linuxense.javadbf.bug46_zero_field_count.ZeroFieldCountTest.test:22
+Starting com.linuxense.javadbf.DBFReader.getFieldValue:412
+Finish com.linuxense.javadbf.DBFReader.getFieldValue:412
+Starting com.linuxense.javadbf.DBFRow.getColumnIndex:45
+Finish com.linuxense.javadbf.DBFRow.getColumnIndex:45
+Starting com.linuxense.javadbf.DBFUtils.textPadding:209
+Finish com.linuxense.javadbf.DBFUtils.textPadding:209
+Starting com.linuxense.javadbf.DBFField.setDecimalCount:449
+Finish com.linuxense.javadbf.DBFField.setDecimalCount:449
+Starting com.linuxense.javadbf.DBFRow.<init>:39
+Finish com.linuxense.javadbf.DBFRow.<init>:39
+Starting org.hamcrest.StringDescription.append:50
+Finish org.hamcrest.StringDescription.append:50
+Starting com.linuxense.javadbf.DBFReader.nextRecord:311
+Finish com.linuxense.javadbf.DBFReader.nextRecord:311
+Starting com.linuxense.javadbf.DBFWriterRandomAccesTest.testCreatingFile:66
+Finish com.linuxense.javadbf.DBFWriterRandomAccesTest.testCreatingFile:66
+Starting com.linuxense.javadbf.DBFWriterRandomAccesTest.testAppendingToExistingFile:37
+Finish com.linuxense.javadbf.DBFWriterRandomAccesTest.testAppendingToExistingFile:37
+Starting com.linuxense.javadbf.bug_dates.BugDatesTest.test1:25
+Finish com.linuxense.javadbf.bug_dates.BugDatesTest.test1:25
+Starting com.linuxense.javadbf.DBFRowTest.testBasicDBFRow:21
+Finish com.linuxense.javadbf.DBFRowTest.testBasicDBFRow:21
+Starting com.linuxense.javadbf.FixtureDBaseF5Test.test31:36
+Finish com.linuxense.javadbf.FixtureDBaseF5Test.test31:36
+Starting com.linuxense.javadbf.bug64_excel_dbf.Bug64ExcelDBFTest.testRead:23
+Finish com.linuxense.javadbf.bug64_excel_dbf.Bug64ExcelDBFTest.testRead:23
+Starting com.linuxense.javadbf.EncodingTest.testUtf8:128
+Finish com.linuxense.javadbf.EncodingTest.testUtf8:128
+Starting com.linuxense.javadbf.DBFMemoFile.seek:72
+Finish com.linuxense.javadbf.DBFMemoFile.seek:72
+Starting com.linuxense.javadbf.DBFDataType.fromCode:184
+Finish com.linuxense.javadbf.DBFDataType.fromCode:184
+Starting com.linuxense.javadbf.DBFReader.toString:618
+Finish com.linuxense.javadbf.DBFReader.toString:618
+Starting com.linuxense.javadbf.DBFField.setType:430
+Finish com.linuxense.javadbf.DBFField.setType:430
+Starting com.linuxense.javadbf.DBFUtils.trimRightSpaces:334
+Finish com.linuxense.javadbf.DBFUtils.trimRightSpaces:334
+Starting com.linuxense.javadbf.DBFWriter.<init>:57
+Finish com.linuxense.javadbf.DBFWriter.<init>:57
+Starting com.linuxense.javadbf.DBFLockWriterTest.testCreatingFile:49
+Finish com.linuxense.javadbf.DBFLockWriterTest.testCreatingFile:49
+Starting com.linuxense.javadbf.DBFField.setName:341
+Finish com.linuxense.javadbf.DBFField.setName:341
+Starting com.linuxense.javadbf.DBFField.toString:485
+Finish com.linuxense.javadbf.DBFField.toString:485
+Starting com.linuxense.javadbf.DeprecatedMethodsTest.testWriteAndReadAgain:37
+Finish com.linuxense.javadbf.DeprecatedMethodsTest.testWriteAndReadAgain:37
+
+#1
+Inspecting hot method com.linuxense.javadbf.testutils.DbfToTxtTest.export:40...
+Checking for isolation...
+324800,129920,129920,0
+Total 324800 (5 unique) events are in hot method
+Total 129920 (2 unique) traces are in hot method
+Total 129920 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 324800 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (64960 traces / 1 unique traces) (129920 events / 2 unique events)
+	StringBuilder_ThreadSafe (64960 traces / 1 unique traces) (194880 events / 3 unique events)
+Classifier (com.linuxense.javadbf.testutils.DbfToTxtTest.export:40): CUT,ISOLATED_ONE_UNIQUE
+
+#2
+Inspecting hot method com.linuxense.javadbf.DBFReader.nextRecord:311...
+Checking for isolation...
+199421,4217,4216,1
+Total 199421 (656 unique) events are in hot method
+Total 4217 (30 unique) traces are in hot method
+Total 4216 (29 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 199412 (647 unique) events are in isolated traces
+Total 148431 (148431 unique) events are in non-isolated traces (9 / 9 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (4213 traces / 26 unique traces) (199398 events / 633 unique events)
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (6 events / 6 unique events)
+	Throwable_InitCauseOnce (1 traces / 1 unique traces) (1 events / 1 unique events)
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (7 events / 7 unique events)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (148431 events / 148431 unique events) (9 events / 9 unique events in hot method)
+Classifier (com.linuxense.javadbf.DBFReader.nextRecord:311): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_SINGLE_TRACE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#3
+Inspecting hot method com.linuxense.javadbf.DBFUtils.trimRightSpaces:334...
+Checking for isolation...
+147541,1,0,1
+Total 147541 (147541 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 148431 (148431 unique) events are in non-isolated traces (147541 / 147541 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (148431 events / 148431 unique events) (147541 events / 147541 unique events in hot method)
+Classifier (com.linuxense.javadbf.DBFUtils.trimRightSpaces:334): LIB,NOT_REDUNDANT_TRACES
+
+#4
+Inspecting hot method com.linuxense.javadbf.DBFExploderInputStream.fillQueue:55...
+Checking for isolation...
+23913,3,3,0
+Total 23913 (23913 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 23913 (23913 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (3 traces / 3 unique traces) (23913 events / 23913 unique events)
+Classifier (com.linuxense.javadbf.DBFExploderInputStream.fillQueue:55): CUT,NOT_REDUNDANT_TRACES
+
+#5
+Inspecting hot method com.linuxense.javadbf.DBFHeader.read:80...
+Checking for isolation...
+2682,142,142,0
+Total 2682 (1316 unique) events are in hot method
+Total 142 (48 unique) traces are in hot method
+Total 142 (48 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2682 (1316 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (142 traces / 48 unique traces) (2682 events / 1316 unique events)
+Classifier (com.linuxense.javadbf.DBFHeader.read:80): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#6
+Inspecting hot method com.linuxense.javadbf.DBFReader.createMapFieldNames:254...
+Checking for isolation...
+2510,2,2,0
+Total 2510 (2510 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2510 (2510 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (1255 events / 1255 unique events)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (1255 events / 1255 unique events)
+Classifier (com.linuxense.javadbf.DBFReader.createMapFieldNames:254): CUT,NOT_REDUNDANT_TRACES
+
+#7
+Inspecting hot method com.linuxense.javadbf.testutils.DbfToTxtTest.writeToConsole:61...
+Checking for isolation...
+1759,322,322,0
+Total 1759 (18 unique) events are in hot method
+Total 322 (4 unique) traces are in hot method
+Total 322 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1759 (18 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (161 traces / 2 unique traces) (960 events / 10 unique events)
+	Appendable_ThreadSafe (161 traces / 2 unique traces) (799 events / 8 unique events)
+Classifier (com.linuxense.javadbf.testutils.DbfToTxtTest.writeToConsole:61): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#8
+Inspecting hot method com.linuxense.javadbf.DBFReader.getFieldValue:412...
+Checking for isolation...
+1547,442,442,0
+Total 1547 (7 unique) events are in hot method
+Total 442 (2 unique) traces are in hot method
+Total 442 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1547 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (221 traces / 1 unique traces) (663 events / 3 unique events)
+	StringBuilder_ThreadSafe (221 traces / 1 unique traces) (884 events / 4 unique events)
+Classifier (com.linuxense.javadbf.DBFReader.getFieldValue:412): CUT,ISOLATED_ONE_UNIQUE
+
+#9
+Inspecting hot method com.linuxense.javadbf.DBFUtils.doubleFormating:244...
+Checking for isolation...
+1210,110,110,0
+Total 1210 (154 unique) events are in hot method
+Total 110 (20 unique) traces are in hot method
+Total 110 (20 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1210 (154 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (55 traces / 10 unique traces) (550 events / 67 unique events)
+	StringBuilder_ThreadSafe (55 traces / 10 unique traces) (660 events / 87 unique events)
+Classifier (com.linuxense.javadbf.DBFUtils.doubleFormating:244): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#10
+Inspecting hot method com.linuxense.javadbf.bug64_excel_dbf.Bug64ExcelDBFTest.testRead:23...
+Checking for isolation...
+880,352,352,0
+Total 880 (10 unique) events are in hot method
+Total 352 (4 unique) traces are in hot method
+Total 352 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 880 (10 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (176 traces / 2 unique traces) (352 events / 4 unique events)
+	StringBuilder_ThreadSafe (176 traces / 2 unique traces) (528 events / 6 unique events)
+Classifier (com.linuxense.javadbf.bug64_excel_dbf.Bug64ExcelDBFTest.testRead:23): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#11
+Inspecting hot method com.linuxense.javadbf.DBFField.<init>:90...
+Checking for isolation...
+727,1,0,1
+Total 727 (727 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 148431 (148431 unique) events are in non-isolated traces (727 / 727 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (148431 events / 148431 unique events) (727 events / 727 unique events in hot method)
+Classifier (com.linuxense.javadbf.DBFField.<init>:90): CUT,NOT_REDUNDANT_TRACES
+
+#12
+Inspecting hot method com.linuxense.javadbf.DBFRow.<init>:39...
+Checking for isolation...
+501,501,501,0
+Total 501 (1 unique) events are in hot method
+Total 501 (1 unique) traces are in hot method
+Total 501 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 501 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Arrays_SortBeforeBinarySearch (501 traces / 1 unique traces) (501 events / 1 unique events)
+Classifier (com.linuxense.javadbf.DBFRow.<init>:39): CUT,ISOLATED_ONE_UNIQUE
+
+#13
+Inspecting hot method com.linuxense.javadbf.DBFMemoFile.seek:72...
+Checking for isolation...
+495,12,12,0
+Total 495 (398 unique) events are in hot method
+Total 12 (9 unique) traces are in hot method
+Total 12 (9 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 495 (398 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	InputStream_UnmarkedReset (12 traces / 9 unique traces) (495 events / 398 unique events)
+Classifier (com.linuxense.javadbf.DBFMemoFile.seek:72): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#14
+Inspecting hot method com.linuxense.javadbf.DBFUtils.close:359...
+Checking for isolation...
+300,270,268,2
+Total 300 (26 unique) events are in hot method
+Total 270 (4 unique) traces are in hot method
+Total 268 (2 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 277 (3 unique) events are in isolated traces
+Total 26 (26 unique) events are in non-isolated traces (23 / 23 unique are in hot method)
+Specs that have isolated traces:
+	Closeable_MultipleClose (268 traces / 2 unique traces) (277 events / 3 unique events)
+Specs that have non-isolated traces:
+	Closeable_MultipleClose (1 traces / 1 unique traces) (2 events / 2 unique events) (1 events / 1 unique events in hot method)
+	Closeable_MeaninglessClose (1 traces / 1 unique traces) (24 events / 24 unique events) (22 events / 22 unique events in hot method)
+Classifier (com.linuxense.javadbf.DBFUtils.close:359): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_SINGLE_TRACE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#15
+Inspecting hot method com.linuxense.javadbf.DBFWriter.writeToStream:311...
+Checking for isolation...
+266,67,58,9
+Total 266 (130 unique) events are in hot method
+Total 67 (26 unique) traces are in hot method
+Total 58 (17 unique) isolated traces are in hot method
+Total 9 (9 unique) non-isolated traces that have events in hot method
+Total 239 (103 unique) events are in isolated traces
+Total 36 (36 unique) events are in non-isolated traces (27 / 27 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (23 traces / 6 unique traces) (91 events / 40 unique events)
+	Collection_UnsafeIterator (23 traces / 6 unique traces) (114 events / 46 unique events)
+	Iterator_RemoveOnce (12 traces / 5 unique traces) (34 events / 17 unique events)
+Specs that have non-isolated traces:
+	ByteArrayOutputStream_FlushBeforeRetrieve (9 traces / 9 unique traces) (36 events / 36 unique events) (27 events / 27 unique events in hot method)
+Classifier (com.linuxense.javadbf.DBFWriter.writeToStream:311): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT
+
+#16
+Inspecting hot method com.linuxense.javadbf.DBFRowTest.testBasicDBFRow:21...
+Checking for isolation...
+260,104,104,0
+Total 260 (5 unique) events are in hot method
+Total 104 (2 unique) traces are in hot method
+Total 104 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 260 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (52 traces / 1 unique traces) (104 events / 2 unique events)
+	StringBuilder_ThreadSafe (52 traces / 1 unique traces) (156 events / 3 unique events)
+Classifier (com.linuxense.javadbf.DBFRowTest.testBasicDBFRow:21): CUT,ISOLATED_ONE_UNIQUE
+
+#17
+Inspecting hot method com.linuxense.javadbf.bug56.Bug56Test.test:24...
+Checking for isolation...
+237,30,30,0
+Total 237 (33 unique) events are in hot method
+Total 30 (6 unique) traces are in hot method
+Total 30 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 237 (33 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (15 traces / 3 unique traces) (111 events / 15 unique events)
+	StringBuilder_ThreadSafe (15 traces / 3 unique traces) (126 events / 18 unique events)
+Classifier (com.linuxense.javadbf.bug56.Bug56Test.test:24): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#18
+Inspecting hot method com.linuxense.javadbf.DBFField.toString:485...
+Checking for isolation...
+175,10,10,0
+Total 175 (35 unique) events are in hot method
+Total 10 (2 unique) traces are in hot method
+Total 10 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 175 (35 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (5 traces / 1 unique traces) (85 events / 17 unique events)
+	StringBuilder_ThreadSafe (5 traces / 1 unique traces) (90 events / 18 unique events)
+Classifier (com.linuxense.javadbf.DBFField.toString:485): CUT,ISOLATED_ONE_UNIQUE
+
+#19
+Inspecting hot method com.linuxense.javadbf.DBFReader.toString:618...
+Checking for isolation...
+166,4,4,0
+Total 166 (166 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 4 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 166 (166 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (2 traces / 2 unique traces) (84 events / 84 unique events)
+	Appendable_ThreadSafe (2 traces / 2 unique traces) (82 events / 82 unique events)
+Classifier (com.linuxense.javadbf.DBFReader.toString:618): CUT,NOT_REDUNDANT_TRACES
+
+#20
+Inspecting hot method com.linuxense.javadbf.DBFUtils.textPadding:209...
+Checking for isolation...
+152,1,0,1
+Total 152 (152 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 148431 (148431 unique) events are in non-isolated traces (152 / 152 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (148431 events / 148431 unique events) (152 events / 152 unique events in hot method)
+Classifier (com.linuxense.javadbf.DBFUtils.textPadding:209): CUT,NOT_REDUNDANT_TRACES
+
+#21
+Inspecting hot method com.linuxense.javadbf.bug49.Bug49Test.testBug49:22...
+Checking for isolation...
+135,54,54,0
+Total 135 (10 unique) events are in hot method
+Total 54 (4 unique) traces are in hot method
+Total 54 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 135 (10 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (27 traces / 2 unique traces) (54 events / 4 unique events)
+	StringBuilder_ThreadSafe (27 traces / 2 unique traces) (81 events / 6 unique events)
+Classifier (com.linuxense.javadbf.bug49.Bug49Test.testBug49:22): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#22
+Inspecting hot method com.linuxense.javadbf.bug102.Bug102Test.basicReadBug102UsingNextRow:55...
+Checking for isolation...
+90,36,36,0
+Total 90 (5 unique) events are in hot method
+Total 36 (2 unique) traces are in hot method
+Total 36 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 90 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (18 traces / 1 unique traces) (54 events / 3 unique events)
+	Appendable_ThreadSafe (18 traces / 1 unique traces) (36 events / 2 unique events)
+Classifier (com.linuxense.javadbf.bug102.Bug102Test.basicReadBug102UsingNextRow:55): CUT,ISOLATED_ONE_UNIQUE
+
+#23
+Inspecting hot method com.linuxense.javadbf.DBFWriter.addRecord:241...
+Checking for isolation...
+88,31,31,0
+Total 88 (60 unique) events are in hot method
+Total 31 (20 unique) traces are in hot method
+Total 31 (20 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 88 (60 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (12 traces / 5 unique traces) (34 events / 17 unique events)
+	Throwable_InitCauseOnce (9 traces / 7 unique traces) (9 events / 7 unique events)
+	StringBuilder_ThreadSafe (5 traces / 4 unique traces) (25 events / 20 unique events)
+	Appendable_ThreadSafe (5 traces / 4 unique traces) (20 events / 16 unique events)
+Classifier (com.linuxense.javadbf.DBFWriter.addRecord:241): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#24
+Inspecting hot method com.linuxense.javadbf.ReadDBFAssert.testReadDBFFile:40...
+Checking for isolation...
+49,14,14,0
+Total 49 (7 unique) events are in hot method
+Total 14 (2 unique) traces are in hot method
+Total 14 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 49 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (7 traces / 1 unique traces) (28 events / 4 unique events)
+	Appendable_ThreadSafe (7 traces / 1 unique traces) (21 events / 3 unique events)
+Classifier (com.linuxense.javadbf.ReadDBFAssert.testReadDBFFile:40): CUT,ISOLATED_ONE_UNIQUE
+
+#25
+Inspecting hot method com.linuxense.javadbf.DBFField.setLength:407...
+Checking for isolation...
+28,6,6,0
+Total 28 (14 unique) events are in hot method
+Total 6 (3 unique) traces are in hot method
+Total 6 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 28 (14 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (2 traces / 1 unique traces) (14 events / 7 unique events)
+	Throwable_InitCauseOnce (2 traces / 1 unique traces) (2 events / 1 unique events)
+	Appendable_ThreadSafe (2 traces / 1 unique traces) (12 events / 6 unique events)
+Classifier (com.linuxense.javadbf.DBFField.setLength:407): CUT,ISOLATED_ONE_UNIQUE
+
+#26
+Inspecting hot method com.linuxense.javadbf.DBFWriter.<init>:57...
+Checking for isolation...
+21,7,6,1
+Total 21 (15 unique) events are in hot method
+Total 7 (4 unique) traces are in hot method
+Total 6 (3 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 12 (6 unique) events are in isolated traces
+Total 44 (44 unique) events are in non-isolated traces (9 / 9 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (2 traces / 1 unique traces) (4 events / 2 unique events)
+	Throwable_InitCauseOnce (2 traces / 1 unique traces) (2 events / 1 unique events)
+	StringBuilder_ThreadSafe (2 traces / 1 unique traces) (6 events / 3 unique events)
+Specs that have non-isolated traces:
+	File_LengthOnDirectory (1 traces / 1 unique traces) (44 events / 44 unique events) (9 events / 9 unique events in hot method)
+Classifier (com.linuxense.javadbf.DBFWriter.<init>:57): LIB,ISOLATED_ONE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#27
+Inspecting hot method com.linuxense.javadbf.DBFWriterRandomAccesTest.testCreatingFile:66...
+Checking for isolation...
+17,8,7,1
+Total 17 (7 unique) events are in hot method
+Total 8 (4 unique) traces are in hot method
+Total 7 (3 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 16 (6 unique) events are in isolated traces
+Total 44 (44 unique) events are in non-isolated traces (1 / 1 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (3 traces / 1 unique traces) (9 events / 3 unique events)
+	Appendable_ThreadSafe (3 traces / 1 unique traces) (6 events / 2 unique events)
+	Closeable_MultipleClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+Specs that have non-isolated traces:
+	File_LengthOnDirectory (1 traces / 1 unique traces) (44 events / 44 unique events) (1 events / 1 unique events in hot method)
+Classifier (com.linuxense.javadbf.DBFWriterRandomAccesTest.testCreatingFile:66): LIB,ISOLATED_ONE_UNIQUE,ISOLATED_SINGLE_TRACE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#28
+Inspecting hot method com.linuxense.javadbf.DBFLockWriterTest.testCreatingFile:49...
+Checking for isolation...
+17,8,7,1
+Total 17 (7 unique) events are in hot method
+Total 8 (4 unique) traces are in hot method
+Total 7 (3 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 16 (6 unique) events are in isolated traces
+Total 44 (44 unique) events are in non-isolated traces (1 / 1 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (3 traces / 1 unique traces) (6 events / 2 unique events)
+	StringBuilder_ThreadSafe (3 traces / 1 unique traces) (9 events / 3 unique events)
+	Closeable_MultipleClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+Specs that have non-isolated traces:
+	File_LengthOnDirectory (1 traces / 1 unique traces) (44 events / 44 unique events) (1 events / 1 unique events in hot method)
+Classifier (com.linuxense.javadbf.DBFLockWriterTest.testCreatingFile:49): CUT,ISOLATED_ONE_UNIQUE,ISOLATED_SINGLE_TRACE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#29
+Inspecting hot method com.linuxense.javadbf.DBFWriterRandomAccesTest.testAppendingToExistingFile:37...
+Checking for isolation...
+16,7,6,1
+Total 16 (6 unique) events are in hot method
+Total 7 (3 unique) traces are in hot method
+Total 6 (2 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 15 (5 unique) events are in isolated traces
+Total 44 (44 unique) events are in non-isolated traces (1 / 1 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (3 traces / 1 unique traces) (9 events / 3 unique events)
+	Appendable_ThreadSafe (3 traces / 1 unique traces) (6 events / 2 unique events)
+Specs that have non-isolated traces:
+	File_LengthOnDirectory (1 traces / 1 unique traces) (44 events / 44 unique events) (1 events / 1 unique events in hot method)
+Classifier (com.linuxense.javadbf.DBFWriterRandomAccesTest.testAppendingToExistingFile:37): CUT,ISOLATED_ONE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#30
+Inspecting hot method com.linuxense.javadbf.DBFLockWriterTest.testAppendingToExistingFile:20...
+Checking for isolation...
+16,7,6,1
+Total 16 (6 unique) events are in hot method
+Total 7 (3 unique) traces are in hot method
+Total 6 (2 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 15 (5 unique) events are in isolated traces
+Total 44 (44 unique) events are in non-isolated traces (1 / 1 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (3 traces / 1 unique traces) (6 events / 2 unique events)
+	StringBuilder_ThreadSafe (3 traces / 1 unique traces) (9 events / 3 unique events)
+Specs that have non-isolated traces:
+	File_LengthOnDirectory (1 traces / 1 unique traces) (44 events / 44 unique events) (1 events / 1 unique events in hot method)
+Classifier (com.linuxense.javadbf.DBFLockWriterTest.testAppendingToExistingFile:20): CUT,ISOLATED_ONE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#31
+Inspecting hot method com.linuxense.javadbf.DBFWriter.setFields:185...
+Checking for isolation...
+12,7,7,0
+Total 12 (11 unique) events are in hot method
+Total 7 (6 unique) traces are in hot method
+Total 7 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 12 (11 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Throwable_InitCauseOnce (4 traces / 3 unique traces) (4 events / 3 unique events)
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (4 events / 4 unique events)
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (1 events / 1 unique events)
+Classifier (com.linuxense.javadbf.DBFWriter.setFields:185): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_SINGLE_TRACE
+
+#32
+Inspecting hot method com.linuxense.javadbf.DBFUtils.readAllBytes:399...
+Checking for isolation...
+12,1,0,1
+Total 12 (12 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 44 (44 unique) events are in non-isolated traces (12 / 12 unique are in hot method)
+Specs that have non-isolated traces:
+	File_LengthOnDirectory (1 traces / 1 unique traces) (44 events / 44 unique events) (12 events / 12 unique events in hot method)
+Classifier (com.linuxense.javadbf.DBFUtils.readAllBytes:399): CUT,NOT_REDUNDANT_TRACES
+
+#33
+Inspecting hot method com.linuxense.javadbf.DBFReader.getField:290...
+Checking for isolation...
+10,3,3,0
+Total 10 (10 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 10 (10 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Throwable_InitCauseOnce (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (4 events / 4 unique events)
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (5 events / 5 unique events)
+Classifier (com.linuxense.javadbf.DBFReader.getField:290): CUT,NOT_REDUNDANT_TRACES
+
+#34
+Inspecting hot method com.linuxense.javadbf.testutils.FileUtils.copyFile:16...
+Checking for isolation...
+10,10,10,0
+Total 10 (5 unique) events are in hot method
+Total 10 (5 unique) traces are in hot method
+Total 10 (5 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 10 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Closeable_MultipleClose (4 traces / 2 unique traces) (4 events / 2 unique events)
+	InputStream_ManipulateAfterClose (2 traces / 1 unique traces) (2 events / 1 unique events)
+	InputStream_MarkAfterClose (2 traces / 1 unique traces) (2 events / 1 unique events)
+	OutputStream_ManipulateAfterClose (2 traces / 1 unique traces) (2 events / 1 unique events)
+Classifier (com.linuxense.javadbf.testutils.FileUtils.copyFile:16): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE
+
+#35
+Inspecting hot method com.linuxense.javadbf.DBFRow.getString:108...
+Checking for isolation...
+10,3,3,0
+Total 10 (10 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 10 (10 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (4 events / 4 unique events)
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (5 events / 5 unique events)
+	Throwable_InitCauseOnce (1 traces / 1 unique traces) (1 events / 1 unique events)
+Classifier (com.linuxense.javadbf.DBFRow.getString:108): CUT,NOT_REDUNDANT_TRACES
+
+#36
+Inspecting hot method com.linuxense.javadbf.DBFUtils.readNumericStoredAsText:69...
+Checking for isolation...
+10,3,3,0
+Total 10 (10 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 10 (10 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (4 events / 4 unique events)
+	Throwable_InitCauseOnce (1 traces / 1 unique traces) (1 events / 1 unique events)
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (5 events / 5 unique events)
+Classifier (com.linuxense.javadbf.DBFUtils.readNumericStoredAsText:69): CUT,NOT_REDUNDANT_TRACES
+
+#37
+Inspecting hot method com.linuxense.javadbf.bug34_char_encoding.Bug34CharacterEncodingTest.testBug34EncodingStream:30...
+Checking for isolation...
+8,4,3,1
+Total 8 (8 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 7 (7 unique) events are in isolated traces
+Total 4 (4 unique) events are in non-isolated traces (1 / 1 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (2 events / 2 unique events)
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (2 events / 2 unique events)
+Specs that have non-isolated traces:
+	ByteArrayOutputStream_FlushBeforeRetrieve (1 traces / 1 unique traces) (4 events / 4 unique events) (1 events / 1 unique events in hot method)
+Classifier (com.linuxense.javadbf.bug34_char_encoding.Bug34CharacterEncodingTest.testBug34EncodingStream:30): CUT,NOT_REDUNDANT_TRACES
+
+#38
+Inspecting hot method com.linuxense.javadbf.DBFField.setDecimalCount:449...
+Checking for isolation...
+8,5,5,0
+Total 8 (8 unique) events are in hot method
+Total 5 (5 unique) traces are in hot method
+Total 5 (5 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 8 (8 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Throwable_InitCauseOnce (3 traces / 3 unique traces) (3 events / 3 unique events)
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (2 events / 2 unique events)
+Classifier (com.linuxense.javadbf.DBFField.setDecimalCount:449): CUT,NOT_REDUNDANT_TRACES
+
+#39
+Inspecting hot method com.linuxense.javadbf.DBFReader.setMemoFile:584...
+Checking for isolation...
+8,1,0,1
+Total 8 (8 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 44 (44 unique) events are in non-isolated traces (8 / 8 unique are in hot method)
+Specs that have non-isolated traces:
+	File_LengthOnDirectory (1 traces / 1 unique traces) (44 events / 44 unique events) (8 events / 8 unique events in hot method)
+Classifier (com.linuxense.javadbf.DBFReader.setMemoFile:584): CUT,NOT_REDUNDANT_TRACES
+
+#40
+Inspecting hot method com.linuxense.javadbf.DBFMemoFile.<init>:68...
+Checking for isolation...
+8,1,0,1
+Total 8 (8 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 44 (44 unique) events are in non-isolated traces (8 / 8 unique are in hot method)
+Specs that have non-isolated traces:
+	File_LengthOnDirectory (1 traces / 1 unique traces) (44 events / 44 unique events) (8 events / 8 unique events in hot method)
+Classifier (com.linuxense.javadbf.DBFMemoFile.<init>:68): CUT,NOT_REDUNDANT_TRACES
+
+#41
+Inspecting hot method com.linuxense.javadbf.DeprecatedMethodsTest.testWriteAndReadAgain:37...
+Checking for isolation...
+7,6,4,2
+Total 7 (7 unique) events are in hot method
+Total 6 (6 unique) traces are in hot method
+Total 4 (4 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 4 (4 unique) events are in isolated traces
+Total 28 (28 unique) events are in non-isolated traces (3 / 3 unique are in hot method)
+Specs that have isolated traces:
+	Closeable_MultipleClose (3 traces / 3 unique traces) (3 events / 3 unique events)
+	InputStream_MarkAfterClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+Specs that have non-isolated traces:
+	ByteArrayOutputStream_FlushBeforeRetrieve (1 traces / 1 unique traces) (4 events / 4 unique events) (1 events / 1 unique events in hot method)
+	Closeable_MeaninglessClose (1 traces / 1 unique traces) (24 events / 24 unique events) (2 events / 2 unique events in hot method)
+Classifier (com.linuxense.javadbf.DeprecatedMethodsTest.testWriteAndReadAgain:37): CUT,NOT_REDUNDANT_TRACES
+
+#42
+Inspecting hot method com.linuxense.javadbf.ReadDBFAssert.testReadDBFFileDeletedRecords:78...
+Checking for isolation...
+7,2,2,0
+Total 7 (7 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 7 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (4 events / 4 unique events)
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+Classifier (com.linuxense.javadbf.ReadDBFAssert.testReadDBFFileDeletedRecords:78): CUT,NOT_REDUNDANT_TRACES
+
+#43
+Inspecting hot method com.linuxense.javadbf.DBFRow.getColumnIndex:45...
+Checking for isolation...
+6,3,3,0
+Total 6 (6 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 6 (6 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Throwable_InitCauseOnce (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (2 events / 2 unique events)
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+Classifier (com.linuxense.javadbf.DBFRow.getColumnIndex:45): CUT,NOT_REDUNDANT_TRACES
+
+#44
+Inspecting hot method com.linuxense.javadbf.DBFDataType.fromCode:184...
+Checking for isolation...
+6,3,3,0
+Total 6 (6 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 6 (6 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Throwable_InitCauseOnce (1 traces / 1 unique traces) (1 events / 1 unique events)
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (2 events / 2 unique events)
+Classifier (com.linuxense.javadbf.DBFDataType.fromCode:184): CUT,NOT_REDUNDANT_TRACES
+
+#45
+Inspecting hot method com.linuxense.javadbf.DBFField.setType:430...
+Checking for isolation...
+6,3,3,0
+Total 6 (6 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 6 (6 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+	Throwable_InitCauseOnce (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (2 events / 2 unique events)
+Classifier (com.linuxense.javadbf.DBFField.setType:430): CUT,NOT_REDUNDANT_TRACES
+
+#46
+Inspecting hot method com.linuxense.javadbf.bug46_zero_field_count.ZeroFieldCountTest.test:22...
+Checking for isolation...
+5,2,2,0
+Total 5 (5 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (2 events / 2 unique events)
+Classifier (com.linuxense.javadbf.bug46_zero_field_count.ZeroFieldCountTest.test:22): CUT,NOT_REDUNDANT_TRACES
+
+#47
+Inspecting hot method org.hamcrest.StringDescription.append:41...
+Checking for isolation...
+5,1,0,1
+Total 5 (5 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 9 (9 unique) events are in non-isolated traces (5 / 5 unique are in hot method)
+Specs that have non-isolated traces:
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (9 events / 9 unique events) (5 events / 5 unique events in hot method)
+Classifier (org.hamcrest.StringDescription.append:41): LIB,NOT_REDUNDANT_TRACES
+
+#48
+Inspecting hot method org.hamcrest.StringDescription.append:50...
+Checking for isolation...
+4,1,0,1
+Total 4 (4 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 9 (9 unique) events are in non-isolated traces (4 / 4 unique are in hot method)
+Specs that have non-isolated traces:
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (9 events / 9 unique events) (4 events / 4 unique events in hot method)
+Classifier (org.hamcrest.StringDescription.append:50): LIB,NOT_REDUNDANT_TRACES
+
+#49
+Inspecting hot method com.linuxense.javadbf.bug94_error_f5.Bug94ErrorF5Test.providedExample:41...
+Checking for isolation...
+3,3,2,1
+Total 3 (3 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 2 (2 unique) events are in isolated traces
+Total 2 (2 unique) events are in non-isolated traces (1 / 1 unique are in hot method)
+Specs that have isolated traces:
+	InputStream_ManipulateAfterClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+	InputStream_MarkAfterClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+Specs that have non-isolated traces:
+	Closeable_MultipleClose (1 traces / 1 unique traces) (2 events / 2 unique events) (1 events / 1 unique events in hot method)
+Classifier (com.linuxense.javadbf.bug94_error_f5.Bug94ErrorF5Test.providedExample:41): CUT,NOT_REDUNDANT_TRACES
+
+#50
+Inspecting hot method com.linuxense.javadbf.EncodingTest.testUtf8:128...
+Checking for isolation...
+3,2,1,1
+Total 3 (3 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 2 (2 unique) events are in isolated traces
+Total 4 (4 unique) events are in non-isolated traces (1 / 1 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (2 events / 2 unique events)
+Specs that have non-isolated traces:
+	ByteArrayOutputStream_FlushBeforeRetrieve (1 traces / 1 unique traces) (4 events / 4 unique events) (1 events / 1 unique events in hot method)
+Classifier (com.linuxense.javadbf.EncodingTest.testUtf8:128): CUT,NOT_REDUNDANT_TRACES
+
+#51
+Inspecting hot method com.linuxense.javadbf.FixtureDBaseF5Test.test31:36...
+Checking for isolation...
+3,3,3,0
+Total 3 (3 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	InputStream_MarkAfterClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Closeable_MultipleClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+	InputStream_ManipulateAfterClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+Classifier (com.linuxense.javadbf.FixtureDBaseF5Test.test31:36): CUT,NOT_REDUNDANT_TRACES
+
+#52
+Inspecting hot method com.linuxense.javadbf.BufferedInputStreamTest.testBuffered:37...
+Checking for isolation...
+3,3,3,0
+Total 3 (3 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	InputStream_ManipulateAfterClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+	InputStream_MarkAfterClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Closeable_MultipleClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+Classifier (com.linuxense.javadbf.BufferedInputStreamTest.testBuffered:37): CUT,NOT_REDUNDANT_TRACES
+
+#53
+Inspecting hot method com.linuxense.javadbf.DBFField.setName:341...
+Checking for isolation...
+3,3,3,0
+Total 3 (2 unique) events are in hot method
+Total 3 (2 unique) traces are in hot method
+Total 3 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3 (2 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Throwable_InitCauseOnce (3 traces / 2 unique traces) (3 events / 2 unique events)
+Classifier (com.linuxense.javadbf.DBFField.setName:341): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#54
+Inspecting hot method com.linuxense.javadbf.bug_dates.BugDatesTest.test1:25...
+Checking for isolation...
+2,2,2,0
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2 (2 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Closeable_MultipleClose (2 traces / 2 unique traces) (2 events / 2 unique events)
+Classifier (com.linuxense.javadbf.bug_dates.BugDatesTest.test1:25): CUT,NOT_REDUNDANT_TRACES
+

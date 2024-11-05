@@ -1,0 +1,3402 @@
+Reading traces...
+	read 1000 traces
+Reading specs frequency...
+Reading locations...
+Counting events...
+	processed 1000 traces
+Total 374625321 events and 96172100 traces
+Inspecting top 20000000 IMM
+Finding hot methods...
+Number of events, method name
+129948275,org.poker.api.core.Card.toString:85
+103960640,org.poker.api.core.HandEvaluator.eval:51
+64974000,org.poker.api.core.HandEvaluatorTest.combinationName:53
+49380240,org.poker.api.core.CardUtil4Testing.toStringCards:61
+23390640,org.poker.api.core.HandEvaluatorTest.testEval:140
+2599443,org.util.combinatorial.Combination.next:76
+212624,org.util.combinatorial.FactorialPermutationTest.testFullTesting:75
+42483,cucumber.runtime.java.MethodScanner.scan:56
+15919,org.hamcrest.core.IsCollectionContaining.matchesSafely:23
+13939,org.poker.api.core.CardTest.testEquals:89
+13939,org.poker.api.core.CardTest.testEqualsDistinct:105
+10212,cucumber.deps.com.thoughtworks.xstream.core.DefaultConverterLookup.registerConverter:65
+9492,cucumber.runtime.RuntimeGlue.stepDefinitionMatches:78
+8232,cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.setParameterInfo:76
+5772,org.poker.api.core.Deck.getAllCards:53
+4746,cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.unsetParameterInfo:88
+2784,cucumber.runtime.RuntimeOptions$1.invoke:241
+2436,cucumber.runtime.model.CucumberScenarioOutline.replaceTokens:114
+2314,cucumber.runtime.io.FlatteningIterator.moveToNext:24
+2298,cucumber.runtime.io.ResourceLoaderClassFinder.getDescendants:20
+1693,org.poker.api.core.DeckTest.testGetAllCards:50
+1456,gherkin.deps.com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read:162
+1204,org.picocontainer.injectors.ConstructorInjector.getGreediestSatisfiableConstructor:124
+1008,org.picocontainer.converters.BuiltInConverters.addConverter:47
+1006,gherkin.parser.Parser$Machine.buildTransitionMap:244
+924,cucumber.runtime.UndefinedStepsTracker.isGivenWhenThenKeyword:59
+812,gherkin.util.FixJava.join:15
+756,cucumber.runtime.StepDefinitionMatch.transformedArgs:51
+672,org.picocontainer.DefaultPicoContainer.addAdapterInternal:436
+624,org.poker.api.core.CardUtil4Testing.fromStringCards:49
+588,cucumber.runtime.junit.ExecutionUnitRunner.getDescription:50
+588,cucumber.runtime.junit.ExecutionUnitRunner.describeChild:79
+588,org.picocontainer.injectors.ConstructorInjector.getSortedMatchingConstructors:376
+522,cucumber.runtime.model.StepContainer.format:31
+518,cucumber.deps.com.thoughtworks.xstream.converters.reflection.AbstractAttributedCharacterIteratorAttributeConverter.readResolve:81
+504,cucumber.runtime.model.CucumberScenarioOutline.createExampleScenario:57
+504,cucumber.runtime.ScenarioImpl.getStatus:47
+504,cucumber.runtime.model.StepContainer.runSteps:38
+432,cucumber.deps.com.thoughtworks.xstream.core.DefaultConverterLookup.lookupConverterForType:49
+360,gherkin.deps.com.google.gson.Gson.getAdapter:337
+308,org.picocontainer.DefaultPicoContainer.startAdapters:1001
+306,org.util.combinatorial.FactorialPermutation.next:68
+291,cucumber.deps.com.thoughtworks.xstream.converters.reflection.FieldDictionary.buildMap:122
+279,gherkin.parser.FormatterListener$Stash.nextExampleId:64
+263,org.poker.api.core.CardTest.testHashCode:70
+248,cucumber.runtime.model.CucumberTagStatement.tagsAndInheritedTags:32
+241,gherkin.I18n.<init>:85
+236,cucumber.deps.com.thoughtworks.xstream.mapper.ClassAliasingMapper.addClassAlias:37
+235,gherkin.lexer.En.scan:586
+224,cucumber.runtime.Runtime.buildBackendWorlds:138
+224,cucumber.runtime.java.picocontainer.PicoFactory.start:16
+224,cucumber.runtime.Runtime.disposeBackendWorlds:148
+219,cucumber.deps.com.thoughtworks.xstream.core.util.OrderRetainingMap.put:43
+216,cucumber.deps.com.thoughtworks.xstream.core.util.PrioritizedList$PrioritizedItemIterator.next:91
+207,cucumber.deps.com.thoughtworks.xstream.core.util.PrioritizedList.add:37
+196,cucumber.runtime.model.CucumberTagStatement.<init>:27
+196,org.picocontainer.DefaultPicoContainer.addOrderedComponentAdapter:567
+177,cucumber.runtime.junit.ExamplesRunner.<init>:22
+169,org.util.combinatorial.CombinationTest.tesHasNextFirst:95
+169,org.util.combinatorial.CombinationTest.testNextItemsRange:160
+169,org.util.combinatorial.CombinationTest.testHasNextAfterClearWithNext:136
+169,org.util.combinatorial.CombinationTest.testNextDontRepeat:177
+169,org.util.combinatorial.CombinationTest.testHasNextAfterClear:127
+169,org.util.combinatorial.CombinationTest.testHasNextPreLast:103
+169,org.util.combinatorial.CombinationTest.testCombinationsStatic:69
+169,org.util.combinatorial.CombinationTest.testCombinations:86
+169,org.util.combinatorial.CombinationTest.testNextIgnored:193
+169,org.util.combinatorial.CombinationTest.testHasNextAfterFullLoopClear:147
+169,org.util.combinatorial.CombinationTest.testSize:77
+169,org.util.combinatorial.CombinationTest.testNextAfterClear:209
+169,org.util.combinatorial.CombinationTest.testHasNextLast:115
+168,cucumber.runtime.junit.JUnitReporter.fetchAndCheckRunnerStep:68
+168,cucumber.runtime.Runtime.runHooks:208
+168,cucumber.runtime.xstream.TimeConverter.getTimeClasses:72
+149,cucumber.runtime.junit.ExamplesRunner.getDescription:43
+144,cucumber.deps.com.thoughtworks.xstream.core.util.PrioritizedList$PrioritizedItemIterator.hasNext:87
+112,cucumber.deps.com.thoughtworks.xstream.core.util.WeakCache.put:62
+87,cucumber.runtime.model.StepContainer.step:27
+84,org.picocontainer.PicoBuilder.addContainerComponents:223
+84,cucumber.runtime.junit.JUnitReporter.step:190
+84,org.picocontainer.DefaultPicoContainer.start:765
+84,org.picocontainer.DefaultPicoContainer.dispose:843
+84,org.picocontainer.DefaultPicoContainer.stop:794
+84,cucumber.runtime.JdkPatternArgumentMatcher.argumentsFrom:18
+84,cucumber.runtime.ScenarioImpl.add:32
+84,cucumber.deps.com.thoughtworks.xstream.mapper.AnnotationMapper.processAnnotations:136
+71,cucumber.deps.com.thoughtworks.xstream.core.util.OrderRetainingMap.<init>:27
+71,cucumber.deps.com.thoughtworks.xstream.core.DefaultConverterLookup.<init>:36
+70,cucumber.deps.com.thoughtworks.xstream.converters.basic.StringConverter.fromString:88
+60,gherkin.formatter.ansi.AnsiEscapes.color:23
+56,cucumber.deps.com.thoughtworks.xstream.mapper.DefaultImplementationsMapper.addDefaultImplementation:53
+55,gherkin.deps.com.google.gson.stream.JsonReader.nextString:1006
+45,org.util.combinatorial.FactorialPermutationTest.testCombinations:65
+42,cucumber.deps.com.thoughtworks.xstream.core.JVM.loadClass:215
+38,gherkin.deps.com.google.gson.Gson.<init>:110
+38,cucumber.deps.com.thoughtworks.xstream.core.util.OrderRetainingMap.entrySet:71
+35,gherkin.lexer.En.unindent:940
+34,gherkin.formatter.AnsiFormats$1.<init>:10
+31,gherkin.formatter.model.Examples$Builder.row:34
+30,cucumber.deps.com.thoughtworks.xstream.mapper.ImmutableTypesMapper.addImmutableType:32
+28,cucumber.runtime.model.CucumberExamples.createExampleScenarios:23
+27,cucumber.deps.com.thoughtworks.xstream.converters.reflection.SerializationMethodInvoker.<init>:48
+26,cucumber.runtime.io.FileResourceIterator$FileIterator.hasNext:72
+24,cucumber.runtime.model.CucumberExamples.tagsAndInheritedTags:34
+24,cucumber.deps.com.thoughtworks.xstream.core.JVM.<clinit>:46
+24,gherkin.formatter.ansi.AnsiEscapes.appendTo:41
+21,cucumber.runtime.Reflections.instantiateSubclasses:27
+21,cucumber.runtime.junit.ScenarioOutlineRunner.<init>:21
+21,cucumber.runtime.junit.ExamplesRunner.getName:38
+21,org.poker.api.core.CardTest.testEqualsOtherObjects:80
+21,cucumber.runtime.java.MethodScanner.scan:33
+21,cucumber.runtime.io.FileResourceIterator$FileIterator.next:61
+21,gherkin.parser.FormatterListener$Stash.examplesId:55
+18,cucumber.runtime.RuntimeOptions.parse:90
+18,cucumber.runtime.junit.ScenarioOutlineRunner.getDescription:35
+17,cucumber.deps.com.thoughtworks.xstream.core.util.PresortedMap.keySet:58
+16,cucumber.runtime.formatter.PluginFactory$1.<init>:47
+14,cucumber.runtime.Stats.printSubCount:72
+14,org.picocontainer.paranamer.BytecodeReadingParanamer$1.<init>:57
+13,cucumber.runtime.io.DelegatingResourceIteratorFactory.createIterator:58
+12,gherkin.deps.com.google.gson.internal.Excluder.excludeClass:192
+12,cucumber.runtime.io.ClasspathIterable.filePath:43
+11,gherkin.parser.StateMachineReader.row:57
+10,cucumber.runtime.model.CucumberFeature.load:48
+9,cucumber.runtime.junit.FeatureRunner.buildFeatureElementRunners:75
+9,cucumber.api.junit.Cucumber.addChildren:105
+9,cucumber.runtime.RuntimeOptions.getPlugins:205
+9,cucumber.runtime.RuntimeOptionsFactory.addPlugins:82
+9,gherkin.util.FixJava.readReader:44
+9,cucumber.runtime.RuntimeGlue.addStepDefinition:30
+8,cucumber.runtime.RuntimeOptions.haveLineFilters:154
+8,cucumber.runtime.xstream.TimeConverter.add:35
+8,cucumber.runtime.junit.FeatureRunner.getDescription:42
+8,cucumber.runtime.Runtime.<init>:47
+8,cucumber.deps.com.thoughtworks.xstream.converters.reflection.FieldDictionary.init:52
+7,cucumber.runtime.model.CucumberFeature.loadFromFeaturePath:94
+7,cucumber.runtime.xstream.ConverterWithNumberFormat.<init>:9
+7,gherkin.parser.StateMachineReader.<init>:16
+7,cucumber.runtime.junit.FeatureRunner.getName:36
+7,cucumber.runtime.RuntimeOptionsFactory.addDefaultGlueIfNoGlueIsSpecified:121
+7,cucumber.runtime.model.CucumberTagStatement.<init>:21
+7,gherkin.parser.FormatterListener$Stash.featureElementId:51
+6,gherkin.I18n.<clinit>:32
+6,cucumber.runtime.io.FileResourceIterator.next:30
+6,cucumber.runtime.io.FileResourceIterator$FileIterator.<init>:48
+6,gherkin.formatter.AnsiFormats$ColorFormat.text:37
+5,org.util.exceptions.ExceptionUtil.checkArgument:67
+5,cucumber.runtime.io.FileResourceIterator.hasNext:25
+5,cucumber.runtime.Stats.printDuration:84
+5,gherkin.I18n.capitalize:126
+5,gherkin.I18n.lexer:116
+5,cucumber.deps.com.thoughtworks.xstream.converters.reflection.FieldDictionary.fieldsFor:76
+4,cucumber.deps.com.thoughtworks.xstream.converters.basic.DateConverter.<clinit>:43
+4,cucumber.deps.com.thoughtworks.xstream.core.util.PresortedMap.put:108
+4,cucumber.runtime.Reflections.instantiateExactlyOneSubclass:16
+4,cucumber.runtime.io.DelegatingResourceIteratorFactory.<init>:42
+4,cucumber.deps.com.thoughtworks.xstream.mapper.ClassAliasingMapper.addTypeAlias:49
+3,cucumber.runtime.ParameterInfo.fromMethod:32
+3,org.util.exceptions.ExceptionUtil.checkNullArgument:49
+3,org.util.exceptions.ExceptionUtil.checkArrayLengthArgument:61
+3,cucumber.deps.com.thoughtworks.xstream.core.util.PresortedSet.addAll:43
+3,cucumber.runtime.model.CucumberScenarioOutline.examples:32
+3,cucumber.runtime.UndefinedStepsTracker.getSnippets:29
+3,cucumber.runtime.SummaryPrinter.printErrors:26
+3,cucumber.deps.com.thoughtworks.xstream.core.util.PrioritizedList.iterator:44
+3,cucumber.runtime.java.picocontainer.PicoFactory.addClass:29
+2,cucumber.deps.com.thoughtworks.xstream.mapper.AnnotationMapper.<init>:68
+2,org.util.exceptions.ExceptionUtil.checkMinValueArgument:37
+2,cucumber.runtime.RuntimeOptionsFactory.addSnippets:58
+2,cucumber.runtime.RuntimeOptionsFactory.addNullFormatIfNoPluginIsSpecified:93
+2,cucumber.runtime.FeatureBuilder.parse:115
+2,gherkin.parser.Parser$Machine.transitionMap:235
+2,cucumber.runtime.xstream.LocalizedXStreams.get:27
+2,cucumber.deps.com.thoughtworks.xstream.core.util.PresortedMap$ArraySet.<clinit>:0
+2,cucumber.deps.com.thoughtworks.xstream.core.util.OrderRetainingMap$ArraySet.<clinit>:0
+2,cucumber.deps.com.thoughtworks.xstream.mapper.AnnotationMapper$UnprocessedTypesSet.<clinit>:0
+1,cucumber.deps.com.thoughtworks.xstream.converters.reflection.SerializationMethodInvoker.<clinit>:37
+1,gherkin.parser.Parser.pushMachine:73
+1,gherkin.parser.Parser.popMachine:77
+1,cucumber.runtime.FeatureBuilder.feature:59
+1,cucumber.runtime.model.CucumberFeature.scenarioOutline:123
+1,cucumber.runtime.Runtime.<clinit>:35
+1,cucumber.deps.com.thoughtworks.xstream.converters.basic.StringConverter.<init>:73
+1,cucumber.deps.com.thoughtworks.xstream.mapper.CachingMapper.readResolve:55
+1,cucumber.deps.com.thoughtworks.xstream.core.util.PresortedSet.iterator:71
+1,cucumber.api.junit.Cucumber.run:98
+1,cucumber.runtime.junit.JUnitReporter.close:213
+1,cucumber.runtime.io.ClasspathIterable.getPath:54
+1,cucumber.api.SnippetType.<clinit>:10
+1,org.poker.api.core.Card$Suit.<clinit>:33
+1,org.poker.api.core.Card$Rank.<clinit>:45
+1,org.poker.api.core.Hands$Type.<clinit>:28
+1,cucumber.runtime.formatter.PluginFactory$1.<clinit>:0
+1,gherkin.formatter.AnsiFormats$1.<clinit>:0
+1,gherkin.deps.com.google.gson.FieldNamingPolicy$1.<clinit>:0
+1,gherkin.deps.com.google.gson.FieldNamingPolicy$2.<clinit>:0
+1,gherkin.deps.com.google.gson.FieldNamingPolicy$3.<clinit>:0
+1,gherkin.deps.com.google.gson.FieldNamingPolicy$4.<clinit>:0
+1,gherkin.deps.com.google.gson.FieldNamingPolicy$5.<clinit>:0
+1,gherkin.deps.com.google.gson.FieldNamingPolicy.<clinit>:36
+1,gherkin.deps.com.google.gson.LongSerializationPolicy$1.<clinit>:0
+1,gherkin.deps.com.google.gson.LongSerializationPolicy$2.<clinit>:0
+1,gherkin.deps.com.google.gson.LongSerializationPolicy.<clinit>:34
+1,gherkin.deps.com.google.gson.internal.$Gson$Types$ParameterizedTypeImpl.<clinit>:0
+1,gherkin.deps.com.google.gson.stream.JsonScope.<clinit>:31
+1,gherkin.deps.com.google.gson.stream.JsonToken.<clinit>:31
+1,gherkin.formatter.Mappable.<clinit>:16
+1,gherkin.formatter.model.BasicStatement.<clinit>:0
+1,gherkin.formatter.model.DescribedStatement.<clinit>:0
+1,gherkin.formatter.model.TagStatement.<clinit>:0
+1,gherkin.formatter.model.Feature.<clinit>:0
+1,gherkin.formatter.model.ScenarioOutline.<clinit>:0
+1,gherkin.formatter.model.Step.<clinit>:0
+1,gherkin.formatter.model.Row.<clinit>:0
+1,gherkin.formatter.model.ExamplesTableRow.<clinit>:0
+1,gherkin.formatter.model.Examples.<clinit>:0
+1,gherkin.formatter.model.Match.<clinit>:15
+1,gherkin.formatter.model.Result.<clinit>:16
+1,gherkin.formatter.model.Background.<clinit>:0
+1,gherkin.formatter.model.Scenario.<clinit>:0
+1,cucumber.runtime.model.ExampleStep.<clinit>:0
+1,org.picocontainer.containers.EmptyPicoContainer.<clinit>:0
+1,org.picocontainer.behaviors.AbstractBehaviorFactory.<clinit>:0
+1,org.picocontainer.behaviors.Caching.<clinit>:0
+1,org.picocontainer.DefaultPicoContainer.<clinit>:0
+1,org.picocontainer.containers.TransientPicoContainer.<clinit>:0
+1,org.picocontainer.injectors.AbstractInjectionFactory.<clinit>:0
+1,org.picocontainer.injectors.ConstructorInjection.<clinit>:0
+1,org.picocontainer.lifecycle.NullLifecycleStrategy.<clinit>:0
+1,org.picocontainer.monitors.NullComponentMonitor.<clinit>:0
+1,org.picocontainer.lifecycle.DefaultLifecycleState.<clinit>:0
+1,org.picocontainer.adapters.AbstractAdapter.<clinit>:0
+1,org.picocontainer.adapters.InstanceAdapter.<clinit>:0
+1,org.picocontainer.Characteristics$ImmutableProperties.<clinit>:0
+1,org.picocontainer.behaviors.AbstractBehavior.<clinit>:0
+1,org.picocontainer.behaviors.Stored.<clinit>:0
+1,org.picocontainer.behaviors.Cached.<clinit>:0
+1,org.picocontainer.references.SimpleReference.<clinit>:0
+1,org.picocontainer.behaviors.Stored$NoComponentLifecycle.<clinit>:0
+1,org.picocontainer.injectors.AdaptingInjection.<clinit>:0
+1,org.picocontainer.containers.ImmutablePicoContainer.<clinit>:0
+1,org.picocontainer.behaviors.Stored$Instance.<clinit>:0
+1,org.picocontainer.injectors.AbstractInjector.<clinit>:0
+1,org.picocontainer.injectors.SingleMemberInjector.<clinit>:0
+1,org.picocontainer.injectors.ConstructorInjector.<clinit>:0
+1,org.picocontainer.parameters.BasicComponentParameter.<clinit>:50
+1,org.picocontainer.parameters.CollectionComponentParameter.<clinit>:54
+1,org.picocontainer.parameters.ComponentParameter.<clinit>:45
+1,org.picocontainer.paranamer.BytecodeReadingParanamer$1.<clinit>:0
+1,org.picocontainer.converters.BuiltInConverters.<clinit>:0
+1,org.picocontainer.DefaultPicoContainer$IntoThreadLocal.<clinit>:0
+1,cucumber.runtime.StepDefinitionMatch.<clinit>:0
+1,cucumber.deps.com.thoughtworks.xstream.mapper.PackageAliasingMapper.<clinit>:31
+1,cucumber.deps.com.thoughtworks.xstream.core.util.OrderRetainingMap.<clinit>:0
+1,gherkin.formatter.Argument.<clinit>:0
+1,cucumber.deps.com.thoughtworks.xstream.core.util.PresortedSet.<clinit>:0
+^^^ Last method that contains more than one event ^^^
+Starting org.picocontainer.injectors.ConstructorInjector.getGreediestSatisfiableConstructor:124
+Finish org.picocontainer.injectors.ConstructorInjector.getGreediestSatisfiableConstructor:124
+Starting org.picocontainer.converters.BuiltInConverters.addConverter:47
+Finish org.picocontainer.converters.BuiltInConverters.addConverter:47
+Starting cucumber.deps.com.thoughtworks.xstream.converters.basic.StringConverter.fromString:88
+Finish cucumber.deps.com.thoughtworks.xstream.converters.basic.StringConverter.fromString:88
+Starting gherkin.formatter.ansi.AnsiEscapes.color:23
+Finish gherkin.formatter.ansi.AnsiEscapes.color:23
+Starting cucumber.runtime.java.MethodScanner.scan:33
+Finish cucumber.runtime.java.MethodScanner.scan:33
+Starting cucumber.runtime.io.FileResourceIterator$FileIterator.next:61
+Finish cucumber.runtime.io.FileResourceIterator$FileIterator.next:61
+Starting gherkin.util.FixJava.readReader:44
+Finish gherkin.util.FixJava.readReader:44
+Starting cucumber.runtime.RuntimeGlue.addStepDefinition:30
+Finish cucumber.runtime.RuntimeGlue.addStepDefinition:30
+Starting org.util.exceptions.ExceptionUtil.checkNullArgument:49
+Finish org.util.exceptions.ExceptionUtil.checkNullArgument:49
+Starting org.util.exceptions.ExceptionUtil.checkArrayLengthArgument:61
+Finish org.util.exceptions.ExceptionUtil.checkArrayLengthArgument:61
+Starting cucumber.runtime.RuntimeOptionsFactory.addSnippets:58
+Finish cucumber.runtime.RuntimeOptionsFactory.addSnippets:58
+Starting cucumber.runtime.RuntimeOptionsFactory.addNullFormatIfNoPluginIsSpecified:93
+Finish cucumber.runtime.RuntimeOptionsFactory.addNullFormatIfNoPluginIsSpecified:93
+Starting cucumber.deps.com.thoughtworks.xstream.converters.reflection.AbstractAttributedCharacterIteratorAttributeConverter.readResolve:81
+Finish cucumber.deps.com.thoughtworks.xstream.converters.reflection.AbstractAttributedCharacterIteratorAttributeConverter.readResolve:81
+Starting cucumber.runtime.model.CucumberScenarioOutline.createExampleScenario:57
+Finish cucumber.runtime.model.CucumberScenarioOutline.createExampleScenario:57
+Starting org.util.combinatorial.CombinationTest.testHasNextAfterClear:127
+Finish org.util.combinatorial.CombinationTest.testHasNextAfterClear:127
+Starting org.util.combinatorial.CombinationTest.testHasNextPreLast:103
+Finish org.util.combinatorial.CombinationTest.testHasNextPreLast:103
+Starting org.picocontainer.DefaultPicoContainer.stop:794
+Finish org.picocontainer.DefaultPicoContainer.stop:794
+Starting cucumber.runtime.JdkPatternArgumentMatcher.argumentsFrom:18
+Finish cucumber.runtime.JdkPatternArgumentMatcher.argumentsFrom:18
+Starting cucumber.runtime.model.CucumberExamples.createExampleScenarios:23
+Finish cucumber.runtime.model.CucumberExamples.createExampleScenarios:23
+Starting cucumber.deps.com.thoughtworks.xstream.converters.reflection.SerializationMethodInvoker.<init>:48
+Finish cucumber.deps.com.thoughtworks.xstream.converters.reflection.SerializationMethodInvoker.<init>:48
+Starting org.picocontainer.paranamer.BytecodeReadingParanamer$1.<init>:57
+Finish org.picocontainer.paranamer.BytecodeReadingParanamer$1.<init>:57
+Starting cucumber.runtime.io.DelegatingResourceIteratorFactory.createIterator:58
+Finish cucumber.runtime.io.DelegatingResourceIteratorFactory.createIterator:58
+Starting cucumber.runtime.Stats.printDuration:84
+Finish cucumber.runtime.Stats.printDuration:84
+Starting gherkin.I18n.capitalize:126
+Finish gherkin.I18n.capitalize:126
+Starting cucumber.runtime.UndefinedStepsTracker.getSnippets:29
+Finish cucumber.runtime.UndefinedStepsTracker.getSnippets:29
+Starting cucumber.runtime.SummaryPrinter.printErrors:26
+Finish cucumber.runtime.SummaryPrinter.printErrors:26
+Starting cucumber.deps.com.thoughtworks.xstream.core.util.OrderRetainingMap$ArraySet.<clinit>:0
+Finish cucumber.deps.com.thoughtworks.xstream.core.util.OrderRetainingMap$ArraySet.<clinit>:0
+Starting cucumber.deps.com.thoughtworks.xstream.mapper.AnnotationMapper$UnprocessedTypesSet.<clinit>:0
+Finish cucumber.deps.com.thoughtworks.xstream.mapper.AnnotationMapper$UnprocessedTypesSet.<clinit>:0
+Starting gherkin.I18n.<init>:85
+Finish gherkin.I18n.<init>:85
+Starting cucumber.deps.com.thoughtworks.xstream.mapper.ClassAliasingMapper.addClassAlias:37
+Finish cucumber.deps.com.thoughtworks.xstream.mapper.ClassAliasingMapper.addClassAlias:37
+Starting org.util.combinatorial.CombinationTest.testHasNextAfterClearWithNext:136
+Finish org.util.combinatorial.CombinationTest.testHasNextAfterClearWithNext:136
+Starting org.util.combinatorial.CombinationTest.testNextDontRepeat:177
+Finish org.util.combinatorial.CombinationTest.testNextDontRepeat:177
+Starting cucumber.runtime.Runtime.runHooks:208
+Finish cucumber.runtime.Runtime.runHooks:208
+Starting cucumber.runtime.xstream.TimeConverter.getTimeClasses:72
+Finish cucumber.runtime.xstream.TimeConverter.getTimeClasses:72
+Starting org.util.combinatorial.FactorialPermutationTest.testCombinations:65
+Finish org.util.combinatorial.FactorialPermutationTest.testCombinations:65
+Starting cucumber.deps.com.thoughtworks.xstream.core.JVM.loadClass:215
+Finish cucumber.deps.com.thoughtworks.xstream.core.JVM.loadClass:215
+Starting gherkin.parser.FormatterListener$Stash.examplesId:55
+Finish gherkin.parser.FormatterListener$Stash.examplesId:55
+Starting cucumber.runtime.RuntimeOptions.parse:90
+Finish cucumber.runtime.RuntimeOptions.parse:90
+Starting cucumber.runtime.junit.FeatureRunner.buildFeatureElementRunners:75
+Finish cucumber.runtime.junit.FeatureRunner.buildFeatureElementRunners:75
+Starting cucumber.api.junit.Cucumber.addChildren:105
+Finish cucumber.api.junit.Cucumber.addChildren:105
+Starting cucumber.runtime.xstream.ConverterWithNumberFormat.<init>:9
+Finish cucumber.runtime.xstream.ConverterWithNumberFormat.<init>:9
+Starting gherkin.parser.StateMachineReader.<init>:16
+Finish gherkin.parser.StateMachineReader.<init>:16
+Starting cucumber.runtime.io.FileResourceIterator$FileIterator.<init>:48
+Finish cucumber.runtime.io.FileResourceIterator$FileIterator.<init>:48
+Starting gherkin.formatter.AnsiFormats$ColorFormat.text:37
+Finish gherkin.formatter.AnsiFormats$ColorFormat.text:37
+Starting cucumber.deps.com.thoughtworks.xstream.mapper.ClassAliasingMapper.addTypeAlias:49
+Finish cucumber.deps.com.thoughtworks.xstream.mapper.ClassAliasingMapper.addTypeAlias:49
+Starting cucumber.runtime.ParameterInfo.fromMethod:32
+Finish cucumber.runtime.ParameterInfo.fromMethod:32
+Starting org.poker.api.core.CardTest.testEqualsDistinct:105
+Finish org.poker.api.core.CardTest.testEqualsDistinct:105
+Starting cucumber.deps.com.thoughtworks.xstream.core.DefaultConverterLookup.registerConverter:65
+Finish cucumber.deps.com.thoughtworks.xstream.core.DefaultConverterLookup.registerConverter:65
+Starting cucumber.runtime.Reflections.instantiateSubclasses:27
+Finish cucumber.runtime.Reflections.instantiateSubclasses:27
+Starting cucumber.runtime.junit.ScenarioOutlineRunner.<init>:21
+Finish cucumber.runtime.junit.ScenarioOutlineRunner.<init>:21
+Starting cucumber.runtime.RuntimeOptions.getPlugins:205
+Finish cucumber.runtime.RuntimeOptions.getPlugins:205
+Starting cucumber.runtime.RuntimeOptionsFactory.addPlugins:82
+Finish cucumber.runtime.RuntimeOptionsFactory.addPlugins:82
+Starting cucumber.deps.com.thoughtworks.xstream.converters.reflection.FieldDictionary.init:52
+Finish cucumber.deps.com.thoughtworks.xstream.converters.reflection.FieldDictionary.init:52
+Starting cucumber.runtime.model.CucumberFeature.loadFromFeaturePath:94
+Finish cucumber.runtime.model.CucumberFeature.loadFromFeaturePath:94
+Starting cucumber.runtime.FeatureBuilder.parse:115
+Finish cucumber.runtime.FeatureBuilder.parse:115
+Starting gherkin.parser.Parser$Machine.transitionMap:235
+Finish gherkin.parser.Parser$Machine.transitionMap:235
+Starting cucumber.runtime.RuntimeGlue.stepDefinitionMatches:78
+Finish cucumber.runtime.RuntimeGlue.stepDefinitionMatches:78
+Starting cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.setParameterInfo:76
+Finish cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.setParameterInfo:76
+Starting gherkin.deps.com.google.gson.internal.Excluder.excludeClass:192
+Finish gherkin.deps.com.google.gson.internal.Excluder.excludeClass:192
+Starting cucumber.runtime.io.ClasspathIterable.filePath:43
+Finish cucumber.runtime.io.ClasspathIterable.filePath:43
+Starting cucumber.runtime.RuntimeOptions.haveLineFilters:154
+Finish cucumber.runtime.RuntimeOptions.haveLineFilters:154
+Starting cucumber.runtime.xstream.TimeConverter.add:35
+Finish cucumber.runtime.xstream.TimeConverter.add:35
+Starting cucumber.runtime.model.CucumberTagStatement.<init>:21
+Finish cucumber.runtime.model.CucumberTagStatement.<init>:21
+Starting gherkin.parser.FormatterListener$Stash.featureElementId:51
+Finish gherkin.parser.FormatterListener$Stash.featureElementId:51
+Starting org.util.exceptions.ExceptionUtil.checkArgument:67
+Finish org.util.exceptions.ExceptionUtil.checkArgument:67
+Starting cucumber.runtime.io.FileResourceIterator.hasNext:25
+Finish cucumber.runtime.io.FileResourceIterator.hasNext:25
+Starting cucumber.deps.com.thoughtworks.xstream.core.util.PresortedSet.addAll:43
+Finish cucumber.deps.com.thoughtworks.xstream.core.util.PresortedSet.addAll:43
+Starting cucumber.runtime.model.CucumberScenarioOutline.examples:32
+Finish cucumber.runtime.model.CucumberScenarioOutline.examples:32
+Starting cucumber.runtime.xstream.LocalizedXStreams.get:27
+Finish cucumber.runtime.xstream.LocalizedXStreams.get:27
+Starting cucumber.deps.com.thoughtworks.xstream.core.util.PresortedMap$ArraySet.<clinit>:0
+Finish cucumber.deps.com.thoughtworks.xstream.core.util.PresortedMap$ArraySet.<clinit>:0
+Starting org.poker.api.core.HandEvaluatorTest.combinationName:53
+Finish org.poker.api.core.HandEvaluatorTest.combinationName:53
+Starting org.poker.api.core.CardUtil4Testing.toStringCards:61
+Finish org.poker.api.core.CardUtil4Testing.toStringCards:61
+Starting org.picocontainer.DefaultPicoContainer.startAdapters:1001
+Finish org.picocontainer.DefaultPicoContainer.startAdapters:1001
+Starting org.util.combinatorial.FactorialPermutation.next:68
+Finish org.util.combinatorial.FactorialPermutation.next:68
+Starting org.hamcrest.core.IsCollectionContaining.matchesSafely:23
+Finish org.hamcrest.core.IsCollectionContaining.matchesSafely:23
+Starting org.poker.api.core.CardTest.testEquals:89
+Finish org.poker.api.core.CardTest.testEquals:89
+Starting cucumber.runtime.java.picocontainer.PicoFactory.start:16
+Finish cucumber.runtime.java.picocontainer.PicoFactory.start:16
+Starting cucumber.runtime.Runtime.disposeBackendWorlds:148
+Finish cucumber.runtime.Runtime.disposeBackendWorlds:148
+Starting cucumber.deps.com.thoughtworks.xstream.core.util.OrderRetainingMap.put:43
+Finish cucumber.deps.com.thoughtworks.xstream.core.util.OrderRetainingMap.put:43
+Starting cucumber.deps.com.thoughtworks.xstream.core.util.PrioritizedList$PrioritizedItemIterator.next:91
+Finish cucumber.deps.com.thoughtworks.xstream.core.util.PrioritizedList$PrioritizedItemIterator.next:91
+Starting org.poker.api.core.HandEvaluatorTest.testEval:140
+Finish org.poker.api.core.HandEvaluatorTest.testEval:140
+Starting org.util.combinatorial.Combination.next:76
+Finish org.util.combinatorial.Combination.next:76
+Starting org.picocontainer.DefaultPicoContainer.addAdapterInternal:436
+Finish org.picocontainer.DefaultPicoContainer.addAdapterInternal:436
+Starting org.poker.api.core.CardUtil4Testing.fromStringCards:49
+Finish org.poker.api.core.CardUtil4Testing.fromStringCards:49
+Starting org.util.combinatorial.FactorialPermutationTest.testFullTesting:75
+Finish org.util.combinatorial.FactorialPermutationTest.testFullTesting:75
+Starting cucumber.runtime.java.MethodScanner.scan:56
+Finish cucumber.runtime.java.MethodScanner.scan:56
+Starting org.poker.api.core.DeckTest.testGetAllCards:50
+Finish org.poker.api.core.DeckTest.testGetAllCards:50
+Starting gherkin.deps.com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read:162
+Finish gherkin.deps.com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read:162
+Starting gherkin.parser.Parser$Machine.buildTransitionMap:244
+Finish gherkin.parser.Parser$Machine.buildTransitionMap:244
+Starting cucumber.runtime.UndefinedStepsTracker.isGivenWhenThenKeyword:59
+Finish cucumber.runtime.UndefinedStepsTracker.isGivenWhenThenKeyword:59
+Starting org.util.combinatorial.CombinationTest.testNextIgnored:193
+Finish org.util.combinatorial.CombinationTest.testNextIgnored:193
+Starting org.util.combinatorial.CombinationTest.testHasNextAfterFullLoopClear:147
+Finish org.util.combinatorial.CombinationTest.testHasNextAfterFullLoopClear:147
+Starting cucumber.deps.com.thoughtworks.xstream.mapper.DefaultImplementationsMapper.addDefaultImplementation:53
+Finish cucumber.deps.com.thoughtworks.xstream.mapper.DefaultImplementationsMapper.addDefaultImplementation:53
+Starting gherkin.deps.com.google.gson.stream.JsonReader.nextString:1006
+Finish gherkin.deps.com.google.gson.stream.JsonReader.nextString:1006
+Starting cucumber.runtime.junit.ExamplesRunner.getName:38
+Finish cucumber.runtime.junit.ExamplesRunner.getName:38
+Starting org.poker.api.core.CardTest.testEqualsOtherObjects:80
+Finish org.poker.api.core.CardTest.testEqualsOtherObjects:80
+Starting gherkin.parser.StateMachineReader.row:57
+Finish gherkin.parser.StateMachineReader.row:57
+Starting cucumber.runtime.model.CucumberFeature.load:48
+Finish cucumber.runtime.model.CucumberFeature.load:48
+Starting cucumber.runtime.junit.FeatureRunner.getDescription:42
+Finish cucumber.runtime.junit.FeatureRunner.getDescription:42
+Starting cucumber.runtime.Runtime.<init>:47
+Finish cucumber.runtime.Runtime.<init>:47
+Starting gherkin.I18n.<clinit>:32
+Finish gherkin.I18n.<clinit>:32
+Starting cucumber.runtime.io.FileResourceIterator.next:30
+Finish cucumber.runtime.io.FileResourceIterator.next:30
+Starting cucumber.runtime.Reflections.instantiateExactlyOneSubclass:16
+Finish cucumber.runtime.Reflections.instantiateExactlyOneSubclass:16
+Starting cucumber.runtime.io.DelegatingResourceIteratorFactory.<init>:42
+Finish cucumber.runtime.io.DelegatingResourceIteratorFactory.<init>:42
+Starting cucumber.deps.com.thoughtworks.xstream.core.util.PrioritizedList.iterator:44
+Finish cucumber.deps.com.thoughtworks.xstream.core.util.PrioritizedList.iterator:44
+Starting cucumber.runtime.java.picocontainer.PicoFactory.addClass:29
+Finish cucumber.runtime.java.picocontainer.PicoFactory.addClass:29
+Starting cucumber.runtime.junit.ExecutionUnitRunner.getDescription:50
+Finish cucumber.runtime.junit.ExecutionUnitRunner.getDescription:50
+Starting cucumber.runtime.junit.ExecutionUnitRunner.describeChild:79
+Finish cucumber.runtime.junit.ExecutionUnitRunner.describeChild:79
+Starting cucumber.runtime.ScenarioImpl.add:32
+Finish cucumber.runtime.ScenarioImpl.add:32
+Starting cucumber.deps.com.thoughtworks.xstream.mapper.AnnotationMapper.processAnnotations:136
+Finish cucumber.deps.com.thoughtworks.xstream.mapper.AnnotationMapper.processAnnotations:136
+Starting cucumber.runtime.ScenarioImpl.getStatus:47
+Finish cucumber.runtime.ScenarioImpl.getStatus:47
+Starting cucumber.runtime.model.StepContainer.runSteps:38
+Finish cucumber.runtime.model.StepContainer.runSteps:38
+Starting org.picocontainer.DefaultPicoContainer.addOrderedComponentAdapter:567
+Finish org.picocontainer.DefaultPicoContainer.addOrderedComponentAdapter:567
+Starting cucumber.runtime.junit.ExamplesRunner.<init>:22
+Finish cucumber.runtime.junit.ExamplesRunner.<init>:22
+Starting org.util.combinatorial.CombinationTest.testCombinationsStatic:69
+Finish org.util.combinatorial.CombinationTest.testCombinationsStatic:69
+Starting org.util.combinatorial.CombinationTest.testCombinations:86
+Finish org.util.combinatorial.CombinationTest.testCombinations:86
+Starting org.picocontainer.PicoBuilder.addContainerComponents:223
+Finish org.picocontainer.PicoBuilder.addContainerComponents:223
+Starting cucumber.runtime.junit.JUnitReporter.step:190
+Finish cucumber.runtime.junit.JUnitReporter.step:190
+Starting gherkin.formatter.model.Examples$Builder.row:34
+Finish gherkin.formatter.model.Examples$Builder.row:34
+Starting cucumber.deps.com.thoughtworks.xstream.mapper.ImmutableTypesMapper.addImmutableType:32
+Finish cucumber.deps.com.thoughtworks.xstream.mapper.ImmutableTypesMapper.addImmutableType:32
+Starting cucumber.deps.com.thoughtworks.xstream.converters.reflection.FieldDictionary.buildMap:122
+Finish cucumber.deps.com.thoughtworks.xstream.converters.reflection.FieldDictionary.buildMap:122
+Starting gherkin.parser.FormatterListener$Stash.nextExampleId:64
+Finish gherkin.parser.FormatterListener$Stash.nextExampleId:64
+Starting cucumber.deps.com.thoughtworks.xstream.core.util.WeakCache.put:62
+Finish cucumber.deps.com.thoughtworks.xstream.core.util.WeakCache.put:62
+Starting cucumber.runtime.model.StepContainer.step:27
+Finish cucumber.runtime.model.StepContainer.step:27
+Starting cucumber.deps.com.thoughtworks.xstream.core.JVM.<clinit>:46
+Finish cucumber.deps.com.thoughtworks.xstream.core.JVM.<clinit>:46
+Starting gherkin.formatter.ansi.AnsiEscapes.appendTo:41
+Finish gherkin.formatter.ansi.AnsiEscapes.appendTo:41
+Starting cucumber.runtime.RuntimeOptions$1.invoke:241
+Finish cucumber.runtime.RuntimeOptions$1.invoke:241
+Starting cucumber.runtime.model.CucumberScenarioOutline.replaceTokens:114
+Finish cucumber.runtime.model.CucumberScenarioOutline.replaceTokens:114
+Starting gherkin.util.FixJava.join:15
+Finish gherkin.util.FixJava.join:15
+Starting cucumber.runtime.StepDefinitionMatch.transformedArgs:51
+Finish cucumber.runtime.StepDefinitionMatch.transformedArgs:51
+Starting org.util.combinatorial.CombinationTest.testSize:77
+Finish org.util.combinatorial.CombinationTest.testSize:77
+Starting org.util.combinatorial.CombinationTest.testNextAfterClear:209
+Finish org.util.combinatorial.CombinationTest.testNextAfterClear:209
+Starting cucumber.deps.com.thoughtworks.xstream.core.util.OrderRetainingMap.<init>:27
+Finish cucumber.deps.com.thoughtworks.xstream.core.util.OrderRetainingMap.<init>:27
+Starting cucumber.deps.com.thoughtworks.xstream.core.DefaultConverterLookup.<init>:36
+Finish cucumber.deps.com.thoughtworks.xstream.core.DefaultConverterLookup.<init>:36
+Starting cucumber.runtime.junit.FeatureRunner.getName:36
+Finish cucumber.runtime.junit.FeatureRunner.getName:36
+Starting cucumber.runtime.RuntimeOptionsFactory.addDefaultGlueIfNoGlueIsSpecified:121
+Finish cucumber.runtime.RuntimeOptionsFactory.addDefaultGlueIfNoGlueIsSpecified:121
+Starting gherkin.I18n.lexer:116
+Finish gherkin.I18n.lexer:116
+Starting cucumber.deps.com.thoughtworks.xstream.converters.reflection.FieldDictionary.fieldsFor:76
+Finish cucumber.deps.com.thoughtworks.xstream.converters.reflection.FieldDictionary.fieldsFor:76
+Starting cucumber.deps.com.thoughtworks.xstream.mapper.AnnotationMapper.<init>:68
+Finish cucumber.deps.com.thoughtworks.xstream.mapper.AnnotationMapper.<init>:68
+Starting org.util.exceptions.ExceptionUtil.checkMinValueArgument:37
+Finish org.util.exceptions.ExceptionUtil.checkMinValueArgument:37
+Starting org.picocontainer.injectors.ConstructorInjector.getSortedMatchingConstructors:376
+Finish org.picocontainer.injectors.ConstructorInjector.getSortedMatchingConstructors:376
+Starting cucumber.runtime.model.StepContainer.format:31
+Finish cucumber.runtime.model.StepContainer.format:31
+Starting cucumber.deps.com.thoughtworks.xstream.core.util.PrioritizedList.add:37
+Finish cucumber.deps.com.thoughtworks.xstream.core.util.PrioritizedList.add:37
+Starting cucumber.runtime.model.CucumberTagStatement.<init>:27
+Finish cucumber.runtime.model.CucumberTagStatement.<init>:27
+Starting cucumber.deps.com.thoughtworks.xstream.core.DefaultConverterLookup.lookupConverterForType:49
+Finish cucumber.deps.com.thoughtworks.xstream.core.DefaultConverterLookup.lookupConverterForType:49
+Starting gherkin.deps.com.google.gson.Gson.getAdapter:337
+Finish gherkin.deps.com.google.gson.Gson.getAdapter:337
+Starting org.util.combinatorial.CombinationTest.tesHasNextFirst:95
+Finish org.util.combinatorial.CombinationTest.tesHasNextFirst:95
+Starting org.util.combinatorial.CombinationTest.testNextItemsRange:160
+Finish org.util.combinatorial.CombinationTest.testNextItemsRange:160
+Starting cucumber.runtime.junit.ExamplesRunner.getDescription:43
+Finish cucumber.runtime.junit.ExamplesRunner.getDescription:43
+Starting cucumber.deps.com.thoughtworks.xstream.core.util.PrioritizedList$PrioritizedItemIterator.hasNext:87
+Finish cucumber.deps.com.thoughtworks.xstream.core.util.PrioritizedList$PrioritizedItemIterator.hasNext:87
+Starting gherkin.lexer.En.unindent:940
+Finish gherkin.lexer.En.unindent:940
+Starting gherkin.formatter.AnsiFormats$1.<init>:10
+Finish gherkin.formatter.AnsiFormats$1.<init>:10
+Starting cucumber.runtime.formatter.PluginFactory$1.<init>:47
+Finish cucumber.runtime.formatter.PluginFactory$1.<init>:47
+Starting cucumber.runtime.Stats.printSubCount:72
+Finish cucumber.runtime.Stats.printSubCount:72
+Starting cucumber.deps.com.thoughtworks.xstream.converters.basic.DateConverter.<clinit>:43
+Finish cucumber.deps.com.thoughtworks.xstream.converters.basic.DateConverter.<clinit>:43
+Starting cucumber.deps.com.thoughtworks.xstream.core.util.PresortedMap.put:108
+Finish cucumber.deps.com.thoughtworks.xstream.core.util.PresortedMap.put:108
+Starting cucumber.runtime.io.FlatteningIterator.moveToNext:24
+Finish cucumber.runtime.io.FlatteningIterator.moveToNext:24
+Starting cucumber.runtime.io.ResourceLoaderClassFinder.getDescendants:20
+Finish cucumber.runtime.io.ResourceLoaderClassFinder.getDescendants:20
+Starting org.picocontainer.DefaultPicoContainer.start:765
+Finish org.picocontainer.DefaultPicoContainer.start:765
+Starting org.picocontainer.DefaultPicoContainer.dispose:843
+Finish org.picocontainer.DefaultPicoContainer.dispose:843
+Starting cucumber.runtime.io.FileResourceIterator$FileIterator.hasNext:72
+Finish cucumber.runtime.io.FileResourceIterator$FileIterator.hasNext:72
+Starting cucumber.runtime.model.CucumberExamples.tagsAndInheritedTags:34
+Finish cucumber.runtime.model.CucumberExamples.tagsAndInheritedTags:34
+Starting org.poker.api.core.CardTest.testHashCode:70
+Finish org.poker.api.core.CardTest.testHashCode:70
+Starting cucumber.runtime.model.CucumberTagStatement.tagsAndInheritedTags:32
+Finish cucumber.runtime.model.CucumberTagStatement.tagsAndInheritedTags:32
+Starting gherkin.lexer.En.scan:586
+Finish gherkin.lexer.En.scan:586
+Starting cucumber.runtime.Runtime.buildBackendWorlds:138
+Finish cucumber.runtime.Runtime.buildBackendWorlds:138
+Starting org.util.combinatorial.CombinationTest.testHasNextLast:115
+Finish org.util.combinatorial.CombinationTest.testHasNextLast:115
+Starting cucumber.runtime.junit.JUnitReporter.fetchAndCheckRunnerStep:68
+Finish cucumber.runtime.junit.JUnitReporter.fetchAndCheckRunnerStep:68
+Starting gherkin.deps.com.google.gson.Gson.<init>:110
+Finish gherkin.deps.com.google.gson.Gson.<init>:110
+Starting cucumber.deps.com.thoughtworks.xstream.core.util.OrderRetainingMap.entrySet:71
+Finish cucumber.deps.com.thoughtworks.xstream.core.util.OrderRetainingMap.entrySet:71
+Starting org.poker.api.core.Card.toString:85
+Finish org.poker.api.core.Card.toString:85
+Starting org.poker.api.core.HandEvaluator.eval:51
+Finish org.poker.api.core.HandEvaluator.eval:51
+Starting org.poker.api.core.Deck.getAllCards:53
+Finish org.poker.api.core.Deck.getAllCards:53
+Starting cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.unsetParameterInfo:88
+Finish cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.unsetParameterInfo:88
+Starting cucumber.runtime.junit.ScenarioOutlineRunner.getDescription:35
+Finish cucumber.runtime.junit.ScenarioOutlineRunner.getDescription:35
+Starting cucumber.deps.com.thoughtworks.xstream.core.util.PresortedMap.keySet:58
+Finish cucumber.deps.com.thoughtworks.xstream.core.util.PresortedMap.keySet:58
+
+#1
+Inspecting hot method org.poker.api.core.Card.toString:85...
+Checking for isolation...
+129948275,51979310,51979310,0
+Total 129948275 (5 unique) events are in hot method
+Total 51979310 (2 unique) traces are in hot method
+Total 51979310 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 129948275 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (25989655 traces / 1 unique traces) (51979310 events / 2 unique events)
+	StringBuilder_ThreadSafe (25989655 traces / 1 unique traces) (77968965 events / 3 unique events)
+Classifier (org.poker.api.core.Card.toString:85): CUT,ISOLATED_ONE_UNIQUE
+
+#2
+Inspecting hot method org.poker.api.core.HandEvaluator.eval:51...
+Checking for isolation...
+103960640,25990161,25990160,1
+Total 103960640 (12995087 unique) events are in hot method
+Total 25990161 (3 unique) traces are in hot method
+Total 25990160 (2 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 90965560 (7 unique) events are in isolated traces
+Total 12996494 (12996494 unique) events are in non-isolated traces (12995080 / 12995080 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (12995080 traces / 1 unique traces) (51980320 events / 4 unique events)
+	Appendable_ThreadSafe (12995080 traces / 1 unique traces) (38985240 events / 3 unique events)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (12996494 events / 12996494 unique events) (12995080 events / 12995080 unique events in hot method)
+Classifier (org.poker.api.core.HandEvaluator.eval:51): CUT,ISOLATED_ONE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#3
+Inspecting hot method org.poker.api.core.HandEvaluatorTest.combinationName:53...
+Checking for isolation...
+64974000,7796881,7796881,0
+Total 64974000 (2598984 unique) events are in hot method
+Total 7796881 (4 unique) traces are in hot method
+Total 7796881 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 64974000 (2598984 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Arrays_SortBeforeBinarySearch (2598960 traces / 1 unique traces) (2598960 events / 1 unique events)
+	StringBuilder_ThreadSafe (2598960 traces / 1 unique traces) (31187520 events / 12 unique events)
+	Appendable_ThreadSafe (2598960 traces / 1 unique traces) (28588560 events / 11 unique events)
+	Arrays_MutuallyComparable (1 traces / 1 unique traces) (2598960 events / 2598960 unique events)
+Classifier (org.poker.api.core.HandEvaluatorTest.combinationName:53): CUT,ISOLATED_ONE_UNIQUE,RAW_ISOLATED_SINGLE_TRACE
+
+#4
+Inspecting hot method org.poker.api.core.CardUtil4Testing.toStringCards:61...
+Checking for isolation...
+49380240,5197920,5197920,0
+Total 49380240 (19 unique) events are in hot method
+Total 5197920 (2 unique) traces are in hot method
+Total 5197920 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 49380240 (19 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (2598960 traces / 1 unique traces) (25989600 events / 10 unique events)
+	Appendable_ThreadSafe (2598960 traces / 1 unique traces) (23390640 events / 9 unique events)
+Classifier (org.poker.api.core.CardUtil4Testing.toStringCards:61): CUT,ISOLATED_ONE_UNIQUE
+
+#5
+Inspecting hot method org.poker.api.core.HandEvaluatorTest.testEval:140...
+Checking for isolation...
+23390640,5197920,5197920,0
+Total 23390640 (9 unique) events are in hot method
+Total 5197920 (2 unique) traces are in hot method
+Total 5197920 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 23390640 (9 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (2598960 traces / 1 unique traces) (12994800 events / 5 unique events)
+	Appendable_ThreadSafe (2598960 traces / 1 unique traces) (10395840 events / 4 unique events)
+Classifier (org.poker.api.core.HandEvaluatorTest.testEval:140): CUT,ISOLATED_ONE_UNIQUE
+
+#6
+Inspecting hot method org.util.combinatorial.Combination.next:76...
+Checking for isolation...
+2599443,1,0,1
+Total 2599443 (2599443 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 2599749 (2599749 unique) events are in non-isolated traces (2599443 / 2599443 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (2599749 events / 2599749 unique events) (2599443 events / 2599443 unique events in hot method)
+Classifier (org.util.combinatorial.Combination.next:76): CUT,NOT_REDUNDANT_TRACES
+
+#7
+Inspecting hot method org.util.combinatorial.FactorialPermutationTest.testFullTesting:75...
+Checking for isolation...
+212624,1046,326,720
+Total 212624 (205941 unique) events are in hot method
+Total 1046 (712 unique) traces are in hot method
+Total 326 (6 unique) isolated traces are in hot method
+Total 720 (706 unique) non-isolated traces that have events in hot method
+Total 1477 (29 unique) events are in isolated traces
+Total 13211088 (13205763 unique) events are in non-isolated traces (211147 / 205912 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (163 traces / 3 unique traces) (820 events / 16 unique events)
+	Appendable_ThreadSafe (163 traces / 3 unique traces) (657 events / 13 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (719 traces / 705 unique traces) (214594 events / 209269 unique events) (210428 events / 205193 unique events in hot method)
+	Set_ItselfAsElement (1 traces / 1 unique traces) (12996494 events / 12996494 unique events) (719 events / 719 unique events in hot method)
+Classifier (org.util.combinatorial.FactorialPermutationTest.testFullTesting:75): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#8
+Inspecting hot method cucumber.runtime.java.MethodScanner.scan:56...
+Checking for isolation...
+42483,63,63,0
+Total 42483 (2023 unique) events are in hot method
+Total 63 (3 unique) traces are in hot method
+Total 63 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 42483 (2023 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (21 traces / 1 unique traces) (16989 events / 809 unique events)
+	Iterator_RemoveOnce (21 traces / 1 unique traces) (8484 events / 404 unique events)
+	Collection_UnsafeIterator (21 traces / 1 unique traces) (17010 events / 810 unique events)
+Classifier (cucumber.runtime.java.MethodScanner.scan:56): LIB,ISOLATED_ONE_UNIQUE
+
+#9
+Inspecting hot method org.hamcrest.core.IsCollectionContaining.matchesSafely:23...
+Checking for isolation...
+15919,2263,1492,771
+Total 15919 (10864 unique) events are in hot method
+Total 2263 (861 unique) traces are in hot method
+Total 1492 (104 unique) isolated traces are in hot method
+Total 771 (757 unique) non-isolated traces that have events in hot method
+Total 8997 (4032 unique) events are in isolated traces
+Total 218728 (213403 unique) events are in non-isolated traces (6922 / 6832 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (823 traces / 52 unique traces) (6203 events / 2704 unique events)
+	Iterator_RemoveOnce (617 traces / 51 unique traces) (2690 events / 1326 unique events)
+	Collection_UnsafeIterator (52 traces / 1 unique traces) (104 events / 2 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (771 traces / 757 unique traces) (218728 events / 213403 unique events) (6922 events / 6832 unique events in hot method)
+Classifier (org.hamcrest.core.IsCollectionContaining.matchesSafely:23): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#10
+Inspecting hot method org.poker.api.core.CardTest.testEquals:89...
+Checking for isolation...
+13939,159,159,0
+Total 13939 (526 unique) events are in hot method
+Total 159 (6 unique) traces are in hot method
+Total 159 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 13939 (526 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (53 traces / 2 unique traces) (2756 events / 104 unique events)
+	Iterator_HasNext (53 traces / 2 unique traces) (5565 events / 210 unique events)
+	Collection_UnsafeIterator (53 traces / 2 unique traces) (5618 events / 212 unique events)
+Classifier (org.poker.api.core.CardTest.testEquals:89): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#11
+Inspecting hot method org.poker.api.core.CardTest.testEqualsDistinct:105...
+Checking for isolation...
+13939,159,159,0
+Total 13939 (526 unique) events are in hot method
+Total 159 (6 unique) traces are in hot method
+Total 159 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 13939 (526 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (53 traces / 2 unique traces) (2756 events / 104 unique events)
+	Iterator_HasNext (53 traces / 2 unique traces) (5565 events / 210 unique events)
+	Collection_UnsafeIterator (53 traces / 2 unique traces) (5618 events / 212 unique events)
+Classifier (org.poker.api.core.CardTest.testEqualsDistinct:105): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#12
+Inspecting hot method cucumber.deps.com.thoughtworks.xstream.core.DefaultConverterLookup.registerConverter:65...
+Checking for isolation...
+10212,279,139,140
+Total 10212 (10008 unique) events are in hot method
+Total 279 (143 unique) traces are in hot method
+Total 139 (3 unique) isolated traces are in hot method
+Total 140 (140 unique) non-isolated traces that have events in hot method
+Total 276 (72 unique) events are in isolated traces
+Total 10216 (10216 unique) events are in non-isolated traces (9936 / 9936 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (69 traces / 1 unique traces) (69 events / 1 unique events)
+	Collection_UnsafeIterator (69 traces / 1 unique traces) (138 events / 2 unique events)
+	Map_CollectionViewAdd (1 traces / 1 unique traces) (69 events / 69 unique events)
+Specs that have non-isolated traces:
+	Collections_SynchronizedMap (70 traces / 70 unique traces) (5038 events / 5038 unique events) (4968 events / 4968 unique events in hot method)
+	Map_UnsafeIterator (70 traces / 70 unique traces) (5178 events / 5178 unique events) (4968 events / 4968 unique events in hot method)
+Classifier (cucumber.deps.com.thoughtworks.xstream.core.DefaultConverterLookup.registerConverter:65): LIB,ISOLATED_ONE_UNIQUE,ISOLATED_SINGLE_TRACE,NOT_ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT
+
+#13
+Inspecting hot method cucumber.runtime.RuntimeGlue.stepDefinitionMatches:78...
+Checking for isolation...
+9492,422,422,0
+Total 9492 (7915 unique) events are in hot method
+Total 422 (90 unique) traces are in hot method
+Total 422 (90 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 9492 (7915 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Map_UnsafeIterator (85 traces / 85 unique traces) (7812 events / 7812 unique events)
+	Collections_SortBeforeBinarySearch (84 traces / 1 unique traces) (84 events / 1 unique events)
+	Collection_UnsafeIterator (84 traces / 1 unique traces) (672 events / 8 unique events)
+	Iterator_HasNext (84 traces / 1 unique traces) (588 events / 7 unique events)
+	Iterator_RemoveOnce (84 traces / 1 unique traces) (252 events / 3 unique events)
+	Map_CollectionViewAdd (1 traces / 1 unique traces) (84 events / 84 unique events)
+Classifier (cucumber.runtime.RuntimeGlue.stepDefinitionMatches:78): LIB,ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT,ISOLATED_ONE_UNIQUE,ISOLATED_SINGLE_TRACE
+
+#14
+Inspecting hot method cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.setParameterInfo:76...
+Checking for isolation...
+8232,336,252,84
+Total 8232 (7153 unique) events are in hot method
+Total 336 (87 unique) traces are in hot method
+Total 252 (3 unique) isolated traces are in hot method
+Total 84 (84 unique) non-isolated traces that have events in hot method
+Total 1092 (13 unique) events are in isolated traces
+Total 11291 (11291 unique) events are in non-isolated traces (7140 / 7140 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (84 traces / 1 unique traces) (420 events / 5 unique events)
+	Iterator_RemoveOnce (84 traces / 1 unique traces) (168 events / 2 unique events)
+	Collection_UnsafeIterator (84 traces / 1 unique traces) (504 events / 6 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (83 traces / 83 unique traces) (11039 events / 11039 unique events) (6972 events / 6972 unique events in hot method)
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (252 events / 252 unique events) (168 events / 168 unique events in hot method)
+Classifier (cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.setParameterInfo:76): LIB,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT,NOT_ISOLATED_SINGLE_TRACE
+
+#15
+Inspecting hot method org.poker.api.core.Deck.getAllCards:53...
+Checking for isolation...
+5772,111,111,0
+Total 5772 (52 unique) events are in hot method
+Total 111 (1 unique) traces are in hot method
+Total 111 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5772 (52 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (111 traces / 1 unique traces) (5772 events / 52 unique events)
+Classifier (org.poker.api.core.Deck.getAllCards:53): CUT,ISOLATED_ONE_UNIQUE
+
+#16
+Inspecting hot method cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.unsetParameterInfo:88...
+Checking for isolation...
+4746,253,169,84
+Total 4746 (4165 unique) events are in hot method
+Total 253 (87 unique) traces are in hot method
+Total 169 (3 unique) isolated traces are in hot method
+Total 84 (84 unique) non-isolated traces that have events in hot method
+Total 595 (14 unique) events are in isolated traces
+Total 11291 (11291 unique) events are in non-isolated traces (4151 / 4151 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (84 traces / 1 unique traces) (420 events / 5 unique events)
+	Iterator_RemoveOnce (84 traces / 1 unique traces) (168 events / 2 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (7 events / 7 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (83 traces / 83 unique traces) (11039 events / 11039 unique events) (4067 events / 4067 unique events in hot method)
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (252 events / 252 unique events) (84 events / 84 unique events in hot method)
+Classifier (cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.unsetParameterInfo:88): LIB,ISOLATED_ONE_UNIQUE,ISOLATED_SINGLE_TRACE,NOT_ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT,NOT_ISOLATED_SINGLE_TRACE
+
+#17
+Inspecting hot method cucumber.runtime.RuntimeOptions$1.invoke:241...
+Checking for isolation...
+2784,1044,1044,0
+Total 2784 (8 unique) events are in hot method
+Total 1044 (3 unique) traces are in hot method
+Total 1044 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2784 (8 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (348 traces / 1 unique traces) (1044 events / 3 unique events)
+	Iterator_RemoveOnce (348 traces / 1 unique traces) (348 events / 1 unique events)
+	Collection_UnsafeIterator (348 traces / 1 unique traces) (1392 events / 4 unique events)
+Classifier (cucumber.runtime.RuntimeOptions$1.invoke:241): LIB,ISOLATED_ONE_UNIQUE
+
+#18
+Inspecting hot method cucumber.runtime.model.CucumberScenarioOutline.replaceTokens:114...
+Checking for isolation...
+2436,673,672,1
+Total 2436 (91 unique) events are in hot method
+Total 673 (3 unique) traces are in hot method
+Total 672 (2 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 2352 (7 unique) events are in isolated traces
+Total 12996494 (12996494 unique) events are in non-isolated traces (84 / 84 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (336 traces / 1 unique traces) (1344 events / 4 unique events)
+	Appendable_ThreadSafe (336 traces / 1 unique traces) (1008 events / 3 unique events)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (12996494 events / 12996494 unique events) (84 events / 84 unique events in hot method)
+Classifier (cucumber.runtime.model.CucumberScenarioOutline.replaceTokens:114): LIB,ISOLATED_ONE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#19
+Inspecting hot method cucumber.runtime.io.FlatteningIterator.moveToNext:24...
+Checking for isolation...
+2314,38,38,0
+Total 2314 (1762 unique) events are in hot method
+Total 38 (14 unique) traces are in hot method
+Total 38 (14 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2314 (1762 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (19 traces / 7 unique traces) (1549 events / 1177 unique events)
+	Iterator_RemoveOnce (19 traces / 7 unique traces) (765 events / 585 unique events)
+Classifier (cucumber.runtime.io.FlatteningIterator.moveToNext:24): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#20
+Inspecting hot method cucumber.runtime.io.ResourceLoaderClassFinder.getDescendants:20...
+Checking for isolation...
+2298,16,16,0
+Total 2298 (1769 unique) events are in hot method
+Total 16 (8 unique) traces are in hot method
+Total 16 (8 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2298 (1769 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (4 traces / 3 unique traces) (1520 events / 1177 unique events)
+	Iterator_RemoveOnce (4 traces / 3 unique traces) (758 events / 587 unique events)
+	StringBuilder_ThreadSafe (4 traces / 1 unique traces) (12 events / 3 unique events)
+	Appendable_ThreadSafe (4 traces / 1 unique traces) (8 events / 2 unique events)
+Classifier (cucumber.runtime.io.ResourceLoaderClassFinder.getDescendants:20): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE
+
+#21
+Inspecting hot method org.poker.api.core.DeckTest.testGetAllCards:50...
+Checking for isolation...
+1693,56,3,53
+Total 1693 (1693 unique) events are in hot method
+Total 56 (56 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 53 (53 unique) non-isolated traces that have events in hot method
+Total 263 (263 unique) events are in isolated traces
+Total 13000628 (13000628 unique) events are in non-isolated traces (1430 / 1430 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (105 events / 105 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (106 events / 106 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (52 events / 52 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (52 traces / 52 unique traces) (4134 events / 4134 unique events) (1378 events / 1378 unique events in hot method)
+	Set_ItselfAsElement (1 traces / 1 unique traces) (12996494 events / 12996494 unique events) (52 events / 52 unique events in hot method)
+Classifier (org.poker.api.core.DeckTest.testGetAllCards:50): CUT,NOT_REDUNDANT_TRACES
+
+#22
+Inspecting hot method gherkin.deps.com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read:162...
+Checking for isolation...
+1456,2,0,2
+Total 1456 (1456 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 4554 (4554 unique) events are in non-isolated traces (1456 / 1456 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2277 events / 2277 unique events) (728 events / 728 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2277 events / 2277 unique events) (728 events / 728 unique events in hot method)
+Classifier (gherkin.deps.com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read:162): LIB,NOT_REDUNDANT_TRACES
+
+#23
+Inspecting hot method org.picocontainer.injectors.ConstructorInjector.getGreediestSatisfiableConstructor:124...
+Checking for isolation...
+1204,338,336,2
+Total 1204 (243 unique) events are in hot method
+Total 338 (8 unique) traces are in hot method
+Total 336 (6 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 980 (19 unique) events are in isolated traces
+Total 4554 (4554 unique) events are in non-isolated traces (224 / 224 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (112 traces / 2 unique traces) (364 events / 7 unique events)
+	Iterator_RemoveOnce (112 traces / 2 unique traces) (140 events / 3 unique events)
+	Collection_UnsafeIterator (112 traces / 2 unique traces) (476 events / 9 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2277 events / 2277 unique events) (112 events / 112 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2277 events / 2277 unique events) (112 events / 112 unique events in hot method)
+Classifier (org.picocontainer.injectors.ConstructorInjector.getGreediestSatisfiableConstructor:124): LIB,ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#24
+Inspecting hot method org.picocontainer.converters.BuiltInConverters.addConverter:47...
+Checking for isolation...
+1008,2,0,2
+Total 1008 (1008 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 4554 (4554 unique) events are in non-isolated traces (1008 / 1008 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2277 events / 2277 unique events) (504 events / 504 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2277 events / 2277 unique events) (504 events / 504 unique events in hot method)
+Classifier (org.picocontainer.converters.BuiltInConverters.addConverter:47): LIB,NOT_REDUNDANT_TRACES
+
+#25
+Inspecting hot method gherkin.parser.Parser$Machine.buildTransitionMap:244...
+Checking for isolation...
+1006,48,46,2
+Total 1006 (385 unique) events are in hot method
+Total 48 (12 unique) traces are in hot method
+Total 46 (10 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 766 (145 unique) events are in isolated traces
+Total 4554 (4554 unique) events are in non-isolated traces (240 / 240 unique are in hot method)
+Specs that have isolated traces:
+	ListIterator_RemoveOnce (11 traces / 2 unique traces) (120 events / 21 unique events)
+	Iterator_HasNext (11 traces / 2 unique traces) (251 events / 44 unique events)
+	Iterator_RemoveOnce (11 traces / 2 unique traces) (120 events / 21 unique events)
+	Collection_UnsafeIterator (11 traces / 2 unique traces) (262 events / 46 unique events)
+	List_UnsynchronizedSubList (2 traces / 2 unique traces) (13 events / 13 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2277 events / 2277 unique events) (120 events / 120 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2277 events / 2277 unique events) (120 events / 120 unique events in hot method)
+Classifier (gherkin.parser.Parser$Machine.buildTransitionMap:244): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#26
+Inspecting hot method cucumber.runtime.UndefinedStepsTracker.isGivenWhenThenKeyword:59...
+Checking for isolation...
+924,252,252,0
+Total 924 (33 unique) events are in hot method
+Total 252 (9 unique) traces are in hot method
+Total 252 (9 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 924 (33 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (84 traces / 3 unique traces) (420 events / 15 unique events)
+	Iterator_HasNext (84 traces / 3 unique traces) (336 events / 12 unique events)
+	Iterator_RemoveOnce (84 traces / 3 unique traces) (168 events / 6 unique events)
+Classifier (cucumber.runtime.UndefinedStepsTracker.isGivenWhenThenKeyword:59): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#27
+Inspecting hot method gherkin.util.FixJava.join:15...
+Checking for isolation...
+812,140,140,0
+Total 812 (29 unique) events are in hot method
+Total 140 (5 unique) traces are in hot method
+Total 140 (5 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 812 (29 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (28 traces / 1 unique traces) (168 events / 6 unique events)
+	Iterator_HasNext (28 traces / 1 unique traces) (196 events / 7 unique events)
+	Iterator_RemoveOnce (28 traces / 1 unique traces) (84 events / 3 unique events)
+	Collection_UnsafeIterator (28 traces / 1 unique traces) (224 events / 8 unique events)
+	Appendable_ThreadSafe (28 traces / 1 unique traces) (140 events / 5 unique events)
+Classifier (gherkin.util.FixJava.join:15): LIB,ISOLATED_ONE_UNIQUE
+
+#28
+Inspecting hot method cucumber.runtime.StepDefinitionMatch.transformedArgs:51...
+Checking for isolation...
+756,280,280,0
+Total 756 (27 unique) events are in hot method
+Total 280 (10 unique) traces are in hot method
+Total 280 (10 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 756 (27 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (84 traces / 3 unique traces) (252 events / 9 unique events)
+	Collection_UnsafeIterator (84 traces / 3 unique traces) (336 events / 12 unique events)
+	Collections_SortBeforeBinarySearch (56 traces / 2 unique traces) (84 events / 3 unique events)
+	Iterator_RemoveOnce (56 traces / 2 unique traces) (84 events / 3 unique events)
+Classifier (cucumber.runtime.StepDefinitionMatch.transformedArgs:51): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#29
+Inspecting hot method org.picocontainer.DefaultPicoContainer.addAdapterInternal:436...
+Checking for isolation...
+672,3,0,3
+Total 672 (672 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 3 (3 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 13001048 (13001048 unique) events are in non-isolated traces (672 / 672 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2277 events / 2277 unique events) (224 events / 224 unique events in hot method)
+	Set_ItselfAsElement (1 traces / 1 unique traces) (12996494 events / 12996494 unique events) (224 events / 224 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2277 events / 2277 unique events) (224 events / 224 unique events in hot method)
+Classifier (org.picocontainer.DefaultPicoContainer.addAdapterInternal:436): LIB,NOT_REDUNDANT_TRACES
+
+#30
+Inspecting hot method org.poker.api.core.CardUtil4Testing.fromStringCards:49...
+Checking for isolation...
+624,60,60,0
+Total 624 (13 unique) events are in hot method
+Total 60 (2 unique) traces are in hot method
+Total 60 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 624 (13 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringTokenizer_HasMoreElements (60 traces / 2 unique traces) (624 events / 13 unique events)
+Classifier (org.poker.api.core.CardUtil4Testing.fromStringCards:49): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#31
+Inspecting hot method cucumber.runtime.junit.ExecutionUnitRunner.getDescription:50...
+Checking for isolation...
+588,112,84,28
+Total 588 (21 unique) events are in hot method
+Total 112 (4 unique) traces are in hot method
+Total 84 (3 unique) isolated traces are in hot method
+Total 28 (1 unique) non-isolated traces that have events in hot method
+Total 504 (18 unique) events are in isolated traces
+Total 168 (6 unique) events are in non-isolated traces (84 / 3 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (28 traces / 1 unique traces) (196 events / 7 unique events)
+	Iterator_RemoveOnce (28 traces / 1 unique traces) (84 events / 3 unique events)
+	Collection_UnsafeIterator (28 traces / 1 unique traces) (224 events / 8 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (28 traces / 1 unique traces) (168 events / 6 unique events) (84 events / 3 unique events in hot method)
+Classifier (cucumber.runtime.junit.ExecutionUnitRunner.getDescription:50): LIB,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_ONE_UNIQUE
+
+#32
+Inspecting hot method cucumber.runtime.junit.ExecutionUnitRunner.describeChild:79...
+Checking for isolation...
+588,170,168,2
+Total 588 (173 unique) events are in hot method
+Total 170 (4 unique) traces are in hot method
+Total 168 (2 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 420 (5 unique) events are in isolated traces
+Total 4554 (4554 unique) events are in non-isolated traces (168 / 168 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (84 traces / 1 unique traces) (252 events / 3 unique events)
+	Appendable_ThreadSafe (84 traces / 1 unique traces) (168 events / 2 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2277 events / 2277 unique events) (84 events / 84 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2277 events / 2277 unique events) (84 events / 84 unique events in hot method)
+Classifier (cucumber.runtime.junit.ExecutionUnitRunner.describeChild:79): LIB,ISOLATED_ONE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#33
+Inspecting hot method org.picocontainer.injectors.ConstructorInjector.getSortedMatchingConstructors:376...
+Checking for isolation...
+588,113,112,1
+Total 588 (125 unique) events are in hot method
+Total 113 (3 unique) traces are in hot method
+Total 112 (2 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 476 (13 unique) events are in isolated traces
+Total 113 (113 unique) events are in non-isolated traces (112 / 112 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (112 traces / 2 unique traces) (476 events / 13 unique events)
+Specs that have non-isolated traces:
+	Collections_Comparable (1 traces / 1 unique traces) (113 events / 113 unique events) (112 events / 112 unique events in hot method)
+Classifier (org.picocontainer.injectors.ConstructorInjector.getSortedMatchingConstructors:376): LIB,ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#34
+Inspecting hot method cucumber.runtime.model.StepContainer.format:31...
+Checking for isolation...
+522,87,87,0
+Total 522 (18 unique) events are in hot method
+Total 87 (3 unique) traces are in hot method
+Total 87 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 522 (18 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (29 traces / 1 unique traces) (203 events / 7 unique events)
+	Iterator_RemoveOnce (29 traces / 1 unique traces) (87 events / 3 unique events)
+	Collection_UnsafeIterator (29 traces / 1 unique traces) (232 events / 8 unique events)
+Classifier (cucumber.runtime.model.StepContainer.format:31): LIB,ISOLATED_ONE_UNIQUE
+
+#35
+Inspecting hot method cucumber.deps.com.thoughtworks.xstream.converters.reflection.AbstractAttributedCharacterIteratorAttributeConverter.readResolve:81...
+Checking for isolation...
+518,6,2,4
+Total 518 (518 unique) events are in hot method
+Total 6 (6 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 4 (4 unique) non-isolated traces that have events in hot method
+Total 202 (202 unique) events are in isolated traces
+Total 4827 (4827 unique) events are in non-isolated traces (316 / 316 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (135 events / 135 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (67 events / 67 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (1 traces / 1 unique traces) (137 events / 137 unique events) (135 events / 135 unique events in hot method)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (136 events / 136 unique events) (135 events / 135 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2277 events / 2277 unique events) (23 events / 23 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2277 events / 2277 unique events) (23 events / 23 unique events in hot method)
+Classifier (cucumber.deps.com.thoughtworks.xstream.converters.reflection.AbstractAttributedCharacterIteratorAttributeConverter.readResolve:81): LIB,NOT_REDUNDANT_TRACES
+
+#36
+Inspecting hot method cucumber.runtime.model.CucumberScenarioOutline.createExampleScenario:57...
+Checking for isolation...
+504,84,84,0
+Total 504 (18 unique) events are in hot method
+Total 84 (3 unique) traces are in hot method
+Total 84 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 504 (18 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (28 traces / 1 unique traces) (196 events / 7 unique events)
+	Iterator_RemoveOnce (28 traces / 1 unique traces) (84 events / 3 unique events)
+	Collection_UnsafeIterator (28 traces / 1 unique traces) (224 events / 8 unique events)
+Classifier (cucumber.runtime.model.CucumberScenarioOutline.createExampleScenario:57): LIB,ISOLATED_ONE_UNIQUE
+
+#37
+Inspecting hot method cucumber.runtime.ScenarioImpl.getStatus:47...
+Checking for isolation...
+504,84,84,0
+Total 504 (18 unique) events are in hot method
+Total 84 (3 unique) traces are in hot method
+Total 84 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 504 (18 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (28 traces / 1 unique traces) (196 events / 7 unique events)
+	Collection_UnsafeIterator (28 traces / 1 unique traces) (224 events / 8 unique events)
+	Iterator_RemoveOnce (28 traces / 1 unique traces) (84 events / 3 unique events)
+Classifier (cucumber.runtime.ScenarioImpl.getStatus:47): LIB,ISOLATED_ONE_UNIQUE
+
+#38
+Inspecting hot method cucumber.runtime.model.StepContainer.runSteps:38...
+Checking for isolation...
+504,84,84,0
+Total 504 (18 unique) events are in hot method
+Total 84 (3 unique) traces are in hot method
+Total 84 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 504 (18 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (28 traces / 1 unique traces) (224 events / 8 unique events)
+	Iterator_HasNext (28 traces / 1 unique traces) (196 events / 7 unique events)
+	Iterator_RemoveOnce (28 traces / 1 unique traces) (84 events / 3 unique events)
+Classifier (cucumber.runtime.model.StepContainer.runSteps:38): LIB,ISOLATED_ONE_UNIQUE
+
+#39
+Inspecting hot method cucumber.deps.com.thoughtworks.xstream.core.DefaultConverterLookup.lookupConverterForType:49...
+Checking for isolation...
+432,78,6,72
+Total 432 (432 unique) events are in hot method
+Total 78 (78 unique) traces are in hot method
+Total 6 (6 unique) isolated traces are in hot method
+Total 72 (72 unique) non-isolated traces that have events in hot method
+Total 216 (216 unique) events are in isolated traces
+Total 9732 (9732 unique) events are in non-isolated traces (216 / 216 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (3 traces / 3 unique traces) (144 events / 144 unique events)
+	Iterator_RemoveOnce (3 traces / 3 unique traces) (72 events / 72 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (70 traces / 70 unique traces) (5178 events / 5178 unique events) (210 events / 210 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2277 events / 2277 unique events) (3 events / 3 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2277 events / 2277 unique events) (3 events / 3 unique events in hot method)
+Classifier (cucumber.deps.com.thoughtworks.xstream.core.DefaultConverterLookup.lookupConverterForType:49): LIB,NOT_REDUNDANT_TRACES
+
+#40
+Inspecting hot method gherkin.deps.com.google.gson.Gson.getAdapter:337...
+Checking for isolation...
+360,11,9,2
+Total 360 (194 unique) events are in hot method
+Total 11 (8 unique) traces are in hot method
+Total 9 (6 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 348 (182 unique) events are in isolated traces
+Total 4554 (4554 unique) events are in non-isolated traces (12 / 12 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (3 traces / 2 unique traces) (138 events / 72 unique events)
+	Iterator_RemoveOnce (3 traces / 2 unique traces) (69 events / 36 unique events)
+	Collection_UnsafeIterator (3 traces / 2 unique traces) (141 events / 74 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2277 events / 2277 unique events) (6 events / 6 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2277 events / 2277 unique events) (6 events / 6 unique events in hot method)
+Classifier (gherkin.deps.com.google.gson.Gson.getAdapter:337): LIB,ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#41
+Inspecting hot method org.picocontainer.DefaultPicoContainer.startAdapters:1001...
+Checking for isolation...
+308,140,140,0
+Total 308 (11 unique) events are in hot method
+Total 140 (5 unique) traces are in hot method
+Total 140 (5 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 308 (11 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (56 traces / 2 unique traces) (112 events / 4 unique events)
+	Collection_UnsafeIterator (56 traces / 2 unique traces) (168 events / 6 unique events)
+	Iterator_RemoveOnce (28 traces / 1 unique traces) (28 events / 1 unique events)
+Classifier (org.picocontainer.DefaultPicoContainer.startAdapters:1001): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE
+
+#42
+Inspecting hot method org.util.combinatorial.FactorialPermutation.next:68...
+Checking for isolation...
+306,1,0,1
+Total 306 (306 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 2599749 (2599749 unique) events are in non-isolated traces (306 / 306 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (2599749 events / 2599749 unique events) (306 events / 306 unique events in hot method)
+Classifier (org.util.combinatorial.FactorialPermutation.next:68): CUT,NOT_REDUNDANT_TRACES
+
+#43
+Inspecting hot method cucumber.deps.com.thoughtworks.xstream.converters.reflection.FieldDictionary.buildMap:122...
+Checking for isolation...
+291,6,4,2
+Total 291 (291 unique) events are in hot method
+Total 6 (6 unique) traces are in hot method
+Total 4 (4 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 15 (15 unique) events are in isolated traces
+Total 4554 (4554 unique) events are in non-isolated traces (276 / 276 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (2 events / 2 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (5 events / 5 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (2 events / 2 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (6 events / 6 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2277 events / 2277 unique events) (138 events / 138 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2277 events / 2277 unique events) (138 events / 138 unique events in hot method)
+Classifier (cucumber.deps.com.thoughtworks.xstream.converters.reflection.FieldDictionary.buildMap:122): LIB,NOT_REDUNDANT_TRACES
+
+#44
+Inspecting hot method gherkin.parser.FormatterListener$Stash.nextExampleId:64...
+Checking for isolation...
+279,62,62,0
+Total 279 (9 unique) events are in hot method
+Total 62 (2 unique) traces are in hot method
+Total 62 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 279 (9 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (31 traces / 1 unique traces) (155 events / 5 unique events)
+	Appendable_ThreadSafe (31 traces / 1 unique traces) (124 events / 4 unique events)
+Classifier (gherkin.parser.FormatterListener$Stash.nextExampleId:64): LIB,ISOLATED_ONE_UNIQUE
+
+#45
+Inspecting hot method org.poker.api.core.CardTest.testHashCode:70...
+Checking for isolation...
+263,3,3,0
+Total 263 (263 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 263 (263 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (52 events / 52 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (105 events / 105 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (106 events / 106 unique events)
+Classifier (org.poker.api.core.CardTest.testHashCode:70): CUT,NOT_REDUNDANT_TRACES
+
+#46
+Inspecting hot method cucumber.runtime.model.CucumberTagStatement.tagsAndInheritedTags:32...
+Checking for isolation...
+248,64,62,2
+Total 248 (128 unique) events are in hot method
+Total 64 (4 unique) traces are in hot method
+Total 62 (2 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 124 (4 unique) events are in isolated traces
+Total 12996565 (12996565 unique) events are in non-isolated traces (124 / 124 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsynchronizedAddAll (62 traces / 2 unique traces) (124 events / 4 unique events)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (12996494 events / 12996494 unique events) (62 events / 62 unique events in hot method)
+	CharSequence_NotInSet (1 traces / 1 unique traces) (71 events / 71 unique events) (62 events / 62 unique events in hot method)
+Classifier (cucumber.runtime.model.CucumberTagStatement.tagsAndInheritedTags:32): LIB,ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#47
+Inspecting hot method gherkin.I18n.<init>:85...
+Checking for isolation...
+241,48,46,2
+Total 241 (136 unique) events are in hot method
+Total 48 (14 unique) traces are in hot method
+Total 46 (12 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 217 (112 unique) events are in isolated traces
+Total 4554 (4554 unique) events are in non-isolated traces (24 / 24 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (10 traces / 1 unique traces) (20 events / 2 unique events)
+	StringBuilder_ThreadSafe (10 traces / 1 unique traces) (30 events / 3 unique events)
+	Collection_UnsafeIterator (6 traces / 2 unique traces) (56 events / 32 unique events)
+	Iterator_HasNext (6 traces / 2 unique traces) (50 events / 30 unique events)
+	Iterator_RemoveOnce (6 traces / 2 unique traces) (22 events / 14 unique events)
+	Collections_SortBeforeBinarySearch (5 traces / 1 unique traces) (10 events / 2 unique events)
+	Map_UnsafeIterator (2 traces / 2 unique traces) (28 events / 28 unique events)
+	Map_CollectionViewAdd (1 traces / 1 unique traces) (1 events / 1 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2277 events / 2277 unique events) (12 events / 12 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2277 events / 2277 unique events) (12 events / 12 unique events in hot method)
+Classifier (gherkin.I18n.<init>:85): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT,ISOLATED_ONE_UNIQUE,ISOLATED_SINGLE_TRACE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#48
+Inspecting hot method cucumber.deps.com.thoughtworks.xstream.mapper.ClassAliasingMapper.addClassAlias:37...
+Checking for isolation...
+236,2,0,2
+Total 236 (236 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 4554 (4554 unique) events are in non-isolated traces (236 / 236 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2277 events / 2277 unique events) (118 events / 118 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2277 events / 2277 unique events) (118 events / 118 unique events in hot method)
+Classifier (cucumber.deps.com.thoughtworks.xstream.mapper.ClassAliasingMapper.addClassAlias:37): LIB,NOT_REDUNDANT_TRACES
+
+#49
+Inspecting hot method gherkin.lexer.En.scan:586...
+Checking for isolation...
+235,46,46,0
+Total 235 (20 unique) events are in hot method
+Total 46 (4 unique) traces are in hot method
+Total 46 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 235 (20 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (42 traces / 2 unique traces) (225 events / 15 unique events)
+	StringBuilder_ThreadSafe (2 traces / 1 unique traces) (6 events / 3 unique events)
+	Appendable_ThreadSafe (2 traces / 1 unique traces) (4 events / 2 unique events)
+Classifier (gherkin.lexer.En.scan:586): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE
+
+#50
+Inspecting hot method cucumber.runtime.Runtime.buildBackendWorlds:138...
+Checking for isolation...
+224,84,84,0
+Total 224 (8 unique) events are in hot method
+Total 84 (3 unique) traces are in hot method
+Total 84 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 224 (8 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (28 traces / 1 unique traces) (84 events / 3 unique events)
+	Iterator_RemoveOnce (28 traces / 1 unique traces) (28 events / 1 unique events)
+	Collection_UnsafeIterator (28 traces / 1 unique traces) (112 events / 4 unique events)
+Classifier (cucumber.runtime.Runtime.buildBackendWorlds:138): LIB,ISOLATED_ONE_UNIQUE
+
+#51
+Inspecting hot method cucumber.runtime.java.picocontainer.PicoFactory.start:16...
+Checking for isolation...
+224,84,84,0
+Total 224 (8 unique) events are in hot method
+Total 84 (3 unique) traces are in hot method
+Total 84 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 224 (8 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (28 traces / 1 unique traces) (84 events / 3 unique events)
+	Collection_UnsafeIterator (28 traces / 1 unique traces) (112 events / 4 unique events)
+	Iterator_RemoveOnce (28 traces / 1 unique traces) (28 events / 1 unique events)
+Classifier (cucumber.runtime.java.picocontainer.PicoFactory.start:16): LIB,ISOLATED_ONE_UNIQUE
+
+#52
+Inspecting hot method cucumber.runtime.Runtime.disposeBackendWorlds:148...
+Checking for isolation...
+224,84,84,0
+Total 224 (8 unique) events are in hot method
+Total 84 (3 unique) traces are in hot method
+Total 84 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 224 (8 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (28 traces / 1 unique traces) (84 events / 3 unique events)
+	Collection_UnsafeIterator (28 traces / 1 unique traces) (112 events / 4 unique events)
+	Iterator_RemoveOnce (28 traces / 1 unique traces) (28 events / 1 unique events)
+Classifier (cucumber.runtime.Runtime.disposeBackendWorlds:148): LIB,ISOLATED_ONE_UNIQUE
+
+#53
+Inspecting hot method cucumber.deps.com.thoughtworks.xstream.core.util.OrderRetainingMap.put:43...
+Checking for isolation...
+219,5,4,1
+Total 219 (219 unique) events are in hot method
+Total 5 (5 unique) traces are in hot method
+Total 4 (4 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 146 (146 unique) events are in isolated traces
+Total 12996494 (12996494 unique) events are in non-isolated traces (73 / 73 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (4 traces / 4 unique traces) (146 events / 146 unique events)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (12996494 events / 12996494 unique events) (73 events / 73 unique events in hot method)
+Classifier (cucumber.deps.com.thoughtworks.xstream.core.util.OrderRetainingMap.put:43): LIB,NOT_REDUNDANT_TRACES
+
+#54
+Inspecting hot method cucumber.deps.com.thoughtworks.xstream.core.util.PrioritizedList$PrioritizedItemIterator.next:91...
+Checking for isolation...
+216,9,3,6
+Total 216 (216 unique) events are in hot method
+Total 9 (9 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 6 (6 unique) non-isolated traces that have events in hot method
+Total 72 (72 unique) events are in isolated traces
+Total 291 (291 unique) events are in non-isolated traces (144 / 144 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (3 traces / 3 unique traces) (72 events / 72 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (3 traces / 3 unique traces) (144 events / 144 unique events) (72 events / 72 unique events in hot method)
+	Collection_UnsafeIterator (3 traces / 3 unique traces) (147 events / 147 unique events) (72 events / 72 unique events in hot method)
+Classifier (cucumber.deps.com.thoughtworks.xstream.core.util.PrioritizedList$PrioritizedItemIterator.next:91): LIB,NOT_REDUNDANT_TRACES
+
+#55
+Inspecting hot method cucumber.deps.com.thoughtworks.xstream.core.util.PrioritizedList.add:37...
+Checking for isolation...
+207,3,0,3
+Total 207 (207 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 3 (3 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 12996638 (12996638 unique) events are in non-isolated traces (207 / 207 unique are in hot method)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (12996494 events / 12996494 unique events) (69 events / 69 unique events in hot method)
+	SortedSet_Comparable (1 traces / 1 unique traces) (73 events / 73 unique events) (69 events / 69 unique events in hot method)
+	TreeSet_Comparable (1 traces / 1 unique traces) (71 events / 71 unique events) (69 events / 69 unique events in hot method)
+Classifier (cucumber.deps.com.thoughtworks.xstream.core.util.PrioritizedList.add:37): LIB,NOT_REDUNDANT_TRACES
+
+#56
+Inspecting hot method cucumber.runtime.model.CucumberTagStatement.<init>:27...
+Checking for isolation...
+196,56,56,0
+Total 196 (7 unique) events are in hot method
+Total 56 (2 unique) traces are in hot method
+Total 56 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 196 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (28 traces / 1 unique traces) (112 events / 4 unique events)
+	Appendable_ThreadSafe (28 traces / 1 unique traces) (84 events / 3 unique events)
+Classifier (cucumber.runtime.model.CucumberTagStatement.<init>:27): LIB,ISOLATED_ONE_UNIQUE
+
+#57
+Inspecting hot method org.picocontainer.DefaultPicoContainer.addOrderedComponentAdapter:567...
+Checking for isolation...
+196,84,84,0
+Total 196 (6 unique) events are in hot method
+Total 84 (2 unique) traces are in hot method
+Total 84 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 196 (6 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (84 traces / 2 unique traces) (196 events / 6 unique events)
+Classifier (org.picocontainer.DefaultPicoContainer.addOrderedComponentAdapter:567): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#58
+Inspecting hot method cucumber.runtime.junit.ExamplesRunner.<init>:22...
+Checking for isolation...
+177,12,12,0
+Total 177 (177 unique) events are in hot method
+Total 12 (12 unique) traces are in hot method
+Total 12 (12 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 177 (177 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (3 traces / 3 unique traces) (28 events / 28 unique events)
+	Iterator_HasNext (3 traces / 3 unique traces) (59 events / 59 unique events)
+	Iterator_RemoveOnce (3 traces / 3 unique traces) (28 events / 28 unique events)
+	Collection_UnsafeIterator (3 traces / 3 unique traces) (62 events / 62 unique events)
+Classifier (cucumber.runtime.junit.ExamplesRunner.<init>:22): LIB,NOT_REDUNDANT_TRACES
+
+#59
+Inspecting hot method org.util.combinatorial.CombinationTest.tesHasNextFirst:95...
+Checking for isolation...
+169,26,26,0
+Total 169 (13 unique) events are in hot method
+Total 26 (2 unique) traces are in hot method
+Total 26 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 169 (13 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (13 traces / 1 unique traces) (78 events / 6 unique events)
+	StringBuilder_ThreadSafe (13 traces / 1 unique traces) (91 events / 7 unique events)
+Classifier (org.util.combinatorial.CombinationTest.tesHasNextFirst:95): CUT,ISOLATED_ONE_UNIQUE
+
+#60
+Inspecting hot method org.util.combinatorial.CombinationTest.testNextItemsRange:160...
+Checking for isolation...
+169,26,26,0
+Total 169 (13 unique) events are in hot method
+Total 26 (2 unique) traces are in hot method
+Total 26 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 169 (13 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (13 traces / 1 unique traces) (78 events / 6 unique events)
+	StringBuilder_ThreadSafe (13 traces / 1 unique traces) (91 events / 7 unique events)
+Classifier (org.util.combinatorial.CombinationTest.testNextItemsRange:160): CUT,ISOLATED_ONE_UNIQUE
+
+#61
+Inspecting hot method org.util.combinatorial.CombinationTest.testHasNextAfterClearWithNext:136...
+Checking for isolation...
+169,26,26,0
+Total 169 (13 unique) events are in hot method
+Total 26 (2 unique) traces are in hot method
+Total 26 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 169 (13 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (13 traces / 1 unique traces) (78 events / 6 unique events)
+	StringBuilder_ThreadSafe (13 traces / 1 unique traces) (91 events / 7 unique events)
+Classifier (org.util.combinatorial.CombinationTest.testHasNextAfterClearWithNext:136): CUT,ISOLATED_ONE_UNIQUE
+
+#62
+Inspecting hot method org.util.combinatorial.CombinationTest.testNextDontRepeat:177...
+Checking for isolation...
+169,26,26,0
+Total 169 (13 unique) events are in hot method
+Total 26 (2 unique) traces are in hot method
+Total 26 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 169 (13 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (13 traces / 1 unique traces) (78 events / 6 unique events)
+	StringBuilder_ThreadSafe (13 traces / 1 unique traces) (91 events / 7 unique events)
+Classifier (org.util.combinatorial.CombinationTest.testNextDontRepeat:177): CUT,ISOLATED_ONE_UNIQUE
+
+#63
+Inspecting hot method org.util.combinatorial.CombinationTest.testHasNextAfterClear:127...
+Checking for isolation...
+169,26,26,0
+Total 169 (13 unique) events are in hot method
+Total 26 (2 unique) traces are in hot method
+Total 26 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 169 (13 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (13 traces / 1 unique traces) (78 events / 6 unique events)
+	StringBuilder_ThreadSafe (13 traces / 1 unique traces) (91 events / 7 unique events)
+Classifier (org.util.combinatorial.CombinationTest.testHasNextAfterClear:127): CUT,ISOLATED_ONE_UNIQUE
+
+#64
+Inspecting hot method org.util.combinatorial.CombinationTest.testHasNextPreLast:103...
+Checking for isolation...
+169,26,26,0
+Total 169 (13 unique) events are in hot method
+Total 26 (2 unique) traces are in hot method
+Total 26 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 169 (13 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (13 traces / 1 unique traces) (78 events / 6 unique events)
+	StringBuilder_ThreadSafe (13 traces / 1 unique traces) (91 events / 7 unique events)
+Classifier (org.util.combinatorial.CombinationTest.testHasNextPreLast:103): CUT,ISOLATED_ONE_UNIQUE
+
+#65
+Inspecting hot method org.util.combinatorial.CombinationTest.testCombinationsStatic:69...
+Checking for isolation...
+169,26,26,0
+Total 169 (13 unique) events are in hot method
+Total 26 (2 unique) traces are in hot method
+Total 26 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 169 (13 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (13 traces / 1 unique traces) (78 events / 6 unique events)
+	StringBuilder_ThreadSafe (13 traces / 1 unique traces) (91 events / 7 unique events)
+Classifier (org.util.combinatorial.CombinationTest.testCombinationsStatic:69): CUT,ISOLATED_ONE_UNIQUE
+
+#66
+Inspecting hot method org.util.combinatorial.CombinationTest.testCombinations:86...
+Checking for isolation...
+169,26,26,0
+Total 169 (13 unique) events are in hot method
+Total 26 (2 unique) traces are in hot method
+Total 26 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 169 (13 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (13 traces / 1 unique traces) (78 events / 6 unique events)
+	StringBuilder_ThreadSafe (13 traces / 1 unique traces) (91 events / 7 unique events)
+Classifier (org.util.combinatorial.CombinationTest.testCombinations:86): CUT,ISOLATED_ONE_UNIQUE
+
+#67
+Inspecting hot method org.util.combinatorial.CombinationTest.testNextIgnored:193...
+Checking for isolation...
+169,26,26,0
+Total 169 (13 unique) events are in hot method
+Total 26 (2 unique) traces are in hot method
+Total 26 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 169 (13 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (13 traces / 1 unique traces) (78 events / 6 unique events)
+	StringBuilder_ThreadSafe (13 traces / 1 unique traces) (91 events / 7 unique events)
+Classifier (org.util.combinatorial.CombinationTest.testNextIgnored:193): CUT,ISOLATED_ONE_UNIQUE
+
+#68
+Inspecting hot method org.util.combinatorial.CombinationTest.testHasNextAfterFullLoopClear:147...
+Checking for isolation...
+169,26,26,0
+Total 169 (13 unique) events are in hot method
+Total 26 (2 unique) traces are in hot method
+Total 26 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 169 (13 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (13 traces / 1 unique traces) (78 events / 6 unique events)
+	StringBuilder_ThreadSafe (13 traces / 1 unique traces) (91 events / 7 unique events)
+Classifier (org.util.combinatorial.CombinationTest.testHasNextAfterFullLoopClear:147): CUT,ISOLATED_ONE_UNIQUE
+
+#69
+Inspecting hot method org.util.combinatorial.CombinationTest.testSize:77...
+Checking for isolation...
+169,26,26,0
+Total 169 (13 unique) events are in hot method
+Total 26 (2 unique) traces are in hot method
+Total 26 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 169 (13 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (13 traces / 1 unique traces) (78 events / 6 unique events)
+	StringBuilder_ThreadSafe (13 traces / 1 unique traces) (91 events / 7 unique events)
+Classifier (org.util.combinatorial.CombinationTest.testSize:77): CUT,ISOLATED_ONE_UNIQUE
+
+#70
+Inspecting hot method org.util.combinatorial.CombinationTest.testNextAfterClear:209...
+Checking for isolation...
+169,26,26,0
+Total 169 (13 unique) events are in hot method
+Total 26 (2 unique) traces are in hot method
+Total 26 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 169 (13 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (13 traces / 1 unique traces) (78 events / 6 unique events)
+	StringBuilder_ThreadSafe (13 traces / 1 unique traces) (91 events / 7 unique events)
+Classifier (org.util.combinatorial.CombinationTest.testNextAfterClear:209): CUT,ISOLATED_ONE_UNIQUE
+
+#71
+Inspecting hot method org.util.combinatorial.CombinationTest.testHasNextLast:115...
+Checking for isolation...
+169,26,26,0
+Total 169 (13 unique) events are in hot method
+Total 26 (2 unique) traces are in hot method
+Total 26 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 169 (13 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (13 traces / 1 unique traces) (78 events / 6 unique events)
+	StringBuilder_ThreadSafe (13 traces / 1 unique traces) (91 events / 7 unique events)
+Classifier (org.util.combinatorial.CombinationTest.testHasNextLast:115): CUT,ISOLATED_ONE_UNIQUE
+
+#72
+Inspecting hot method cucumber.runtime.junit.JUnitReporter.fetchAndCheckRunnerStep:68...
+Checking for isolation...
+168,29,0,29
+Total 168 (87 unique) events are in hot method
+Total 29 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 29 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 336 (174 unique) events are in non-isolated traces (168 / 87 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (29 traces / 2 unique traces) (336 events / 174 unique events) (168 events / 87 unique events in hot method)
+Classifier (cucumber.runtime.junit.JUnitReporter.fetchAndCheckRunnerStep:68): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#73
+Inspecting hot method cucumber.runtime.Runtime.runHooks:208...
+Checking for isolation...
+168,112,112,0
+Total 168 (3 unique) events are in hot method
+Total 112 (2 unique) traces are in hot method
+Total 112 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 168 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (56 traces / 1 unique traces) (112 events / 2 unique events)
+	Iterator_HasNext (56 traces / 1 unique traces) (56 events / 1 unique events)
+Classifier (cucumber.runtime.Runtime.runHooks:208): LIB,ISOLATED_ONE_UNIQUE
+
+#74
+Inspecting hot method cucumber.runtime.xstream.TimeConverter.getTimeClasses:72...
+Checking for isolation...
+168,84,84,0
+Total 168 (2 unique) events are in hot method
+Total 84 (1 unique) traces are in hot method
+Total 84 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 168 (2 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (84 traces / 1 unique traces) (168 events / 2 unique events)
+Classifier (cucumber.runtime.xstream.TimeConverter.getTimeClasses:72): LIB,ISOLATED_ONE_UNIQUE
+
+#75
+Inspecting hot method cucumber.runtime.junit.ExamplesRunner.getDescription:43...
+Checking for isolation...
+149,9,9,0
+Total 149 (149 unique) events are in hot method
+Total 9 (9 unique) traces are in hot method
+Total 9 (9 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 149 (149 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (3 traces / 3 unique traces) (59 events / 59 unique events)
+	Iterator_RemoveOnce (3 traces / 3 unique traces) (28 events / 28 unique events)
+	Collection_UnsafeIterator (3 traces / 3 unique traces) (62 events / 62 unique events)
+Classifier (cucumber.runtime.junit.ExamplesRunner.getDescription:43): LIB,NOT_REDUNDANT_TRACES
+
+#76
+Inspecting hot method cucumber.deps.com.thoughtworks.xstream.core.util.PrioritizedList$PrioritizedItemIterator.hasNext:87...
+Checking for isolation...
+144,6,0,6
+Total 144 (144 unique) events are in hot method
+Total 6 (6 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 6 (6 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 291 (291 unique) events are in non-isolated traces (144 / 144 unique are in hot method)
+Specs that have non-isolated traces:
+	Iterator_HasNext (3 traces / 3 unique traces) (144 events / 144 unique events) (72 events / 72 unique events in hot method)
+	Collection_UnsafeIterator (3 traces / 3 unique traces) (147 events / 147 unique events) (72 events / 72 unique events in hot method)
+Classifier (cucumber.deps.com.thoughtworks.xstream.core.util.PrioritizedList$PrioritizedItemIterator.hasNext:87): LIB,NOT_REDUNDANT_TRACES
+
+#77
+Inspecting hot method cucumber.deps.com.thoughtworks.xstream.core.util.WeakCache.put:62...
+Checking for isolation...
+112,2,0,2
+Total 112 (112 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 4554 (4554 unique) events are in non-isolated traces (112 / 112 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2277 events / 2277 unique events) (56 events / 56 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2277 events / 2277 unique events) (56 events / 56 unique events in hot method)
+Classifier (cucumber.deps.com.thoughtworks.xstream.core.util.WeakCache.put:62): LIB,NOT_REDUNDANT_TRACES
+
+#78
+Inspecting hot method cucumber.runtime.model.StepContainer.step:27...
+Checking for isolation...
+87,29,29,0
+Total 87 (3 unique) events are in hot method
+Total 29 (1 unique) traces are in hot method
+Total 29 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 87 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (29 traces / 1 unique traces) (87 events / 3 unique events)
+Classifier (cucumber.runtime.model.StepContainer.step:27): LIB,ISOLATED_ONE_UNIQUE
+
+#79
+Inspecting hot method org.picocontainer.PicoBuilder.addContainerComponents:223...
+Checking for isolation...
+84,56,56,0
+Total 84 (3 unique) events are in hot method
+Total 56 (2 unique) traces are in hot method
+Total 56 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 84 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (28 traces / 1 unique traces) (28 events / 1 unique events)
+	Collection_UnsafeIterator (28 traces / 1 unique traces) (56 events / 2 unique events)
+Classifier (org.picocontainer.PicoBuilder.addContainerComponents:223): LIB,ISOLATED_ONE_UNIQUE
+
+#80
+Inspecting hot method cucumber.runtime.junit.JUnitReporter.step:190...
+Checking for isolation...
+84,1,0,1
+Total 84 (84 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 168 (168 unique) events are in non-isolated traces (84 / 84 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (168 events / 168 unique events) (84 events / 84 unique events in hot method)
+Classifier (cucumber.runtime.junit.JUnitReporter.step:190): LIB,NOT_REDUNDANT_TRACES
+
+#81
+Inspecting hot method org.picocontainer.DefaultPicoContainer.start:765...
+Checking for isolation...
+84,56,56,0
+Total 84 (3 unique) events are in hot method
+Total 56 (2 unique) traces are in hot method
+Total 56 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 84 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (28 traces / 1 unique traces) (56 events / 2 unique events)
+	Iterator_HasNext (28 traces / 1 unique traces) (28 events / 1 unique events)
+Classifier (org.picocontainer.DefaultPicoContainer.start:765): LIB,ISOLATED_ONE_UNIQUE
+
+#82
+Inspecting hot method org.picocontainer.DefaultPicoContainer.dispose:843...
+Checking for isolation...
+84,56,56,0
+Total 84 (3 unique) events are in hot method
+Total 56 (2 unique) traces are in hot method
+Total 56 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 84 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (28 traces / 1 unique traces) (56 events / 2 unique events)
+	Iterator_HasNext (28 traces / 1 unique traces) (28 events / 1 unique events)
+Classifier (org.picocontainer.DefaultPicoContainer.dispose:843): LIB,ISOLATED_ONE_UNIQUE
+
+#83
+Inspecting hot method org.picocontainer.DefaultPicoContainer.stop:794...
+Checking for isolation...
+84,56,56,0
+Total 84 (3 unique) events are in hot method
+Total 56 (2 unique) traces are in hot method
+Total 56 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 84 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (28 traces / 1 unique traces) (56 events / 2 unique events)
+	Iterator_HasNext (28 traces / 1 unique traces) (28 events / 1 unique events)
+Classifier (org.picocontainer.DefaultPicoContainer.stop:794): LIB,ISOLATED_ONE_UNIQUE
+
+#84
+Inspecting hot method cucumber.runtime.JdkPatternArgumentMatcher.argumentsFrom:18...
+Checking for isolation...
+84,56,56,0
+Total 84 (3 unique) events are in hot method
+Total 56 (2 unique) traces are in hot method
+Total 56 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 84 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (56 traces / 2 unique traces) (84 events / 3 unique events)
+Classifier (cucumber.runtime.JdkPatternArgumentMatcher.argumentsFrom:18): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#85
+Inspecting hot method cucumber.runtime.ScenarioImpl.add:32...
+Checking for isolation...
+84,28,28,0
+Total 84 (3 unique) events are in hot method
+Total 28 (1 unique) traces are in hot method
+Total 28 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 84 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (28 traces / 1 unique traces) (84 events / 3 unique events)
+Classifier (cucumber.runtime.ScenarioImpl.add:32): LIB,ISOLATED_ONE_UNIQUE
+
+#86
+Inspecting hot method cucumber.deps.com.thoughtworks.xstream.mapper.AnnotationMapper.processAnnotations:136...
+Checking for isolation...
+84,1,0,1
+Total 84 (84 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 12996494 (12996494 unique) events are in non-isolated traces (84 / 84 unique are in hot method)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (12996494 events / 12996494 unique events) (84 events / 84 unique events in hot method)
+Classifier (cucumber.deps.com.thoughtworks.xstream.mapper.AnnotationMapper.processAnnotations:136): LIB,NOT_REDUNDANT_TRACES
+
+#87
+Inspecting hot method cucumber.deps.com.thoughtworks.xstream.core.util.OrderRetainingMap.<init>:27...
+Checking for isolation...
+71,14,10,4
+Total 71 (69 unique) events are in hot method
+Total 14 (12 unique) traces are in hot method
+Total 10 (8 unique) isolated traces are in hot method
+Total 4 (4 unique) non-isolated traces that have events in hot method
+Total 57 (55 unique) events are in isolated traces
+Total 4568 (4568 unique) events are in non-isolated traces (14 / 14 unique are in hot method)
+Specs that have isolated traces:
+	Map_UnsafeIterator (4 traces / 3 unique traces) (20 events / 19 unique events)
+	Map_CollectionViewAdd (2 traces / 1 unique traces) (2 events / 1 unique events)
+	Collection_UnsafeIterator (2 traces / 2 unique traces) (16 events / 16 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (13 events / 13 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (6 events / 6 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (5 events / 5 unique events) (1 events / 1 unique events in hot method)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (9 events / 9 unique events) (1 events / 1 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2277 events / 2277 unique events) (6 events / 6 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2277 events / 2277 unique events) (6 events / 6 unique events in hot method)
+Classifier (cucumber.deps.com.thoughtworks.xstream.core.util.OrderRetainingMap.<init>:27): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT,ISOLATED_ONE_UNIQUE,ISOLATED_SINGLE_TRACE,NOT_ISOLATED_SINGLE_TRACE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#88
+Inspecting hot method cucumber.deps.com.thoughtworks.xstream.core.DefaultConverterLookup.<init>:36...
+Checking for isolation...
+71,71,1,70
+Total 71 (71 unique) events are in hot method
+Total 71 (71 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 70 (70 unique) non-isolated traces that have events in hot method
+Total 1 (1 unique) events are in isolated traces
+Total 5038 (5038 unique) events are in non-isolated traces (70 / 70 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SynchronizedMap (1 traces / 1 unique traces) (1 events / 1 unique events)
+Specs that have non-isolated traces:
+	Collections_SynchronizedMap (70 traces / 70 unique traces) (5038 events / 5038 unique events) (70 events / 70 unique events in hot method)
+Classifier (cucumber.deps.com.thoughtworks.xstream.core.DefaultConverterLookup.<init>:36): LIB,NOT_REDUNDANT_TRACES
+
+#89
+Inspecting hot method cucumber.deps.com.thoughtworks.xstream.converters.basic.StringConverter.fromString:88...
+Checking for isolation...
+70,2,0,2
+Total 70 (70 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 4554 (4554 unique) events are in non-isolated traces (70 / 70 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2277 events / 2277 unique events) (35 events / 35 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2277 events / 2277 unique events) (35 events / 35 unique events in hot method)
+Classifier (cucumber.deps.com.thoughtworks.xstream.converters.basic.StringConverter.fromString:88): LIB,NOT_REDUNDANT_TRACES
+
+#90
+Inspecting hot method gherkin.formatter.ansi.AnsiEscapes.color:23...
+Checking for isolation...
+60,24,24,0
+Total 60 (5 unique) events are in hot method
+Total 24 (2 unique) traces are in hot method
+Total 24 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 60 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (12 traces / 1 unique traces) (36 events / 3 unique events)
+	Appendable_ThreadSafe (12 traces / 1 unique traces) (24 events / 2 unique events)
+Classifier (gherkin.formatter.ansi.AnsiEscapes.color:23): LIB,ISOLATED_ONE_UNIQUE
+
+#91
+Inspecting hot method cucumber.deps.com.thoughtworks.xstream.mapper.DefaultImplementationsMapper.addDefaultImplementation:53...
+Checking for isolation...
+56,2,0,2
+Total 56 (56 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 4554 (4554 unique) events are in non-isolated traces (56 / 56 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2277 events / 2277 unique events) (28 events / 28 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2277 events / 2277 unique events) (28 events / 28 unique events in hot method)
+Classifier (cucumber.deps.com.thoughtworks.xstream.mapper.DefaultImplementationsMapper.addDefaultImplementation:53): LIB,NOT_REDUNDANT_TRACES
+
+#92
+Inspecting hot method gherkin.deps.com.google.gson.stream.JsonReader.nextString:1006...
+Checking for isolation...
+55,22,22,0
+Total 55 (5 unique) events are in hot method
+Total 22 (2 unique) traces are in hot method
+Total 22 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 55 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (11 traces / 1 unique traces) (33 events / 3 unique events)
+	Appendable_ThreadSafe (11 traces / 1 unique traces) (22 events / 2 unique events)
+Classifier (gherkin.deps.com.google.gson.stream.JsonReader.nextString:1006): LIB,ISOLATED_ONE_UNIQUE
+
+#93
+Inspecting hot method org.util.combinatorial.FactorialPermutationTest.testCombinations:65...
+Checking for isolation...
+45,10,10,0
+Total 45 (9 unique) events are in hot method
+Total 10 (2 unique) traces are in hot method
+Total 10 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 45 (9 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (5 traces / 1 unique traces) (25 events / 5 unique events)
+	Appendable_ThreadSafe (5 traces / 1 unique traces) (20 events / 4 unique events)
+Classifier (org.util.combinatorial.FactorialPermutationTest.testCombinations:65): CUT,ISOLATED_ONE_UNIQUE
+
+#94
+Inspecting hot method cucumber.deps.com.thoughtworks.xstream.core.JVM.loadClass:215...
+Checking for isolation...
+42,2,0,2
+Total 42 (42 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 4554 (4554 unique) events are in non-isolated traces (42 / 42 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2277 events / 2277 unique events) (21 events / 21 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2277 events / 2277 unique events) (21 events / 21 unique events in hot method)
+Classifier (cucumber.deps.com.thoughtworks.xstream.core.JVM.loadClass:215): LIB,NOT_REDUNDANT_TRACES
+
+#95
+Inspecting hot method gherkin.deps.com.google.gson.Gson.<init>:110...
+Checking for isolation...
+38,3,3,0
+Total 38 (38 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 38 (38 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsynchronizedAddAll (1 traces / 1 unique traces) (2 events / 2 unique events)
+	Collections_SynchronizedMap (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (35 events / 35 unique events)
+Classifier (gherkin.deps.com.google.gson.Gson.<init>:110): LIB,NOT_REDUNDANT_TRACES
+
+#96
+Inspecting hot method cucumber.deps.com.thoughtworks.xstream.core.util.OrderRetainingMap.entrySet:71...
+Checking for isolation...
+38,7,5,2
+Total 38 (38 unique) events are in hot method
+Total 7 (7 unique) traces are in hot method
+Total 5 (5 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 36 (36 unique) events are in isolated traces
+Total 12996565 (12996565 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsynchronizedAddAll (1 traces / 1 unique traces) (2 events / 2 unique events)
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (13 events / 13 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (6 events / 6 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (14 events / 14 unique events)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (12996494 events / 12996494 unique events) (1 events / 1 unique events in hot method)
+	CharSequence_NotInSet (1 traces / 1 unique traces) (71 events / 71 unique events) (1 events / 1 unique events in hot method)
+Classifier (cucumber.deps.com.thoughtworks.xstream.core.util.OrderRetainingMap.entrySet:71): LIB,NOT_REDUNDANT_TRACES
+
+#97
+Inspecting hot method gherkin.lexer.En.unindent:940...
+Checking for isolation...
+35,10,10,0
+Total 35 (7 unique) events are in hot method
+Total 10 (2 unique) traces are in hot method
+Total 10 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 35 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (5 traces / 1 unique traces) (15 events / 3 unique events)
+	StringBuilder_ThreadSafe (5 traces / 1 unique traces) (20 events / 4 unique events)
+Classifier (gherkin.lexer.En.unindent:940): LIB,ISOLATED_ONE_UNIQUE
+
+#98
+Inspecting hot method gherkin.formatter.AnsiFormats$1.<init>:10...
+Checking for isolation...
+34,2,0,2
+Total 34 (34 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 4554 (4554 unique) events are in non-isolated traces (34 / 34 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2277 events / 2277 unique events) (17 events / 17 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2277 events / 2277 unique events) (17 events / 17 unique events in hot method)
+Classifier (gherkin.formatter.AnsiFormats$1.<init>:10): LIB,NOT_REDUNDANT_TRACES
+
+#99
+Inspecting hot method gherkin.formatter.model.Examples$Builder.row:34...
+Checking for isolation...
+31,3,3,0
+Total 31 (31 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 31 (31 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (3 traces / 3 unique traces) (31 events / 31 unique events)
+Classifier (gherkin.formatter.model.Examples$Builder.row:34): LIB,NOT_REDUNDANT_TRACES
+
+#100
+Inspecting hot method cucumber.deps.com.thoughtworks.xstream.mapper.ImmutableTypesMapper.addImmutableType:32...
+Checking for isolation...
+30,1,0,1
+Total 30 (30 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 12996494 (12996494 unique) events are in non-isolated traces (30 / 30 unique are in hot method)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (12996494 events / 12996494 unique events) (30 events / 30 unique events in hot method)
+Classifier (cucumber.deps.com.thoughtworks.xstream.mapper.ImmutableTypesMapper.addImmutableType:32): LIB,NOT_REDUNDANT_TRACES
+
+#101
+Inspecting hot method cucumber.runtime.model.CucumberExamples.createExampleScenarios:23...
+Checking for isolation...
+28,3,3,0
+Total 28 (28 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 28 (28 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (3 traces / 3 unique traces) (28 events / 28 unique events)
+Classifier (cucumber.runtime.model.CucumberExamples.createExampleScenarios:23): LIB,NOT_REDUNDANT_TRACES
+
+#102
+Inspecting hot method cucumber.deps.com.thoughtworks.xstream.converters.reflection.SerializationMethodInvoker.<init>:48...
+Checking for isolation...
+27,5,3,2
+Total 27 (25 unique) events are in hot method
+Total 5 (3 unique) traces are in hot method
+Total 3 (1 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 3 (1 unique) events are in isolated traces
+Total 4554 (4554 unique) events are in non-isolated traces (24 / 24 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SynchronizedMap (3 traces / 1 unique traces) (3 events / 1 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2277 events / 2277 unique events) (12 events / 12 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2277 events / 2277 unique events) (12 events / 12 unique events in hot method)
+Classifier (cucumber.deps.com.thoughtworks.xstream.converters.reflection.SerializationMethodInvoker.<init>:48): LIB,ISOLATED_ONE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#103
+Inspecting hot method cucumber.runtime.io.FileResourceIterator$FileIterator.hasNext:72...
+Checking for isolation...
+26,12,0,12
+Total 26 (10 unique) events are in hot method
+Total 12 (4 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 12 (4 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 46 (18 unique) events are in non-isolated traces (26 / 10 unique are in hot method)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (6 traces / 2 unique traces) (26 events / 10 unique events) (13 events / 5 unique events in hot method)
+	Iterator_HasNext (6 traces / 2 unique traces) (20 events / 8 unique events) (13 events / 5 unique events in hot method)
+Classifier (cucumber.runtime.io.FileResourceIterator$FileIterator.hasNext:72): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#104
+Inspecting hot method cucumber.runtime.model.CucumberExamples.tagsAndInheritedTags:34...
+Checking for isolation...
+24,8,6,2
+Total 24 (16 unique) events are in hot method
+Total 8 (4 unique) traces are in hot method
+Total 6 (2 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 12 (4 unique) events are in isolated traces
+Total 12996565 (12996565 unique) events are in non-isolated traces (12 / 12 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsynchronizedAddAll (6 traces / 2 unique traces) (12 events / 4 unique events)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (12996494 events / 12996494 unique events) (6 events / 6 unique events in hot method)
+	CharSequence_NotInSet (1 traces / 1 unique traces) (71 events / 71 unique events) (6 events / 6 unique events in hot method)
+Classifier (cucumber.runtime.model.CucumberExamples.tagsAndInheritedTags:34): LIB,ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#105
+Inspecting hot method cucumber.deps.com.thoughtworks.xstream.core.JVM.<clinit>:46...
+Checking for isolation...
+24,12,5,7
+Total 24 (24 unique) events are in hot method
+Total 12 (12 unique) traces are in hot method
+Total 5 (5 unique) isolated traces are in hot method
+Total 7 (7 unique) non-isolated traces that have events in hot method
+Total 7 (7 unique) events are in isolated traces
+Total 13001267 (13001267 unique) events are in non-isolated traces (17 / 17 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsynchronizedAddAll (2 traces / 2 unique traces) (4 events / 4 unique events)
+	Map_UnsafeIterator (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Map_CollectionViewAdd (1 traces / 1 unique traces) (1 events / 1 unique events)
+	CharSequence_NotInMap (1 traces / 1 unique traces) (1 events / 1 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2277 events / 2277 unique events) (3 events / 3 unique events in hot method)
+	Set_ItselfAsElement (1 traces / 1 unique traces) (12996494 events / 12996494 unique events) (2 events / 2 unique events in hot method)
+	TreeMap_Comparable (1 traces / 1 unique traces) (4 events / 4 unique events) (1 events / 1 unique events in hot method)
+	CharSequence_NotInSet (1 traces / 1 unique traces) (71 events / 71 unique events) (2 events / 2 unique events in hot method)
+	SortedSet_Comparable (1 traces / 1 unique traces) (73 events / 73 unique events) (4 events / 4 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2277 events / 2277 unique events) (3 events / 3 unique events in hot method)
+	TreeSet_Comparable (1 traces / 1 unique traces) (71 events / 71 unique events) (2 events / 2 unique events in hot method)
+Classifier (cucumber.deps.com.thoughtworks.xstream.core.JVM.<clinit>:46): LIB,NOT_REDUNDANT_TRACES
+
+#106
+Inspecting hot method gherkin.formatter.ansi.AnsiEscapes.appendTo:41...
+Checking for isolation...
+24,4,0,4
+Total 24 (12 unique) events are in hot method
+Total 4 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 4 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 30 (15 unique) events are in non-isolated traces (24 / 12 unique are in hot method)
+Specs that have non-isolated traces:
+	Appendable_ThreadSafe (2 traces / 1 unique traces) (14 events / 7 unique events) (12 events / 6 unique events in hot method)
+	StringBuilder_ThreadSafe (2 traces / 1 unique traces) (16 events / 8 unique events) (12 events / 6 unique events in hot method)
+Classifier (gherkin.formatter.ansi.AnsiEscapes.appendTo:41): LIB,NOT_ISOLATED_ONE_UNIQUE
+
+#107
+Inspecting hot method cucumber.runtime.Reflections.instantiateSubclasses:27...
+Checking for isolation...
+21,6,6,0
+Total 21 (21 unique) events are in hot method
+Total 6 (6 unique) traces are in hot method
+Total 6 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 21 (21 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (2 traces / 2 unique traces) (8 events / 8 unique events)
+	Iterator_RemoveOnce (2 traces / 2 unique traces) (3 events / 3 unique events)
+	Collection_UnsafeIterator (2 traces / 2 unique traces) (10 events / 10 unique events)
+Classifier (cucumber.runtime.Reflections.instantiateSubclasses:27): LIB,NOT_REDUNDANT_TRACES
+
+#108
+Inspecting hot method cucumber.runtime.junit.ScenarioOutlineRunner.<init>:21...
+Checking for isolation...
+21,4,4,0
+Total 21 (21 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 4 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 21 (21 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (3 events / 3 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (8 events / 8 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (7 events / 7 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (3 events / 3 unique events)
+Classifier (cucumber.runtime.junit.ScenarioOutlineRunner.<init>:21): LIB,NOT_REDUNDANT_TRACES
+
+#109
+Inspecting hot method cucumber.runtime.junit.ExamplesRunner.getName:38...
+Checking for isolation...
+21,6,6,0
+Total 21 (7 unique) events are in hot method
+Total 6 (2 unique) traces are in hot method
+Total 6 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 21 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (3 traces / 1 unique traces) (12 events / 4 unique events)
+	Appendable_ThreadSafe (3 traces / 1 unique traces) (9 events / 3 unique events)
+Classifier (cucumber.runtime.junit.ExamplesRunner.getName:38): LIB,ISOLATED_ONE_UNIQUE
+
+#110
+Inspecting hot method org.poker.api.core.CardTest.testEqualsOtherObjects:80...
+Checking for isolation...
+21,6,6,0
+Total 21 (21 unique) events are in hot method
+Total 6 (6 unique) traces are in hot method
+Total 6 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 21 (21 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (3 traces / 3 unique traces) (9 events / 9 unique events)
+	StringBuilder_ThreadSafe (3 traces / 3 unique traces) (12 events / 12 unique events)
+Classifier (org.poker.api.core.CardTest.testEqualsOtherObjects:80): CUT,NOT_REDUNDANT_TRACES
+
+#111
+Inspecting hot method cucumber.runtime.java.MethodScanner.scan:33...
+Checking for isolation...
+21,6,6,0
+Total 21 (21 unique) events are in hot method
+Total 6 (6 unique) traces are in hot method
+Total 6 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 21 (21 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (2 traces / 2 unique traces) (8 events / 8 unique events)
+	Collection_UnsafeIterator (2 traces / 2 unique traces) (10 events / 10 unique events)
+	Iterator_RemoveOnce (2 traces / 2 unique traces) (3 events / 3 unique events)
+Classifier (cucumber.runtime.java.MethodScanner.scan:33): LIB,NOT_REDUNDANT_TRACES
+
+#112
+Inspecting hot method cucumber.runtime.io.FileResourceIterator$FileIterator.next:61...
+Checking for isolation...
+21,18,6,12
+Total 21 (9 unique) events are in hot method
+Total 18 (6 unique) traces are in hot method
+Total 6 (2 unique) isolated traces are in hot method
+Total 12 (4 unique) non-isolated traces that have events in hot method
+Total 7 (3 unique) events are in isolated traces
+Total 46 (18 unique) events are in non-isolated traces (14 / 6 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (6 traces / 2 unique traces) (7 events / 3 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (6 traces / 2 unique traces) (26 events / 10 unique events) (7 events / 3 unique events in hot method)
+	Iterator_HasNext (6 traces / 2 unique traces) (20 events / 8 unique events) (7 events / 3 unique events in hot method)
+Classifier (cucumber.runtime.io.FileResourceIterator$FileIterator.next:61): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#113
+Inspecting hot method gherkin.parser.FormatterListener$Stash.examplesId:55...
+Checking for isolation...
+21,6,6,0
+Total 21 (7 unique) events are in hot method
+Total 6 (2 unique) traces are in hot method
+Total 6 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 21 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (3 traces / 1 unique traces) (12 events / 4 unique events)
+	Appendable_ThreadSafe (3 traces / 1 unique traces) (9 events / 3 unique events)
+Classifier (gherkin.parser.FormatterListener$Stash.examplesId:55): LIB,ISOLATED_ONE_UNIQUE
+
+#114
+Inspecting hot method cucumber.runtime.RuntimeOptions.parse:90...
+Checking for isolation...
+18,8,8,0
+Total 18 (18 unique) events are in hot method
+Total 8 (8 unique) traces are in hot method
+Total 8 (8 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 18 (18 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (6 traces / 6 unique traces) (14 events / 14 unique events)
+	Collection_UnsynchronizedAddAll (2 traces / 2 unique traces) (4 events / 4 unique events)
+Classifier (cucumber.runtime.RuntimeOptions.parse:90): LIB,NOT_REDUNDANT_TRACES
+
+#115
+Inspecting hot method cucumber.runtime.junit.ScenarioOutlineRunner.getDescription:35...
+Checking for isolation...
+18,3,3,0
+Total 18 (18 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 18 (18 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (7 events / 7 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (3 events / 3 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (8 events / 8 unique events)
+Classifier (cucumber.runtime.junit.ScenarioOutlineRunner.getDescription:35): LIB,NOT_REDUNDANT_TRACES
+
+#116
+Inspecting hot method cucumber.deps.com.thoughtworks.xstream.core.util.PresortedMap.keySet:58...
+Checking for isolation...
+17,5,4,1
+Total 17 (17 unique) events are in hot method
+Total 5 (5 unique) traces are in hot method
+Total 4 (4 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 15 (15 unique) events are in isolated traces
+Total 12996494 (12996494 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (2 events / 2 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (6 events / 6 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (5 events / 5 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (2 events / 2 unique events)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (12996494 events / 12996494 unique events) (2 events / 2 unique events in hot method)
+Classifier (cucumber.deps.com.thoughtworks.xstream.core.util.PresortedMap.keySet:58): LIB,NOT_REDUNDANT_TRACES
+
+#117
+Inspecting hot method cucumber.runtime.formatter.PluginFactory$1.<init>:47...
+Checking for isolation...
+16,2,0,2
+Total 16 (16 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 4554 (4554 unique) events are in non-isolated traces (16 / 16 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2277 events / 2277 unique events) (8 events / 8 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2277 events / 2277 unique events) (8 events / 8 unique events in hot method)
+Classifier (cucumber.runtime.formatter.PluginFactory$1.<init>:47): LIB,NOT_REDUNDANT_TRACES
+
+#118
+Inspecting hot method cucumber.runtime.Stats.printSubCount:72...
+Checking for isolation...
+14,4,4,0
+Total 14 (7 unique) events are in hot method
+Total 4 (2 unique) traces are in hot method
+Total 4 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 14 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (2 traces / 1 unique traces) (6 events / 3 unique events)
+	StringBuilder_ThreadSafe (2 traces / 1 unique traces) (8 events / 4 unique events)
+Classifier (cucumber.runtime.Stats.printSubCount:72): LIB,ISOLATED_ONE_UNIQUE
+
+#119
+Inspecting hot method org.picocontainer.paranamer.BytecodeReadingParanamer$1.<init>:57...
+Checking for isolation...
+14,2,0,2
+Total 14 (14 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 4554 (4554 unique) events are in non-isolated traces (14 / 14 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2277 events / 2277 unique events) (7 events / 7 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2277 events / 2277 unique events) (7 events / 7 unique events in hot method)
+Classifier (org.picocontainer.paranamer.BytecodeReadingParanamer$1.<init>:57): LIB,NOT_REDUNDANT_TRACES
+
+#120
+Inspecting hot method cucumber.runtime.io.DelegatingResourceIteratorFactory.createIterator:58...
+Checking for isolation...
+13,13,13,0
+Total 13 (1 unique) events are in hot method
+Total 13 (1 unique) traces are in hot method
+Total 13 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 13 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (13 traces / 1 unique traces) (13 events / 1 unique events)
+Classifier (cucumber.runtime.io.DelegatingResourceIteratorFactory.createIterator:58): LIB,ISOLATED_ONE_UNIQUE
+
+#121
+Inspecting hot method gherkin.deps.com.google.gson.internal.Excluder.excludeClass:192...
+Checking for isolation...
+12,2,0,2
+Total 12 (12 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 14 (14 unique) events are in non-isolated traces (12 / 12 unique are in hot method)
+Specs that have non-isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (5 events / 5 unique events) (4 events / 4 unique events in hot method)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (9 events / 9 unique events) (8 events / 8 unique events in hot method)
+Classifier (gherkin.deps.com.google.gson.internal.Excluder.excludeClass:192): LIB,NOT_REDUNDANT_TRACES
+
+#122
+Inspecting hot method cucumber.runtime.io.ClasspathIterable.filePath:43...
+Checking for isolation...
+12,1,0,1
+Total 12 (12 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 13 (13 unique) events are in non-isolated traces (12 / 12 unique are in hot method)
+Specs that have non-isolated traces:
+	URLDecoder_DecodeUTF8 (1 traces / 1 unique traces) (13 events / 13 unique events) (12 events / 12 unique events in hot method)
+Classifier (cucumber.runtime.io.ClasspathIterable.filePath:43): LIB,NOT_REDUNDANT_TRACES
+
+#123
+Inspecting hot method gherkin.parser.StateMachineReader.row:57...
+Checking for isolation...
+11,1,1,0
+Total 11 (11 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 11 (11 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (11 events / 11 unique events)
+Classifier (gherkin.parser.StateMachineReader.row:57): LIB,NOT_REDUNDANT_TRACES
+
+#124
+Inspecting hot method cucumber.runtime.model.CucumberFeature.load:48...
+Checking for isolation...
+10,5,3,2
+Total 10 (10 unique) events are in hot method
+Total 5 (5 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 8 (8 unique) events are in isolated traces
+Total 115 (115 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (3 events / 3 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (4 events / 4 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (2 events / 2 unique events) (1 events / 1 unique events in hot method)
+	Collections_Comparable (1 traces / 1 unique traces) (113 events / 113 unique events) (1 events / 1 unique events in hot method)
+Classifier (cucumber.runtime.model.CucumberFeature.load:48): LIB,NOT_REDUNDANT_TRACES
+
+#125
+Inspecting hot method cucumber.runtime.junit.FeatureRunner.buildFeatureElementRunners:75...
+Checking for isolation...
+9,4,4,0
+Total 9 (9 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 4 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 9 (9 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (4 events / 4 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (3 events / 3 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (1 events / 1 unique events)
+Classifier (cucumber.runtime.junit.FeatureRunner.buildFeatureElementRunners:75): LIB,NOT_REDUNDANT_TRACES
+
+#126
+Inspecting hot method cucumber.api.junit.Cucumber.addChildren:105...
+Checking for isolation...
+9,4,4,0
+Total 9 (9 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 4 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 9 (9 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (4 events / 4 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (3 events / 3 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (1 events / 1 unique events)
+Classifier (cucumber.api.junit.Cucumber.addChildren:105): LIB,NOT_REDUNDANT_TRACES
+
+#127
+Inspecting hot method cucumber.runtime.RuntimeOptions.getPlugins:205...
+Checking for isolation...
+9,4,4,0
+Total 9 (9 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 4 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 9 (9 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (3 events / 3 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (4 events / 4 unique events)
+Classifier (cucumber.runtime.RuntimeOptions.getPlugins:205): LIB,NOT_REDUNDANT_TRACES
+
+#128
+Inspecting hot method cucumber.runtime.RuntimeOptionsFactory.addPlugins:82...
+Checking for isolation...
+9,5,5,0
+Total 9 (9 unique) events are in hot method
+Total 5 (5 unique) traces are in hot method
+Total 5 (5 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 9 (9 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsynchronizedAddAll (2 traces / 2 unique traces) (4 events / 4 unique events)
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (2 events / 2 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (2 events / 2 unique events)
+Classifier (cucumber.runtime.RuntimeOptionsFactory.addPlugins:82): LIB,NOT_REDUNDANT_TRACES
+
+#129
+Inspecting hot method gherkin.util.FixJava.readReader:44...
+Checking for isolation...
+9,6,6,0
+Total 9 (3 unique) events are in hot method
+Total 6 (2 unique) traces are in hot method
+Total 6 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 9 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (3 traces / 1 unique traces) (3 events / 1 unique events)
+	StringBuilder_ThreadSafe (3 traces / 1 unique traces) (6 events / 2 unique events)
+Classifier (gherkin.util.FixJava.readReader:44): LIB,ISOLATED_ONE_UNIQUE
+
+#130
+Inspecting hot method cucumber.runtime.RuntimeGlue.addStepDefinition:30...
+Checking for isolation...
+9,3,0,3
+Total 9 (9 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 3 (3 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 4558 (4558 unique) events are in non-isolated traces (9 / 9 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2277 events / 2277 unique events) (3 events / 3 unique events in hot method)
+	TreeMap_Comparable (1 traces / 1 unique traces) (4 events / 4 unique events) (3 events / 3 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2277 events / 2277 unique events) (3 events / 3 unique events in hot method)
+Classifier (cucumber.runtime.RuntimeGlue.addStepDefinition:30): LIB,NOT_REDUNDANT_TRACES
+
+#131
+Inspecting hot method cucumber.runtime.RuntimeOptions.haveLineFilters:154...
+Checking for isolation...
+8,3,3,0
+Total 8 (8 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 8 (8 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (3 events / 3 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (4 events / 4 unique events)
+Classifier (cucumber.runtime.RuntimeOptions.haveLineFilters:154): LIB,NOT_REDUNDANT_TRACES
+
+#132
+Inspecting hot method cucumber.runtime.xstream.TimeConverter.add:35...
+Checking for isolation...
+8,2,2,0
+Total 8 (4 unique) events are in hot method
+Total 2 (1 unique) traces are in hot method
+Total 2 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 8 (4 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (2 traces / 1 unique traces) (8 events / 4 unique events)
+Classifier (cucumber.runtime.xstream.TimeConverter.add:35): LIB,ISOLATED_ONE_UNIQUE
+
+#133
+Inspecting hot method cucumber.runtime.junit.FeatureRunner.getDescription:42...
+Checking for isolation...
+8,3,3,0
+Total 8 (8 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 8 (8 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (3 events / 3 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (4 events / 4 unique events)
+Classifier (cucumber.runtime.junit.FeatureRunner.getDescription:42): LIB,NOT_REDUNDANT_TRACES
+
+#134
+Inspecting hot method cucumber.runtime.Runtime.<init>:47...
+Checking for isolation...
+8,3,3,0
+Total 8 (8 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 8 (8 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (4 events / 4 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (3 events / 3 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (1 events / 1 unique events)
+Classifier (cucumber.runtime.Runtime.<init>:47): LIB,NOT_REDUNDANT_TRACES
+
+#135
+Inspecting hot method cucumber.deps.com.thoughtworks.xstream.converters.reflection.FieldDictionary.init:52...
+Checking for isolation...
+8,2,0,2
+Total 8 (8 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 4554 (4554 unique) events are in non-isolated traces (8 / 8 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2277 events / 2277 unique events) (4 events / 4 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2277 events / 2277 unique events) (4 events / 4 unique events in hot method)
+Classifier (cucumber.deps.com.thoughtworks.xstream.converters.reflection.FieldDictionary.init:52): LIB,NOT_REDUNDANT_TRACES
+
+#136
+Inspecting hot method cucumber.runtime.model.CucumberFeature.loadFromFeaturePath:94...
+Checking for isolation...
+7,4,4,0
+Total 7 (7 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 4 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 7 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Collection_UnsynchronizedAddAll (1 traces / 1 unique traces) (2 events / 2 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (3 events / 3 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (1 events / 1 unique events)
+Classifier (cucumber.runtime.model.CucumberFeature.loadFromFeaturePath:94): LIB,NOT_REDUNDANT_TRACES
+
+#137
+Inspecting hot method cucumber.runtime.xstream.ConverterWithNumberFormat.<init>:9...
+Checking for isolation...
+7,7,7,0
+Total 7 (1 unique) events are in hot method
+Total 7 (1 unique) traces are in hot method
+Total 7 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 7 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (7 traces / 1 unique traces) (7 events / 1 unique events)
+Classifier (cucumber.runtime.xstream.ConverterWithNumberFormat.<init>:9): LIB,ISOLATED_ONE_UNIQUE
+
+#138
+Inspecting hot method gherkin.parser.StateMachineReader.<init>:16...
+Checking for isolation...
+7,2,2,0
+Total 7 (7 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 7 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (4 events / 4 unique events)
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+Classifier (gherkin.parser.StateMachineReader.<init>:16): LIB,NOT_REDUNDANT_TRACES
+
+#139
+Inspecting hot method cucumber.runtime.junit.FeatureRunner.getName:36...
+Checking for isolation...
+7,2,2,0
+Total 7 (7 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 7 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (4 events / 4 unique events)
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+Classifier (cucumber.runtime.junit.FeatureRunner.getName:36): LIB,NOT_REDUNDANT_TRACES
+
+#140
+Inspecting hot method cucumber.runtime.RuntimeOptionsFactory.addDefaultGlueIfNoGlueIsSpecified:121...
+Checking for isolation...
+7,3,2,1
+Total 7 (7 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 5 (5 unique) events are in isolated traces
+Total 6 (6 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (2 events / 2 unique events)
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (6 events / 6 unique events) (2 events / 2 unique events in hot method)
+Classifier (cucumber.runtime.RuntimeOptionsFactory.addDefaultGlueIfNoGlueIsSpecified:121): LIB,NOT_REDUNDANT_TRACES
+
+#141
+Inspecting hot method cucumber.runtime.model.CucumberTagStatement.<init>:21...
+Checking for isolation...
+7,2,2,0
+Total 7 (7 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 7 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (4 events / 4 unique events)
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+Classifier (cucumber.runtime.model.CucumberTagStatement.<init>:21): LIB,NOT_REDUNDANT_TRACES
+
+#142
+Inspecting hot method gherkin.parser.FormatterListener$Stash.featureElementId:51...
+Checking for isolation...
+7,2,2,0
+Total 7 (7 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 7 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (4 events / 4 unique events)
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+Classifier (gherkin.parser.FormatterListener$Stash.featureElementId:51): LIB,NOT_REDUNDANT_TRACES
+
+#143
+Inspecting hot method gherkin.I18n.<clinit>:32...
+Checking for isolation...
+6,3,3,0
+Total 6 (6 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 6 (6 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsynchronizedAddAll (2 traces / 2 unique traces) (4 events / 4 unique events)
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (2 events / 2 unique events)
+Classifier (gherkin.I18n.<clinit>:32): LIB,NOT_REDUNDANT_TRACES
+
+#144
+Inspecting hot method cucumber.runtime.io.FileResourceIterator.next:30...
+Checking for isolation...
+6,4,2,2
+Total 6 (6 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 3 (3 unique) events are in isolated traces
+Total 8 (8 unique) events are in non-isolated traces (3 / 3 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (2 traces / 2 unique traces) (3 events / 3 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (2 traces / 2 unique traces) (8 events / 8 unique events) (3 events / 3 unique events in hot method)
+Classifier (cucumber.runtime.io.FileResourceIterator.next:30): LIB,NOT_REDUNDANT_TRACES
+
+#145
+Inspecting hot method cucumber.runtime.io.FileResourceIterator$FileIterator.<init>:48...
+Checking for isolation...
+6,6,0,6
+Total 6 (2 unique) events are in hot method
+Total 6 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 6 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 26 (10 unique) events are in non-isolated traces (6 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (6 traces / 2 unique traces) (26 events / 10 unique events) (6 events / 2 unique events in hot method)
+Classifier (cucumber.runtime.io.FileResourceIterator$FileIterator.<init>:48): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#146
+Inspecting hot method gherkin.formatter.AnsiFormats$ColorFormat.text:37...
+Checking for isolation...
+6,4,0,4
+Total 6 (3 unique) events are in hot method
+Total 4 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 4 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 30 (15 unique) events are in non-isolated traces (6 / 3 unique are in hot method)
+Specs that have non-isolated traces:
+	Appendable_ThreadSafe (2 traces / 1 unique traces) (14 events / 7 unique events) (2 events / 1 unique events in hot method)
+	StringBuilder_ThreadSafe (2 traces / 1 unique traces) (16 events / 8 unique events) (4 events / 2 unique events in hot method)
+Classifier (gherkin.formatter.AnsiFormats$ColorFormat.text:37): LIB,NOT_ISOLATED_ONE_UNIQUE
+
+#147
+Inspecting hot method org.util.exceptions.ExceptionUtil.checkArgument:67...
+Checking for isolation...
+5,5,5,0
+Total 5 (1 unique) events are in hot method
+Total 5 (1 unique) traces are in hot method
+Total 5 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Throwable_InitCauseOnce (5 traces / 1 unique traces) (5 events / 1 unique events)
+Classifier (org.util.exceptions.ExceptionUtil.checkArgument:67): CUT,ISOLATED_ONE_UNIQUE
+
+#148
+Inspecting hot method cucumber.runtime.io.FileResourceIterator.hasNext:25...
+Checking for isolation...
+5,2,0,2
+Total 5 (5 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 8 (8 unique) events are in non-isolated traces (5 / 5 unique are in hot method)
+Specs that have non-isolated traces:
+	Iterator_HasNext (2 traces / 2 unique traces) (8 events / 8 unique events) (5 events / 5 unique events in hot method)
+Classifier (cucumber.runtime.io.FileResourceIterator.hasNext:25): LIB,NOT_REDUNDANT_TRACES
+
+#149
+Inspecting hot method cucumber.runtime.Stats.printDuration:84...
+Checking for isolation...
+5,2,2,0
+Total 5 (5 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (2 events / 2 unique events)
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+Classifier (cucumber.runtime.Stats.printDuration:84): LIB,NOT_REDUNDANT_TRACES
+
+#150
+Inspecting hot method gherkin.I18n.capitalize:126...
+Checking for isolation...
+5,2,2,0
+Total 5 (5 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (2 events / 2 unique events)
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+Classifier (gherkin.I18n.capitalize:126): LIB,NOT_REDUNDANT_TRACES
+
+#151
+Inspecting hot method gherkin.I18n.lexer:116...
+Checking for isolation...
+5,2,2,0
+Total 5 (5 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (2 events / 2 unique events)
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+Classifier (gherkin.I18n.lexer:116): LIB,NOT_REDUNDANT_TRACES
+
+#152
+Inspecting hot method cucumber.deps.com.thoughtworks.xstream.converters.reflection.FieldDictionary.fieldsFor:76...
+Checking for isolation...
+5,4,2,2
+Total 5 (5 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 2 (2 unique) events are in isolated traces
+Total 273 (273 unique) events are in non-isolated traces (3 / 3 unique are in hot method)
+Specs that have isolated traces:
+	Map_CollectionViewAdd (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Map_UnsafeIterator (1 traces / 1 unique traces) (1 events / 1 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (1 traces / 1 unique traces) (137 events / 137 unique events) (2 events / 2 unique events in hot method)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (136 events / 136 unique events) (1 events / 1 unique events in hot method)
+Classifier (cucumber.deps.com.thoughtworks.xstream.converters.reflection.FieldDictionary.fieldsFor:76): LIB,NOT_REDUNDANT_TRACES
+
+#153
+Inspecting hot method cucumber.deps.com.thoughtworks.xstream.converters.basic.DateConverter.<clinit>:43...
+Checking for isolation...
+4,1,1,0
+Total 4 (4 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 4 (4 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (4 events / 4 unique events)
+Classifier (cucumber.deps.com.thoughtworks.xstream.converters.basic.DateConverter.<clinit>:43): LIB,NOT_REDUNDANT_TRACES
+
+#154
+Inspecting hot method cucumber.deps.com.thoughtworks.xstream.core.util.PresortedMap.put:108...
+Checking for isolation...
+4,2,1,1
+Total 4 (4 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 2 (2 unique) events are in isolated traces
+Total 12996494 (12996494 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (2 events / 2 unique events)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (12996494 events / 12996494 unique events) (2 events / 2 unique events in hot method)
+Classifier (cucumber.deps.com.thoughtworks.xstream.core.util.PresortedMap.put:108): LIB,NOT_REDUNDANT_TRACES
+
+#155
+Inspecting hot method cucumber.runtime.Reflections.instantiateExactlyOneSubclass:16...
+Checking for isolation...
+4,3,3,0
+Total 4 (4 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 4 (4 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (2 events / 2 unique events)
+Classifier (cucumber.runtime.Reflections.instantiateExactlyOneSubclass:16): LIB,NOT_REDUNDANT_TRACES
+
+#156
+Inspecting hot method cucumber.runtime.io.DelegatingResourceIteratorFactory.<init>:42...
+Checking for isolation...
+4,4,4,0
+Total 4 (1 unique) events are in hot method
+Total 4 (1 unique) traces are in hot method
+Total 4 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 4 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	ServiceLoader_MultipleConcurrentThreads (4 traces / 1 unique traces) (4 events / 1 unique events)
+Classifier (cucumber.runtime.io.DelegatingResourceIteratorFactory.<init>:42): LIB,ISOLATED_ONE_UNIQUE
+
+#157
+Inspecting hot method cucumber.deps.com.thoughtworks.xstream.mapper.ClassAliasingMapper.addTypeAlias:49...
+Checking for isolation...
+4,2,0,2
+Total 4 (4 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 4554 (4554 unique) events are in non-isolated traces (4 / 4 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2277 events / 2277 unique events) (2 events / 2 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2277 events / 2277 unique events) (2 events / 2 unique events in hot method)
+Classifier (cucumber.deps.com.thoughtworks.xstream.mapper.ClassAliasingMapper.addTypeAlias:49): LIB,NOT_REDUNDANT_TRACES
+
+#158
+Inspecting hot method cucumber.runtime.ParameterInfo.fromMethod:32...
+Checking for isolation...
+3,2,2,0
+Total 3 (3 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (2 traces / 2 unique traces) (3 events / 3 unique events)
+Classifier (cucumber.runtime.ParameterInfo.fromMethod:32): LIB,NOT_REDUNDANT_TRACES
+
+#159
+Inspecting hot method org.util.exceptions.ExceptionUtil.checkNullArgument:49...
+Checking for isolation...
+3,3,3,0
+Total 3 (1 unique) events are in hot method
+Total 3 (1 unique) traces are in hot method
+Total 3 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Throwable_InitCauseOnce (3 traces / 1 unique traces) (3 events / 1 unique events)
+Classifier (org.util.exceptions.ExceptionUtil.checkNullArgument:49): CUT,ISOLATED_ONE_UNIQUE
+
+#160
+Inspecting hot method org.util.exceptions.ExceptionUtil.checkArrayLengthArgument:61...
+Checking for isolation...
+3,3,3,0
+Total 3 (1 unique) events are in hot method
+Total 3 (1 unique) traces are in hot method
+Total 3 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Throwable_InitCauseOnce (3 traces / 1 unique traces) (3 events / 1 unique events)
+Classifier (org.util.exceptions.ExceptionUtil.checkArrayLengthArgument:61): CUT,ISOLATED_ONE_UNIQUE
+
+#161
+Inspecting hot method cucumber.deps.com.thoughtworks.xstream.core.util.PresortedSet.addAll:43...
+Checking for isolation...
+3,2,2,0
+Total 3 (3 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Collection_UnsynchronizedAddAll (1 traces / 1 unique traces) (2 events / 2 unique events)
+Classifier (cucumber.deps.com.thoughtworks.xstream.core.util.PresortedSet.addAll:43): LIB,NOT_REDUNDANT_TRACES
+
+#162
+Inspecting hot method cucumber.runtime.model.CucumberScenarioOutline.examples:32...
+Checking for isolation...
+3,1,1,0
+Total 3 (3 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (3 events / 3 unique events)
+Classifier (cucumber.runtime.model.CucumberScenarioOutline.examples:32): LIB,NOT_REDUNDANT_TRACES
+
+#163
+Inspecting hot method cucumber.runtime.UndefinedStepsTracker.getSnippets:29...
+Checking for isolation...
+3,2,2,0
+Total 3 (3 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (2 events / 2 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (1 events / 1 unique events)
+Classifier (cucumber.runtime.UndefinedStepsTracker.getSnippets:29): LIB,NOT_REDUNDANT_TRACES
+
+#164
+Inspecting hot method cucumber.runtime.SummaryPrinter.printErrors:26...
+Checking for isolation...
+3,2,2,0
+Total 3 (3 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (2 events / 2 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (1 events / 1 unique events)
+Classifier (cucumber.runtime.SummaryPrinter.printErrors:26): LIB,NOT_REDUNDANT_TRACES
+
+#165
+Inspecting hot method cucumber.deps.com.thoughtworks.xstream.core.util.PrioritizedList.iterator:44...
+Checking for isolation...
+3,3,0,3
+Total 3 (3 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 3 (3 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 147 (147 unique) events are in non-isolated traces (3 / 3 unique are in hot method)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (3 traces / 3 unique traces) (147 events / 147 unique events) (3 events / 3 unique events in hot method)
+Classifier (cucumber.deps.com.thoughtworks.xstream.core.util.PrioritizedList.iterator:44): LIB,NOT_REDUNDANT_TRACES
+
+#166
+Inspecting hot method cucumber.runtime.java.picocontainer.PicoFactory.addClass:29...
+Checking for isolation...
+3,1,0,1
+Total 3 (3 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 12996494 (12996494 unique) events are in non-isolated traces (3 / 3 unique are in hot method)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (12996494 events / 12996494 unique events) (3 events / 3 unique events in hot method)
+Classifier (cucumber.runtime.java.picocontainer.PicoFactory.addClass:29): LIB,NOT_REDUNDANT_TRACES
+
+#167
+Inspecting hot method cucumber.deps.com.thoughtworks.xstream.mapper.AnnotationMapper.<init>:68...
+Checking for isolation...
+2,2,1,1
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 1 (1 unique) events are in isolated traces
+Total 12996494 (12996494 unique) events are in non-isolated traces (1 / 1 unique are in hot method)
+Specs that have isolated traces:
+	Arrays_SortBeforeBinarySearch (1 traces / 1 unique traces) (1 events / 1 unique events)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (12996494 events / 12996494 unique events) (1 events / 1 unique events in hot method)
+Classifier (cucumber.deps.com.thoughtworks.xstream.mapper.AnnotationMapper.<init>:68): LIB,NOT_REDUNDANT_TRACES
+
+#168
+Inspecting hot method org.util.exceptions.ExceptionUtil.checkMinValueArgument:37...
+Checking for isolation...
+2,2,2,0
+Total 2 (1 unique) events are in hot method
+Total 2 (1 unique) traces are in hot method
+Total 2 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Throwable_InitCauseOnce (2 traces / 1 unique traces) (2 events / 1 unique events)
+Classifier (org.util.exceptions.ExceptionUtil.checkMinValueArgument:37): CUT,ISOLATED_ONE_UNIQUE
+
+#169
+Inspecting hot method cucumber.runtime.RuntimeOptionsFactory.addSnippets:58...
+Checking for isolation...
+2,1,0,1
+Total 2 (2 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 6 (6 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (6 events / 6 unique events) (2 events / 2 unique events in hot method)
+Classifier (cucumber.runtime.RuntimeOptionsFactory.addSnippets:58): LIB,NOT_REDUNDANT_TRACES
+
+#170
+Inspecting hot method cucumber.runtime.RuntimeOptionsFactory.addNullFormatIfNoPluginIsSpecified:93...
+Checking for isolation...
+2,1,0,1
+Total 2 (2 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 6 (6 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (6 events / 6 unique events) (2 events / 2 unique events in hot method)
+Classifier (cucumber.runtime.RuntimeOptionsFactory.addNullFormatIfNoPluginIsSpecified:93): LIB,NOT_REDUNDANT_TRACES
+
+#171
+Inspecting hot method cucumber.runtime.FeatureBuilder.parse:115...
+Checking for isolation...
+2,2,0,2
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 4554 (4554 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2277 events / 2277 unique events) (1 events / 1 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2277 events / 2277 unique events) (1 events / 1 unique events in hot method)
+Classifier (cucumber.runtime.FeatureBuilder.parse:115): LIB,NOT_REDUNDANT_TRACES
+
+#172
+Inspecting hot method gherkin.parser.Parser$Machine.transitionMap:235...
+Checking for isolation...
+2,2,0,2
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 4554 (4554 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2277 events / 2277 unique events) (1 events / 1 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2277 events / 2277 unique events) (1 events / 1 unique events in hot method)
+Classifier (gherkin.parser.Parser$Machine.transitionMap:235): LIB,NOT_REDUNDANT_TRACES
+
+#173
+Inspecting hot method cucumber.runtime.xstream.LocalizedXStreams.get:27...
+Checking for isolation...
+2,2,0,2
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 4554 (4554 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2277 events / 2277 unique events) (1 events / 1 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2277 events / 2277 unique events) (1 events / 1 unique events in hot method)
+Classifier (cucumber.runtime.xstream.LocalizedXStreams.get:27): LIB,NOT_REDUNDANT_TRACES
+
+#174
+Inspecting hot method cucumber.deps.com.thoughtworks.xstream.core.util.PresortedMap$ArraySet.<clinit>:0...
+Checking for isolation...
+2,2,0,2
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 74 (74 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	Serializable_NoArgConstructor (1 traces / 1 unique traces) (70 events / 70 unique events) (1 events / 1 unique events in hot method)
+	Collection_HashCode (1 traces / 1 unique traces) (4 events / 4 unique events) (1 events / 1 unique events in hot method)
+Classifier (cucumber.deps.com.thoughtworks.xstream.core.util.PresortedMap$ArraySet.<clinit>:0): LIB,NOT_REDUNDANT_TRACES
+
+#175
+Inspecting hot method cucumber.deps.com.thoughtworks.xstream.core.util.OrderRetainingMap$ArraySet.<clinit>:0...
+Checking for isolation...
+2,2,0,2
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 74 (74 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	Serializable_NoArgConstructor (1 traces / 1 unique traces) (70 events / 70 unique events) (1 events / 1 unique events in hot method)
+	Collection_HashCode (1 traces / 1 unique traces) (4 events / 4 unique events) (1 events / 1 unique events in hot method)
+Classifier (cucumber.deps.com.thoughtworks.xstream.core.util.OrderRetainingMap$ArraySet.<clinit>:0): LIB,NOT_REDUNDANT_TRACES
+
+#176
+Inspecting hot method cucumber.deps.com.thoughtworks.xstream.mapper.AnnotationMapper$UnprocessedTypesSet.<clinit>:0...
+Checking for isolation...
+2,2,0,2
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 74 (74 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	Serializable_NoArgConstructor (1 traces / 1 unique traces) (70 events / 70 unique events) (1 events / 1 unique events in hot method)
+	Collection_HashCode (1 traces / 1 unique traces) (4 events / 4 unique events) (1 events / 1 unique events in hot method)
+Classifier (cucumber.deps.com.thoughtworks.xstream.mapper.AnnotationMapper$UnprocessedTypesSet.<clinit>:0): LIB,NOT_REDUNDANT_TRACES
+

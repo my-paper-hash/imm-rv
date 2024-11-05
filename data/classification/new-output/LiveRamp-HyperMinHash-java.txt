@@ -1,0 +1,233 @@
+Reading traces...
+Reading specs frequency...
+Reading locations...
+Counting events...
+Total 215136250 events and 33218922 traces
+Inspecting top 200 IMM
+Finding hot methods...
+Number of events, method name
+65800982,com.liveramp.hyperminhash.CommonTests.testCardinality:32
+61325312,com.liveramp.hyperminhash.HyperMinHashCombiner.union:18
+54731563,com.liveramp.hyperminhash.HyperMinHashCombiner.similarity:52
+18000000,com.liveramp.hyperminhash.CommonTests.testUnion:61
+8471237,com.liveramp.hyperminhash.BetaMinHashCombiner.similarity:56
+6799360,com.liveramp.hyperminhash.BetaMinHashCombiner.union:19
+6801,com.liveramp.hyperminhash.HmhCardinalityEstimator.biasCorrectEstimate:994
+843,com.liveramp.hyperminhash.HyperMinHashCombiner.assertParamsAreEqual:140
+94,com.liveramp.hyperminhash.BetaMinHash.deepCopyFromRegisters:54
+24,org.apache.commons.math3.analysis.polynomials.PolynomialSplineFunction.<init>:104
+16,com.liveramp.hyperminhash.SerializationTokens.<clinit>:17
+12,org.apache.commons.math3.analysis.polynomials.PolynomialFunction.<init>:69
+1,com.liveramp.hyperminhash.HyperMinHashCombiner.<clinit>:7
+1,com.liveramp.hyperminhash.HmhCardinalityEstimator.<clinit>:22
+1,org.apache.commons.math3.util.MathArrays$OrderDirection.<clinit>:298
+1,org.apache.commons.math3.util.MathArrays$Position.<clinit>:1466
+1,org.apache.commons.math3.analysis.polynomials.PolynomialFunction.<clinit>:0
+1,com.liveramp.hyperminhash.BetaMinHashCombiner.<clinit>:7
+^^^ Last method that contains more than one event ^^^
+Starting com.liveramp.hyperminhash.HyperMinHashCombiner.similarity:52
+Finish com.liveramp.hyperminhash.HyperMinHashCombiner.similarity:52
+Starting com.liveramp.hyperminhash.SerializationTokens.<clinit>:17
+Finish com.liveramp.hyperminhash.SerializationTokens.<clinit>:17
+Starting com.liveramp.hyperminhash.HmhCardinalityEstimator.biasCorrectEstimate:994
+Finish com.liveramp.hyperminhash.HmhCardinalityEstimator.biasCorrectEstimate:994
+Starting com.liveramp.hyperminhash.HyperMinHashCombiner.union:18
+Finish com.liveramp.hyperminhash.HyperMinHashCombiner.union:18
+Starting org.apache.commons.math3.analysis.polynomials.PolynomialFunction.<init>:69
+Finish org.apache.commons.math3.analysis.polynomials.PolynomialFunction.<init>:69
+Starting com.liveramp.hyperminhash.BetaMinHashCombiner.similarity:56
+Finish com.liveramp.hyperminhash.BetaMinHashCombiner.similarity:56
+Starting com.liveramp.hyperminhash.CommonTests.testUnion:61
+Finish com.liveramp.hyperminhash.CommonTests.testUnion:61
+Starting com.liveramp.hyperminhash.BetaMinHashCombiner.union:19
+Finish com.liveramp.hyperminhash.BetaMinHashCombiner.union:19
+Starting com.liveramp.hyperminhash.CommonTests.testCardinality:32
+Finish com.liveramp.hyperminhash.CommonTests.testCardinality:32
+
+#1
+Inspecting hot method com.liveramp.hyperminhash.CommonTests.testCardinality:32...
+Checking for isolation...
+65800982,1,0,1
+Total 65800982 (65800982 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 83800982 (83800982 unique) events are in non-isolated traces (65800982 / 65800982 unique are in hot method)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (83800982 events / 83800982 unique events) (65800982 events / 65800982 unique events in hot method)
+Classifier (com.liveramp.hyperminhash.CommonTests.testCardinality:32): CUT,NOT_REDUNDANT_TRACES
+
+#2
+Inspecting hot method com.liveramp.hyperminhash.HyperMinHashCombiner.union:18...
+Checking for isolation...
+61325312,14057472,14057472,0
+Total 61325312 (31 unique) events are in hot method
+Total 14057472 (6 unique) traces are in hot method
+Total 14057472 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 61325312 (31 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (4685824 traces / 2 unique traces) (9453568 events / 5 unique events)
+	Collection_UnsafeIterator (4685824 traces / 2 unique traces) (28278784 events / 14 unique events)
+	Iterator_HasNext (4685824 traces / 2 unique traces) (23592960 events / 12 unique events)
+Classifier (com.liveramp.hyperminhash.HyperMinHashCombiner.union:18): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#3
+Inspecting hot method com.liveramp.hyperminhash.HyperMinHashCombiner.similarity:52...
+Checking for isolation...
+54731563,15151224,15151224,0
+Total 54731563 (121 unique) events are in hot method
+Total 15151224 (25 unique) traces are in hot method
+Total 15151224 (25 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 54731563 (121 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (5050408 traces / 7 unique traces) (9761837 events / 16 unique events)
+	Iterator_HasNext (5050408 traces / 9 unique traces) (19959659 events / 48 unique events)
+	Collection_UnsafeIterator (5050408 traces / 9 unique traces) (25010067 events / 57 unique events)
+Classifier (com.liveramp.hyperminhash.HyperMinHashCombiner.similarity:52): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#4
+Inspecting hot method com.liveramp.hyperminhash.CommonTests.testUnion:61...
+Checking for isolation...
+18000000,1,0,1
+Total 18000000 (18000000 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 83800982 (83800982 unique) events are in non-isolated traces (18000000 / 18000000 unique are in hot method)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (83800982 events / 83800982 unique events) (18000000 events / 18000000 unique events in hot method)
+Classifier (com.liveramp.hyperminhash.CommonTests.testUnion:61): CUT,NOT_REDUNDANT_TRACES
+
+#5
+Inspecting hot method com.liveramp.hyperminhash.BetaMinHashCombiner.similarity:56...
+Checking for isolation...
+8471237,2535405,2535405,0
+Total 8471237 (110 unique) events are in hot method
+Total 2535405 (23 unique) traces are in hot method
+Total 2535405 (23 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 8471237 (110 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (845135 traces / 8 unique traces) (3131922 events / 43 unique events)
+	Collection_UnsafeIterator (845135 traces / 8 unique traces) (3977057 events / 51 unique events)
+	Iterator_RemoveOnce (845135 traces / 7 unique traces) (1362258 events / 16 unique events)
+Classifier (com.liveramp.hyperminhash.BetaMinHashCombiner.similarity:56): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#6
+Inspecting hot method com.liveramp.hyperminhash.BetaMinHashCombiner.union:19...
+Checking for isolation...
+6799360,1474560,1474560,0
+Total 6799360 (31 unique) events are in hot method
+Total 1474560 (6 unique) traces are in hot method
+Total 1474560 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 6799360 (31 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (491520 traces / 2 unique traces) (2621440 events / 12 unique events)
+	Collection_UnsafeIterator (491520 traces / 2 unique traces) (3112960 events / 14 unique events)
+	Iterator_RemoveOnce (491520 traces / 2 unique traces) (1064960 events / 5 unique events)
+Classifier (com.liveramp.hyperminhash.BetaMinHashCombiner.union:19): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#7
+Inspecting hot method com.liveramp.hyperminhash.HmhCardinalityEstimator.biasCorrectEstimate:994...
+Checking for isolation...
+6801,75,73,2
+Total 6801 (6658 unique) events are in hot method
+Total 75 (9 unique) traces are in hot method
+Total 73 (7 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 2371 (2228 unique) events are in isolated traces
+Total 4446 (4446 unique) events are in non-isolated traces (4430 / 4430 unique are in hot method)
+Specs that have isolated traces:
+	Map_UnsafeIterator (24 traces / 2 unique traces) (60 events / 5 unique events)
+	Map_CollectionViewAdd (12 traces / 1 unique traces) (12 events / 1 unique events)
+	Collection_UnsafeIterator (12 traces / 1 unique traces) (36 events / 3 unique events)
+	Iterator_RemoveOnce (12 traces / 1 unique traces) (24 events / 2 unique events)
+	Iterator_HasNext (12 traces / 1 unique traces) (24 events / 2 unique events)
+	TreeMap_Comparable (1 traces / 1 unique traces) (2215 events / 2215 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2223 events / 2223 unique events) (2215 events / 2215 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2223 events / 2223 unique events) (2215 events / 2215 unique events in hot method)
+Classifier (com.liveramp.hyperminhash.HmhCardinalityEstimator.biasCorrectEstimate:994): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,RAW_ISOLATED_SINGLE_TRACE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#8
+Inspecting hot method com.liveramp.hyperminhash.HyperMinHashCombiner.assertParamsAreEqual:140...
+Checking for isolation...
+843,183,183,0
+Total 843 (31 unique) events are in hot method
+Total 183 (6 unique) traces are in hot method
+Total 183 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 843 (31 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (61 traces / 2 unique traces) (325 events / 12 unique events)
+	Iterator_RemoveOnce (61 traces / 2 unique traces) (132 events / 5 unique events)
+	Collection_UnsafeIterator (61 traces / 2 unique traces) (386 events / 14 unique events)
+Classifier (com.liveramp.hyperminhash.HyperMinHashCombiner.assertParamsAreEqual:140): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#9
+Inspecting hot method com.liveramp.hyperminhash.BetaMinHash.deepCopyFromRegisters:54...
+Checking for isolation...
+94,1,0,1
+Total 94 (94 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 130 (130 unique) events are in non-isolated traces (94 / 94 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (130 events / 130 unique events) (94 events / 94 unique events in hot method)
+Classifier (com.liveramp.hyperminhash.BetaMinHash.deepCopyFromRegisters:54): CUT,NOT_REDUNDANT_TRACES
+
+#10
+Inspecting hot method org.apache.commons.math3.analysis.polynomials.PolynomialSplineFunction.<init>:104...
+Checking for isolation...
+24,1,0,1
+Total 24 (24 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 130 (130 unique) events are in non-isolated traces (24 / 24 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (130 events / 130 unique events) (24 events / 24 unique events in hot method)
+Classifier (org.apache.commons.math3.analysis.polynomials.PolynomialSplineFunction.<init>:104): LIB,NOT_REDUNDANT_TRACES
+
+#11
+Inspecting hot method com.liveramp.hyperminhash.SerializationTokens.<clinit>:17...
+Checking for isolation...
+16,2,0,2
+Total 16 (16 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 4446 (4446 unique) events are in non-isolated traces (16 / 16 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2223 events / 2223 unique events) (8 events / 8 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2223 events / 2223 unique events) (8 events / 8 unique events in hot method)
+Classifier (com.liveramp.hyperminhash.SerializationTokens.<clinit>:17): LIB,NOT_REDUNDANT_TRACES
+
+#12
+Inspecting hot method org.apache.commons.math3.analysis.polynomials.PolynomialFunction.<init>:69...
+Checking for isolation...
+12,1,0,1
+Total 12 (12 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 130 (130 unique) events are in non-isolated traces (12 / 12 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (130 events / 130 unique events) (12 events / 12 unique events in hot method)
+Classifier (org.apache.commons.math3.analysis.polynomials.PolynomialFunction.<init>:69): LIB,NOT_REDUNDANT_TRACES
+

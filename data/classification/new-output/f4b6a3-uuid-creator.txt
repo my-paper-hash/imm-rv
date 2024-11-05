@@ -1,0 +1,1512 @@
+Reading traces...
+Reading specs frequency...
+Reading locations...
+Counting events...
+Total 23530741 events and 637033 traces
+Inspecting top 200 IMM
+Finding hot methods...
+Number of events, method name
+20162016,com.github.f4b6a3.uuid.factory.UuidFactoryTest$TestThread.run:132
+860400,com.github.f4b6a3.uuid.factory.UuidFactoryTest.checkUniqueness:79
+720000,com.github.f4b6a3.uuid.factory.rfc4122.TimeOrderedEpochFactoryTest.checkCreationTime:234
+269248,com.github.f4b6a3.uuid.factory.UuidFactoryTest$NameBasedTestThread.run:158
+180000,com.github.f4b6a3.uuid.factory.nonstandard.PrefixCombFactoryTest.testGetPrefixCombCheckTime:62
+180000,com.github.f4b6a3.uuid.factory.nonstandard.ShortSuffixCombFactoryTest.testGetShortSuffixCombCheckTimeWithDifferentInterval:66
+180000,com.github.f4b6a3.uuid.factory.nonstandard.ShortSuffixCombFactoryTest.testGetShortSuffixCombCheckTime:41
+180000,com.github.f4b6a3.uuid.factory.nonstandard.ShortPrefixCombFactoryTest.testGetShortPrefixCombCheckTime:40
+180000,com.github.f4b6a3.uuid.factory.nonstandard.ShortPrefixCombFactoryTest.testGetShortPrefixCombCheckTimeWithDifferentInterval:65
+180000,com.github.f4b6a3.uuid.factory.nonstandard.SuffixCombFactoryTest.testGetSuffixCombCheckTime:62
+65536,com.github.f4b6a3.uuid.factory.function.impl.DefaultClockSeqFunctionTest.testNextClockSequenceInParallel:134
+65536,com.github.f4b6a3.uuid.factory.function.ClockSeqPoolTest.testClockSequencePool5:102
+60000,com.github.f4b6a3.uuid.factory.rfc4122.TimeOrderedEpochFactoryTest.testWithFixedClock:394
+44800,com.github.f4b6a3.uuid.factory.UuidFactoryTest$NameBasedTestThread.getBytes:186
+32768,com.github.f4b6a3.uuid.factory.function.impl.DefaultClockSeqFunctionTest$TestThread.run:170
+32768,com.github.f4b6a3.uuid.factory.function.ClockSeqPoolTest$TestThread.run:139
+32768,com.github.f4b6a3.uuid.factory.function.ClockSeqPoolTest.testClockSequencePool1:35
+32766,com.github.f4b6a3.uuid.factory.function.impl.DefaultClockSeqFunctionTest.testGetClockSequenceUnique1:83
+32766,com.github.f4b6a3.uuid.factory.function.impl.DefaultClockSeqFunctionTest.testGetClockSequenceUnique2:95
+7600,com.github.f4b6a3.uuid.codec.other.SlugCodecTest.moveCharacters:177
+4040,com.github.f4b6a3.uuid.codec.UrnCodec.encode:68
+2743,com.github.f4b6a3.uuid.codec.base.BaseN.expand:289
+2400,com.github.f4b6a3.uuid.codec.StringCodecTest.testDecode:46
+2000,com.github.f4b6a3.uuid.factory.rfc4122.NameBasedMd5FactoryTest.testNameBasedMd5:97
+2000,com.github.f4b6a3.uuid.factory.rfc4122.NameBasedSha1FactoryTest.testNameBasedSha1:96
+2000,com.github.f4b6a3.uuid.codec.StringCodecTest.checkPattern:295
+1472,com.github.f4b6a3.uuid.codec.other.NcnameCodec.decode:207
+1218,com.github.f4b6a3.uuid.codec.StringCodec.toCharArray:249
+1200,com.github.f4b6a3.uuid.factory.function.ClockSeqPoolTest.testClockSequencePool2:51
+1180,com.github.f4b6a3.uuid.codec.other.NcnameCodec.encode:173
+1044,com.github.f4b6a3.uuid.exception.InvalidUuidException.newInstance:64
+1000,com.github.f4b6a3.uuid.codec.UrnCodecTest.testDecode:32
+1000,com.github.f4b6a3.uuid.codec.UrnCodecTest.testEncode:20
+1000,com.github.f4b6a3.uuid.codec.UrnCodecTest.checkPattern:173
+1000,com.github.f4b6a3.uuid.codec.UriCodecTest.testDecode:33
+1000,com.github.f4b6a3.uuid.codec.UriCodecTest.checkPattern:174
+1000,com.github.f4b6a3.uuid.codec.UriCodecTest.testEncode:21
+400,com.github.f4b6a3.uuid.codec.base.BaseNCodec1Test.getPadded:231
+224,com.github.f4b6a3.uuid.factory.rfc4122.NameBasedMd5FactoryTest$TestRunnable.run:449
+224,com.github.f4b6a3.uuid.factory.rfc4122.NameBasedSha1FactoryTest$TestRunnable.run:448
+224,com.github.f4b6a3.uuid.factory.nonstandard.SuffixCombFactoryTest.testGetSuffixCombInParallel:126
+224,com.github.f4b6a3.uuid.factory.nonstandard.ShortSuffixCombFactoryTest.testGetShortSuffixCombInParallel:132
+224,com.github.f4b6a3.uuid.factory.nonstandard.PrefixCombFactoryTest.testGetPrefixCombInParallel:128
+224,com.github.f4b6a3.uuid.factory.rfc4122.NameBasedMd5FactoryTest.testGetNameBasedMd5InParallel1:376
+224,com.github.f4b6a3.uuid.factory.rfc4122.TimeOrderedEpochFactoryTest.testGetTimeOrderedEpochInParallel:370
+224,com.github.f4b6a3.uuid.factory.rfc4122.NameBasedMd5FactoryTest.testGetNameBasedMd5InParallel2:398
+224,com.github.f4b6a3.uuid.factory.rfc4122.TimeBasedFactoryTest.testGetTimeBasedInParallel:118
+224,com.github.f4b6a3.uuid.factory.rfc4122.NameBasedSha1FactoryTest.testGetNameBasedSha1InParallel1:375
+224,com.github.f4b6a3.uuid.factory.rfc4122.NameBasedSha1FactoryTest.testGetNameBasedSha1InParallel2:397
+224,com.github.f4b6a3.uuid.factory.rfc4122.TimeOrderedFactoryTest.testGetTimeOrderedInParallel:117
+224,com.github.f4b6a3.uuid.factory.rfc4122.RandomBasedFactoryTest.testGetRandomBasedFastInParallel:106
+224,com.github.f4b6a3.uuid.factory.rfc4122.RandomBasedFactoryTest.testGetRandomBasedInParallel:85
+224,com.github.f4b6a3.uuid.factory.nonstandard.ShortPrefixCombFactoryTest.testGetShortPrefixCombInParallel:131
+120,com.github.f4b6a3.uuid.alt.GUID$Parser.parse:587
+80,com.github.f4b6a3.uuid.codec.other.SlugCodec.decode:170
+54,com.github.f4b6a3.uuid.codec.base.BaseNCodec.decode:277
+48,com.github.f4b6a3.uuid.codec.base.function.BaseNRemainderDecoder.apply:58
+44,com.github.f4b6a3.uuid.factory.AbstRandomBasedFactoryTest.testLongRandomWithFactory:229
+40,com.github.f4b6a3.uuid.codec.base.BaseNCodec1Test.testInvalidUuidExceptionException:159
+34,com.github.f4b6a3.uuid.codec.StringCodecTest.testDecodeInvalidUuidException:147
+30,com.github.f4b6a3.uuid.factory.rfc4122.TimeOrderedEpochFactoryTest.checkOrdering:511
+24,com.github.f4b6a3.uuid.codec.StringCodecTest.testToCharArray:232
+20,com.github.f4b6a3.uuid.codec.UrnCodecTest.testIsUuidUrn:55
+20,com.github.f4b6a3.uuid.codec.UriCodecTest.testIsUuidUri:56
+20,com.github.f4b6a3.uuid.codec.UrnCodecTest.testDecodeInvalidUuidException:122
+20,com.github.f4b6a3.uuid.codec.UriCodecTest.testDecodeInvalidUuidException:123
+20,com.github.f4b6a3.uuid.factory.nonstandard.ShortSuffixCombFactoryTest.checkOrdering:152
+16,com.github.f4b6a3.uuid.factory.nonstandard.SuffixCombFactoryTest.checkOrdering:177
+12,com.github.f4b6a3.uuid.factory.UuidFactoryTest.checkOrdering:69
+10,com.github.f4b6a3.uuid.util.internal.SettingsUtilTest.testSetPropertyWith0x:46
+10,com.github.f4b6a3.uuid.codec.base.BaseNCodec3SamplesTest.testDecodeBase58:76
+10,com.github.f4b6a3.uuid.codec.base.BaseNCodec3SamplesTest.testDecodeBase36:33
+10,com.github.f4b6a3.uuid.codec.base.BaseNCodec3SamplesTest.testDecodeBase62:117
+10,com.github.f4b6a3.uuid.factory.nonstandard.ShortPrefixCombFactoryTest.checkOrdering:151
+8,com.github.f4b6a3.uuid.factory.nonstandard.PrefixCombFactoryTest.checkOrdering:179
+4,com.github.f4b6a3.uuid.util.UuidUtil.getGregTimestamp:289
+4,com.github.f4b6a3.uuid.alt.GUID.<init>:177
+4,com.github.f4b6a3.uuid.factory.AbstRandomBasedFactoryTest.lambda$testLongRandomWithFactory$15:268
+4,com.github.f4b6a3.uuid.factory.AbstRandomBasedFactoryTest.lambda$testLongRandomWithFactory$16:281
+4,com.github.f4b6a3.uuid.factory.AbstRandomBasedFactoryTest.lambda$testLongRandomWithFactory$17:294
+4,com.github.f4b6a3.uuid.factory.AbstRandomBasedFactoryTest.lambda$testLongRandomWithFactory$12:233
+4,com.github.f4b6a3.uuid.factory.AbstRandomBasedFactoryTest.lambda$testLongRandomWithFactory$13:244
+4,com.github.f4b6a3.uuid.factory.AbstRandomBasedFactoryTest.lambda$testLongRandomWithFactory$14:255
+2,com.github.f4b6a3.uuid.util.UuidUtil.getClockSequence:327
+2,com.github.f4b6a3.uuid.util.UuidUtil.getNodeIdentifier:310
+2,com.github.f4b6a3.uuid.util.UuidUtil.getLocalDomain:347
+2,com.github.f4b6a3.uuid.util.UuidUtil.getLocalIdentifier:363
+1,com.github.f4b6a3.uuid.enums.UuidVersion.<clinit>:48
+1,com.github.f4b6a3.uuid.enums.UuidVariant.<clinit>:43
+1,com.github.f4b6a3.uuid.enums.UuidNamespace.<clinit>:49
+1,com.github.f4b6a3.uuid.enums.UuidLocalDomain.<clinit>:57
+1,com.github.f4b6a3.uuid.exception.InvalidUuidException.<clinit>:0
+1,com.github.f4b6a3.uuid.alt.GUID.<clinit>:73
+1,com.github.f4b6a3.uuid.factory.UuidFactoryTest$TestThread.<clinit>:117
+1,com.github.f4b6a3.uuid.factory.UuidFactoryTest$NameBasedTestThread.<clinit>:143
+1,com.github.f4b6a3.uuid.factory.rfc4122.NameBasedMd5FactoryTest$TestRunnable.<clinit>:0
+1,com.github.f4b6a3.uuid.factory.rfc4122.NameBasedSha1FactoryTest$TestRunnable.<clinit>:0
+1,com.github.f4b6a3.uuid.factory.function.impl.DefaultClockSeqFunctionTest$TestThread.<clinit>:159
+1,com.github.f4b6a3.uuid.factory.function.ClockSeqPoolTest$TestThread.<clinit>:128
+^^^ Last method that contains more than one event ^^^
+Starting com.github.f4b6a3.uuid.factory.function.impl.DefaultClockSeqFunctionTest.testGetClockSequenceUnique1:83
+Finish com.github.f4b6a3.uuid.factory.function.impl.DefaultClockSeqFunctionTest.testGetClockSequenceUnique1:83
+Starting com.github.f4b6a3.uuid.factory.rfc4122.NameBasedMd5FactoryTest$TestRunnable.run:449
+Finish com.github.f4b6a3.uuid.factory.rfc4122.NameBasedMd5FactoryTest$TestRunnable.run:449
+Starting com.github.f4b6a3.uuid.codec.UrnCodecTest.testIsUuidUrn:55
+Finish com.github.f4b6a3.uuid.codec.UrnCodecTest.testIsUuidUrn:55
+Starting com.github.f4b6a3.uuid.factory.function.impl.DefaultClockSeqFunctionTest.testGetClockSequenceUnique2:95
+Finish com.github.f4b6a3.uuid.factory.function.impl.DefaultClockSeqFunctionTest.testGetClockSequenceUnique2:95
+Starting com.github.f4b6a3.uuid.factory.rfc4122.NameBasedSha1FactoryTest$TestRunnable.run:448
+Finish com.github.f4b6a3.uuid.factory.rfc4122.NameBasedSha1FactoryTest$TestRunnable.run:448
+Starting com.github.f4b6a3.uuid.codec.UriCodecTest.testIsUuidUri:56
+Finish com.github.f4b6a3.uuid.codec.UriCodecTest.testIsUuidUri:56
+Starting com.github.f4b6a3.uuid.factory.rfc4122.TimeOrderedEpochFactoryTest.checkCreationTime:234
+Finish com.github.f4b6a3.uuid.factory.rfc4122.TimeOrderedEpochFactoryTest.checkCreationTime:234
+Starting com.github.f4b6a3.uuid.factory.function.ClockSeqPoolTest.testClockSequencePool2:51
+Finish com.github.f4b6a3.uuid.factory.function.ClockSeqPoolTest.testClockSequencePool2:51
+Starting com.github.f4b6a3.uuid.codec.UrnCodecTest.testDecodeInvalidUuidException:122
+Finish com.github.f4b6a3.uuid.codec.UrnCodecTest.testDecodeInvalidUuidException:122
+Starting com.github.f4b6a3.uuid.factory.function.ClockSeqPoolTest.testClockSequencePool1:35
+Finish com.github.f4b6a3.uuid.factory.function.ClockSeqPoolTest.testClockSequencePool1:35
+Starting com.github.f4b6a3.uuid.factory.nonstandard.SuffixCombFactoryTest.testGetSuffixCombInParallel:126
+Finish com.github.f4b6a3.uuid.factory.nonstandard.SuffixCombFactoryTest.testGetSuffixCombInParallel:126
+Starting com.github.f4b6a3.uuid.factory.nonstandard.ShortSuffixCombFactoryTest.checkOrdering:152
+Finish com.github.f4b6a3.uuid.factory.nonstandard.ShortSuffixCombFactoryTest.checkOrdering:152
+Starting com.github.f4b6a3.uuid.factory.function.ClockSeqPoolTest.testClockSequencePool5:102
+Finish com.github.f4b6a3.uuid.factory.function.ClockSeqPoolTest.testClockSequencePool5:102
+Starting com.github.f4b6a3.uuid.factory.nonstandard.PrefixCombFactoryTest.testGetPrefixCombInParallel:128
+Finish com.github.f4b6a3.uuid.factory.nonstandard.PrefixCombFactoryTest.testGetPrefixCombInParallel:128
+Starting com.github.f4b6a3.uuid.factory.nonstandard.SuffixCombFactoryTest.checkOrdering:177
+Finish com.github.f4b6a3.uuid.factory.nonstandard.SuffixCombFactoryTest.checkOrdering:177
+Starting com.github.f4b6a3.uuid.factory.function.ClockSeqPoolTest$TestThread.run:139
+Finish com.github.f4b6a3.uuid.factory.function.ClockSeqPoolTest$TestThread.run:139
+Starting com.github.f4b6a3.uuid.factory.rfc4122.NameBasedMd5FactoryTest.testGetNameBasedMd5InParallel1:376
+Finish com.github.f4b6a3.uuid.factory.rfc4122.NameBasedMd5FactoryTest.testGetNameBasedMd5InParallel1:376
+Starting com.github.f4b6a3.uuid.factory.UuidFactoryTest.checkOrdering:69
+Finish com.github.f4b6a3.uuid.factory.UuidFactoryTest.checkOrdering:69
+Starting com.github.f4b6a3.uuid.factory.UuidFactoryTest$NameBasedTestThread.getBytes:186
+Finish com.github.f4b6a3.uuid.factory.UuidFactoryTest$NameBasedTestThread.getBytes:186
+Starting com.github.f4b6a3.uuid.factory.rfc4122.TimeOrderedEpochFactoryTest.testGetTimeOrderedEpochInParallel:370
+Finish com.github.f4b6a3.uuid.factory.rfc4122.TimeOrderedEpochFactoryTest.testGetTimeOrderedEpochInParallel:370
+Starting com.github.f4b6a3.uuid.util.internal.SettingsUtilTest.testSetPropertyWith0x:46
+Finish com.github.f4b6a3.uuid.util.internal.SettingsUtilTest.testSetPropertyWith0x:46
+Starting com.github.f4b6a3.uuid.factory.function.impl.DefaultClockSeqFunctionTest$TestThread.run:170
+Finish com.github.f4b6a3.uuid.factory.function.impl.DefaultClockSeqFunctionTest$TestThread.run:170
+Starting com.github.f4b6a3.uuid.factory.rfc4122.TimeBasedFactoryTest.testGetTimeBasedInParallel:118
+Finish com.github.f4b6a3.uuid.factory.rfc4122.TimeBasedFactoryTest.testGetTimeBasedInParallel:118
+Starting com.github.f4b6a3.uuid.codec.base.BaseNCodec3SamplesTest.testDecodeBase58:76
+Finish com.github.f4b6a3.uuid.codec.base.BaseNCodec3SamplesTest.testDecodeBase58:76
+Starting com.github.f4b6a3.uuid.codec.UrnCodec.encode:68
+Finish com.github.f4b6a3.uuid.codec.UrnCodec.encode:68
+Starting com.github.f4b6a3.uuid.factory.rfc4122.NameBasedSha1FactoryTest.testGetNameBasedSha1InParallel2:397
+Finish com.github.f4b6a3.uuid.factory.rfc4122.NameBasedSha1FactoryTest.testGetNameBasedSha1InParallel2:397
+Starting com.github.f4b6a3.uuid.codec.base.BaseNCodec3SamplesTest.testDecodeBase62:117
+Finish com.github.f4b6a3.uuid.codec.base.BaseNCodec3SamplesTest.testDecodeBase62:117
+Starting com.github.f4b6a3.uuid.factory.function.impl.DefaultClockSeqFunctionTest.testNextClockSequenceInParallel:134
+Finish com.github.f4b6a3.uuid.factory.function.impl.DefaultClockSeqFunctionTest.testNextClockSequenceInParallel:134
+Starting com.github.f4b6a3.uuid.factory.nonstandard.ShortSuffixCombFactoryTest.testGetShortSuffixCombInParallel:132
+Finish com.github.f4b6a3.uuid.factory.nonstandard.ShortSuffixCombFactoryTest.testGetShortSuffixCombInParallel:132
+Starting com.github.f4b6a3.uuid.codec.UriCodecTest.testDecodeInvalidUuidException:123
+Finish com.github.f4b6a3.uuid.codec.UriCodecTest.testDecodeInvalidUuidException:123
+Starting com.github.f4b6a3.uuid.codec.StringCodecTest.testDecode:46
+Finish com.github.f4b6a3.uuid.codec.StringCodecTest.testDecode:46
+Starting com.github.f4b6a3.uuid.codec.UrnCodecTest.testDecode:32
+Finish com.github.f4b6a3.uuid.codec.UrnCodecTest.testDecode:32
+Starting com.github.f4b6a3.uuid.codec.base.BaseNCodec.decode:277
+Finish com.github.f4b6a3.uuid.codec.base.BaseNCodec.decode:277
+Starting com.github.f4b6a3.uuid.factory.AbstRandomBasedFactoryTest.lambda$testLongRandomWithFactory$16:281
+Finish com.github.f4b6a3.uuid.factory.AbstRandomBasedFactoryTest.lambda$testLongRandomWithFactory$16:281
+Starting com.github.f4b6a3.uuid.codec.base.BaseN.expand:289
+Finish com.github.f4b6a3.uuid.codec.base.BaseN.expand:289
+Starting com.github.f4b6a3.uuid.exception.InvalidUuidException.newInstance:64
+Finish com.github.f4b6a3.uuid.exception.InvalidUuidException.newInstance:64
+Starting com.github.f4b6a3.uuid.codec.other.SlugCodec.decode:170
+Finish com.github.f4b6a3.uuid.codec.other.SlugCodec.decode:170
+Starting com.github.f4b6a3.uuid.factory.AbstRandomBasedFactoryTest.lambda$testLongRandomWithFactory$17:294
+Finish com.github.f4b6a3.uuid.factory.AbstRandomBasedFactoryTest.lambda$testLongRandomWithFactory$17:294
+Starting com.github.f4b6a3.uuid.factory.nonstandard.SuffixCombFactoryTest.testGetSuffixCombCheckTime:62
+Finish com.github.f4b6a3.uuid.factory.nonstandard.SuffixCombFactoryTest.testGetSuffixCombCheckTime:62
+Starting com.github.f4b6a3.uuid.factory.rfc4122.TimeOrderedFactoryTest.testGetTimeOrderedInParallel:117
+Finish com.github.f4b6a3.uuid.factory.rfc4122.TimeOrderedFactoryTest.testGetTimeOrderedInParallel:117
+Starting com.github.f4b6a3.uuid.factory.nonstandard.ShortPrefixCombFactoryTest.checkOrdering:151
+Finish com.github.f4b6a3.uuid.factory.nonstandard.ShortPrefixCombFactoryTest.checkOrdering:151
+Starting com.github.f4b6a3.uuid.factory.UuidFactoryTest.checkUniqueness:79
+Finish com.github.f4b6a3.uuid.factory.UuidFactoryTest.checkUniqueness:79
+Starting com.github.f4b6a3.uuid.codec.UriCodecTest.testDecode:33
+Finish com.github.f4b6a3.uuid.codec.UriCodecTest.testDecode:33
+Starting com.github.f4b6a3.uuid.codec.base.BaseNCodec1Test.testInvalidUuidExceptionException:159
+Finish com.github.f4b6a3.uuid.codec.base.BaseNCodec1Test.testInvalidUuidExceptionException:159
+Starting com.github.f4b6a3.uuid.util.UuidUtil.getClockSequence:327
+Finish com.github.f4b6a3.uuid.util.UuidUtil.getClockSequence:327
+Starting com.github.f4b6a3.uuid.codec.other.SlugCodecTest.moveCharacters:177
+Finish com.github.f4b6a3.uuid.codec.other.SlugCodecTest.moveCharacters:177
+Starting com.github.f4b6a3.uuid.factory.rfc4122.NameBasedMd5FactoryTest.testGetNameBasedMd5InParallel2:398
+Finish com.github.f4b6a3.uuid.factory.rfc4122.NameBasedMd5FactoryTest.testGetNameBasedMd5InParallel2:398
+Starting com.github.f4b6a3.uuid.codec.base.BaseNCodec3SamplesTest.testDecodeBase36:33
+Finish com.github.f4b6a3.uuid.codec.base.BaseNCodec3SamplesTest.testDecodeBase36:33
+Starting com.github.f4b6a3.uuid.factory.rfc4122.TimeOrderedEpochFactoryTest.testWithFixedClock:394
+Finish com.github.f4b6a3.uuid.factory.rfc4122.TimeOrderedEpochFactoryTest.testWithFixedClock:394
+Starting com.github.f4b6a3.uuid.codec.UriCodecTest.checkPattern:174
+Finish com.github.f4b6a3.uuid.codec.UriCodecTest.checkPattern:174
+Starting com.github.f4b6a3.uuid.codec.StringCodecTest.testDecodeInvalidUuidException:147
+Finish com.github.f4b6a3.uuid.codec.StringCodecTest.testDecodeInvalidUuidException:147
+Starting com.github.f4b6a3.uuid.util.UuidUtil.getNodeIdentifier:310
+Finish com.github.f4b6a3.uuid.util.UuidUtil.getNodeIdentifier:310
+Starting com.github.f4b6a3.uuid.factory.rfc4122.NameBasedSha1FactoryTest.testNameBasedSha1:96
+Finish com.github.f4b6a3.uuid.factory.rfc4122.NameBasedSha1FactoryTest.testNameBasedSha1:96
+Starting com.github.f4b6a3.uuid.codec.other.NcnameCodec.decode:207
+Finish com.github.f4b6a3.uuid.codec.other.NcnameCodec.decode:207
+Starting com.github.f4b6a3.uuid.factory.rfc4122.RandomBasedFactoryTest.testGetRandomBasedInParallel:85
+Finish com.github.f4b6a3.uuid.factory.rfc4122.RandomBasedFactoryTest.testGetRandomBasedInParallel:85
+Starting com.github.f4b6a3.uuid.alt.GUID.<init>:177
+Finish com.github.f4b6a3.uuid.alt.GUID.<init>:177
+Starting com.github.f4b6a3.uuid.factory.nonstandard.ShortPrefixCombFactoryTest.testGetShortPrefixCombCheckTimeWithDifferentInterval:65
+Finish com.github.f4b6a3.uuid.factory.nonstandard.ShortPrefixCombFactoryTest.testGetShortPrefixCombCheckTimeWithDifferentInterval:65
+Starting com.github.f4b6a3.uuid.factory.rfc4122.NameBasedSha1FactoryTest.testGetNameBasedSha1InParallel1:375
+Finish com.github.f4b6a3.uuid.factory.rfc4122.NameBasedSha1FactoryTest.testGetNameBasedSha1InParallel1:375
+Starting com.github.f4b6a3.uuid.factory.nonstandard.PrefixCombFactoryTest.checkOrdering:179
+Finish com.github.f4b6a3.uuid.factory.nonstandard.PrefixCombFactoryTest.checkOrdering:179
+
+#1
+Inspecting hot method com.github.f4b6a3.uuid.factory.UuidFactoryTest$TestThread.run:132...
+Checking for isolation...
+20162016,2017,2016,1
+Total 20162016 (20160001 unique) events are in hot method
+Total 2017 (2 unique) traces are in hot method
+Total 2016 (1 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 2016 (1 unique) events are in isolated traces
+Total 21249236 (21249236 unique) events are in non-isolated traces (20160000 / 20160000 unique are in hot method)
+Specs that have isolated traces:
+	Thread_SetDaemonBeforeStart (2016 traces / 1 unique traces) (2016 events / 1 unique events)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (21249236 events / 21249236 unique events) (20160000 events / 20160000 unique events in hot method)
+Classifier (com.github.f4b6a3.uuid.factory.UuidFactoryTest$TestThread.run:132): LIB,ISOLATED_ONE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#2
+Inspecting hot method com.github.f4b6a3.uuid.factory.UuidFactoryTest.checkUniqueness:79...
+Checking for isolation...
+860400,1,0,1
+Total 860400 (860400 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 21249236 (21249236 unique) events are in non-isolated traces (860400 / 860400 unique are in hot method)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (21249236 events / 21249236 unique events) (860400 events / 860400 unique events in hot method)
+Classifier (com.github.f4b6a3.uuid.factory.UuidFactoryTest.checkUniqueness:79): LIB,NOT_REDUNDANT_TRACES
+
+#3
+Inspecting hot method com.github.f4b6a3.uuid.factory.rfc4122.TimeOrderedEpochFactoryTest.checkCreationTime:234...
+Checking for isolation...
+720000,160000,160000,0
+Total 720000 (9 unique) events are in hot method
+Total 160000 (2 unique) traces are in hot method
+Total 160000 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 720000 (9 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (80000 traces / 1 unique traces) (320000 events / 4 unique events)
+	StringBuilder_ThreadSafe (80000 traces / 1 unique traces) (400000 events / 5 unique events)
+Classifier (com.github.f4b6a3.uuid.factory.rfc4122.TimeOrderedEpochFactoryTest.checkCreationTime:234): LIB,ISOLATED_ONE_UNIQUE
+
+#4
+Inspecting hot method com.github.f4b6a3.uuid.factory.UuidFactoryTest$NameBasedTestThread.run:158...
+Checking for isolation...
+269248,90049,90048,1
+Total 269248 (44806 unique) events are in hot method
+Total 90049 (4 unique) traces are in hot method
+Total 90048 (3 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 224448 (6 unique) events are in isolated traces
+Total 21249236 (21249236 unique) events are in non-isolated traces (44800 / 44800 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (44800 traces / 1 unique traces) (89600 events / 2 unique events)
+	StringBuilder_ThreadSafe (44800 traces / 1 unique traces) (134400 events / 3 unique events)
+	Thread_SetDaemonBeforeStart (448 traces / 1 unique traces) (448 events / 1 unique events)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (21249236 events / 21249236 unique events) (44800 events / 44800 unique events in hot method)
+Classifier (com.github.f4b6a3.uuid.factory.UuidFactoryTest$NameBasedTestThread.run:158): LIB,ISOLATED_ONE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#5
+Inspecting hot method com.github.f4b6a3.uuid.factory.nonstandard.PrefixCombFactoryTest.testGetPrefixCombCheckTime:62...
+Checking for isolation...
+180000,40000,40000,0
+Total 180000 (9 unique) events are in hot method
+Total 40000 (2 unique) traces are in hot method
+Total 40000 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 180000 (9 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (20000 traces / 1 unique traces) (80000 events / 4 unique events)
+	StringBuilder_ThreadSafe (20000 traces / 1 unique traces) (100000 events / 5 unique events)
+Classifier (com.github.f4b6a3.uuid.factory.nonstandard.PrefixCombFactoryTest.testGetPrefixCombCheckTime:62): LIB,ISOLATED_ONE_UNIQUE
+
+#6
+Inspecting hot method com.github.f4b6a3.uuid.factory.nonstandard.ShortSuffixCombFactoryTest.testGetShortSuffixCombCheckTimeWithDifferentInterval:66...
+Checking for isolation...
+180000,40000,40000,0
+Total 180000 (9 unique) events are in hot method
+Total 40000 (2 unique) traces are in hot method
+Total 40000 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 180000 (9 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (20000 traces / 1 unique traces) (80000 events / 4 unique events)
+	StringBuilder_ThreadSafe (20000 traces / 1 unique traces) (100000 events / 5 unique events)
+Classifier (com.github.f4b6a3.uuid.factory.nonstandard.ShortSuffixCombFactoryTest.testGetShortSuffixCombCheckTimeWithDifferentInterval:66): LIB,ISOLATED_ONE_UNIQUE
+
+#7
+Inspecting hot method com.github.f4b6a3.uuid.factory.nonstandard.ShortSuffixCombFactoryTest.testGetShortSuffixCombCheckTime:41...
+Checking for isolation...
+180000,40000,40000,0
+Total 180000 (9 unique) events are in hot method
+Total 40000 (2 unique) traces are in hot method
+Total 40000 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 180000 (9 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (20000 traces / 1 unique traces) (80000 events / 4 unique events)
+	StringBuilder_ThreadSafe (20000 traces / 1 unique traces) (100000 events / 5 unique events)
+Classifier (com.github.f4b6a3.uuid.factory.nonstandard.ShortSuffixCombFactoryTest.testGetShortSuffixCombCheckTime:41): LIB,ISOLATED_ONE_UNIQUE
+
+#8
+Inspecting hot method com.github.f4b6a3.uuid.factory.nonstandard.ShortPrefixCombFactoryTest.testGetShortPrefixCombCheckTime:40...
+Checking for isolation...
+180000,40000,40000,0
+Total 180000 (9 unique) events are in hot method
+Total 40000 (2 unique) traces are in hot method
+Total 40000 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 180000 (9 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (20000 traces / 1 unique traces) (80000 events / 4 unique events)
+	StringBuilder_ThreadSafe (20000 traces / 1 unique traces) (100000 events / 5 unique events)
+Classifier (com.github.f4b6a3.uuid.factory.nonstandard.ShortPrefixCombFactoryTest.testGetShortPrefixCombCheckTime:40): LIB,ISOLATED_ONE_UNIQUE
+
+#9
+Inspecting hot method com.github.f4b6a3.uuid.factory.nonstandard.ShortPrefixCombFactoryTest.testGetShortPrefixCombCheckTimeWithDifferentInterval:65...
+Checking for isolation...
+180000,40000,40000,0
+Total 180000 (9 unique) events are in hot method
+Total 40000 (2 unique) traces are in hot method
+Total 40000 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 180000 (9 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (20000 traces / 1 unique traces) (80000 events / 4 unique events)
+	StringBuilder_ThreadSafe (20000 traces / 1 unique traces) (100000 events / 5 unique events)
+Classifier (com.github.f4b6a3.uuid.factory.nonstandard.ShortPrefixCombFactoryTest.testGetShortPrefixCombCheckTimeWithDifferentInterval:65): CUT,ISOLATED_ONE_UNIQUE
+
+#10
+Inspecting hot method com.github.f4b6a3.uuid.factory.nonstandard.SuffixCombFactoryTest.testGetSuffixCombCheckTime:62...
+Checking for isolation...
+180000,40000,40000,0
+Total 180000 (9 unique) events are in hot method
+Total 40000 (2 unique) traces are in hot method
+Total 40000 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 180000 (9 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (20000 traces / 1 unique traces) (80000 events / 4 unique events)
+	StringBuilder_ThreadSafe (20000 traces / 1 unique traces) (100000 events / 5 unique events)
+Classifier (com.github.f4b6a3.uuid.factory.nonstandard.SuffixCombFactoryTest.testGetSuffixCombCheckTime:62): CUT,ISOLATED_ONE_UNIQUE
+
+#11
+Inspecting hot method com.github.f4b6a3.uuid.factory.function.impl.DefaultClockSeqFunctionTest.testNextClockSequenceInParallel:134...
+Checking for isolation...
+65536,32769,32768,1
+Total 65536 (32769 unique) events are in hot method
+Total 32769 (2 unique) traces are in hot method
+Total 32768 (1 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 32768 (1 unique) events are in isolated traces
+Total 21249236 (21249236 unique) events are in non-isolated traces (32768 / 32768 unique are in hot method)
+Specs that have isolated traces:
+	Thread_StartOnce (32768 traces / 1 unique traces) (32768 events / 1 unique events)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (21249236 events / 21249236 unique events) (32768 events / 32768 unique events in hot method)
+Classifier (com.github.f4b6a3.uuid.factory.function.impl.DefaultClockSeqFunctionTest.testNextClockSequenceInParallel:134): LIB,ISOLATED_ONE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#12
+Inspecting hot method com.github.f4b6a3.uuid.factory.function.ClockSeqPoolTest.testClockSequencePool5:102...
+Checking for isolation...
+65536,32769,32768,1
+Total 65536 (32769 unique) events are in hot method
+Total 32769 (2 unique) traces are in hot method
+Total 32768 (1 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 32768 (1 unique) events are in isolated traces
+Total 21249236 (21249236 unique) events are in non-isolated traces (32768 / 32768 unique are in hot method)
+Specs that have isolated traces:
+	Thread_StartOnce (32768 traces / 1 unique traces) (32768 events / 1 unique events)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (21249236 events / 21249236 unique events) (32768 events / 32768 unique events in hot method)
+Classifier (com.github.f4b6a3.uuid.factory.function.ClockSeqPoolTest.testClockSequencePool5:102): LIB,ISOLATED_ONE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#13
+Inspecting hot method com.github.f4b6a3.uuid.factory.rfc4122.TimeOrderedEpochFactoryTest.testWithFixedClock:394...
+Checking for isolation...
+60000,3,2,1
+Total 60000 (60000 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 40000 (40000 unique) events are in isolated traces
+Total 21249236 (21249236 unique) events are in non-isolated traces (20000 / 20000 unique are in hot method)
+Specs that have isolated traces:
+	SortedSet_Comparable (1 traces / 1 unique traces) (20000 events / 20000 unique events)
+	TreeSet_Comparable (1 traces / 1 unique traces) (20000 events / 20000 unique events)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (21249236 events / 21249236 unique events) (20000 events / 20000 unique events in hot method)
+Classifier (com.github.f4b6a3.uuid.factory.rfc4122.TimeOrderedEpochFactoryTest.testWithFixedClock:394): LIB,NOT_REDUNDANT_TRACES
+
+#14
+Inspecting hot method com.github.f4b6a3.uuid.factory.UuidFactoryTest$NameBasedTestThread.getBytes:186...
+Checking for isolation...
+44800,1,0,1
+Total 44800 (44800 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 46416 (46416 unique) events are in non-isolated traces (44800 / 44800 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (46416 events / 46416 unique events) (44800 events / 44800 unique events in hot method)
+Classifier (com.github.f4b6a3.uuid.factory.UuidFactoryTest$NameBasedTestThread.getBytes:186): CUT,NOT_REDUNDANT_TRACES
+
+#15
+Inspecting hot method com.github.f4b6a3.uuid.factory.function.impl.DefaultClockSeqFunctionTest$TestThread.run:170...
+Checking for isolation...
+32768,32768,32768,0
+Total 32768 (1 unique) events are in hot method
+Total 32768 (1 unique) traces are in hot method
+Total 32768 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 32768 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Thread_SetDaemonBeforeStart (32768 traces / 1 unique traces) (32768 events / 1 unique events)
+Classifier (com.github.f4b6a3.uuid.factory.function.impl.DefaultClockSeqFunctionTest$TestThread.run:170): CUT,ISOLATED_ONE_UNIQUE
+
+#16
+Inspecting hot method com.github.f4b6a3.uuid.factory.function.ClockSeqPoolTest$TestThread.run:139...
+Checking for isolation...
+32768,32768,32768,0
+Total 32768 (1 unique) events are in hot method
+Total 32768 (1 unique) traces are in hot method
+Total 32768 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 32768 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Thread_SetDaemonBeforeStart (32768 traces / 1 unique traces) (32768 events / 1 unique events)
+Classifier (com.github.f4b6a3.uuid.factory.function.ClockSeqPoolTest$TestThread.run:139): CUT,ISOLATED_ONE_UNIQUE
+
+#17
+Inspecting hot method com.github.f4b6a3.uuid.factory.function.ClockSeqPoolTest.testClockSequencePool1:35...
+Checking for isolation...
+32768,1,0,1
+Total 32768 (32768 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 21249236 (21249236 unique) events are in non-isolated traces (32768 / 32768 unique are in hot method)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (21249236 events / 21249236 unique events) (32768 events / 32768 unique events in hot method)
+Classifier (com.github.f4b6a3.uuid.factory.function.ClockSeqPoolTest.testClockSequencePool1:35): LIB,NOT_REDUNDANT_TRACES
+
+#18
+Inspecting hot method com.github.f4b6a3.uuid.factory.function.impl.DefaultClockSeqFunctionTest.testGetClockSequenceUnique1:83...
+Checking for isolation...
+32766,1,0,1
+Total 32766 (32766 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 21249236 (21249236 unique) events are in non-isolated traces (32766 / 32766 unique are in hot method)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (21249236 events / 21249236 unique events) (32766 events / 32766 unique events in hot method)
+Classifier (com.github.f4b6a3.uuid.factory.function.impl.DefaultClockSeqFunctionTest.testGetClockSequenceUnique1:83): LIB,NOT_REDUNDANT_TRACES
+
+#19
+Inspecting hot method com.github.f4b6a3.uuid.factory.function.impl.DefaultClockSeqFunctionTest.testGetClockSequenceUnique2:95...
+Checking for isolation...
+32766,1,0,1
+Total 32766 (32766 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 21249236 (21249236 unique) events are in non-isolated traces (32766 / 32766 unique are in hot method)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (21249236 events / 21249236 unique events) (32766 events / 32766 unique events in hot method)
+Classifier (com.github.f4b6a3.uuid.factory.function.impl.DefaultClockSeqFunctionTest.testGetClockSequenceUnique2:95): LIB,NOT_REDUNDANT_TRACES
+
+#20
+Inspecting hot method com.github.f4b6a3.uuid.codec.other.SlugCodecTest.moveCharacters:177...
+Checking for isolation...
+7600,800,800,0
+Total 7600 (19 unique) events are in hot method
+Total 800 (2 unique) traces are in hot method
+Total 800 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 7600 (19 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (400 traces / 1 unique traces) (4000 events / 10 unique events)
+	Appendable_ThreadSafe (400 traces / 1 unique traces) (3600 events / 9 unique events)
+Classifier (com.github.f4b6a3.uuid.codec.other.SlugCodecTest.moveCharacters:177): CUT,ISOLATED_ONE_UNIQUE
+
+#21
+Inspecting hot method com.github.f4b6a3.uuid.codec.UrnCodec.encode:68...
+Checking for isolation...
+4040,1616,1616,0
+Total 4040 (5 unique) events are in hot method
+Total 1616 (2 unique) traces are in hot method
+Total 1616 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 4040 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (808 traces / 1 unique traces) (1616 events / 2 unique events)
+	StringBuilder_ThreadSafe (808 traces / 1 unique traces) (2424 events / 3 unique events)
+Classifier (com.github.f4b6a3.uuid.codec.UrnCodec.encode:68): CUT,ISOLATED_ONE_UNIQUE
+
+#22
+Inspecting hot method com.github.f4b6a3.uuid.codec.base.BaseN.expand:289...
+Checking for isolation...
+2743,264,264,0
+Total 2743 (438 unique) events are in hot method
+Total 264 (43 unique) traces are in hot method
+Total 264 (43 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2743 (438 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (133 traces / 22 unique traces) (1438 events / 230 unique events)
+	Appendable_ThreadSafe (131 traces / 21 unique traces) (1305 events / 208 unique events)
+Classifier (com.github.f4b6a3.uuid.codec.base.BaseN.expand:289): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#23
+Inspecting hot method com.github.f4b6a3.uuid.codec.StringCodecTest.testDecode:46...
+Checking for isolation...
+2400,800,800,0
+Total 2400 (12 unique) events are in hot method
+Total 800 (4 unique) traces are in hot method
+Total 800 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2400 (12 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (400 traces / 2 unique traces) (1400 events / 7 unique events)
+	Appendable_ThreadSafe (400 traces / 2 unique traces) (1000 events / 5 unique events)
+Classifier (com.github.f4b6a3.uuid.codec.StringCodecTest.testDecode:46): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#24
+Inspecting hot method com.github.f4b6a3.uuid.factory.rfc4122.NameBasedMd5FactoryTest.testNameBasedMd5:97...
+Checking for isolation...
+2000,800,800,0
+Total 2000 (10 unique) events are in hot method
+Total 800 (4 unique) traces are in hot method
+Total 800 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2000 (10 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (400 traces / 2 unique traces) (800 events / 4 unique events)
+	StringBuilder_ThreadSafe (400 traces / 2 unique traces) (1200 events / 6 unique events)
+Classifier (com.github.f4b6a3.uuid.factory.rfc4122.NameBasedMd5FactoryTest.testNameBasedMd5:97): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#25
+Inspecting hot method com.github.f4b6a3.uuid.factory.rfc4122.NameBasedSha1FactoryTest.testNameBasedSha1:96...
+Checking for isolation...
+2000,800,800,0
+Total 2000 (10 unique) events are in hot method
+Total 800 (4 unique) traces are in hot method
+Total 800 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2000 (10 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (400 traces / 2 unique traces) (1200 events / 6 unique events)
+	Appendable_ThreadSafe (400 traces / 2 unique traces) (800 events / 4 unique events)
+Classifier (com.github.f4b6a3.uuid.factory.rfc4122.NameBasedSha1FactoryTest.testNameBasedSha1:96): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#26
+Inspecting hot method com.github.f4b6a3.uuid.codec.StringCodecTest.checkPattern:295...
+Checking for isolation...
+2000,800,800,0
+Total 2000 (5 unique) events are in hot method
+Total 800 (2 unique) traces are in hot method
+Total 800 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2000 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (400 traces / 1 unique traces) (1200 events / 3 unique events)
+	Appendable_ThreadSafe (400 traces / 1 unique traces) (800 events / 2 unique events)
+Classifier (com.github.f4b6a3.uuid.codec.StringCodecTest.checkPattern:295): CUT,ISOLATED_ONE_UNIQUE
+
+#27
+Inspecting hot method com.github.f4b6a3.uuid.codec.other.NcnameCodec.decode:207...
+Checking for isolation...
+1472,584,584,0
+Total 1472 (21 unique) events are in hot method
+Total 584 (8 unique) traces are in hot method
+Total 584 (8 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1472 (21 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (280 traces / 3 unique traces) (864 events / 11 unique events)
+	Appendable_ThreadSafe (280 traces / 3 unique traces) (584 events / 8 unique events)
+	Throwable_InitCauseOnce (24 traces / 2 unique traces) (24 events / 2 unique events)
+Classifier (com.github.f4b6a3.uuid.codec.other.NcnameCodec.decode:207): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#28
+Inspecting hot method com.github.f4b6a3.uuid.codec.StringCodec.toCharArray:249...
+Checking for isolation...
+1218,3,2,1
+Total 1218 (1217 unique) events are in hot method
+Total 3 (2 unique) traces are in hot method
+Total 2 (1 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 2 (1 unique) events are in isolated traces
+Total 46416 (46416 unique) events are in non-isolated traces (1216 / 1216 unique are in hot method)
+Specs that have isolated traces:
+	Throwable_InitCauseOnce (2 traces / 1 unique traces) (2 events / 1 unique events)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (46416 events / 46416 unique events) (1216 events / 1216 unique events in hot method)
+Classifier (com.github.f4b6a3.uuid.codec.StringCodec.toCharArray:249): CUT,ISOLATED_ONE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#29
+Inspecting hot method com.github.f4b6a3.uuid.factory.function.ClockSeqPoolTest.testClockSequencePool2:51...
+Checking for isolation...
+1200,401,400,1
+Total 1200 (205 unique) events are in hot method
+Total 401 (3 unique) traces are in hot method
+Total 400 (2 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 1000 (5 unique) events are in isolated traces
+Total 21249236 (21249236 unique) events are in non-isolated traces (200 / 200 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (200 traces / 1 unique traces) (400 events / 2 unique events)
+	StringBuilder_ThreadSafe (200 traces / 1 unique traces) (600 events / 3 unique events)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (21249236 events / 21249236 unique events) (200 events / 200 unique events in hot method)
+Classifier (com.github.f4b6a3.uuid.factory.function.ClockSeqPoolTest.testClockSequencePool2:51): CUT,ISOLATED_ONE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#30
+Inspecting hot method com.github.f4b6a3.uuid.codec.other.NcnameCodec.encode:173...
+Checking for isolation...
+1180,472,472,0
+Total 1180 (5 unique) events are in hot method
+Total 472 (2 unique) traces are in hot method
+Total 472 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1180 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (236 traces / 1 unique traces) (708 events / 3 unique events)
+	Appendable_ThreadSafe (236 traces / 1 unique traces) (472 events / 2 unique events)
+Classifier (com.github.f4b6a3.uuid.codec.other.NcnameCodec.encode:173): CUT,ISOLATED_ONE_UNIQUE
+
+#31
+Inspecting hot method com.github.f4b6a3.uuid.exception.InvalidUuidException.newInstance:64...
+Checking for isolation...
+1044,432,432,0
+Total 1044 (13 unique) events are in hot method
+Total 432 (5 unique) traces are in hot method
+Total 432 (5 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1044 (13 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (164 traces / 2 unique traces) (388 events / 5 unique events)
+	StringBuilder_ThreadSafe (164 traces / 2 unique traces) (552 events / 7 unique events)
+	Throwable_InitCauseOnce (104 traces / 1 unique traces) (104 events / 1 unique events)
+Classifier (com.github.f4b6a3.uuid.exception.InvalidUuidException.newInstance:64): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE
+
+#32
+Inspecting hot method com.github.f4b6a3.uuid.codec.UrnCodecTest.testDecode:32...
+Checking for isolation...
+1000,400,400,0
+Total 1000 (5 unique) events are in hot method
+Total 400 (2 unique) traces are in hot method
+Total 400 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1000 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (200 traces / 1 unique traces) (400 events / 2 unique events)
+	StringBuilder_ThreadSafe (200 traces / 1 unique traces) (600 events / 3 unique events)
+Classifier (com.github.f4b6a3.uuid.codec.UrnCodecTest.testDecode:32): CUT,ISOLATED_ONE_UNIQUE
+
+#33
+Inspecting hot method com.github.f4b6a3.uuid.codec.UrnCodecTest.testEncode:20...
+Checking for isolation...
+1000,400,400,0
+Total 1000 (5 unique) events are in hot method
+Total 400 (2 unique) traces are in hot method
+Total 400 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1000 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (200 traces / 1 unique traces) (400 events / 2 unique events)
+	StringBuilder_ThreadSafe (200 traces / 1 unique traces) (600 events / 3 unique events)
+Classifier (com.github.f4b6a3.uuid.codec.UrnCodecTest.testEncode:20): CUT,ISOLATED_ONE_UNIQUE
+
+#34
+Inspecting hot method com.github.f4b6a3.uuid.codec.UrnCodecTest.checkPattern:173...
+Checking for isolation...
+1000,400,400,0
+Total 1000 (5 unique) events are in hot method
+Total 400 (2 unique) traces are in hot method
+Total 400 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1000 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (200 traces / 1 unique traces) (400 events / 2 unique events)
+	StringBuilder_ThreadSafe (200 traces / 1 unique traces) (600 events / 3 unique events)
+Classifier (com.github.f4b6a3.uuid.codec.UrnCodecTest.checkPattern:173): CUT,ISOLATED_ONE_UNIQUE
+
+#35
+Inspecting hot method com.github.f4b6a3.uuid.codec.UriCodecTest.testDecode:33...
+Checking for isolation...
+1000,400,400,0
+Total 1000 (5 unique) events are in hot method
+Total 400 (2 unique) traces are in hot method
+Total 400 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1000 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (200 traces / 1 unique traces) (600 events / 3 unique events)
+	Appendable_ThreadSafe (200 traces / 1 unique traces) (400 events / 2 unique events)
+Classifier (com.github.f4b6a3.uuid.codec.UriCodecTest.testDecode:33): CUT,ISOLATED_ONE_UNIQUE
+
+#36
+Inspecting hot method com.github.f4b6a3.uuid.codec.UriCodecTest.checkPattern:174...
+Checking for isolation...
+1000,400,400,0
+Total 1000 (5 unique) events are in hot method
+Total 400 (2 unique) traces are in hot method
+Total 400 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1000 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (200 traces / 1 unique traces) (600 events / 3 unique events)
+	Appendable_ThreadSafe (200 traces / 1 unique traces) (400 events / 2 unique events)
+Classifier (com.github.f4b6a3.uuid.codec.UriCodecTest.checkPattern:174): CUT,ISOLATED_ONE_UNIQUE
+
+#37
+Inspecting hot method com.github.f4b6a3.uuid.codec.UriCodecTest.testEncode:21...
+Checking for isolation...
+1000,400,400,0
+Total 1000 (5 unique) events are in hot method
+Total 400 (2 unique) traces are in hot method
+Total 400 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1000 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (200 traces / 1 unique traces) (600 events / 3 unique events)
+	Appendable_ThreadSafe (200 traces / 1 unique traces) (400 events / 2 unique events)
+Classifier (com.github.f4b6a3.uuid.codec.UriCodecTest.testEncode:21): CUT,ISOLATED_ONE_UNIQUE
+
+#38
+Inspecting hot method com.github.f4b6a3.uuid.codec.base.BaseNCodec1Test.getPadded:231...
+Checking for isolation...
+400,1,0,1
+Total 400 (400 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 46416 (46416 unique) events are in non-isolated traces (400 / 400 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (46416 events / 46416 unique events) (400 events / 400 unique events in hot method)
+Classifier (com.github.f4b6a3.uuid.codec.base.BaseNCodec1Test.getPadded:231): CUT,NOT_REDUNDANT_TRACES
+
+#39
+Inspecting hot method com.github.f4b6a3.uuid.factory.rfc4122.NameBasedMd5FactoryTest$TestRunnable.run:449...
+Checking for isolation...
+224,224,224,0
+Total 224 (1 unique) events are in hot method
+Total 224 (1 unique) traces are in hot method
+Total 224 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 224 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Thread_SetDaemonBeforeStart (224 traces / 1 unique traces) (224 events / 1 unique events)
+Classifier (com.github.f4b6a3.uuid.factory.rfc4122.NameBasedMd5FactoryTest$TestRunnable.run:449): CUT,ISOLATED_ONE_UNIQUE
+
+#40
+Inspecting hot method com.github.f4b6a3.uuid.factory.rfc4122.NameBasedSha1FactoryTest$TestRunnable.run:448...
+Checking for isolation...
+224,224,224,0
+Total 224 (1 unique) events are in hot method
+Total 224 (1 unique) traces are in hot method
+Total 224 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 224 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Thread_SetDaemonBeforeStart (224 traces / 1 unique traces) (224 events / 1 unique events)
+Classifier (com.github.f4b6a3.uuid.factory.rfc4122.NameBasedSha1FactoryTest$TestRunnable.run:448): CUT,ISOLATED_ONE_UNIQUE
+
+#41
+Inspecting hot method com.github.f4b6a3.uuid.factory.nonstandard.SuffixCombFactoryTest.testGetSuffixCombInParallel:126...
+Checking for isolation...
+224,224,224,0
+Total 224 (1 unique) events are in hot method
+Total 224 (1 unique) traces are in hot method
+Total 224 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 224 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Thread_StartOnce (224 traces / 1 unique traces) (224 events / 1 unique events)
+Classifier (com.github.f4b6a3.uuid.factory.nonstandard.SuffixCombFactoryTest.testGetSuffixCombInParallel:126): CUT,ISOLATED_ONE_UNIQUE
+
+#42
+Inspecting hot method com.github.f4b6a3.uuid.factory.nonstandard.ShortSuffixCombFactoryTest.testGetShortSuffixCombInParallel:132...
+Checking for isolation...
+224,224,224,0
+Total 224 (1 unique) events are in hot method
+Total 224 (1 unique) traces are in hot method
+Total 224 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 224 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Thread_StartOnce (224 traces / 1 unique traces) (224 events / 1 unique events)
+Classifier (com.github.f4b6a3.uuid.factory.nonstandard.ShortSuffixCombFactoryTest.testGetShortSuffixCombInParallel:132): CUT,ISOLATED_ONE_UNIQUE
+
+#43
+Inspecting hot method com.github.f4b6a3.uuid.factory.nonstandard.PrefixCombFactoryTest.testGetPrefixCombInParallel:128...
+Checking for isolation...
+224,224,224,0
+Total 224 (1 unique) events are in hot method
+Total 224 (1 unique) traces are in hot method
+Total 224 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 224 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Thread_StartOnce (224 traces / 1 unique traces) (224 events / 1 unique events)
+Classifier (com.github.f4b6a3.uuid.factory.nonstandard.PrefixCombFactoryTest.testGetPrefixCombInParallel:128): CUT,ISOLATED_ONE_UNIQUE
+
+#44
+Inspecting hot method com.github.f4b6a3.uuid.factory.rfc4122.NameBasedMd5FactoryTest.testGetNameBasedMd5InParallel1:376...
+Checking for isolation...
+224,224,224,0
+Total 224 (1 unique) events are in hot method
+Total 224 (1 unique) traces are in hot method
+Total 224 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 224 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Thread_StartOnce (224 traces / 1 unique traces) (224 events / 1 unique events)
+Classifier (com.github.f4b6a3.uuid.factory.rfc4122.NameBasedMd5FactoryTest.testGetNameBasedMd5InParallel1:376): CUT,ISOLATED_ONE_UNIQUE
+
+#45
+Inspecting hot method com.github.f4b6a3.uuid.factory.rfc4122.TimeOrderedEpochFactoryTest.testGetTimeOrderedEpochInParallel:370...
+Checking for isolation...
+224,224,224,0
+Total 224 (1 unique) events are in hot method
+Total 224 (1 unique) traces are in hot method
+Total 224 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 224 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Thread_StartOnce (224 traces / 1 unique traces) (224 events / 1 unique events)
+Classifier (com.github.f4b6a3.uuid.factory.rfc4122.TimeOrderedEpochFactoryTest.testGetTimeOrderedEpochInParallel:370): CUT,ISOLATED_ONE_UNIQUE
+
+#46
+Inspecting hot method com.github.f4b6a3.uuid.factory.rfc4122.NameBasedMd5FactoryTest.testGetNameBasedMd5InParallel2:398...
+Checking for isolation...
+224,224,224,0
+Total 224 (1 unique) events are in hot method
+Total 224 (1 unique) traces are in hot method
+Total 224 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 224 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Thread_StartOnce (224 traces / 1 unique traces) (224 events / 1 unique events)
+Classifier (com.github.f4b6a3.uuid.factory.rfc4122.NameBasedMd5FactoryTest.testGetNameBasedMd5InParallel2:398): CUT,ISOLATED_ONE_UNIQUE
+
+#47
+Inspecting hot method com.github.f4b6a3.uuid.factory.rfc4122.TimeBasedFactoryTest.testGetTimeBasedInParallel:118...
+Checking for isolation...
+224,224,224,0
+Total 224 (1 unique) events are in hot method
+Total 224 (1 unique) traces are in hot method
+Total 224 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 224 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Thread_StartOnce (224 traces / 1 unique traces) (224 events / 1 unique events)
+Classifier (com.github.f4b6a3.uuid.factory.rfc4122.TimeBasedFactoryTest.testGetTimeBasedInParallel:118): CUT,ISOLATED_ONE_UNIQUE
+
+#48
+Inspecting hot method com.github.f4b6a3.uuid.factory.rfc4122.NameBasedSha1FactoryTest.testGetNameBasedSha1InParallel1:375...
+Checking for isolation...
+224,224,224,0
+Total 224 (1 unique) events are in hot method
+Total 224 (1 unique) traces are in hot method
+Total 224 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 224 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Thread_StartOnce (224 traces / 1 unique traces) (224 events / 1 unique events)
+Classifier (com.github.f4b6a3.uuid.factory.rfc4122.NameBasedSha1FactoryTest.testGetNameBasedSha1InParallel1:375): CUT,ISOLATED_ONE_UNIQUE
+
+#49
+Inspecting hot method com.github.f4b6a3.uuid.factory.rfc4122.NameBasedSha1FactoryTest.testGetNameBasedSha1InParallel2:397...
+Checking for isolation...
+224,224,224,0
+Total 224 (1 unique) events are in hot method
+Total 224 (1 unique) traces are in hot method
+Total 224 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 224 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Thread_StartOnce (224 traces / 1 unique traces) (224 events / 1 unique events)
+Classifier (com.github.f4b6a3.uuid.factory.rfc4122.NameBasedSha1FactoryTest.testGetNameBasedSha1InParallel2:397): CUT,ISOLATED_ONE_UNIQUE
+
+#50
+Inspecting hot method com.github.f4b6a3.uuid.factory.rfc4122.TimeOrderedFactoryTest.testGetTimeOrderedInParallel:117...
+Checking for isolation...
+224,224,224,0
+Total 224 (1 unique) events are in hot method
+Total 224 (1 unique) traces are in hot method
+Total 224 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 224 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Thread_StartOnce (224 traces / 1 unique traces) (224 events / 1 unique events)
+Classifier (com.github.f4b6a3.uuid.factory.rfc4122.TimeOrderedFactoryTest.testGetTimeOrderedInParallel:117): CUT,ISOLATED_ONE_UNIQUE
+
+#51
+Inspecting hot method com.github.f4b6a3.uuid.factory.rfc4122.RandomBasedFactoryTest.testGetRandomBasedFastInParallel:106...
+Checking for isolation...
+224,224,224,0
+Total 224 (1 unique) events are in hot method
+Total 224 (1 unique) traces are in hot method
+Total 224 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 224 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Thread_StartOnce (224 traces / 1 unique traces) (224 events / 1 unique events)
+Classifier (com.github.f4b6a3.uuid.factory.rfc4122.RandomBasedFactoryTest.testGetRandomBasedFastInParallel:106): CUT,ISOLATED_ONE_UNIQUE
+
+#52
+Inspecting hot method com.github.f4b6a3.uuid.factory.rfc4122.RandomBasedFactoryTest.testGetRandomBasedInParallel:85...
+Checking for isolation...
+224,224,224,0
+Total 224 (1 unique) events are in hot method
+Total 224 (1 unique) traces are in hot method
+Total 224 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 224 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Thread_StartOnce (224 traces / 1 unique traces) (224 events / 1 unique events)
+Classifier (com.github.f4b6a3.uuid.factory.rfc4122.RandomBasedFactoryTest.testGetRandomBasedInParallel:85): CUT,ISOLATED_ONE_UNIQUE
+
+#53
+Inspecting hot method com.github.f4b6a3.uuid.factory.nonstandard.ShortPrefixCombFactoryTest.testGetShortPrefixCombInParallel:131...
+Checking for isolation...
+224,224,224,0
+Total 224 (1 unique) events are in hot method
+Total 224 (1 unique) traces are in hot method
+Total 224 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 224 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Thread_StartOnce (224 traces / 1 unique traces) (224 events / 1 unique events)
+Classifier (com.github.f4b6a3.uuid.factory.nonstandard.ShortPrefixCombFactoryTest.testGetShortPrefixCombInParallel:131): CUT,ISOLATED_ONE_UNIQUE
+
+#54
+Inspecting hot method com.github.f4b6a3.uuid.alt.GUID$Parser.parse:587...
+Checking for isolation...
+120,60,60,0
+Total 120 (6 unique) events are in hot method
+Total 60 (3 unique) traces are in hot method
+Total 60 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 120 (6 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (20 traces / 1 unique traces) (40 events / 2 unique events)
+	Throwable_InitCauseOnce (20 traces / 1 unique traces) (20 events / 1 unique events)
+	StringBuilder_ThreadSafe (20 traces / 1 unique traces) (60 events / 3 unique events)
+Classifier (com.github.f4b6a3.uuid.alt.GUID$Parser.parse:587): CUT,ISOLATED_ONE_UNIQUE
+
+#55
+Inspecting hot method com.github.f4b6a3.uuid.codec.other.SlugCodec.decode:170...
+Checking for isolation...
+80,30,30,0
+Total 80 (8 unique) events are in hot method
+Total 30 (3 unique) traces are in hot method
+Total 30 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 80 (8 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (10 traces / 1 unique traces) (40 events / 4 unique events)
+	Throwable_InitCauseOnce (10 traces / 1 unique traces) (10 events / 1 unique events)
+	Appendable_ThreadSafe (10 traces / 1 unique traces) (30 events / 3 unique events)
+Classifier (com.github.f4b6a3.uuid.codec.other.SlugCodec.decode:170): CUT,ISOLATED_ONE_UNIQUE
+
+#56
+Inspecting hot method com.github.f4b6a3.uuid.codec.base.BaseNCodec.decode:277...
+Checking for isolation...
+54,54,54,0
+Total 54 (1 unique) events are in hot method
+Total 54 (1 unique) traces are in hot method
+Total 54 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 54 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Throwable_InitCauseOnce (54 traces / 1 unique traces) (54 events / 1 unique events)
+Classifier (com.github.f4b6a3.uuid.codec.base.BaseNCodec.decode:277): CUT,ISOLATED_ONE_UNIQUE
+
+#57
+Inspecting hot method com.github.f4b6a3.uuid.codec.base.function.BaseNRemainderDecoder.apply:58...
+Checking for isolation...
+48,18,18,0
+Total 48 (8 unique) events are in hot method
+Total 18 (3 unique) traces are in hot method
+Total 18 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 48 (8 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (6 traces / 1 unique traces) (24 events / 4 unique events)
+	Appendable_ThreadSafe (6 traces / 1 unique traces) (18 events / 3 unique events)
+	Throwable_InitCauseOnce (6 traces / 1 unique traces) (6 events / 1 unique events)
+Classifier (com.github.f4b6a3.uuid.codec.base.function.BaseNRemainderDecoder.apply:58): CUT,ISOLATED_ONE_UNIQUE
+
+#58
+Inspecting hot method com.github.f4b6a3.uuid.factory.AbstRandomBasedFactoryTest.testLongRandomWithFactory:229...
+Checking for isolation...
+44,20,8,12
+Total 44 (22 unique) events are in hot method
+Total 20 (10 unique) traces are in hot method
+Total 8 (4 unique) isolated traces are in hot method
+Total 12 (6 unique) non-isolated traces that have events in hot method
+Total 20 (10 unique) events are in isolated traces
+Total 48 (24 unique) events are in non-isolated traces (24 / 12 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (4 traces / 2 unique traces) (8 events / 4 unique events)
+	StringBuilder_ThreadSafe (4 traces / 2 unique traces) (12 events / 6 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (12 traces / 6 unique traces) (48 events / 24 unique events) (24 events / 12 unique events in hot method)
+Classifier (com.github.f4b6a3.uuid.factory.AbstRandomBasedFactoryTest.testLongRandomWithFactory:229): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#59
+Inspecting hot method com.github.f4b6a3.uuid.codec.base.BaseNCodec1Test.testInvalidUuidExceptionException:159...
+Checking for isolation...
+40,16,16,0
+Total 40 (20 unique) events are in hot method
+Total 16 (8 unique) traces are in hot method
+Total 16 (8 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 40 (20 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (8 traces / 4 unique traces) (24 events / 12 unique events)
+	Appendable_ThreadSafe (8 traces / 4 unique traces) (16 events / 8 unique events)
+Classifier (com.github.f4b6a3.uuid.codec.base.BaseNCodec1Test.testInvalidUuidExceptionException:159): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#60
+Inspecting hot method com.github.f4b6a3.uuid.codec.StringCodecTest.testDecodeInvalidUuidException:147...
+Checking for isolation...
+34,12,12,0
+Total 34 (17 unique) events are in hot method
+Total 12 (6 unique) traces are in hot method
+Total 12 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 34 (17 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (6 traces / 3 unique traces) (14 events / 7 unique events)
+	StringBuilder_ThreadSafe (6 traces / 3 unique traces) (20 events / 10 unique events)
+Classifier (com.github.f4b6a3.uuid.codec.StringCodecTest.testDecodeInvalidUuidException:147): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#61
+Inspecting hot method com.github.f4b6a3.uuid.factory.rfc4122.TimeOrderedEpochFactoryTest.checkOrdering:511...
+Checking for isolation...
+30,30,30,0
+Total 30 (1 unique) events are in hot method
+Total 30 (1 unique) traces are in hot method
+Total 30 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 30 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Arrays_SortBeforeBinarySearch (30 traces / 1 unique traces) (30 events / 1 unique events)
+Classifier (com.github.f4b6a3.uuid.factory.rfc4122.TimeOrderedEpochFactoryTest.checkOrdering:511): CUT,ISOLATED_ONE_UNIQUE
+
+#62
+Inspecting hot method com.github.f4b6a3.uuid.codec.StringCodecTest.testToCharArray:232...
+Checking for isolation...
+24,8,8,0
+Total 24 (12 unique) events are in hot method
+Total 8 (4 unique) traces are in hot method
+Total 8 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 24 (12 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (4 traces / 2 unique traces) (14 events / 7 unique events)
+	Appendable_ThreadSafe (4 traces / 2 unique traces) (10 events / 5 unique events)
+Classifier (com.github.f4b6a3.uuid.codec.StringCodecTest.testToCharArray:232): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#63
+Inspecting hot method com.github.f4b6a3.uuid.codec.UrnCodecTest.testIsUuidUrn:55...
+Checking for isolation...
+20,8,8,0
+Total 20 (10 unique) events are in hot method
+Total 8 (4 unique) traces are in hot method
+Total 8 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 20 (10 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (4 traces / 2 unique traces) (8 events / 4 unique events)
+	StringBuilder_ThreadSafe (4 traces / 2 unique traces) (12 events / 6 unique events)
+Classifier (com.github.f4b6a3.uuid.codec.UrnCodecTest.testIsUuidUrn:55): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#64
+Inspecting hot method com.github.f4b6a3.uuid.codec.UriCodecTest.testIsUuidUri:56...
+Checking for isolation...
+20,8,8,0
+Total 20 (10 unique) events are in hot method
+Total 8 (4 unique) traces are in hot method
+Total 8 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 20 (10 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (4 traces / 2 unique traces) (12 events / 6 unique events)
+	Appendable_ThreadSafe (4 traces / 2 unique traces) (8 events / 4 unique events)
+Classifier (com.github.f4b6a3.uuid.codec.UriCodecTest.testIsUuidUri:56): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#65
+Inspecting hot method com.github.f4b6a3.uuid.codec.UrnCodecTest.testDecodeInvalidUuidException:122...
+Checking for isolation...
+20,8,8,0
+Total 20 (10 unique) events are in hot method
+Total 8 (4 unique) traces are in hot method
+Total 8 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 20 (10 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (4 traces / 2 unique traces) (8 events / 4 unique events)
+	StringBuilder_ThreadSafe (4 traces / 2 unique traces) (12 events / 6 unique events)
+Classifier (com.github.f4b6a3.uuid.codec.UrnCodecTest.testDecodeInvalidUuidException:122): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#66
+Inspecting hot method com.github.f4b6a3.uuid.codec.UriCodecTest.testDecodeInvalidUuidException:123...
+Checking for isolation...
+20,8,8,0
+Total 20 (10 unique) events are in hot method
+Total 8 (4 unique) traces are in hot method
+Total 8 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 20 (10 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (4 traces / 2 unique traces) (12 events / 6 unique events)
+	Appendable_ThreadSafe (4 traces / 2 unique traces) (8 events / 4 unique events)
+Classifier (com.github.f4b6a3.uuid.codec.UriCodecTest.testDecodeInvalidUuidException:123): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#67
+Inspecting hot method com.github.f4b6a3.uuid.factory.nonstandard.ShortSuffixCombFactoryTest.checkOrdering:152...
+Checking for isolation...
+20,11,10,1
+Total 20 (11 unique) events are in hot method
+Total 11 (2 unique) traces are in hot method
+Total 10 (1 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 10 (1 unique) events are in isolated traces
+Total 18 (18 unique) events are in non-isolated traces (10 / 10 unique are in hot method)
+Specs that have isolated traces:
+	Arrays_SortBeforeBinarySearch (10 traces / 1 unique traces) (10 events / 1 unique events)
+Specs that have non-isolated traces:
+	Arrays_MutuallyComparable (1 traces / 1 unique traces) (18 events / 18 unique events) (10 events / 10 unique events in hot method)
+Classifier (com.github.f4b6a3.uuid.factory.nonstandard.ShortSuffixCombFactoryTest.checkOrdering:152): CUT,ISOLATED_ONE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#68
+Inspecting hot method com.github.f4b6a3.uuid.factory.nonstandard.SuffixCombFactoryTest.checkOrdering:177...
+Checking for isolation...
+16,9,8,1
+Total 16 (9 unique) events are in hot method
+Total 9 (2 unique) traces are in hot method
+Total 8 (1 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 8 (1 unique) events are in isolated traces
+Total 18 (18 unique) events are in non-isolated traces (8 / 8 unique are in hot method)
+Specs that have isolated traces:
+	Arrays_SortBeforeBinarySearch (8 traces / 1 unique traces) (8 events / 1 unique events)
+Specs that have non-isolated traces:
+	Arrays_MutuallyComparable (1 traces / 1 unique traces) (18 events / 18 unique events) (8 events / 8 unique events in hot method)
+Classifier (com.github.f4b6a3.uuid.factory.nonstandard.SuffixCombFactoryTest.checkOrdering:177): CUT,ISOLATED_ONE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#69
+Inspecting hot method com.github.f4b6a3.uuid.factory.UuidFactoryTest.checkOrdering:69...
+Checking for isolation...
+12,12,12,0
+Total 12 (1 unique) events are in hot method
+Total 12 (1 unique) traces are in hot method
+Total 12 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 12 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Arrays_SortBeforeBinarySearch (12 traces / 1 unique traces) (12 events / 1 unique events)
+Classifier (com.github.f4b6a3.uuid.factory.UuidFactoryTest.checkOrdering:69): CUT,ISOLATED_ONE_UNIQUE
+
+#70
+Inspecting hot method com.github.f4b6a3.uuid.util.internal.SettingsUtilTest.testSetPropertyWith0x:46...
+Checking for isolation...
+10,4,4,0
+Total 10 (5 unique) events are in hot method
+Total 4 (2 unique) traces are in hot method
+Total 4 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 10 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (2 traces / 1 unique traces) (4 events / 2 unique events)
+	StringBuilder_ThreadSafe (2 traces / 1 unique traces) (6 events / 3 unique events)
+Classifier (com.github.f4b6a3.uuid.util.internal.SettingsUtilTest.testSetPropertyWith0x:46): CUT,ISOLATED_ONE_UNIQUE
+
+#71
+Inspecting hot method com.github.f4b6a3.uuid.codec.base.BaseNCodec3SamplesTest.testDecodeBase58:76...
+Checking for isolation...
+10,4,4,0
+Total 10 (5 unique) events are in hot method
+Total 4 (2 unique) traces are in hot method
+Total 4 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 10 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (2 traces / 1 unique traces) (6 events / 3 unique events)
+	Appendable_ThreadSafe (2 traces / 1 unique traces) (4 events / 2 unique events)
+Classifier (com.github.f4b6a3.uuid.codec.base.BaseNCodec3SamplesTest.testDecodeBase58:76): CUT,ISOLATED_ONE_UNIQUE
+
+#72
+Inspecting hot method com.github.f4b6a3.uuid.codec.base.BaseNCodec3SamplesTest.testDecodeBase36:33...
+Checking for isolation...
+10,4,4,0
+Total 10 (5 unique) events are in hot method
+Total 4 (2 unique) traces are in hot method
+Total 4 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 10 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (2 traces / 1 unique traces) (6 events / 3 unique events)
+	Appendable_ThreadSafe (2 traces / 1 unique traces) (4 events / 2 unique events)
+Classifier (com.github.f4b6a3.uuid.codec.base.BaseNCodec3SamplesTest.testDecodeBase36:33): CUT,ISOLATED_ONE_UNIQUE
+
+#73
+Inspecting hot method com.github.f4b6a3.uuid.codec.base.BaseNCodec3SamplesTest.testDecodeBase62:117...
+Checking for isolation...
+10,4,4,0
+Total 10 (5 unique) events are in hot method
+Total 4 (2 unique) traces are in hot method
+Total 4 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 10 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (2 traces / 1 unique traces) (6 events / 3 unique events)
+	Appendable_ThreadSafe (2 traces / 1 unique traces) (4 events / 2 unique events)
+Classifier (com.github.f4b6a3.uuid.codec.base.BaseNCodec3SamplesTest.testDecodeBase62:117): CUT,ISOLATED_ONE_UNIQUE
+
+#74
+Inspecting hot method com.github.f4b6a3.uuid.factory.nonstandard.ShortPrefixCombFactoryTest.checkOrdering:151...
+Checking for isolation...
+10,10,10,0
+Total 10 (1 unique) events are in hot method
+Total 10 (1 unique) traces are in hot method
+Total 10 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 10 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Arrays_SortBeforeBinarySearch (10 traces / 1 unique traces) (10 events / 1 unique events)
+Classifier (com.github.f4b6a3.uuid.factory.nonstandard.ShortPrefixCombFactoryTest.checkOrdering:151): CUT,ISOLATED_ONE_UNIQUE
+
+#75
+Inspecting hot method com.github.f4b6a3.uuid.factory.nonstandard.PrefixCombFactoryTest.checkOrdering:179...
+Checking for isolation...
+8,8,8,0
+Total 8 (1 unique) events are in hot method
+Total 8 (1 unique) traces are in hot method
+Total 8 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 8 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Arrays_SortBeforeBinarySearch (8 traces / 1 unique traces) (8 events / 1 unique events)
+Classifier (com.github.f4b6a3.uuid.factory.nonstandard.PrefixCombFactoryTest.checkOrdering:179): CUT,ISOLATED_ONE_UNIQUE
+
+#76
+Inspecting hot method com.github.f4b6a3.uuid.util.UuidUtil.getGregTimestamp:289...
+Checking for isolation...
+4,4,4,0
+Total 4 (1 unique) events are in hot method
+Total 4 (1 unique) traces are in hot method
+Total 4 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 4 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Throwable_InitCauseOnce (4 traces / 1 unique traces) (4 events / 1 unique events)
+Classifier (com.github.f4b6a3.uuid.util.UuidUtil.getGregTimestamp:289): CUT,ISOLATED_ONE_UNIQUE
+
+#77
+Inspecting hot method com.github.f4b6a3.uuid.alt.GUID.<init>:177...
+Checking for isolation...
+4,4,4,0
+Total 4 (1 unique) events are in hot method
+Total 4 (1 unique) traces are in hot method
+Total 4 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 4 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Throwable_InitCauseOnce (4 traces / 1 unique traces) (4 events / 1 unique events)
+Classifier (com.github.f4b6a3.uuid.alt.GUID.<init>:177): CUT,ISOLATED_ONE_UNIQUE
+
+#78
+Inspecting hot method com.github.f4b6a3.uuid.factory.AbstRandomBasedFactoryTest.lambda$testLongRandomWithFactory$15:268...
+Checking for isolation...
+4,2,0,2
+Total 4 (2 unique) events are in hot method
+Total 2 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 8 (4 unique) events are in non-isolated traces (4 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (2 traces / 1 unique traces) (8 events / 4 unique events) (4 events / 2 unique events in hot method)
+Classifier (com.github.f4b6a3.uuid.factory.AbstRandomBasedFactoryTest.lambda$testLongRandomWithFactory$15:268): CUT,NOT_ISOLATED_ONE_UNIQUE
+
+#79
+Inspecting hot method com.github.f4b6a3.uuid.factory.AbstRandomBasedFactoryTest.lambda$testLongRandomWithFactory$16:281...
+Checking for isolation...
+4,2,0,2
+Total 4 (2 unique) events are in hot method
+Total 2 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 8 (4 unique) events are in non-isolated traces (4 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (2 traces / 1 unique traces) (8 events / 4 unique events) (4 events / 2 unique events in hot method)
+Classifier (com.github.f4b6a3.uuid.factory.AbstRandomBasedFactoryTest.lambda$testLongRandomWithFactory$16:281): CUT,NOT_ISOLATED_ONE_UNIQUE
+
+#80
+Inspecting hot method com.github.f4b6a3.uuid.factory.AbstRandomBasedFactoryTest.lambda$testLongRandomWithFactory$17:294...
+Checking for isolation...
+4,2,0,2
+Total 4 (2 unique) events are in hot method
+Total 2 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 8 (4 unique) events are in non-isolated traces (4 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (2 traces / 1 unique traces) (8 events / 4 unique events) (4 events / 2 unique events in hot method)
+Classifier (com.github.f4b6a3.uuid.factory.AbstRandomBasedFactoryTest.lambda$testLongRandomWithFactory$17:294): CUT,NOT_ISOLATED_ONE_UNIQUE
+
+#81
+Inspecting hot method com.github.f4b6a3.uuid.factory.AbstRandomBasedFactoryTest.lambda$testLongRandomWithFactory$12:233...
+Checking for isolation...
+4,2,0,2
+Total 4 (2 unique) events are in hot method
+Total 2 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 8 (4 unique) events are in non-isolated traces (4 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (2 traces / 1 unique traces) (8 events / 4 unique events) (4 events / 2 unique events in hot method)
+Classifier (com.github.f4b6a3.uuid.factory.AbstRandomBasedFactoryTest.lambda$testLongRandomWithFactory$12:233): CUT,NOT_ISOLATED_ONE_UNIQUE
+
+#82
+Inspecting hot method com.github.f4b6a3.uuid.factory.AbstRandomBasedFactoryTest.lambda$testLongRandomWithFactory$13:244...
+Checking for isolation...
+4,2,0,2
+Total 4 (2 unique) events are in hot method
+Total 2 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 8 (4 unique) events are in non-isolated traces (4 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (2 traces / 1 unique traces) (8 events / 4 unique events) (4 events / 2 unique events in hot method)
+Classifier (com.github.f4b6a3.uuid.factory.AbstRandomBasedFactoryTest.lambda$testLongRandomWithFactory$13:244): CUT,NOT_ISOLATED_ONE_UNIQUE
+
+#83
+Inspecting hot method com.github.f4b6a3.uuid.factory.AbstRandomBasedFactoryTest.lambda$testLongRandomWithFactory$14:255...
+Checking for isolation...
+4,2,0,2
+Total 4 (2 unique) events are in hot method
+Total 2 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 8 (4 unique) events are in non-isolated traces (4 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (2 traces / 1 unique traces) (8 events / 4 unique events) (4 events / 2 unique events in hot method)
+Classifier (com.github.f4b6a3.uuid.factory.AbstRandomBasedFactoryTest.lambda$testLongRandomWithFactory$14:255): CUT,NOT_ISOLATED_ONE_UNIQUE
+
+#84
+Inspecting hot method com.github.f4b6a3.uuid.util.UuidUtil.getClockSequence:327...
+Checking for isolation...
+2,2,2,0
+Total 2 (1 unique) events are in hot method
+Total 2 (1 unique) traces are in hot method
+Total 2 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Throwable_InitCauseOnce (2 traces / 1 unique traces) (2 events / 1 unique events)
+Classifier (com.github.f4b6a3.uuid.util.UuidUtil.getClockSequence:327): CUT,ISOLATED_ONE_UNIQUE
+
+#85
+Inspecting hot method com.github.f4b6a3.uuid.util.UuidUtil.getNodeIdentifier:310...
+Checking for isolation...
+2,2,2,0
+Total 2 (1 unique) events are in hot method
+Total 2 (1 unique) traces are in hot method
+Total 2 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Throwable_InitCauseOnce (2 traces / 1 unique traces) (2 events / 1 unique events)
+Classifier (com.github.f4b6a3.uuid.util.UuidUtil.getNodeIdentifier:310): CUT,ISOLATED_ONE_UNIQUE
+
+#86
+Inspecting hot method com.github.f4b6a3.uuid.util.UuidUtil.getLocalDomain:347...
+Checking for isolation...
+2,2,2,0
+Total 2 (1 unique) events are in hot method
+Total 2 (1 unique) traces are in hot method
+Total 2 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Throwable_InitCauseOnce (2 traces / 1 unique traces) (2 events / 1 unique events)
+Classifier (com.github.f4b6a3.uuid.util.UuidUtil.getLocalDomain:347): CUT,ISOLATED_ONE_UNIQUE
+
+#87
+Inspecting hot method com.github.f4b6a3.uuid.util.UuidUtil.getLocalIdentifier:363...
+Checking for isolation...
+2,2,2,0
+Total 2 (1 unique) events are in hot method
+Total 2 (1 unique) traces are in hot method
+Total 2 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Throwable_InitCauseOnce (2 traces / 1 unique traces) (2 events / 1 unique events)
+Classifier (com.github.f4b6a3.uuid.util.UuidUtil.getLocalIdentifier:363): CUT,ISOLATED_ONE_UNIQUE
+

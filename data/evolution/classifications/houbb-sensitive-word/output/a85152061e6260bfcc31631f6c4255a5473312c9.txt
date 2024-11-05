@@ -1,0 +1,48 @@
+Reading traces...
+Reading specs frequency...
+Reading locations...
+Counting events...
+Total 8 events and 7 traces
+Inspecting top 200 IMM
+Finding hot methods...
+Number of events, method name
+6,com.github.houbb.heaven.util.io.FileUtil.write:416
+2,com.github.houbb.sensitive.word.SplitTest.stopWordTest:53
+Starting com.github.houbb.heaven.util.io.FileUtil.write:416
+Finish com.github.houbb.heaven.util.io.FileUtil.write:416
+Starting com.github.houbb.sensitive.word.SplitTest.stopWordTest:53
+Finish com.github.houbb.sensitive.word.SplitTest.stopWordTest:53
+
+#1
+Inspecting hot method com.github.houbb.heaven.util.io.FileUtil.write:416...
+Checking for isolation...
+6,5,5,0
+Total 6 (6 unique) events are in hot method
+Total 5 (5 unique) traces are in hot method
+Total 5 (5 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 6 (6 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Console_CloseWriter (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Closeable_MultipleClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (2 events / 2 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Writer_ManipulateAfterClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+Classifier (com.github.houbb.heaven.util.io.FileUtil.write:416): LIB,NOT_REDUNDANT_TRACES
+
+#2
+Inspecting hot method com.github.houbb.sensitive.word.SplitTest.stopWordTest:53...
+Checking for isolation...
+2,2,2,0
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2 (2 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Collections_ImplementComparable (1 traces / 1 unique traces) (1 events / 1 unique events)
+Classifier (com.github.houbb.sensitive.word.SplitTest.stopWordTest:53): CUT,NOT_REDUNDANT_TRACES
+

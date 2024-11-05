@@ -1,0 +1,837 @@
+Reading traces...
+	read 1000 traces
+Reading specs frequency...
+Reading locations...
+Counting events...
+	processed 1000 traces
+Total 288411685 events and 40361370 traces
+Inspecting top 200 IMM
+Finding hot methods...
+Number of events, method name
+71345673,btree4j.BTreeIndex$DataPage.write:413
+50023017,btree4j.BTreeTest.test10m:78
+50023017,btree4j.BTreeIndexTest.test10m:223
+23746932,btree4j.BTreeIndex.storeValue:197
+21841612,btree4j.utils.lang.ArrayUtils.insert:199
+21841603,btree4j.utils.lang.ArrayUtils.insert:228
+21394401,btree4j.utils.io.FastMultiByteArrayOutputStream.write:118
+11873466,btree4j.BTreeIndex$DataPage.add:330
+3121674,btree4j.utils.io.FastByteArrayInputStream.read:67
+2455008,btree4j.utils.collections.longs.PurgeOptObservableLongLRUMap.addEntry:56
+2200865,btree4j.BTreeIndex$DataPage.read:390
+2020034,btree4j.BTreeIndexTest.invokeTest:151
+2006000,btree4j.BTreeIndexTest$1.indexInfo:187
+1382436,btree4j.BTree$BTreeNode.split:758
+999020,btree4j.BTreeIndex$DataPage.set:348
+786776,btree4j.Paged.getPage:223
+525545,btree4j.BTree$BTreeNode.read:968
+367426,btree4j.utils.io.FastMultiByteArrayOutputStream.toByteArray:66
+340659,btree4j.Value.copyTo:115
+32078,btree4j.BTree.flush:469
+20090,btree4j.BTreeIndexTest.testSearch2:80
+20090,btree4j.BTreeIndexTest.testSearch:45
+16855,btree4j.BTreeIndex.flush:572
+10000,btree4j.BTreeTest.test:36
+8219,btree4j.utils.collections.longs.LongArrayList.expand:73
+8000,btree4j.BTreeIndexDup$MultiPtrs.addPointer:160
+998,btree4j.utils.io.FastMultiByteArrayOutputStream.addBuffer:211
+64,btree4j.utils.lang.DateTimeFormatter.formatTime:23
+40,btree4j.utils.datetime.StopWatch.toString:77
+12,org.apache.log4j.Hierarchy.getLogger:266
+12,org.apache.commons.logging.impl.LogFactoryImpl.getInstance:233
+9,btree4j.Paged.close:150
+6,org.apache.log4j.PropertyConfigurator.doConfigure:550
+6,org.apache.log4j.Hierarchy.updateParents:504
+5,org.apache.log4j.PropertyConfigurator.parseCategory:726
+5,btree4j.BTreeIndexTest.testBtreeIndexDup:120
+5,btree4j.BTreeIndexTest.testBTreeIndex:136
+4,btree4j.utils.io.FileUtils.getFileSize:54
+3,org.apache.commons.logging.LogFactory.cacheFactory:496
+3,org.apache.log4j.PropertyConfigurator.registryPut:936
+2,org.apache.log4j.ProvisionNode.<clinit>:0
+1,org.apache.log4j.helpers.AppenderAttachableImpl.addAppender:45
+1,org.apache.log4j.ProvisionNode.<init>:27
+1,org.apache.log4j.Level.<clinit>:51
+1,org.apache.commons.logging.impl.Log4JLogger.<clinit>:43
+1,btree4j.Value.<clinit>:0
+1,btree4j.utils.collections.longs.LongHash.<clinit>:0
+1,btree4j.utils.collections.longs.LongHash$LongLRUMap.<clinit>:0
+1,btree4j.utils.collections.longs.PurgeOptObservableLongLRUMap.<clinit>:0
+1,btree4j.utils.collections.longs.LongHash$BucketEntry.<clinit>:207
+1,btree4j.utils.collections.longs.LongHash$LongLRUMap$ChainedEntry.<clinit>:0
+1,btree4j.utils.collections.LRUMap.<clinit>:0
+1,btree4j.utils.collections.longs.PurgeOptObservableLongLRUMap$ComparableChainedEntry.<clinit>:0
+1,btree4j.BTree$SearchType.<clinit>:263
+1,btree4j.BTreeIndexDup$MultiPtrs.<clinit>:0
+1,btree4j.utils.collections.longs.LongArrayList.<clinit>:0
+^^^ Last method that contains more than one event ^^^
+Starting btree4j.BTreeIndexTest.invokeTest:151
+Finish btree4j.BTreeIndexTest.invokeTest:151
+Starting btree4j.BTreeTest.test10m:78
+Finish btree4j.BTreeTest.test10m:78
+Starting btree4j.utils.lang.ArrayUtils.insert:199
+Finish btree4j.utils.lang.ArrayUtils.insert:199
+Starting btree4j.BTreeIndex$DataPage.write:413
+Finish btree4j.BTreeIndex$DataPage.write:413
+Starting btree4j.utils.lang.ArrayUtils.insert:228
+Finish btree4j.utils.lang.ArrayUtils.insert:228
+Starting btree4j.BTreeIndexTest$1.indexInfo:187
+Finish btree4j.BTreeIndexTest$1.indexInfo:187
+Starting btree4j.BTree$BTreeNode.read:968
+Finish btree4j.BTree$BTreeNode.read:968
+Starting btree4j.utils.collections.longs.LongArrayList.expand:73
+Finish btree4j.utils.collections.longs.LongArrayList.expand:73
+Starting btree4j.BTreeIndex$DataPage.read:390
+Finish btree4j.BTreeIndex$DataPage.read:390
+Starting btree4j.utils.datetime.StopWatch.toString:77
+Finish btree4j.utils.datetime.StopWatch.toString:77
+Starting btree4j.BTreeIndex$DataPage.add:330
+Finish btree4j.BTreeIndex$DataPage.add:330
+Starting btree4j.utils.io.FastMultiByteArrayOutputStream.addBuffer:211
+Finish btree4j.utils.io.FastMultiByteArrayOutputStream.addBuffer:211
+Starting btree4j.utils.io.FastMultiByteArrayOutputStream.write:118
+Finish btree4j.utils.io.FastMultiByteArrayOutputStream.write:118
+Starting btree4j.BTreeTest.test:36
+Finish btree4j.BTreeTest.test:36
+Starting btree4j.utils.lang.DateTimeFormatter.formatTime:23
+Finish btree4j.utils.lang.DateTimeFormatter.formatTime:23
+Starting btree4j.BTreeIndexTest.testSearch2:80
+Finish btree4j.BTreeIndexTest.testSearch2:80
+Starting org.apache.log4j.PropertyConfigurator.doConfigure:550
+Finish org.apache.log4j.PropertyConfigurator.doConfigure:550
+Starting btree4j.Paged.getPage:223
+Finish btree4j.Paged.getPage:223
+Starting btree4j.BTreeIndexTest.testBtreeIndexDup:120
+Finish btree4j.BTreeIndexTest.testBtreeIndexDup:120
+Starting btree4j.BTreeIndexTest.testSearch:45
+Finish btree4j.BTreeIndexTest.testSearch:45
+Starting org.apache.log4j.Hierarchy.getLogger:266
+Finish org.apache.log4j.Hierarchy.getLogger:266
+Starting btree4j.BTree.flush:469
+Finish btree4j.BTree.flush:469
+Starting org.apache.commons.logging.impl.LogFactoryImpl.getInstance:233
+Finish org.apache.commons.logging.impl.LogFactoryImpl.getInstance:233
+Starting btree4j.BTreeIndex.flush:572
+Finish btree4j.BTreeIndex.flush:572
+Starting btree4j.Paged.close:150
+Finish btree4j.Paged.close:150
+Starting btree4j.BTreeIndexTest.test10m:223
+Finish btree4j.BTreeIndexTest.test10m:223
+Starting org.apache.log4j.PropertyConfigurator.parseCategory:726
+Finish org.apache.log4j.PropertyConfigurator.parseCategory:726
+Starting btree4j.BTreeIndex$DataPage.set:348
+Finish btree4j.BTreeIndex$DataPage.set:348
+Starting org.apache.log4j.Hierarchy.updateParents:504
+Finish org.apache.log4j.Hierarchy.updateParents:504
+Starting btree4j.BTreeIndex.storeValue:197
+Finish btree4j.BTreeIndex.storeValue:197
+Starting btree4j.BTreeIndexTest.testBTreeIndex:136
+Finish btree4j.BTreeIndexTest.testBTreeIndex:136
+Starting btree4j.BTree$BTreeNode.split:758
+Finish btree4j.BTree$BTreeNode.split:758
+Starting btree4j.utils.io.FileUtils.getFileSize:54
+Finish btree4j.utils.io.FileUtils.getFileSize:54
+Starting btree4j.Value.copyTo:115
+Finish btree4j.Value.copyTo:115
+Starting org.apache.commons.logging.LogFactory.cacheFactory:496
+Finish org.apache.commons.logging.LogFactory.cacheFactory:496
+Starting btree4j.utils.io.FastMultiByteArrayOutputStream.toByteArray:66
+Finish btree4j.utils.io.FastMultiByteArrayOutputStream.toByteArray:66
+Starting org.apache.log4j.PropertyConfigurator.registryPut:936
+Finish org.apache.log4j.PropertyConfigurator.registryPut:936
+
+#1
+Inspecting hot method btree4j.BTreeIndex$DataPage.write:413...
+	processed 1000 traces
+Checking for isolation...
+71345673,109684,109683,1
+Total 71345673 (11997314 unique) events are in hot method
+Total 109684 (280 unique) traces are in hot method
+Total 109683 (279 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 59473008 (124649 unique) events are in isolated traces
+Total 82695273 (82695273 unique) events are in non-isolated traces (11872665 / 11872665 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (36561 traces / 93 unique traces) (23781891 events / 49841 unique events)
+	Collection_UnsafeIterator (36561 traces / 93 unique traces) (23818452 events / 49934 unique events)
+	Iterator_RemoveOnce (36561 traces / 93 unique traces) (11872665 events / 24874 unique events)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (82695273 events / 82695273 unique events) (11872665 events / 11872665 unique events in hot method)
+Classifier (btree4j.BTreeIndex$DataPage.write:413): CUT,ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#2
+Inspecting hot method btree4j.BTreeTest.test10m:78...
+	processed 1000 traces
+Checking for isolation...
+50023017,20004010,20004008,2
+Total 50023017 (9036 unique) events are in hot method
+Total 20004010 (16 unique) traces are in hot method
+Total 20004008 (14 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 50021017 (7036 unique) events are in isolated traces
+Total 24545730 (24545730 unique) events are in non-isolated traces (2000 / 2000 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (10002001 traces / 4 unique traces) (30008005 events / 16 unique events)
+	Appendable_ThreadSafe (10002001 traces / 4 unique traces) (20006004 events / 12 unique events)
+	Map_UnsafeIterator (2 traces / 2 unique traces) (2004 events / 2004 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (2002 events / 2002 unique events)
+	Map_CollectionViewAdd (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (2001 events / 2001 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (1000 events / 1000 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (12272865 events / 12272865 unique events) (1000 events / 1000 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (12272865 events / 12272865 unique events) (1000 events / 1000 unique events in hot method)
+Classifier (btree4j.BTreeTest.test10m:78): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT,ISOLATED_SINGLE_TRACE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#3
+Inspecting hot method btree4j.BTreeIndexTest.test10m:223...
+	processed 1000 traces
+Checking for isolation...
+50023017,20004010,20004008,2
+Total 50023017 (9036 unique) events are in hot method
+Total 20004010 (16 unique) traces are in hot method
+Total 20004008 (14 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 50021017 (7036 unique) events are in isolated traces
+Total 24545730 (24545730 unique) events are in non-isolated traces (2000 / 2000 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (10002001 traces / 4 unique traces) (20006004 events / 12 unique events)
+	StringBuilder_ThreadSafe (10002001 traces / 4 unique traces) (30008005 events / 16 unique events)
+	Map_UnsafeIterator (2 traces / 2 unique traces) (2004 events / 2004 unique events)
+	Map_CollectionViewAdd (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (2001 events / 2001 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (2002 events / 2002 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (1000 events / 1000 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (12272865 events / 12272865 unique events) (1000 events / 1000 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (12272865 events / 12272865 unique events) (1000 events / 1000 unique events in hot method)
+Classifier (btree4j.BTreeIndexTest.test10m:223): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT,ISOLATED_SINGLE_TRACE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#4
+Inspecting hot method btree4j.BTreeIndex.storeValue:197...
+	processed 1000 traces
+Checking for isolation...
+23746932,2,0,2
+Total 23746932 (23746932 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 24545730 (24545730 unique) events are in non-isolated traces (23746932 / 23746932 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (12272865 events / 12272865 unique events) (11873466 events / 11873466 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (12272865 events / 12272865 unique events) (11873466 events / 11873466 unique events in hot method)
+Classifier (btree4j.BTreeIndex.storeValue:197): CUT,NOT_REDUNDANT_TRACES
+
+#5
+Inspecting hot method btree4j.utils.lang.ArrayUtils.insert:199...
+	processed 1000 traces
+Checking for isolation...
+21841612,1,0,1
+Total 21841612 (21841612 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 82695273 (82695273 unique) events are in non-isolated traces (21841612 / 21841612 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (82695273 events / 82695273 unique events) (21841612 events / 21841612 unique events in hot method)
+Classifier (btree4j.utils.lang.ArrayUtils.insert:199): CUT,NOT_REDUNDANT_TRACES
+
+#6
+Inspecting hot method btree4j.utils.lang.ArrayUtils.insert:228...
+	processed 1000 traces
+Checking for isolation...
+21841603,1,0,1
+Total 21841603 (21841603 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 82695273 (82695273 unique) events are in non-isolated traces (21841603 / 21841603 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (82695273 events / 82695273 unique events) (21841603 events / 21841603 unique events in hot method)
+Classifier (btree4j.utils.lang.ArrayUtils.insert:228): CUT,NOT_REDUNDANT_TRACES
+
+#7
+Inspecting hot method btree4j.utils.io.FastMultiByteArrayOutputStream.write:118...
+	processed 1000 traces
+Checking for isolation...
+21394401,1,0,1
+Total 21394401 (21394401 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 82695273 (82695273 unique) events are in non-isolated traces (21394401 / 21394401 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (82695273 events / 82695273 unique events) (21394401 events / 21394401 unique events in hot method)
+Classifier (btree4j.utils.io.FastMultiByteArrayOutputStream.write:118): CUT,NOT_REDUNDANT_TRACES
+
+#8
+Inspecting hot method btree4j.BTreeIndex$DataPage.add:330...
+	processed 1000 traces
+Checking for isolation...
+	processed 1000 traces
+11873466,36564,35558,1006
+Total 11873466 (282514 unique) events are in hot method
+Total 36564 (1008 unique) traces are in hot method
+Total 35558 (5 unique) isolated traces are in hot method
+Total 1006 (1003 unique) non-isolated traces that have events in hot method
+Total 11590891 (932 unique) events are in isolated traces
+Total 1281097 (1280094 unique) events are in non-isolated traces (282575 / 281582 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (35558 traces / 5 unique traces) (11590891 events / 932 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (1006 traces / 1003 unique traces) (1281097 events / 1280094 unique events) (282575 events / 281582 unique events in hot method)
+Classifier (btree4j.BTreeIndex$DataPage.add:330): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#9
+Inspecting hot method btree4j.utils.io.FastByteArrayInputStream.read:67...
+	processed 1000 traces
+Checking for isolation...
+3121674,1,0,1
+Total 3121674 (3121674 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 82695273 (82695273 unique) events are in non-isolated traces (3121674 / 3121674 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (82695273 events / 82695273 unique events) (3121674 events / 3121674 unique events in hot method)
+Classifier (btree4j.utils.io.FastByteArrayInputStream.read:67): CUT,NOT_REDUNDANT_TRACES
+
+#10
+Inspecting hot method btree4j.utils.collections.longs.PurgeOptObservableLongLRUMap.addEntry:56...
+	processed 1000 traces
+Checking for isolation...
+2455008,175105,175105,0
+Total 2455008 (56220 unique) events are in hot method
+Total 175105 (13 unique) traces are in hot method
+Total 175105 (13 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2455008 (56220 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (43776 traces / 3 unique traces) (416464 events / 2075 unique events)
+	Iterator_HasNext (43776 traces / 3 unique traces) (789152 events / 4147 unique events)
+	Collection_UnsafeIterator (43776 traces / 3 unique traces) (832928 events / 4150 unique events)
+	Iterator_RemoveOnce (43776 traces / 3 unique traces) (372688 events / 2072 unique events)
+	Collections_ImplementComparable (1 traces / 1 unique traces) (43776 events / 43776 unique events)
+Classifier (btree4j.utils.collections.longs.PurgeOptObservableLongLRUMap.addEntry:56): LIB,ISOLATED_MULTIPLE_UNIQUE,RAW_ISOLATED_SINGLE_TRACE
+
+#11
+Inspecting hot method btree4j.BTreeIndex$DataPage.read:390...
+	processed 1000 traces
+Checking for isolation...
+2200865,6893,6892,1
+Total 2200865 (25073 unique) events are in hot method
+Total 6893 (94 unique) traces are in hot method
+Total 6892 (93 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 2200666 (24874 unique) events are in isolated traces
+Total 697 (697 unique) events are in non-isolated traces (199 / 199 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (6892 traces / 93 unique traces) (2200666 events / 24874 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (697 events / 697 unique events) (199 events / 199 unique events in hot method)
+Classifier (btree4j.BTreeIndex$DataPage.read:390): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_SINGLE_TRACE
+
+#12
+Inspecting hot method btree4j.BTreeIndexTest.invokeTest:151...
+	processed 1000 traces
+Checking for isolation...
+2020034,20,16,4
+Total 2020034 (2013017 unique) events are in hot method
+Total 20 (12 unique) traces are in hot method
+Total 16 (8 unique) isolated traces are in hot method
+Total 4 (4 unique) non-isolated traces that have events in hot method
+Total 14034 (7017 unique) events are in isolated traces
+Total 28549730 (28549730 unique) events are in non-isolated traces (2006000 / 2006000 unique are in hot method)
+Specs that have isolated traces:
+	Map_UnsafeIterator (4 traces / 2 unique traces) (4008 events / 2004 unique events)
+	Iterator_HasNext (2 traces / 1 unique traces) (4002 events / 2001 unique events)
+	Collection_UnsafeIterator (2 traces / 1 unique traces) (4004 events / 2002 unique events)
+	Iterator_RemoveOnce (2 traces / 1 unique traces) (2000 events / 1000 unique events)
+	Appendable_ThreadSafe (2 traces / 1 unique traces) (8 events / 4 unique events)
+	Map_CollectionViewAdd (2 traces / 1 unique traces) (2 events / 1 unique events)
+	StringBuilder_ThreadSafe (2 traces / 1 unique traces) (10 events / 5 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (12272865 events / 12272865 unique events) (2000 events / 2000 unique events in hot method)
+	Set_ItselfAsElement (1 traces / 1 unique traces) (4000000 events / 4000000 unique events) (2000000 events / 2000000 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (12272865 events / 12272865 unique events) (2000 events / 2000 unique events in hot method)
+	TreeMap_Comparable (1 traces / 1 unique traces) (4000 events / 4000 unique events) (2000 events / 2000 unique events in hot method)
+Classifier (btree4j.BTreeIndexTest.invokeTest:151): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#13
+Inspecting hot method btree4j.BTreeIndexTest$1.indexInfo:187...
+	processed 1000 traces
+Checking for isolation...
+2006000,4,0,4
+Total 2006000 (2006000 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 4 (4 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 28549730 (28549730 unique) events are in non-isolated traces (2006000 / 2006000 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (12272865 events / 12272865 unique events) (2000 events / 2000 unique events in hot method)
+	Set_ItselfAsElement (1 traces / 1 unique traces) (4000000 events / 4000000 unique events) (2000000 events / 2000000 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (12272865 events / 12272865 unique events) (2000 events / 2000 unique events in hot method)
+	TreeMap_Comparable (1 traces / 1 unique traces) (4000 events / 4000 unique events) (2000 events / 2000 unique events in hot method)
+Classifier (btree4j.BTreeIndexTest$1.indexInfo:187): CUT,NOT_REDUNDANT_TRACES
+
+#14
+Inspecting hot method btree4j.BTree$BTreeNode.split:758...
+	processed 1000 traces
+Checking for isolation...
+1382436,1,0,1
+Total 1382436 (1382436 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 82695273 (82695273 unique) events are in non-isolated traces (1382436 / 1382436 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (82695273 events / 82695273 unique events) (1382436 events / 1382436 unique events in hot method)
+Classifier (btree4j.BTree$BTreeNode.split:758): CUT,NOT_REDUNDANT_TRACES
+
+#15
+Inspecting hot method btree4j.BTreeIndex$DataPage.set:348...
+	processed 1000 traces
+Checking for isolation...
+	processed 1000 traces
+999020,1007,0,1007
+Total 999020 (999010 unique) events are in hot method
+Total 1007 (1004 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1007 (1004 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 1281794 (1280791 unique) events are in non-isolated traces (999020 / 999010 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (1007 traces / 1004 unique traces) (1281794 events / 1280791 unique events) (999020 events / 999010 unique events in hot method)
+Classifier (btree4j.BTreeIndex$DataPage.set:348): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#16
+Inspecting hot method btree4j.Paged.getPage:223...
+	processed 1000 traces
+Checking for isolation...
+786776,2,0,2
+Total 786776 (786776 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 24545730 (24545730 unique) events are in non-isolated traces (786776 / 786776 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (12272865 events / 12272865 unique events) (393388 events / 393388 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (12272865 events / 12272865 unique events) (393388 events / 393388 unique events in hot method)
+Classifier (btree4j.Paged.getPage:223): CUT,NOT_REDUNDANT_TRACES
+
+#17
+Inspecting hot method btree4j.BTree$BTreeNode.read:968...
+	processed 1000 traces
+Checking for isolation...
+525545,1,0,1
+Total 525545 (525545 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 82695273 (82695273 unique) events are in non-isolated traces (525545 / 525545 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (82695273 events / 82695273 unique events) (525545 events / 525545 unique events in hot method)
+Classifier (btree4j.BTree$BTreeNode.read:968): CUT,NOT_REDUNDANT_TRACES
+
+#18
+Inspecting hot method btree4j.utils.io.FastMultiByteArrayOutputStream.toByteArray:66...
+	processed 1000 traces
+Checking for isolation...
+367426,3973,3972,1
+Total 367426 (358504 unique) events are in hot method
+Total 3973 (13 unique) traces are in hot method
+Total 3972 (12 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 8967 (45 unique) events are in isolated traces
+Total 82695273 (82695273 unique) events are in non-isolated traces (358459 / 358459 unique are in hot method)
+Specs that have isolated traces:
+	ListIterator_RemoveOnce (993 traces / 3 unique traces) (998 events / 6 unique events)
+	Collection_UnsafeIterator (993 traces / 3 unique traces) (3982 events / 18 unique events)
+	Iterator_RemoveOnce (993 traces / 3 unique traces) (998 events / 6 unique events)
+	Iterator_HasNext (993 traces / 3 unique traces) (2989 events / 15 unique events)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (82695273 events / 82695273 unique events) (358459 events / 358459 unique events in hot method)
+Classifier (btree4j.utils.io.FastMultiByteArrayOutputStream.toByteArray:66): CUT,ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#19
+Inspecting hot method btree4j.Value.copyTo:115...
+	processed 1000 traces
+Checking for isolation...
+340659,1,0,1
+Total 340659 (340659 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 82695273 (82695273 unique) events are in non-isolated traces (340659 / 340659 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (82695273 events / 82695273 unique events) (340659 events / 340659 unique events in hot method)
+Classifier (btree4j.Value.copyTo:115): CUT,NOT_REDUNDANT_TRACES
+
+#20
+Inspecting hot method btree4j.BTree.flush:469...
+	processed 1000 traces
+Checking for isolation...
+32078,10,10,0
+Total 32078 (32078 unique) events are in hot method
+Total 10 (10 unique) traces are in hot method
+Total 10 (10 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 32078 (32078 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (5 traces / 5 unique traces) (10691 events / 10691 unique events)
+	Iterator_HasNext (5 traces / 5 unique traces) (21387 events / 21387 unique events)
+Classifier (btree4j.BTree.flush:469): CUT,NOT_REDUNDANT_TRACES
+
+#21
+Inspecting hot method btree4j.BTreeIndexTest.testSearch2:80...
+	processed 1000 traces
+Checking for isolation...
+20090,8020,8020,0
+Total 20090 (34 unique) events are in hot method
+Total 8020 (12 unique) traces are in hot method
+Total 8020 (12 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 20090 (34 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (4010 traces / 6 unique traces) (8040 events / 14 unique events)
+	StringBuilder_ThreadSafe (4010 traces / 6 unique traces) (12050 events / 20 unique events)
+Classifier (btree4j.BTreeIndexTest.testSearch2:80): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#22
+Inspecting hot method btree4j.BTreeIndexTest.testSearch:45...
+	processed 1000 traces
+Checking for isolation...
+20090,8020,8020,0
+Total 20090 (34 unique) events are in hot method
+Total 8020 (12 unique) traces are in hot method
+Total 8020 (12 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 20090 (34 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (4010 traces / 6 unique traces) (8040 events / 14 unique events)
+	StringBuilder_ThreadSafe (4010 traces / 6 unique traces) (12050 events / 20 unique events)
+Classifier (btree4j.BTreeIndexTest.testSearch:45): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#23
+Inspecting hot method btree4j.BTreeIndex.flush:572...
+	processed 1000 traces
+Checking for isolation...
+16855,8,8,0
+Total 16855 (16855 unique) events are in hot method
+Total 8 (8 unique) traces are in hot method
+Total 8 (8 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 16855 (16855 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (4 traces / 4 unique traces) (5617 events / 5617 unique events)
+	Iterator_HasNext (4 traces / 4 unique traces) (11238 events / 11238 unique events)
+Classifier (btree4j.BTreeIndex.flush:572): CUT,NOT_REDUNDANT_TRACES
+
+#24
+Inspecting hot method btree4j.BTreeTest.test:36...
+	processed 1000 traces
+Checking for isolation...
+10000,4000,4000,0
+Total 10000 (10 unique) events are in hot method
+Total 4000 (4 unique) traces are in hot method
+Total 4000 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 10000 (10 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (2000 traces / 2 unique traces) (6000 events / 6 unique events)
+	Appendable_ThreadSafe (2000 traces / 2 unique traces) (4000 events / 4 unique events)
+Classifier (btree4j.BTreeTest.test:36): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#25
+Inspecting hot method btree4j.utils.collections.longs.LongArrayList.expand:73...
+	processed 1000 traces
+Checking for isolation...
+8219,1,0,1
+Total 8219 (8219 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 82695273 (82695273 unique) events are in non-isolated traces (8219 / 8219 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (82695273 events / 82695273 unique events) (8219 events / 8219 unique events in hot method)
+Classifier (btree4j.utils.collections.longs.LongArrayList.expand:73): CUT,NOT_REDUNDANT_TRACES
+
+#26
+Inspecting hot method btree4j.BTreeIndexDup$MultiPtrs.addPointer:160...
+	processed 1000 traces
+Checking for isolation...
+8000,1,0,1
+Total 8000 (8000 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 82695273 (82695273 unique) events are in non-isolated traces (8000 / 8000 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (82695273 events / 82695273 unique events) (8000 events / 8000 unique events in hot method)
+Classifier (btree4j.BTreeIndexDup$MultiPtrs.addPointer:160): CUT,NOT_REDUNDANT_TRACES
+
+#27
+Inspecting hot method btree4j.utils.io.FastMultiByteArrayOutputStream.addBuffer:211...
+	processed 1000 traces
+Checking for isolation...
+998,993,993,0
+Total 998 (6 unique) events are in hot method
+Total 993 (3 unique) traces are in hot method
+Total 993 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 998 (6 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (993 traces / 3 unique traces) (998 events / 6 unique events)
+Classifier (btree4j.utils.io.FastMultiByteArrayOutputStream.addBuffer:211): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#28
+Inspecting hot method btree4j.utils.lang.DateTimeFormatter.formatTime:23...
+	processed 1000 traces
+Checking for isolation...
+64,24,24,0
+Total 64 (16 unique) events are in hot method
+Total 24 (6 unique) traces are in hot method
+Total 24 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 64 (16 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (12 traces / 3 unique traces) (40 events / 10 unique events)
+	Appendable_ThreadSafe (12 traces / 3 unique traces) (24 events / 6 unique events)
+Classifier (btree4j.utils.lang.DateTimeFormatter.formatTime:23): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#29
+Inspecting hot method btree4j.utils.datetime.StopWatch.toString:77...
+	processed 1000 traces
+Checking for isolation...
+40,16,16,0
+Total 40 (10 unique) events are in hot method
+Total 16 (4 unique) traces are in hot method
+Total 16 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 40 (10 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (8 traces / 2 unique traces) (16 events / 4 unique events)
+	StringBuilder_ThreadSafe (8 traces / 2 unique traces) (24 events / 6 unique events)
+Classifier (btree4j.utils.datetime.StopWatch.toString:77): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#30
+Inspecting hot method org.apache.log4j.Hierarchy.getLogger:266...
+	processed 1000 traces
+Checking for isolation...
+12,3,0,3
+Total 12 (12 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 3 (3 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 24545741 (24545741 unique) events are in non-isolated traces (12 / 12 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (12272865 events / 12272865 unique events) (4 events / 4 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (12272865 events / 12272865 unique events) (4 events / 4 unique events in hot method)
+	Dictionary_NullKeyOrValue (1 traces / 1 unique traces) (11 events / 11 unique events) (4 events / 4 unique events in hot method)
+Classifier (org.apache.log4j.Hierarchy.getLogger:266): LIB,NOT_REDUNDANT_TRACES
+
+#31
+Inspecting hot method org.apache.commons.logging.impl.LogFactoryImpl.getInstance:233...
+	processed 1000 traces
+Checking for isolation...
+12,3,0,3
+Total 12 (12 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 3 (3 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 24545741 (24545741 unique) events are in non-isolated traces (12 / 12 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (12272865 events / 12272865 unique events) (4 events / 4 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (12272865 events / 12272865 unique events) (4 events / 4 unique events in hot method)
+	Dictionary_NullKeyOrValue (1 traces / 1 unique traces) (11 events / 11 unique events) (4 events / 4 unique events in hot method)
+Classifier (org.apache.commons.logging.impl.LogFactoryImpl.getInstance:233): LIB,NOT_REDUNDANT_TRACES
+
+#32
+Inspecting hot method btree4j.Paged.close:150...
+	processed 1000 traces
+Checking for isolation...
+9,9,9,0
+Total 9 (3 unique) events are in hot method
+Total 9 (3 unique) traces are in hot method
+Total 9 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 9 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Closeable_MultipleClose (6 traces / 2 unique traces) (6 events / 2 unique events)
+	RandomAccessFile_ManipulateAfterClose (3 traces / 1 unique traces) (3 events / 1 unique events)
+Classifier (btree4j.Paged.close:150): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE
+
+#33
+Inspecting hot method org.apache.log4j.PropertyConfigurator.doConfigure:550...
+	processed 1000 traces
+Checking for isolation...
+6,5,5,0
+Total 6 (6 unique) events are in hot method
+Total 5 (5 unique) traces are in hot method
+Total 5 (5 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 6 (6 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	URLConnection_Connect (1 traces / 1 unique traces) (1 events / 1 unique events)
+	InputStream_ManipulateAfterClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+	URLConnection_SetBeforeConnect (1 traces / 1 unique traces) (2 events / 2 unique events)
+	Closeable_MultipleClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+	InputStream_MarkAfterClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+Classifier (org.apache.log4j.PropertyConfigurator.doConfigure:550): LIB,NOT_REDUNDANT_TRACES
+
+#34
+Inspecting hot method org.apache.log4j.Hierarchy.updateParents:504...
+	processed 1000 traces
+Checking for isolation...
+6,4,0,4
+Total 6 (6 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 4 (4 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 24545745 (24545745 unique) events are in non-isolated traces (6 / 6 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (4 events / 4 unique events) (3 events / 3 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (12272865 events / 12272865 unique events) (1 events / 1 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (12272865 events / 12272865 unique events) (1 events / 1 unique events in hot method)
+	Dictionary_NullKeyOrValue (1 traces / 1 unique traces) (11 events / 11 unique events) (1 events / 1 unique events in hot method)
+Classifier (org.apache.log4j.Hierarchy.updateParents:504): LIB,NOT_REDUNDANT_TRACES
+
+#35
+Inspecting hot method org.apache.log4j.PropertyConfigurator.parseCategory:726...
+	processed 1000 traces
+Checking for isolation...
+5,1,1,0
+Total 5 (5 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringTokenizer_HasMoreElements (1 traces / 1 unique traces) (5 events / 5 unique events)
+Classifier (org.apache.log4j.PropertyConfigurator.parseCategory:726): LIB,NOT_REDUNDANT_TRACES
+
+#36
+Inspecting hot method btree4j.BTreeIndexTest.testBtreeIndexDup:120...
+	processed 1000 traces
+Checking for isolation...
+5,2,2,0
+Total 5 (5 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (2 events / 2 unique events)
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+Classifier (btree4j.BTreeIndexTest.testBtreeIndexDup:120): CUT,NOT_REDUNDANT_TRACES
+
+#37
+Inspecting hot method btree4j.BTreeIndexTest.testBTreeIndex:136...
+	processed 1000 traces
+Checking for isolation...
+5,2,2,0
+Total 5 (5 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (2 events / 2 unique events)
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+Classifier (btree4j.BTreeIndexTest.testBTreeIndex:136): CUT,NOT_REDUNDANT_TRACES
+
+#38
+Inspecting hot method btree4j.utils.io.FileUtils.getFileSize:54...
+	processed 1000 traces
+Checking for isolation...
+4,1,1,0
+Total 4 (4 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 4 (4 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	File_LengthOnDirectory (1 traces / 1 unique traces) (4 events / 4 unique events)
+Classifier (btree4j.utils.io.FileUtils.getFileSize:54): CUT,NOT_REDUNDANT_TRACES
+
+#39
+Inspecting hot method org.apache.commons.logging.LogFactory.cacheFactory:496...
+	processed 1000 traces
+Checking for isolation...
+3,3,0,3
+Total 3 (3 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 3 (3 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 24545741 (24545741 unique) events are in non-isolated traces (3 / 3 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (12272865 events / 12272865 unique events) (1 events / 1 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (12272865 events / 12272865 unique events) (1 events / 1 unique events in hot method)
+	Dictionary_NullKeyOrValue (1 traces / 1 unique traces) (11 events / 11 unique events) (1 events / 1 unique events in hot method)
+Classifier (org.apache.commons.logging.LogFactory.cacheFactory:496): LIB,NOT_REDUNDANT_TRACES
+
+#40
+Inspecting hot method org.apache.log4j.PropertyConfigurator.registryPut:936...
+	processed 1000 traces
+Checking for isolation...
+3,3,0,3
+Total 3 (3 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 3 (3 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 24545741 (24545741 unique) events are in non-isolated traces (3 / 3 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (12272865 events / 12272865 unique events) (1 events / 1 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (12272865 events / 12272865 unique events) (1 events / 1 unique events in hot method)
+	Dictionary_NullKeyOrValue (1 traces / 1 unique traces) (11 events / 11 unique events) (1 events / 1 unique events in hot method)
+Classifier (org.apache.log4j.PropertyConfigurator.registryPut:936): LIB,NOT_REDUNDANT_TRACES
+
+#41
+Inspecting hot method org.apache.log4j.ProvisionNode.<clinit>:0...
+	processed 1000 traces
+Checking for isolation...
+2,2,1,1
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 1 (1 unique) events are in isolated traces
+Total 14 (14 unique) events are in non-isolated traces (1 / 1 unique are in hot method)
+Specs that have isolated traces:
+	Collection_HashCode (1 traces / 1 unique traces) (1 events / 1 unique events)
+Specs that have non-isolated traces:
+	Serializable_NoArgConstructor (1 traces / 1 unique traces) (14 events / 14 unique events) (1 events / 1 unique events in hot method)
+Classifier (org.apache.log4j.ProvisionNode.<clinit>:0): LIB,NOT_REDUNDANT_TRACES
+

@@ -1,0 +1,638 @@
+Reading traces...
+	read 1000 traces
+	read 2000 traces
+Reading specs frequency...
+Reading locations...
+Counting events...
+	processed 1000 traces
+	processed 2000 traces
+Total 116952292 events and 15784916 traces
+Inspecting top 200 IMM
+Finding hot methods...
+Number of events, method name
+59371243,dk.brics.automaton.MinimizationOperations.minimizeHopcroft:229
+12589844,dk.brics.automaton.Automaton.getStates:273
+6219167,dk.brics.automaton.Automaton.getLiveStates:432
+5803863,dk.brics.automaton.BasicOperations.determinize:456
+5055860,dk.brics.automaton.State.getSortedTransitionArray:136
+4196754,nl.flotsam.xeger.Xeger.appendChoice:192
+3929326,dk.brics.automaton.Automaton.getStartPoints:405
+3783813,dk.brics.automaton.Automaton.getAcceptStates:303
+3252531,dk.brics.automaton.State.step:110
+3195896,dk.brics.automaton.Automaton.removeDeadTransitions:456
+2390701,dk.brics.automaton.Automaton.reduce:367
+2062599,dk.brics.automaton.Automaton.clone:644
+1416909,dk.brics.automaton.Automaton.totalize:337
+800793,dk.brics.automaton.Automaton.setStateNumbers:326
+550000,nl.flotsam.xeger.XegerTest.assertListEquals:80
+466518,dk.brics.automaton.MinimizationOperations.initialize:145
+447168,dk.brics.automaton.BasicOperations.concatenate:85
+394894,dk.brics.automaton.Automaton.getNumberOfTransitions:516
+300649,dk.brics.automaton.State.addEpsilon:129
+200100,nl.flotsam.xeger.Xeger.generate:75
+200020,dk.brics.automaton.BasicOperations.repeat:204
+200000,nl.flotsam.xeger.XegerTest.generateRegex:87
+61628,dk.brics.automaton.BasicOperations.union:416
+20000,nl.flotsam.xeger.XegerTest.generateRegex:67
+20000,nl.flotsam.xeger.Xeger.generate:98
+8804,dk.brics.automaton.RegExp.findLeaves:408
+6603,dk.brics.automaton.Automaton.expandSingleton:487
+6603,dk.brics.automaton.BasicOperations.determinize:445
+1,dk.brics.automaton.RegExp$Kind.<clinit>:109
+1,dk.brics.automaton.Automaton.<clinit>:104
+1,dk.brics.automaton.State.<clinit>:0
+1,dk.brics.automaton.Transition.<clinit>:0
+1,dk.brics.automaton.TransitionComparator.<clinit>:0
+1,nl.flotsam.xeger.Xeger$FailedRandomWalkException.<clinit>:0
+^^^ Last method that contains more than one event ^^^
+Starting dk.brics.automaton.Automaton.getNumberOfTransitions:516
+Finish dk.brics.automaton.Automaton.getNumberOfTransitions:516
+Starting dk.brics.automaton.Automaton.totalize:337
+Finish dk.brics.automaton.Automaton.totalize:337
+Starting dk.brics.automaton.State.addEpsilon:129
+Finish dk.brics.automaton.State.addEpsilon:129
+Starting dk.brics.automaton.Automaton.removeDeadTransitions:456
+Finish dk.brics.automaton.Automaton.removeDeadTransitions:456
+Starting dk.brics.automaton.Automaton.getAcceptStates:303
+Finish dk.brics.automaton.Automaton.getAcceptStates:303
+Starting dk.brics.automaton.BasicOperations.determinize:456
+Finish dk.brics.automaton.BasicOperations.determinize:456
+Starting dk.brics.automaton.MinimizationOperations.minimizeHopcroft:229
+Finish dk.brics.automaton.MinimizationOperations.minimizeHopcroft:229
+Starting dk.brics.automaton.Automaton.getLiveStates:432
+Finish dk.brics.automaton.Automaton.getLiveStates:432
+Starting dk.brics.automaton.Automaton.getStates:273
+Finish dk.brics.automaton.Automaton.getStates:273
+Starting nl.flotsam.xeger.Xeger.generate:75
+Finish nl.flotsam.xeger.Xeger.generate:75
+Starting dk.brics.automaton.BasicOperations.concatenate:85
+Finish dk.brics.automaton.BasicOperations.concatenate:85
+Starting dk.brics.automaton.State.getSortedTransitionArray:136
+Finish dk.brics.automaton.State.getSortedTransitionArray:136
+Starting dk.brics.automaton.BasicOperations.repeat:204
+Finish dk.brics.automaton.BasicOperations.repeat:204
+Starting nl.flotsam.xeger.Xeger.appendChoice:192
+Finish nl.flotsam.xeger.Xeger.appendChoice:192
+Starting nl.flotsam.xeger.XegerTest.generateRegex:67
+Finish nl.flotsam.xeger.XegerTest.generateRegex:67
+Starting dk.brics.automaton.State.step:110
+Finish dk.brics.automaton.State.step:110
+Starting dk.brics.automaton.Automaton.getStartPoints:405
+Finish dk.brics.automaton.Automaton.getStartPoints:405
+Starting nl.flotsam.xeger.Xeger.generate:98
+Finish nl.flotsam.xeger.Xeger.generate:98
+Starting nl.flotsam.xeger.XegerTest.generateRegex:87
+Finish nl.flotsam.xeger.XegerTest.generateRegex:87
+Starting dk.brics.automaton.BasicOperations.union:416
+Finish dk.brics.automaton.BasicOperations.union:416
+Starting dk.brics.automaton.Automaton.clone:644
+Finish dk.brics.automaton.Automaton.clone:644
+Starting dk.brics.automaton.Automaton.reduce:367
+Finish dk.brics.automaton.Automaton.reduce:367
+Starting dk.brics.automaton.Automaton.setStateNumbers:326
+Finish dk.brics.automaton.Automaton.setStateNumbers:326
+Starting dk.brics.automaton.RegExp.findLeaves:408
+Finish dk.brics.automaton.RegExp.findLeaves:408
+Starting nl.flotsam.xeger.XegerTest.assertListEquals:80
+Finish nl.flotsam.xeger.XegerTest.assertListEquals:80
+Starting dk.brics.automaton.Automaton.expandSingleton:487
+Finish dk.brics.automaton.Automaton.expandSingleton:487
+Starting dk.brics.automaton.MinimizationOperations.initialize:145
+Finish dk.brics.automaton.MinimizationOperations.initialize:145
+Starting dk.brics.automaton.BasicOperations.determinize:445
+Finish dk.brics.automaton.BasicOperations.determinize:445
+
+#1
+Inspecting hot method dk.brics.automaton.MinimizationOperations.minimizeHopcroft:229...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+	processed 1000 traces
+59371243,2842633,2741403,101230
+Total 59371243 (504647 unique) events are in hot method
+Total 2842633 (1512 unique) traces are in hot method
+Total 2741403 (1498 unique) isolated traces are in hot method
+Total 101230 (14 unique) non-isolated traces that have events in hot method
+Total 58651670 (259535 unique) events are in isolated traces
+Total 4379769 (3430847 unique) events are in non-isolated traces (719573 / 245112 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (820633 traces / 40 unique traces) (3575413 events / 1704 unique events)
+	Collection_UnsafeIterator (816431 traces / 1349 unique traces) (50648833 events / 251218 unique events)
+	Iterator_RemoveOnce (639394 traces / 39 unique traces) (1381592 events / 833 unique events)
+	Collections_SortBeforeBinarySearch (242277 traces / 54 unique traces) (2463866 events / 5425 unique events)
+	ListIterator_RemoveOnce (222668 traces / 16 unique traces) (581966 events / 355 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (97027 traces / 12 unique traces) (933036 events / 918 unique events) (466518 events / 459 unique events in hot method)
+	Collection_UnsafeIterator (4202 traces / 1 unique traces) (16808 events / 4 unique events) (8404 events / 2 unique events in hot method)
+	Set_ItselfAsElement (1 traces / 1 unique traces) (3429925 events / 3429925 unique events) (244651 events / 244651 unique events in hot method)
+Classifier (dk.brics.automaton.MinimizationOperations.minimizeHopcroft:229): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_ONE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#2
+Inspecting hot method dk.brics.automaton.Automaton.getStates:273...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+12589844,2655218,2577999,77219
+Total 12589844 (882379 unique) events are in hot method
+Total 2655218 (29 unique) traces are in hot method
+Total 2577999 (25 unique) isolated traces are in hot method
+Total 77219 (4 unique) non-isolated traces that have events in hot method
+Total 11364770 (963 unique) events are in isolated traces
+Total 3919227 (3429942 unique) events are in non-isolated traces (1225074 / 881416 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (881404 traces / 5 unique traces) (3801972 events / 25 unique events)
+	Collection_UnsafeIterator (804186 traces / 5 unique traces) (4339706 events / 30 unique events)
+	Iterator_RemoveOnce (792172 traces / 4 unique traces) (1460284 events / 10 unique events)
+	Collections_SortBeforeBinarySearch (100237 traces / 11 unique traces) (1762808 events / 898 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (77218 traces / 3 unique traces) (489302 events / 17 unique events) (343670 events / 12 unique events in hot method)
+	Set_ItselfAsElement (1 traces / 1 unique traces) (3429925 events / 3429925 unique events) (881404 events / 881404 unique events in hot method)
+Classifier (dk.brics.automaton.Automaton.getStates:273): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#3
+Inspecting hot method dk.brics.automaton.Automaton.getLiveStates:432...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+6219167,1003654,1003651,3
+Total 6219167 (750131 unique) events are in hot method
+Total 1003654 (80 unique) traces are in hot method
+Total 1003651 (77 unique) isolated traces are in hot method
+Total 3 (3 unique) non-isolated traces that have events in hot method
+Total 5473399 (4363 unique) events are in isolated traces
+Total 4098475 (4098475 unique) events are in non-isolated traces (745768 / 745768 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (337485 traces / 23 unique traces) (2025439 events / 1585 unique events)
+	Collection_UnsafeIterator (337485 traces / 23 unique traces) (2362924 events / 1608 unique events)
+	Iterator_RemoveOnce (315475 traces / 21 unique traces) (843977 events / 781 unique events)
+	Collections_SortBeforeBinarySearch (13206 traces / 10 unique traces) (241059 events / 389 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (334275 events / 334275 unique events) (158838 events / 158838 unique events in hot method)
+	Set_ItselfAsElement (1 traces / 1 unique traces) (3429925 events / 3429925 unique events) (428092 events / 428092 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (334275 events / 334275 unique events) (158838 events / 158838 unique events in hot method)
+Classifier (dk.brics.automaton.Automaton.getLiveStates:432): LIB,ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#4
+Inspecting hot method dk.brics.automaton.BasicOperations.determinize:456...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+5803863,1853235,1853232,3
+Total 5803863 (344157 unique) events are in hot method
+Total 1853235 (24 unique) traces are in hot method
+Total 1853232 (21 unique) isolated traces are in hot method
+Total 3 (3 unique) non-isolated traces that have events in hot method
+Total 5460193 (487 unique) events are in isolated traces
+Total 4098475 (4098475 unique) events are in non-isolated traces (343670 / 343670 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (626548 traces / 6 unique traces) (2616980 events / 23 unique events)
+	Iterator_HasNext (626548 traces / 6 unique traces) (1990432 events / 17 unique events)
+	Iterator_RemoveOnce (593533 traces / 4 unique traces) (698345 events / 5 unique events)
+	Collections_SortBeforeBinarySearch (6603 traces / 5 unique traces) (154436 events / 442 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (334275 events / 334275 unique events) (77218 events / 77218 unique events in hot method)
+	Set_ItselfAsElement (1 traces / 1 unique traces) (3429925 events / 3429925 unique events) (189234 events / 189234 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (334275 events / 334275 unique events) (77218 events / 77218 unique events in hot method)
+Classifier (dk.brics.automaton.BasicOperations.determinize:456): LIB,ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#5
+Inspecting hot method dk.brics.automaton.State.getSortedTransitionArray:136...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+5055860,2527931,2527931,0
+Total 5055860 (2527931 unique) events are in hot method
+Total 2527931 (2 unique) traces are in hot method
+Total 2527931 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5055860 (2527931 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Arrays_SortBeforeBinarySearch (2527930 traces / 1 unique traces) (2527930 events / 1 unique events)
+	Arrays_MutuallyComparable (1 traces / 1 unique traces) (2527930 events / 2527930 unique events)
+Classifier (dk.brics.automaton.State.getSortedTransitionArray:136): LIB,ISOLATED_ONE_UNIQUE,RAW_ISOLATED_SINGLE_TRACE
+
+#6
+Inspecting hot method nl.flotsam.xeger.Xeger.appendChoice:192...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+4196754,440200,220300,219900
+Total 4196754 (6362 unique) events are in hot method
+Total 440200 (130 unique) traces are in hot method
+Total 220300 (64 unique) isolated traces are in hot method
+Total 219900 (66 unique) non-isolated traces that have events in hot method
+Total 2118377 (3222 unique) events are in isolated traces
+Total 2298277 (3206 unique) events are in non-isolated traces (2078377 / 3140 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (220100 traces / 63 unique traces) (2098377 events / 3122 unique events)
+	StringBuilder_ThreadSafe (200 traces / 1 unique traces) (20000 events / 100 unique events)
+Specs that have non-isolated traces:
+	StringBuilder_ThreadSafe (219900 traces / 66 unique traces) (2298277 events / 3206 unique events) (2078377 events / 3140 unique events in hot method)
+Classifier (nl.flotsam.xeger.Xeger.appendChoice:192): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#7
+Inspecting hot method dk.brics.automaton.Automaton.getStartPoints:405...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+3929326,553550,553549,1
+Total 3929326 (614138 unique) events are in hot method
+Total 553550 (45 unique) traces are in hot method
+Total 553549 (44 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 3317003 (1815 unique) events are in isolated traces
+Total 3429925 (3429925 unique) events are in non-isolated traces (612323 / 612323 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (187451 traces / 15 unique traces) (1476762 events / 738 unique events)
+	Iterator_HasNext (187451 traces / 15 unique traces) (1289311 events / 723 unique events)
+	Iterator_RemoveOnce (178647 traces / 14 unique traces) (550930 events / 354 unique events)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (3429925 events / 3429925 unique events) (612323 events / 612323 unique events in hot method)
+Classifier (dk.brics.automaton.Automaton.getStartPoints:405): LIB,ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#8
+Inspecting hot method dk.brics.automaton.Automaton.getAcceptStates:303...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+3783813,806189,747979,58210
+Total 3783813 (392056 unique) events are in hot method
+Total 806189 (29 unique) traces are in hot method
+Total 747979 (26 unique) isolated traces are in hot method
+Total 58210 (3 unique) non-isolated traces that have events in hot method
+Total 3228308 (967 unique) events are in isolated traces
+Total 3652556 (3429933 unique) events are in non-isolated traces (555505 / 391089 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (267262 traces / 5 unique traces) (1089830 events / 25 unique events)
+	Iterator_RemoveOnce (222050 traces / 4 unique traces) (411284 events / 10 unique events)
+	Collection_UnsafeIterator (209053 traces / 5 unique traces) (1192670 events / 30 unique events)
+	Collections_SortBeforeBinarySearch (49614 traces / 12 unique traces) (534524 events / 902 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (58209 traces / 2 unique traces) (222631 events / 8 unique events) (164422 events / 6 unique events in hot method)
+	Set_ItselfAsElement (1 traces / 1 unique traces) (3429925 events / 3429925 unique events) (391083 events / 391083 unique events in hot method)
+Classifier (dk.brics.automaton.Automaton.getAcceptStates:303): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#9
+Inspecting hot method dk.brics.automaton.State.step:110...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+3252531,896628,896628,0
+Total 3252531 (54 unique) events are in hot method
+Total 896628 (12 unique) traces are in hot method
+Total 896628 (12 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3252531 (54 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (298876 traces / 4 unique traces) (1181462 events / 20 unique events)
+	Collection_UnsafeIterator (298876 traces / 4 unique traces) (1480338 events / 24 unique events)
+	Iterator_RemoveOnce (298876 traces / 4 unique traces) (590731 events / 10 unique events)
+Classifier (dk.brics.automaton.State.step:110): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#10
+Inspecting hot method dk.brics.automaton.Automaton.removeDeadTransitions:456...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+3195896,507329,507328,1
+Total 3195896 (190985 unique) events are in hot method
+Total 507329 (36 unique) traces are in hot method
+Total 507328 (35 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 3006662 (1751 unique) events are in isolated traces
+Total 3429925 (3429925 unique) events are in non-isolated traces (189234 / 189234 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (172044 traces / 12 unique traces) (1340300 events / 710 unique events)
+	Iterator_HasNext (172044 traces / 12 unique traces) (1168256 events / 698 unique events)
+	Iterator_RemoveOnce (163240 traces / 11 unique traces) (498106 events / 343 unique events)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (3429925 events / 3429925 unique events) (189234 events / 189234 unique events in hot method)
+Classifier (dk.brics.automaton.Automaton.removeDeadTransitions:456): LIB,ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#11
+Inspecting hot method dk.brics.automaton.Automaton.reduce:367...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+2390701,480917,480916,1
+Total 2390701 (188190 unique) events are in hot method
+Total 480917 (27 unique) traces are in hot method
+Total 480916 (26 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 2203668 (1157 unique) events are in isolated traces
+Total 3429925 (3429925 unique) events are in non-isolated traces (187033 / 187033 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (165441 traces / 9 unique traces) (1013820 events / 470 unique events)
+	Iterator_HasNext (165441 traces / 9 unique traces) (848379 events / 461 unique events)
+	Iterator_RemoveOnce (150034 traces / 8 unique traces) (341469 events / 226 unique events)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (3429925 events / 3429925 unique events) (187033 events / 187033 unique events in hot method)
+Classifier (dk.brics.automaton.Automaton.reduce:367): LIB,ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#12
+Inspecting hot method dk.brics.automaton.Automaton.clone:644...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+2062599,465695,465692,3
+Total 2062599 (261579 unique) events are in hot method
+Total 465695 (26 unique) traces are in hot method
+Total 465692 (23 unique) isolated traces are in hot method
+Total 3 (3 unique) non-isolated traces that have events in hot method
+Total 1802149 (1129 unique) events are in isolated traces
+Total 4098475 (4098475 unique) events are in non-isolated traces (260450 / 260450 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (166633 traces / 8 unique traces) (854166 events / 458 unique events)
+	Iterator_HasNext (166633 traces / 8 unique traces) (687533 events / 450 unique events)
+	Iterator_RemoveOnce (132426 traces / 7 unique traces) (260450 events / 221 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (334275 events / 334275 unique events) (98219 events / 98219 unique events in hot method)
+	Set_ItselfAsElement (1 traces / 1 unique traces) (3429925 events / 3429925 unique events) (64012 events / 64012 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (334275 events / 334275 unique events) (98219 events / 98219 unique events in hot method)
+Classifier (dk.brics.automaton.Automaton.clone:644): LIB,ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#13
+Inspecting hot method dk.brics.automaton.Automaton.totalize:337...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+1416909,324080,242659,81421
+Total 1416909 (153386 unique) events are in hot method
+Total 324080 (28 unique) traces are in hot method
+Total 242659 (23 unique) isolated traces are in hot method
+Total 81421 (5 unique) non-isolated traces that have events in hot method
+Total 1110638 (1144 unique) events are in isolated traces
+Total 3936035 (3429946 unique) events are in non-isolated traces (306271 / 152242 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (83821 traces / 8 unique traces) (427491 events / 456 unique events)
+	Collection_UnsafeIterator (83821 traces / 8 unique traces) (511312 events / 464 unique events)
+	Iterator_RemoveOnce (75017 traces / 7 unique traces) (171835 events / 224 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (81420 traces / 4 unique traces) (506110 events / 21 unique events) (154036 events / 7 unique events in hot method)
+	Set_ItselfAsElement (1 traces / 1 unique traces) (3429925 events / 3429925 unique events) (152235 events / 152235 unique events in hot method)
+Classifier (dk.brics.automaton.Automaton.totalize:337): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#14
+Inspecting hot method dk.brics.automaton.Automaton.setStateNumbers:326...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+800793,39618,39618,0
+Total 800793 (1133 unique) events are in hot method
+Total 39618 (18 unique) traces are in hot method
+Total 39618 (18 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 800793 (1133 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (13206 traces / 6 unique traces) (330882 events / 458 unique events)
+	Iterator_RemoveOnce (13206 traces / 6 unique traces) (152235 events / 223 unique events)
+	Iterator_HasNext (13206 traces / 6 unique traces) (317676 events / 452 unique events)
+Classifier (dk.brics.automaton.Automaton.setStateNumbers:326): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#15
+Inspecting hot method nl.flotsam.xeger.XegerTest.assertListEquals:80...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+550000,220000,220000,0
+Total 550000 (5 unique) events are in hot method
+Total 220000 (2 unique) traces are in hot method
+Total 220000 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 550000 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (110000 traces / 1 unique traces) (330000 events / 3 unique events)
+	Appendable_ThreadSafe (110000 traces / 1 unique traces) (220000 events / 2 unique events)
+Classifier (nl.flotsam.xeger.XegerTest.assertListEquals:80): CUT,ISOLATED_ONE_UNIQUE
+
+#16
+Inspecting hot method dk.brics.automaton.MinimizationOperations.initialize:145...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+466518,97027,0,97027
+Total 466518 (459 unique) events are in hot method
+Total 97027 (12 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 97027 (12 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 933036 (918 unique) events are in non-isolated traces (466518 / 459 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (97027 traces / 12 unique traces) (933036 events / 918 unique events) (466518 events / 459 unique events in hot method)
+Classifier (dk.brics.automaton.MinimizationOperations.initialize:145): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#17
+Inspecting hot method dk.brics.automaton.BasicOperations.concatenate:85...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+447168,75037,75036,1
+Total 447168 (13054 unique) events are in hot method
+Total 75037 (31 unique) traces are in hot method
+Total 75036 (30 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 434762 (648 unique) events are in isolated traces
+Total 3429925 (3429925 unique) events are in non-isolated traces (12406 / 12406 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (25012 traces / 10 unique traces) (193074 events / 267 unique events)
+	Iterator_RemoveOnce (25012 traces / 10 unique traces) (73626 events / 124 unique events)
+	Iterator_HasNext (25012 traces / 10 unique traces) (168062 events / 257 unique events)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (3429925 events / 3429925 unique events) (12406 events / 12406 unique events in hot method)
+Classifier (dk.brics.automaton.BasicOperations.concatenate:85): LIB,ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#18
+Inspecting hot method dk.brics.automaton.Automaton.getNumberOfTransitions:516...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+394894,19809,19809,0
+Total 394894 (1115 unique) events are in hot method
+Total 19809 (15 unique) traces are in hot method
+Total 19809 (15 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 394894 (1115 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (6603 traces / 5 unique traces) (163240 events / 450 unique events)
+	Iterator_RemoveOnce (6603 traces / 5 unique traces) (75017 events / 220 unique events)
+	Iterator_HasNext (6603 traces / 5 unique traces) (156637 events / 445 unique events)
+Classifier (dk.brics.automaton.Automaton.getNumberOfTransitions:516): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#19
+Inspecting hot method dk.brics.automaton.State.addEpsilon:129...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+300649,118821,60611,58210
+Total 300649 (121224 unique) events are in hot method
+Total 118821 (5 unique) traces are in hot method
+Total 60611 (2 unique) isolated traces are in hot method
+Total 58210 (3 unique) non-isolated traces that have events in hot method
+Total 181830 (60612 unique) events are in isolated traces
+Total 3652556 (3429933 unique) events are in non-isolated traces (118819 / 60612 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsynchronizedAddAll (60610 traces / 1 unique traces) (121220 events / 2 unique events)
+	CharSequence_NotInSet (1 traces / 1 unique traces) (60610 events / 60610 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (58209 traces / 2 unique traces) (222631 events / 8 unique events) (58209 events / 2 unique events in hot method)
+	Set_ItselfAsElement (1 traces / 1 unique traces) (3429925 events / 3429925 unique events) (60610 events / 60610 unique events in hot method)
+Classifier (dk.brics.automaton.State.addEpsilon:129): LIB,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,RAW_ISOLATED_SINGLE_TRACE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#20
+Inspecting hot method nl.flotsam.xeger.Xeger.generate:75...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+200100,200100,0,200100
+Total 200100 (3 unique) events are in hot method
+Total 200100 (3 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 200100 (3 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 1346677 (21 unique) events are in non-isolated traces (200100 / 3 unique are in hot method)
+Specs that have non-isolated traces:
+	StringBuilder_ThreadSafe (200100 traces / 3 unique traces) (1346677 events / 21 unique events) (200100 events / 3 unique events in hot method)
+Classifier (nl.flotsam.xeger.Xeger.generate:75): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#21
+Inspecting hot method dk.brics.automaton.BasicOperations.repeat:204...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+200020,74007,74007,0
+Total 200020 (20 unique) events are in hot method
+Total 74007 (7 unique) traces are in hot method
+Total 74007 (7 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 200020 (20 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (24002 traces / 2 unique traces) (96008 events / 8 unique events)
+	Iterator_HasNext (24002 traces / 2 unique traces) (72006 events / 6 unique events)
+	Iterator_RemoveOnce (24002 traces / 2 unique traces) (24002 events / 2 unique events)
+	Collections_SortBeforeBinarySearch (2001 traces / 1 unique traces) (8004 events / 4 unique events)
+Classifier (dk.brics.automaton.BasicOperations.repeat:204): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE
+
+#22
+Inspecting hot method nl.flotsam.xeger.XegerTest.generateRegex:87...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+200000,2000,2000,0
+Total 200000 (100 unique) events are in hot method
+Total 2000 (1 unique) traces are in hot method
+Total 2000 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 200000 (100 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (2000 traces / 1 unique traces) (200000 events / 100 unique events)
+Classifier (nl.flotsam.xeger.XegerTest.generateRegex:87): CUT,ISOLATED_ONE_UNIQUE
+
+#23
+Inspecting hot method dk.brics.automaton.BasicOperations.union:416...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+61628,13207,13206,1
+Total 61628 (4428 unique) events are in hot method
+Total 13207 (7 unique) traces are in hot method
+Total 13206 (6 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 57226 (26 unique) events are in isolated traces
+Total 3429925 (3429925 unique) events are in non-isolated traces (4402 / 4402 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (4402 traces / 2 unique traces) (22010 events / 10 unique events)
+	Collection_UnsafeIterator (4402 traces / 2 unique traces) (26412 events / 12 unique events)
+	Iterator_RemoveOnce (4402 traces / 2 unique traces) (8804 events / 4 unique events)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (3429925 events / 3429925 unique events) (4402 events / 4402 unique events in hot method)
+Classifier (dk.brics.automaton.BasicOperations.union:416): LIB,ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#24
+Inspecting hot method nl.flotsam.xeger.XegerTest.generateRegex:67...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+20000,200,200,0
+Total 20000 (100 unique) events are in hot method
+Total 200 (1 unique) traces are in hot method
+Total 200 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 20000 (100 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (200 traces / 1 unique traces) (20000 events / 100 unique events)
+Classifier (nl.flotsam.xeger.XegerTest.generateRegex:67): CUT,ISOLATED_ONE_UNIQUE
+
+#25
+Inspecting hot method nl.flotsam.xeger.Xeger.generate:98...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+20000,20000,200,19800
+Total 20000 (64 unique) events are in hot method
+Total 20000 (64 unique) traces are in hot method
+Total 200 (1 unique) isolated traces are in hot method
+Total 19800 (63 unique) non-isolated traces that have events in hot method
+Total 200 (1 unique) events are in isolated traces
+Total 951600 (3185 unique) events are in non-isolated traces (19800 / 63 unique are in hot method)
+Specs that have isolated traces:
+	Throwable_InitCauseOnce (200 traces / 1 unique traces) (200 events / 1 unique events)
+Specs that have non-isolated traces:
+	StringBuilder_ThreadSafe (19800 traces / 63 unique traces) (951600 events / 3185 unique events) (19800 events / 63 unique events in hot method)
+Classifier (nl.flotsam.xeger.Xeger.generate:98): CUT,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#26
+Inspecting hot method dk.brics.automaton.RegExp.findLeaves:408...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+8804,4402,4402,0
+Total 8804 (2 unique) events are in hot method
+Total 4402 (1 unique) traces are in hot method
+Total 4402 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 8804 (2 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (4402 traces / 1 unique traces) (8804 events / 2 unique events)
+Classifier (dk.brics.automaton.RegExp.findLeaves:408): LIB,ISOLATED_ONE_UNIQUE
+
+#27
+Inspecting hot method dk.brics.automaton.Automaton.expandSingleton:487...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+6603,1,0,1
+Total 6603 (6603 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 3429925 (3429925 unique) events are in non-isolated traces (6603 / 6603 unique are in hot method)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (3429925 events / 3429925 unique events) (6603 events / 6603 unique events in hot method)
+Classifier (dk.brics.automaton.Automaton.expandSingleton:487): LIB,NOT_REDUNDANT_TRACES
+
+#28
+Inspecting hot method dk.brics.automaton.BasicOperations.determinize:445...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+6603,1,0,1
+Total 6603 (6603 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 3429925 (3429925 unique) events are in non-isolated traces (6603 / 6603 unique are in hot method)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (3429925 events / 3429925 unique events) (6603 events / 6603 unique events in hot method)
+Classifier (dk.brics.automaton.BasicOperations.determinize:445): LIB,NOT_REDUNDANT_TRACES
+

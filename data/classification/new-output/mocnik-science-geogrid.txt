@@ -1,0 +1,153 @@
+Reading traces...
+Reading specs frequency...
+Reading locations...
+Counting events...
+Total 95620359 events and 4000582 traces
+Inspecting top 200 IMM
+Finding hot methods...
+Number of events, method name
+32062080,org.giscience.utils.geogrid.cells.GridCell.getID:83
+22000000,org.giscience.utils.geogrid.projections.ISEAProjection._guessFace:320
+16031040,org.giscience.utils.geogrid.grids.ISEA3H$CellAggregatorByCells.add:514
+15522365,org.giscience.utils.geogrid.projections.ISEAProjection._sphereToIcosahedron:279
+8000000,org.giscience.utils.geogrid.grids.ISEA3HTest._pointsInGridCells:84
+2000000,org.giscience.utils.geogrid.projections.ISEAProjectionTest.projectionApartFromPoles:20
+2952,org.giscience.utils.geogrid.grids.ISEA3H._cells:356
+1920,org.giscience.utils.geogrid.grids.ISEA3H$CellAggregatorByCells.addAll:519
+1,org.giscience.utils.geogrid.cells.GridCell.<clinit>:0
+1,org.giscience.utils.geogrid.cells.GridCellIDType.<clinit>:7
+^^^ Last method that contains more than one event ^^^
+Starting org.giscience.utils.geogrid.grids.ISEA3H._cells:356
+Finish org.giscience.utils.geogrid.grids.ISEA3H._cells:356
+Starting org.giscience.utils.geogrid.grids.ISEA3H$CellAggregatorByCells.addAll:519
+Finish org.giscience.utils.geogrid.grids.ISEA3H$CellAggregatorByCells.addAll:519
+Starting org.giscience.utils.geogrid.grids.ISEA3HTest._pointsInGridCells:84
+Finish org.giscience.utils.geogrid.grids.ISEA3HTest._pointsInGridCells:84
+Starting org.giscience.utils.geogrid.projections.ISEAProjectionTest.projectionApartFromPoles:20
+Finish org.giscience.utils.geogrid.projections.ISEAProjectionTest.projectionApartFromPoles:20
+Starting org.giscience.utils.geogrid.projections.ISEAProjection._guessFace:320
+Finish org.giscience.utils.geogrid.projections.ISEAProjection._guessFace:320
+Starting org.giscience.utils.geogrid.projections.ISEAProjection._sphereToIcosahedron:279
+Finish org.giscience.utils.geogrid.projections.ISEAProjection._sphereToIcosahedron:279
+
+#1
+Inspecting hot method org.giscience.utils.geogrid.cells.GridCell.getID:83...
+Checking for isolation...
+32062080,2,2,0
+Total 32062080 (32062080 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 32062080 (32062080 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (16031040 events / 16031040 unique events)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (16031040 events / 16031040 unique events)
+Classifier (org.giscience.utils.geogrid.cells.GridCell.getID:83): CUT,NOT_REDUNDANT_TRACES
+
+#2
+Inspecting hot method org.giscience.utils.geogrid.projections.ISEAProjection._guessFace:320...
+Checking for isolation...
+22000000,1000000,1000000,0
+Total 22000000 (462 unique) events are in hot method
+Total 1000000 (21 unique) traces are in hot method
+Total 1000000 (21 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 22000000 (462 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1000000 traces / 21 unique traces) (22000000 events / 462 unique events)
+Classifier (org.giscience.utils.geogrid.projections.ISEAProjection._guessFace:320): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#3
+Inspecting hot method org.giscience.utils.geogrid.grids.ISEA3H$CellAggregatorByCells.add:514...
+Checking for isolation...
+16031040,1,0,1
+Total 16031040 (16031040 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 16031520 (16031520 unique) events are in non-isolated traces (16031040 / 16031040 unique are in hot method)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (16031520 events / 16031520 unique events) (16031040 events / 16031040 unique events in hot method)
+Classifier (org.giscience.utils.geogrid.grids.ISEA3H$CellAggregatorByCells.add:514): LIB,NOT_REDUNDANT_TRACES
+
+#4
+Inspecting hot method org.giscience.utils.geogrid.projections.ISEAProjection._sphereToIcosahedron:279...
+Checking for isolation...
+15522365,3000000,3000000,0
+Total 15522365 (652 unique) events are in hot method
+Total 3000000 (36 unique) traces are in hot method
+Total 3000000 (36 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 15522365 (652 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (1000000 traces / 12 unique traces) (6808946 events / 268 unique events)
+	Iterator_RemoveOnce (1000000 traces / 12 unique traces) (2904473 events / 128 unique events)
+	Iterator_HasNext (1000000 traces / 12 unique traces) (5808946 events / 256 unique events)
+Classifier (org.giscience.utils.geogrid.projections.ISEAProjection._sphereToIcosahedron:279): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#5
+Inspecting hot method org.giscience.utils.geogrid.grids.ISEA3HTest._pointsInGridCells:84...
+Checking for isolation...
+8000000,1,0,1
+Total 8000000 (8000000 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 10000000 (10000000 unique) events are in non-isolated traces (8000000 / 8000000 unique are in hot method)
+Specs that have non-isolated traces:
+	Math_ContendedRandom (1 traces / 1 unique traces) (10000000 events / 10000000 unique events) (8000000 events / 8000000 unique events in hot method)
+Classifier (org.giscience.utils.geogrid.grids.ISEA3HTest._pointsInGridCells:84): LIB,NOT_REDUNDANT_TRACES
+
+#6
+Inspecting hot method org.giscience.utils.geogrid.projections.ISEAProjectionTest.projectionApartFromPoles:20...
+Checking for isolation...
+2000000,1,0,1
+Total 2000000 (2000000 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 10000000 (10000000 unique) events are in non-isolated traces (2000000 / 2000000 unique are in hot method)
+Specs that have non-isolated traces:
+	Math_ContendedRandom (1 traces / 1 unique traces) (10000000 events / 10000000 unique events) (2000000 events / 2000000 unique events in hot method)
+Classifier (org.giscience.utils.geogrid.projections.ISEAProjectionTest.projectionApartFromPoles:20): LIB,NOT_REDUNDANT_TRACES
+
+#7
+Inspecting hot method org.giscience.utils.geogrid.grids.ISEA3H._cells:356...
+Checking for isolation...
+2952,96,96,0
+Total 2952 (123 unique) events are in hot method
+Total 96 (4 unique) traces are in hot method
+Total 96 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2952 (123 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (24 traces / 1 unique traces) (984 events / 41 unique events)
+	Iterator_RemoveOnce (24 traces / 1 unique traces) (480 events / 20 unique events)
+	Collection_UnsafeIterator (24 traces / 1 unique traces) (1008 events / 42 unique events)
+	Collections_SortBeforeBinarySearch (24 traces / 1 unique traces) (480 events / 20 unique events)
+Classifier (org.giscience.utils.geogrid.grids.ISEA3H._cells:356): LIB,ISOLATED_ONE_UNIQUE
+
+#8
+Inspecting hot method org.giscience.utils.geogrid.grids.ISEA3H$CellAggregatorByCells.addAll:519...
+Checking for isolation...
+1920,482,481,1
+Total 1920 (962 unique) events are in hot method
+Total 482 (3 unique) traces are in hot method
+Total 481 (2 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 1440 (482 unique) events are in isolated traces
+Total 16031520 (16031520 unique) events are in non-isolated traces (480 / 480 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsynchronizedAddAll (480 traces / 1 unique traces) (960 events / 2 unique events)
+	CharSequence_NotInSet (1 traces / 1 unique traces) (480 events / 480 unique events)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (16031520 events / 16031520 unique events) (480 events / 480 unique events in hot method)
+Classifier (org.giscience.utils.geogrid.grids.ISEA3H$CellAggregatorByCells.addAll:519): LIB,ISOLATED_ONE_UNIQUE,RAW_ISOLATED_SINGLE_TRACE,RAW_NOT_ISOLATED_SINGLE_TRACE
+

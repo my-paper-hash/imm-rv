@@ -1,0 +1,1878 @@
+Reading traces...
+Reading specs frequency...
+Reading locations...
+Counting events...
+Total 2297747374 events and 219116689 traces
+Inspecting top 200 IMM
+Finding hot methods...
+Number of events, method name
+1526120448,org.attoparser.trace.MarkupTraceEvent.toString:119
+384139764,org.attoparser.MarkupParserTest.testDoc:1965
+247693312,org.attoparser.MarkupParserTest.testHtmlDoc:2200
+28292282,org.attoparser.MarkupParser.parseDocument:275
+13356709,org.attoparser.MarkupEventProcessorHandler$StructureNamesRepository.storeStructureName:1095
+10452992,org.attoparser.TextTracerSimpleMarkupHandler.writeAttributes:348
+9650226,org.attoparser.trace.TraceBuilderMarkupHandler.handleDocumentStart:91
+9650176,org.attoparser.trace.TraceBuilderMarkupHandler.handleDocumentEnd:100
+8601616,org.attoparser.trace.TraceBuilderMarkupHandler.handleText:295
+7995400,org.attoparser.trace.TraceBuilderMarkupHandler.handleOpenElementStart:144
+7995400,org.attoparser.trace.TraceBuilderMarkupHandler.handleOpenElementEnd:157
+5914624,org.attoparser.trace.TraceBuilderMarkupHandler.handleAutoCloseElementStart:222
+5914624,org.attoparser.trace.TraceBuilderMarkupHandler.handleAutoCloseElementEnd:235
+3817479,org.attoparser.trace.TraceBuilderMarkupHandler.handleInnerWhiteSpace:375
+3751938,org.attoparser.trace.TraceBuilderMarkupHandler.handleAttribute:280
+3735553,org.attoparser.trace.TraceBuilderMarkupHandler.handleCloseElementStart:196
+3735553,org.attoparser.trace.TraceBuilderMarkupHandler.handleCloseElementEnd:209
+2457605,org.attoparser.trace.TraceBuilderMarkupHandler.handleStandaloneElementStart:111
+2457600,org.attoparser.trace.TraceBuilderMarkupHandler.handleStandaloneElementEnd:127
+2244608,org.attoparser.trace.TraceBuilderMarkupHandler.handleAutoOpenElementStart:170
+2244608,org.attoparser.trace.TraceBuilderMarkupHandler.handleAutoOpenElementEnd:183
+1769481,org.attoparser.trace.TraceBuilderMarkupHandler.handleDocType:400
+1671172,org.attoparser.simple.SimplifierMarkupHandler.handleAttribute:420
+1409354,org.attoparser.MarkupEventProcessorHandler$StandardNamesRepository.getStructureName:1163
+737280,org.attoparser.trace.TraceBuilderMarkupHandler.handleComment:308
+688128,org.attoparser.trace.TraceBuilderMarkupHandler.handleXmlDeclaration:342
+540672,org.attoparser.trace.TraceBuilderMarkupHandler.handleCDATASection:320
+294912,org.attoparser.trace.TraceBuilderMarkupHandler.handleProcessingInstruction:432
+114440,org.apache.commons.lang3.StringUtils.join:4035
+98304,org.attoparser.trace.TraceBuilderMarkupHandler.handleUnmatchedCloseElementStart:248
+98304,org.attoparser.trace.TraceBuilderMarkupHandler.handleUnmatchedCloseElementEnd:261
+32768,org.attoparser.HtmlCDATAContentElement.computeLimitSequence:183
+12969,org.apache.commons.io.IOUtils.readLines:500
+6834,org.attoparser.select.SelectorElementBuffer.bufferElementStart:153
+6242,org.attoparser.select.SelectorElementBuffer.bufferElementInnerWhiteSpace:294
+5753,org.attoparser.select.SelectorElementBuffer.bufferAttribute:183
+4485,org.attoparser.select.ParseSelection$ParseSelectionLevel.toString:262
+4116,org.attoparser.select.MarkupSelectorItem.toStringAttributeCondition:186
+3957,org.attoparser.select.MarkupSelectorItems.parseSelector:127
+1844,org.attoparser.MarkupEventProcessorHandler$StandardNamesRepository.<clinit>:1136
+1586,org.attoparser.select.ParseSelection.toString:181
+1531,org.attoparser.StructureNamesRepositoryTest.test:36
+1432,org.attoparser.select.MarkupSelectorItem.toString:124
+1309,org.attoparser.select.HtmlNodeSelectorWithAttributeMarkupHandlerTest$TestingFragmentReferenceResolver.resolveSelectorFromReference:143
+1292,org.attoparser.select.HtmlNodeSelectorWithAttributeMarkupHandlerTest.test:60
+1078,org.apache.commons.lang3.StringUtils.join:4081
+1019,org.attoparser.select.HtmlBlockSelectorMarkupHandlerTest.test:60
+980,org.attoparser.select.HtmlAutoOpenBlockSelectorMarkupHandlerTest.test:60
+954,org.attoparser.select.XmlBlockSelectorMarkupHandlerTest.test:60
+864,org.attoparser.ParseException.message:119
+759,org.attoparser.select.XmlBlockSelectorMarkupHandlerTest$TestingFragmentReferenceResolver.resolveSelectorFromReference:143
+737,org.attoparser.select.HtmlBlockSelectorMarkupHandlerTest$TestingFragmentReferenceResolver.resolveSelectorFromReference:142
+715,org.attoparser.HtmlNames.<clinit>:49
+708,org.attoparser.HtmlElements$HtmlElementRepository.storeStandardElement:341
+704,org.attoparser.select.HtmlAutoOpenBlockSelectorMarkupHandlerTest$TestingFragmentReferenceResolver.resolveSelectorFromReference:143
+680,org.apache.commons.lang3.StringUtils.join:4127
+593,org.attoparser.HtmlElementsTest.test:36
+593,org.attoparser.HtmlElements.<clinit>:50
+528,org.attoparser.ParseException.messagePrefix:112
+528,org.attoparser.select.MarkupSelectorItemsTest$TestingFragmentReferenceResolver.resolveSelectorFromReference:162
+495,org.attoparser.select.HtmlNodeSelectorWithAttributeMarkupHandlerTest.check:122
+435,org.apache.commons.lang3.StringUtils.splitWorker:3076
+429,org.attoparser.select.MarkupSelectorOrItem.toString:89
+390,org.attoparser.select.HtmlBlockSelectorMarkupHandlerTest.check:122
+375,org.attoparser.select.HtmlAutoOpenBlockSelectorMarkupHandlerTest.check:123
+365,org.attoparser.select.XmlBlockSelectorMarkupHandlerTest.check:123
+336,org.attoparser.ParseException.<init>:97
+310,org.attoparser.dom.StructureTextsRepository.<clinit>:41
+310,org.attoparser.simple.StructureTextsRepository.<clinit>:41
+208,org.attoparser.dom.DOMWriter.writeElement:168
+154,org.attoparser.dom.DOMWriter.writeDocument:154
+132,org.attoparser.select.HtmlBlockSelectorWithAttributeMarkupHandlerTest$TestingFragmentReferenceResolver.resolveSelectorFromReference:143
+122,org.attoparser.select.HtmlBlockSelectorWithAttributeMarkupHandlerTest.test:60
+116,org.attoparser.MarkupEventProcessorHandler.handleAttribute:535
+114,org.attoparser.select.OpenCloseAttributeSelectionMarkingMarkupHandler.<init>:40
+99,org.attoparser.select.MarkupSelectorAndItem.toString:90
+90,org.apache.commons.lang3.StringUtils.join:4148
+84,org.attoparser.ParsingDocTypeMarkupUtil.doParseDetailedDocTypeWithInternalSubset:114
+83,org.attoparser.select.HtmlMultipleSelectorWithAttributeMarkupHandlerTest.test:60
+75,org.attoparser.minimize.MinimizeHtmlMarkupHandler.handleAttribute:662
+66,org.attoparser.simple.SimpleOutputMarkupHandlerTest$TestSimpleMarkupHandler.handleOpenElement:121
+52,org.attoparser.dom.AbstractNestableNode.addChild:116
+51,org.attoparser.MarkupEventProcessorHandler.checkValidRootElement:704
+45,org.attoparser.select.HtmlBlockSelectorWithAttributeMarkupHandlerTest.check:122
+44,org.attoparser.select.HtmlMultipleSelectorWithAttributeMarkupHandlerTest$TestingFragmentReferenceResolver.resolveSelectorFromReference:151
+42,org.attoparser.MarkupEventProcessorHandler.checkStackForElement:749
+36,org.attoparser.ParsingXmlDeclarationMarkupUtil$XmlDeclarationAttributeProcessor.handleAttribute:228
+30,org.attoparser.select.HtmlMultipleSelectorWithAttributeMarkupHandlerTest.check:122
+28,org.attoparser.HtmlCDATAContentElement.<init>:62
+28,org.attoparser.select.MarkupSelectorFilter.checkMarkupLevel:489
+14,org.attoparser.ParsingXmlDeclarationMarkupUtil.parseXmlDeclaration:54
+14,org.attoparser.MarkupEventProcessorHandler.handleDocType:622
+9,org.attoparser.MarkupEventProcessorHandler.handleDocumentEnd:171
+9,org.attoparser.select.BlockSelectorMarkupHandler.checkSizeOfMarkupBlocksStructure:1462
+8,org.attoparser.select.ParseSelection.subscribeLevel:63
+7,org.attoparser.HtmlElements$HtmlElementRepository.storeElement:320
+7,org.attoparser.select.OpenCloseAttributeSelectionMarkingMarkupHandler.checkSelectorAttributeLen:244
+6,org.attoparser.MarkupEventProcessorHandler.growStack:1042
+5,org.attoparser.MarkupParserTest.test:55
+4,org.attoparser.select.NodeSelectorMarkupHandler.addMatchingMarkupLevel:1106
+4,org.attoparser.simple.SimpleOutputMarkupHandlerTest$TestSimpleMarkupHandler.handleStandaloneElement:93
+3,org.attoparser.select.NodeSelectorMarkupHandler.checkSizeOfMarkupBlocksStructure:1094
+1,org.attoparser.config.ParseConfiguration$ParsingMode.<clinit>:656
+1,org.attoparser.config.ParseConfiguration$ElementBalancing.<clinit>:99
+1,org.attoparser.config.ParseConfiguration$PrologParseConfiguration.<clinit>:0
+1,org.attoparser.config.ParseConfiguration$PrologPresence.<clinit>:671
+1,org.attoparser.config.ParseConfiguration$UniqueRootElementPresence.<clinit>:718
+1,org.attoparser.config.ParseConfiguration.<clinit>:133
+1,org.attoparser.select.MarkupSelectorItem$IndexCondition$IndexConditionType.<clinit>:257
+1,org.attoparser.select.MarkupSelectorItem$AttributeCondition$Operator.<clinit>:213
+1,org.attoparser.select.MarkupSelectorItem$AttributeConditionRelation$Type.<clinit>:237
+1,org.apache.commons.lang3.ObjectUtils$Null.<clinit>:0
+1,org.attoparser.trace.MarkupTraceEvent$EventType.<clinit>:45
+1,org.attoparser.ParseException.<clinit>:0
+1,org.attoparser.minimize.MinimizeHtmlMarkupHandler$MinimizeMode.<clinit>:98
+1,org.attoparser.dom.Document.<clinit>:0
+1,org.attoparser.dom.Element.<clinit>:0
+1,org.attoparser.dom.Text.<clinit>:0
+1,org.attoparser.dom.DocType.<clinit>:0
+1,org.attoparser.dom.Comment.<clinit>:0
+^^^ Last method that contains more than one event ^^^
+Starting org.attoparser.trace.TraceBuilderMarkupHandler.handleText:295
+Finish org.attoparser.trace.TraceBuilderMarkupHandler.handleText:295
+Starting org.attoparser.trace.TraceBuilderMarkupHandler.handleOpenElementStart:144
+Finish org.attoparser.trace.TraceBuilderMarkupHandler.handleOpenElementStart:144
+Starting org.attoparser.ParseException.messagePrefix:112
+Finish org.attoparser.ParseException.messagePrefix:112
+Starting org.attoparser.select.MarkupSelectorItemsTest$TestingFragmentReferenceResolver.resolveSelectorFromReference:162
+Finish org.attoparser.select.MarkupSelectorItemsTest$TestingFragmentReferenceResolver.resolveSelectorFromReference:162
+Starting org.attoparser.trace.TraceBuilderMarkupHandler.handleOpenElementEnd:157
+Finish org.attoparser.trace.TraceBuilderMarkupHandler.handleOpenElementEnd:157
+Starting org.attoparser.trace.TraceBuilderMarkupHandler.handleAutoCloseElementStart:222
+Finish org.attoparser.trace.TraceBuilderMarkupHandler.handleAutoCloseElementStart:222
+Starting org.attoparser.select.HtmlAutoOpenBlockSelectorMarkupHandlerTest.check:123
+Finish org.attoparser.select.HtmlAutoOpenBlockSelectorMarkupHandlerTest.check:123
+Starting org.attoparser.select.XmlBlockSelectorMarkupHandlerTest.check:123
+Finish org.attoparser.select.XmlBlockSelectorMarkupHandlerTest.check:123
+Starting org.attoparser.select.ParseSelection$ParseSelectionLevel.toString:262
+Finish org.attoparser.select.ParseSelection$ParseSelectionLevel.toString:262
+Starting org.attoparser.select.MarkupSelectorItem.toStringAttributeCondition:186
+Finish org.attoparser.select.MarkupSelectorItem.toStringAttributeCondition:186
+Starting org.attoparser.HtmlElementsTest.test:36
+Finish org.attoparser.HtmlElementsTest.test:36
+Starting org.attoparser.HtmlElements.<clinit>:50
+Finish org.attoparser.HtmlElements.<clinit>:50
+Starting org.attoparser.select.HtmlBlockSelectorMarkupHandlerTest.test:60
+Finish org.attoparser.select.HtmlBlockSelectorMarkupHandlerTest.test:60
+Starting org.attoparser.select.HtmlAutoOpenBlockSelectorMarkupHandlerTest.test:60
+Finish org.attoparser.select.HtmlAutoOpenBlockSelectorMarkupHandlerTest.test:60
+Starting org.attoparser.select.HtmlNodeSelectorWithAttributeMarkupHandlerTest.check:122
+Finish org.attoparser.select.HtmlNodeSelectorWithAttributeMarkupHandlerTest.check:122
+Starting org.apache.commons.lang3.StringUtils.splitWorker:3076
+Finish org.apache.commons.lang3.StringUtils.splitWorker:3076
+Starting org.attoparser.trace.TraceBuilderMarkupHandler.handleAutoOpenElementEnd:183
+Finish org.attoparser.trace.TraceBuilderMarkupHandler.handleAutoOpenElementEnd:183
+Starting org.attoparser.trace.TraceBuilderMarkupHandler.handleDocType:400
+Finish org.attoparser.trace.TraceBuilderMarkupHandler.handleDocType:400
+Starting org.attoparser.dom.DOMWriter.writeDocument:154
+Finish org.attoparser.dom.DOMWriter.writeDocument:154
+Starting org.attoparser.select.HtmlBlockSelectorWithAttributeMarkupHandlerTest$TestingFragmentReferenceResolver.resolveSelectorFromReference:143
+Finish org.attoparser.select.HtmlBlockSelectorWithAttributeMarkupHandlerTest$TestingFragmentReferenceResolver.resolveSelectorFromReference:143
+Starting org.attoparser.trace.TraceBuilderMarkupHandler.handleAutoCloseElementEnd:235
+Finish org.attoparser.trace.TraceBuilderMarkupHandler.handleAutoCloseElementEnd:235
+Starting org.attoparser.trace.TraceBuilderMarkupHandler.handleInnerWhiteSpace:375
+Finish org.attoparser.trace.TraceBuilderMarkupHandler.handleInnerWhiteSpace:375
+Starting org.attoparser.HtmlNames.<clinit>:49
+Finish org.attoparser.HtmlNames.<clinit>:49
+Starting org.attoparser.HtmlElements$HtmlElementRepository.storeStandardElement:341
+Finish org.attoparser.HtmlElements$HtmlElementRepository.storeStandardElement:341
+Starting org.attoparser.trace.TraceBuilderMarkupHandler.handleDocumentStart:91
+Finish org.attoparser.trace.TraceBuilderMarkupHandler.handleDocumentStart:91
+Starting org.attoparser.trace.TraceBuilderMarkupHandler.handleDocumentEnd:100
+Finish org.attoparser.trace.TraceBuilderMarkupHandler.handleDocumentEnd:100
+Starting org.attoparser.simple.StructureTextsRepository.<clinit>:41
+Finish org.attoparser.simple.StructureTextsRepository.<clinit>:41
+Starting org.attoparser.dom.DOMWriter.writeElement:168
+Finish org.attoparser.dom.DOMWriter.writeElement:168
+Starting org.attoparser.select.MarkupSelectorItem.toString:124
+Finish org.attoparser.select.MarkupSelectorItem.toString:124
+Starting org.attoparser.select.HtmlNodeSelectorWithAttributeMarkupHandlerTest$TestingFragmentReferenceResolver.resolveSelectorFromReference:143
+Finish org.attoparser.select.HtmlNodeSelectorWithAttributeMarkupHandlerTest$TestingFragmentReferenceResolver.resolveSelectorFromReference:143
+Starting org.attoparser.select.HtmlAutoOpenBlockSelectorMarkupHandlerTest$TestingFragmentReferenceResolver.resolveSelectorFromReference:143
+Finish org.attoparser.select.HtmlAutoOpenBlockSelectorMarkupHandlerTest$TestingFragmentReferenceResolver.resolveSelectorFromReference:143
+Starting org.apache.commons.lang3.StringUtils.join:4127
+Finish org.apache.commons.lang3.StringUtils.join:4127
+Starting org.attoparser.select.ParseSelection.toString:181
+Finish org.attoparser.select.ParseSelection.toString:181
+Starting org.attoparser.StructureNamesRepositoryTest.test:36
+Finish org.attoparser.StructureNamesRepositoryTest.test:36
+Starting org.attoparser.select.MarkupSelectorOrItem.toString:89
+Finish org.attoparser.select.MarkupSelectorOrItem.toString:89
+Starting org.attoparser.select.HtmlBlockSelectorMarkupHandlerTest.check:122
+Finish org.attoparser.select.HtmlBlockSelectorMarkupHandlerTest.check:122
+Starting org.apache.commons.io.IOUtils.readLines:500
+Finish org.apache.commons.io.IOUtils.readLines:500
+Starting org.attoparser.select.SelectorElementBuffer.bufferElementStart:153
+Finish org.attoparser.select.SelectorElementBuffer.bufferElementStart:153
+Starting org.attoparser.ParsingXmlDeclarationMarkupUtil$XmlDeclarationAttributeProcessor.handleAttribute:228
+Finish org.attoparser.ParsingXmlDeclarationMarkupUtil$XmlDeclarationAttributeProcessor.handleAttribute:228
+Starting org.attoparser.select.HtmlMultipleSelectorWithAttributeMarkupHandlerTest.check:122
+Finish org.attoparser.select.HtmlMultipleSelectorWithAttributeMarkupHandlerTest.check:122
+Starting org.attoparser.select.SelectorElementBuffer.bufferElementInnerWhiteSpace:294
+Finish org.attoparser.select.SelectorElementBuffer.bufferElementInnerWhiteSpace:294
+Starting org.attoparser.select.SelectorElementBuffer.bufferAttribute:183
+Finish org.attoparser.select.SelectorElementBuffer.bufferAttribute:183
+Starting org.attoparser.MarkupEventProcessorHandler.checkValidRootElement:704
+Finish org.attoparser.MarkupEventProcessorHandler.checkValidRootElement:704
+Starting org.attoparser.select.HtmlBlockSelectorWithAttributeMarkupHandlerTest.check:122
+Finish org.attoparser.select.HtmlBlockSelectorWithAttributeMarkupHandlerTest.check:122
+Starting org.attoparser.simple.SimplifierMarkupHandler.handleAttribute:420
+Finish org.attoparser.simple.SimplifierMarkupHandler.handleAttribute:420
+Starting org.attoparser.MarkupEventProcessorHandler$StandardNamesRepository.getStructureName:1163
+Finish org.attoparser.MarkupEventProcessorHandler$StandardNamesRepository.getStructureName:1163
+Starting org.attoparser.ParsingXmlDeclarationMarkupUtil.parseXmlDeclaration:54
+Finish org.attoparser.ParsingXmlDeclarationMarkupUtil.parseXmlDeclaration:54
+Starting org.attoparser.MarkupEventProcessorHandler.handleDocType:622
+Finish org.attoparser.MarkupEventProcessorHandler.handleDocType:622
+Starting org.attoparser.trace.TraceBuilderMarkupHandler.handleAttribute:280
+Finish org.attoparser.trace.TraceBuilderMarkupHandler.handleAttribute:280
+Starting org.attoparser.trace.TraceBuilderMarkupHandler.handleCloseElementStart:196
+Finish org.attoparser.trace.TraceBuilderMarkupHandler.handleCloseElementStart:196
+Starting org.apache.commons.lang3.StringUtils.join:4148
+Finish org.apache.commons.lang3.StringUtils.join:4148
+Starting org.attoparser.ParsingDocTypeMarkupUtil.doParseDetailedDocTypeWithInternalSubset:114
+Finish org.attoparser.ParsingDocTypeMarkupUtil.doParseDetailedDocTypeWithInternalSubset:114
+Starting org.attoparser.trace.TraceBuilderMarkupHandler.handleStandaloneElementEnd:127
+Finish org.attoparser.trace.TraceBuilderMarkupHandler.handleStandaloneElementEnd:127
+Starting org.attoparser.trace.TraceBuilderMarkupHandler.handleAutoOpenElementStart:170
+Finish org.attoparser.trace.TraceBuilderMarkupHandler.handleAutoOpenElementStart:170
+Starting org.attoparser.HtmlCDATAContentElement.<init>:62
+Finish org.attoparser.HtmlCDATAContentElement.<init>:62
+Starting org.attoparser.select.MarkupSelectorFilter.checkMarkupLevel:489
+Finish org.attoparser.select.MarkupSelectorFilter.checkMarkupLevel:489
+Starting org.attoparser.select.MarkupSelectorItems.parseSelector:127
+Finish org.attoparser.select.MarkupSelectorItems.parseSelector:127
+Starting org.attoparser.MarkupEventProcessorHandler$StandardNamesRepository.<clinit>:1136
+Finish org.attoparser.MarkupEventProcessorHandler$StandardNamesRepository.<clinit>:1136
+Starting org.attoparser.ParseException.<init>:97
+Finish org.attoparser.ParseException.<init>:97
+Starting org.attoparser.dom.StructureTextsRepository.<clinit>:41
+Finish org.attoparser.dom.StructureTextsRepository.<clinit>:41
+Starting org.attoparser.select.XmlBlockSelectorMarkupHandlerTest.test:60
+Finish org.attoparser.select.XmlBlockSelectorMarkupHandlerTest.test:60
+Starting org.attoparser.ParseException.message:119
+Finish org.attoparser.ParseException.message:119
+Starting org.attoparser.select.HtmlMultipleSelectorWithAttributeMarkupHandlerTest$TestingFragmentReferenceResolver.resolveSelectorFromReference:151
+Finish org.attoparser.select.HtmlMultipleSelectorWithAttributeMarkupHandlerTest$TestingFragmentReferenceResolver.resolveSelectorFromReference:151
+Starting org.attoparser.MarkupEventProcessorHandler.checkStackForElement:749
+Finish org.attoparser.MarkupEventProcessorHandler.checkStackForElement:749
+Starting org.attoparser.MarkupParserTest.testHtmlDoc:2200
+Finish org.attoparser.MarkupParserTest.testHtmlDoc:2200
+Starting org.attoparser.MarkupParser.parseDocument:275
+Finish org.attoparser.MarkupParser.parseDocument:275
+Starting org.attoparser.MarkupEventProcessorHandler.handleDocumentEnd:171
+Finish org.attoparser.MarkupEventProcessorHandler.handleDocumentEnd:171
+Starting org.attoparser.select.BlockSelectorMarkupHandler.checkSizeOfMarkupBlocksStructure:1462
+Finish org.attoparser.select.BlockSelectorMarkupHandler.checkSizeOfMarkupBlocksStructure:1462
+Starting org.attoparser.trace.TraceBuilderMarkupHandler.handleComment:308
+Finish org.attoparser.trace.TraceBuilderMarkupHandler.handleComment:308
+Starting org.attoparser.trace.TraceBuilderMarkupHandler.handleXmlDeclaration:342
+Finish org.attoparser.trace.TraceBuilderMarkupHandler.handleXmlDeclaration:342
+Starting org.attoparser.simple.SimpleOutputMarkupHandlerTest$TestSimpleMarkupHandler.handleOpenElement:121
+Finish org.attoparser.simple.SimpleOutputMarkupHandlerTest$TestSimpleMarkupHandler.handleOpenElement:121
+Starting org.attoparser.dom.AbstractNestableNode.addChild:116
+Finish org.attoparser.dom.AbstractNestableNode.addChild:116
+Starting org.attoparser.trace.TraceBuilderMarkupHandler.handleCloseElementEnd:209
+Finish org.attoparser.trace.TraceBuilderMarkupHandler.handleCloseElementEnd:209
+Starting org.attoparser.trace.TraceBuilderMarkupHandler.handleStandaloneElementStart:111
+Finish org.attoparser.trace.TraceBuilderMarkupHandler.handleStandaloneElementStart:111
+Starting org.attoparser.select.HtmlBlockSelectorWithAttributeMarkupHandlerTest.test:60
+Finish org.attoparser.select.HtmlBlockSelectorWithAttributeMarkupHandlerTest.test:60
+Starting org.attoparser.MarkupEventProcessorHandler.handleAttribute:535
+Finish org.attoparser.MarkupEventProcessorHandler.handleAttribute:535
+Starting org.attoparser.select.HtmlNodeSelectorWithAttributeMarkupHandlerTest.test:60
+Finish org.attoparser.select.HtmlNodeSelectorWithAttributeMarkupHandlerTest.test:60
+Starting org.apache.commons.lang3.StringUtils.join:4081
+Finish org.apache.commons.lang3.StringUtils.join:4081
+Starting org.attoparser.select.OpenCloseAttributeSelectionMarkingMarkupHandler.<init>:40
+Finish org.attoparser.select.OpenCloseAttributeSelectionMarkingMarkupHandler.<init>:40
+Starting org.attoparser.select.MarkupSelectorAndItem.toString:90
+Finish org.attoparser.select.MarkupSelectorAndItem.toString:90
+Starting org.attoparser.trace.MarkupTraceEvent.toString:119
+Finish org.attoparser.trace.MarkupTraceEvent.toString:119
+Starting org.attoparser.MarkupParserTest.testDoc:1965
+Finish org.attoparser.MarkupParserTest.testDoc:1965
+Starting org.attoparser.select.ParseSelection.subscribeLevel:63
+Finish org.attoparser.select.ParseSelection.subscribeLevel:63
+Starting org.attoparser.HtmlElements$HtmlElementRepository.storeElement:320
+Finish org.attoparser.HtmlElements$HtmlElementRepository.storeElement:320
+
+#1
+Inspecting hot method org.attoparser.trace.MarkupTraceEvent.toString:119...
+Checking for isolation...
+1526120448,130187264,130187264,0
+Total 1526120448 (1101 unique) events are in hot method
+Total 130187264 (30 unique) traces are in hot method
+Total 130187264 (30 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1526120448 (1101 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (65093632 traces / 15 unique traces) (795607040 events / 558 unique events)
+	Appendable_ThreadSafe (65093632 traces / 15 unique traces) (730513408 events / 543 unique events)
+Classifier (org.attoparser.trace.MarkupTraceEvent.toString:119): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#2
+Inspecting hot method org.attoparser.MarkupParserTest.testDoc:1965...
+Checking for isolation...
+384139764,37109911,37109910,1
+Total 384139764 (2476964 unique) events are in hot method
+Total 37109911 (199 unique) traces are in hot method
+Total 37109910 (198 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 381665780 (2980 unique) events are in isolated traces
+Total 18106741 (18106741 unique) events are in non-isolated traces (2473984 / 2473984 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (7422002 traces / 40 unique traces) (57704698 events / 446 unique events)
+	Appendable_ThreadSafe (7422002 traces / 40 unique traces) (50282696 events / 406 unique events)
+	Iterator_RemoveOnce (7421952 traces / 39 unique traces) (50282496 events / 402 unique events)
+	Collection_UnsafeIterator (7421952 traces / 39 unique traces) (115408896 events / 882 unique events)
+	Iterator_HasNext (7421952 traces / 39 unique traces) (107986944 events / 843 unique events)
+	Throwable_InitCauseOnce (50 traces / 1 unique traces) (50 events / 1 unique events)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (18106741 events / 18106741 unique events) (2473984 events / 2473984 unique events in hot method)
+Classifier (org.attoparser.MarkupParserTest.testDoc:1965): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#3
+Inspecting hot method org.attoparser.MarkupParserTest.testHtmlDoc:2200...
+Checking for isolation...
+247693312,11141120,11141120,0
+Total 247693312 (3243 unique) events are in hot method
+Total 11141120 (125 unique) traces are in hot method
+Total 11141120 (125 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 247693312 (3243 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (2228224 traces / 25 unique traces) (36339712 events / 474 unique events)
+	Iterator_RemoveOnce (2228224 traces / 25 unique traces) (34111488 events / 449 unique events)
+	Appendable_ThreadSafe (2228224 traces / 25 unique traces) (34111488 events / 449 unique events)
+	Collection_UnsafeIterator (2228224 traces / 25 unique traces) (72679424 events / 948 unique events)
+	Iterator_HasNext (2228224 traces / 25 unique traces) (70451200 events / 923 unique events)
+Classifier (org.attoparser.MarkupParserTest.testHtmlDoc:2200): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#4
+Inspecting hot method org.attoparser.MarkupParser.parseDocument:275...
+Checking for isolation...
+28292282,27477486,27477485,1
+Total 28292282 (814772 unique) events are in hot method
+Total 27477486 (6 unique) traces are in hot method
+Total 27477485 (5 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 27477520 (10 unique) events are in isolated traces
+Total 18106741 (18106741 unique) events are in non-isolated traces (814762 / 814762 unique are in hot method)
+Specs that have isolated traces:
+	Closeable_MultipleClose (9159157 traces / 1 unique traces) (9159157 events / 1 unique events)
+	Console_CloseReader (9159157 traces / 1 unique traces) (9159157 events / 1 unique events)
+	Reader_ManipulateAfterClose (9159157 traces / 1 unique traces) (9159157 events / 1 unique events)
+	StringBuilder_ThreadSafe (7 traces / 1 unique traces) (28 events / 4 unique events)
+	Appendable_ThreadSafe (7 traces / 1 unique traces) (21 events / 3 unique events)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (18106741 events / 18106741 unique events) (814762 events / 814762 unique events in hot method)
+Classifier (org.attoparser.MarkupParser.parseDocument:275): CUT,ISOLATED_ONE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#5
+Inspecting hot method org.attoparser.MarkupEventProcessorHandler$StructureNamesRepository.storeStructureName:1095...
+Checking for isolation...
+13356709,1,0,1
+Total 13356709 (13356709 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 18106741 (18106741 unique) events are in non-isolated traces (13356709 / 13356709 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (18106741 events / 18106741 unique events) (13356709 events / 13356709 unique events in hot method)
+Classifier (org.attoparser.MarkupEventProcessorHandler$StructureNamesRepository.storeStructureName:1095): CUT,NOT_REDUNDANT_TRACES
+
+#6
+Inspecting hot method org.attoparser.TextTracerSimpleMarkupHandler.writeAttributes:348...
+Checking for isolation...
+10452992,3538944,3538944,0
+Total 10452992 (69 unique) events are in hot method
+Total 3538944 (14 unique) traces are in hot method
+Total 3538944 (14 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 10452992 (69 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Map_UnsafeIterator (1179648 traces / 4 unique traces) (3997696 events / 24 unique events)
+	Map_CollectionViewAdd (589824 traces / 1 unique traces) (589824 events / 1 unique events)
+	Collection_UnsafeIterator (589824 traces / 3 unique traces) (2818048 events / 20 unique events)
+	Iterator_HasNext (589824 traces / 3 unique traces) (2228224 events / 17 unique events)
+	Iterator_RemoveOnce (589824 traces / 3 unique traces) (819200 events / 7 unique events)
+Classifier (org.attoparser.TextTracerSimpleMarkupHandler.writeAttributes:348): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE
+
+#7
+Inspecting hot method org.attoparser.trace.TraceBuilderMarkupHandler.handleDocumentStart:91...
+Checking for isolation...
+9650226,9650226,23,9650203
+Total 9650226 (130 unique) events are in hot method
+Total 9650226 (130 unique) traces are in hot method
+Total 23 (1 unique) isolated traces are in hot method
+Total 9650203 (129 unique) non-isolated traces that have events in hot method
+Total 23 (1 unique) events are in isolated traces
+Total 84394068 (1603 unique) events are in non-isolated traces (9650203 / 129 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (23 traces / 1 unique traces) (23 events / 1 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (9650203 traces / 129 unique traces) (84394068 events / 1603 unique events) (9650203 events / 129 unique events in hot method)
+Classifier (org.attoparser.trace.TraceBuilderMarkupHandler.handleDocumentStart:91): CUT,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#8
+Inspecting hot method org.attoparser.trace.TraceBuilderMarkupHandler.handleDocumentEnd:100...
+Checking for isolation...
+9650176,9650176,0,9650176
+Total 9650176 (119 unique) events are in hot method
+Total 9650176 (119 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 9650176 (119 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 84393984 (1563 unique) events are in non-isolated traces (9650176 / 119 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (9650176 traces / 119 unique traces) (84393984 events / 1563 unique events) (9650176 events / 119 unique events in hot method)
+Classifier (org.attoparser.trace.TraceBuilderMarkupHandler.handleDocumentEnd:100): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#9
+Inspecting hot method org.attoparser.trace.TraceBuilderMarkupHandler.handleText:295...
+Checking for isolation...
+8601616,5816336,0,5816336
+Total 8601616 (118 unique) events are in hot method
+Total 5816336 (71 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 5816336 (71 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 56197172 (906 unique) events are in non-isolated traces (8601616 / 118 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (5816336 traces / 71 unique traces) (56197172 events / 906 unique events) (8601616 events / 118 unique events in hot method)
+Classifier (org.attoparser.trace.TraceBuilderMarkupHandler.handleText:295): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#10
+Inspecting hot method org.attoparser.trace.TraceBuilderMarkupHandler.handleOpenElementStart:144...
+Checking for isolation...
+7995400,4931592,0,4931592
+Total 7995400 (189 unique) events are in hot method
+Total 4931592 (98 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 4931592 (98 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 60129312 (1410 unique) events are in non-isolated traces (7995400 / 189 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (4931592 traces / 98 unique traces) (60129312 events / 1410 unique events) (7995400 events / 189 unique events in hot method)
+Classifier (org.attoparser.trace.TraceBuilderMarkupHandler.handleOpenElementStart:144): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#11
+Inspecting hot method org.attoparser.trace.TraceBuilderMarkupHandler.handleOpenElementEnd:157...
+Checking for isolation...
+7995400,4931592,0,4931592
+Total 7995400 (189 unique) events are in hot method
+Total 4931592 (98 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 4931592 (98 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 60129312 (1410 unique) events are in non-isolated traces (7995400 / 189 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (4931592 traces / 98 unique traces) (60129312 events / 1410 unique events) (7995400 events / 189 unique events in hot method)
+Classifier (org.attoparser.trace.TraceBuilderMarkupHandler.handleOpenElementEnd:157): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#12
+Inspecting hot method org.attoparser.trace.TraceBuilderMarkupHandler.handleAutoCloseElementStart:222...
+Checking for isolation...
+5914624,2293760,0,2293760
+Total 5914624 (194 unique) events are in hot method
+Total 2293760 (65 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2293760 (65 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 35225600 (1103 unique) events are in non-isolated traces (5914624 / 194 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (2293760 traces / 65 unique traces) (35225600 events / 1103 unique events) (5914624 events / 194 unique events in hot method)
+Classifier (org.attoparser.trace.TraceBuilderMarkupHandler.handleAutoCloseElementStart:222): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#13
+Inspecting hot method org.attoparser.trace.TraceBuilderMarkupHandler.handleAutoCloseElementEnd:235...
+Checking for isolation...
+5914624,2293760,0,2293760
+Total 5914624 (194 unique) events are in hot method
+Total 2293760 (65 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2293760 (65 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 35225600 (1103 unique) events are in non-isolated traces (5914624 / 194 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (2293760 traces / 65 unique traces) (35225600 events / 1103 unique events) (5914624 events / 194 unique events in hot method)
+Classifier (org.attoparser.trace.TraceBuilderMarkupHandler.handleAutoCloseElementEnd:235): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#14
+Inspecting hot method org.attoparser.trace.TraceBuilderMarkupHandler.handleInnerWhiteSpace:375...
+Checking for isolation...
+3817479,2785285,0,2785285
+Total 3817479 (48 unique) events are in hot method
+Total 2785285 (29 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2785285 (29 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 26935319 (322 unique) events are in non-isolated traces (3817479 / 48 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (2785285 traces / 29 unique traces) (26935319 events / 322 unique events) (3817479 events / 48 unique events in hot method)
+Classifier (org.attoparser.trace.TraceBuilderMarkupHandler.handleInnerWhiteSpace:375): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#15
+Inspecting hot method org.attoparser.trace.TraceBuilderMarkupHandler.handleAttribute:280...
+Checking for isolation...
+3751938,2572290,0,2572290
+Total 3751938 (42 unique) events are in hot method
+Total 2572290 (25 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2572290 (25 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 25362443 (296 unique) events are in non-isolated traces (3751938 / 42 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (2572290 traces / 25 unique traces) (25362443 events / 296 unique events) (3751938 events / 42 unique events in hot method)
+Classifier (org.attoparser.trace.TraceBuilderMarkupHandler.handleAttribute:280): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#16
+Inspecting hot method org.attoparser.trace.TraceBuilderMarkupHandler.handleCloseElementStart:196...
+Checking for isolation...
+3735553,3063809,0,3063809
+Total 3735553 (61 unique) events are in hot method
+Total 3063809 (44 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 3063809 (44 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 32784390 (564 unique) events are in non-isolated traces (3735553 / 61 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (3063809 traces / 44 unique traces) (32784390 events / 564 unique events) (3735553 events / 61 unique events in hot method)
+Classifier (org.attoparser.trace.TraceBuilderMarkupHandler.handleCloseElementStart:196): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#17
+Inspecting hot method org.attoparser.trace.TraceBuilderMarkupHandler.handleCloseElementEnd:209...
+Checking for isolation...
+3735553,3063809,0,3063809
+Total 3735553 (61 unique) events are in hot method
+Total 3063809 (44 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 3063809 (44 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 32784390 (564 unique) events are in non-isolated traces (3735553 / 61 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (3063809 traces / 44 unique traces) (32784390 events / 564 unique events) (3735553 events / 61 unique events in hot method)
+Classifier (org.attoparser.trace.TraceBuilderMarkupHandler.handleCloseElementEnd:209): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#18
+Inspecting hot method org.attoparser.trace.TraceBuilderMarkupHandler.handleStandaloneElementStart:111...
+Checking for isolation...
+2457605,2260997,0,2260997
+Total 2457605 (33 unique) events are in hot method
+Total 2260997 (29 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2260997 (29 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 20168727 (345 unique) events are in non-isolated traces (2457605 / 33 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (2260997 traces / 29 unique traces) (20168727 events / 345 unique events) (2457605 events / 33 unique events in hot method)
+Classifier (org.attoparser.trace.TraceBuilderMarkupHandler.handleStandaloneElementStart:111): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#19
+Inspecting hot method org.attoparser.trace.TraceBuilderMarkupHandler.handleStandaloneElementEnd:127...
+Checking for isolation...
+2457600,2260992,0,2260992
+Total 2457600 (30 unique) events are in hot method
+Total 2260992 (26 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2260992 (26 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 20168704 (330 unique) events are in non-isolated traces (2457600 / 30 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (2260992 traces / 26 unique traces) (20168704 events / 330 unique events) (2457600 events / 30 unique events in hot method)
+Classifier (org.attoparser.trace.TraceBuilderMarkupHandler.handleStandaloneElementEnd:127): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#20
+Inspecting hot method org.attoparser.trace.TraceBuilderMarkupHandler.handleAutoOpenElementStart:170...
+Checking for isolation...
+2244608,999424,0,999424
+Total 2244608 (76 unique) events are in hot method
+Total 999424 (36 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 999424 (36 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 19152896 (669 unique) events are in non-isolated traces (2244608 / 76 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (999424 traces / 36 unique traces) (19152896 events / 669 unique events) (2244608 events / 76 unique events in hot method)
+Classifier (org.attoparser.trace.TraceBuilderMarkupHandler.handleAutoOpenElementStart:170): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#21
+Inspecting hot method org.attoparser.trace.TraceBuilderMarkupHandler.handleAutoOpenElementEnd:183...
+Checking for isolation...
+2244608,999424,0,999424
+Total 2244608 (76 unique) events are in hot method
+Total 999424 (36 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 999424 (36 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 19152896 (669 unique) events are in non-isolated traces (2244608 / 76 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (999424 traces / 36 unique traces) (19152896 events / 669 unique events) (2244608 events / 76 unique events in hot method)
+Classifier (org.attoparser.trace.TraceBuilderMarkupHandler.handleAutoOpenElementEnd:183): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#22
+Inspecting hot method org.attoparser.trace.TraceBuilderMarkupHandler.handleDocType:400...
+Checking for isolation...
+1769481,1720329,0,1720329
+Total 1769481 (17 unique) events are in hot method
+Total 1720329 (16 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1720329 (16 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 8060954 (111 unique) events are in non-isolated traces (1769481 / 17 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (1720329 traces / 16 unique traces) (8060954 events / 111 unique events) (1769481 events / 17 unique events in hot method)
+Classifier (org.attoparser.trace.TraceBuilderMarkupHandler.handleDocType:400): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#23
+Inspecting hot method org.attoparser.simple.SimplifierMarkupHandler.handleAttribute:420...
+Checking for isolation...
+1671172,2,0,2
+Total 1671172 (1671172 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 1671212 (1671212 unique) events are in non-isolated traces (1671172 / 1671172 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (835606 events / 835606 unique events) (835586 events / 835586 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (835606 events / 835606 unique events) (835586 events / 835586 unique events in hot method)
+Classifier (org.attoparser.simple.SimplifierMarkupHandler.handleAttribute:420): CUT,NOT_REDUNDANT_TRACES
+
+#24
+Inspecting hot method org.attoparser.MarkupEventProcessorHandler$StandardNamesRepository.getStructureName:1163...
+Checking for isolation...
+1409354,1,0,1
+Total 1409354 (1409354 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 18106741 (18106741 unique) events are in non-isolated traces (1409354 / 1409354 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (18106741 events / 18106741 unique events) (1409354 events / 1409354 unique events in hot method)
+Classifier (org.attoparser.MarkupEventProcessorHandler$StandardNamesRepository.getStructureName:1163): CUT,NOT_REDUNDANT_TRACES
+
+#25
+Inspecting hot method org.attoparser.trace.TraceBuilderMarkupHandler.handleComment:308...
+Checking for isolation...
+737280,737280,0,737280
+Total 737280 (8 unique) events are in hot method
+Total 737280 (8 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 737280 (8 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 6094848 (87 unique) events are in non-isolated traces (737280 / 8 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (737280 traces / 8 unique traces) (6094848 events / 87 unique events) (737280 events / 8 unique events in hot method)
+Classifier (org.attoparser.trace.TraceBuilderMarkupHandler.handleComment:308): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#26
+Inspecting hot method org.attoparser.trace.TraceBuilderMarkupHandler.handleXmlDeclaration:342...
+Checking for isolation...
+688128,688128,0,688128
+Total 688128 (9 unique) events are in hot method
+Total 688128 (9 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 688128 (9 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 4423680 (75 unique) events are in non-isolated traces (688128 / 9 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (688128 traces / 9 unique traces) (4423680 events / 75 unique events) (688128 events / 9 unique events in hot method)
+Classifier (org.attoparser.trace.TraceBuilderMarkupHandler.handleXmlDeclaration:342): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#27
+Inspecting hot method org.attoparser.trace.TraceBuilderMarkupHandler.handleCDATASection:320...
+Checking for isolation...
+540672,344064,0,344064
+Total 540672 (6 unique) events are in hot method
+Total 344064 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 344064 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 3391488 (34 unique) events are in non-isolated traces (540672 / 6 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (344064 traces / 2 unique traces) (3391488 events / 34 unique events) (540672 events / 6 unique events in hot method)
+Classifier (org.attoparser.trace.TraceBuilderMarkupHandler.handleCDATASection:320): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#28
+Inspecting hot method org.attoparser.trace.TraceBuilderMarkupHandler.handleProcessingInstruction:432...
+Checking for isolation...
+294912,294912,0,294912
+Total 294912 (2 unique) events are in hot method
+Total 294912 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 294912 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 1081344 (10 unique) events are in non-isolated traces (294912 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (294912 traces / 2 unique traces) (1081344 events / 10 unique events) (294912 events / 2 unique events in hot method)
+Classifier (org.attoparser.trace.TraceBuilderMarkupHandler.handleProcessingInstruction:432): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#29
+Inspecting hot method org.apache.commons.lang3.StringUtils.join:4035...
+Checking for isolation...
+114440,2802,2122,680
+Total 114440 (5109 unique) events are in hot method
+Total 2802 (135 unique) traces are in hot method
+Total 2122 (107 unique) isolated traces are in hot method
+Total 680 (28 unique) non-isolated traces that have events in hot method
+Total 88103 (3937 unique) events are in isolated traces
+Total 27017 (1200 unique) events are in non-isolated traces (26337 / 1172 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (680 traces / 28 unique traces) (26337 events / 1172 unique events)
+	Iterator_RemoveOnce (644 traces / 27 unique traces) (12629 events / 559 unique events)
+	StringBuilder_ThreadSafe (399 traces / 26 unique traces) (24768 events / 1116 unique events)
+	Appendable_ThreadSafe (399 traces / 26 unique traces) (24369 events / 1090 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (680 traces / 28 unique traces) (27017 events / 1200 unique events) (26337 events / 1172 unique events in hot method)
+Classifier (org.apache.commons.lang3.StringUtils.join:4035): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#30
+Inspecting hot method org.attoparser.trace.TraceBuilderMarkupHandler.handleUnmatchedCloseElementStart:248...
+Checking for isolation...
+98304,98304,0,98304
+Total 98304 (1 unique) events are in hot method
+Total 98304 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 98304 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 491520 (5 unique) events are in non-isolated traces (98304 / 1 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (98304 traces / 1 unique traces) (491520 events / 5 unique events) (98304 events / 1 unique events in hot method)
+Classifier (org.attoparser.trace.TraceBuilderMarkupHandler.handleUnmatchedCloseElementStart:248): CUT,NOT_ISOLATED_ONE_UNIQUE
+
+#31
+Inspecting hot method org.attoparser.trace.TraceBuilderMarkupHandler.handleUnmatchedCloseElementEnd:261...
+Checking for isolation...
+98304,98304,0,98304
+Total 98304 (1 unique) events are in hot method
+Total 98304 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 98304 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 491520 (5 unique) events are in non-isolated traces (98304 / 1 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (98304 traces / 1 unique traces) (491520 events / 5 unique events) (98304 events / 1 unique events in hot method)
+Classifier (org.attoparser.trace.TraceBuilderMarkupHandler.handleUnmatchedCloseElementEnd:261): CUT,NOT_ISOLATED_ONE_UNIQUE
+
+#32
+Inspecting hot method org.attoparser.HtmlCDATAContentElement.computeLimitSequence:183...
+Checking for isolation...
+32768,1,0,1
+Total 32768 (32768 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 18106741 (18106741 unique) events are in non-isolated traces (32768 / 32768 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (18106741 events / 18106741 unique events) (32768 events / 32768 unique events in hot method)
+Classifier (org.attoparser.HtmlCDATAContentElement.computeLimitSequence:183): CUT,NOT_REDUNDANT_TRACES
+
+#33
+Inspecting hot method org.apache.commons.io.IOUtils.readLines:500...
+Checking for isolation...
+12969,680,340,340
+Total 12969 (813 unique) events are in hot method
+Total 680 (59 unique) traces are in hot method
+Total 340 (22 unique) isolated traces are in hot method
+Total 340 (37 unique) non-isolated traces that have events in hot method
+Total 11931 (496 unique) events are in isolated traces
+Total 1378 (354 unique) events are in non-isolated traces (1038 / 317 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (340 traces / 22 unique traces) (11931 events / 496 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (340 traces / 37 unique traces) (1378 events / 354 unique events) (1038 events / 317 unique events in hot method)
+Classifier (org.apache.commons.io.IOUtils.readLines:500): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#34
+Inspecting hot method org.attoparser.select.SelectorElementBuffer.bufferElementStart:153...
+Checking for isolation...
+6834,1,0,1
+Total 6834 (6834 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 18106741 (18106741 unique) events are in non-isolated traces (6834 / 6834 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (18106741 events / 18106741 unique events) (6834 events / 6834 unique events in hot method)
+Classifier (org.attoparser.select.SelectorElementBuffer.bufferElementStart:153): CUT,NOT_REDUNDANT_TRACES
+
+#35
+Inspecting hot method org.attoparser.select.SelectorElementBuffer.bufferElementInnerWhiteSpace:294...
+Checking for isolation...
+6242,1,0,1
+Total 6242 (6242 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 18106741 (18106741 unique) events are in non-isolated traces (6242 / 6242 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (18106741 events / 18106741 unique events) (6242 events / 6242 unique events in hot method)
+Classifier (org.attoparser.select.SelectorElementBuffer.bufferElementInnerWhiteSpace:294): CUT,NOT_REDUNDANT_TRACES
+
+#36
+Inspecting hot method org.attoparser.select.SelectorElementBuffer.bufferAttribute:183...
+Checking for isolation...
+5753,1,0,1
+Total 5753 (5753 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 18106741 (18106741 unique) events are in non-isolated traces (5753 / 5753 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (18106741 events / 18106741 unique events) (5753 events / 5753 unique events in hot method)
+Classifier (org.attoparser.select.SelectorElementBuffer.bufferAttribute:183): CUT,NOT_REDUNDANT_TRACES
+
+#37
+Inspecting hot method org.attoparser.select.ParseSelection$ParseSelectionLevel.toString:262...
+Checking for isolation...
+4485,1040,1040,0
+Total 4485 (21 unique) events are in hot method
+Total 1040 (4 unique) traces are in hot method
+Total 1040 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 4485 (21 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (520 traces / 2 unique traces) (2795 events / 13 unique events)
+	Appendable_ThreadSafe (520 traces / 2 unique traces) (1690 events / 8 unique events)
+Classifier (org.attoparser.select.ParseSelection$ParseSelectionLevel.toString:262): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#38
+Inspecting hot method org.attoparser.select.MarkupSelectorItem.toStringAttributeCondition:186...
+Checking for isolation...
+4116,992,992,0
+Total 4116 (33 unique) events are in hot method
+Total 992 (6 unique) traces are in hot method
+Total 992 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 4116 (33 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (496 traces / 3 unique traces) (1810 events / 15 unique events)
+	StringBuilder_ThreadSafe (496 traces / 3 unique traces) (2306 events / 18 unique events)
+Classifier (org.attoparser.select.MarkupSelectorItem.toStringAttributeCondition:186): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#39
+Inspecting hot method org.attoparser.select.MarkupSelectorItems.parseSelector:127...
+Checking for isolation...
+3957,1972,1972,0
+Total 3957 (25 unique) events are in hot method
+Total 1972 (10 unique) traces are in hot method
+Total 1972 (10 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3957 (25 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (788 traces / 4 unique traces) (997 events / 10 unique events)
+	Appendable_ThreadSafe (592 traces / 3 unique traces) (1184 events / 6 unique events)
+	StringBuilder_ThreadSafe (592 traces / 3 unique traces) (1776 events / 9 unique events)
+Classifier (org.attoparser.select.MarkupSelectorItems.parseSelector:127): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#40
+Inspecting hot method org.attoparser.MarkupEventProcessorHandler$StandardNamesRepository.<clinit>:1136...
+Checking for isolation...
+1844,10,9,1
+Total 1844 (1844 unique) events are in hot method
+Total 10 (10 unique) traces are in hot method
+Total 9 (9 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 1843 (1843 unique) events are in isolated traces
+Total 5 (5 unique) events are in non-isolated traces (1 / 1 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsynchronizedAddAll (2 traces / 2 unique traces) (4 events / 4 unique events)
+	Iterator_HasNext (2 traces / 2 unique traces) (612 events / 612 unique events)
+	Collection_UnsafeIterator (2 traces / 2 unique traces) (614 events / 614 unique events)
+	Iterator_RemoveOnce (2 traces / 2 unique traces) (305 events / 305 unique events)
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (308 events / 308 unique events)
+Specs that have non-isolated traces:
+	Collections_ImplementComparable (1 traces / 1 unique traces) (5 events / 5 unique events) (1 events / 1 unique events in hot method)
+Classifier (org.attoparser.MarkupEventProcessorHandler$StandardNamesRepository.<clinit>:1136): CUT,NOT_REDUNDANT_TRACES
+
+#41
+Inspecting hot method org.attoparser.select.ParseSelection.toString:181...
+Checking for isolation...
+1586,988,988,0
+Total 1586 (21 unique) events are in hot method
+Total 988 (6 unique) traces are in hot method
+Total 988 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1586 (21 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (494 traces / 3 unique traces) (1040 events / 12 unique events)
+	Appendable_ThreadSafe (494 traces / 3 unique traces) (546 events / 9 unique events)
+Classifier (org.attoparser.select.ParseSelection.toString:181): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#42
+Inspecting hot method org.attoparser.StructureNamesRepositoryTest.test:36...
+Checking for isolation...
+1531,6,6,0
+Total 1531 (1531 unique) events are in hot method
+Total 6 (6 unique) traces are in hot method
+Total 6 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1531 (1531 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (2 traces / 2 unique traces) (305 events / 305 unique events)
+	Iterator_HasNext (2 traces / 2 unique traces) (612 events / 612 unique events)
+	Collection_UnsafeIterator (2 traces / 2 unique traces) (614 events / 614 unique events)
+Classifier (org.attoparser.StructureNamesRepositoryTest.test:36): CUT,NOT_REDUNDANT_TRACES
+
+#43
+Inspecting hot method org.attoparser.select.MarkupSelectorItem.toString:124...
+Checking for isolation...
+1432,340,340,0
+Total 1432 (274 unique) events are in hot method
+Total 340 (64 unique) traces are in hot method
+Total 340 (64 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1432 (274 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (170 traces / 32 unique traces) (631 events / 121 unique events)
+	StringBuilder_ThreadSafe (170 traces / 32 unique traces) (801 events / 153 unique events)
+Classifier (org.attoparser.select.MarkupSelectorItem.toString:124): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#44
+Inspecting hot method org.attoparser.select.HtmlNodeSelectorWithAttributeMarkupHandlerTest$TestingFragmentReferenceResolver.resolveSelectorFromReference:143...
+Checking for isolation...
+1309,238,238,0
+Total 1309 (11 unique) events are in hot method
+Total 238 (2 unique) traces are in hot method
+Total 238 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1309 (11 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (119 traces / 1 unique traces) (714 events / 6 unique events)
+	Appendable_ThreadSafe (119 traces / 1 unique traces) (595 events / 5 unique events)
+Classifier (org.attoparser.select.HtmlNodeSelectorWithAttributeMarkupHandlerTest$TestingFragmentReferenceResolver.resolveSelectorFromReference:143): CUT,ISOLATED_ONE_UNIQUE
+
+#45
+Inspecting hot method org.attoparser.select.HtmlNodeSelectorWithAttributeMarkupHandlerTest.test:60...
+Checking for isolation...
+1292,106,6,100
+Total 1292 (1200 unique) events are in hot method
+Total 106 (14 unique) traces are in hot method
+Total 6 (6 unique) isolated traces are in hot method
+Total 100 (8 unique) non-isolated traces that have events in hot method
+Total 1192 (1192 unique) events are in isolated traces
+Total 574 (282 unique) events are in non-isolated traces (100 / 8 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (3 traces / 3 unique traces) (199 events / 199 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (198 events / 198 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (397 events / 397 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (398 events / 398 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (99 traces / 7 unique traces) (332 events / 40 unique events) (99 events / 7 unique events in hot method)
+	Collections_Comparable (1 traces / 1 unique traces) (242 events / 242 unique events) (1 events / 1 unique events in hot method)
+Classifier (org.attoparser.select.HtmlNodeSelectorWithAttributeMarkupHandlerTest.test:60): CUT,ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT,ISOLATED_SINGLE_TRACE,NOT_ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#46
+Inspecting hot method org.apache.commons.lang3.StringUtils.join:4081...
+Checking for isolation...
+1078,334,244,90
+Total 1078 (28 unique) events are in hot method
+Total 334 (8 unique) traces are in hot method
+Total 244 (6 unique) isolated traces are in hot method
+Total 90 (2 unique) non-isolated traces that have events in hot method
+Total 712 (19 unique) events are in isolated traces
+Total 456 (11 unique) events are in non-isolated traces (366 / 9 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (90 traces / 2 unique traces) (366 events / 9 unique events)
+	Iterator_RemoveOnce (90 traces / 2 unique traces) (122 events / 3 unique events)
+	Appendable_ThreadSafe (32 traces / 1 unique traces) (96 events / 3 unique events)
+	StringBuilder_ThreadSafe (32 traces / 1 unique traces) (128 events / 4 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (90 traces / 2 unique traces) (456 events / 11 unique events) (366 events / 9 unique events in hot method)
+Classifier (org.apache.commons.lang3.StringUtils.join:4081): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#47
+Inspecting hot method org.attoparser.select.HtmlBlockSelectorMarkupHandlerTest.test:60...
+Checking for isolation...
+1019,85,6,79
+Total 1019 (952 unique) events are in hot method
+Total 85 (18 unique) traces are in hot method
+Total 6 (6 unique) isolated traces are in hot method
+Total 79 (12 unique) non-isolated traces that have events in hot method
+Total 940 (940 unique) events are in isolated traces
+Total 583 (357 unique) events are in non-isolated traces (79 / 12 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (3 traces / 3 unique traces) (157 events / 157 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (156 events / 156 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (313 events / 313 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (314 events / 314 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (78 traces / 11 unique traces) (341 events / 115 unique events) (78 events / 11 unique events in hot method)
+	Collections_Comparable (1 traces / 1 unique traces) (242 events / 242 unique events) (1 events / 1 unique events in hot method)
+Classifier (org.attoparser.select.HtmlBlockSelectorMarkupHandlerTest.test:60): CUT,ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT,ISOLATED_SINGLE_TRACE,NOT_ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#48
+Inspecting hot method org.attoparser.select.HtmlAutoOpenBlockSelectorMarkupHandlerTest.test:60...
+Checking for isolation...
+980,82,6,76
+Total 980 (914 unique) events are in hot method
+Total 82 (16 unique) traces are in hot method
+Total 6 (6 unique) isolated traces are in hot method
+Total 76 (10 unique) non-isolated traces that have events in hot method
+Total 904 (904 unique) events are in isolated traces
+Total 555 (340 unique) events are in non-isolated traces (76 / 10 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (3 traces / 3 unique traces) (151 events / 151 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (150 events / 150 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (301 events / 301 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (302 events / 302 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (75 traces / 9 unique traces) (313 events / 98 unique events) (75 events / 9 unique events in hot method)
+	Collections_Comparable (1 traces / 1 unique traces) (242 events / 242 unique events) (1 events / 1 unique events in hot method)
+Classifier (org.attoparser.select.HtmlAutoOpenBlockSelectorMarkupHandlerTest.test:60): CUT,ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT,ISOLATED_SINGLE_TRACE,NOT_ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#49
+Inspecting hot method org.attoparser.select.XmlBlockSelectorMarkupHandlerTest.test:60...
+Checking for isolation...
+954,80,6,74
+Total 954 (887 unique) events are in hot method
+Total 80 (13 unique) traces are in hot method
+Total 6 (6 unique) isolated traces are in hot method
+Total 74 (7 unique) non-isolated traces that have events in hot method
+Total 880 (880 unique) events are in isolated traces
+Total 520 (317 unique) events are in non-isolated traces (74 / 7 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (3 traces / 3 unique traces) (147 events / 147 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (294 events / 294 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (293 events / 293 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (146 events / 146 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (73 traces / 6 unique traces) (278 events / 75 unique events) (73 events / 6 unique events in hot method)
+	Collections_Comparable (1 traces / 1 unique traces) (242 events / 242 unique events) (1 events / 1 unique events in hot method)
+Classifier (org.attoparser.select.XmlBlockSelectorMarkupHandlerTest.test:60): CUT,ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT,ISOLATED_SINGLE_TRACE,NOT_ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#50
+Inspecting hot method org.attoparser.ParseException.message:119...
+Checking for isolation...
+864,192,192,0
+Total 864 (18 unique) events are in hot method
+Total 192 (4 unique) traces are in hot method
+Total 192 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 864 (18 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (96 traces / 2 unique traces) (480 events / 10 unique events)
+	Appendable_ThreadSafe (96 traces / 2 unique traces) (384 events / 8 unique events)
+Classifier (org.attoparser.ParseException.message:119): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#51
+Inspecting hot method org.attoparser.select.XmlBlockSelectorMarkupHandlerTest$TestingFragmentReferenceResolver.resolveSelectorFromReference:143...
+Checking for isolation...
+759,138,138,0
+Total 759 (11 unique) events are in hot method
+Total 138 (2 unique) traces are in hot method
+Total 138 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 759 (11 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (69 traces / 1 unique traces) (414 events / 6 unique events)
+	Appendable_ThreadSafe (69 traces / 1 unique traces) (345 events / 5 unique events)
+Classifier (org.attoparser.select.XmlBlockSelectorMarkupHandlerTest$TestingFragmentReferenceResolver.resolveSelectorFromReference:143): CUT,ISOLATED_ONE_UNIQUE
+
+#52
+Inspecting hot method org.attoparser.select.HtmlBlockSelectorMarkupHandlerTest$TestingFragmentReferenceResolver.resolveSelectorFromReference:142...
+Checking for isolation...
+737,134,134,0
+Total 737 (11 unique) events are in hot method
+Total 134 (2 unique) traces are in hot method
+Total 134 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 737 (11 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (67 traces / 1 unique traces) (402 events / 6 unique events)
+	Appendable_ThreadSafe (67 traces / 1 unique traces) (335 events / 5 unique events)
+Classifier (org.attoparser.select.HtmlBlockSelectorMarkupHandlerTest$TestingFragmentReferenceResolver.resolveSelectorFromReference:142): CUT,ISOLATED_ONE_UNIQUE
+
+#53
+Inspecting hot method org.attoparser.HtmlNames.<clinit>:49...
+Checking for isolation...
+715,6,5,1
+Total 715 (715 unique) events are in hot method
+Total 6 (6 unique) traces are in hot method
+Total 5 (5 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 713 (713 unique) events are in isolated traces
+Total 5 (5 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (2 traces / 2 unique traces) (120 events / 120 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (237 events / 237 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (238 events / 238 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (118 events / 118 unique events)
+Specs that have non-isolated traces:
+	Collections_ImplementComparable (1 traces / 1 unique traces) (5 events / 5 unique events) (2 events / 2 unique events in hot method)
+Classifier (org.attoparser.HtmlNames.<clinit>:49): CUT,NOT_REDUNDANT_TRACES
+
+#54
+Inspecting hot method org.attoparser.HtmlElements$HtmlElementRepository.storeStandardElement:341...
+Checking for isolation...
+708,3,1,2
+Total 708 (708 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 236 (236 unique) events are in isolated traces
+Total 485 (485 unique) events are in non-isolated traces (472 / 472 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (236 events / 236 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (243 events / 243 unique events) (236 events / 236 unique events in hot method)
+	Collections_Comparable (1 traces / 1 unique traces) (242 events / 242 unique events) (236 events / 236 unique events in hot method)
+Classifier (org.attoparser.HtmlElements$HtmlElementRepository.storeStandardElement:341): CUT,NOT_REDUNDANT_TRACES
+
+#55
+Inspecting hot method org.attoparser.select.HtmlAutoOpenBlockSelectorMarkupHandlerTest$TestingFragmentReferenceResolver.resolveSelectorFromReference:143...
+Checking for isolation...
+704,128,128,0
+Total 704 (11 unique) events are in hot method
+Total 128 (2 unique) traces are in hot method
+Total 128 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 704 (11 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (64 traces / 1 unique traces) (384 events / 6 unique events)
+	Appendable_ThreadSafe (64 traces / 1 unique traces) (320 events / 5 unique events)
+Classifier (org.attoparser.select.HtmlAutoOpenBlockSelectorMarkupHandlerTest$TestingFragmentReferenceResolver.resolveSelectorFromReference:143): CUT,ISOLATED_ONE_UNIQUE
+
+#56
+Inspecting hot method org.apache.commons.lang3.StringUtils.join:4127...
+Checking for isolation...
+680,680,0,680
+Total 680 (28 unique) events are in hot method
+Total 680 (28 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 680 (28 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 27017 (1200 unique) events are in non-isolated traces (680 / 28 unique are in hot method)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (680 traces / 28 unique traces) (27017 events / 1200 unique events) (680 events / 28 unique events in hot method)
+Classifier (org.apache.commons.lang3.StringUtils.join:4127): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#57
+Inspecting hot method org.attoparser.HtmlElementsTest.test:36...
+Checking for isolation...
+593,3,3,0
+Total 593 (593 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 593 (593 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (118 events / 118 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (237 events / 237 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (238 events / 238 unique events)
+Classifier (org.attoparser.HtmlElementsTest.test:36): CUT,NOT_REDUNDANT_TRACES
+
+#58
+Inspecting hot method org.attoparser.HtmlElements.<clinit>:50...
+Checking for isolation...
+593,3,3,0
+Total 593 (593 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 593 (593 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (118 events / 118 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (237 events / 237 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (238 events / 238 unique events)
+Classifier (org.attoparser.HtmlElements.<clinit>:50): CUT,NOT_REDUNDANT_TRACES
+
+#59
+Inspecting hot method org.attoparser.ParseException.messagePrefix:112...
+Checking for isolation...
+528,96,96,0
+Total 528 (11 unique) events are in hot method
+Total 96 (2 unique) traces are in hot method
+Total 96 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 528 (11 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (48 traces / 1 unique traces) (288 events / 6 unique events)
+	Appendable_ThreadSafe (48 traces / 1 unique traces) (240 events / 5 unique events)
+Classifier (org.attoparser.ParseException.messagePrefix:112): CUT,ISOLATED_ONE_UNIQUE
+
+#60
+Inspecting hot method org.attoparser.select.MarkupSelectorItemsTest$TestingFragmentReferenceResolver.resolveSelectorFromReference:162...
+Checking for isolation...
+528,96,96,0
+Total 528 (11 unique) events are in hot method
+Total 96 (2 unique) traces are in hot method
+Total 96 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 528 (11 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (48 traces / 1 unique traces) (240 events / 5 unique events)
+	StringBuilder_ThreadSafe (48 traces / 1 unique traces) (288 events / 6 unique events)
+Classifier (org.attoparser.select.MarkupSelectorItemsTest$TestingFragmentReferenceResolver.resolveSelectorFromReference:162): CUT,ISOLATED_ONE_UNIQUE
+
+#61
+Inspecting hot method org.attoparser.select.HtmlNodeSelectorWithAttributeMarkupHandlerTest.check:122...
+Checking for isolation...
+495,198,198,0
+Total 495 (5 unique) events are in hot method
+Total 198 (2 unique) traces are in hot method
+Total 198 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 495 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (99 traces / 1 unique traces) (297 events / 3 unique events)
+	Appendable_ThreadSafe (99 traces / 1 unique traces) (198 events / 2 unique events)
+Classifier (org.attoparser.select.HtmlNodeSelectorWithAttributeMarkupHandlerTest.check:122): CUT,ISOLATED_ONE_UNIQUE
+
+#62
+Inspecting hot method org.apache.commons.lang3.StringUtils.splitWorker:3076...
+Checking for isolation...
+435,354,354,0
+Total 435 (10 unique) events are in hot method
+Total 354 (4 unique) traces are in hot method
+Total 354 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 435 (10 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (354 traces / 4 unique traces) (435 events / 10 unique events)
+Classifier (org.apache.commons.lang3.StringUtils.splitWorker:3076): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#63
+Inspecting hot method org.attoparser.select.MarkupSelectorOrItem.toString:89...
+Checking for isolation...
+429,78,78,0
+Total 429 (11 unique) events are in hot method
+Total 78 (2 unique) traces are in hot method
+Total 78 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 429 (11 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (39 traces / 1 unique traces) (195 events / 5 unique events)
+	StringBuilder_ThreadSafe (39 traces / 1 unique traces) (234 events / 6 unique events)
+Classifier (org.attoparser.select.MarkupSelectorOrItem.toString:89): CUT,ISOLATED_ONE_UNIQUE
+
+#64
+Inspecting hot method org.attoparser.select.HtmlBlockSelectorMarkupHandlerTest.check:122...
+Checking for isolation...
+390,156,156,0
+Total 390 (5 unique) events are in hot method
+Total 156 (2 unique) traces are in hot method
+Total 156 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 390 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (78 traces / 1 unique traces) (234 events / 3 unique events)
+	Appendable_ThreadSafe (78 traces / 1 unique traces) (156 events / 2 unique events)
+Classifier (org.attoparser.select.HtmlBlockSelectorMarkupHandlerTest.check:122): CUT,ISOLATED_ONE_UNIQUE
+
+#65
+Inspecting hot method org.attoparser.select.HtmlAutoOpenBlockSelectorMarkupHandlerTest.check:123...
+Checking for isolation...
+375,150,150,0
+Total 375 (5 unique) events are in hot method
+Total 150 (2 unique) traces are in hot method
+Total 150 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 375 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (75 traces / 1 unique traces) (225 events / 3 unique events)
+	Appendable_ThreadSafe (75 traces / 1 unique traces) (150 events / 2 unique events)
+Classifier (org.attoparser.select.HtmlAutoOpenBlockSelectorMarkupHandlerTest.check:123): CUT,ISOLATED_ONE_UNIQUE
+
+#66
+Inspecting hot method org.attoparser.select.XmlBlockSelectorMarkupHandlerTest.check:123...
+Checking for isolation...
+365,146,146,0
+Total 365 (5 unique) events are in hot method
+Total 146 (2 unique) traces are in hot method
+Total 146 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 365 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (73 traces / 1 unique traces) (219 events / 3 unique events)
+	Appendable_ThreadSafe (73 traces / 1 unique traces) (146 events / 2 unique events)
+Classifier (org.attoparser.select.XmlBlockSelectorMarkupHandlerTest.check:123): CUT,ISOLATED_ONE_UNIQUE
+
+#67
+Inspecting hot method org.attoparser.ParseException.<init>:97...
+Checking for isolation...
+336,96,96,0
+Total 336 (7 unique) events are in hot method
+Total 96 (2 unique) traces are in hot method
+Total 96 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 336 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (48 traces / 1 unique traces) (192 events / 4 unique events)
+	Appendable_ThreadSafe (48 traces / 1 unique traces) (144 events / 3 unique events)
+Classifier (org.attoparser.ParseException.<init>:97): CUT,ISOLATED_ONE_UNIQUE
+
+#68
+Inspecting hot method org.attoparser.dom.StructureTextsRepository.<clinit>:41...
+Checking for isolation...
+310,6,3,3
+Total 310 (310 unique) events are in hot method
+Total 6 (6 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 3 (3 unique) non-isolated traces that have events in hot method
+Total 5 (5 unique) events are in isolated traces
+Total 613 (613 unique) events are in non-isolated traces (305 / 305 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsynchronizedAddAll (2 traces / 2 unique traces) (4 events / 4 unique events)
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (1 events / 1 unique events)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (604 events / 604 unique events) (302 events / 302 unique events in hot method)
+	Collections_ImplementComparable (1 traces / 1 unique traces) (5 events / 5 unique events) (1 events / 1 unique events in hot method)
+	CharSequence_NotInSet (1 traces / 1 unique traces) (4 events / 4 unique events) (2 events / 2 unique events in hot method)
+Classifier (org.attoparser.dom.StructureTextsRepository.<clinit>:41): CUT,NOT_REDUNDANT_TRACES
+
+#69
+Inspecting hot method org.attoparser.simple.StructureTextsRepository.<clinit>:41...
+Checking for isolation...
+310,6,3,3
+Total 310 (310 unique) events are in hot method
+Total 6 (6 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 3 (3 unique) non-isolated traces that have events in hot method
+Total 5 (5 unique) events are in isolated traces
+Total 613 (613 unique) events are in non-isolated traces (305 / 305 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsynchronizedAddAll (2 traces / 2 unique traces) (4 events / 4 unique events)
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (1 events / 1 unique events)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (604 events / 604 unique events) (302 events / 302 unique events in hot method)
+	Collections_ImplementComparable (1 traces / 1 unique traces) (5 events / 5 unique events) (1 events / 1 unique events in hot method)
+	CharSequence_NotInSet (1 traces / 1 unique traces) (4 events / 4 unique events) (2 events / 2 unique events in hot method)
+Classifier (org.attoparser.simple.StructureTextsRepository.<clinit>:41): CUT,NOT_REDUNDANT_TRACES
+
+#70
+Inspecting hot method org.attoparser.dom.DOMWriter.writeElement:168...
+Checking for isolation...
+208,63,63,0
+Total 208 (39 unique) events are in hot method
+Total 63 (9 unique) traces are in hot method
+Total 63 (9 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 208 (39 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (21 traces / 3 unique traces) (29 events / 6 unique events)
+	Iterator_HasNext (21 traces / 3 unique traces) (79 events / 15 unique events)
+	Collection_UnsafeIterator (21 traces / 3 unique traces) (100 events / 18 unique events)
+Classifier (org.attoparser.dom.DOMWriter.writeElement:168): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#71
+Inspecting hot method org.attoparser.dom.DOMWriter.writeDocument:154...
+Checking for isolation...
+154,39,39,0
+Total 154 (26 unique) events are in hot method
+Total 39 (6 unique) traces are in hot method
+Total 39 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 154 (26 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (13 traces / 2 unique traces) (23 events / 4 unique events)
+	Iterator_HasNext (13 traces / 2 unique traces) (59 events / 10 unique events)
+	Collection_UnsafeIterator (13 traces / 2 unique traces) (72 events / 12 unique events)
+Classifier (org.attoparser.dom.DOMWriter.writeDocument:154): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#72
+Inspecting hot method org.attoparser.select.HtmlBlockSelectorWithAttributeMarkupHandlerTest$TestingFragmentReferenceResolver.resolveSelectorFromReference:143...
+Checking for isolation...
+132,24,24,0
+Total 132 (11 unique) events are in hot method
+Total 24 (2 unique) traces are in hot method
+Total 24 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 132 (11 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (12 traces / 1 unique traces) (60 events / 5 unique events)
+	StringBuilder_ThreadSafe (12 traces / 1 unique traces) (72 events / 6 unique events)
+Classifier (org.attoparser.select.HtmlBlockSelectorWithAttributeMarkupHandlerTest$TestingFragmentReferenceResolver.resolveSelectorFromReference:143): CUT,ISOLATED_ONE_UNIQUE
+
+#73
+Inspecting hot method org.attoparser.select.HtmlBlockSelectorWithAttributeMarkupHandlerTest.test:60...
+Checking for isolation...
+122,16,6,10
+Total 122 (116 unique) events are in hot method
+Total 16 (10 unique) traces are in hot method
+Total 6 (6 unique) isolated traces are in hot method
+Total 10 (4 unique) non-isolated traces that have events in hot method
+Total 112 (112 unique) events are in isolated traces
+Total 338 (265 unique) events are in non-isolated traces (10 / 4 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (3 traces / 3 unique traces) (19 events / 19 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (37 events / 37 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (38 events / 38 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (18 events / 18 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (9 traces / 3 unique traces) (96 events / 23 unique events) (9 events / 3 unique events in hot method)
+	Collections_Comparable (1 traces / 1 unique traces) (242 events / 242 unique events) (1 events / 1 unique events in hot method)
+Classifier (org.attoparser.select.HtmlBlockSelectorWithAttributeMarkupHandlerTest.test:60): CUT,ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT,ISOLATED_SINGLE_TRACE,NOT_ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#74
+Inspecting hot method org.attoparser.MarkupEventProcessorHandler.handleAttribute:535...
+Checking for isolation...
+116,11,10,1
+Total 116 (102 unique) events are in hot method
+Total 11 (7 unique) traces are in hot method
+Total 10 (6 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 35 (21 unique) events are in isolated traces
+Total 18106741 (18106741 unique) events are in non-isolated traces (81 / 81 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (5 traces / 3 unique traces) (20 events / 12 unique events)
+	Appendable_ThreadSafe (5 traces / 3 unique traces) (15 events / 9 unique events)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (18106741 events / 18106741 unique events) (81 events / 81 unique events in hot method)
+Classifier (org.attoparser.MarkupEventProcessorHandler.handleAttribute:535): CUT,ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#75
+Inspecting hot method org.attoparser.select.OpenCloseAttributeSelectionMarkingMarkupHandler.<init>:40...
+Checking for isolation...
+114,1,0,1
+Total 114 (114 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 18106741 (18106741 unique) events are in non-isolated traces (114 / 114 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (18106741 events / 18106741 unique events) (114 events / 114 unique events in hot method)
+Classifier (org.attoparser.select.OpenCloseAttributeSelectionMarkingMarkupHandler.<init>:40): CUT,NOT_REDUNDANT_TRACES
+
+#76
+Inspecting hot method org.attoparser.select.MarkupSelectorAndItem.toString:90...
+Checking for isolation...
+99,18,18,0
+Total 99 (11 unique) events are in hot method
+Total 18 (2 unique) traces are in hot method
+Total 18 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 99 (11 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (9 traces / 1 unique traces) (45 events / 5 unique events)
+	StringBuilder_ThreadSafe (9 traces / 1 unique traces) (54 events / 6 unique events)
+Classifier (org.attoparser.select.MarkupSelectorAndItem.toString:90): CUT,ISOLATED_ONE_UNIQUE
+
+#77
+Inspecting hot method org.apache.commons.lang3.StringUtils.join:4148...
+Checking for isolation...
+90,90,0,90
+Total 90 (2 unique) events are in hot method
+Total 90 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 90 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 456 (11 unique) events are in non-isolated traces (90 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (90 traces / 2 unique traces) (456 events / 11 unique events) (90 events / 2 unique events in hot method)
+Classifier (org.apache.commons.lang3.StringUtils.join:4148): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#78
+Inspecting hot method org.attoparser.ParsingDocTypeMarkupUtil.doParseDetailedDocTypeWithInternalSubset:114...
+Checking for isolation...
+84,24,24,0
+Total 84 (56 unique) events are in hot method
+Total 24 (16 unique) traces are in hot method
+Total 24 (16 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 84 (56 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (12 traces / 8 unique traces) (48 events / 32 unique events)
+	Appendable_ThreadSafe (12 traces / 8 unique traces) (36 events / 24 unique events)
+Classifier (org.attoparser.ParsingDocTypeMarkupUtil.doParseDetailedDocTypeWithInternalSubset:114): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#79
+Inspecting hot method org.attoparser.select.HtmlMultipleSelectorWithAttributeMarkupHandlerTest.test:60...
+Checking for isolation...
+83,13,6,7
+Total 83 (78 unique) events are in hot method
+Total 13 (8 unique) traces are in hot method
+Total 6 (6 unique) isolated traces are in hot method
+Total 7 (2 unique) non-isolated traces that have events in hot method
+Total 76 (76 unique) events are in isolated traces
+Total 260 (245 unique) events are in non-isolated traces (7 / 2 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (3 traces / 3 unique traces) (13 events / 13 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (26 events / 26 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (25 events / 25 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (12 events / 12 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (6 traces / 1 unique traces) (18 events / 3 unique events) (6 events / 1 unique events in hot method)
+	Collections_Comparable (1 traces / 1 unique traces) (242 events / 242 unique events) (1 events / 1 unique events in hot method)
+Classifier (org.attoparser.select.HtmlMultipleSelectorWithAttributeMarkupHandlerTest.test:60): CUT,ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT,ISOLATED_SINGLE_TRACE,NOT_ISOLATED_ONE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#80
+Inspecting hot method org.attoparser.minimize.MinimizeHtmlMarkupHandler.handleAttribute:662...
+Checking for isolation...
+75,1,0,1
+Total 75 (75 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 18106741 (18106741 unique) events are in non-isolated traces (75 / 75 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (18106741 events / 18106741 unique events) (75 events / 75 unique events in hot method)
+Classifier (org.attoparser.minimize.MinimizeHtmlMarkupHandler.handleAttribute:662): CUT,NOT_REDUNDANT_TRACES
+
+#81
+Inspecting hot method org.attoparser.simple.SimpleOutputMarkupHandlerTest$TestSimpleMarkupHandler.handleOpenElement:121...
+Checking for isolation...
+66,14,12,2
+Total 66 (51 unique) events are in hot method
+Total 14 (8 unique) traces are in hot method
+Total 12 (6 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 30 (15 unique) events are in isolated traces
+Total 1671212 (1671212 unique) events are in non-isolated traces (36 / 36 unique are in hot method)
+Specs that have isolated traces:
+	Map_UnsafeIterator (4 traces / 2 unique traces) (12 events / 6 unique events)
+	Iterator_RemoveOnce (2 traces / 1 unique traces) (2 events / 1 unique events)
+	Map_CollectionViewAdd (2 traces / 1 unique traces) (2 events / 1 unique events)
+	Iterator_HasNext (2 traces / 1 unique traces) (6 events / 3 unique events)
+	Collection_UnsafeIterator (2 traces / 1 unique traces) (8 events / 4 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (835606 events / 835606 unique events) (18 events / 18 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (835606 events / 835606 unique events) (18 events / 18 unique events in hot method)
+Classifier (org.attoparser.simple.SimpleOutputMarkupHandlerTest$TestSimpleMarkupHandler.handleOpenElement:121): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#82
+Inspecting hot method org.attoparser.dom.AbstractNestableNode.addChild:116...
+Checking for isolation...
+52,34,34,0
+Total 52 (6 unique) events are in hot method
+Total 34 (3 unique) traces are in hot method
+Total 34 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 52 (6 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (34 traces / 3 unique traces) (52 events / 6 unique events)
+Classifier (org.attoparser.dom.AbstractNestableNode.addChild:116): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#83
+Inspecting hot method org.attoparser.MarkupEventProcessorHandler.checkValidRootElement:704...
+Checking for isolation...
+51,10,10,0
+Total 51 (18 unique) events are in hot method
+Total 10 (4 unique) traces are in hot method
+Total 10 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 51 (18 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (5 traces / 2 unique traces) (28 events / 10 unique events)
+	Appendable_ThreadSafe (5 traces / 2 unique traces) (23 events / 8 unique events)
+Classifier (org.attoparser.MarkupEventProcessorHandler.checkValidRootElement:704): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#84
+Inspecting hot method org.attoparser.select.HtmlBlockSelectorWithAttributeMarkupHandlerTest.check:122...
+Checking for isolation...
+45,18,18,0
+Total 45 (5 unique) events are in hot method
+Total 18 (2 unique) traces are in hot method
+Total 18 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 45 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (9 traces / 1 unique traces) (27 events / 3 unique events)
+	Appendable_ThreadSafe (9 traces / 1 unique traces) (18 events / 2 unique events)
+Classifier (org.attoparser.select.HtmlBlockSelectorWithAttributeMarkupHandlerTest.check:122): CUT,ISOLATED_ONE_UNIQUE
+
+#85
+Inspecting hot method org.attoparser.select.HtmlMultipleSelectorWithAttributeMarkupHandlerTest$TestingFragmentReferenceResolver.resolveSelectorFromReference:151...
+Checking for isolation...
+44,8,8,0
+Total 44 (11 unique) events are in hot method
+Total 8 (2 unique) traces are in hot method
+Total 8 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 44 (11 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (4 traces / 1 unique traces) (24 events / 6 unique events)
+	Appendable_ThreadSafe (4 traces / 1 unique traces) (20 events / 5 unique events)
+Classifier (org.attoparser.select.HtmlMultipleSelectorWithAttributeMarkupHandlerTest$TestingFragmentReferenceResolver.resolveSelectorFromReference:151): CUT,ISOLATED_ONE_UNIQUE
+
+#86
+Inspecting hot method org.attoparser.MarkupEventProcessorHandler.checkStackForElement:749...
+Checking for isolation...
+42,12,12,0
+Total 42 (14 unique) events are in hot method
+Total 12 (4 unique) traces are in hot method
+Total 12 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 42 (14 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (6 traces / 2 unique traces) (24 events / 8 unique events)
+	Appendable_ThreadSafe (6 traces / 2 unique traces) (18 events / 6 unique events)
+Classifier (org.attoparser.MarkupEventProcessorHandler.checkStackForElement:749): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#87
+Inspecting hot method org.attoparser.ParsingXmlDeclarationMarkupUtil$XmlDeclarationAttributeProcessor.handleAttribute:228...
+Checking for isolation...
+36,8,8,0
+Total 36 (25 unique) events are in hot method
+Total 8 (6 unique) traces are in hot method
+Total 8 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 36 (25 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (4 traces / 3 unique traces) (20 events / 14 unique events)
+	Appendable_ThreadSafe (4 traces / 3 unique traces) (16 events / 11 unique events)
+Classifier (org.attoparser.ParsingXmlDeclarationMarkupUtil$XmlDeclarationAttributeProcessor.handleAttribute:228): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#88
+Inspecting hot method org.attoparser.select.HtmlMultipleSelectorWithAttributeMarkupHandlerTest.check:122...
+Checking for isolation...
+30,12,12,0
+Total 30 (5 unique) events are in hot method
+Total 12 (2 unique) traces are in hot method
+Total 12 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 30 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (6 traces / 1 unique traces) (18 events / 3 unique events)
+	Appendable_ThreadSafe (6 traces / 1 unique traces) (12 events / 2 unique events)
+Classifier (org.attoparser.select.HtmlMultipleSelectorWithAttributeMarkupHandlerTest.check:122): CUT,ISOLATED_ONE_UNIQUE
+
+#89
+Inspecting hot method org.attoparser.HtmlCDATAContentElement.<init>:62...
+Checking for isolation...
+28,8,8,0
+Total 28 (14 unique) events are in hot method
+Total 8 (4 unique) traces are in hot method
+Total 8 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 28 (14 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (4 traces / 2 unique traces) (12 events / 6 unique events)
+	StringBuilder_ThreadSafe (4 traces / 2 unique traces) (16 events / 8 unique events)
+Classifier (org.attoparser.HtmlCDATAContentElement.<init>:62): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#90
+Inspecting hot method org.attoparser.select.MarkupSelectorFilter.checkMarkupLevel:489...
+Checking for isolation...
+28,1,0,1
+Total 28 (28 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 18106741 (18106741 unique) events are in non-isolated traces (28 / 28 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (18106741 events / 18106741 unique events) (28 events / 28 unique events in hot method)
+Classifier (org.attoparser.select.MarkupSelectorFilter.checkMarkupLevel:489): CUT,NOT_REDUNDANT_TRACES
+
+#91
+Inspecting hot method org.attoparser.ParsingXmlDeclarationMarkupUtil.parseXmlDeclaration:54...
+Checking for isolation...
+14,4,4,0
+Total 14 (14 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 4 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 14 (14 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (2 traces / 2 unique traces) (8 events / 8 unique events)
+	Appendable_ThreadSafe (2 traces / 2 unique traces) (6 events / 6 unique events)
+Classifier (org.attoparser.ParsingXmlDeclarationMarkupUtil.parseXmlDeclaration:54): CUT,NOT_REDUNDANT_TRACES
+
+#92
+Inspecting hot method org.attoparser.MarkupEventProcessorHandler.handleDocType:622...
+Checking for isolation...
+14,4,4,0
+Total 14 (14 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 4 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 14 (14 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (2 traces / 2 unique traces) (8 events / 8 unique events)
+	Appendable_ThreadSafe (2 traces / 2 unique traces) (6 events / 6 unique events)
+Classifier (org.attoparser.MarkupEventProcessorHandler.handleDocType:622): CUT,NOT_REDUNDANT_TRACES
+
+#93
+Inspecting hot method org.attoparser.MarkupEventProcessorHandler.handleDocumentEnd:171...
+Checking for isolation...
+9,4,4,0
+Total 9 (9 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 4 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 9 (9 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Throwable_InitCauseOnce (2 traces / 2 unique traces) (2 events / 2 unique events)
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (4 events / 4 unique events)
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+Classifier (org.attoparser.MarkupEventProcessorHandler.handleDocumentEnd:171): CUT,NOT_REDUNDANT_TRACES
+
+#94
+Inspecting hot method org.attoparser.select.BlockSelectorMarkupHandler.checkSizeOfMarkupBlocksStructure:1462...
+Checking for isolation...
+9,1,0,1
+Total 9 (9 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 18106741 (18106741 unique) events are in non-isolated traces (9 / 9 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (18106741 events / 18106741 unique events) (9 events / 9 unique events in hot method)
+Classifier (org.attoparser.select.BlockSelectorMarkupHandler.checkSizeOfMarkupBlocksStructure:1462): CUT,NOT_REDUNDANT_TRACES
+
+#95
+Inspecting hot method org.attoparser.select.ParseSelection.subscribeLevel:63...
+Checking for isolation...
+8,1,0,1
+Total 8 (8 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 18106741 (18106741 unique) events are in non-isolated traces (8 / 8 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (18106741 events / 18106741 unique events) (8 events / 8 unique events in hot method)
+Classifier (org.attoparser.select.ParseSelection.subscribeLevel:63): CUT,NOT_REDUNDANT_TRACES
+
+#96
+Inspecting hot method org.attoparser.HtmlElements$HtmlElementRepository.storeElement:320...
+Checking for isolation...
+7,1,0,1
+Total 7 (7 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 243 (243 unique) events are in non-isolated traces (7 / 7 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (243 events / 243 unique events) (7 events / 7 unique events in hot method)
+Classifier (org.attoparser.HtmlElements$HtmlElementRepository.storeElement:320): CUT,NOT_REDUNDANT_TRACES
+
+#97
+Inspecting hot method org.attoparser.select.OpenCloseAttributeSelectionMarkingMarkupHandler.checkSelectorAttributeLen:244...
+Checking for isolation...
+7,1,0,1
+Total 7 (7 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 18106741 (18106741 unique) events are in non-isolated traces (7 / 7 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (18106741 events / 18106741 unique events) (7 events / 7 unique events in hot method)
+Classifier (org.attoparser.select.OpenCloseAttributeSelectionMarkingMarkupHandler.checkSelectorAttributeLen:244): CUT,NOT_REDUNDANT_TRACES
+
+#98
+Inspecting hot method org.attoparser.MarkupEventProcessorHandler.growStack:1042...
+Checking for isolation...
+6,1,0,1
+Total 6 (6 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 18106741 (18106741 unique) events are in non-isolated traces (6 / 6 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (18106741 events / 18106741 unique events) (6 events / 6 unique events in hot method)
+Classifier (org.attoparser.MarkupEventProcessorHandler.growStack:1042): CUT,NOT_REDUNDANT_TRACES
+
+#99
+Inspecting hot method org.attoparser.MarkupParserTest.test:55...
+Checking for isolation...
+5,2,2,0
+Total 5 (5 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (2 events / 2 unique events)
+Classifier (org.attoparser.MarkupParserTest.test:55): CUT,NOT_REDUNDANT_TRACES
+
+#100
+Inspecting hot method org.attoparser.select.NodeSelectorMarkupHandler.addMatchingMarkupLevel:1106...
+Checking for isolation...
+4,1,0,1
+Total 4 (4 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 18106741 (18106741 unique) events are in non-isolated traces (4 / 4 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (18106741 events / 18106741 unique events) (4 events / 4 unique events in hot method)
+Classifier (org.attoparser.select.NodeSelectorMarkupHandler.addMatchingMarkupLevel:1106): CUT,NOT_REDUNDANT_TRACES
+
+#101
+Inspecting hot method org.attoparser.simple.SimpleOutputMarkupHandlerTest$TestSimpleMarkupHandler.handleStandaloneElement:93...
+Checking for isolation...
+4,2,0,2
+Total 4 (4 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 1671212 (1671212 unique) events are in non-isolated traces (4 / 4 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (835606 events / 835606 unique events) (2 events / 2 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (835606 events / 835606 unique events) (2 events / 2 unique events in hot method)
+Classifier (org.attoparser.simple.SimpleOutputMarkupHandlerTest$TestSimpleMarkupHandler.handleStandaloneElement:93): CUT,NOT_REDUNDANT_TRACES
+
+#102
+Inspecting hot method org.attoparser.select.NodeSelectorMarkupHandler.checkSizeOfMarkupBlocksStructure:1094...
+Checking for isolation...
+3,1,0,1
+Total 3 (3 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 18106741 (18106741 unique) events are in non-isolated traces (3 / 3 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (18106741 events / 18106741 unique events) (3 events / 3 unique events in hot method)
+Classifier (org.attoparser.select.NodeSelectorMarkupHandler.checkSizeOfMarkupBlocksStructure:1094): CUT,NOT_REDUNDANT_TRACES
+

@@ -1,0 +1,388 @@
+Reading traces...
+Reading specs frequency...
+Reading locations...
+Counting events...
+Total 820004729 events and 328001872 traces
+Inspecting top 200 IMM
+Finding hot methods...
+Number of events, method name
+420001065,com.expression.parser.function.FunctionX.eval:65
+320000550,com.expression.parser.function.FunctionX.nextFunction:312
+80000130,com.expression.parser.function.FunctionX.nextMinusFunction:346
+1025,com.expression.parser.function.ComplexFunction.eval:78
+435,com.expression.parser.function.ComplexFunction.nextFunction:433
+351,com.expression.parser.function.ComplexFunction.getValue:60
+300,com.expression.parser.function.FunctionXs.eval:77
+200,com.expression.parser.function.ComplexFunction.nextMinusFunction:468
+189,com.expression.parser.ComplexTest.TestOne:16
+170,com.expression.parser.function.FunctionXs.nextFunction:332
+90,com.expression.parser.function.FunctionXs.getValue:59
+51,com.expression.parser.Parser.pointToVar:268
+45,com.expression.parser.ComplexTest.TestTwo:127
+41,com.expression.parser.Parser.pointToComplexValue:213
+30,com.expression.parser.function.FunctionXs.nextMinusFunction:366
+27,com.expression.parser.ComplexTest.TestThree:161
+10,com.expression.parser.Parser.pointToValue:194
+5,com.expression.parser.RealTest.TestOne:15
+5,com.expression.parser.SpeedTest.testOne:10
+5,com.expression.parser.SpeedTest.testTwo:21
+5,com.expression.parser.SpeedTest.testThree:36
+Starting com.expression.parser.function.FunctionXs.eval:77
+Finish com.expression.parser.function.FunctionXs.eval:77
+Starting com.expression.parser.ComplexTest.TestThree:161
+Finish com.expression.parser.ComplexTest.TestThree:161
+Starting com.expression.parser.function.ComplexFunction.eval:78
+Finish com.expression.parser.function.ComplexFunction.eval:78
+Starting com.expression.parser.function.FunctionX.nextFunction:312
+Finish com.expression.parser.function.FunctionX.nextFunction:312
+Starting com.expression.parser.function.FunctionXs.getValue:59
+Finish com.expression.parser.function.FunctionXs.getValue:59
+Starting com.expression.parser.ComplexTest.TestOne:16
+Finish com.expression.parser.ComplexTest.TestOne:16
+Starting com.expression.parser.function.FunctionX.nextMinusFunction:346
+Finish com.expression.parser.function.FunctionX.nextMinusFunction:346
+Starting com.expression.parser.SpeedTest.testOne:10
+Finish com.expression.parser.SpeedTest.testOne:10
+Starting com.expression.parser.function.FunctionXs.nextFunction:332
+Finish com.expression.parser.function.FunctionXs.nextFunction:332
+Starting com.expression.parser.function.ComplexFunction.nextMinusFunction:468
+Finish com.expression.parser.function.ComplexFunction.nextMinusFunction:468
+Starting com.expression.parser.function.ComplexFunction.getValue:60
+Finish com.expression.parser.function.ComplexFunction.getValue:60
+Starting com.expression.parser.Parser.pointToVar:268
+Finish com.expression.parser.Parser.pointToVar:268
+Starting com.expression.parser.function.FunctionX.eval:65
+Finish com.expression.parser.function.FunctionX.eval:65
+Starting com.expression.parser.function.FunctionXs.nextMinusFunction:366
+Finish com.expression.parser.function.FunctionXs.nextMinusFunction:366
+Starting com.expression.parser.function.ComplexFunction.nextFunction:433
+Finish com.expression.parser.function.ComplexFunction.nextFunction:433
+Starting com.expression.parser.Parser.pointToComplexValue:213
+Finish com.expression.parser.Parser.pointToComplexValue:213
+Starting com.expression.parser.RealTest.TestOne:15
+Finish com.expression.parser.RealTest.TestOne:15
+Starting com.expression.parser.SpeedTest.testTwo:21
+Finish com.expression.parser.SpeedTest.testTwo:21
+Starting com.expression.parser.SpeedTest.testThree:36
+Finish com.expression.parser.SpeedTest.testThree:36
+Starting com.expression.parser.ComplexTest.TestTwo:127
+Finish com.expression.parser.ComplexTest.TestTwo:127
+Starting com.expression.parser.Parser.pointToValue:194
+Finish com.expression.parser.Parser.pointToValue:194
+
+#1
+Inspecting hot method com.expression.parser.function.FunctionX.eval:65...
+Checking for isolation...
+420001065,168000426,168000426,0
+Total 420001065 (15 unique) events are in hot method
+Total 168000426 (6 unique) traces are in hot method
+Total 168000426 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 420001065 (15 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (84000213 traces / 3 unique traces) (168000426 events / 6 unique events)
+	StringBuilder_ThreadSafe (84000213 traces / 3 unique traces) (252000639 events / 9 unique events)
+Classifier (com.expression.parser.function.FunctionX.eval:65): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#2
+Inspecting hot method com.expression.parser.function.FunctionX.nextFunction:312...
+Checking for isolation...
+320000550,128000220,128000220,0
+Total 320000550 (15 unique) events are in hot method
+Total 128000220 (6 unique) traces are in hot method
+Total 128000220 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 320000550 (15 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (64000110 traces / 3 unique traces) (128000220 events / 6 unique events)
+	StringBuilder_ThreadSafe (64000110 traces / 3 unique traces) (192000330 events / 9 unique events)
+Classifier (com.expression.parser.function.FunctionX.nextFunction:312): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#3
+Inspecting hot method com.expression.parser.function.FunctionX.nextMinusFunction:346...
+Checking for isolation...
+80000130,32000052,32000052,0
+Total 80000130 (15 unique) events are in hot method
+Total 32000052 (6 unique) traces are in hot method
+Total 32000052 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 80000130 (15 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (16000026 traces / 3 unique traces) (32000052 events / 6 unique events)
+	StringBuilder_ThreadSafe (16000026 traces / 3 unique traces) (48000078 events / 9 unique events)
+Classifier (com.expression.parser.function.FunctionX.nextMinusFunction:346): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#4
+Inspecting hot method com.expression.parser.function.ComplexFunction.eval:78...
+Checking for isolation...
+1025,410,410,0
+Total 1025 (20 unique) events are in hot method
+Total 410 (8 unique) traces are in hot method
+Total 410 (8 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1025 (20 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (205 traces / 4 unique traces) (410 events / 8 unique events)
+	StringBuilder_ThreadSafe (205 traces / 4 unique traces) (615 events / 12 unique events)
+Classifier (com.expression.parser.function.ComplexFunction.eval:78): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#5
+Inspecting hot method com.expression.parser.function.ComplexFunction.nextFunction:433...
+Checking for isolation...
+435,174,174,0
+Total 435 (15 unique) events are in hot method
+Total 174 (6 unique) traces are in hot method
+Total 174 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 435 (15 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (87 traces / 3 unique traces) (261 events / 9 unique events)
+	Appendable_ThreadSafe (87 traces / 3 unique traces) (174 events / 6 unique events)
+Classifier (com.expression.parser.function.ComplexFunction.nextFunction:433): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#6
+Inspecting hot method com.expression.parser.function.ComplexFunction.getValue:60...
+Checking for isolation...
+351,140,140,0
+Total 351 (24 unique) events are in hot method
+Total 140 (8 unique) traces are in hot method
+Total 140 (8 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 351 (24 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (35 traces / 2 unique traces) (41 events / 3 unique events)
+	Collection_UnsafeIterator (35 traces / 2 unique traces) (152 events / 10 unique events)
+	Iterator_RemoveOnce (35 traces / 2 unique traces) (41 events / 3 unique events)
+	Iterator_HasNext (35 traces / 2 unique traces) (117 events / 8 unique events)
+Classifier (com.expression.parser.function.ComplexFunction.getValue:60): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#7
+Inspecting hot method com.expression.parser.function.FunctionXs.eval:77...
+Checking for isolation...
+300,120,120,0
+Total 300 (10 unique) events are in hot method
+Total 120 (4 unique) traces are in hot method
+Total 120 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 300 (10 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (60 traces / 2 unique traces) (120 events / 4 unique events)
+	StringBuilder_ThreadSafe (60 traces / 2 unique traces) (180 events / 6 unique events)
+Classifier (com.expression.parser.function.FunctionXs.eval:77): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#8
+Inspecting hot method com.expression.parser.function.ComplexFunction.nextMinusFunction:468...
+Checking for isolation...
+200,80,80,0
+Total 200 (10 unique) events are in hot method
+Total 80 (4 unique) traces are in hot method
+Total 80 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 200 (10 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (40 traces / 2 unique traces) (80 events / 4 unique events)
+	StringBuilder_ThreadSafe (40 traces / 2 unique traces) (120 events / 6 unique events)
+Classifier (com.expression.parser.function.ComplexFunction.nextMinusFunction:468): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#9
+Inspecting hot method com.expression.parser.ComplexTest.TestOne:16...
+Checking for isolation...
+189,42,42,0
+Total 189 (189 unique) events are in hot method
+Total 42 (42 unique) traces are in hot method
+Total 42 (42 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 189 (189 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (21 traces / 21 unique traces) (84 events / 84 unique events)
+	StringBuilder_ThreadSafe (21 traces / 21 unique traces) (105 events / 105 unique events)
+Classifier (com.expression.parser.ComplexTest.TestOne:16): CUT,NOT_REDUNDANT_TRACES
+
+#10
+Inspecting hot method com.expression.parser.function.FunctionXs.nextFunction:332...
+Checking for isolation...
+170,68,68,0
+Total 170 (10 unique) events are in hot method
+Total 68 (4 unique) traces are in hot method
+Total 68 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 170 (10 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (34 traces / 2 unique traces) (68 events / 4 unique events)
+	StringBuilder_ThreadSafe (34 traces / 2 unique traces) (102 events / 6 unique events)
+Classifier (com.expression.parser.function.FunctionXs.nextFunction:332): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#11
+Inspecting hot method com.expression.parser.function.FunctionXs.getValue:59...
+Checking for isolation...
+90,24,24,0
+Total 90 (15 unique) events are in hot method
+Total 24 (4 unique) traces are in hot method
+Total 24 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 90 (15 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (6 traces / 1 unique traces) (30 events / 5 unique events)
+	Collection_UnsafeIterator (6 traces / 1 unique traces) (36 events / 6 unique events)
+	Iterator_RemoveOnce (6 traces / 1 unique traces) (12 events / 2 unique events)
+	Collections_SortBeforeBinarySearch (6 traces / 1 unique traces) (12 events / 2 unique events)
+Classifier (com.expression.parser.function.FunctionXs.getValue:59): CUT,ISOLATED_ONE_UNIQUE
+
+#12
+Inspecting hot method com.expression.parser.Parser.pointToVar:268...
+Checking for isolation...
+51,40,40,0
+Total 51 (3 unique) events are in hot method
+Total 40 (2 unique) traces are in hot method
+Total 40 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 51 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (40 traces / 2 unique traces) (51 events / 3 unique events)
+Classifier (com.expression.parser.Parser.pointToVar:268): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#13
+Inspecting hot method com.expression.parser.ComplexTest.TestTwo:127...
+Checking for isolation...
+45,10,10,0
+Total 45 (45 unique) events are in hot method
+Total 10 (10 unique) traces are in hot method
+Total 10 (10 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 45 (45 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (5 traces / 5 unique traces) (25 events / 25 unique events)
+	Appendable_ThreadSafe (5 traces / 5 unique traces) (20 events / 20 unique events)
+Classifier (com.expression.parser.ComplexTest.TestTwo:127): CUT,NOT_REDUNDANT_TRACES
+
+#14
+Inspecting hot method com.expression.parser.Parser.pointToComplexValue:213...
+Checking for isolation...
+41,35,35,0
+Total 41 (6 unique) events are in hot method
+Total 35 (4 unique) traces are in hot method
+Total 35 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 41 (6 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (35 traces / 4 unique traces) (41 events / 6 unique events)
+Classifier (com.expression.parser.Parser.pointToComplexValue:213): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#15
+Inspecting hot method com.expression.parser.function.FunctionXs.nextMinusFunction:366...
+Checking for isolation...
+30,12,12,0
+Total 30 (10 unique) events are in hot method
+Total 12 (4 unique) traces are in hot method
+Total 12 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 30 (10 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (6 traces / 2 unique traces) (12 events / 4 unique events)
+	StringBuilder_ThreadSafe (6 traces / 2 unique traces) (18 events / 6 unique events)
+Classifier (com.expression.parser.function.FunctionXs.nextMinusFunction:366): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#16
+Inspecting hot method com.expression.parser.ComplexTest.TestThree:161...
+Checking for isolation...
+27,6,6,0
+Total 27 (27 unique) events are in hot method
+Total 6 (6 unique) traces are in hot method
+Total 6 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 27 (27 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (3 traces / 3 unique traces) (12 events / 12 unique events)
+	StringBuilder_ThreadSafe (3 traces / 3 unique traces) (15 events / 15 unique events)
+Classifier (com.expression.parser.ComplexTest.TestThree:161): CUT,NOT_REDUNDANT_TRACES
+
+#17
+Inspecting hot method com.expression.parser.Parser.pointToValue:194...
+Checking for isolation...
+10,5,5,0
+Total 10 (6 unique) events are in hot method
+Total 5 (3 unique) traces are in hot method
+Total 5 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 10 (6 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (5 traces / 3 unique traces) (10 events / 6 unique events)
+Classifier (com.expression.parser.Parser.pointToValue:194): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#18
+Inspecting hot method com.expression.parser.RealTest.TestOne:15...
+Checking for isolation...
+5,2,2,0
+Total 5 (5 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (2 events / 2 unique events)
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+Classifier (com.expression.parser.RealTest.TestOne:15): CUT,NOT_REDUNDANT_TRACES
+
+#19
+Inspecting hot method com.expression.parser.SpeedTest.testOne:10...
+Checking for isolation...
+5,2,2,0
+Total 5 (5 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (2 events / 2 unique events)
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+Classifier (com.expression.parser.SpeedTest.testOne:10): CUT,NOT_REDUNDANT_TRACES
+
+#20
+Inspecting hot method com.expression.parser.SpeedTest.testTwo:21...
+Checking for isolation...
+5,2,2,0
+Total 5 (5 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (2 events / 2 unique events)
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+Classifier (com.expression.parser.SpeedTest.testTwo:21): CUT,NOT_REDUNDANT_TRACES
+
+#21
+Inspecting hot method com.expression.parser.SpeedTest.testThree:36...
+Checking for isolation...
+5,2,2,0
+Total 5 (5 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (2 events / 2 unique events)
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+Classifier (com.expression.parser.SpeedTest.testThree:36): CUT,NOT_REDUNDANT_TRACES
+

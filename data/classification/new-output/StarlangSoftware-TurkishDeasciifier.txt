@@ -1,0 +1,1252 @@
+Reading traces...
+	read 1000 traces
+	read 2000 traces
+	read 3000 traces
+	read 4000 traces
+	read 5000 traces
+Reading specs frequency...
+Reading locations...
+Counting events...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+Total 25782043 events and 1512403 traces
+Inspecting top 200 IMM
+Finding hot methods...
+Number of events, method name
+9062543,Ngram.NGramNode.setProbabilityWithPseudoCount:185
+8394583,Ngram.NGramNode.childSum:149
+3412197,Dictionary.Trie.TrieNode.addWord:35
+1542232,Ngram.NGramNode.<init>:13
+893592,Dictionary.TxtDictionary.loadMisspelledWords:303
+751432,MorphologicalAnalysis.FiniteStateMachine.getState:148
+570750,Xml.XmlDocument.readToken:65
+243138,Dictionary.TxtWord.addFlag:54
+186366,Dictionary.TxtDictionary.loadFromText:273
+142988,MorphologicalAnalysis.FsmMorphologicalAnalyzer.addNewParsesFromCurrentParse:660
+106535,MorphologicalAnalysis.Transition.makeTransition:256
+104205,Dictionary.TxtDictionary.addWordWhenRootSoften:365
+94740,Xml.XmlElement.getAttributeValue:64
+64848,Ngram.NGram.readHeader:55
+49520,MorphologicalAnalysis.Transition.transitionPossible:94
+34925,MorphologicalAnalysis.MorphotacticEngine.resolveH:122
+28920,MorphologicalAnalysis.MorphotacticEngine.resolveA:72
+25579,MorphologicalAnalysis.FsmParse.clone:317
+10722,MorphologicalAnalysis.FsmParse.transitionList:538
+8824,MorphologicalAnalysis.FsmParse.addSuffix:235
+8655,Dictionary.TxtDictionary.prepareTrie:404
+7625,MorphologicalAnalysis.MorphotacticEngine.resolveD:39
+6775,MorphologicalAnalysis.MorphotacticEngine.resolveS:35
+5841,Xml.XmlElement.addAttribute:89
+4113,MorphologicalAnalysis.FiniteStateMachine.addTransition:167
+3680,MorphologicalAnalysis.FsmParse.suffixList:682
+3339,MorphologicalAnalysis.FsmMorphologicalAnalyzer.parseWord:756
+2898,MorphologicalAnalysis.FiniteStateMachine.addTransition:189
+2199,MorphologicalAnalysis.FsmMorphologicalAnalyzer.initializeParseListFromSurfaceForm:611
+1680,MorphologicalAnalysis.MorphotacticEngine.resolveC:207
+1458,MorphologicalAnalysis.FsmMorphologicalAnalyzer.initializeParseList:380
+1304,Dictionary.Trie.Trie.getWordsWithPrefix:38
+984,MorphologicalAnalysis.FsmParse.<init>:17
+423,MorphologicalAnalysis.FiniteStateMachine.<init>:40
+352,Deasciifier.NGramDeasciifier.loadAsciifiedSameList:145
+326,MorphologicalAnalysis.FsmParseList.<init>:65
+318,MorphologicalAnalysis.InflectionalGroup.<init>:102
+275,MorphologicalAnalysis.FsmParseList.getParseWithLongestRootWord:138
+210,Corpus.Sentence.toString:225
+204,MorphologicalAnalysis.FsmParse.constructInflectionalGroups:132
+164,Deasciifier.NGramDeasciifier.deasciify:81
+130,Deasciifier.SimpleDeasciifier.candidateList:98
+114,Deasciifier.SimpleDeasciifier.generateCandidateList:27
+84,MorphologicalAnalysis.FsmMorphologicalAnalyzer.patternMatches:1067
+66,DataStructure.Cache.LRUCache.add:61
+45,Corpus.Sentence.<init>:79
+37,Corpus.Sentence.addWord:171
+34,DataStructure.Cache.LRUCache.get:41
+29,MorphologicalAnalysis.FsmParseList.isLongestRootException:156
+18,Dictionary.TxtWord.removeFlag:63
+6,Ngram.NGram.<init>:17
+3,Ngram.NGramNode.getBiGramProbability:310
+1,Dictionary.Dictionary.<clinit>:0
+1,Dictionary.TxtDictionary.<clinit>:0
+1,Dictionary.WordComparator.<clinit>:0
+1,Dictionary.TurkishWordComparator.<clinit>:0
+1,Dictionary.Word.<clinit>:0
+1,Dictionary.TxtWord.<clinit>:0
+1,Xml.XmlTokenType.<clinit>:4
+1,Xml.XmlTextType.<clinit>:4
+1,MorphologicalAnalysis.MorphologicalParse.<clinit>:0
+1,MorphologicalAnalysis.FsmParse.<clinit>:0
+1,MorphologicalAnalysis.MorphologicalTag.<clinit>:7
+1,MorphologicalAnalysis.InflectionalGroup.<clinit>:8
+1,Ngram.NGram.<clinit>:0
+1,Ngram.NGramNode.<clinit>:0
+1,Ngram.UnseenCase.<clinit>:0
+^^^ Last method that contains more than one event ^^^
+Starting Xml.XmlElement.getAttributeValue:64
+Finish Xml.XmlElement.getAttributeValue:64
+Starting MorphologicalAnalysis.FsmParse.suffixList:682
+Finish MorphologicalAnalysis.FsmParse.suffixList:682
+Starting MorphologicalAnalysis.FsmParse.addSuffix:235
+Finish MorphologicalAnalysis.FsmParse.addSuffix:235
+Starting MorphologicalAnalysis.InflectionalGroup.<init>:102
+Finish MorphologicalAnalysis.InflectionalGroup.<init>:102
+Starting MorphologicalAnalysis.MorphotacticEngine.resolveH:122
+Finish MorphologicalAnalysis.MorphotacticEngine.resolveH:122
+Starting MorphologicalAnalysis.FsmMorphologicalAnalyzer.initializeParseList:380
+Finish MorphologicalAnalysis.FsmMorphologicalAnalyzer.initializeParseList:380
+Starting Dictionary.TxtWord.addFlag:54
+Finish Dictionary.TxtWord.addFlag:54
+Starting MorphologicalAnalysis.FsmMorphologicalAnalyzer.initializeParseListFromSurfaceForm:611
+Finish MorphologicalAnalysis.FsmMorphologicalAnalyzer.initializeParseListFromSurfaceForm:611
+Starting Ngram.NGram.readHeader:55
+Finish Ngram.NGram.readHeader:55
+Starting MorphologicalAnalysis.FsmParseList.getParseWithLongestRootWord:138
+Finish MorphologicalAnalysis.FsmParseList.getParseWithLongestRootWord:138
+Starting MorphologicalAnalysis.MorphotacticEngine.resolveS:35
+Finish MorphologicalAnalysis.MorphotacticEngine.resolveS:35
+Starting MorphologicalAnalysis.FiniteStateMachine.<init>:40
+Finish MorphologicalAnalysis.FiniteStateMachine.<init>:40
+Starting MorphologicalAnalysis.MorphotacticEngine.resolveD:39
+Finish MorphologicalAnalysis.MorphotacticEngine.resolveD:39
+Starting MorphologicalAnalysis.FsmParse.<init>:17
+Finish MorphologicalAnalysis.FsmParse.<init>:17
+Starting MorphologicalAnalysis.Transition.transitionPossible:94
+Finish MorphologicalAnalysis.Transition.transitionPossible:94
+Starting Dictionary.Trie.Trie.getWordsWithPrefix:38
+Finish Dictionary.Trie.Trie.getWordsWithPrefix:38
+Starting MorphologicalAnalysis.FsmParse.clone:317
+Finish MorphologicalAnalysis.FsmParse.clone:317
+Starting Corpus.Sentence.toString:225
+Finish Corpus.Sentence.toString:225
+Starting Dictionary.TxtDictionary.loadFromText:273
+Finish Dictionary.TxtDictionary.loadFromText:273
+Starting MorphologicalAnalysis.FiniteStateMachine.addTransition:189
+Finish MorphologicalAnalysis.FiniteStateMachine.addTransition:189
+Starting MorphologicalAnalysis.Transition.makeTransition:256
+Finish MorphologicalAnalysis.Transition.makeTransition:256
+Starting Deasciifier.NGramDeasciifier.deasciify:81
+Finish Deasciifier.NGramDeasciifier.deasciify:81
+Starting Dictionary.TxtDictionary.addWordWhenRootSoften:365
+Finish Dictionary.TxtDictionary.addWordWhenRootSoften:365
+Starting Deasciifier.SimpleDeasciifier.generateCandidateList:27
+Finish Deasciifier.SimpleDeasciifier.generateCandidateList:27
+Starting Xml.XmlDocument.readToken:65
+Finish Xml.XmlDocument.readToken:65
+Starting MorphologicalAnalysis.FsmParseList.<init>:65
+Finish MorphologicalAnalysis.FsmParseList.<init>:65
+Starting MorphologicalAnalysis.MorphotacticEngine.resolveA:72
+Finish MorphologicalAnalysis.MorphotacticEngine.resolveA:72
+Starting Deasciifier.SimpleDeasciifier.candidateList:98
+Finish Deasciifier.SimpleDeasciifier.candidateList:98
+Starting MorphologicalAnalysis.FiniteStateMachine.addTransition:167
+Finish MorphologicalAnalysis.FiniteStateMachine.addTransition:167
+Starting MorphologicalAnalysis.FsmParseList.isLongestRootException:156
+Finish MorphologicalAnalysis.FsmParseList.isLongestRootException:156
+Starting MorphologicalAnalysis.FsmMorphologicalAnalyzer.addNewParsesFromCurrentParse:660
+Finish MorphologicalAnalysis.FsmMorphologicalAnalyzer.addNewParsesFromCurrentParse:660
+Starting MorphologicalAnalysis.FsmParse.constructInflectionalGroups:132
+Finish MorphologicalAnalysis.FsmParse.constructInflectionalGroups:132
+Starting Ngram.NGramNode.childSum:149
+Finish Ngram.NGramNode.childSum:149
+Starting Corpus.Sentence.addWord:171
+Finish Corpus.Sentence.addWord:171
+Starting Dictionary.Trie.TrieNode.addWord:35
+Finish Dictionary.Trie.TrieNode.addWord:35
+Starting DataStructure.Cache.LRUCache.get:41
+Finish DataStructure.Cache.LRUCache.get:41
+Starting Dictionary.TxtDictionary.prepareTrie:404
+Finish Dictionary.TxtDictionary.prepareTrie:404
+Starting MorphologicalAnalysis.FsmMorphologicalAnalyzer.parseWord:756
+Finish MorphologicalAnalysis.FsmMorphologicalAnalyzer.parseWord:756
+Starting Ngram.NGram.<init>:17
+Finish Ngram.NGram.<init>:17
+Starting MorphologicalAnalysis.FsmParse.transitionList:538
+Finish MorphologicalAnalysis.FsmParse.transitionList:538
+Starting MorphologicalAnalysis.MorphotacticEngine.resolveC:207
+Finish MorphologicalAnalysis.MorphotacticEngine.resolveC:207
+Starting Ngram.NGramNode.getBiGramProbability:310
+Finish Ngram.NGramNode.getBiGramProbability:310
+Starting Dictionary.TxtDictionary.loadMisspelledWords:303
+Finish Dictionary.TxtDictionary.loadMisspelledWords:303
+Starting Corpus.Sentence.<init>:79
+Finish Corpus.Sentence.<init>:79
+Starting Xml.XmlElement.addAttribute:89
+Finish Xml.XmlElement.addAttribute:89
+Starting MorphologicalAnalysis.FsmMorphologicalAnalyzer.patternMatches:1067
+Finish MorphologicalAnalysis.FsmMorphologicalAnalyzer.patternMatches:1067
+
+#1
+Inspecting hot method Ngram.NGramNode.setProbabilityWithPseudoCount:185...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+Checking for isolation...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+9062543,605185,286675,318510
+Total 9062543 (1651189 unique) events are in hot method
+Total 605185 (3361 unique) traces are in hot method
+Total 286675 (1123 unique) isolated traces are in hot method
+Total 318510 (2238 unique) non-isolated traces that have events in hot method
+Total 6261161 (951684 unique) events are in isolated traces
+Total 5603701 (1395683 unique) events are in non-isolated traces (2801382 / 699505 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (95556 traces / 372 unique traces) (2504460 events / 304522 unique events)
+	Iterator_HasNext (95556 traces / 372 unique traces) (2408904 events / 304150 unique events)
+	Iterator_RemoveOnce (95556 traces / 372 unique traces) (1156674 events / 151889 unique events)
+	Map_UnsafeIterator (5 traces / 5 unique traces) (191120 events / 191120 unique events)
+	Map_CollectionViewAdd (2 traces / 2 unique traces) (3 events / 3 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (254808 traces / 2236 unique traces) (5412595 events / 1395677 unique events) (2705829 events / 699502 unique events in hot method)
+	Map_CollectionViewAdd (63702 traces / 2 unique traces) (191106 events / 6 unique events) (95553 events / 3 unique events in hot method)
+Classifier (Ngram.NGramNode.setProbabilityWithPseudoCount:185): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#2
+Inspecting hot method Ngram.NGramNode.childSum:149...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+Checking for isolation...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+8394583,605169,286659,318510
+Total 8394583 (1297481 unique) events are in hot method
+Total 605169 (3351 unique) traces are in hot method
+Total 286659 (1113 unique) isolated traces are in hot method
+Total 318510 (2238 unique) non-isolated traces that have events in hot method
+Total 5592264 (601303 unique) events are in isolated traces
+Total 5603701 (1395683 unique) events are in non-isolated traces (2802319 / 696178 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (95553 traces / 371 unique traces) (2313348 events / 240818 unique events)
+	Iterator_HasNext (95553 traces / 371 unique traces) (2217795 events / 240447 unique events)
+	Iterator_RemoveOnce (95553 traces / 371 unique traces) (1061121 events / 120038 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (254808 traces / 2236 unique traces) (5412595 events / 1395677 unique events) (2706766 events / 696175 unique events in hot method)
+	Map_CollectionViewAdd (63702 traces / 2 unique traces) (191106 events / 6 unique events) (95553 events / 3 unique events in hot method)
+Classifier (Ngram.NGramNode.childSum:149): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#3
+Inspecting hot method Dictionary.Trie.TrieNode.addWord:35...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+Checking for isolation...
+3412197,3,0,3
+Total 3412197 (3412197 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 3 (3 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 5918405 (5918405 unique) events are in non-isolated traces (3412197 / 3412197 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2818563 events / 2818563 unique events) (1598046 events / 1598046 unique events in hot method)
+	Set_ItselfAsElement (1 traces / 1 unique traces) (281279 events / 281279 unique events) (216105 events / 216105 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2818563 events / 2818563 unique events) (1598046 events / 1598046 unique events in hot method)
+Classifier (Dictionary.Trie.TrieNode.addWord:35): LIB,NOT_REDUNDANT_TRACES
+
+#4
+Inspecting hot method Ngram.NGramNode.<init>:13...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+Checking for isolation...
+1542232,2,0,2
+Total 1542232 (1542232 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 5637126 (5637126 unique) events are in non-isolated traces (1542232 / 1542232 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2818563 events / 2818563 unique events) (771116 events / 771116 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2818563 events / 2818563 unique events) (771116 events / 771116 unique events in hot method)
+Classifier (Ngram.NGramNode.<init>:13): LIB,NOT_REDUNDANT_TRACES
+
+#5
+Inspecting hot method Dictionary.TxtDictionary.loadMisspelledWords:303...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+Checking for isolation...
+893592,2,0,2
+Total 893592 (893592 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 5637126 (5637126 unique) events are in non-isolated traces (893592 / 893592 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2818563 events / 2818563 unique events) (446796 events / 446796 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2818563 events / 2818563 unique events) (446796 events / 446796 unique events in hot method)
+Classifier (Dictionary.TxtDictionary.loadMisspelledWords:303): LIB,NOT_REDUNDANT_TRACES
+
+#6
+Inspecting hot method MorphologicalAnalysis.FiniteStateMachine.getState:148...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+Checking for isolation...
+751432,6471,6471,0
+Total 751432 (50196 unique) events are in hot method
+Total 6471 (423 unique) traces are in hot method
+Total 6471 (423 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 751432 (50196 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (2157 traces / 141 unique traces) (301867 events / 20163 unique events)
+	Iterator_RemoveOnce (2157 traces / 141 unique traces) (149855 events / 10011 unique events)
+	Iterator_HasNext (2157 traces / 141 unique traces) (299710 events / 20022 unique events)
+Classifier (MorphologicalAnalysis.FiniteStateMachine.getState:148): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#7
+Inspecting hot method Xml.XmlDocument.readToken:65...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+Checking for isolation...
+570750,228300,228300,0
+Total 570750 (5 unique) events are in hot method
+Total 228300 (2 unique) traces are in hot method
+Total 228300 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 570750 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (114150 traces / 1 unique traces) (228300 events / 2 unique events)
+	StringBuilder_ThreadSafe (114150 traces / 1 unique traces) (342450 events / 3 unique events)
+Classifier (Xml.XmlDocument.readToken:65): LIB,ISOLATED_ONE_UNIQUE
+
+#8
+Inspecting hot method Dictionary.TxtWord.addFlag:54...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+Checking for isolation...
+243138,186369,186360,9
+Total 243138 (33 unique) events are in hot method
+Total 186369 (8 unique) traces are in hot method
+Total 186360 (7 unique) isolated traces are in hot method
+Total 9 (1 unique) non-isolated traces that have events in hot method
+Total 243093 (28 unique) events are in isolated traces
+Total 63 (7 unique) events are in non-isolated traces (45 / 5 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (186360 traces / 7 unique traces) (243093 events / 28 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (9 traces / 1 unique traces) (63 events / 7 unique events) (45 events / 5 unique events in hot method)
+Classifier (Dictionary.TxtWord.addFlag:54): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_ONE_UNIQUE
+
+#9
+Inspecting hot method Dictionary.TxtDictionary.loadFromText:273...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+Checking for isolation...
+186366,4,4,0
+Total 186366 (62124 unique) events are in hot method
+Total 4 (2 unique) traces are in hot method
+Total 4 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 186366 (62124 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (3 traces / 1 unique traces) (186363 events / 62121 unique events)
+	Collections_Comparable (1 traces / 1 unique traces) (3 events / 3 unique events)
+Classifier (Dictionary.TxtDictionary.loadFromText:273): LIB,ISOLATED_ONE_UNIQUE,RAW_ISOLATED_SINGLE_TRACE
+
+#10
+Inspecting hot method MorphologicalAnalysis.FsmMorphologicalAnalyzer.addNewParsesFromCurrentParse:660...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+Checking for isolation...
+142988,9138,8994,144
+Total 142988 (2560 unique) events are in hot method
+Total 9138 (114 unique) traces are in hot method
+Total 8994 (56 unique) isolated traces are in hot method
+Total 144 (58 unique) non-isolated traces that have events in hot method
+Total 140210 (1017 unique) events are in isolated traces
+Total 6538 (3548 unique) events are in non-isolated traces (2778 / 1543 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (3270 traces / 19 unique traces) (55430 events / 403 unique events)
+	Collection_UnsafeIterator (3270 traces / 19 unique traces) (58700 events / 422 unique events)
+	Iterator_RemoveOnce (2454 traces / 18 unique traces) (26080 events / 192 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (144 traces / 58 unique traces) (6538 events / 3548 unique events) (2778 events / 1543 unique events in hot method)
+Classifier (MorphologicalAnalysis.FsmMorphologicalAnalyzer.addNewParsesFromCurrentParse:660): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#11
+Inspecting hot method MorphologicalAnalysis.Transition.makeTransition:256...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+Checking for isolation...
+106535,42614,42614,0
+Total 106535 (65 unique) events are in hot method
+Total 42614 (26 unique) traces are in hot method
+Total 42614 (26 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 106535 (65 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (21307 traces / 13 unique traces) (42614 events / 26 unique events)
+	StringBuilder_ThreadSafe (21307 traces / 13 unique traces) (63921 events / 39 unique events)
+Classifier (MorphologicalAnalysis.Transition.makeTransition:256): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#12
+Inspecting hot method Dictionary.TxtDictionary.addWordWhenRootSoften:365...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+Checking for isolation...
+104205,41682,41682,0
+Total 104205 (20 unique) events are in hot method
+Total 41682 (8 unique) traces are in hot method
+Total 41682 (8 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 104205 (20 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (20841 traces / 4 unique traces) (62523 events / 12 unique events)
+	Appendable_ThreadSafe (20841 traces / 4 unique traces) (41682 events / 8 unique events)
+Classifier (Dictionary.TxtDictionary.addWordWhenRootSoften:365): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#13
+Inspecting hot method Xml.XmlElement.getAttributeValue:64...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+Checking for isolation...
+94740,31689,31689,0
+Total 94740 (72 unique) events are in hot method
+Total 31689 (16 unique) traces are in hot method
+Total 31689 (16 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 94740 (72 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (10563 traces / 6 unique traces) (44832 events / 34 unique events)
+	Iterator_RemoveOnce (10563 traces / 4 unique traces) (15639 events / 10 unique events)
+	Iterator_HasNext (10563 traces / 6 unique traces) (34269 events / 28 unique events)
+Classifier (Xml.XmlElement.getAttributeValue:64): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#14
+Inspecting hot method Ngram.NGram.readHeader:55...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+Checking for isolation...
+64848,1,0,1
+Total 64848 (64848 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 281279 (281279 unique) events are in non-isolated traces (64848 / 64848 unique are in hot method)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (281279 events / 281279 unique events) (64848 events / 64848 unique events in hot method)
+Classifier (Ngram.NGram.readHeader:55): LIB,NOT_REDUNDANT_TRACES
+
+#15
+Inspecting hot method MorphologicalAnalysis.Transition.transitionPossible:94...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+Checking for isolation...
+49520,19808,19808,0
+Total 49520 (5 unique) events are in hot method
+Total 19808 (2 unique) traces are in hot method
+Total 19808 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 49520 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (9904 traces / 1 unique traces) (29712 events / 3 unique events)
+	Appendable_ThreadSafe (9904 traces / 1 unique traces) (19808 events / 2 unique events)
+Classifier (MorphologicalAnalysis.Transition.transitionPossible:94): LIB,ISOLATED_ONE_UNIQUE
+
+#16
+Inspecting hot method MorphologicalAnalysis.MorphotacticEngine.resolveH:122...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+Checking for isolation...
+34925,13970,13970,0
+Total 34925 (30 unique) events are in hot method
+Total 13970 (12 unique) traces are in hot method
+Total 13970 (12 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 34925 (30 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (6985 traces / 6 unique traces) (13970 events / 12 unique events)
+	StringBuilder_ThreadSafe (6985 traces / 6 unique traces) (20955 events / 18 unique events)
+Classifier (MorphologicalAnalysis.MorphotacticEngine.resolveH:122): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#17
+Inspecting hot method MorphologicalAnalysis.MorphotacticEngine.resolveA:72...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+Checking for isolation...
+28920,11568,11568,0
+Total 28920 (15 unique) events are in hot method
+Total 11568 (6 unique) traces are in hot method
+Total 11568 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 28920 (15 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (5784 traces / 3 unique traces) (17352 events / 9 unique events)
+	Appendable_ThreadSafe (5784 traces / 3 unique traces) (11568 events / 6 unique events)
+Classifier (MorphologicalAnalysis.MorphotacticEngine.resolveA:72): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#18
+Inspecting hot method MorphologicalAnalysis.FsmParse.clone:317...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+Checking for isolation...
+25579,8642,626,8016
+Total 25579 (164 unique) events are in hot method
+Total 8642 (34 unique) traces are in hot method
+Total 626 (3 unique) isolated traces are in hot method
+Total 8016 (31 unique) non-isolated traces that have events in hot method
+Total 764 (6 unique) events are in isolated traces
+Total 32831 (189 unique) events are in non-isolated traces (24815 / 158 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (626 traces / 3 unique traces) (764 events / 6 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (8016 traces / 31 unique traces) (32831 events / 189 unique events) (24815 events / 158 unique events in hot method)
+Classifier (MorphologicalAnalysis.FsmParse.clone:317): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#19
+Inspecting hot method MorphologicalAnalysis.FsmParse.transitionList:538...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+Checking for isolation...
+10722,2467,2467,0
+Total 10722 (244 unique) events are in hot method
+Total 2467 (40 unique) traces are in hot method
+Total 2467 (40 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 10722 (244 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (894 traces / 7 unique traces) (2363 events / 15 unique events)
+	StringBuilder_ThreadSafe (894 traces / 7 unique traces) (3257 events / 22 unique events)
+	Iterator_HasNext (239 traces / 9 unique traces) (1993 events / 81 unique events)
+	Collection_UnsafeIterator (239 traces / 9 unique traces) (2232 events / 90 unique events)
+	Iterator_RemoveOnce (201 traces / 8 unique traces) (877 events / 36 unique events)
+Classifier (MorphologicalAnalysis.FsmParse.transitionList:538): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#20
+Inspecting hot method MorphologicalAnalysis.FsmParse.addSuffix:235...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+Checking for isolation...
+8824,8824,808,8016
+Total 8824 (33 unique) events are in hot method
+Total 8824 (33 unique) traces are in hot method
+Total 808 (2 unique) isolated traces are in hot method
+Total 8016 (31 unique) non-isolated traces that have events in hot method
+Total 808 (2 unique) events are in isolated traces
+Total 32831 (189 unique) events are in non-isolated traces (8016 / 31 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (808 traces / 2 unique traces) (808 events / 2 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (8016 traces / 31 unique traces) (32831 events / 189 unique events) (8016 events / 31 unique events in hot method)
+Classifier (MorphologicalAnalysis.FsmParse.addSuffix:235): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#21
+Inspecting hot method Dictionary.TxtDictionary.prepareTrie:404...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+Checking for isolation...
+8655,3402,3402,0
+Total 8655 (37 unique) events are in hot method
+Total 3402 (14 unique) traces are in hot method
+Total 3402 (14 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 8655 (37 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (1701 traces / 7 unique traces) (3477 events / 15 unique events)
+	StringBuilder_ThreadSafe (1701 traces / 7 unique traces) (5178 events / 22 unique events)
+Classifier (Dictionary.TxtDictionary.prepareTrie:404): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#22
+Inspecting hot method MorphologicalAnalysis.MorphotacticEngine.resolveD:39...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+Checking for isolation...
+7625,3050,3050,0
+Total 7625 (10 unique) events are in hot method
+Total 3050 (4 unique) traces are in hot method
+Total 3050 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 7625 (10 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (1525 traces / 2 unique traces) (4575 events / 6 unique events)
+	Appendable_ThreadSafe (1525 traces / 2 unique traces) (3050 events / 4 unique events)
+Classifier (MorphologicalAnalysis.MorphotacticEngine.resolveD:39): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#23
+Inspecting hot method MorphologicalAnalysis.MorphotacticEngine.resolveS:35...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+Checking for isolation...
+6775,2710,2710,0
+Total 6775 (5 unique) events are in hot method
+Total 2710 (2 unique) traces are in hot method
+Total 2710 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 6775 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (1355 traces / 1 unique traces) (4065 events / 3 unique events)
+	Appendable_ThreadSafe (1355 traces / 1 unique traces) (2710 events / 2 unique events)
+Classifier (MorphologicalAnalysis.MorphotacticEngine.resolveS:35): LIB,ISOLATED_ONE_UNIQUE
+
+#24
+Inspecting hot method Xml.XmlElement.addAttribute:89...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+Checking for isolation...
+5841,3480,3480,0
+Total 5841 (10 unique) events are in hot method
+Total 3480 (4 unique) traces are in hot method
+Total 3480 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5841 (10 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (3480 traces / 4 unique traces) (5841 events / 10 unique events)
+Classifier (Xml.XmlElement.addAttribute:89): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#25
+Inspecting hot method MorphologicalAnalysis.FiniteStateMachine.addTransition:167...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+Checking for isolation...
+4113,311,153,158
+Total 4113 (2943 unique) events are in hot method
+Total 311 (40 unique) traces are in hot method
+Total 153 (13 unique) isolated traces are in hot method
+Total 158 (27 unique) non-isolated traces that have events in hot method
+Total 957 (102 unique) events are in isolated traces
+Total 5638062 (5637339 unique) events are in non-isolated traces (3156 / 2841 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (153 traces / 13 unique traces) (957 events / 102 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (156 traces / 25 unique traces) (936 events / 213 unique events) (414 events / 99 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2818563 events / 2818563 unique events) (1371 events / 1371 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2818563 events / 2818563 unique events) (1371 events / 1371 unique events in hot method)
+Classifier (MorphologicalAnalysis.FiniteStateMachine.addTransition:167): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#26
+Inspecting hot method MorphologicalAnalysis.FsmParse.suffixList:682...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+Checking for isolation...
+3680,656,656,0
+Total 3680 (22 unique) events are in hot method
+Total 656 (4 unique) traces are in hot method
+Total 656 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3680 (22 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (328 traces / 2 unique traces) (1676 events / 10 unique events)
+	StringBuilder_ThreadSafe (328 traces / 2 unique traces) (2004 events / 12 unique events)
+Classifier (MorphologicalAnalysis.FsmParse.suffixList:682): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#27
+Inspecting hot method MorphologicalAnalysis.FsmMorphologicalAnalyzer.parseWord:756...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+Checking for isolation...
+3339,178,0,178
+Total 3339 (1792 unique) events are in hot method
+Total 178 (64 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 178 (64 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 6642 (3572 unique) events are in non-isolated traces (3339 / 1792 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (178 traces / 64 unique traces) (6642 events / 3572 unique events) (3339 events / 1792 unique events in hot method)
+Classifier (MorphologicalAnalysis.FsmMorphologicalAnalyzer.parseWord:756): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#28
+Inspecting hot method MorphologicalAnalysis.FiniteStateMachine.addTransition:189...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+Checking for isolation...
+2898,206,48,158
+Total 2898 (2138 unique) events are in hot method
+Total 206 (37 unique) traces are in hot method
+Total 48 (10 unique) isolated traces are in hot method
+Total 158 (27 unique) non-isolated traces that have events in hot method
+Total 444 (92 unique) events are in isolated traces
+Total 5638062 (5637339 unique) events are in non-isolated traces (2454 / 2046 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (48 traces / 10 unique traces) (444 events / 92 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (156 traces / 25 unique traces) (936 events / 213 unique events) (522 events / 114 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2818563 events / 2818563 unique events) (966 events / 966 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2818563 events / 2818563 unique events) (966 events / 966 unique events in hot method)
+Classifier (MorphologicalAnalysis.FiniteStateMachine.addTransition:189): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#29
+Inspecting hot method MorphologicalAnalysis.FsmMorphologicalAnalyzer.initializeParseListFromSurfaceForm:611...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+Checking for isolation...
+2199,471,471,0
+Total 2199 (207 unique) events are in hot method
+Total 471 (26 unique) traces are in hot method
+Total 471 (26 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2199 (207 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (163 traces / 9 unique traces) (847 events / 81 unique events)
+	Collection_UnsafeIterator (163 traces / 9 unique traces) (1010 events / 90 unique events)
+	Iterator_RemoveOnce (145 traces / 8 unique traces) (342 events / 36 unique events)
+Classifier (MorphologicalAnalysis.FsmMorphologicalAnalyzer.initializeParseListFromSurfaceForm:611): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#30
+Inspecting hot method MorphologicalAnalysis.MorphotacticEngine.resolveC:207...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+Checking for isolation...
+1680,672,672,0
+Total 1680 (10 unique) events are in hot method
+Total 672 (4 unique) traces are in hot method
+Total 672 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1680 (10 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (336 traces / 2 unique traces) (1008 events / 6 unique events)
+	Appendable_ThreadSafe (336 traces / 2 unique traces) (672 events / 4 unique events)
+Classifier (MorphologicalAnalysis.MorphotacticEngine.resolveC:207): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#31
+Inspecting hot method MorphologicalAnalysis.FsmMorphologicalAnalyzer.initializeParseList:380...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+Checking for isolation...
+1458,421,276,145
+Total 1458 (239 unique) events are in hot method
+Total 421 (61 unique) traces are in hot method
+Total 276 (2 unique) isolated traces are in hot method
+Total 145 (59 unique) non-isolated traces that have events in hot method
+Total 966 (7 unique) events are in isolated traces
+Total 6540 (3550 unique) events are in non-isolated traces (492 / 232 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (138 traces / 1 unique traces) (414 events / 3 unique events)
+	StringBuilder_ThreadSafe (138 traces / 1 unique traces) (552 events / 4 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (145 traces / 59 unique traces) (6540 events / 3550 unique events) (492 events / 232 unique events in hot method)
+Classifier (MorphologicalAnalysis.FsmMorphologicalAnalyzer.initializeParseList:380): LIB,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#32
+Inspecting hot method Dictionary.Trie.Trie.getWordsWithPrefix:38...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+Checking for isolation...
+1304,328,327,1
+Total 1304 (654 unique) events are in hot method
+Total 328 (3 unique) traces are in hot method
+Total 327 (2 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 978 (328 unique) events are in isolated traces
+Total 281279 (281279 unique) events are in non-isolated traces (326 / 326 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsynchronizedAddAll (326 traces / 1 unique traces) (652 events / 2 unique events)
+	CharSequence_NotInSet (1 traces / 1 unique traces) (326 events / 326 unique events)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (281279 events / 281279 unique events) (326 events / 326 unique events in hot method)
+Classifier (Dictionary.Trie.Trie.getWordsWithPrefix:38): LIB,ISOLATED_ONE_UNIQUE,RAW_ISOLATED_SINGLE_TRACE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#33
+Inspecting hot method MorphologicalAnalysis.FsmParse.<init>:17...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+Checking for isolation...
+984,984,984,0
+Total 984 (2 unique) events are in hot method
+Total 984 (2 unique) traces are in hot method
+Total 984 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 984 (2 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (984 traces / 2 unique traces) (984 events / 2 unique events)
+Classifier (MorphologicalAnalysis.FsmParse.<init>:17): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#34
+Inspecting hot method MorphologicalAnalysis.FiniteStateMachine.<init>:40...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+Checking for isolation...
+423,3,3,0
+Total 423 (141 unique) events are in hot method
+Total 3 (1 unique) traces are in hot method
+Total 3 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 423 (141 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (3 traces / 1 unique traces) (423 events / 141 unique events)
+Classifier (MorphologicalAnalysis.FiniteStateMachine.<init>:40): LIB,ISOLATED_ONE_UNIQUE
+
+#35
+Inspecting hot method Deasciifier.NGramDeasciifier.loadAsciifiedSameList:145...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+Checking for isolation...
+352,2,0,2
+Total 352 (352 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 5637126 (5637126 unique) events are in non-isolated traces (352 / 352 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2818563 events / 2818563 unique events) (176 events / 176 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2818563 events / 2818563 unique events) (176 events / 176 unique events in hot method)
+Classifier (Deasciifier.NGramDeasciifier.loadAsciifiedSameList:145): CUT,NOT_REDUNDANT_TRACES
+
+#36
+Inspecting hot method MorphologicalAnalysis.FsmParseList.<init>:65...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+Checking for isolation...
+326,164,131,33
+Total 326 (169 unique) events are in hot method
+Total 164 (7 unique) traces are in hot method
+Total 131 (2 unique) isolated traces are in hot method
+Total 33 (5 unique) non-isolated traces that have events in hot method
+Total 293 (164 unique) events are in isolated traces
+Total 102 (22 unique) events are in non-isolated traces (33 / 5 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (130 traces / 1 unique traces) (130 events / 1 unique events)
+	Collections_ImplementComparable (1 traces / 1 unique traces) (163 events / 163 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (33 traces / 5 unique traces) (102 events / 22 unique events) (33 events / 5 unique events in hot method)
+Classifier (MorphologicalAnalysis.FsmParseList.<init>:65): LIB,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,RAW_ISOLATED_SINGLE_TRACE
+
+#37
+Inspecting hot method MorphologicalAnalysis.InflectionalGroup.<init>:102...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+Checking for isolation...
+318,102,102,0
+Total 318 (15 unique) events are in hot method
+Total 102 (5 unique) traces are in hot method
+Total 102 (5 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 318 (15 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (102 traces / 5 unique traces) (318 events / 15 unique events)
+Classifier (MorphologicalAnalysis.InflectionalGroup.<init>:102): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#38
+Inspecting hot method MorphologicalAnalysis.FsmParseList.getParseWithLongestRootWord:138...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+Checking for isolation...
+275,60,60,0
+Total 275 (72 unique) events are in hot method
+Total 60 (12 unique) traces are in hot method
+Total 60 (12 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 275 (72 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (20 traces / 4 unique traces) (43 events / 12 unique events)
+	Iterator_HasNext (20 traces / 4 unique traces) (106 events / 28 unique events)
+	Collection_UnsafeIterator (20 traces / 4 unique traces) (126 events / 32 unique events)
+Classifier (MorphologicalAnalysis.FsmParseList.getParseWithLongestRootWord:138): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#39
+Inspecting hot method Corpus.Sentence.toString:225...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+Checking for isolation...
+210,60,60,0
+Total 210 (7 unique) events are in hot method
+Total 60 (2 unique) traces are in hot method
+Total 60 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 210 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (30 traces / 1 unique traces) (120 events / 4 unique events)
+	Appendable_ThreadSafe (30 traces / 1 unique traces) (90 events / 3 unique events)
+Classifier (Corpus.Sentence.toString:225): LIB,ISOLATED_ONE_UNIQUE
+
+#40
+Inspecting hot method MorphologicalAnalysis.FsmParse.constructInflectionalGroups:132...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+Checking for isolation...
+204,138,138,0
+Total 204 (12 unique) events are in hot method
+Total 138 (6 unique) traces are in hot method
+Total 138 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 204 (12 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (138 traces / 6 unique traces) (204 events / 12 unique events)
+Classifier (MorphologicalAnalysis.FsmParse.constructInflectionalGroups:132): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#41
+Inspecting hot method Deasciifier.NGramDeasciifier.deasciify:81...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+Checking for isolation...
+164,54,54,0
+Total 164 (26 unique) events are in hot method
+Total 54 (9 unique) traces are in hot method
+Total 54 (9 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 164 (26 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (17 traces / 3 unique traces) (76 events / 12 unique events)
+	Iterator_HasNext (17 traces / 3 unique traces) (59 events / 9 unique events)
+	Iterator_RemoveOnce (16 traces / 2 unique traces) (21 events / 3 unique events)
+	Collections_SortBeforeBinarySearch (4 traces / 1 unique traces) (8 events / 2 unique events)
+Classifier (Deasciifier.NGramDeasciifier.deasciify:81): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE
+
+#42
+Inspecting hot method Deasciifier.SimpleDeasciifier.candidateList:98...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+Checking for isolation...
+130,16,0,16
+Total 130 (34 unique) events are in hot method
+Total 16 (5 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 16 (5 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 244 (63 unique) events are in non-isolated traces (130 / 34 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (16 traces / 5 unique traces) (244 events / 63 unique events) (130 events / 34 unique events in hot method)
+Classifier (Deasciifier.SimpleDeasciifier.candidateList:98): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#43
+Inspecting hot method Deasciifier.SimpleDeasciifier.generateCandidateList:27...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+Checking for isolation...
+114,16,0,16
+Total 114 (29 unique) events are in hot method
+Total 16 (5 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 16 (5 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 244 (63 unique) events are in non-isolated traces (114 / 29 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (16 traces / 5 unique traces) (244 events / 63 unique events) (114 events / 29 unique events in hot method)
+Classifier (Deasciifier.SimpleDeasciifier.generateCandidateList:27): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#44
+Inspecting hot method MorphologicalAnalysis.FsmMorphologicalAnalyzer.patternMatches:1067...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+Checking for isolation...
+84,2,0,2
+Total 84 (84 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 5637126 (5637126 unique) events are in non-isolated traces (84 / 84 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2818563 events / 2818563 unique events) (42 events / 42 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2818563 events / 2818563 unique events) (42 events / 42 unique events in hot method)
+Classifier (MorphologicalAnalysis.FsmMorphologicalAnalyzer.patternMatches:1067): LIB,NOT_REDUNDANT_TRACES
+
+#45
+Inspecting hot method DataStructure.Cache.LRUCache.add:61...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+Checking for isolation...
+66,2,0,2
+Total 66 (66 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 5637126 (5637126 unique) events are in non-isolated traces (66 / 66 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2818563 events / 2818563 unique events) (33 events / 33 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2818563 events / 2818563 unique events) (33 events / 33 unique events in hot method)
+Classifier (DataStructure.Cache.LRUCache.add:61): LIB,NOT_REDUNDANT_TRACES
+
+#46
+Inspecting hot method Corpus.Sentence.<init>:79...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+Checking for isolation...
+45,15,15,0
+Total 45 (26 unique) events are in hot method
+Total 15 (6 unique) traces are in hot method
+Total 15 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 45 (26 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (15 traces / 6 unique traces) (45 events / 26 unique events)
+Classifier (Corpus.Sentence.<init>:79): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#47
+Inspecting hot method Corpus.Sentence.addWord:171...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+Checking for isolation...
+37,12,12,0
+Total 37 (26 unique) events are in hot method
+Total 12 (6 unique) traces are in hot method
+Total 12 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 37 (26 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (12 traces / 6 unique traces) (37 events / 26 unique events)
+Classifier (Corpus.Sentence.addWord:171): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#48
+Inspecting hot method DataStructure.Cache.LRUCache.get:41...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+Checking for isolation...
+34,2,0,2
+Total 34 (34 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 5637126 (5637126 unique) events are in non-isolated traces (34 / 34 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2818563 events / 2818563 unique events) (17 events / 17 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2818563 events / 2818563 unique events) (17 events / 17 unique events in hot method)
+Classifier (DataStructure.Cache.LRUCache.get:41): LIB,NOT_REDUNDANT_TRACES
+
+#49
+Inspecting hot method MorphologicalAnalysis.FsmParseList.isLongestRootException:156...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+Checking for isolation...
+29,6,6,0
+Total 29 (29 unique) events are in hot method
+Total 6 (6 unique) traces are in hot method
+Total 6 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 29 (29 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (2 traces / 2 unique traces) (5 events / 5 unique events)
+	Iterator_HasNext (2 traces / 2 unique traces) (11 events / 11 unique events)
+	Collection_UnsafeIterator (2 traces / 2 unique traces) (13 events / 13 unique events)
+Classifier (MorphologicalAnalysis.FsmParseList.isLongestRootException:156): LIB,NOT_REDUNDANT_TRACES
+
+#50
+Inspecting hot method Dictionary.TxtWord.removeFlag:63...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+Checking for isolation...
+18,9,0,9
+Total 18 (2 unique) events are in hot method
+Total 9 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 9 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 63 (7 unique) events are in non-isolated traces (18 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (9 traces / 1 unique traces) (63 events / 7 unique events) (18 events / 2 unique events in hot method)
+Classifier (Dictionary.TxtWord.removeFlag:63): LIB,NOT_ISOLATED_ONE_UNIQUE
+
+#51
+Inspecting hot method Ngram.NGram.<init>:17...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+Checking for isolation...
+6,6,6,0
+Total 6 (3 unique) events are in hot method
+Total 6 (3 unique) traces are in hot method
+Total 6 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 6 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Closeable_MultipleClose (2 traces / 1 unique traces) (2 events / 1 unique events)
+	Reader_ManipulateAfterClose (2 traces / 1 unique traces) (2 events / 1 unique events)
+	Console_CloseReader (2 traces / 1 unique traces) (2 events / 1 unique events)
+Classifier (Ngram.NGram.<init>:17): LIB,ISOLATED_ONE_UNIQUE
+
+#52
+Inspecting hot method Ngram.NGramNode.getBiGramProbability:310...
+	processed 1000 traces
+	processed 2000 traces
+	processed 3000 traces
+	processed 4000 traces
+	processed 5000 traces
+Checking for isolation...
+3,3,3,0
+Total 3 (1 unique) events are in hot method
+Total 3 (1 unique) traces are in hot method
+Total 3 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Throwable_InitCauseOnce (3 traces / 1 unique traces) (3 events / 1 unique events)
+Classifier (Ngram.NGramNode.getBiGramProbability:310): LIB,ISOLATED_ONE_UNIQUE
+

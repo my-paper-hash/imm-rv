@@ -1,0 +1,829 @@
+Reading traces...
+Reading specs frequency...
+Reading locations...
+Converting set of traces...
+Counting events...
+Total 2872461272 events and 1426720339 traces
+Inspecting top 200 IMM
+Finding hot methods...
+Number of events, method name
+2834269860,Xml.XmlDocument.readToken:65
+13251422,WordNet.WordNet.addLiteralToLiteralList:297
+7167735,WordNet.WordNet.addSynSet:398
+3157707,WordNet.Synonym.addLiteral:24
+3107646,WordNet.SynSet.addRelation:384
+1999927,WordNet.WordNet.readWordNet:29
+1458750,WordNet.Synonym.getUniqueLiterals:40
+1253336,WordNet.WordNet.getSynSetsWithPartOfSpeech:491
+820357,WordNet.WordNet.getSynSetWithLiteral:459
+812149,WordNet.WordNet.literalCorrectOrderCheck:1061
+812149,WordNet.WordNetTest.testDistinctForeignLiterals:117
+778290,WordNet.WordNetTest.testGroupSize:79
+778290,WordNet.WordNetTest.testNumberOfGroupsInSynSet:96
+326906,DataStructure.CounterHashMap.put:22
+313322,WordNet.WordNet.sameLiteralSameSynSetCheck:1123
+164320,WordNet.WordNet.sameLiteralSameSenseCheck:1085
+164317,WordNet.WordNetTest.testLiteralWordCounts:246
+156661,WordNet.WordNetTest.testWikiPages:405
+156661,WordNet.WordNet.noDefinitionCheck:1151
+156661,WordNet.WordNet.noReverseRelationCheck:1240
+156661,WordNet.WordNet.semanticRelationRelatedToNonExistingSynSetCheck:1166
+156661,WordNet.WordNet.sameSemanticRelationCheck:1188
+156661,WordNet.WordNet.inbreeedingRelationCheck:1218
+156661,WordNet.WordNet.noPosCheck:1137
+156661,WordNet.WordNetTest.testTotalForeignLiterals:53
+156661,WordNet.WordNetTest.testTotalGroupedLiterals:66
+156661,WordNet.WordNetTest.testSynSetList:39
+146796,Xml.XmlElement.getAttributeValue:64
+82637,WordNet.Literal.addRelation:121
+16938,WordNet.WordNet.readExceptionFile:197
+11292,Xml.XmlElement.addAttribute:89
+233,WordNet.WordNet.getLiteralsWithPossibleModifiedLiteral:558
+75,WordNet.WordNet.findPathToRoot:1474
+44,WordNet.WordNet.synSetList:380
+29,Xml.XmlTokenType.<clinit>:4
+29,Xml.XmlTextType.<clinit>:4
+29,Dictionary.Pos.<clinit>:10
+29,WordNet.SemanticRelationType.<clinit>:7
+29,WordNet.InterlingualDependencyType.<clinit>:7
+11,WordNet.WordNet.literalList:389
+3,DataStructure.CounterHashMap.<clinit>:0
+3,WordNet.WordNetTest.testSameLiteralSameSynSetCheck:392
+1,Dictionary.Word.<clinit>:0
+1,Dictionary.ExceptionalWord.<clinit>:0
+^^^ Last method that contains more than one event ^^^
+Starting WordNet.WordNetTest.testGroupSize:79
+Finish WordNet.WordNetTest.testGroupSize:79
+Starting WordNet.WordNet.addSynSet:398
+Finish WordNet.WordNet.addSynSet:398
+Starting WordNet.Synonym.addLiteral:24
+Finish WordNet.Synonym.addLiteral:24
+Starting WordNet.WordNet.addLiteralToLiteralList:297
+Finish WordNet.WordNet.addLiteralToLiteralList:297
+Starting WordNet.WordNet.literalCorrectOrderCheck:1061
+Finish WordNet.WordNet.literalCorrectOrderCheck:1061
+Starting WordNet.Synonym.getUniqueLiterals:40
+Finish WordNet.Synonym.getUniqueLiterals:40
+Starting WordNet.WordNet.sameLiteralSameSenseCheck:1085
+Finish WordNet.WordNet.sameLiteralSameSenseCheck:1085
+Starting WordNet.WordNetTest.testTotalGroupedLiterals:66
+Finish WordNet.WordNetTest.testTotalGroupedLiterals:66
+Starting WordNet.WordNet.semanticRelationRelatedToNonExistingSynSetCheck:1166
+Finish WordNet.WordNet.semanticRelationRelatedToNonExistingSynSetCheck:1166
+Starting WordNet.WordNet.noDefinitionCheck:1151
+Finish WordNet.WordNet.noDefinitionCheck:1151
+Starting WordNet.WordNetTest.testLiteralWordCounts:246
+Finish WordNet.WordNetTest.testLiteralWordCounts:246
+Starting Xml.XmlElement.addAttribute:89
+Finish Xml.XmlElement.addAttribute:89
+Starting WordNet.WordNet.sameLiteralSameSynSetCheck:1123
+Finish WordNet.WordNet.sameLiteralSameSynSetCheck:1123
+Starting Xml.XmlElement.getAttributeValue:64
+Finish Xml.XmlElement.getAttributeValue:64
+Starting WordNet.WordNet.inbreeedingRelationCheck:1218
+Finish WordNet.WordNet.inbreeedingRelationCheck:1218
+Starting WordNet.Literal.addRelation:121
+Finish WordNet.Literal.addRelation:121
+Starting WordNet.WordNetTest.testDistinctForeignLiterals:117
+Finish WordNet.WordNetTest.testDistinctForeignLiterals:117
+Starting Xml.XmlTextType.<clinit>:4
+Finish Xml.XmlTextType.<clinit>:4
+Starting WordNet.WordNet.sameSemanticRelationCheck:1188
+Finish WordNet.WordNet.sameSemanticRelationCheck:1188
+Starting WordNet.WordNet.readExceptionFile:197
+Finish WordNet.WordNet.readExceptionFile:197
+Starting WordNet.WordNet.noReverseRelationCheck:1240
+Finish WordNet.WordNet.noReverseRelationCheck:1240
+Starting WordNet.WordNet.findPathToRoot:1474
+Finish WordNet.WordNet.findPathToRoot:1474
+Starting WordNet.WordNet.readWordNet:29
+Finish WordNet.WordNet.readWordNet:29
+Starting Xml.XmlTokenType.<clinit>:4
+Finish Xml.XmlTokenType.<clinit>:4
+Starting WordNet.WordNetTest.testWikiPages:405
+Finish WordNet.WordNetTest.testWikiPages:405
+Starting WordNet.WordNet.getLiteralsWithPossibleModifiedLiteral:558
+Finish WordNet.WordNet.getLiteralsWithPossibleModifiedLiteral:558
+Starting WordNet.WordNetTest.testNumberOfGroupsInSynSet:96
+Finish WordNet.WordNetTest.testNumberOfGroupsInSynSet:96
+Starting WordNet.WordNetTest.testSynSetList:39
+Finish WordNet.WordNetTest.testSynSetList:39
+Starting DataStructure.CounterHashMap.put:22
+Finish DataStructure.CounterHashMap.put:22
+Starting WordNet.SemanticRelationType.<clinit>:7
+Finish WordNet.SemanticRelationType.<clinit>:7
+Starting WordNet.WordNet.getSynSetsWithPartOfSpeech:491
+Finish WordNet.WordNet.getSynSetsWithPartOfSpeech:491
+Starting WordNet.WordNet.synSetList:380
+Finish WordNet.WordNet.synSetList:380
+Starting WordNet.WordNetTest.testTotalForeignLiterals:53
+Finish WordNet.WordNetTest.testTotalForeignLiterals:53
+Starting Dictionary.Pos.<clinit>:10
+Finish Dictionary.Pos.<clinit>:10
+Starting WordNet.WordNet.noPosCheck:1137
+Finish WordNet.WordNet.noPosCheck:1137
+Starting WordNet.InterlingualDependencyType.<clinit>:7
+Finish WordNet.InterlingualDependencyType.<clinit>:7
+Starting WordNet.WordNet.getSynSetWithLiteral:459
+Finish WordNet.WordNet.getSynSetWithLiteral:459
+Starting WordNet.WordNetTest.testSameLiteralSameSynSetCheck:392
+Finish WordNet.WordNetTest.testSameLiteralSameSynSetCheck:392
+Starting Xml.XmlDocument.readToken:65
+Finish Xml.XmlDocument.readToken:65
+Starting DataStructure.CounterHashMap.<clinit>:0
+Finish DataStructure.CounterHashMap.<clinit>:0
+
+#1
+Inspecting hot method Xml.XmlDocument.readToken:65...
+Checking for isolation...
+2834269860,1417134930,1417134930,0
+Total 2834269860 (4 unique) events are in hot method
+Total 1417134930 (2 unique) traces are in hot method
+Total 1417134930 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2834269860 (4 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (708567465 traces / 1 unique traces) (1417134930 events / 2 unique events)
+	StringBuilder_ThreadSafe (708567465 traces / 1 unique traces) (1417134930 events / 2 unique events)
+Classifier (Xml.XmlDocument.readToken:65): LIB,ISOLATED_ONE_UNIQUE
+
+#2
+Inspecting hot method WordNet.WordNet.addLiteralToLiteralList:297...
+Checking for isolation...
+13251422,2530598,2530511,87
+Total 13251422 (1944915 unique) events are in hot method
+Total 2530598 (14 unique) traces are in hot method
+Total 2530511 (2 unique) isolated traces are in hot method
+Total 87 (12 unique) non-isolated traces that have events in hot method
+Total 3037160 (3 unique) events are in isolated traces
+Total 19072059 (3809475 unique) events are in non-isolated traces (10214262 / 1944912 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (2530511 traces / 2 unique traces) (3037160 events / 3 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (29 traces / 5 unique traces) (6639030 events / 1553622 unique events) (3404754 events / 758562 unique events in hot method)
+	Map_ItselfAsValue (29 traces / 5 unique traces) (6639030 events / 1553622 unique events) (3404754 events / 758562 unique events in hot method)
+	TreeMap_Comparable (29 traces / 2 unique traces) (5793999 events / 702231 unique events) (3404754 events / 427788 unique events in hot method)
+Classifier (WordNet.WordNet.addLiteralToLiteralList:297): CUT,ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#3
+Inspecting hot method WordNet.WordNet.addSynSet:398...
+Checking for isolation...
+7167735,87,0,87
+Total 7167735 (1293285 unique) events are in hot method
+Total 87 (12 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 87 (12 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 19072059 (3809475 unique) events are in non-isolated traces (7167735 / 1293285 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (29 traces / 5 unique traces) (6639030 events / 1553622 unique events) (2389245 events / 509421 unique events in hot method)
+	Map_ItselfAsValue (29 traces / 5 unique traces) (6639030 events / 1553622 unique events) (2389245 events / 509421 unique events in hot method)
+	TreeMap_Comparable (29 traces / 2 unique traces) (5793999 events / 702231 unique events) (2389245 events / 274443 unique events in hot method)
+Classifier (WordNet.WordNet.addSynSet:398): CUT,RAW_NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#4
+Inspecting hot method WordNet.Synonym.addLiteral:24...
+Checking for isolation...
+3157707,2603761,2603761,0
+Total 3157707 (3 unique) events are in hot method
+Total 2603761 (2 unique) traces are in hot method
+Total 2603761 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3157707 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (2603761 traces / 2 unique traces) (3157707 events / 3 unique events)
+Classifier (WordNet.Synonym.addLiteral:24): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#5
+Inspecting hot method WordNet.SynSet.addRelation:384...
+Checking for isolation...
+3107646,1850987,1850987,0
+Total 3107646 (3 unique) events are in hot method
+Total 1850987 (2 unique) traces are in hot method
+Total 1850987 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3107646 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1850987 traces / 2 unique traces) (3107646 events / 3 unique events)
+Classifier (WordNet.SynSet.addRelation:384): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#6
+Inspecting hot method WordNet.WordNet.readWordNet:29...
+Checking for isolation...
+1999927,556307,556249,58
+Total 1999927 (233083 unique) events are in hot method
+Total 556307 (12 unique) traces are in hot method
+Total 556249 (2 unique) isolated traces are in hot method
+Total 58 (10 unique) non-isolated traces that have events in hot method
+Total 648063 (3 unique) events are in isolated traces
+Total 13278060 (3107244 unique) events are in non-isolated traces (1351864 / 233080 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (556249 traces / 2 unique traces) (648063 events / 3 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (29 traces / 5 unique traces) (6639030 events / 1553622 unique events) (675932 events / 116540 unique events in hot method)
+	Map_ItselfAsValue (29 traces / 5 unique traces) (6639030 events / 1553622 unique events) (675932 events / 116540 unique events in hot method)
+Classifier (WordNet.WordNet.readWordNet:29): CUT,ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#7
+Inspecting hot method WordNet.Synonym.getUniqueLiterals:40...
+Checking for isolation...
+1458750,626608,626608,0
+Total 1458750 (1379 unique) events are in hot method
+Total 626608 (46 unique) traces are in hot method
+Total 626608 (46 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1458750 (1379 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (156652 traces / 10 unique traces) (200380 events / 56 unique events)
+	Collection_UnsafeIterator (156652 traces / 1 unique traces) (469956 events / 3 unique events)
+	Iterator_RemoveOnce (156652 traces / 2 unique traces) (190730 events / 3 unique events)
+	Iterator_HasNext (156652 traces / 33 unique traces) (597684 events / 1317 unique events)
+Classifier (WordNet.Synonym.getUniqueLiterals:40): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE
+
+#8
+Inspecting hot method WordNet.WordNet.getSynSetsWithPartOfSpeech:491...
+Checking for isolation...
+1253336,42,42,0
+Total 1253336 (156688 unique) events are in hot method
+Total 42 (10 unique) traces are in hot method
+Total 42 (10 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1253336 (156688 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Map_UnsafeIterator (9 traces / 5 unique traces) (54 events / 26 unique events)
+	Collection_UnsafeIterator (8 traces / 1 unique traces) (24 events / 3 unique events)
+	Iterator_RemoveOnce (8 traces / 1 unique traces) (16 events / 2 unique events)
+	Iterator_HasNext (8 traces / 1 unique traces) (1253224 events / 156653 unique events)
+	Collections_SortBeforeBinarySearch (8 traces / 1 unique traces) (16 events / 2 unique events)
+	Map_CollectionViewAdd (1 traces / 1 unique traces) (2 events / 2 unique events)
+Classifier (WordNet.WordNet.getSynSetsWithPartOfSpeech:491): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,ISOLATED_SINGLE_TRACE
+
+#9
+Inspecting hot method WordNet.WordNet.getSynSetWithLiteral:459...
+Checking for isolation...
+820357,330816,330816,0
+Total 820357 (3546 unique) events are in hot method
+Total 330816 (62 unique) traces are in hot method
+Total 330816 (62 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 820357 (3546 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (110272 traces / 1 unique traces) (330816 events / 3 unique events)
+	Iterator_RemoveOnce (110272 traces / 2 unique traces) (138377 events / 3 unique events)
+	Iterator_HasNext (110272 traces / 59 unique traces) (351164 events / 3540 unique events)
+Classifier (WordNet.WordNet.getSynSetWithLiteral:459): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE
+
+#10
+Inspecting hot method WordNet.WordNet.literalCorrectOrderCheck:1061...
+Checking for isolation...
+812149,246466,246465,1
+Total 812149 (165690 unique) events are in hot method
+Total 246466 (39 unique) traces are in hot method
+Total 246465 (38 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 812146 (165687 unique) events are in isolated traces
+Total 4 (4 unique) events are in non-isolated traces (3 / 3 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (82155 traces / 1 unique traces) (246465 events / 3 unique events)
+	Iterator_RemoveOnce (82155 traces / 2 unique traces) (98702 events / 3 unique events)
+	Iterator_HasNext (82155 traces / 35 unique traces) (466979 events / 165681 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (1 traces / 1 unique traces) (4 events / 4 unique events) (3 events / 3 unique events in hot method)
+Classifier (WordNet.WordNet.literalCorrectOrderCheck:1061): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_SINGLE_TRACE
+
+#11
+Inspecting hot method WordNet.WordNetTest.testDistinctForeignLiterals:117...
+Checking for isolation...
+812149,246466,246465,1
+Total 812149 (165690 unique) events are in hot method
+Total 246466 (39 unique) traces are in hot method
+Total 246465 (38 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 812146 (165687 unique) events are in isolated traces
+Total 4 (4 unique) events are in non-isolated traces (3 / 3 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (82155 traces / 1 unique traces) (246465 events / 3 unique events)
+	Iterator_RemoveOnce (82155 traces / 2 unique traces) (98702 events / 3 unique events)
+	Iterator_HasNext (82155 traces / 35 unique traces) (466979 events / 165681 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (1 traces / 1 unique traces) (4 events / 4 unique events) (3 events / 3 unique events in hot method)
+Classifier (WordNet.WordNetTest.testDistinctForeignLiterals:117): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_SINGLE_TRACE
+
+#12
+Inspecting hot method WordNet.WordNetTest.testGroupSize:79...
+Checking for isolation...
+778290,234982,234981,1
+Total 778290 (157979 unique) events are in hot method
+Total 234982 (38 unique) traces are in hot method
+Total 234981 (37 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 778287 (157976 unique) events are in isolated traces
+Total 4 (4 unique) events are in non-isolated traces (3 / 3 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (78327 traces / 1 unique traces) (234981 events / 3 unique events)
+	Iterator_HasNext (78327 traces / 34 unique traces) (449495 events / 157970 unique events)
+	Iterator_RemoveOnce (78327 traces / 2 unique traces) (93811 events / 3 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (1 traces / 1 unique traces) (4 events / 4 unique events) (3 events / 3 unique events in hot method)
+Classifier (WordNet.WordNetTest.testGroupSize:79): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_SINGLE_TRACE
+
+#13
+Inspecting hot method WordNet.WordNetTest.testNumberOfGroupsInSynSet:96...
+Checking for isolation...
+778290,234982,234981,1
+Total 778290 (157979 unique) events are in hot method
+Total 234982 (38 unique) traces are in hot method
+Total 234981 (37 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 778287 (157976 unique) events are in isolated traces
+Total 4 (4 unique) events are in non-isolated traces (3 / 3 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (78327 traces / 1 unique traces) (234981 events / 3 unique events)
+	Iterator_HasNext (78327 traces / 34 unique traces) (449495 events / 157970 unique events)
+	Iterator_RemoveOnce (78327 traces / 2 unique traces) (93811 events / 3 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (1 traces / 1 unique traces) (4 events / 4 unique events) (3 events / 3 unique events in hot method)
+Classifier (WordNet.WordNetTest.testNumberOfGroupsInSynSet:96): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_SINGLE_TRACE
+
+#14
+Inspecting hot method DataStructure.CounterHashMap.put:22...
+Checking for isolation...
+326906,6,0,6
+Total 326906 (326906 unique) events are in hot method
+Total 6 (6 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 6 (6 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 1598258 (1598258 unique) events are in non-isolated traces (326906 / 326906 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (3 traces / 3 unique traces) (799129 events / 799129 unique events) (163453 events / 163453 unique events in hot method)
+	Map_ItselfAsValue (3 traces / 3 unique traces) (799129 events / 799129 unique events) (163453 events / 163453 unique events in hot method)
+Classifier (DataStructure.CounterHashMap.put:22): LIB,NOT_REDUNDANT_TRACES
+
+#15
+Inspecting hot method WordNet.WordNet.sameLiteralSameSynSetCheck:1123...
+Checking for isolation...
+313322,8,6,2
+Total 313322 (156664 unique) events are in hot method
+Total 8 (5 unique) traces are in hot method
+Total 6 (3 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 313316 (156658 unique) events are in isolated traces
+Total 10 (10 unique) events are in non-isolated traces (6 / 6 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (2 traces / 1 unique traces) (6 events / 3 unique events)
+	Iterator_RemoveOnce (2 traces / 1 unique traces) (4 events / 2 unique events)
+	Iterator_HasNext (2 traces / 1 unique traces) (313306 events / 156653 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (2 traces / 2 unique traces) (10 events / 10 unique events) (6 events / 6 unique events in hot method)
+Classifier (WordNet.WordNet.sameLiteralSameSynSetCheck:1123): CUT,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT
+
+#16
+Inspecting hot method WordNet.WordNet.sameLiteralSameSenseCheck:1085...
+Checking for isolation...
+164320,6,6,0
+Total 164320 (164320 unique) events are in hot method
+Total 6 (6 unique) traces are in hot method
+Total 6 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 164320 (164320 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Map_UnsafeIterator (2 traces / 2 unique traces) (5 events / 5 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (2 events / 2 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (164309 events / 164309 unique events)
+	Map_CollectionViewAdd (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (3 events / 3 unique events)
+Classifier (WordNet.WordNet.sameLiteralSameSenseCheck:1085): CUT,NOT_REDUNDANT_TRACES
+
+#17
+Inspecting hot method WordNet.WordNetTest.testLiteralWordCounts:246...
+Checking for isolation...
+164317,4,3,1
+Total 164317 (164317 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 164314 (164314 unique) events are in isolated traces
+Total 4 (4 unique) events are in non-isolated traces (3 / 3 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (164309 events / 164309 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (3 events / 3 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (2 events / 2 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (1 traces / 1 unique traces) (4 events / 4 unique events) (3 events / 3 unique events in hot method)
+Classifier (WordNet.WordNetTest.testLiteralWordCounts:246): CUT,NOT_REDUNDANT_TRACES
+
+#18
+Inspecting hot method WordNet.WordNetTest.testWikiPages:405...
+Checking for isolation...
+156661,4,3,1
+Total 156661 (156661 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 156658 (156658 unique) events are in isolated traces
+Total 4 (4 unique) events are in non-isolated traces (3 / 3 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (156653 events / 156653 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (3 events / 3 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (2 events / 2 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (1 traces / 1 unique traces) (4 events / 4 unique events) (3 events / 3 unique events in hot method)
+Classifier (WordNet.WordNetTest.testWikiPages:405): CUT,NOT_REDUNDANT_TRACES
+
+#19
+Inspecting hot method WordNet.WordNet.noDefinitionCheck:1151...
+Checking for isolation...
+156661,4,3,1
+Total 156661 (156661 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 156658 (156658 unique) events are in isolated traces
+Total 4 (4 unique) events are in non-isolated traces (3 / 3 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (156653 events / 156653 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (3 events / 3 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (2 events / 2 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (1 traces / 1 unique traces) (4 events / 4 unique events) (3 events / 3 unique events in hot method)
+Classifier (WordNet.WordNet.noDefinitionCheck:1151): CUT,NOT_REDUNDANT_TRACES
+
+#20
+Inspecting hot method WordNet.WordNet.noReverseRelationCheck:1240...
+Checking for isolation...
+156661,4,3,1
+Total 156661 (156661 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 156658 (156658 unique) events are in isolated traces
+Total 4 (4 unique) events are in non-isolated traces (3 / 3 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (156653 events / 156653 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (3 events / 3 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (2 events / 2 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (1 traces / 1 unique traces) (4 events / 4 unique events) (3 events / 3 unique events in hot method)
+Classifier (WordNet.WordNet.noReverseRelationCheck:1240): CUT,NOT_REDUNDANT_TRACES
+
+#21
+Inspecting hot method WordNet.WordNet.semanticRelationRelatedToNonExistingSynSetCheck:1166...
+Checking for isolation...
+156661,4,3,1
+Total 156661 (156661 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 156658 (156658 unique) events are in isolated traces
+Total 4 (4 unique) events are in non-isolated traces (3 / 3 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (156653 events / 156653 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (3 events / 3 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (2 events / 2 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (1 traces / 1 unique traces) (4 events / 4 unique events) (3 events / 3 unique events in hot method)
+Classifier (WordNet.WordNet.semanticRelationRelatedToNonExistingSynSetCheck:1166): CUT,NOT_REDUNDANT_TRACES
+
+#22
+Inspecting hot method WordNet.WordNet.sameSemanticRelationCheck:1188...
+Checking for isolation...
+156661,4,3,1
+Total 156661 (156661 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 156658 (156658 unique) events are in isolated traces
+Total 4 (4 unique) events are in non-isolated traces (3 / 3 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (156653 events / 156653 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (3 events / 3 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (2 events / 2 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (1 traces / 1 unique traces) (4 events / 4 unique events) (3 events / 3 unique events in hot method)
+Classifier (WordNet.WordNet.sameSemanticRelationCheck:1188): CUT,NOT_REDUNDANT_TRACES
+
+#23
+Inspecting hot method WordNet.WordNet.inbreeedingRelationCheck:1218...
+Checking for isolation...
+156661,4,3,1
+Total 156661 (156661 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 156658 (156658 unique) events are in isolated traces
+Total 4 (4 unique) events are in non-isolated traces (3 / 3 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (156653 events / 156653 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (3 events / 3 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (2 events / 2 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (1 traces / 1 unique traces) (4 events / 4 unique events) (3 events / 3 unique events in hot method)
+Classifier (WordNet.WordNet.inbreeedingRelationCheck:1218): CUT,NOT_REDUNDANT_TRACES
+
+#24
+Inspecting hot method WordNet.WordNet.noPosCheck:1137...
+Checking for isolation...
+156661,4,3,1
+Total 156661 (156661 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 156658 (156658 unique) events are in isolated traces
+Total 4 (4 unique) events are in non-isolated traces (3 / 3 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (156653 events / 156653 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (3 events / 3 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (2 events / 2 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (1 traces / 1 unique traces) (4 events / 4 unique events) (3 events / 3 unique events in hot method)
+Classifier (WordNet.WordNet.noPosCheck:1137): CUT,NOT_REDUNDANT_TRACES
+
+#25
+Inspecting hot method WordNet.WordNetTest.testTotalForeignLiterals:53...
+Checking for isolation...
+156661,4,3,1
+Total 156661 (156661 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 156658 (156658 unique) events are in isolated traces
+Total 4 (4 unique) events are in non-isolated traces (3 / 3 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (156653 events / 156653 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (3 events / 3 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (2 events / 2 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (1 traces / 1 unique traces) (4 events / 4 unique events) (3 events / 3 unique events in hot method)
+Classifier (WordNet.WordNetTest.testTotalForeignLiterals:53): CUT,NOT_REDUNDANT_TRACES
+
+#26
+Inspecting hot method WordNet.WordNetTest.testTotalGroupedLiterals:66...
+Checking for isolation...
+156661,4,3,1
+Total 156661 (156661 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 156658 (156658 unique) events are in isolated traces
+Total 4 (4 unique) events are in non-isolated traces (3 / 3 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (156653 events / 156653 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (3 events / 3 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (2 events / 2 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (1 traces / 1 unique traces) (4 events / 4 unique events) (3 events / 3 unique events in hot method)
+Classifier (WordNet.WordNetTest.testTotalGroupedLiterals:66): CUT,NOT_REDUNDANT_TRACES
+
+#27
+Inspecting hot method WordNet.WordNetTest.testSynSetList:39...
+Checking for isolation...
+156661,4,3,1
+Total 156661 (156661 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 156658 (156658 unique) events are in isolated traces
+Total 4 (4 unique) events are in non-isolated traces (3 / 3 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (156653 events / 156653 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (3 events / 3 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (2 events / 2 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (1 traces / 1 unique traces) (4 events / 4 unique events) (3 events / 3 unique events in hot method)
+Classifier (WordNet.WordNetTest.testSynSetList:39): CUT,NOT_REDUNDANT_TRACES
+
+#28
+Inspecting hot method Xml.XmlElement.getAttributeValue:64...
+Checking for isolation...
+146796,50814,50814,0
+Total 146796 (18 unique) events are in hot method
+Total 50814 (6 unique) traces are in hot method
+Total 50814 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 146796 (18 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (16938 traces / 1 unique traces) (50814 events / 3 unique events)
+	Iterator_RemoveOnce (16938 traces / 2 unique traces) (28230 events / 3 unique events)
+	Iterator_HasNext (16938 traces / 3 unique traces) (67752 events / 12 unique events)
+Classifier (Xml.XmlElement.getAttributeValue:64): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE
+
+#29
+Inspecting hot method WordNet.Literal.addRelation:121...
+Checking for isolation...
+82637,61098,61098,0
+Total 82637 (3 unique) events are in hot method
+Total 61098 (2 unique) traces are in hot method
+Total 61098 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 82637 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (61098 traces / 2 unique traces) (82637 events / 3 unique events)
+Classifier (WordNet.Literal.addRelation:121): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#30
+Inspecting hot method WordNet.WordNet.readExceptionFile:197...
+Checking for isolation...
+16938,5639,5637,2
+Total 16938 (11295 unique) events are in hot method
+Total 5639 (4 unique) traces are in hot method
+Total 5637 (2 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 5646 (3 unique) events are in isolated traces
+Total 1085202 (1085202 unique) events are in non-isolated traces (11292 / 11292 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (5637 traces / 2 unique traces) (5646 events / 3 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (542601 events / 542601 unique events) (5646 events / 5646 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (542601 events / 542601 unique events) (5646 events / 5646 unique events in hot method)
+Classifier (WordNet.WordNet.readExceptionFile:197): CUT,ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#31
+Inspecting hot method Xml.XmlElement.addAttribute:89...
+Checking for isolation...
+11292,5646,5646,0
+Total 11292 (2 unique) events are in hot method
+Total 5646 (1 unique) traces are in hot method
+Total 5646 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 11292 (2 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (5646 traces / 1 unique traces) (11292 events / 2 unique events)
+Classifier (Xml.XmlElement.addAttribute:89): LIB,ISOLATED_ONE_UNIQUE
+
+#32
+Inspecting hot method WordNet.WordNet.getLiteralsWithPossibleModifiedLiteral:558...
+Checking for isolation...
+233,96,96,0
+Total 233 (28 unique) events are in hot method
+Total 96 (10 unique) traces are in hot method
+Total 96 (10 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 233 (28 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (21 traces / 3 unique traces) (56 events / 10 unique events)
+	StringBuilder_ThreadSafe (15 traces / 1 unique traces) (30 events / 2 unique events)
+	Appendable_ThreadSafe (15 traces / 1 unique traces) (30 events / 2 unique events)
+	Iterator_HasNext (15 traces / 2 unique traces) (53 events / 8 unique events)
+	Collection_UnsafeIterator (15 traces / 1 unique traces) (45 events / 3 unique events)
+	Iterator_RemoveOnce (15 traces / 2 unique traces) (19 events / 3 unique events)
+Classifier (WordNet.WordNet.getLiteralsWithPossibleModifiedLiteral:558): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE
+
+#33
+Inspecting hot method WordNet.WordNet.findPathToRoot:1474...
+Checking for isolation...
+75,38,38,0
+Total 75 (3 unique) events are in hot method
+Total 38 (2 unique) traces are in hot method
+Total 38 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 75 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (38 traces / 2 unique traces) (75 events / 3 unique events)
+Classifier (WordNet.WordNet.findPathToRoot:1474): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#34
+Inspecting hot method WordNet.WordNet.synSetList:380...
+Checking for isolation...
+44,40,26,14
+Total 44 (22 unique) events are in hot method
+Total 40 (18 unique) traces are in hot method
+Total 26 (4 unique) isolated traces are in hot method
+Total 14 (14 unique) non-isolated traces that have events in hot method
+Total 28 (6 unique) events are in isolated traces
+Total 58 (58 unique) events are in non-isolated traces (16 / 16 unique are in hot method)
+Specs that have isolated traces:
+	Map_UnsafeIterator (13 traces / 2 unique traces) (14 events / 3 unique events)
+	Map_CollectionViewAdd (13 traces / 2 unique traces) (14 events / 3 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (14 traces / 14 unique traces) (58 events / 58 unique events) (16 events / 16 unique events in hot method)
+Classifier (WordNet.WordNet.synSetList:380): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT
+
+#35
+Inspecting hot method Xml.XmlTokenType.<clinit>:4...
+Checking for isolation...
+29,29,0,29
+Total 29 (3 unique) events are in hot method
+Total 29 (3 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 29 (3 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 150 (18 unique) events are in non-isolated traces (29 / 3 unique are in hot method)
+Specs that have non-isolated traces:
+	Serializable_NoArgConstructor (29 traces / 3 unique traces) (150 events / 18 unique events) (29 events / 3 unique events in hot method)
+Classifier (Xml.XmlTokenType.<clinit>:4): LIB,RAW_NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#36
+Inspecting hot method Xml.XmlTextType.<clinit>:4...
+Checking for isolation...
+29,29,0,29
+Total 29 (3 unique) events are in hot method
+Total 29 (3 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 29 (3 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 150 (18 unique) events are in non-isolated traces (29 / 3 unique are in hot method)
+Specs that have non-isolated traces:
+	Serializable_NoArgConstructor (29 traces / 3 unique traces) (150 events / 18 unique events) (29 events / 3 unique events in hot method)
+Classifier (Xml.XmlTextType.<clinit>:4): LIB,RAW_NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#37
+Inspecting hot method Dictionary.Pos.<clinit>:10...
+Checking for isolation...
+29,29,0,29
+Total 29 (3 unique) events are in hot method
+Total 29 (3 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 29 (3 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 150 (18 unique) events are in non-isolated traces (29 / 3 unique are in hot method)
+Specs that have non-isolated traces:
+	Serializable_NoArgConstructor (29 traces / 3 unique traces) (150 events / 18 unique events) (29 events / 3 unique events in hot method)
+Classifier (Dictionary.Pos.<clinit>:10): LIB,RAW_NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#38
+Inspecting hot method WordNet.SemanticRelationType.<clinit>:7...
+Checking for isolation...
+29,29,0,29
+Total 29 (3 unique) events are in hot method
+Total 29 (3 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 29 (3 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 150 (18 unique) events are in non-isolated traces (29 / 3 unique are in hot method)
+Specs that have non-isolated traces:
+	Serializable_NoArgConstructor (29 traces / 3 unique traces) (150 events / 18 unique events) (29 events / 3 unique events in hot method)
+Classifier (WordNet.SemanticRelationType.<clinit>:7): CUT,RAW_NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#39
+Inspecting hot method WordNet.InterlingualDependencyType.<clinit>:7...
+Checking for isolation...
+29,29,0,29
+Total 29 (3 unique) events are in hot method
+Total 29 (3 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 29 (3 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 150 (18 unique) events are in non-isolated traces (29 / 3 unique are in hot method)
+Specs that have non-isolated traces:
+	Serializable_NoArgConstructor (29 traces / 3 unique traces) (150 events / 18 unique events) (29 events / 3 unique events in hot method)
+Classifier (WordNet.InterlingualDependencyType.<clinit>:7): CUT,RAW_NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#40
+Inspecting hot method WordNet.WordNet.literalList:389...
+Checking for isolation...
+11,11,8,3
+Total 11 (5 unique) events are in hot method
+Total 11 (5 unique) traces are in hot method
+Total 8 (2 unique) isolated traces are in hot method
+Total 3 (3 unique) non-isolated traces that have events in hot method
+Total 8 (2 unique) events are in isolated traces
+Total 12 (12 unique) events are in non-isolated traces (3 / 3 unique are in hot method)
+Specs that have isolated traces:
+	Map_CollectionViewAdd (4 traces / 1 unique traces) (4 events / 1 unique events)
+	Map_UnsafeIterator (4 traces / 1 unique traces) (4 events / 1 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (3 traces / 3 unique traces) (12 events / 12 unique events) (3 events / 3 unique events in hot method)
+Classifier (WordNet.WordNet.literalList:389): CUT,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT
+
+#41
+Inspecting hot method DataStructure.CounterHashMap.<clinit>:0...
+Checking for isolation...
+3,3,0,3
+Total 3 (1 unique) events are in hot method
+Total 3 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 3 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 18 (6 unique) events are in non-isolated traces (3 / 1 unique are in hot method)
+Specs that have non-isolated traces:
+	Serializable_NoArgConstructor (3 traces / 1 unique traces) (18 events / 6 unique events) (3 events / 1 unique events in hot method)
+Classifier (DataStructure.CounterHashMap.<clinit>:0): LIB,RAW_NOT_ISOLATED_ONE_UNIQUE
+
+#42
+Inspecting hot method WordNet.WordNetTest.testSameLiteralSameSynSetCheck:392...
+Checking for isolation...
+3,2,2,0
+Total 3 (3 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (2 events / 2 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (1 events / 1 unique events)
+Classifier (WordNet.WordNetTest.testSameLiteralSameSynSetCheck:392): CUT,NOT_REDUNDANT_TRACES
+

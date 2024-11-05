@@ -1,0 +1,78 @@
+Reading traces...
+Reading specs frequency...
+Reading locations...
+Counting events...
+Total 295021215 events and 56100220 traces
+Inspecting top 200 IMM
+Finding hot methods...
+Number of events, method name
+294900000,moe.cnkirito.consistenthash.ConsistentHashLoadBalancer.buildConsistentHashRing:38
+61110,moe.cnkirito.consistenthash.LoadBalanceTest.testDistribution:21
+60104,moe.cnkirito.consistenthash.LoadBalanceTest.testNodeAddAndRemove:49
+1,com.google.common.util.concurrent.AtomicLongMap.<clinit>:0
+^^^ Last method that contains more than one event ^^^
+
+#1
+Inspecting hot method moe.cnkirito.consistenthash.ConsistentHashLoadBalancer.buildConsistentHashRing:38...
+Checking for isolation...
+294900000,56100004,56100003,1
+Total 294900000 (84010993 unique) events are in hot method
+Total 56100004 (13 unique) traces are in hot method
+Total 56100003 (12 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 294890000 (84000993 unique) events are in isolated traces
+Total 10001 (10001 unique) events are in non-isolated traces (10000 / 10000 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (28000000 traces / 1 unique traces) (84000000 events / 3 unique events)
+	StringBuilder_ThreadSafe (28000000 traces / 1 unique traces) (112000000 events / 4 unique events)
+	Iterator_HasNext (30000 traces / 2 unique traces) (5630000 events / 362 unique events)
+	Iterator_RemoveOnce (30000 traces / 2 unique traces) (2800000 events / 180 unique events)
+	Collection_UnsafeIterator (30000 traces / 2 unique traces) (5660000 events / 364 unique events)
+	ListIterator_RemoveOnce (10000 traces / 1 unique traces) (800000 events / 80 unique events)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (28000000 events / 28000000 unique events)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (28000000 events / 28000000 unique events)
+	TreeMap_Comparable (1 traces / 1 unique traces) (28000000 events / 28000000 unique events)
+Specs that have non-isolated traces:
+	List_UnsynchronizedSubList (1 traces / 1 unique traces) (10001 events / 10001 unique events) (10000 events / 10000 unique events in hot method)
+Classifier (moe.cnkirito.consistenthash.ConsistentHashLoadBalancer.buildConsistentHashRing:38): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_SINGLE_TRACE,RAW_ISOLATED_SINGLE_TRACE
+
+#2
+Inspecting hot method moe.cnkirito.consistenthash.LoadBalanceTest.testDistribution:21...
+Checking for isolation...
+61110,210,210,0
+Total 61110 (60615 unique) events are in hot method
+Total 210 (12 unique) traces are in hot method
+Total 210 (12 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 61110 (60615 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (100 traces / 1 unique traces) (200 events / 2 unique events)
+	StringBuilder_ThreadSafe (100 traces / 1 unique traces) (300 events / 3 unique events)
+	Collections_SortBeforeBinarySearch (2 traces / 2 unique traces) (10100 events / 10100 unique events)
+	Iterator_HasNext (2 traces / 2 unique traces) (20202 events / 20202 unique events)
+	Iterator_RemoveOnce (2 traces / 2 unique traces) (10100 events / 10100 unique events)
+	Collection_UnsafeIterator (2 traces / 2 unique traces) (20204 events / 20204 unique events)
+	Map_UnsafeIterator (1 traces / 1 unique traces) (2 events / 2 unique events)
+	Map_CollectionViewAdd (1 traces / 1 unique traces) (2 events / 2 unique events)
+Classifier (moe.cnkirito.consistenthash.LoadBalanceTest.testDistribution:21): CUT,ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT,ISOLATED_ONE_UNIQUE,ISOLATED_SINGLE_TRACE
+
+#3
+Inspecting hot method moe.cnkirito.consistenthash.LoadBalanceTest.testNodeAddAndRemove:49...
+Checking for isolation...
+60104,6,5,1
+Total 60104 (60104 unique) events are in hot method
+Total 6 (6 unique) traces are in hot method
+Total 5 (5 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 60103 (60103 unique) events are in isolated traces
+Total 10001 (10001 unique) events are in non-isolated traces (1 / 1 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (2 traces / 2 unique traces) (10100 events / 10100 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (20002 events / 20002 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (20001 events / 20001 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (10000 events / 10000 unique events)
+Specs that have non-isolated traces:
+	List_UnsynchronizedSubList (1 traces / 1 unique traces) (10001 events / 10001 unique events) (1 events / 1 unique events in hot method)
+Classifier (moe.cnkirito.consistenthash.LoadBalanceTest.testNodeAddAndRemove:49): LIB,NOT_REDUNDANT_TRACES
+

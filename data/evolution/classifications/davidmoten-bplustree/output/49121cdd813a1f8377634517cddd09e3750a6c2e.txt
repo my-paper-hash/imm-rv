@@ -1,0 +1,929 @@
+Reading traces...
+Reading specs frequency...
+Reading locations...
+Counting events...
+Total 187518928 events and 63523451 traces
+Inspecting top 200 IMM
+Finding hot methods...
+Number of events, method name
+70070000,com.github.davidmoten.bplustree.BPlusTreeTest.testAddManyShuffledAndFind:97
+69930000,com.github.davidmoten.bplustree.BPlusTreeTest.testAddManyAndFind:81
+28005022,com.github.davidmoten.bplustree.internal.memory.LeafMemory.insert:61
+6266270,com.github.davidmoten.bplustree.internal.memory.LeafMemory.<init>:20
+6265200,com.github.davidmoten.bplustree.internal.memory.LeafMemory.move:43
+2689132,com.github.davidmoten.bplustree.internal.memory.NonLeafMemory.insert:67
+2209200,com.github.davidmoten.bplustree.internal.memory.NonLeafMemory.move:58
+1105286,com.github.davidmoten.bplustree.internal.memory.NonLeafMemory.<init>:20
+512000,com.github.davidmoten.bplustree.internal.file.FactoryFile.<init>:27
+137495,com.github.davidmoten.bplustree.internal.LargeMappedByteBuffer.close:336
+132325,com.github.davidmoten.bplustree.internal.LargeMappedByteBuffer.createSegment:94
+52930,com.github.davidmoten.bplustree.internal.LargeMappedByteBuffer.map:102
+26880,com.github.davidmoten.bplustree.BPlusTreeTest.lambda$testTreeOnAllPermutationsOfNonRepeatedInput$2:448
+26465,com.github.davidmoten.bplustree.internal.LargeMappedByteBuffer.putSegment:90
+26395,com.github.davidmoten.bplustree.internal.LargeMappedByteBuffer$Segment.close:355
+17318,org.davidmoten.kool.StreamIterator.nextNullChecked:15
+11574,org.davidmoten.kool.internal.util.StreamImpl$1.next:29
+8448,com.github.davidmoten.bplustree.internal.LargeMappedByteBuffer.commit:325
+6763,org.davidmoten.kool.internal.util.StreamImpl$1.hasNext:24
+5803,org.davidmoten.kool.internal.operators.stream.Collect.get:26
+4835,org.davidmoten.kool.Stream.lambda$toList$21:609
+3015,com.github.davidmoten.bplustree.Testing.newDirectory:9
+1904,org.davidmoten.kool.Stream.lambda$permutations$33:988
+968,org.davidmoten.kool.internal.operators.stream.DoOnNext$1.hasNext:26
+968,org.davidmoten.kool.internal.operators.stream.Count.get:17
+960,org.davidmoten.kool.internal.operators.stream.Map$1.hasNext:27
+960,org.davidmoten.kool.internal.operators.stream.PrependOne$1.hasNext:25
+244,com.github.davidmoten.bplustree.BPlusTree.indent:692
+85,com.github.davidmoten.bplustree.internal.Node.keys:20
+80,com.github.davidmoten.bplustree.BPlusTree.print:658
+80,com.github.davidmoten.bplustree.BPlusTree.print:676
+40,org.davidmoten.kool.Stream.permutations:982
+40,com.github.davidmoten.bplustree.BPlusTreeTest.testTreeOnAllPermutationsOfNonRepeatedInput:440
+34,com.github.davidmoten.bplustree.NodeWrapper.children:26
+27,com.github.davidmoten.bplustree.internal.file.LeafFile.toString:83
+23,com.github.davidmoten.bplustree.internal.file.NonLeafFile.toString:81
+17,com.github.davidmoten.bplustree.internal.memory.LeafMemory.toString:90
+16,com.github.davidmoten.bplustree.internal.LargeMappedByteBuffer.checkFile:123
+16,com.github.davidmoten.bplustree.internal.memory.NonLeafMemory.toString:86
+14,com.github.davidmoten.bplustree.BPlusTreeFileTest.testInsertMany:102
+14,com.github.davidmoten.bplustree.BPlusTreeTest.testNextWithFind2:278
+14,com.github.davidmoten.bplustree.BPlusTreeTest.testNextWithFindTwoAtStart:248
+14,com.github.davidmoten.bplustree.BPlusTreeTest.testNextWithFindTwoOverlappingEnd:263
+10,com.github.davidmoten.bplustree.BPlusTreeTest.testFindEntries:501
+8,com.github.davidmoten.bplustree.BPlusTreeTest.testNextWithFindOneAtStart:235
+8,org.davidmoten.kool.internal.util.Permutations$PermutationsSwapIterator.<init>:38
+7,com.github.davidmoten.bplustree.BPlusTreeFileTest.testRegexSpeed:129
+6,com.github.davidmoten.bplustree.BPlusTreeTest.testFindOneKey:480
+6,com.github.davidmoten.bplustree.BPlusTreeTest.testFindEntriesExclusive:517
+3,com.github.davidmoten.bplustree.BPlusTreeFileTest.testFindAllNextWhenNone:183
+2,com.github.davidmoten.bplustree.BPlusTreeTest.testFindOneKeyNotFound:491
+2,com.github.davidmoten.bplustree.BPlusTree.clear:578
+1,com.github.davidmoten.bplustree.BPlusTree$2$1.next:619
+1,com.github.davidmoten.bplustree.LargeByteBuffer.getVarlong:149
+^^^ Last method that contains more than one event ^^^
+Starting org.davidmoten.kool.internal.operators.stream.Count.get:17
+Finish org.davidmoten.kool.internal.operators.stream.Count.get:17
+Starting com.github.davidmoten.bplustree.internal.memory.NonLeafMemory.<init>:20
+Finish com.github.davidmoten.bplustree.internal.memory.NonLeafMemory.<init>:20
+Starting com.github.davidmoten.bplustree.internal.LargeMappedByteBuffer.map:102
+Finish com.github.davidmoten.bplustree.internal.LargeMappedByteBuffer.map:102
+Starting com.github.davidmoten.bplustree.internal.LargeMappedByteBuffer.commit:325
+Finish com.github.davidmoten.bplustree.internal.LargeMappedByteBuffer.commit:325
+Starting com.github.davidmoten.bplustree.BPlusTreeTest.testFindOneKey:480
+Finish com.github.davidmoten.bplustree.BPlusTreeTest.testFindOneKey:480
+Starting com.github.davidmoten.bplustree.Testing.newDirectory:9
+Finish com.github.davidmoten.bplustree.Testing.newDirectory:9
+Starting com.github.davidmoten.bplustree.internal.file.FactoryFile.<init>:27
+Finish com.github.davidmoten.bplustree.internal.file.FactoryFile.<init>:27
+Starting com.github.davidmoten.bplustree.BPlusTreeTest.testAddManyShuffledAndFind:97
+Finish com.github.davidmoten.bplustree.BPlusTreeTest.testAddManyShuffledAndFind:97
+Starting com.github.davidmoten.bplustree.BPlusTreeFileTest.testFindAllNextWhenNone:183
+Finish com.github.davidmoten.bplustree.BPlusTreeFileTest.testFindAllNextWhenNone:183
+Starting com.github.davidmoten.bplustree.BPlusTree.indent:692
+Finish com.github.davidmoten.bplustree.BPlusTree.indent:692
+Starting com.github.davidmoten.bplustree.BPlusTreeFileTest.testRegexSpeed:129
+Finish com.github.davidmoten.bplustree.BPlusTreeFileTest.testRegexSpeed:129
+Starting com.github.davidmoten.bplustree.BPlusTreeTest.testFindEntriesExclusive:517
+Finish com.github.davidmoten.bplustree.BPlusTreeTest.testFindEntriesExclusive:517
+Starting com.github.davidmoten.bplustree.BPlusTreeFileTest.testInsertMany:102
+Finish com.github.davidmoten.bplustree.BPlusTreeFileTest.testInsertMany:102
+Starting com.github.davidmoten.bplustree.BPlusTreeTest.testTreeOnAllPermutationsOfNonRepeatedInput:440
+Finish com.github.davidmoten.bplustree.BPlusTreeTest.testTreeOnAllPermutationsOfNonRepeatedInput:440
+Starting com.github.davidmoten.bplustree.internal.LargeMappedByteBuffer$Segment.close:355
+Finish com.github.davidmoten.bplustree.internal.LargeMappedByteBuffer$Segment.close:355
+Starting com.github.davidmoten.bplustree.BPlusTreeTest.testFindEntries:501
+Finish com.github.davidmoten.bplustree.BPlusTreeTest.testFindEntries:501
+Starting com.github.davidmoten.bplustree.internal.LargeMappedByteBuffer.checkFile:123
+Finish com.github.davidmoten.bplustree.internal.LargeMappedByteBuffer.checkFile:123
+Starting org.davidmoten.kool.internal.util.Permutations$PermutationsSwapIterator.<init>:38
+Finish org.davidmoten.kool.internal.util.Permutations$PermutationsSwapIterator.<init>:38
+Starting com.github.davidmoten.bplustree.internal.file.LeafFile.toString:83
+Finish com.github.davidmoten.bplustree.internal.file.LeafFile.toString:83
+Starting com.github.davidmoten.bplustree.BPlusTreeTest.testNextWithFindOneAtStart:235
+Finish com.github.davidmoten.bplustree.BPlusTreeTest.testNextWithFindOneAtStart:235
+Starting com.github.davidmoten.bplustree.internal.LargeMappedByteBuffer.putSegment:90
+Finish com.github.davidmoten.bplustree.internal.LargeMappedByteBuffer.putSegment:90
+Starting com.github.davidmoten.bplustree.internal.memory.LeafMemory.<init>:20
+Finish com.github.davidmoten.bplustree.internal.memory.LeafMemory.<init>:20
+Starting com.github.davidmoten.bplustree.BPlusTree.print:676
+Finish com.github.davidmoten.bplustree.BPlusTree.print:676
+Starting org.davidmoten.kool.internal.util.StreamImpl$1.next:29
+Finish org.davidmoten.kool.internal.util.StreamImpl$1.next:29
+Starting org.davidmoten.kool.internal.operators.stream.Map$1.hasNext:27
+Finish org.davidmoten.kool.internal.operators.stream.Map$1.hasNext:27
+Starting com.github.davidmoten.bplustree.NodeWrapper.children:26
+Finish com.github.davidmoten.bplustree.NodeWrapper.children:26
+Starting com.github.davidmoten.bplustree.BPlusTreeTest.testNextWithFindTwoOverlappingEnd:263
+Finish com.github.davidmoten.bplustree.BPlusTreeTest.testNextWithFindTwoOverlappingEnd:263
+Starting com.github.davidmoten.bplustree.internal.file.NonLeafFile.toString:81
+Finish com.github.davidmoten.bplustree.internal.file.NonLeafFile.toString:81
+Starting org.davidmoten.kool.StreamIterator.nextNullChecked:15
+Finish org.davidmoten.kool.StreamIterator.nextNullChecked:15
+Starting com.github.davidmoten.bplustree.BPlusTreeTest.lambda$testTreeOnAllPermutationsOfNonRepeatedInput$2:448
+Finish com.github.davidmoten.bplustree.BPlusTreeTest.lambda$testTreeOnAllPermutationsOfNonRepeatedInput$2:448
+Starting com.github.davidmoten.bplustree.BPlusTreeTest.testNextWithFindTwoAtStart:248
+Finish com.github.davidmoten.bplustree.BPlusTreeTest.testNextWithFindTwoAtStart:248
+Starting com.github.davidmoten.bplustree.BPlusTreeTest.testNextWithFind2:278
+Finish com.github.davidmoten.bplustree.BPlusTreeTest.testNextWithFind2:278
+Starting org.davidmoten.kool.internal.operators.stream.PrependOne$1.hasNext:25
+Finish org.davidmoten.kool.internal.operators.stream.PrependOne$1.hasNext:25
+Starting org.davidmoten.kool.Stream.permutations:982
+Finish org.davidmoten.kool.Stream.permutations:982
+Starting com.github.davidmoten.bplustree.internal.memory.LeafMemory.toString:90
+Finish com.github.davidmoten.bplustree.internal.memory.LeafMemory.toString:90
+Starting com.github.davidmoten.bplustree.internal.LargeMappedByteBuffer.createSegment:94
+Finish com.github.davidmoten.bplustree.internal.LargeMappedByteBuffer.createSegment:94
+Starting com.github.davidmoten.bplustree.BPlusTreeTest.testAddManyAndFind:81
+Finish com.github.davidmoten.bplustree.BPlusTreeTest.testAddManyAndFind:81
+Starting com.github.davidmoten.bplustree.BPlusTree.print:658
+Finish com.github.davidmoten.bplustree.BPlusTree.print:658
+Starting org.davidmoten.kool.internal.operators.stream.DoOnNext$1.hasNext:26
+Finish org.davidmoten.kool.internal.operators.stream.DoOnNext$1.hasNext:26
+Starting org.davidmoten.kool.Stream.lambda$permutations$33:988
+Finish org.davidmoten.kool.Stream.lambda$permutations$33:988
+Starting org.davidmoten.kool.internal.util.StreamImpl$1.hasNext:24
+Finish org.davidmoten.kool.internal.util.StreamImpl$1.hasNext:24
+Starting org.davidmoten.kool.Stream.lambda$toList$21:609
+Finish org.davidmoten.kool.Stream.lambda$toList$21:609
+Starting com.github.davidmoten.bplustree.internal.memory.NonLeafMemory.toString:86
+Finish com.github.davidmoten.bplustree.internal.memory.NonLeafMemory.toString:86
+Starting com.github.davidmoten.bplustree.internal.LargeMappedByteBuffer.close:336
+Finish com.github.davidmoten.bplustree.internal.LargeMappedByteBuffer.close:336
+Starting org.davidmoten.kool.internal.operators.stream.Collect.get:26
+Finish org.davidmoten.kool.internal.operators.stream.Collect.get:26
+Starting com.github.davidmoten.bplustree.BPlusTree.clear:578
+Finish com.github.davidmoten.bplustree.BPlusTree.clear:578
+Starting com.github.davidmoten.bplustree.internal.Node.keys:20
+Finish com.github.davidmoten.bplustree.internal.Node.keys:20
+Starting com.github.davidmoten.bplustree.BPlusTreeTest.testFindOneKeyNotFound:491
+Finish com.github.davidmoten.bplustree.BPlusTreeTest.testFindOneKeyNotFound:491
+
+#1
+Inspecting hot method com.github.davidmoten.bplustree.BPlusTreeTest.testAddManyShuffledAndFind:97...
+Checking for isolation...
+70070000,28028000,28028000,0
+Total 70070000 (10 unique) events are in hot method
+Total 28028000 (4 unique) traces are in hot method
+Total 28028000 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 70070000 (10 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (14014000 traces / 2 unique traces) (42042000 events / 6 unique events)
+	Appendable_ThreadSafe (14014000 traces / 2 unique traces) (28028000 events / 4 unique events)
+Classifier (com.github.davidmoten.bplustree.BPlusTreeTest.testAddManyShuffledAndFind:97): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#2
+Inspecting hot method com.github.davidmoten.bplustree.BPlusTreeTest.testAddManyAndFind:81...
+Checking for isolation...
+69930000,27972000,27972000,0
+Total 69930000 (10 unique) events are in hot method
+Total 27972000 (4 unique) traces are in hot method
+Total 27972000 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 69930000 (10 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (13986000 traces / 2 unique traces) (27972000 events / 4 unique events)
+	StringBuilder_ThreadSafe (13986000 traces / 2 unique traces) (41958000 events / 6 unique events)
+Classifier (com.github.davidmoten.bplustree.BPlusTreeTest.testAddManyAndFind:81): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#3
+Inspecting hot method com.github.davidmoten.bplustree.internal.memory.LeafMemory.insert:61...
+Checking for isolation...
+28005022,1,0,1
+Total 28005022 (28005022 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 39168554 (39168554 unique) events are in non-isolated traces (28005022 / 28005022 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (39168554 events / 39168554 unique events) (28005022 events / 28005022 unique events in hot method)
+Classifier (com.github.davidmoten.bplustree.internal.memory.LeafMemory.insert:61): CUT,NOT_REDUNDANT_TRACES
+
+#4
+Inspecting hot method com.github.davidmoten.bplustree.internal.memory.LeafMemory.<init>:20...
+Checking for isolation...
+6266270,6266270,6266270,0
+Total 6266270 (2 unique) events are in hot method
+Total 6266270 (2 unique) traces are in hot method
+Total 6266270 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 6266270 (2 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Arrays_SortBeforeBinarySearch (6266270 traces / 2 unique traces) (6266270 events / 2 unique events)
+Classifier (com.github.davidmoten.bplustree.internal.memory.LeafMemory.<init>:20): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#5
+Inspecting hot method com.github.davidmoten.bplustree.internal.memory.LeafMemory.move:43...
+Checking for isolation...
+6265200,1,0,1
+Total 6265200 (6265200 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 39168554 (39168554 unique) events are in non-isolated traces (6265200 / 6265200 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (39168554 events / 39168554 unique events) (6265200 events / 6265200 unique events in hot method)
+Classifier (com.github.davidmoten.bplustree.internal.memory.LeafMemory.move:43): CUT,NOT_REDUNDANT_TRACES
+
+#6
+Inspecting hot method com.github.davidmoten.bplustree.internal.memory.NonLeafMemory.insert:67...
+Checking for isolation...
+2689132,1,0,1
+Total 2689132 (2689132 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 39168554 (39168554 unique) events are in non-isolated traces (2689132 / 2689132 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (39168554 events / 39168554 unique events) (2689132 events / 2689132 unique events in hot method)
+Classifier (com.github.davidmoten.bplustree.internal.memory.NonLeafMemory.insert:67): CUT,NOT_REDUNDANT_TRACES
+
+#7
+Inspecting hot method com.github.davidmoten.bplustree.internal.memory.NonLeafMemory.move:58...
+Checking for isolation...
+2209200,1,0,1
+Total 2209200 (2209200 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 39168554 (39168554 unique) events are in non-isolated traces (2209200 / 2209200 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (39168554 events / 39168554 unique events) (2209200 events / 2209200 unique events in hot method)
+Classifier (com.github.davidmoten.bplustree.internal.memory.NonLeafMemory.move:58): CUT,NOT_REDUNDANT_TRACES
+
+#8
+Inspecting hot method com.github.davidmoten.bplustree.internal.memory.NonLeafMemory.<init>:20...
+Checking for isolation...
+1105286,1105286,1105286,0
+Total 1105286 (1 unique) events are in hot method
+Total 1105286 (1 unique) traces are in hot method
+Total 1105286 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1105286 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Arrays_SortBeforeBinarySearch (1105286 traces / 1 unique traces) (1105286 events / 1 unique events)
+Classifier (com.github.davidmoten.bplustree.internal.memory.NonLeafMemory.<init>:20): LIB,ISOLATED_ONE_UNIQUE
+
+#9
+Inspecting hot method com.github.davidmoten.bplustree.internal.file.FactoryFile.<init>:27...
+Checking for isolation...
+512000,512,512,0
+Total 512000 (1000 unique) events are in hot method
+Total 512 (1 unique) traces are in hot method
+Total 512 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 512000 (1000 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (512 traces / 1 unique traces) (512000 events / 1000 unique events)
+Classifier (com.github.davidmoten.bplustree.internal.file.FactoryFile.<init>:27): LIB,ISOLATED_ONE_UNIQUE
+
+#10
+Inspecting hot method com.github.davidmoten.bplustree.internal.LargeMappedByteBuffer.close:336...
+Checking for isolation...
+137495,4415,3312,1103
+Total 137495 (125730 unique) events are in hot method
+Total 4415 (47 unique) traces are in hot method
+Total 3312 (36 unique) isolated traces are in hot method
+Total 1103 (11 unique) non-isolated traces that have events in hot method
+Total 136392 (125719 unique) events are in isolated traces
+Total 27498 (25145 unique) events are in non-isolated traces (1103 / 11 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (1104 traces / 12 unique traces) (53894 events / 50280 unique events)
+	Collection_UnsafeIterator (1104 traces / 12 unique traces) (56102 events / 50304 unique events)
+	Iterator_RemoveOnce (1103 traces / 11 unique traces) (26395 events / 25134 unique events)
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (1 events / 1 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (1103 traces / 11 unique traces) (27498 events / 25145 unique events) (1103 events / 11 unique events in hot method)
+Classifier (com.github.davidmoten.bplustree.internal.LargeMappedByteBuffer.close:336): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_SINGLE_TRACE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#11
+Inspecting hot method com.github.davidmoten.bplustree.internal.LargeMappedByteBuffer.createSegment:94...
+Checking for isolation...
+132325,52930,52930,0
+Total 132325 (5 unique) events are in hot method
+Total 52930 (2 unique) traces are in hot method
+Total 52930 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 132325 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (26465 traces / 1 unique traces) (52930 events / 2 unique events)
+	StringBuilder_ThreadSafe (26465 traces / 1 unique traces) (79395 events / 3 unique events)
+Classifier (com.github.davidmoten.bplustree.internal.LargeMappedByteBuffer.createSegment:94): CUT,ISOLATED_ONE_UNIQUE
+
+#12
+Inspecting hot method com.github.davidmoten.bplustree.internal.LargeMappedByteBuffer.map:102...
+Checking for isolation...
+52930,52930,52930,0
+Total 52930 (2 unique) events are in hot method
+Total 52930 (2 unique) traces are in hot method
+Total 52930 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 52930 (2 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	RandomAccessFile_ManipulateAfterClose (26465 traces / 1 unique traces) (26465 events / 1 unique events)
+	Closeable_MultipleClose (26465 traces / 1 unique traces) (26465 events / 1 unique events)
+Classifier (com.github.davidmoten.bplustree.internal.LargeMappedByteBuffer.map:102): LIB,ISOLATED_ONE_UNIQUE
+
+#13
+Inspecting hot method com.github.davidmoten.bplustree.BPlusTreeTest.lambda$testTreeOnAllPermutationsOfNonRepeatedInput$2:448...
+Checking for isolation...
+26880,2880,2880,0
+Total 26880 (28 unique) events are in hot method
+Total 2880 (3 unique) traces are in hot method
+Total 2880 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 26880 (28 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (960 traces / 1 unique traces) (10560 events / 11 unique events)
+	Collection_UnsafeIterator (960 traces / 1 unique traces) (11520 events / 12 unique events)
+	Iterator_RemoveOnce (960 traces / 1 unique traces) (4800 events / 5 unique events)
+Classifier (com.github.davidmoten.bplustree.BPlusTreeTest.lambda$testTreeOnAllPermutationsOfNonRepeatedInput$2:448): LIB,ISOLATED_ONE_UNIQUE
+
+#14
+Inspecting hot method com.github.davidmoten.bplustree.internal.LargeMappedByteBuffer.putSegment:90...
+Checking for isolation...
+26465,1118,15,1103
+Total 26465 (25190 unique) events are in hot method
+Total 1118 (15 unique) traces are in hot method
+Total 15 (4 unique) isolated traces are in hot method
+Total 1103 (11 unique) non-isolated traces that have events in hot method
+Total 70 (56 unique) events are in isolated traces
+Total 27498 (25145 unique) events are in non-isolated traces (26395 / 25134 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (15 traces / 4 unique traces) (70 events / 56 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (1103 traces / 11 unique traces) (27498 events / 25145 unique events) (26395 events / 25134 unique events in hot method)
+Classifier (com.github.davidmoten.bplustree.internal.LargeMappedByteBuffer.putSegment:90): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#15
+Inspecting hot method com.github.davidmoten.bplustree.internal.LargeMappedByteBuffer$Segment.close:355...
+Checking for isolation...
+26395,26395,26395,0
+Total 26395 (1 unique) events are in hot method
+Total 26395 (1 unique) traces are in hot method
+Total 26395 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 26395 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Closeable_MultipleClose (26395 traces / 1 unique traces) (26395 events / 1 unique events)
+Classifier (com.github.davidmoten.bplustree.internal.LargeMappedByteBuffer$Segment.close:355): LIB,ISOLATED_ONE_UNIQUE
+
+#16
+Inspecting hot method org.davidmoten.kool.StreamIterator.nextNullChecked:15...
+Checking for isolation...
+17318,2000,1000,1000
+Total 17318 (741 unique) events are in hot method
+Total 2000 (12 unique) traces are in hot method
+Total 1000 (5 unique) isolated traces are in hot method
+Total 1000 (7 unique) non-isolated traces that have events in hot method
+Total 8659 (251 unique) events are in isolated traces
+Total 18318 (987 unique) events are in non-isolated traces (8659 / 490 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (1000 traces / 5 unique traces) (8659 events / 251 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (1000 traces / 7 unique traces) (18318 events / 987 unique events) (8659 events / 490 unique events in hot method)
+Classifier (org.davidmoten.kool.StreamIterator.nextNullChecked:15): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#17
+Inspecting hot method org.davidmoten.kool.internal.util.StreamImpl$1.next:29...
+Checking for isolation...
+11574,1952,976,976
+Total 11574 (262 unique) events are in hot method
+Total 1952 (8 unique) traces are in hot method
+Total 976 (4 unique) isolated traces are in hot method
+Total 976 (4 unique) non-isolated traces that have events in hot method
+Total 5787 (131 unique) events are in isolated traces
+Total 12550 (266 unique) events are in non-isolated traces (5787 / 131 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (976 traces / 4 unique traces) (5787 events / 131 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (976 traces / 4 unique traces) (12550 events / 266 unique events) (5787 events / 131 unique events in hot method)
+Classifier (org.davidmoten.kool.internal.util.StreamImpl$1.next:29): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#18
+Inspecting hot method com.github.davidmoten.bplustree.internal.LargeMappedByteBuffer.commit:325...
+Checking for isolation...
+8448,4418,4418,0
+Total 8448 (189 unique) events are in hot method
+Total 4418 (27 unique) traces are in hot method
+Total 4418 (27 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 8448 (189 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Map_UnsafeIterator (1726 traces / 21 unique traces) (4584 events / 170 unique events)
+	Collection_UnsafeIterator (966 traces / 1 unique traces) (1932 events / 2 unique events)
+	Iterator_HasNext (966 traces / 1 unique traces) (966 events / 1 unique events)
+	Map_CollectionViewAdd (760 traces / 4 unique traces) (966 events / 16 unique events)
+Classifier (com.github.davidmoten.bplustree.internal.LargeMappedByteBuffer.commit:325): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE
+
+#19
+Inspecting hot method org.davidmoten.kool.internal.util.StreamImpl$1.hasNext:24...
+Checking for isolation...
+6763,976,0,976
+Total 6763 (135 unique) events are in hot method
+Total 976 (4 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 976 (4 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 12550 (266 unique) events are in non-isolated traces (6763 / 135 unique are in hot method)
+Specs that have non-isolated traces:
+	Iterator_HasNext (976 traces / 4 unique traces) (12550 events / 266 unique events) (6763 events / 135 unique events in hot method)
+Classifier (org.davidmoten.kool.internal.util.StreamImpl$1.hasNext:24): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#20
+Inspecting hot method org.davidmoten.kool.internal.operators.stream.Collect.get:26...
+Checking for isolation...
+5803,968,0,968
+Total 5803 (15 unique) events are in hot method
+Total 968 (3 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 968 (3 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 10638 (27 unique) events are in non-isolated traces (5803 / 15 unique are in hot method)
+Specs that have non-isolated traces:
+	Iterator_HasNext (968 traces / 3 unique traces) (10638 events / 27 unique events) (5803 events / 15 unique events in hot method)
+Classifier (org.davidmoten.kool.internal.operators.stream.Collect.get:26): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#21
+Inspecting hot method org.davidmoten.kool.Stream.lambda$toList$21:609...
+Checking for isolation...
+4835,968,968,0
+Total 4835 (12 unique) events are in hot method
+Total 968 (3 unique) traces are in hot method
+Total 968 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 4835 (12 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (968 traces / 3 unique traces) (4835 events / 12 unique events)
+Classifier (org.davidmoten.kool.Stream.lambda$toList$21:609): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#22
+Inspecting hot method com.github.davidmoten.bplustree.Testing.newDirectory:9...
+Checking for isolation...
+3015,1206,1206,0
+Total 3015 (5 unique) events are in hot method
+Total 1206 (2 unique) traces are in hot method
+Total 1206 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3015 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (603 traces / 1 unique traces) (1206 events / 2 unique events)
+	StringBuilder_ThreadSafe (603 traces / 1 unique traces) (1809 events / 3 unique events)
+Classifier (com.github.davidmoten.bplustree.Testing.newDirectory:9): LIB,ISOLATED_ONE_UNIQUE
+
+#23
+Inspecting hot method org.davidmoten.kool.Stream.lambda$permutations$33:988...
+Checking for isolation...
+1904,952,952,0
+Total 1904 (2 unique) events are in hot method
+Total 952 (1 unique) traces are in hot method
+Total 952 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1904 (2 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (952 traces / 1 unique traces) (1904 events / 2 unique events)
+Classifier (org.davidmoten.kool.Stream.lambda$permutations$33:988): LIB,ISOLATED_ONE_UNIQUE
+
+#24
+Inspecting hot method org.davidmoten.kool.internal.operators.stream.DoOnNext$1.hasNext:26...
+Checking for isolation...
+968,8,0,8
+Total 968 (121 unique) events are in hot method
+Total 8 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 8 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 1928 (241 unique) events are in non-isolated traces (968 / 121 unique are in hot method)
+Specs that have non-isolated traces:
+	Iterator_HasNext (8 traces / 1 unique traces) (1928 events / 241 unique events) (968 events / 121 unique events in hot method)
+Classifier (org.davidmoten.kool.internal.operators.stream.DoOnNext$1.hasNext:26): LIB,NOT_ISOLATED_ONE_UNIQUE
+
+#25
+Inspecting hot method org.davidmoten.kool.internal.operators.stream.Count.get:17...
+Checking for isolation...
+968,8,0,8
+Total 968 (121 unique) events are in hot method
+Total 8 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 8 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 1928 (241 unique) events are in non-isolated traces (968 / 121 unique are in hot method)
+Specs that have non-isolated traces:
+	Iterator_HasNext (8 traces / 1 unique traces) (1928 events / 241 unique events) (968 events / 121 unique events in hot method)
+Classifier (org.davidmoten.kool.internal.operators.stream.Count.get:17): LIB,NOT_ISOLATED_ONE_UNIQUE
+
+#26
+Inspecting hot method org.davidmoten.kool.internal.operators.stream.Map$1.hasNext:27...
+Checking for isolation...
+960,8,0,8
+Total 960 (120 unique) events are in hot method
+Total 8 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 8 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 1912 (239 unique) events are in non-isolated traces (960 / 120 unique are in hot method)
+Specs that have non-isolated traces:
+	Iterator_HasNext (8 traces / 1 unique traces) (1912 events / 239 unique events) (960 events / 120 unique events in hot method)
+Classifier (org.davidmoten.kool.internal.operators.stream.Map$1.hasNext:27): LIB,NOT_ISOLATED_ONE_UNIQUE
+
+#27
+Inspecting hot method org.davidmoten.kool.internal.operators.stream.PrependOne$1.hasNext:25...
+Checking for isolation...
+960,8,0,8
+Total 960 (120 unique) events are in hot method
+Total 8 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 8 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 1912 (239 unique) events are in non-isolated traces (960 / 120 unique are in hot method)
+Specs that have non-isolated traces:
+	Iterator_HasNext (8 traces / 1 unique traces) (1912 events / 239 unique events) (960 events / 120 unique events in hot method)
+Classifier (org.davidmoten.kool.internal.operators.stream.PrependOne$1.hasNext:25): LIB,NOT_ISOLATED_ONE_UNIQUE
+
+#28
+Inspecting hot method com.github.davidmoten.bplustree.BPlusTree.indent:692...
+Checking for isolation...
+244,92,92,0
+Total 244 (16 unique) events are in hot method
+Total 92 (7 unique) traces are in hot method
+Total 92 (7 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 244 (16 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (48 traces / 4 unique traces) (146 events / 10 unique events)
+	Appendable_ThreadSafe (44 traces / 3 unique traces) (98 events / 6 unique events)
+Classifier (com.github.davidmoten.bplustree.BPlusTree.indent:692): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#29
+Inspecting hot method com.github.davidmoten.bplustree.internal.Node.keys:20...
+Checking for isolation...
+85,66,66,0
+Total 85 (3 unique) events are in hot method
+Total 66 (2 unique) traces are in hot method
+Total 66 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 85 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (66 traces / 2 unique traces) (85 events / 3 unique events)
+Classifier (com.github.davidmoten.bplustree.internal.Node.keys:20): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#30
+Inspecting hot method com.github.davidmoten.bplustree.BPlusTree.print:658...
+Checking for isolation...
+80,32,32,0
+Total 80 (5 unique) events are in hot method
+Total 32 (2 unique) traces are in hot method
+Total 32 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 80 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (16 traces / 1 unique traces) (48 events / 3 unique events)
+	Appendable_ThreadSafe (16 traces / 1 unique traces) (32 events / 2 unique events)
+Classifier (com.github.davidmoten.bplustree.BPlusTree.print:658): CUT,ISOLATED_ONE_UNIQUE
+
+#31
+Inspecting hot method com.github.davidmoten.bplustree.BPlusTree.print:676...
+Checking for isolation...
+80,32,32,0
+Total 80 (5 unique) events are in hot method
+Total 32 (2 unique) traces are in hot method
+Total 32 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 80 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (16 traces / 1 unique traces) (48 events / 3 unique events)
+	Appendable_ThreadSafe (16 traces / 1 unique traces) (32 events / 2 unique events)
+Classifier (com.github.davidmoten.bplustree.BPlusTree.print:676): LIB,ISOLATED_ONE_UNIQUE
+
+#32
+Inspecting hot method org.davidmoten.kool.Stream.permutations:982...
+Checking for isolation...
+40,8,8,0
+Total 40 (5 unique) events are in hot method
+Total 8 (1 unique) traces are in hot method
+Total 8 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 40 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (8 traces / 1 unique traces) (40 events / 5 unique events)
+Classifier (org.davidmoten.kool.Stream.permutations:982): LIB,ISOLATED_ONE_UNIQUE
+
+#33
+Inspecting hot method com.github.davidmoten.bplustree.BPlusTreeTest.testTreeOnAllPermutationsOfNonRepeatedInput:440...
+Checking for isolation...
+40,8,8,0
+Total 40 (5 unique) events are in hot method
+Total 8 (1 unique) traces are in hot method
+Total 8 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 40 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (8 traces / 1 unique traces) (40 events / 5 unique events)
+Classifier (com.github.davidmoten.bplustree.BPlusTreeTest.testTreeOnAllPermutationsOfNonRepeatedInput:440): LIB,ISOLATED_ONE_UNIQUE
+
+#34
+Inspecting hot method com.github.davidmoten.bplustree.NodeWrapper.children:26...
+Checking for isolation...
+34,15,15,0
+Total 34 (5 unique) events are in hot method
+Total 15 (2 unique) traces are in hot method
+Total 15 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 34 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (15 traces / 2 unique traces) (34 events / 5 unique events)
+Classifier (com.github.davidmoten.bplustree.NodeWrapper.children:26): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#35
+Inspecting hot method com.github.davidmoten.bplustree.internal.file.LeafFile.toString:83...
+Checking for isolation...
+27,4,4,0
+Total 27 (27 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 4 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 27 (27 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (2 traces / 2 unique traces) (15 events / 15 unique events)
+	Appendable_ThreadSafe (2 traces / 2 unique traces) (12 events / 12 unique events)
+Classifier (com.github.davidmoten.bplustree.internal.file.LeafFile.toString:83): LIB,NOT_REDUNDANT_TRACES
+
+#36
+Inspecting hot method com.github.davidmoten.bplustree.internal.file.NonLeafFile.toString:81...
+Checking for isolation...
+23,4,4,0
+Total 23 (23 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 4 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 23 (23 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (2 traces / 2 unique traces) (13 events / 13 unique events)
+	Appendable_ThreadSafe (2 traces / 2 unique traces) (10 events / 10 unique events)
+Classifier (com.github.davidmoten.bplustree.internal.file.NonLeafFile.toString:81): LIB,NOT_REDUNDANT_TRACES
+
+#37
+Inspecting hot method com.github.davidmoten.bplustree.internal.memory.LeafMemory.toString:90...
+Checking for isolation...
+17,2,2,0
+Total 17 (17 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 17 (17 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (8 events / 8 unique events)
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (9 events / 9 unique events)
+Classifier (com.github.davidmoten.bplustree.internal.memory.LeafMemory.toString:90): LIB,NOT_REDUNDANT_TRACES
+
+#38
+Inspecting hot method com.github.davidmoten.bplustree.internal.LargeMappedByteBuffer.checkFile:123...
+Checking for isolation...
+16,4,4,0
+Total 16 (16 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 4 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 16 (16 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Throwable_InitCauseOnce (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (6 events / 6 unique events)
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (7 events / 7 unique events)
+	File_LengthOnDirectory (1 traces / 1 unique traces) (2 events / 2 unique events)
+Classifier (com.github.davidmoten.bplustree.internal.LargeMappedByteBuffer.checkFile:123): LIB,NOT_REDUNDANT_TRACES
+
+#39
+Inspecting hot method com.github.davidmoten.bplustree.internal.memory.NonLeafMemory.toString:86...
+Checking for isolation...
+16,4,4,0
+Total 16 (16 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 4 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 16 (16 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (2 traces / 2 unique traces) (7 events / 7 unique events)
+	StringBuilder_ThreadSafe (2 traces / 2 unique traces) (9 events / 9 unique events)
+Classifier (com.github.davidmoten.bplustree.internal.memory.NonLeafMemory.toString:86): CUT,NOT_REDUNDANT_TRACES
+
+#40
+Inspecting hot method com.github.davidmoten.bplustree.BPlusTreeFileTest.testInsertMany:102...
+Checking for isolation...
+14,4,4,0
+Total 14 (14 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 4 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 14 (14 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (2 traces / 2 unique traces) (6 events / 6 unique events)
+	StringBuilder_ThreadSafe (2 traces / 2 unique traces) (8 events / 8 unique events)
+Classifier (com.github.davidmoten.bplustree.BPlusTreeFileTest.testInsertMany:102): LIB,NOT_REDUNDANT_TRACES
+
+#41
+Inspecting hot method com.github.davidmoten.bplustree.BPlusTreeTest.testNextWithFind2:278...
+Checking for isolation...
+14,4,4,0
+Total 14 (7 unique) events are in hot method
+Total 4 (2 unique) traces are in hot method
+Total 4 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 14 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (2 traces / 1 unique traces) (10 events / 5 unique events)
+	Iterator_RemoveOnce (2 traces / 1 unique traces) (4 events / 2 unique events)
+Classifier (com.github.davidmoten.bplustree.BPlusTreeTest.testNextWithFind2:278): LIB,ISOLATED_ONE_UNIQUE
+
+#42
+Inspecting hot method com.github.davidmoten.bplustree.BPlusTreeTest.testNextWithFindTwoAtStart:248...
+Checking for isolation...
+14,4,4,0
+Total 14 (7 unique) events are in hot method
+Total 4 (2 unique) traces are in hot method
+Total 4 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 14 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (2 traces / 1 unique traces) (10 events / 5 unique events)
+	Iterator_RemoveOnce (2 traces / 1 unique traces) (4 events / 2 unique events)
+Classifier (com.github.davidmoten.bplustree.BPlusTreeTest.testNextWithFindTwoAtStart:248): LIB,ISOLATED_ONE_UNIQUE
+
+#43
+Inspecting hot method com.github.davidmoten.bplustree.BPlusTreeTest.testNextWithFindTwoOverlappingEnd:263...
+Checking for isolation...
+14,4,4,0
+Total 14 (7 unique) events are in hot method
+Total 4 (2 unique) traces are in hot method
+Total 4 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 14 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (2 traces / 1 unique traces) (10 events / 5 unique events)
+	Iterator_RemoveOnce (2 traces / 1 unique traces) (4 events / 2 unique events)
+Classifier (com.github.davidmoten.bplustree.BPlusTreeTest.testNextWithFindTwoOverlappingEnd:263): LIB,ISOLATED_ONE_UNIQUE
+
+#44
+Inspecting hot method com.github.davidmoten.bplustree.BPlusTreeTest.testFindEntries:501...
+Checking for isolation...
+10,4,4,0
+Total 10 (5 unique) events are in hot method
+Total 4 (2 unique) traces are in hot method
+Total 4 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 10 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (2 traces / 1 unique traces) (6 events / 3 unique events)
+	Iterator_RemoveOnce (2 traces / 1 unique traces) (4 events / 2 unique events)
+Classifier (com.github.davidmoten.bplustree.BPlusTreeTest.testFindEntries:501): LIB,ISOLATED_ONE_UNIQUE
+
+#45
+Inspecting hot method com.github.davidmoten.bplustree.BPlusTreeTest.testNextWithFindOneAtStart:235...
+Checking for isolation...
+8,4,4,0
+Total 8 (4 unique) events are in hot method
+Total 4 (2 unique) traces are in hot method
+Total 4 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 8 (4 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (2 traces / 1 unique traces) (2 events / 1 unique events)
+	Iterator_HasNext (2 traces / 1 unique traces) (6 events / 3 unique events)
+Classifier (com.github.davidmoten.bplustree.BPlusTreeTest.testNextWithFindOneAtStart:235): LIB,ISOLATED_ONE_UNIQUE
+
+#46
+Inspecting hot method org.davidmoten.kool.internal.util.Permutations$PermutationsSwapIterator.<init>:38...
+Checking for isolation...
+8,8,8,0
+Total 8 (1 unique) events are in hot method
+Total 8 (1 unique) traces are in hot method
+Total 8 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 8 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Arrays_SortBeforeBinarySearch (8 traces / 1 unique traces) (8 events / 1 unique events)
+Classifier (org.davidmoten.kool.internal.util.Permutations$PermutationsSwapIterator.<init>:38): LIB,ISOLATED_ONE_UNIQUE
+
+#47
+Inspecting hot method com.github.davidmoten.bplustree.BPlusTreeFileTest.testRegexSpeed:129...
+Checking for isolation...
+7,2,2,0
+Total 7 (7 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 7 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (4 events / 4 unique events)
+Classifier (com.github.davidmoten.bplustree.BPlusTreeFileTest.testRegexSpeed:129): LIB,NOT_REDUNDANT_TRACES
+
+#48
+Inspecting hot method com.github.davidmoten.bplustree.BPlusTreeTest.testFindOneKey:480...
+Checking for isolation...
+6,4,4,0
+Total 6 (3 unique) events are in hot method
+Total 4 (2 unique) traces are in hot method
+Total 4 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 6 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (2 traces / 1 unique traces) (4 events / 2 unique events)
+	Iterator_RemoveOnce (2 traces / 1 unique traces) (2 events / 1 unique events)
+Classifier (com.github.davidmoten.bplustree.BPlusTreeTest.testFindOneKey:480): LIB,ISOLATED_ONE_UNIQUE
+
+#49
+Inspecting hot method com.github.davidmoten.bplustree.BPlusTreeTest.testFindEntriesExclusive:517...
+Checking for isolation...
+6,4,4,0
+Total 6 (3 unique) events are in hot method
+Total 4 (2 unique) traces are in hot method
+Total 4 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 6 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (2 traces / 1 unique traces) (4 events / 2 unique events)
+	Iterator_RemoveOnce (2 traces / 1 unique traces) (2 events / 1 unique events)
+Classifier (com.github.davidmoten.bplustree.BPlusTreeTest.testFindEntriesExclusive:517): LIB,ISOLATED_ONE_UNIQUE
+
+#50
+Inspecting hot method com.github.davidmoten.bplustree.BPlusTreeFileTest.testFindAllNextWhenNone:183...
+Checking for isolation...
+3,2,2,0
+Total 3 (3 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (2 events / 2 unique events)
+Classifier (com.github.davidmoten.bplustree.BPlusTreeFileTest.testFindAllNextWhenNone:183): LIB,NOT_REDUNDANT_TRACES
+
+#51
+Inspecting hot method com.github.davidmoten.bplustree.BPlusTreeTest.testFindOneKeyNotFound:491...
+Checking for isolation...
+2,2,2,0
+Total 2 (1 unique) events are in hot method
+Total 2 (1 unique) traces are in hot method
+Total 2 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (2 traces / 1 unique traces) (2 events / 1 unique events)
+Classifier (com.github.davidmoten.bplustree.BPlusTreeTest.testFindOneKeyNotFound:491): CUT,ISOLATED_ONE_UNIQUE
+
+#52
+Inspecting hot method com.github.davidmoten.bplustree.BPlusTree.clear:578...
+Checking for isolation...
+2,2,2,0
+Total 2 (1 unique) events are in hot method
+Total 2 (1 unique) traces are in hot method
+Total 2 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (2 traces / 1 unique traces) (2 events / 1 unique events)
+Classifier (com.github.davidmoten.bplustree.BPlusTree.clear:578): CUT,ISOLATED_ONE_UNIQUE
+

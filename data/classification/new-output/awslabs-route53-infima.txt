@@ -1,0 +1,737 @@
+Reading traces...
+Reading specs frequency...
+Reading locations...
+Counting events...
+Total 28720836 events and 7106055 traces
+Inspecting top 200 IMM
+Finding hot methods...
+Number of events, method name
+7362980,com.amazonaws.services.route53.infima.Lattice.getAllEndpoints:228
+5700151,com.amazonaws.services.route53.infima.SimpleSignatureShuffleSharderTests.oneDimensionalSimpleSignatureShuffleSharderTest:72
+4329855,com.amazonaws.services.route53.infima.Lattice.getDimensionality:256
+4170000,com.amazonaws.services.route53.infima.SimpleSignatureShuffleSharder.shuffleShard:83
+3075943,com.amazonaws.services.route53.infima.Lattice.getAllCoordinates:241
+1447742,com.amazonaws.services.route53.infima.Lattice.<init>:159
+1044001,com.amazonaws.services.route53.infima.Lattice.addEndpointsForSector:190
+570179,com.amazonaws.services.route53.infima.SimpleSignatureShuffleSharderTests.asymmetricalTwoDimensionalSimpleSignatureShuffleSharderTest:211
+570151,com.amazonaws.services.route53.infima.SimpleSignatureShuffleSharderTests.twoDimensionalSimpleSignatureShuffleSharderTest:133
+310151,com.amazonaws.services.route53.infima.SimpleSignatureShuffleSharderTests.singleCellSimpleSignatureShuffleSharderTest:22
+37354,com.amazonaws.services.route53.infima.util.IterableSubListGenerator$SubListIterator.next:49
+31933,com.amazonaws.services.route53.infima.Lattice.simulateFailure:319
+19030,com.amazonaws.services.route53.infima.util.AnswerSet.toResourceRecordSets:58
+14536,com.amazonaws.services.route53.infima.SubListIteratorTests.twentyChooseFourTest:34
+8484,com.amazonaws.services.route53.model.ResourceRecord.toString:113
+5646,com.amazonaws.services.route53.infima.StatefulSearchingShuffleSharder.shuffleShardRecursiveHelper:128
+5580,com.amazonaws.services.route53.infima.StatefulSearchingShuffleSharder.areThereTooManyCollisions:198
+3542,com.amazonaws.services.route53.infima.StatefulSearchingShuffleSharderTests$MockFragmentStore.isFragmentUsed:35
+3102,com.amazonaws.services.route53.infima.StatefulSearchingShuffleSharderTests.singleCellStatefulSearchingShuffleSharderTest:68
+2567,com.amazonaws.services.route53.infima.StatefulSearchingShuffleSharderTests.oneDimensionalSimpleSignatureShuffleSharderTest:109
+2159,com.amazonaws.services.route53.infima.StatefulSearchingShuffleSharder.shuffleShard:113
+1992,com.amazonaws.services.route53.infima.StatefulSearchingShuffleSharderTests$MockFragmentStore.saveFragment:29
+1142,com.amazonaws.services.route53.infima.StatefulSearchingShuffleSharderTests.twoDimensionalSimpleSignatureShuffleSharderTest:162
+1114,com.amazonaws.services.route53.infima.RubberTree.vulcanize:161
+1094,com.amazonaws.services.route53.infima.RubberTree.vulcanize:55
+276,com.amazonaws.services.route53.model.ResourceRecordSet.setResourceRecords:818
+61,com.amazonaws.services.route53.infima.SubListIteratorTests.twentyChooseOneTest:49
+31,com.amazonaws.services.route53.infima.SubListIteratorTests.fiveChooseThreeTest:21
+12,com.amazonaws.services.route53.infima.AnswerSetTests.testOrdering:23
+9,com.amazonaws.services.route53.infima.AnswerSetTests.testSimpleRRSet:41
+9,com.amazonaws.services.route53.infima.AnswerSetTests.testHealthCheckedRRSet:58
+2,com.amazonaws.services.route53.infima.Lattice$Coordinate.<clinit>:0
+2,com.amazonaws.services.route53.infima.util.AnswerSet.<clinit>:0
+1,com.amazonaws.services.route53.model.ResourceRecord.<clinit>:0
+1,com.amazonaws.services.route53.infima.util.ComparableResourceRecord.<clinit>:0
+1,com.amazonaws.services.route53.infima.util.HealthCheckedResourceRecord.<clinit>:0
+1,com.amazonaws.services.route53.model.ResourceRecordSet.<clinit>:0
+1,com.amazonaws.services.route53.model.AliasTarget.<clinit>:0
+1,com.amazonaws.services.route53.infima.StatefulSearchingShuffleSharder$NoShardsAvailableException.<clinit>:0
+^^^ Last method that contains more than one event ^^^
+Starting com.amazonaws.services.route53.infima.util.AnswerSet.toResourceRecordSets:58
+Finish com.amazonaws.services.route53.infima.util.AnswerSet.toResourceRecordSets:58
+Starting com.amazonaws.services.route53.infima.StatefulSearchingShuffleSharder.shuffleShard:113
+Finish com.amazonaws.services.route53.infima.StatefulSearchingShuffleSharder.shuffleShard:113
+Starting com.amazonaws.services.route53.infima.Lattice.getAllEndpoints:228
+Finish com.amazonaws.services.route53.infima.Lattice.getAllEndpoints:228
+Starting com.amazonaws.services.route53.infima.SimpleSignatureShuffleSharderTests.oneDimensionalSimpleSignatureShuffleSharderTest:72
+Finish com.amazonaws.services.route53.infima.SimpleSignatureShuffleSharderTests.oneDimensionalSimpleSignatureShuffleSharderTest:72
+Starting com.amazonaws.services.route53.infima.Lattice.getDimensionality:256
+Finish com.amazonaws.services.route53.infima.Lattice.getDimensionality:256
+Starting com.amazonaws.services.route53.infima.Lattice.addEndpointsForSector:190
+Finish com.amazonaws.services.route53.infima.Lattice.addEndpointsForSector:190
+Starting com.amazonaws.services.route53.infima.SimpleSignatureShuffleSharderTests.asymmetricalTwoDimensionalSimpleSignatureShuffleSharderTest:211
+Finish com.amazonaws.services.route53.infima.SimpleSignatureShuffleSharderTests.asymmetricalTwoDimensionalSimpleSignatureShuffleSharderTest:211
+Starting com.amazonaws.services.route53.infima.StatefulSearchingShuffleSharder.areThereTooManyCollisions:198
+Finish com.amazonaws.services.route53.infima.StatefulSearchingShuffleSharder.areThereTooManyCollisions:198
+Starting com.amazonaws.services.route53.infima.RubberTree.vulcanize:55
+Finish com.amazonaws.services.route53.infima.RubberTree.vulcanize:55
+Starting com.amazonaws.services.route53.infima.StatefulSearchingShuffleSharderTests.oneDimensionalSimpleSignatureShuffleSharderTest:109
+Finish com.amazonaws.services.route53.infima.StatefulSearchingShuffleSharderTests.oneDimensionalSimpleSignatureShuffleSharderTest:109
+Starting com.amazonaws.services.route53.infima.StatefulSearchingShuffleSharderTests.singleCellStatefulSearchingShuffleSharderTest:68
+Finish com.amazonaws.services.route53.infima.StatefulSearchingShuffleSharderTests.singleCellStatefulSearchingShuffleSharderTest:68
+Starting com.amazonaws.services.route53.infima.util.IterableSubListGenerator$SubListIterator.next:49
+Finish com.amazonaws.services.route53.infima.util.IterableSubListGenerator$SubListIterator.next:49
+Starting com.amazonaws.services.route53.infima.SubListIteratorTests.fiveChooseThreeTest:21
+Finish com.amazonaws.services.route53.infima.SubListIteratorTests.fiveChooseThreeTest:21
+Starting com.amazonaws.services.route53.infima.StatefulSearchingShuffleSharderTests$MockFragmentStore.isFragmentUsed:35
+Finish com.amazonaws.services.route53.infima.StatefulSearchingShuffleSharderTests$MockFragmentStore.isFragmentUsed:35
+Starting com.amazonaws.services.route53.infima.SubListIteratorTests.twentyChooseOneTest:49
+Finish com.amazonaws.services.route53.infima.SubListIteratorTests.twentyChooseOneTest:49
+Starting com.amazonaws.services.route53.infima.StatefulSearchingShuffleSharderTests$MockFragmentStore.saveFragment:29
+Finish com.amazonaws.services.route53.infima.StatefulSearchingShuffleSharderTests$MockFragmentStore.saveFragment:29
+Starting com.amazonaws.services.route53.infima.SubListIteratorTests.twentyChooseFourTest:34
+Finish com.amazonaws.services.route53.infima.SubListIteratorTests.twentyChooseFourTest:34
+Starting com.amazonaws.services.route53.model.ResourceRecordSet.setResourceRecords:818
+Finish com.amazonaws.services.route53.model.ResourceRecordSet.setResourceRecords:818
+Starting com.amazonaws.services.route53.infima.Lattice.simulateFailure:319
+Finish com.amazonaws.services.route53.infima.Lattice.simulateFailure:319
+Starting com.amazonaws.services.route53.infima.util.AnswerSet.<clinit>:0
+Finish com.amazonaws.services.route53.infima.util.AnswerSet.<clinit>:0
+Starting com.amazonaws.services.route53.infima.Lattice.<init>:159
+Finish com.amazonaws.services.route53.infima.Lattice.<init>:159
+Starting com.amazonaws.services.route53.infima.RubberTree.vulcanize:161
+Finish com.amazonaws.services.route53.infima.RubberTree.vulcanize:161
+Starting com.amazonaws.services.route53.infima.SimpleSignatureShuffleSharder.shuffleShard:83
+Finish com.amazonaws.services.route53.infima.SimpleSignatureShuffleSharder.shuffleShard:83
+Starting com.amazonaws.services.route53.infima.Lattice$Coordinate.<clinit>:0
+Finish com.amazonaws.services.route53.infima.Lattice$Coordinate.<clinit>:0
+Starting com.amazonaws.services.route53.model.ResourceRecord.toString:113
+Finish com.amazonaws.services.route53.model.ResourceRecord.toString:113
+Starting com.amazonaws.services.route53.infima.AnswerSetTests.testSimpleRRSet:41
+Finish com.amazonaws.services.route53.infima.AnswerSetTests.testSimpleRRSet:41
+Starting com.amazonaws.services.route53.infima.StatefulSearchingShuffleSharder.shuffleShardRecursiveHelper:128
+Finish com.amazonaws.services.route53.infima.StatefulSearchingShuffleSharder.shuffleShardRecursiveHelper:128
+Starting com.amazonaws.services.route53.infima.AnswerSetTests.testOrdering:23
+Finish com.amazonaws.services.route53.infima.AnswerSetTests.testOrdering:23
+Starting com.amazonaws.services.route53.infima.Lattice.getAllCoordinates:241
+Finish com.amazonaws.services.route53.infima.Lattice.getAllCoordinates:241
+Starting com.amazonaws.services.route53.infima.AnswerSetTests.testHealthCheckedRRSet:58
+Finish com.amazonaws.services.route53.infima.AnswerSetTests.testHealthCheckedRRSet:58
+Starting com.amazonaws.services.route53.infima.SimpleSignatureShuffleSharderTests.twoDimensionalSimpleSignatureShuffleSharderTest:133
+Finish com.amazonaws.services.route53.infima.SimpleSignatureShuffleSharderTests.twoDimensionalSimpleSignatureShuffleSharderTest:133
+Starting com.amazonaws.services.route53.infima.SimpleSignatureShuffleSharderTests.singleCellSimpleSignatureShuffleSharderTest:22
+Finish com.amazonaws.services.route53.infima.SimpleSignatureShuffleSharderTests.singleCellSimpleSignatureShuffleSharderTest:22
+Starting com.amazonaws.services.route53.infima.StatefulSearchingShuffleSharderTests.twoDimensionalSimpleSignatureShuffleSharderTest:162
+Finish com.amazonaws.services.route53.infima.StatefulSearchingShuffleSharderTests.twoDimensionalSimpleSignatureShuffleSharderTest:162
+
+#1
+Inspecting hot method com.amazonaws.services.route53.infima.Lattice.getAllEndpoints:228...
+Checking for isolation...
+7362980,2066226,2065002,1224
+Total 7362980 (284 unique) events are in hot method
+Total 2066226 (50 unique) traces are in hot method
+Total 2065002 (30 unique) isolated traces are in hot method
+Total 1224 (20 unique) non-isolated traces that have events in hot method
+Total 7352818 (130 unique) events are in isolated traces
+Total 11841 (181 unique) events are in non-isolated traces (10162 / 154 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsynchronizedAddAll (501073 traces / 1 unique traces) (1002146 events / 2 unique events)
+	Map_UnsafeIterator (390040 traces / 10 unique traces) (2300142 events / 57 unique events)
+	Collection_UnsafeIterator (261023 traces / 4 unique traces) (1524192 events / 22 unique events)
+	Iterator_HasNext (261023 traces / 4 unique traces) (1263169 events / 18 unique events)
+	Iterator_RemoveOnce (260801 traces / 3 unique traces) (501073 events / 7 unique events)
+	Collections_SortBeforeBinarySearch (260801 traces / 3 unique traces) (501073 events / 7 unique events)
+	Map_CollectionViewAdd (130241 traces / 5 unique traces) (261023 events / 17 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (1224 traces / 20 unique traces) (11841 events / 181 unique events) (10162 events / 154 unique events in hot method)
+Classifier (com.amazonaws.services.route53.infima.Lattice.getAllEndpoints:228): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#2
+Inspecting hot method com.amazonaws.services.route53.infima.SimpleSignatureShuffleSharderTests.oneDimensionalSimpleSignatureShuffleSharderTest:72...
+Checking for isolation...
+5700151,900008,900006,2
+Total 5700151 (800200 unique) events are in hot method
+Total 900008 (17 unique) traces are in hot method
+Total 900006 (15 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 4900151 (200 unique) events are in isolated traces
+Total 2746118 (2746118 unique) events are in non-isolated traces (800000 / 800000 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (300001 traces / 4 unique traces) (800020 events / 28 unique events)
+	Iterator_HasNext (300001 traces / 4 unique traces) (1900041 events / 60 unique events)
+	Collection_UnsafeIterator (300001 traces / 4 unique traces) (2200042 events / 64 unique events)
+	Map_UnsafeIterator (2 traces / 2 unique traces) (46 events / 46 unique events)
+	Map_CollectionViewAdd (1 traces / 1 unique traces) (2 events / 2 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (1373059 events / 1373059 unique events) (400000 events / 400000 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (1373059 events / 1373059 unique events) (400000 events / 400000 unique events in hot method)
+Classifier (com.amazonaws.services.route53.infima.SimpleSignatureShuffleSharderTests.oneDimensionalSimpleSignatureShuffleSharderTest:72): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT,ISOLATED_SINGLE_TRACE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#3
+Inspecting hot method com.amazonaws.services.route53.infima.Lattice.getDimensionality:256...
+Checking for isolation...
+4329855,1172444,1172442,2
+Total 4329855 (902139 unique) events are in hot method
+Total 1172444 (8 unique) traces are in hot method
+Total 1172442 (6 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 3427737 (21 unique) events are in isolated traces
+Total 2746118 (2746118 unique) events are in non-isolated traces (902118 / 902118 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (390814 traces / 2 unique traces) (1292932 events / 8 unique events)
+	Collection_UnsafeIterator (390814 traces / 2 unique traces) (1683746 events / 10 unique events)
+	Iterator_RemoveOnce (390814 traces / 2 unique traces) (451059 events / 3 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (1373059 events / 1373059 unique events) (451059 events / 451059 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (1373059 events / 1373059 unique events) (451059 events / 451059 unique events in hot method)
+Classifier (com.amazonaws.services.route53.infima.Lattice.getDimensionality:256): CUT,ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#4
+Inspecting hot method com.amazonaws.services.route53.infima.SimpleSignatureShuffleSharder.shuffleShard:83...
+Checking for isolation...
+4170000,1560000,1560000,0
+Total 4170000 (76 unique) events are in hot method
+Total 1560000 (25 unique) traces are in hot method
+Total 1560000 (25 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 4170000 (76 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (260000 traces / 5 unique traces) (400000 events / 8 unique events)
+	Iterator_HasNext (260000 traces / 5 unique traces) (1060000 events / 21 unique events)
+	Collection_UnsafeIterator (260000 traces / 5 unique traces) (1320000 events / 26 unique events)
+	List_UnsynchronizedSubList (250000 traces / 2 unique traces) (250000 events / 2 unique events)
+	Collections_SortBeforeBinarySearch (210000 traces / 3 unique traces) (310000 events / 5 unique events)
+	StringBuilder_ThreadSafe (130000 traces / 1 unique traces) (390000 events / 3 unique events)
+	Appendable_ThreadSafe (130000 traces / 1 unique traces) (260000 events / 2 unique events)
+	Map_UnsafeIterator (40000 traces / 2 unique traces) (160000 events / 8 unique events)
+	Map_CollectionViewAdd (20000 traces / 1 unique traces) (20000 events / 1 unique events)
+Classifier (com.amazonaws.services.route53.infima.SimpleSignatureShuffleSharder.shuffleShard:83): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE
+
+#5
+Inspecting hot method com.amazonaws.services.route53.infima.Lattice.getAllCoordinates:241...
+Checking for isolation...
+3075943,783703,782980,723
+Total 3075943 (277542 unique) events are in hot method
+Total 783703 (455 unique) traces are in hot method
+Total 782980 (16 unique) isolated traces are in hot method
+Total 723 (439 unique) non-isolated traces that have events in hot method
+Total 2797641 (64 unique) events are in isolated traces
+Total 598133 (596485 unique) events are in non-isolated traces (278302 / 277478 unique are in hot method)
+Specs that have isolated traces:
+	Map_UnsafeIterator (260776 traces / 4 unique traces) (1022016 events / 16 unique events)
+	Collection_UnsafeIterator (130679 traces / 4 unique traces) (762638 events / 22 unique events)
+	Iterator_HasNext (130679 traces / 4 unique traces) (631959 events / 18 unique events)
+	Iterator_RemoveOnce (130458 traces / 3 unique traces) (250640 events / 7 unique events)
+	Map_CollectionViewAdd (130388 traces / 1 unique traces) (130388 events / 1 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (652 traces / 426 unique traces) (54742 events / 53262 unique events) (27371 events / 26631 unique events in hot method)
+	Map_CollectionViewAdd (70 traces / 12 unique traces) (582 events / 414 unique events) (291 events / 207 unique events in hot method)
+	Set_ItselfAsElement (1 traces / 1 unique traces) (542809 events / 542809 unique events) (250640 events / 250640 unique events in hot method)
+Classifier (com.amazonaws.services.route53.infima.Lattice.getAllCoordinates:241): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#6
+Inspecting hot method com.amazonaws.services.route53.infima.Lattice.<init>:159...
+Checking for isolation...
+1447742,391850,391848,2
+Total 1447742 (301705 unique) events are in hot method
+Total 391850 (8 unique) traces are in hot method
+Total 391848 (6 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 1146058 (21 unique) events are in isolated traces
+Total 2746118 (2746118 unique) events are in non-isolated traces (301684 / 301684 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (130616 traces / 2 unique traces) (432300 events / 8 unique events)
+	Collection_UnsafeIterator (130616 traces / 2 unique traces) (562916 events / 10 unique events)
+	Iterator_RemoveOnce (130616 traces / 2 unique traces) (150842 events / 3 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (1373059 events / 1373059 unique events) (150842 events / 150842 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (1373059 events / 1373059 unique events) (150842 events / 150842 unique events in hot method)
+Classifier (com.amazonaws.services.route53.infima.Lattice.<init>:159): CUT,ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#7
+Inspecting hot method com.amazonaws.services.route53.infima.Lattice.addEndpointsForSector:190...
+Checking for isolation...
+1044001,1314,87,1227
+Total 1044001 (1042223 unique) events are in hot method
+Total 1314 (26 unique) traces are in hot method
+Total 87 (3 unique) isolated traces are in hot method
+Total 1227 (23 unique) non-isolated traces that have events in hot method
+Total 250627 (250501 unique) events are in isolated traces
+Total 3300768 (3289108 unique) events are in non-isolated traces (793374 / 791722 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (43 traces / 1 unique traces) (43 events / 1 unique events)
+	Collection_UnsynchronizedAddAll (43 traces / 1 unique traces) (86 events / 2 unique events)
+	TreeMap_Comparable (1 traces / 1 unique traces) (250498 events / 250498 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (1224 traces / 20 unique traces) (11841 events / 181 unique events) (1679 events / 27 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (1373059 events / 1373059 unique events) (250498 events / 250498 unique events in hot method)
+	Set_ItselfAsElement (1 traces / 1 unique traces) (542809 events / 542809 unique events) (290699 events / 290699 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (1373059 events / 1373059 unique events) (250498 events / 250498 unique events in hot method)
+Classifier (com.amazonaws.services.route53.infima.Lattice.addEndpointsForSector:190): CUT,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,RAW_ISOLATED_SINGLE_TRACE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#8
+Inspecting hot method com.amazonaws.services.route53.infima.SimpleSignatureShuffleSharderTests.asymmetricalTwoDimensionalSimpleSignatureShuffleSharderTest:211...
+Checking for isolation...
+570179,90008,90006,2
+Total 570179 (80280 unique) events are in hot method
+Total 90008 (29 unique) traces are in hot method
+Total 90006 (27 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 490179 (280 unique) events are in isolated traces
+Total 2746118 (2746118 unique) events are in non-isolated traces (80000 / 80000 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (30001 traces / 8 unique traces) (80024 events / 40 unique events)
+	Iterator_HasNext (30001 traces / 8 unique traces) (190049 events / 88 unique events)
+	Collection_UnsafeIterator (30001 traces / 8 unique traces) (220050 events / 96 unique events)
+	Map_UnsafeIterator (2 traces / 2 unique traces) (54 events / 54 unique events)
+	Map_CollectionViewAdd (1 traces / 1 unique traces) (2 events / 2 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (1373059 events / 1373059 unique events) (40000 events / 40000 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (1373059 events / 1373059 unique events) (40000 events / 40000 unique events in hot method)
+Classifier (com.amazonaws.services.route53.infima.SimpleSignatureShuffleSharderTests.asymmetricalTwoDimensionalSimpleSignatureShuffleSharderTest:211): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT,ISOLATED_SINGLE_TRACE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#9
+Inspecting hot method com.amazonaws.services.route53.infima.SimpleSignatureShuffleSharderTests.twoDimensionalSimpleSignatureShuffleSharderTest:133...
+Checking for isolation...
+570151,90008,90006,2
+Total 570151 (80226 unique) events are in hot method
+Total 90008 (23 unique) traces are in hot method
+Total 90006 (21 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 490151 (226 unique) events are in isolated traces
+Total 2746118 (2746118 unique) events are in non-isolated traces (80000 / 80000 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (30001 traces / 6 unique traces) (80020 events / 32 unique events)
+	Iterator_HasNext (30001 traces / 6 unique traces) (190041 events / 70 unique events)
+	Collection_UnsafeIterator (30001 traces / 6 unique traces) (220042 events / 76 unique events)
+	Map_UnsafeIterator (2 traces / 2 unique traces) (46 events / 46 unique events)
+	Map_CollectionViewAdd (1 traces / 1 unique traces) (2 events / 2 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (1373059 events / 1373059 unique events) (40000 events / 40000 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (1373059 events / 1373059 unique events) (40000 events / 40000 unique events in hot method)
+Classifier (com.amazonaws.services.route53.infima.SimpleSignatureShuffleSharderTests.twoDimensionalSimpleSignatureShuffleSharderTest:133): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT,ISOLATED_SINGLE_TRACE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#10
+Inspecting hot method com.amazonaws.services.route53.infima.SimpleSignatureShuffleSharderTests.singleCellSimpleSignatureShuffleSharderTest:22...
+Checking for isolation...
+310151,30008,30006,2
+Total 310151 (80174 unique) events are in hot method
+Total 30008 (11 unique) traces are in hot method
+Total 30006 (9 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 230151 (174 unique) events are in isolated traces
+Total 2746118 (2746118 unique) events are in non-isolated traces (80000 / 80000 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (10001 traces / 2 unique traces) (90041 events / 50 unique events)
+	Collection_UnsafeIterator (10001 traces / 2 unique traces) (100042 events / 52 unique events)
+	Iterator_RemoveOnce (10001 traces / 2 unique traces) (40020 events / 24 unique events)
+	Map_UnsafeIterator (2 traces / 2 unique traces) (46 events / 46 unique events)
+	Map_CollectionViewAdd (1 traces / 1 unique traces) (2 events / 2 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (1373059 events / 1373059 unique events) (40000 events / 40000 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (1373059 events / 1373059 unique events) (40000 events / 40000 unique events in hot method)
+Classifier (com.amazonaws.services.route53.infima.SimpleSignatureShuffleSharderTests.singleCellSimpleSignatureShuffleSharderTest:22): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT,ISOLATED_SINGLE_TRACE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#11
+Inspecting hot method com.amazonaws.services.route53.infima.util.IterableSubListGenerator$SubListIterator.next:49...
+Checking for isolation...
+37354,9246,5628,3618
+Total 37354 (5203 unique) events are in hot method
+Total 9246 (36 unique) traces are in hot method
+Total 5628 (5 unique) isolated traces are in hot method
+Total 3618 (31 unique) non-isolated traces that have events in hot method
+Total 21986 (17 unique) events are in isolated traces
+Total 34367 (15555 unique) events are in non-isolated traces (15368 / 5186 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (5628 traces / 5 unique traces) (21986 events / 17 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (2435 traces / 2 unique traces) (9740 events / 8 unique events) (7305 events / 6 unique events in hot method)
+	Iterator_HasNext (1183 traces / 29 unique traces) (24627 events / 15547 unique events) (8063 events / 5180 unique events in hot method)
+Classifier (com.amazonaws.services.route53.infima.util.IterableSubListGenerator$SubListIterator.next:49): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#12
+Inspecting hot method com.amazonaws.services.route53.infima.Lattice.simulateFailure:319...
+Checking for isolation...
+31933,2058,1336,722
+Total 31933 (27077 unique) events are in hot method
+Total 2058 (467 unique) traces are in hot method
+Total 1336 (29 unique) isolated traces are in hot method
+Total 722 (438 unique) non-isolated traces that have events in hot method
+Total 4271 (239 unique) events are in isolated traces
+Total 55324 (53676 unique) events are in non-isolated traces (27662 / 26838 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (380 traces / 4 unique traces) (1744 events / 22 unique events)
+	Iterator_HasNext (380 traces / 4 unique traces) (1364 events / 18 unique events)
+	Iterator_RemoveOnce (325 traces / 3 unique traces) (492 events / 7 unique events)
+	Map_UnsafeIterator (170 traces / 15 unique traces) (582 events / 181 unique events)
+	Map_CollectionViewAdd (81 traces / 3 unique traces) (89 events / 11 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (652 traces / 426 unique traces) (54742 events / 53262 unique events) (27371 events / 26631 unique events in hot method)
+	Map_CollectionViewAdd (70 traces / 12 unique traces) (582 events / 414 unique events) (291 events / 207 unique events in hot method)
+Classifier (com.amazonaws.services.route53.infima.Lattice.simulateFailure:319): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#13
+Inspecting hot method com.amazonaws.services.route53.infima.util.AnswerSet.toResourceRecordSets:58...
+Checking for isolation...
+19030,3729,3725,4
+Total 19030 (4410 unique) events are in hot method
+Total 3729 (28 unique) traces are in hot method
+Total 3725 (24 unique) isolated traces are in hot method
+Total 4 (4 unique) non-isolated traces that have events in hot method
+Total 14788 (168 unique) events are in isolated traces
+Total 546809 (546809 unique) events are in non-isolated traces (4242 / 4242 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (1234 traces / 2 unique traces) (3085 events / 5 unique events)
+	StringBuilder_ThreadSafe (1234 traces / 2 unique traces) (4319 events / 7 unique events)
+	Collection_UnsynchronizedAddAll (707 traces / 1 unique traces) (1414 events / 2 unique events)
+	Collections_SortBeforeBinarySearch (274 traces / 10 unique traces) (2129 events / 55 unique events)
+	Iterator_HasNext (92 traces / 3 unique traces) (1518 events / 39 unique events)
+	Collection_UnsafeIterator (92 traces / 3 unique traces) (1610 events / 42 unique events)
+	Iterator_RemoveOnce (92 traces / 3 unique traces) (713 events / 18 unique events)
+Specs that have non-isolated traces:
+	SortedSet_Comparable (1 traces / 1 unique traces) (1602 events / 1602 unique events) (1414 events / 1414 unique events in hot method)
+	Set_ItselfAsElement (1 traces / 1 unique traces) (542809 events / 542809 unique events) (707 events / 707 unique events in hot method)
+	TreeSet_Comparable (1 traces / 1 unique traces) (1602 events / 1602 unique events) (1414 events / 1414 unique events in hot method)
+	CharSequence_NotInSet (1 traces / 1 unique traces) (796 events / 796 unique events) (707 events / 707 unique events in hot method)
+Classifier (com.amazonaws.services.route53.infima.util.AnswerSet.toResourceRecordSets:58): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#14
+Inspecting hot method com.amazonaws.services.route53.infima.SubListIteratorTests.twentyChooseFourTest:34...
+Checking for isolation...
+14536,2,1,1
+Total 14536 (14536 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 4845 (4845 unique) events are in isolated traces
+Total 14536 (14536 unique) events are in non-isolated traces (9691 / 9691 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (4845 events / 4845 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (14536 events / 14536 unique events) (9691 events / 9691 unique events in hot method)
+Classifier (com.amazonaws.services.route53.infima.SubListIteratorTests.twentyChooseFourTest:34): CUT,NOT_REDUNDANT_TRACES
+
+#15
+Inspecting hot method com.amazonaws.services.route53.model.ResourceRecord.toString:113...
+Checking for isolation...
+8484,2828,2828,0
+Total 8484 (12 unique) events are in hot method
+Total 2828 (4 unique) traces are in hot method
+Total 2828 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 8484 (12 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (1414 traces / 2 unique traces) (4949 events / 7 unique events)
+	Appendable_ThreadSafe (1414 traces / 2 unique traces) (3535 events / 5 unique events)
+Classifier (com.amazonaws.services.route53.model.ResourceRecord.toString:113): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#16
+Inspecting hot method com.amazonaws.services.route53.infima.StatefulSearchingShuffleSharder.shuffleShardRecursiveHelper:128...
+Checking for isolation...
+5646,2559,2272,287
+Total 5646 (852 unique) events are in hot method
+Total 2559 (46 unique) traces are in hot method
+Total 2272 (27 unique) isolated traces are in hot method
+Total 287 (19 unique) non-isolated traces that have events in hot method
+Total 4155 (293 unique) events are in isolated traces
+Total 2236 (838 unique) events are in non-isolated traces (1491 / 559 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (574 traces / 19 unique traces) (1032 events / 275 unique events)
+	Collection_UnsafeIterator (508 traces / 3 unique traces) (1304 events / 9 unique events)
+	Iterator_HasNext (508 traces / 3 unique traces) (796 events / 6 unique events)
+	Collections_SortBeforeBinarySearch (341 traces / 1 unique traces) (341 events / 1 unique events)
+	Collection_UnsynchronizedAddAll (341 traces / 1 unique traces) (682 events / 2 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (287 traces / 19 unique traces) (2236 events / 838 unique events) (1491 events / 559 unique events in hot method)
+Classifier (com.amazonaws.services.route53.infima.StatefulSearchingShuffleSharder.shuffleShardRecursiveHelper:128): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#17
+Inspecting hot method com.amazonaws.services.route53.infima.StatefulSearchingShuffleSharder.areThereTooManyCollisions:198...
+Checking for isolation...
+5580,1452,726,726
+Total 5580 (39 unique) events are in hot method
+Total 1452 (9 unique) traces are in hot method
+Total 726 (4 unique) isolated traces are in hot method
+Total 726 (5 unique) non-isolated traces that have events in hot method
+Total 1771 (10 unique) events are in isolated traces
+Total 5580 (43 unique) events are in non-isolated traces (3809 / 29 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (726 traces / 4 unique traces) (1771 events / 10 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (726 traces / 5 unique traces) (5580 events / 43 unique events) (3809 events / 29 unique events in hot method)
+Classifier (com.amazonaws.services.route53.infima.StatefulSearchingShuffleSharder.areThereTooManyCollisions:198): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#18
+Inspecting hot method com.amazonaws.services.route53.infima.StatefulSearchingShuffleSharderTests$MockFragmentStore.isFragmentUsed:35...
+Checking for isolation...
+3542,1772,0,1772
+Total 3542 (1772 unique) events are in hot method
+Total 1772 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1772 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 9519 (2439 unique) events are in non-isolated traces (3542 / 1772 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (1771 traces / 1 unique traces) (7084 events / 4 unique events) (1771 events / 1 unique events in hot method)
+	Collections_ImplementComparable (1 traces / 1 unique traces) (2435 events / 2435 unique events) (1771 events / 1771 unique events in hot method)
+Classifier (com.amazonaws.services.route53.infima.StatefulSearchingShuffleSharderTests$MockFragmentStore.isFragmentUsed:35): CUT,NOT_ISOLATED_ONE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#19
+Inspecting hot method com.amazonaws.services.route53.infima.StatefulSearchingShuffleSharderTests.singleCellStatefulSearchingShuffleSharderTest:68...
+Checking for isolation...
+3102,304,302,2
+Total 3102 (825 unique) events are in hot method
+Total 304 (7 unique) traces are in hot method
+Total 302 (5 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 2302 (25 unique) events are in isolated traces
+Total 2746118 (2746118 unique) events are in non-isolated traces (800 / 800 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (100 traces / 1 unique traces) (1000 events / 10 unique events)
+	Iterator_HasNext (100 traces / 1 unique traces) (900 events / 9 unique events)
+	Iterator_RemoveOnce (100 traces / 1 unique traces) (400 events / 4 unique events)
+	Map_UnsafeIterator (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Map_CollectionViewAdd (1 traces / 1 unique traces) (1 events / 1 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (1373059 events / 1373059 unique events) (400 events / 400 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (1373059 events / 1373059 unique events) (400 events / 400 unique events in hot method)
+Classifier (com.amazonaws.services.route53.infima.StatefulSearchingShuffleSharderTests.singleCellStatefulSearchingShuffleSharderTest:68): CUT,ISOLATED_ONE_UNIQUE,ISOLATED_SINGLE_TRACE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#20
+Inspecting hot method com.amazonaws.services.route53.infima.StatefulSearchingShuffleSharderTests.oneDimensionalSimpleSignatureShuffleSharderTest:109...
+Checking for isolation...
+2567,409,407,2
+Total 2567 (411 unique) events are in hot method
+Total 409 (13 unique) traces are in hot method
+Total 407 (11 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 2207 (51 unique) events are in isolated traces
+Total 2746118 (2746118 unique) events are in non-isolated traces (360 / 360 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (135 traces / 3 unique traces) (990 events / 22 unique events)
+	Iterator_HasNext (135 traces / 3 unique traces) (855 events / 19 unique events)
+	Iterator_RemoveOnce (135 traces / 3 unique traces) (360 events / 8 unique events)
+	Map_UnsafeIterator (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Map_CollectionViewAdd (1 traces / 1 unique traces) (1 events / 1 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (1373059 events / 1373059 unique events) (180 events / 180 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (1373059 events / 1373059 unique events) (180 events / 180 unique events in hot method)
+Classifier (com.amazonaws.services.route53.infima.StatefulSearchingShuffleSharderTests.oneDimensionalSimpleSignatureShuffleSharderTest:109): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_SINGLE_TRACE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#21
+Inspecting hot method com.amazonaws.services.route53.infima.StatefulSearchingShuffleSharder.shuffleShard:113...
+Checking for isolation...
+2159,333,167,166
+Total 2159 (14 unique) events are in hot method
+Total 333 (3 unique) traces are in hot method
+Total 167 (2 unique) isolated traces are in hot method
+Total 166 (1 unique) non-isolated traces that have events in hot method
+Total 665 (5 unique) events are in isolated traces
+Total 2158 (13 unique) events are in non-isolated traces (1494 / 9 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (166 traces / 1 unique traces) (664 events / 4 unique events)
+	Throwable_InitCauseOnce (1 traces / 1 unique traces) (1 events / 1 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (166 traces / 1 unique traces) (2158 events / 13 unique events) (1494 events / 9 unique events in hot method)
+Classifier (com.amazonaws.services.route53.infima.StatefulSearchingShuffleSharder.shuffleShard:113): CUT,ISOLATED_ONE_UNIQUE,ISOLATED_SINGLE_TRACE,NOT_ISOLATED_ONE_UNIQUE
+
+#22
+Inspecting hot method com.amazonaws.services.route53.infima.StatefulSearchingShuffleSharderTests$MockFragmentStore.saveFragment:29...
+Checking for isolation...
+1992,666,0,666
+Total 1992 (1329 unique) events are in hot method
+Total 666 (3 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 666 (3 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 547900 (545248 unique) events are in non-isolated traces (1992 / 1329 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (664 traces / 1 unique traces) (2656 events / 4 unique events) (664 events / 1 unique events in hot method)
+	Set_ItselfAsElement (1 traces / 1 unique traces) (542809 events / 542809 unique events) (664 events / 664 unique events in hot method)
+	Collections_ImplementComparable (1 traces / 1 unique traces) (2435 events / 2435 unique events) (664 events / 664 unique events in hot method)
+Classifier (com.amazonaws.services.route53.infima.StatefulSearchingShuffleSharderTests$MockFragmentStore.saveFragment:29): CUT,NOT_ISOLATED_ONE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#23
+Inspecting hot method com.amazonaws.services.route53.infima.StatefulSearchingShuffleSharderTests.twoDimensionalSimpleSignatureShuffleSharderTest:162...
+Checking for isolation...
+1142,184,182,2
+Total 1142 (237 unique) events are in hot method
+Total 184 (19 unique) traces are in hot method
+Total 182 (17 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 982 (77 unique) events are in isolated traces
+Total 2746118 (2746118 unique) events are in non-isolated traces (160 / 160 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (60 traces / 5 unique traces) (160 events / 12 unique events)
+	Collection_UnsafeIterator (60 traces / 5 unique traces) (440 events / 34 unique events)
+	Iterator_HasNext (60 traces / 5 unique traces) (380 events / 29 unique events)
+	Map_CollectionViewAdd (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Map_UnsafeIterator (1 traces / 1 unique traces) (1 events / 1 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (1373059 events / 1373059 unique events) (80 events / 80 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (1373059 events / 1373059 unique events) (80 events / 80 unique events in hot method)
+Classifier (com.amazonaws.services.route53.infima.StatefulSearchingShuffleSharderTests.twoDimensionalSimpleSignatureShuffleSharderTest:162): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_SINGLE_TRACE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#24
+Inspecting hot method com.amazonaws.services.route53.infima.RubberTree.vulcanize:161...
+Checking for isolation...
+1114,289,283,6
+Total 1114 (636 unique) events are in hot method
+Total 289 (20 unique) traces are in hot method
+Total 283 (14 unique) isolated traces are in hot method
+Total 6 (6 unique) non-isolated traces that have events in hot method
+Total 543 (65 unique) events are in isolated traces
+Total 546863 (546863 unique) events are in non-isolated traces (571 / 571 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsynchronizedAddAll (184 traces / 7 unique traces) (368 events / 14 unique events)
+	List_UnsynchronizedSubList (86 traces / 2 unique traces) (92 events / 3 unique events)
+	Collections_SortBeforeBinarySearch (12 traces / 4 unique traces) (75 events / 40 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (8 events / 8 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (25 events / 25 unique events) (17 events / 17 unique events in hot method)
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (29 events / 29 unique events) (20 events / 20 unique events in hot method)
+	SortedSet_Comparable (1 traces / 1 unique traces) (1602 events / 1602 unique events) (178 events / 178 unique events in hot method)
+	Set_ItselfAsElement (1 traces / 1 unique traces) (542809 events / 542809 unique events) (89 events / 89 unique events in hot method)
+	TreeSet_Comparable (1 traces / 1 unique traces) (1602 events / 1602 unique events) (178 events / 178 unique events in hot method)
+	CharSequence_NotInSet (1 traces / 1 unique traces) (796 events / 796 unique events) (89 events / 89 unique events in hot method)
+Classifier (com.amazonaws.services.route53.infima.RubberTree.vulcanize:161): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_SINGLE_TRACE,NOT_ISOLATED_SINGLE_TRACE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#25
+Inspecting hot method com.amazonaws.services.route53.infima.RubberTree.vulcanize:55...
+Checking for isolation...
+1094,56,55,1
+Total 1094 (949 unique) events are in hot method
+Total 56 (29 unique) traces are in hot method
+Total 55 (28 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 1085 (940 unique) events are in isolated traces
+Total 29 (29 unique) events are in non-isolated traces (9 / 9 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (10 traces / 4 unique traces) (28 events / 10 unique events)
+	StringBuilder_ThreadSafe (10 traces / 4 unique traces) (38 events / 14 unique events)
+	Iterator_HasNext (9 traces / 5 unique traces) (389 events / 351 unique events)
+	Collection_UnsafeIterator (9 traces / 5 unique traces) (407 events / 365 unique events)
+	Iterator_RemoveOnce (9 traces / 5 unique traces) (190 events / 173 unique events)
+	Collection_UnsynchronizedAddAll (5 traces / 2 unique traces) (10 events / 4 unique events)
+	Collections_SortBeforeBinarySearch (2 traces / 2 unique traces) (22 events / 22 unique events)
+	Collections_Comparable (1 traces / 1 unique traces) (1 events / 1 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (29 events / 29 unique events) (9 events / 9 unique events in hot method)
+Classifier (com.amazonaws.services.route53.infima.RubberTree.vulcanize:55): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT,NOT_ISOLATED_SINGLE_TRACE,RAW_ISOLATED_SINGLE_TRACE
+
+#26
+Inspecting hot method com.amazonaws.services.route53.model.ResourceRecordSet.setResourceRecords:818...
+Checking for isolation...
+276,184,184,0
+Total 276 (3 unique) events are in hot method
+Total 184 (2 unique) traces are in hot method
+Total 184 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 276 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (92 traces / 1 unique traces) (92 events / 1 unique events)
+	Collection_UnsynchronizedAddAll (92 traces / 1 unique traces) (184 events / 2 unique events)
+Classifier (com.amazonaws.services.route53.model.ResourceRecordSet.setResourceRecords:818): LIB,ISOLATED_ONE_UNIQUE
+
+#27
+Inspecting hot method com.amazonaws.services.route53.infima.SubListIteratorTests.twentyChooseOneTest:49...
+Checking for isolation...
+61,2,1,1
+Total 61 (61 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 20 (20 unique) events are in isolated traces
+Total 61 (61 unique) events are in non-isolated traces (41 / 41 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (20 events / 20 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (61 events / 61 unique events) (41 events / 41 unique events in hot method)
+Classifier (com.amazonaws.services.route53.infima.SubListIteratorTests.twentyChooseOneTest:49): CUT,NOT_REDUNDANT_TRACES
+
+#28
+Inspecting hot method com.amazonaws.services.route53.infima.SubListIteratorTests.fiveChooseThreeTest:21...
+Checking for isolation...
+31,2,1,1
+Total 31 (31 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 10 (10 unique) events are in isolated traces
+Total 31 (31 unique) events are in non-isolated traces (21 / 21 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (10 events / 10 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (31 events / 31 unique events) (21 events / 21 unique events in hot method)
+Classifier (com.amazonaws.services.route53.infima.SubListIteratorTests.fiveChooseThreeTest:21): CUT,NOT_REDUNDANT_TRACES
+
+#29
+Inspecting hot method com.amazonaws.services.route53.infima.AnswerSetTests.testOrdering:23...
+Checking for isolation...
+12,3,0,3
+Total 12 (12 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 3 (3 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 546013 (546013 unique) events are in non-isolated traces (12 / 12 unique are in hot method)
+Specs that have non-isolated traces:
+	SortedSet_Comparable (1 traces / 1 unique traces) (1602 events / 1602 unique events) (4 events / 4 unique events in hot method)
+	Set_ItselfAsElement (1 traces / 1 unique traces) (542809 events / 542809 unique events) (4 events / 4 unique events in hot method)
+	TreeSet_Comparable (1 traces / 1 unique traces) (1602 events / 1602 unique events) (4 events / 4 unique events in hot method)
+Classifier (com.amazonaws.services.route53.infima.AnswerSetTests.testOrdering:23): CUT,NOT_REDUNDANT_TRACES
+
+#30
+Inspecting hot method com.amazonaws.services.route53.infima.AnswerSetTests.testSimpleRRSet:41...
+Checking for isolation...
+9,3,0,3
+Total 9 (9 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 3 (3 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 546013 (546013 unique) events are in non-isolated traces (9 / 9 unique are in hot method)
+Specs that have non-isolated traces:
+	SortedSet_Comparable (1 traces / 1 unique traces) (1602 events / 1602 unique events) (3 events / 3 unique events in hot method)
+	Set_ItselfAsElement (1 traces / 1 unique traces) (542809 events / 542809 unique events) (3 events / 3 unique events in hot method)
+	TreeSet_Comparable (1 traces / 1 unique traces) (1602 events / 1602 unique events) (3 events / 3 unique events in hot method)
+Classifier (com.amazonaws.services.route53.infima.AnswerSetTests.testSimpleRRSet:41): CUT,NOT_REDUNDANT_TRACES
+
+#31
+Inspecting hot method com.amazonaws.services.route53.infima.AnswerSetTests.testHealthCheckedRRSet:58...
+Checking for isolation...
+9,3,0,3
+Total 9 (9 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 3 (3 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 546013 (546013 unique) events are in non-isolated traces (9 / 9 unique are in hot method)
+Specs that have non-isolated traces:
+	SortedSet_Comparable (1 traces / 1 unique traces) (1602 events / 1602 unique events) (3 events / 3 unique events in hot method)
+	Set_ItselfAsElement (1 traces / 1 unique traces) (542809 events / 542809 unique events) (3 events / 3 unique events in hot method)
+	TreeSet_Comparable (1 traces / 1 unique traces) (1602 events / 1602 unique events) (3 events / 3 unique events in hot method)
+Classifier (com.amazonaws.services.route53.infima.AnswerSetTests.testHealthCheckedRRSet:58): CUT,NOT_REDUNDANT_TRACES
+
+#32
+Inspecting hot method com.amazonaws.services.route53.infima.Lattice$Coordinate.<clinit>:0...
+Checking for isolation...
+2,2,0,2
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 10 (10 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	Serializable_NoArgConstructor (1 traces / 1 unique traces) (8 events / 8 unique events) (1 events / 1 unique events in hot method)
+	Collection_HashCode (1 traces / 1 unique traces) (2 events / 2 unique events) (1 events / 1 unique events in hot method)
+Classifier (com.amazonaws.services.route53.infima.Lattice$Coordinate.<clinit>:0): CUT,NOT_REDUNDANT_TRACES
+
+#33
+Inspecting hot method com.amazonaws.services.route53.infima.util.AnswerSet.<clinit>:0...
+Checking for isolation...
+2,2,0,2
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 10 (10 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	Serializable_NoArgConstructor (1 traces / 1 unique traces) (8 events / 8 unique events) (1 events / 1 unique events in hot method)
+	Collection_HashCode (1 traces / 1 unique traces) (2 events / 2 unique events) (1 events / 1 unique events in hot method)
+Classifier (com.amazonaws.services.route53.infima.util.AnswerSet.<clinit>:0): CUT,NOT_REDUNDANT_TRACES
+

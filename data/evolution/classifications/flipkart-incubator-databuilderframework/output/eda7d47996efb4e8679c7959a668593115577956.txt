@@ -1,0 +1,2483 @@
+Reading traces...
+Reading specs frequency...
+Reading locations...
+Counting events...
+Total 2222103 events and 555529 traces
+Inspecting top 200 IMM
+Finding hot methods...
+Number of events, method name
+423454,com.flipkart.databuilderframework.engine.DataFlowBuilder.generateDependencyTree:132
+238288,com.flipkart.databuilderframework.engine.DataFlowBuilder.rankNodes:115
+197243,com.flipkart.databuilderframework.engine.DataSetAccessor.copy:125
+191029,com.flipkart.databuilderframework.engine.SimpleDataFlowExecutor.run:25
+166164,com.flipkart.databuilderframework.engine.DataFlowBuilder.generateGraph:38
+138900,com.flipkart.databuilderframework.model.ExecutionGraph.deepCopy:32
+122716,com.flipkart.databuilderframework.engine.DataFlowBuilder$FlattenedDataRoute.addOutputData:201
+109518,com.flipkart.databuilderframework.engine.MultiThreadedDataFlowExecutor.run:29
+88889,com.flipkart.databuilderframework.engine.MultiThreadedDataFlowExecutor$BuilderRunner.call:182
+83362,com.google.common.collect.Iterators$7.computeNext:647
+81503,com.google.common.collect.AbstractIndexedListIterator.next:81
+72960,com.flipkart.databuilderframework.engine.DataFlowBuilder.findBuilder:168
+48462,com.google.common.collect.Sets$2.isEmpty:655
+48269,com.flipkart.databuilderframework.engine.DataSetAccessor.merge:79
+36448,com.flipkart.databuilderframework.engine.DataFlowBuilder$DependencyInfoManager.get:260
+36448,com.flipkart.databuilderframework.engine.DataFlowBuilder$DependencyNodeManager.get:305
+32264,com.flipkart.databuilderframework.engine.DataSetAccessor.checkForData:101
+32188,com.google.common.collect.ImmutableMap.copyOf:264
+20640,com.flipkart.databuilderframework.engine.DataSetAccessor.merge:89
+16154,com.google.common.collect.Sets$2.iterator:649
+10000,com.flipkart.databuilderframework.speed.ConcurrencyTest.testSpeed:58
+5434,com.flipkart.databuilderframework.engine.DataBuilderMetadataManager.register:35
+4286,com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._addInjectables:546
+3905,com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._addMethods:440
+1278,com.fasterxml.jackson.databind.introspect.AnnotatedClass.resolveClassAnnotations:292
+1236,com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector.collect:228
+1162,com.fasterxml.jackson.databind.introspect.AnnotatedMethodMap.add:23
+915,com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._sortProperties:284
+887,com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._removeUnwantedProperties:595
+599,com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._renameProperties:643
+501,com.fasterxml.jackson.databind.introspect.AnnotatedClass.resolveMemberMethods:413
+482,com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._addCreators:394
+444,com.fasterxml.jackson.databind.introspect.AnnotatedMethodMap.iterator:79
+381,com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._addFields:355
+354,com.flipkart.databuilderframework.flowtest.tests.LoopTest.listPrint:93
+304,com.flipkart.databuilderframework.flowtest.tests.FlowTest.listPrint:111
+275,com.flipkart.databuilderframework.flowtest.tests.LoopTest.testRunSingleStep:47
+240,com.fasterxml.jackson.databind.util.BeanUtil.manglePropertyName:173
+227,com.fasterxml.jackson.databind.ser.BeanSerializerFactory.removeIgnorableTypes:660
+224,com.fasterxml.jackson.databind.introspect.AnnotationMap._add:94
+180,com.fasterxml.jackson.databind.util.ClassUtil._addSuperTypes:41
+177,com.fasterxml.jackson.databind.ser.BeanSerializerFactory.findBeanProperties:540
+167,com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector.getProperties:139
+159,com.google.common.collect.RegularImmutableSet.<init>:40
+159,com.google.common.collect.ImmutableSet$ArrayImmutableSet.<init>:382
+153,com.fasterxml.jackson.databind.ser.BasicSerializerFactory.<clinit>:54
+148,com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._property:769
+135,com.fasterxml.jackson.databind.introspect.AnnotatedClass.resolveFields:462
+132,com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeTypedFields:447
+120,com.fasterxml.jackson.databind.jsontype.impl.TypeNameIdResolver.construct:41
+108,com.fasterxml.jackson.databind.introspect.AnnotatedClass._findFields:668
+106,com.fasterxml.jackson.databind.ser.impl.StringCollectionSerializer.serializeContents:140
+92,com.fasterxml.jackson.databind.ser.SerializerCache.addAndResolveNonTypedSerializer:133
+86,com.fasterxml.jackson.databind.deser.BasicDeserializerFactory._add:88
+76,com.fasterxml.jackson.databind.ser.SerializerCache.addAndResolveNonTypedSerializer:155
+70,com.flipkart.databuilderframework.MultiThreadedDataFlowExecutorTest$TestListenerAfterExceptionError.beforeExecute:100
+70,com.flipkart.databuilderframework.MultiThreadedDataFlowExecutorTest$TestListenerAfterExecutionError.beforeExecute:73
+70,com.flipkart.databuilderframework.MultiThreadedDataFlowExecutorTest$TestListener.beforeExecute:24
+70,com.flipkart.databuilderframework.DataFlowExecutorTest$TestListener.beforeExecute:23
+70,com.flipkart.databuilderframework.DataFlowExecutorTest$TestListenerAfterExecutionError.beforeExecute:72
+70,com.flipkart.databuilderframework.DataFlowExecutorTest$TestListenerAfterExceptionError.beforeExecute:99
+64,com.fasterxml.jackson.databind.ser.impl.JsonSerializerMap.<init>:19
+64,com.fasterxml.jackson.databind.type.TypeBindings._resolveBindings:232
+63,com.flipkart.databuilderframework.DataFlowExecutorTest$TestListenerAfterExceptionError.afterExecute:106
+63,com.flipkart.databuilderframework.MultiThreadedDataFlowExecutorTest$TestListenerAfterExceptionError.afterExecute:107
+63,com.flipkart.databuilderframework.MultiThreadedDataFlowExecutorTest$TestListenerBeforeExecutionError.afterExecute:56
+63,com.flipkart.databuilderframework.MultiThreadedDataFlowExecutorTest$TestListener.afterExecute:31
+63,com.flipkart.databuilderframework.DataFlowExecutorTest$TestListener.afterExecute:30
+63,com.flipkart.databuilderframework.DataFlowExecutorTest$TestListenerBeforeExecutionError.afterExecute:55
+63,com.flipkart.databuilderframework.TestBuilderA.process:13
+60,com.fasterxml.jackson.databind.type.TypeBindings.addBinding:178
+58,com.fasterxml.jackson.databind.type.TypeFactory._fromClass:652
+56,com.flipkart.databuilderframework.TestBuilderC.process:13
+52,com.fasterxml.jackson.databind.introspect.AnnotatedClass.resolveCreators:326
+49,com.flipkart.databuilderframework.TestBuilderB.process:13
+44,com.fasterxml.jackson.core.json.WriterBasedJsonGenerator._writeFieldName:226
+42,com.fasterxml.jackson.databind.util.ArrayBuilders$ArrayIterator.<init>:292
+40,com.flipkart.databuilderframework.engine.DataFlowExecutor.registerExecutionListener:62
+32,com.fasterxml.jackson.databind.type.TypeBindings.typesAsArray:186
+32,com.fasterxml.jackson.databind.ser.SerializerCache.addTypedSerializer:121
+32,com.fasterxml.jackson.databind.type.TypeBindings._addPlaceholder:224
+31,com.fasterxml.jackson.databind.ser.std.StdJdkSerializers.provide:30
+28,com.fasterxml.jackson.databind.ser.BeanSerializerFactory.createSerializer:130
+25,com.fasterxml.jackson.databind.deser.BasicDeserializerFactory.<clinit>:43
+24,com.fasterxml.jackson.core.json.WriterBasedJsonGenerator.close:844
+24,com.fasterxml.jackson.databind.jsontype.impl.StdSubtypeResolver.collectAndResolveSubtypes:110
+24,com.fasterxml.jackson.core.util.TextBuffer.buildResultArray:682
+24,com.fasterxml.jackson.databind.deser.std.StdKeyDeserializers.add:51
+24,com.fasterxml.jackson.databind.ser.std.NumberSerializers.addAll:23
+24,com.fasterxml.jackson.databind.jsontype.impl.StdSubtypeResolver._collectAndResolve:141
+24,com.fasterxml.jackson.databind.jsontype.impl.TypeNameIdResolver.idFromValue:85
+18,com.fasterxml.jackson.databind.deser.std.PrimitiveArrayDeserializers.add:62
+15,org.slf4j.helpers.Util.report:43
+10,com.flipkart.databuilderframework.engine.impl.DataBuilderFactoryImpl.create:21
+10,com.flipkart.databuilderframework.DataFlowExecutorTest$TestListenerBeforeExecutionError.beforeExecute:48
+10,com.flipkart.databuilderframework.MultiThreadedDataFlowExecutorTest$TestListenerBeforeExecutionError.beforeExecute:49
+9,com.flipkart.databuilderframework.flowtest.tests.FlowTest.testRunMultiStep:48
+9,com.flipkart.databuilderframework.MultiThreadedDataFlowExecutorTest$TestListenerAfterExecutionError.afterExecute:81
+9,com.flipkart.databuilderframework.DataFlowExecutorTest$TestListenerAfterExecutionError.afterExecute:80
+8,com.fasterxml.jackson.databind.ObjectMapper._configAndWriteValue:2611
+8,com.fasterxml.jackson.databind.ser.BasicSerializerFactory.buildContainerSerializer:477
+8,com.fasterxml.jackson.core.util.TextBuffer.append:445
+7,com.flipkart.databuilderframework.DataFlowExecutorTest$TestListener.afterException:38
+7,com.flipkart.databuilderframework.DataFlowExecutorTest$TestListenerBeforeExecutionError.afterException:63
+7,com.flipkart.databuilderframework.DataFlowExecutorTest$TestListenerAfterExecutionError.afterException:89
+7,com.flipkart.databuilderframework.MultiThreadedDataFlowExecutorTest$TestListener.afterException:39
+7,com.flipkart.databuilderframework.MultiThreadedDataFlowExecutorTest$TestListenerAfterExecutionError.afterException:90
+7,com.flipkart.databuilderframework.MultiThreadedDataFlowExecutorTest$TestListenerBeforeExecutionError.afterException:64
+6,com.fasterxml.jackson.databind.ser.BasicSerializerFactory.buildMapSerializer:636
+6,com.fasterxml.jackson.core.Base64Variant.<init>:61
+3,com.flipkart.databuilderframework.flowtest.tests.FlowTest.testRunSingleStep:87
+3,com.flipkart.databuilderframework.engine.DataBuilderContext.saveContextData:38
+3,com.google.common.collect.ImmutableCollection$EmptyImmutableCollection.<clinit>:192
+3,com.fasterxml.jackson.core.io.CharTypes.<clinit>:8
+2,com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer.<clinit>:28
+2,com.flipkart.databuilderframework.TestBuilderError.process:14
+2,com.google.common.collect.ImmutableCollection.<clinit>:44
+2,com.google.common.collect.ImmutableSet.<clinit>:0
+2,com.google.common.collect.ImmutableSet$ArrayImmutableSet.<clinit>:0
+2,com.google.common.collect.RegularImmutableSet.<clinit>:0
+2,com.google.common.collect.SingletonImmutableSet.<clinit>:0
+1,com.flipkart.databuilderframework.MultiThreadedDataFlowExecutorTest$TestListenerAfterExceptionError.afterException:117
+1,com.flipkart.databuilderframework.DataFlowExecutorTest$TestListenerAfterExceptionError.afterException:116
+1,com.google.common.collect.Sets$SetView.<clinit>:0
+1,com.google.common.collect.Sets$2.<clinit>:0
+1,com.fasterxml.jackson.annotation.JsonTypeInfo$As.<clinit>:140
+1,com.fasterxml.jackson.annotation.JsonTypeInfo$Id.<clinit>:74
+1,org.slf4j.helpers.NamedLoggerBase.<clinit>:0
+1,org.slf4j.helpers.MarkerIgnoringBase.<clinit>:0
+1,org.slf4j.helpers.NOPLogger.<clinit>:43
+1,com.flipkart.databuilderframework.model.DataFlow.<clinit>:0
+1,com.flipkart.databuilderframework.model.DataBuilderMeta.<clinit>:0
+1,com.flipkart.databuilderframework.model.ExecutionGraph.<clinit>:0
+1,com.google.common.base.Predicates$InPredicate.<clinit>:0
+1,com.google.common.collect.AbstractIterator$State.<clinit>:72
+1,com.google.common.collect.ImmutableMap.<clinit>:0
+1,com.google.common.collect.EmptyImmutableMap.<clinit>:33
+1,com.google.common.collect.ImmutableEntry.<clinit>:0
+1,com.flipkart.databuilderframework.engine.DataBuilderException.<clinit>:0
+1,com.flipkart.databuilderframework.engine.DataBuilderException$ErrorCode.<clinit>:12
+1,com.flipkart.databuilderframework.engine.DataFrameworkException.<clinit>:0
+1,com.flipkart.databuilderframework.engine.DataFrameworkException$ErrorCode.<clinit>:13
+1,com.fasterxml.jackson.databind.JavaType.<clinit>:0
+1,com.fasterxml.jackson.databind.type.TypeBase.<clinit>:0
+1,com.fasterxml.jackson.databind.type.SimpleType.<clinit>:0
+1,com.fasterxml.jackson.databind.introspect.BasicClassIntrospector.<clinit>:26
+1,com.fasterxml.jackson.databind.introspect.JacksonAnnotationIntrospector.<clinit>:0
+1,com.fasterxml.jackson.annotation.JsonAutoDetect$Visibility.<clinit>:48
+1,com.fasterxml.jackson.databind.introspect.VisibilityChecker$Std.<clinit>:172
+1,com.fasterxml.jackson.core.io.SerializedString.<clinit>:0
+1,com.fasterxml.jackson.core.util.DefaultPrettyPrinter.<clinit>:28
+1,com.fasterxml.jackson.core.util.DefaultPrettyPrinter$FixedSpaceIndenter.<clinit>:335
+1,com.fasterxml.jackson.core.util.DefaultPrettyPrinter$Lf2SpacesIndenter.<clinit>:359
+1,com.fasterxml.jackson.databind.cfg.BaseSettings.<clinit>:0
+1,com.fasterxml.jackson.databind.util.LRUMap.<clinit>:0
+1,com.fasterxml.jackson.databind.type.TypeParser.<clinit>:0
+1,com.fasterxml.jackson.databind.type.TypeFactory.<clinit>:38
+1,com.fasterxml.jackson.databind.util.StdDateFormat.<clinit>:55
+1,com.fasterxml.jackson.core.Base64Variant.<clinit>:0
+1,com.fasterxml.jackson.databind.ObjectMapper.<clinit>:185
+1,com.fasterxml.jackson.core.JsonFactory$Feature.<clinit>:107
+1,com.fasterxml.jackson.core.JsonParser$Feature.<clinit>:69
+1,com.fasterxml.jackson.core.JsonGenerator$Feature.<clinit>:51
+1,com.fasterxml.jackson.core.JsonFactory.<clinit>:68
+1,com.fasterxml.jackson.databind.MappingJsonFactory.<clinit>:0
+1,com.fasterxml.jackson.databind.jsontype.impl.StdSubtypeResolver.<clinit>:0
+1,com.fasterxml.jackson.databind.util.RootNameLookup.<clinit>:0
+1,com.fasterxml.jackson.databind.cfg.MapperConfig.<clinit>:0
+1,com.fasterxml.jackson.databind.MapperFeature.<clinit>:33
+1,com.fasterxml.jackson.databind.cfg.MapperConfigBase.<clinit>:28
+1,com.fasterxml.jackson.databind.SerializationConfig.<clinit>:0
+1,com.fasterxml.jackson.databind.SerializationFeature.<clinit>:35
+1,com.fasterxml.jackson.databind.DeserializationConfig.<clinit>:0
+1,com.fasterxml.jackson.databind.DeserializationFeature.<clinit>:38
+1,com.fasterxml.jackson.databind.node.JsonNodeFactory.<clinit>:21
+1,com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.<clinit>:0
+1,com.fasterxml.jackson.databind.ser.DefaultSerializerProvider$Impl.<clinit>:0
+1,com.fasterxml.jackson.databind.DeserializationContext.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.DefaultDeserializationContext$Impl.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.StdDeserializer.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.PrimitiveArrayDeserializers$Base.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.PrimitiveArrayDeserializers$BooleanDeser.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.PrimitiveArrayDeserializers$ByteDeser.<clinit>:0
+1,com.fasterxml.jackson.databind.type.ClassKey.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.PrimitiveArrayDeserializers$ShortDeser.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.PrimitiveArrayDeserializers$IntDeser.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.PrimitiveArrayDeserializers$LongDeser.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.PrimitiveArrayDeserializers$FloatDeser.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.PrimitiveArrayDeserializers$DoubleDeser.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.PrimitiveArrayDeserializers$StringDeser.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.PrimitiveArrayDeserializers$CharDeser.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.StdKeyDeserializer.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.StdKeyDeserializer$BoolKD.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.StdKeyDeserializer$ByteKD.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.StdKeyDeserializer$CharKD.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.StdKeyDeserializer$ShortKD.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.StdKeyDeserializer$IntKD.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.StdKeyDeserializer$LongKD.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.StdKeyDeserializer$FloatKD.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.StdKeyDeserializer$DoubleKD.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.StdKeyDeserializer$DateKD.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.StdKeyDeserializer$CalendarKD.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.StdKeyDeserializer$UuidKD.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.StdKeyDeserializer$LocaleKD.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.StdScalarDeserializer.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.FromStringDeserializer.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.JdkDeserializers$LocaleDeserializer.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.StringDeserializer.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.NumberDeserializers$PrimitiveOrWrapperDeserializer.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.NumberDeserializers$BooleanDeserializer.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.NumberDeserializers$ByteDeserializer.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.NumberDeserializers$ShortDeserializer.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.NumberDeserializers$CharacterDeserializer.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.NumberDeserializers$IntegerDeserializer.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.NumberDeserializers$LongDeserializer.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.NumberDeserializers$FloatDeserializer.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.NumberDeserializers$DoubleDeserializer.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.NumberDeserializers$NumberDeserializer.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.NumberDeserializers$BigDecimalDeserializer.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.NumberDeserializers$BigIntegerDeserializer.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.DateDeserializers$DateBasedDeserializer.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.DateDeserializers$CalendarDeserializer.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.DateDeserializers$DateDeserializer.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.DateDeserializers$SqlDateDeserializer.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.DateDeserializers$TimestampDeserializer.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.DateDeserializers$TimeZoneDeserializer.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.JdkDeserializers$UUIDDeserializer.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.JdkDeserializers$URLDeserializer.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.JdkDeserializers$URIDeserializer.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.JdkDeserializers$FileDeserializer.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.JdkDeserializers$CurrencyDeserializer.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.JdkDeserializers$PatternDeserializer.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.JdkDeserializers$InetAddressDeserializer.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.JdkDeserializers$CharsetDeserializer.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.JdkDeserializers$AtomicBooleanDeserializer.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.ClassDeserializer.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.JdkDeserializers$StackTraceElementDeserializer.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.JacksonDeserializers$JavaTypeDeserializer.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.JacksonDeserializers$TokenBufferDeserializer.<clinit>:0
+1,com.fasterxml.jackson.databind.cfg.DeserializerFactoryConfig.<clinit>:15
+1,com.fasterxml.jackson.databind.ext.OptionalHandlerFactory.<clinit>:37
+1,com.fasterxml.jackson.databind.deser.BeanDeserializerFactory.<clinit>:48
+1,com.fasterxml.jackson.databind.deser.DeserializerCache.<clinit>:0
+1,com.fasterxml.jackson.databind.cfg.SerializerFactoryConfig.<clinit>:18
+1,com.fasterxml.jackson.databind.ser.BeanSerializerFactory.<clinit>:60
+1,com.fasterxml.jackson.core.util.BufferRecycler$ByteBufferType.<clinit>:16
+1,com.fasterxml.jackson.core.util.BufferRecycler$CharBufferType.<clinit>:44
+1,com.fasterxml.jackson.databind.introspect.AnnotatedMember.<clinit>:0
+1,com.fasterxml.jackson.databind.introspect.AnnotatedField.<clinit>:0
+1,com.fasterxml.jackson.databind.introspect.AnnotatedWithParams.<clinit>:0
+1,com.fasterxml.jackson.databind.introspect.AnnotatedMethod.<clinit>:0
+1,com.fasterxml.jackson.databind.introspect.AnnotatedConstructor.<clinit>:0
+1,com.fasterxml.jackson.databind.introspect.AnnotatedParameter.<clinit>:0
+1,com.fasterxml.jackson.databind.type.CollectionLikeType.<clinit>:0
+1,com.fasterxml.jackson.databind.type.CollectionType.<clinit>:0
+1,com.fasterxml.jackson.annotation.JsonInclude$Include.<clinit>:50
+1,com.fasterxml.jackson.annotation.JsonFormat$Shape.<clinit>:122
+1,com.fasterxml.jackson.databind.type.MapLikeType.<clinit>:0
+1,com.fasterxml.jackson.databind.type.MapType.<clinit>:0
+1,com.fasterxml.jackson.databind.jsontype.NamedType.<clinit>:0
+^^^ Last method that contains more than one event ^^^
+Starting com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._addInjectables:546
+Finish com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._addInjectables:546
+Starting com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._addMethods:440
+Finish com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._addMethods:440
+Starting com.flipkart.databuilderframework.DataFlowExecutorTest$TestListenerAfterExceptionError.beforeExecute:99
+Finish com.flipkart.databuilderframework.DataFlowExecutorTest$TestListenerAfterExceptionError.beforeExecute:99
+Starting com.fasterxml.jackson.databind.ser.impl.JsonSerializerMap.<init>:19
+Finish com.fasterxml.jackson.databind.ser.impl.JsonSerializerMap.<init>:19
+Starting org.slf4j.helpers.Util.report:43
+Finish org.slf4j.helpers.Util.report:43
+Starting com.flipkart.databuilderframework.engine.impl.DataBuilderFactoryImpl.create:21
+Finish com.flipkart.databuilderframework.engine.impl.DataBuilderFactoryImpl.create:21
+Starting com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector.getProperties:139
+Finish com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector.getProperties:139
+Starting com.google.common.collect.RegularImmutableSet.<init>:40
+Finish com.google.common.collect.RegularImmutableSet.<init>:40
+Starting com.fasterxml.jackson.core.json.WriterBasedJsonGenerator.close:844
+Finish com.fasterxml.jackson.core.json.WriterBasedJsonGenerator.close:844
+Starting com.fasterxml.jackson.databind.jsontype.impl.StdSubtypeResolver.collectAndResolveSubtypes:110
+Finish com.fasterxml.jackson.databind.jsontype.impl.StdSubtypeResolver.collectAndResolveSubtypes:110
+Starting com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._property:769
+Finish com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._property:769
+Starting com.fasterxml.jackson.databind.introspect.AnnotatedClass.resolveFields:462
+Finish com.fasterxml.jackson.databind.introspect.AnnotatedClass.resolveFields:462
+Starting com.flipkart.databuilderframework.engine.DataFlowBuilder.generateGraph:38
+Finish com.flipkart.databuilderframework.engine.DataFlowBuilder.generateGraph:38
+Starting com.flipkart.databuilderframework.model.ExecutionGraph.deepCopy:32
+Finish com.flipkart.databuilderframework.model.ExecutionGraph.deepCopy:32
+Starting com.flipkart.databuilderframework.MultiThreadedDataFlowExecutorTest$TestListenerAfterExceptionError.afterExecute:107
+Finish com.flipkart.databuilderframework.MultiThreadedDataFlowExecutorTest$TestListenerAfterExceptionError.afterExecute:107
+Starting com.flipkart.databuilderframework.MultiThreadedDataFlowExecutorTest$TestListenerBeforeExecutionError.afterExecute:56
+Finish com.flipkart.databuilderframework.MultiThreadedDataFlowExecutorTest$TestListenerBeforeExecutionError.afterExecute:56
+Starting com.flipkart.databuilderframework.DataFlowExecutorTest$TestListenerAfterExecutionError.afterExecute:80
+Finish com.flipkart.databuilderframework.DataFlowExecutorTest$TestListenerAfterExecutionError.afterExecute:80
+Starting com.fasterxml.jackson.databind.ObjectMapper._configAndWriteValue:2611
+Finish com.fasterxml.jackson.databind.ObjectMapper._configAndWriteValue:2611
+Starting com.flipkart.databuilderframework.engine.DataSetAccessor.merge:89
+Finish com.flipkart.databuilderframework.engine.DataSetAccessor.merge:89
+Starting com.google.common.collect.Sets$2.iterator:649
+Finish com.google.common.collect.Sets$2.iterator:649
+Starting com.flipkart.databuilderframework.DataFlowExecutorTest$TestListener.beforeExecute:23
+Finish com.flipkart.databuilderframework.DataFlowExecutorTest$TestListener.beforeExecute:23
+Starting com.flipkart.databuilderframework.DataFlowExecutorTest$TestListenerAfterExecutionError.beforeExecute:72
+Finish com.flipkart.databuilderframework.DataFlowExecutorTest$TestListenerAfterExecutionError.beforeExecute:72
+Starting com.flipkart.databuilderframework.flowtest.tests.FlowTest.testRunMultiStep:48
+Finish com.flipkart.databuilderframework.flowtest.tests.FlowTest.testRunMultiStep:48
+Starting com.flipkart.databuilderframework.MultiThreadedDataFlowExecutorTest$TestListenerAfterExecutionError.afterExecute:81
+Finish com.flipkart.databuilderframework.MultiThreadedDataFlowExecutorTest$TestListenerAfterExecutionError.afterExecute:81
+Starting com.fasterxml.jackson.databind.introspect.AnnotatedClass.resolveClassAnnotations:292
+Finish com.fasterxml.jackson.databind.introspect.AnnotatedClass.resolveClassAnnotations:292
+Starting com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector.collect:228
+Finish com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector.collect:228
+Starting com.flipkart.databuilderframework.TestBuilderC.process:13
+Finish com.flipkart.databuilderframework.TestBuilderC.process:13
+Starting com.fasterxml.jackson.databind.introspect.AnnotatedClass.resolveCreators:326
+Finish com.fasterxml.jackson.databind.introspect.AnnotatedClass.resolveCreators:326
+Starting com.flipkart.databuilderframework.engine.DataSetAccessor.copy:125
+Finish com.flipkart.databuilderframework.engine.DataSetAccessor.copy:125
+Starting com.flipkart.databuilderframework.engine.SimpleDataFlowExecutor.run:25
+Finish com.flipkart.databuilderframework.engine.SimpleDataFlowExecutor.run:25
+Starting com.fasterxml.jackson.databind.introspect.AnnotatedClass._findFields:668
+Finish com.fasterxml.jackson.databind.introspect.AnnotatedClass._findFields:668
+Starting com.fasterxml.jackson.databind.ser.impl.StringCollectionSerializer.serializeContents:140
+Finish com.fasterxml.jackson.databind.ser.impl.StringCollectionSerializer.serializeContents:140
+Starting com.fasterxml.jackson.databind.ser.BasicSerializerFactory.buildContainerSerializer:477
+Finish com.fasterxml.jackson.databind.ser.BasicSerializerFactory.buildContainerSerializer:477
+Starting com.fasterxml.jackson.core.util.TextBuffer.append:445
+Finish com.fasterxml.jackson.core.util.TextBuffer.append:445
+Starting com.fasterxml.jackson.databind.introspect.AnnotatedClass.resolveMemberMethods:413
+Finish com.fasterxml.jackson.databind.introspect.AnnotatedClass.resolveMemberMethods:413
+Starting com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._addCreators:394
+Finish com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._addCreators:394
+Starting com.fasterxml.jackson.databind.type.TypeBindings.typesAsArray:186
+Finish com.fasterxml.jackson.databind.type.TypeBindings.typesAsArray:186
+Starting com.fasterxml.jackson.databind.ser.SerializerCache.addTypedSerializer:121
+Finish com.fasterxml.jackson.databind.ser.SerializerCache.addTypedSerializer:121
+Starting com.flipkart.databuilderframework.engine.DataSetAccessor.checkForData:101
+Finish com.flipkart.databuilderframework.engine.DataSetAccessor.checkForData:101
+Starting com.google.common.collect.ImmutableMap.copyOf:264
+Finish com.google.common.collect.ImmutableMap.copyOf:264
+Starting com.fasterxml.jackson.databind.ser.SerializerCache.addAndResolveNonTypedSerializer:155
+Finish com.fasterxml.jackson.databind.ser.SerializerCache.addAndResolveNonTypedSerializer:155
+Starting com.flipkart.databuilderframework.MultiThreadedDataFlowExecutorTest$TestListenerAfterExceptionError.beforeExecute:100
+Finish com.flipkart.databuilderframework.MultiThreadedDataFlowExecutorTest$TestListenerAfterExceptionError.beforeExecute:100
+Starting com.google.common.collect.SingletonImmutableSet.<clinit>:0
+Finish com.google.common.collect.SingletonImmutableSet.<clinit>:0
+Starting com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._removeUnwantedProperties:595
+Finish com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._removeUnwantedProperties:595
+Starting com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._renameProperties:643
+Finish com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._renameProperties:643
+Starting com.fasterxml.jackson.databind.ser.BeanSerializerFactory.createSerializer:130
+Finish com.fasterxml.jackson.databind.ser.BeanSerializerFactory.createSerializer:130
+Starting com.fasterxml.jackson.databind.deser.BasicDeserializerFactory.<clinit>:43
+Finish com.fasterxml.jackson.databind.deser.BasicDeserializerFactory.<clinit>:43
+Starting com.flipkart.databuilderframework.engine.DataFlowBuilder$FlattenedDataRoute.addOutputData:201
+Finish com.flipkart.databuilderframework.engine.DataFlowBuilder$FlattenedDataRoute.addOutputData:201
+Starting com.flipkart.databuilderframework.engine.MultiThreadedDataFlowExecutor.run:29
+Finish com.flipkart.databuilderframework.engine.MultiThreadedDataFlowExecutor.run:29
+Starting com.fasterxml.jackson.core.util.TextBuffer.buildResultArray:682
+Finish com.fasterxml.jackson.core.util.TextBuffer.buildResultArray:682
+Starting com.fasterxml.jackson.databind.deser.std.StdKeyDeserializers.add:51
+Finish com.fasterxml.jackson.databind.deser.std.StdKeyDeserializers.add:51
+Starting com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeTypedFields:447
+Finish com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeTypedFields:447
+Starting com.fasterxml.jackson.databind.jsontype.impl.TypeNameIdResolver.construct:41
+Finish com.fasterxml.jackson.databind.jsontype.impl.TypeNameIdResolver.construct:41
+Starting com.flipkart.databuilderframework.DataFlowExecutorTest$TestListenerBeforeExecutionError.beforeExecute:48
+Finish com.flipkart.databuilderframework.DataFlowExecutorTest$TestListenerBeforeExecutionError.beforeExecute:48
+Starting com.flipkart.databuilderframework.MultiThreadedDataFlowExecutorTest$TestListenerBeforeExecutionError.beforeExecute:49
+Finish com.flipkart.databuilderframework.MultiThreadedDataFlowExecutorTest$TestListenerBeforeExecutionError.beforeExecute:49
+Starting com.fasterxml.jackson.databind.ser.BeanSerializerFactory.removeIgnorableTypes:660
+Finish com.fasterxml.jackson.databind.ser.BeanSerializerFactory.removeIgnorableTypes:660
+Starting com.fasterxml.jackson.databind.introspect.AnnotationMap._add:94
+Finish com.fasterxml.jackson.databind.introspect.AnnotationMap._add:94
+Starting com.flipkart.databuilderframework.DataFlowExecutorTest$TestListenerAfterExecutionError.afterException:89
+Finish com.flipkart.databuilderframework.DataFlowExecutorTest$TestListenerAfterExecutionError.afterException:89
+Starting com.flipkart.databuilderframework.MultiThreadedDataFlowExecutorTest$TestListener.afterException:39
+Finish com.flipkart.databuilderframework.MultiThreadedDataFlowExecutorTest$TestListener.afterException:39
+Starting com.google.common.collect.Sets$2.isEmpty:655
+Finish com.google.common.collect.Sets$2.isEmpty:655
+Starting com.flipkart.databuilderframework.engine.DataSetAccessor.merge:79
+Finish com.flipkart.databuilderframework.engine.DataSetAccessor.merge:79
+Starting com.fasterxml.jackson.databind.type.TypeBindings.addBinding:178
+Finish com.fasterxml.jackson.databind.type.TypeBindings.addBinding:178
+Starting com.fasterxml.jackson.databind.type.TypeFactory._fromClass:652
+Finish com.fasterxml.jackson.databind.type.TypeFactory._fromClass:652
+Starting com.flipkart.databuilderframework.speed.ConcurrencyTest.testSpeed:58
+Finish com.flipkart.databuilderframework.speed.ConcurrencyTest.testSpeed:58
+Starting com.flipkart.databuilderframework.engine.DataBuilderMetadataManager.register:35
+Finish com.flipkart.databuilderframework.engine.DataBuilderMetadataManager.register:35
+Starting com.fasterxml.jackson.databind.ser.SerializerCache.addAndResolveNonTypedSerializer:133
+Finish com.fasterxml.jackson.databind.ser.SerializerCache.addAndResolveNonTypedSerializer:133
+Starting com.fasterxml.jackson.databind.deser.BasicDeserializerFactory._add:88
+Finish com.fasterxml.jackson.databind.deser.BasicDeserializerFactory._add:88
+Starting com.google.common.collect.ImmutableCollection$EmptyImmutableCollection.<clinit>:192
+Finish com.google.common.collect.ImmutableCollection$EmptyImmutableCollection.<clinit>:192
+Starting com.fasterxml.jackson.core.io.CharTypes.<clinit>:8
+Finish com.fasterxml.jackson.core.io.CharTypes.<clinit>:8
+Starting com.flipkart.databuilderframework.engine.MultiThreadedDataFlowExecutor$BuilderRunner.call:182
+Finish com.flipkart.databuilderframework.engine.MultiThreadedDataFlowExecutor$BuilderRunner.call:182
+Starting com.google.common.collect.Iterators$7.computeNext:647
+Finish com.google.common.collect.Iterators$7.computeNext:647
+Starting com.fasterxml.jackson.databind.type.TypeBindings._resolveBindings:232
+Finish com.fasterxml.jackson.databind.type.TypeBindings._resolveBindings:232
+Starting com.flipkart.databuilderframework.DataFlowExecutorTest$TestListenerAfterExceptionError.afterExecute:106
+Finish com.flipkart.databuilderframework.DataFlowExecutorTest$TestListenerAfterExceptionError.afterExecute:106
+Starting com.flipkart.databuilderframework.MultiThreadedDataFlowExecutorTest$TestListenerAfterExecutionError.afterException:90
+Finish com.flipkart.databuilderframework.MultiThreadedDataFlowExecutorTest$TestListenerAfterExecutionError.afterException:90
+Starting com.flipkart.databuilderframework.MultiThreadedDataFlowExecutorTest$TestListenerBeforeExecutionError.afterException:64
+Finish com.flipkart.databuilderframework.MultiThreadedDataFlowExecutorTest$TestListenerBeforeExecutionError.afterException:64
+Starting com.fasterxml.jackson.databind.introspect.AnnotatedMethodMap.iterator:79
+Finish com.fasterxml.jackson.databind.introspect.AnnotatedMethodMap.iterator:79
+Starting com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._addFields:355
+Finish com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._addFields:355
+Starting com.fasterxml.jackson.databind.type.TypeBindings._addPlaceholder:224
+Finish com.fasterxml.jackson.databind.type.TypeBindings._addPlaceholder:224
+Starting com.fasterxml.jackson.databind.ser.std.StdJdkSerializers.provide:30
+Finish com.fasterxml.jackson.databind.ser.std.StdJdkSerializers.provide:30
+Starting com.flipkart.databuilderframework.flowtest.tests.LoopTest.testRunSingleStep:47
+Finish com.flipkart.databuilderframework.flowtest.tests.LoopTest.testRunSingleStep:47
+Starting com.fasterxml.jackson.databind.util.BeanUtil.manglePropertyName:173
+Finish com.fasterxml.jackson.databind.util.BeanUtil.manglePropertyName:173
+Starting com.flipkart.databuilderframework.MultiThreadedDataFlowExecutorTest$TestListenerAfterExecutionError.beforeExecute:73
+Finish com.flipkart.databuilderframework.MultiThreadedDataFlowExecutorTest$TestListenerAfterExecutionError.beforeExecute:73
+Starting com.flipkart.databuilderframework.MultiThreadedDataFlowExecutorTest$TestListener.beforeExecute:24
+Finish com.flipkart.databuilderframework.MultiThreadedDataFlowExecutorTest$TestListener.beforeExecute:24
+Starting com.fasterxml.jackson.databind.jsontype.impl.TypeNameIdResolver.idFromValue:85
+Finish com.fasterxml.jackson.databind.jsontype.impl.TypeNameIdResolver.idFromValue:85
+Starting com.fasterxml.jackson.databind.deser.std.PrimitiveArrayDeserializers.add:62
+Finish com.fasterxml.jackson.databind.deser.std.PrimitiveArrayDeserializers.add:62
+Starting com.google.common.collect.AbstractIndexedListIterator.next:81
+Finish com.google.common.collect.AbstractIndexedListIterator.next:81
+Starting com.flipkart.databuilderframework.engine.DataFlowBuilder.findBuilder:168
+Finish com.flipkart.databuilderframework.engine.DataFlowBuilder.findBuilder:168
+Starting com.flipkart.databuilderframework.DataFlowExecutorTest$TestListenerBeforeExecutionError.afterExecute:55
+Finish com.flipkart.databuilderframework.DataFlowExecutorTest$TestListenerBeforeExecutionError.afterExecute:55
+Starting com.flipkart.databuilderframework.TestBuilderA.process:13
+Finish com.flipkart.databuilderframework.TestBuilderA.process:13
+Starting com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer.<clinit>:28
+Finish com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer.<clinit>:28
+Starting com.flipkart.databuilderframework.TestBuilderError.process:14
+Finish com.flipkart.databuilderframework.TestBuilderError.process:14
+Starting com.fasterxml.jackson.databind.util.ClassUtil._addSuperTypes:41
+Finish com.fasterxml.jackson.databind.util.ClassUtil._addSuperTypes:41
+Starting com.fasterxml.jackson.databind.ser.BeanSerializerFactory.findBeanProperties:540
+Finish com.fasterxml.jackson.databind.ser.BeanSerializerFactory.findBeanProperties:540
+Starting com.flipkart.databuilderframework.TestBuilderB.process:13
+Finish com.flipkart.databuilderframework.TestBuilderB.process:13
+Starting com.fasterxml.jackson.core.json.WriterBasedJsonGenerator._writeFieldName:226
+Finish com.fasterxml.jackson.core.json.WriterBasedJsonGenerator._writeFieldName:226
+Starting com.google.common.collect.ImmutableCollection.<clinit>:44
+Finish com.google.common.collect.ImmutableCollection.<clinit>:44
+Starting com.google.common.collect.ImmutableSet.<clinit>:0
+Finish com.google.common.collect.ImmutableSet.<clinit>:0
+Starting com.flipkart.databuilderframework.flowtest.tests.LoopTest.listPrint:93
+Finish com.flipkart.databuilderframework.flowtest.tests.LoopTest.listPrint:93
+Starting com.flipkart.databuilderframework.flowtest.tests.FlowTest.listPrint:111
+Finish com.flipkart.databuilderframework.flowtest.tests.FlowTest.listPrint:111
+Starting com.fasterxml.jackson.databind.util.ArrayBuilders$ArrayIterator.<init>:292
+Finish com.fasterxml.jackson.databind.util.ArrayBuilders$ArrayIterator.<init>:292
+Starting com.flipkart.databuilderframework.engine.DataFlowExecutor.registerExecutionListener:62
+Finish com.flipkart.databuilderframework.engine.DataFlowExecutor.registerExecutionListener:62
+Starting com.google.common.collect.ImmutableSet$ArrayImmutableSet.<clinit>:0
+Finish com.google.common.collect.ImmutableSet$ArrayImmutableSet.<clinit>:0
+Starting com.google.common.collect.RegularImmutableSet.<clinit>:0
+Finish com.google.common.collect.RegularImmutableSet.<clinit>:0
+Starting com.fasterxml.jackson.databind.introspect.AnnotatedMethodMap.add:23
+Finish com.fasterxml.jackson.databind.introspect.AnnotatedMethodMap.add:23
+Starting com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._sortProperties:284
+Finish com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._sortProperties:284
+Starting com.fasterxml.jackson.databind.ser.BasicSerializerFactory.buildMapSerializer:636
+Finish com.fasterxml.jackson.databind.ser.BasicSerializerFactory.buildMapSerializer:636
+Starting com.fasterxml.jackson.core.Base64Variant.<init>:61
+Finish com.fasterxml.jackson.core.Base64Variant.<init>:61
+Starting com.flipkart.databuilderframework.engine.DataFlowBuilder$DependencyInfoManager.get:260
+Finish com.flipkart.databuilderframework.engine.DataFlowBuilder$DependencyInfoManager.get:260
+Starting com.flipkart.databuilderframework.engine.DataFlowBuilder$DependencyNodeManager.get:305
+Finish com.flipkart.databuilderframework.engine.DataFlowBuilder$DependencyNodeManager.get:305
+Starting com.fasterxml.jackson.databind.ser.std.NumberSerializers.addAll:23
+Finish com.fasterxml.jackson.databind.ser.std.NumberSerializers.addAll:23
+Starting com.fasterxml.jackson.databind.jsontype.impl.StdSubtypeResolver._collectAndResolve:141
+Finish com.fasterxml.jackson.databind.jsontype.impl.StdSubtypeResolver._collectAndResolve:141
+Starting com.flipkart.databuilderframework.engine.DataFlowBuilder.generateDependencyTree:132
+Finish com.flipkart.databuilderframework.engine.DataFlowBuilder.generateDependencyTree:132
+Starting com.flipkart.databuilderframework.engine.DataFlowBuilder.rankNodes:115
+Finish com.flipkart.databuilderframework.engine.DataFlowBuilder.rankNodes:115
+Starting com.flipkart.databuilderframework.MultiThreadedDataFlowExecutorTest$TestListener.afterExecute:31
+Finish com.flipkart.databuilderframework.MultiThreadedDataFlowExecutorTest$TestListener.afterExecute:31
+Starting com.flipkart.databuilderframework.DataFlowExecutorTest$TestListener.afterExecute:30
+Finish com.flipkart.databuilderframework.DataFlowExecutorTest$TestListener.afterExecute:30
+Starting com.flipkart.databuilderframework.flowtest.tests.FlowTest.testRunSingleStep:87
+Finish com.flipkart.databuilderframework.flowtest.tests.FlowTest.testRunSingleStep:87
+Starting com.flipkart.databuilderframework.engine.DataBuilderContext.saveContextData:38
+Finish com.flipkart.databuilderframework.engine.DataBuilderContext.saveContextData:38
+Starting com.google.common.collect.ImmutableSet$ArrayImmutableSet.<init>:382
+Finish com.google.common.collect.ImmutableSet$ArrayImmutableSet.<init>:382
+Starting com.fasterxml.jackson.databind.ser.BasicSerializerFactory.<clinit>:54
+Finish com.fasterxml.jackson.databind.ser.BasicSerializerFactory.<clinit>:54
+Starting com.flipkart.databuilderframework.DataFlowExecutorTest$TestListener.afterException:38
+Finish com.flipkart.databuilderframework.DataFlowExecutorTest$TestListener.afterException:38
+Starting com.flipkart.databuilderframework.DataFlowExecutorTest$TestListenerBeforeExecutionError.afterException:63
+Finish com.flipkart.databuilderframework.DataFlowExecutorTest$TestListenerBeforeExecutionError.afterException:63
+
+#1
+Inspecting hot method com.flipkart.databuilderframework.engine.DataFlowBuilder.generateDependencyTree:132...
+Checking for isolation...
+423454,130466,125563,4903
+Total 423454 (29159 unique) events are in hot method
+Total 130466 (27 unique) traces are in hot method
+Total 125563 (18 unique) isolated traces are in hot method
+Total 4903 (9 unique) non-isolated traces that have events in hot method
+Total 326696 (62 unique) events are in isolated traces
+Total 189499 (91678 unique) events are in non-isolated traces (96758 / 29097 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (31063 traces / 1 unique traces) (62126 events / 2 unique events)
+	StringBuilder_ThreadSafe (31063 traces / 1 unique traces) (93189 events / 3 unique events)
+	Iterator_RemoveOnce (16472 traces / 5 unique traces) (29117 events / 17 unique events)
+	Collections_SortBeforeBinarySearch (16472 traces / 5 unique traces) (29021 events / 17 unique events)
+	Iterator_HasNext (14021 traces / 1 unique traces) (42063 events / 3 unique events)
+	Collection_UnsafeIterator (14021 traces / 1 unique traces) (56084 events / 4 unique events)
+	ListIterator_RemoveOnce (2451 traces / 4 unique traces) (15096 events / 16 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (2451 traces / 4 unique traces) (47739 events / 52 unique events) (32643 events / 36 unique events in hot method)
+	Collection_UnsafeIterator (2451 traces / 4 unique traces) (50190 events / 56 unique events) (35094 events / 40 unique events in hot method)
+	Set_ItselfAsElement (1 traces / 1 unique traces) (91570 events / 91570 unique events) (29021 events / 29021 unique events in hot method)
+Classifier (com.flipkart.databuilderframework.engine.DataFlowBuilder.generateDependencyTree:132): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#2
+Inspecting hot method com.flipkart.databuilderframework.engine.DataFlowBuilder.rankNodes:115...
+Checking for isolation...
+238288,78594,78594,0
+Total 238288 (103 unique) events are in hot method
+Total 78594 (17 unique) traces are in hot method
+Total 78594 (17 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 238288 (103 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (31061 traces / 6 unique traces) (89103 events / 40 unique events)
+	Collection_UnsafeIterator (31061 traces / 6 unique traces) (120164 events / 46 unique events)
+	Iterator_RemoveOnce (16472 traces / 5 unique traces) (29021 events / 17 unique events)
+Classifier (com.flipkart.databuilderframework.engine.DataFlowBuilder.rankNodes:115): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#3
+Inspecting hot method com.flipkart.databuilderframework.engine.DataSetAccessor.copy:125...
+Checking for isolation...
+197243,22426,22424,2
+Total 197243 (37164 unique) events are in hot method
+Total 22426 (51 unique) traces are in hot method
+Total 22424 (49 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 160671 (592 unique) events are in isolated traces
+Total 214288 (214288 unique) events are in non-isolated traces (36572 / 36572 unique are in hot method)
+Specs that have isolated traces:
+	Map_UnsafeIterator (8148 traces / 13 unique traces) (52890 events / 185 unique events)
+	Iterator_HasNext (4074 traces / 12 unique traces) (40668 events / 160 unique events)
+	Collection_UnsafeIterator (4074 traces / 12 unique traces) (44742 events / 172 unique events)
+	Map_CollectionViewAdd (4074 traces / 1 unique traces) (4074 events / 1 unique events)
+	Iterator_RemoveOnce (2054 traces / 11 unique traces) (18297 events / 74 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (107144 events / 107144 unique events) (18286 events / 18286 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (107144 events / 107144 unique events) (18286 events / 18286 unique events in hot method)
+Classifier (com.flipkart.databuilderframework.engine.DataSetAccessor.copy:125): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#4
+Inspecting hot method com.flipkart.databuilderframework.engine.SimpleDataFlowExecutor.run:25...
+Checking for isolation...
+191029,60830,60826,4
+Total 191029 (33589 unique) events are in hot method
+Total 60830 (61 unique) traces are in hot method
+Total 60826 (57 unique) isolated traces are in hot method
+Total 4 (4 unique) non-isolated traces that have events in hot method
+Total 157789 (349 unique) events are in isolated traces
+Total 321947 (321947 unique) events are in non-isolated traces (33240 / 33240 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (20268 traces / 18 unique traces) (42954 events / 130 unique events)
+	Collection_UnsafeIterator (20268 traces / 18 unique traces) (63222 events / 148 unique events)
+	Appendable_ThreadSafe (8051 traces / 3 unique traces) (16102 events / 6 unique events)
+	StringBuilder_ThreadSafe (8051 traces / 3 unique traces) (24153 events / 9 unique events)
+	Iterator_RemoveOnce (4188 traces / 15 unique traces) (11358 events / 56 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (107144 events / 107144 unique events) (8048 events / 8048 unique events in hot method)
+	Set_ItselfAsElement (1 traces / 1 unique traces) (91570 events / 91570 unique events) (9096 events / 9096 unique events in hot method)
+	TreeMap_Comparable (1 traces / 1 unique traces) (16089 events / 16089 unique events) (8048 events / 8048 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (107144 events / 107144 unique events) (8048 events / 8048 unique events in hot method)
+Classifier (com.flipkart.databuilderframework.engine.SimpleDataFlowExecutor.run:25): CUT,ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#5
+Inspecting hot method com.flipkart.databuilderframework.engine.DataFlowBuilder.generateGraph:38...
+Checking for isolation...
+166164,18394,18394,0
+Total 166164 (559 unique) events are in hot method
+Total 18394 (52 unique) traces are in hot method
+Total 18394 (52 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 166164 (559 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (6154 traces / 10 unique traces) (22276 events / 42 unique events)
+	Map_UnsafeIterator (4080 traces / 11 unique traces) (44608 events / 161 unique events)
+	Iterator_RemoveOnce (2040 traces / 10 unique traces) (18224 events / 65 unique events)
+	Map_CollectionViewAdd (2040 traces / 1 unique traces) (2040 events / 1 unique events)
+	Iterator_HasNext (2040 traces / 10 unique traces) (38488 events / 140 unique events)
+	Collection_UnsafeIterator (2040 traces / 10 unique traces) (40528 events / 150 unique events)
+Classifier (com.flipkart.databuilderframework.engine.DataFlowBuilder.generateGraph:38): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE
+
+#6
+Inspecting hot method com.flipkart.databuilderframework.model.ExecutionGraph.deepCopy:32...
+Checking for isolation...
+138900,24314,24312,2
+Total 138900 (105 unique) events are in hot method
+Total 24314 (24 unique) traces are in hot method
+Total 24312 (22 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 138897 (102 unique) events are in isolated traces
+Total 195 (195 unique) events are in non-isolated traces (3 / 3 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (6079 traces / 6 unique traces) (46299 events / 34 unique events)
+	Collection_UnsafeIterator (6079 traces / 6 unique traces) (52378 events / 40 unique events)
+	Collections_SortBeforeBinarySearch (6077 traces / 5 unique traces) (20110 events / 14 unique events)
+	Iterator_RemoveOnce (6077 traces / 5 unique traces) (20110 events / 14 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (130 events / 130 unique events) (2 events / 2 unique events in hot method)
+	Iterator_HasNext (1 traces / 1 unique traces) (65 events / 65 unique events) (1 events / 1 unique events in hot method)
+Classifier (com.flipkart.databuilderframework.model.ExecutionGraph.deepCopy:32): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_SINGLE_TRACE
+
+#7
+Inspecting hot method com.flipkart.databuilderframework.engine.DataFlowBuilder$FlattenedDataRoute.addOutputData:201...
+Checking for isolation...
+122716,14194,14190,4
+Total 122716 (91694 unique) events are in hot method
+Total 14194 (12 unique) traces are in hot method
+Total 14190 (8 unique) isolated traces are in hot method
+Total 4 (4 unique) non-isolated traces that have events in hot method
+Total 31421 (399 unique) events are in isolated traces
+Total 320814 (320814 unique) events are in non-isolated traces (91295 / 91295 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsynchronizedAddAll (14190 traces / 8 unique traces) (31421 events / 399 unique events)
+Specs that have non-isolated traces:
+	CharSequence_NotInSet (1 traces / 1 unique traces) (14956 events / 14956 unique events) (14953 events / 14953 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (107144 events / 107144 unique events) (16184 events / 16184 unique events in hot method)
+	Set_ItselfAsElement (1 traces / 1 unique traces) (91570 events / 91570 unique events) (43974 events / 43974 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (107144 events / 107144 unique events) (16184 events / 16184 unique events in hot method)
+Classifier (com.flipkart.databuilderframework.engine.DataFlowBuilder$FlattenedDataRoute.addOutputData:201): CUT,ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#8
+Inspecting hot method com.flipkart.databuilderframework.engine.MultiThreadedDataFlowExecutor.run:29...
+Checking for isolation...
+109518,14363,14358,5
+Total 109518 (33444 unique) events are in hot method
+Total 14363 (41 unique) traces are in hot method
+Total 14358 (36 unique) isolated traces are in hot method
+Total 5 (5 unique) non-isolated traces that have events in hot method
+Total 76306 (232 unique) events are in isolated traces
+Total 336903 (336903 unique) events are in non-isolated traces (33212 / 33212 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (4106 traces / 11 unique traces) (30584 events / 94 unique events)
+	Iterator_HasNext (4106 traces / 11 unique traces) (26478 events / 83 unique events)
+	Iterator_RemoveOnce (4106 traces / 10 unique traces) (11189 events / 36 unique events)
+	Collections_SortBeforeBinarySearch (2038 traces / 2 unique traces) (8044 events / 8 unique events)
+	Collection_UnsynchronizedAddAll (2 traces / 2 unique traces) (11 events / 11 unique events)
+Specs that have non-isolated traces:
+	CharSequence_NotInSet (1 traces / 1 unique traces) (14956 events / 14956 unique events) (3 events / 3 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (107144 events / 107144 unique events) (8041 events / 8041 unique events in hot method)
+	Set_ItselfAsElement (1 traces / 1 unique traces) (91570 events / 91570 unique events) (9086 events / 9086 unique events in hot method)
+	TreeMap_Comparable (1 traces / 1 unique traces) (16089 events / 16089 unique events) (8041 events / 8041 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (107144 events / 107144 unique events) (8041 events / 8041 unique events in hot method)
+Classifier (com.flipkart.databuilderframework.engine.MultiThreadedDataFlowExecutor.run:29): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#9
+Inspecting hot method com.flipkart.databuilderframework.engine.MultiThreadedDataFlowExecutor$BuilderRunner.call:182...
+Checking for isolation...
+88889,48286,48286,0
+Total 88889 (90 unique) events are in hot method
+Total 48286 (19 unique) traces are in hot method
+Total 48286 (19 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 88889 (90 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (16088 traces / 5 unique traces) (32336 events / 34 unique events)
+	Iterator_HasNext (16088 traces / 5 unique traces) (16248 events / 29 unique events)
+	StringBuilder_ThreadSafe (8045 traces / 3 unique traces) (24135 events / 9 unique events)
+	Appendable_ThreadSafe (8045 traces / 3 unique traces) (16090 events / 6 unique events)
+	Iterator_RemoveOnce (20 traces / 3 unique traces) (80 events / 12 unique events)
+Classifier (com.flipkart.databuilderframework.engine.MultiThreadedDataFlowExecutor$BuilderRunner.call:182): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#10
+Inspecting hot method com.google.common.collect.Iterators$7.computeNext:647...
+Checking for isolation...
+83362,50604,32308,18296
+Total 83362 (90 unique) events are in hot method
+Total 50604 (22 unique) traces are in hot method
+Total 32308 (9 unique) isolated traces are in hot method
+Total 18296 (13 unique) non-isolated traces that have events in hot method
+Total 46452 (22 unique) events are in isolated traces
+Total 57480 (105 unique) events are in non-isolated traces (36910 / 68 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (16154 traces / 4 unique traces) (16220 events / 10 unique events)
+	Iterator_HasNext (14012 traces / 1 unique traces) (28024 events / 2 unique events)
+	ListIterator_RemoveOnce (2142 traces / 4 unique traces) (2208 events / 10 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (16154 traces / 7 unique traces) (50829 events / 57 unique events) (32467 events / 35 unique events in hot method)
+	Iterator_HasNext (2142 traces / 6 unique traces) (6651 events / 48 unique events) (4443 events / 33 unique events in hot method)
+Classifier (com.google.common.collect.Iterators$7.computeNext:647): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#11
+Inspecting hot method com.google.common.collect.AbstractIndexedListIterator.next:81...
+Checking for isolation...
+81503,18451,8977,9474
+Total 81503 (132 unique) events are in hot method
+Total 18451 (40 unique) traces are in hot method
+Total 8977 (10 unique) isolated traces are in hot method
+Total 9474 (30 unique) non-isolated traces that have events in hot method
+Total 46225 (34 unique) events are in isolated traces
+Total 115815 (333 unique) events are in non-isolated traces (35278 / 98 unique are in hot method)
+Specs that have isolated traces:
+	ListIterator_hasNextPrevious (6857 traces / 5 unique traces) (31932 events / 17 unique events)
+	Iterator_HasNext (2120 traces / 5 unique traces) (14293 events / 17 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (4737 traces / 15 unique traces) (60276 events / 174 unique events) (17639 events / 49 unique events in hot method)
+	Iterator_HasNext (4737 traces / 15 unique traces) (55539 events / 159 unique events) (17639 events / 49 unique events in hot method)
+Classifier (com.google.common.collect.AbstractIndexedListIterator.next:81): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#12
+Inspecting hot method com.flipkart.databuilderframework.engine.DataFlowBuilder.findBuilder:168...
+Checking for isolation...
+72960,29184,29184,0
+Total 72960 (20 unique) events are in hot method
+Total 29184 (8 unique) traces are in hot method
+Total 29184 (8 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 72960 (20 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (14592 traces / 4 unique traces) (43776 events / 12 unique events)
+	Appendable_ThreadSafe (14592 traces / 4 unique traces) (29184 events / 8 unique events)
+Classifier (com.flipkart.databuilderframework.engine.DataFlowBuilder.findBuilder:168): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#13
+Inspecting hot method com.google.common.collect.Sets$2.isEmpty:655...
+Checking for isolation...
+48462,32308,32308,0
+Total 48462 (4 unique) events are in hot method
+Total 32308 (3 unique) traces are in hot method
+Total 32308 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 48462 (4 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (16154 traces / 1 unique traces) (32308 events / 2 unique events)
+	Iterator_HasNext (16154 traces / 2 unique traces) (16154 events / 2 unique events)
+Classifier (com.google.common.collect.Sets$2.isEmpty:655): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE
+
+#14
+Inspecting hot method com.flipkart.databuilderframework.engine.DataSetAccessor.merge:79...
+Checking for isolation...
+48269,2031,0,2031
+Total 48269 (32255 unique) events are in hot method
+Total 2031 (18 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2031 (18 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 246496 (214454 unique) events are in non-isolated traces (48269 / 32255 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (2029 traces / 16 unique traces) (32208 events / 166 unique events) (16089 events / 75 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (107144 events / 107144 unique events) (16090 events / 16090 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (107144 events / 107144 unique events) (16090 events / 16090 unique events in hot method)
+Classifier (com.flipkart.databuilderframework.engine.DataSetAccessor.merge:79): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#15
+Inspecting hot method com.flipkart.databuilderframework.engine.DataFlowBuilder$DependencyInfoManager.get:260...
+Checking for isolation...
+36448,2,0,2
+Total 36448 (36448 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 214288 (214288 unique) events are in non-isolated traces (36448 / 36448 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (107144 events / 107144 unique events) (18224 events / 18224 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (107144 events / 107144 unique events) (18224 events / 18224 unique events in hot method)
+Classifier (com.flipkart.databuilderframework.engine.DataFlowBuilder$DependencyInfoManager.get:260): CUT,NOT_REDUNDANT_TRACES
+
+#16
+Inspecting hot method com.flipkart.databuilderframework.engine.DataFlowBuilder$DependencyNodeManager.get:305...
+Checking for isolation...
+36448,2,0,2
+Total 36448 (36448 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 214288 (214288 unique) events are in non-isolated traces (36448 / 36448 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (107144 events / 107144 unique events) (18224 events / 18224 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (107144 events / 107144 unique events) (18224 events / 18224 unique events in hot method)
+Classifier (com.flipkart.databuilderframework.engine.DataFlowBuilder$DependencyNodeManager.get:305): CUT,NOT_REDUNDANT_TRACES
+
+#17
+Inspecting hot method com.flipkart.databuilderframework.engine.DataSetAccessor.checkForData:101...
+Checking for isolation...
+32264,4078,2049,2029
+Total 32264 (145 unique) events are in hot method
+Total 4078 (27 unique) traces are in hot method
+Total 2049 (11 unique) isolated traces are in hot method
+Total 2029 (16 unique) non-isolated traces that have events in hot method
+Total 16145 (54 unique) events are in isolated traces
+Total 32208 (166 unique) events are in non-isolated traces (16119 / 91 unique are in hot method)
+Specs that have isolated traces:
+	Map_CollectionViewAdd (2039 traces / 9 unique traces) (16132 events / 49 unique events)
+	Map_UnsafeIterator (10 traces / 2 unique traces) (13 events / 5 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (2029 traces / 16 unique traces) (32208 events / 166 unique events) (16119 events / 91 unique events in hot method)
+Classifier (com.flipkart.databuilderframework.engine.DataSetAccessor.checkForData:101): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#18
+Inspecting hot method com.google.common.collect.ImmutableMap.copyOf:264...
+Checking for isolation...
+32188,4064,4064,0
+Total 32188 (98 unique) events are in hot method
+Total 4064 (18 unique) traces are in hot method
+Total 4064 (18 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 32188 (98 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Map_CollectionViewAdd (2032 traces / 9 unique traces) (16094 events / 49 unique events)
+	Map_UnsafeIterator (2032 traces / 9 unique traces) (16094 events / 49 unique events)
+Classifier (com.google.common.collect.ImmutableMap.copyOf:264): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#19
+Inspecting hot method com.flipkart.databuilderframework.engine.DataSetAccessor.merge:89...
+Checking for isolation...
+20640,6125,6123,2
+Total 20640 (4245 unique) events are in hot method
+Total 6125 (19 unique) traces are in hot method
+Total 6123 (17 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 16494 (99 unique) events are in isolated traces
+Total 214288 (214288 unique) events are in non-isolated traces (4146 / 4146 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (2041 traces / 6 unique traces) (6189 events / 39 unique events)
+	Collection_UnsafeIterator (2041 traces / 6 unique traces) (8230 events / 45 unique events)
+	Iterator_RemoveOnce (2041 traces / 5 unique traces) (2075 events / 15 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (107144 events / 107144 unique events) (2073 events / 2073 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (107144 events / 107144 unique events) (2073 events / 2073 unique events in hot method)
+Classifier (com.flipkart.databuilderframework.engine.DataSetAccessor.merge:89): LIB,ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#20
+Inspecting hot method com.google.common.collect.Sets$2.iterator:649...
+Checking for isolation...
+16154,16154,0,16154
+Total 16154 (7 unique) events are in hot method
+Total 16154 (7 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 16154 (7 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 50829 (57 unique) events are in non-isolated traces (16154 / 7 unique are in hot method)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (16154 traces / 7 unique traces) (50829 events / 57 unique events) (16154 events / 7 unique events in hot method)
+Classifier (com.google.common.collect.Sets$2.iterator:649): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#21
+Inspecting hot method com.flipkart.databuilderframework.speed.ConcurrencyTest.testSpeed:58...
+Checking for isolation...
+10000,4000,4000,0
+Total 10000 (10 unique) events are in hot method
+Total 4000 (4 unique) traces are in hot method
+Total 4000 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 10000 (10 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (2000 traces / 2 unique traces) (6000 events / 6 unique events)
+	Appendable_ThreadSafe (2000 traces / 2 unique traces) (4000 events / 4 unique events)
+Classifier (com.flipkart.databuilderframework.speed.ConcurrencyTest.testSpeed:58): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#22
+Inspecting hot method com.flipkart.databuilderframework.engine.DataBuilderMetadataManager.register:35...
+Checking for isolation...
+5434,837,558,279
+Total 5434 (2721 unique) events are in hot method
+Total 837 (28 unique) traces are in hot method
+Total 558 (17 unique) isolated traces are in hot method
+Total 279 (11 unique) non-isolated traces that have events in hot method
+Total 1855 (772 unique) events are in isolated traces
+Total 308210 (305966 unique) events are in non-isolated traces (3579 / 1949 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (176 traces / 5 unique traces) (361 events / 17 unique events)
+	Collections_SortBeforeBinarySearch (164 traces / 2 unique traces) (176 events / 3 unique events)
+	ListIterator_RemoveOnce (138 traces / 4 unique traces) (323 events / 16 unique events)
+	Collection_UnsafeIterator (38 traces / 1 unique traces) (152 events / 4 unique events)
+	Iterator_HasNext (38 traces / 1 unique traces) (114 events / 3 unique events)
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (4 events / 4 unique events)
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+	SortedSet_Comparable (1 traces / 1 unique traces) (361 events / 361 unique events)
+	TreeSet_Comparable (1 traces / 1 unique traces) (361 events / 361 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (138 traces / 4 unique traces) (1245 events / 56 unique events) (922 events / 40 unique events in hot method)
+	Iterator_HasNext (138 traces / 4 unique traces) (1107 events / 52 unique events) (784 events / 36 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (107144 events / 107144 unique events) (756 events / 756 unique events in hot method)
+	Set_ItselfAsElement (1 traces / 1 unique traces) (91570 events / 91570 unique events) (361 events / 361 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (107144 events / 107144 unique events) (756 events / 756 unique events in hot method)
+Classifier (com.flipkart.databuilderframework.engine.DataBuilderMetadataManager.register:35): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,ISOLATED_SINGLE_TRACE,NOT_ISOLATED_MULTIPLE_UNIQUE,RAW_ISOLATED_SINGLE_TRACE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#23
+Inspecting hot method com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._addInjectables:546...
+Checking for isolation...
+4286,231,155,76
+Total 4286 (1269 unique) events are in hot method
+Total 231 (50 unique) traces are in hot method
+Total 155 (30 unique) isolated traces are in hot method
+Total 76 (20 unique) non-isolated traces that have events in hot method
+Total 2014 (581 unique) events are in isolated traces
+Total 2585 (889 unique) events are in non-isolated traces (2272 / 688 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (64 traces / 13 unique traces) (1256 events / 365 unique events)
+	Iterator_RemoveOnce (64 traces / 13 unique traces) (596 events / 176 unique events)
+	Collection_UnsafeIterator (27 traces / 4 unique traces) (162 events / 40 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (38 traces / 10 unique traces) (1288 events / 468 unique events) (1141 events / 349 unique events in hot method)
+	Map_UnsafeIterator (37 traces / 9 unique traces) (1232 events / 356 unique events) (1121 events / 329 unique events in hot method)
+	Iterator_HasNext (1 traces / 1 unique traces) (65 events / 65 unique events) (10 events / 10 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._addInjectables:546): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_SINGLE_TRACE
+
+#24
+Inspecting hot method com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._addMethods:440...
+Checking for isolation...
+3905,148,74,74
+Total 3905 (1147 unique) events are in hot method
+Total 148 (36 unique) traces are in hot method
+Total 74 (18 unique) isolated traces are in hot method
+Total 74 (18 unique) non-isolated traces that have events in hot method
+Total 1663 (489 unique) events are in isolated traces
+Total 2390 (694 unique) events are in non-isolated traces (2242 / 658 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (37 traces / 9 unique traces) (1121 events / 329 unique events)
+	Iterator_RemoveOnce (37 traces / 9 unique traces) (542 events / 160 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (37 traces / 9 unique traces) (1158 events / 338 unique events) (1121 events / 329 unique events in hot method)
+	Map_UnsafeIterator (37 traces / 9 unique traces) (1232 events / 356 unique events) (1121 events / 329 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._addMethods:440): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#25
+Inspecting hot method com.fasterxml.jackson.databind.introspect.AnnotatedClass.resolveClassAnnotations:292...
+Checking for isolation...
+1278,327,327,0
+Total 1278 (156 unique) events are in hot method
+Total 327 (20 unique) traces are in hot method
+Total 327 (20 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1278 (156 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (126 traces / 7 unique traces) (486 events / 61 unique events)
+	Collection_UnsafeIterator (126 traces / 7 unique traces) (612 events / 68 unique events)
+	Iterator_RemoveOnce (75 traces / 6 unique traces) (180 events / 27 unique events)
+Classifier (com.fasterxml.jackson.databind.introspect.AnnotatedClass.resolveClassAnnotations:292): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#26
+Inspecting hot method com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector.collect:228...
+Checking for isolation...
+1236,365,198,167
+Total 1236 (264 unique) events are in hot method
+Total 365 (39 unique) traces are in hot method
+Total 198 (22 unique) isolated traces are in hot method
+Total 167 (17 unique) non-isolated traces that have events in hot method
+Total 602 (154 unique) events are in isolated traces
+Total 1150 (190 unique) events are in non-isolated traces (634 / 110 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (74 traces / 8 unique traces) (300 events / 68 unique events)
+	Iterator_HasNext (74 traces / 8 unique traces) (226 events / 60 unique events)
+	Iterator_RemoveOnce (50 traces / 6 unique traces) (76 events / 26 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (130 traces / 15 unique traces) (1020 events / 183 unique events) (560 events / 106 unique events in hot method)
+	Map_CollectionViewAdd (37 traces / 2 unique traces) (130 events / 7 unique events) (74 events / 4 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector.collect:228): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#27
+Inspecting hot method com.fasterxml.jackson.databind.introspect.AnnotatedMethodMap.add:23...
+Checking for isolation...
+1162,2,0,2
+Total 1162 (1162 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 214288 (214288 unique) events are in non-isolated traces (1162 / 1162 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (107144 events / 107144 unique events) (581 events / 581 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (107144 events / 107144 unique events) (581 events / 581 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.introspect.AnnotatedMethodMap.add:23): LIB,NOT_REDUNDANT_TRACES
+
+#28
+Inspecting hot method com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._sortProperties:284...
+Checking for isolation...
+915,287,133,154
+Total 915 (300 unique) events are in hot method
+Total 287 (35 unique) traces are in hot method
+Total 133 (13 unique) isolated traces are in hot method
+Total 154 (22 unique) non-isolated traces that have events in hot method
+Total 312 (79 unique) events are in isolated traces
+Total 215582 (214564 unique) events are in non-isolated traces (603 / 221 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (38 traces / 4 unique traces) (140 events / 34 unique events)
+	Iterator_HasNext (38 traces / 4 unique traces) (102 events / 30 unique events)
+	CharSequence_NotInMap (38 traces / 2 unique traces) (38 events / 2 unique events)
+	Iterator_RemoveOnce (19 traces / 3 unique traces) (32 events / 13 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (133 traces / 19 unique traces) (1218 events / 272 unique events) (444 events / 80 unique events in hot method)
+	Map_CollectionViewAdd (19 traces / 1 unique traces) (76 events / 4 unique events) (19 events / 1 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (107144 events / 107144 unique events) (70 events / 70 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (107144 events / 107144 unique events) (70 events / 70 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._sortProperties:284): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_ONE_UNIQUE,RAW_ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#29
+Inspecting hot method com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._removeUnwantedProperties:595...
+Checking for isolation...
+887,259,111,148
+Total 887 (191 unique) events are in hot method
+Total 259 (31 unique) traces are in hot method
+Total 111 (16 unique) isolated traces are in hot method
+Total 148 (15 unique) non-isolated traces that have events in hot method
+Total 517 (118 unique) events are in isolated traces
+Total 782 (144 unique) events are in non-isolated traces (370 / 73 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (37 traces / 5 unique traces) (222 events / 48 unique events)
+	Iterator_HasNext (37 traces / 5 unique traces) (185 events / 43 unique events)
+	Iterator_RemoveOnce (37 traces / 6 unique traces) (110 events / 27 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (111 traces / 14 unique traces) (708 events / 142 unique events) (333 events / 72 unique events in hot method)
+	Map_CollectionViewAdd (37 traces / 1 unique traces) (74 events / 2 unique events) (37 events / 1 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._removeUnwantedProperties:595): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_ONE_UNIQUE
+
+#30
+Inspecting hot method com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._renameProperties:643...
+Checking for isolation...
+599,247,99,148
+Total 599 (130 unique) events are in hot method
+Total 247 (26 unique) traces are in hot method
+Total 99 (11 unique) isolated traces are in hot method
+Total 148 (15 unique) non-isolated traces that have events in hot method
+Total 301 (77 unique) events are in isolated traces
+Total 782 (144 unique) events are in non-isolated traces (298 / 53 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (37 traces / 4 unique traces) (150 events / 34 unique events)
+	Iterator_HasNext (37 traces / 4 unique traces) (113 events / 30 unique events)
+	Iterator_RemoveOnce (25 traces / 3 unique traces) (38 events / 13 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (111 traces / 14 unique traces) (708 events / 142 unique events) (261 events / 52 unique events in hot method)
+	Map_CollectionViewAdd (37 traces / 1 unique traces) (74 events / 2 unique events) (37 events / 1 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._renameProperties:643): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_ONE_UNIQUE
+
+#31
+Inspecting hot method com.fasterxml.jackson.databind.introspect.AnnotatedClass.resolveMemberMethods:413...
+Checking for isolation...
+501,99,99,0
+Total 501 (138 unique) events are in hot method
+Total 99 (17 unique) traces are in hot method
+Total 99 (17 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 501 (138 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (37 traces / 6 unique traces) (230 events / 60 unique events)
+	Iterator_HasNext (37 traces / 6 unique traces) (193 events / 54 unique events)
+	Iterator_RemoveOnce (25 traces / 5 unique traces) (78 events / 24 unique events)
+Classifier (com.fasterxml.jackson.databind.introspect.AnnotatedClass.resolveMemberMethods:413): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#32
+Inspecting hot method com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._addCreators:394...
+Checking for isolation...
+482,92,90,2
+Total 482 (207 unique) events are in hot method
+Total 92 (17 unique) traces are in hot method
+Total 90 (15 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 350 (75 unique) events are in isolated traces
+Total 195 (195 unique) events are in non-isolated traces (132 / 132 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (30 traces / 5 unique traces) (164 events / 34 unique events)
+	Iterator_HasNext (30 traces / 5 unique traces) (134 events / 29 unique events)
+	Iterator_RemoveOnce (30 traces / 5 unique traces) (52 events / 12 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (130 events / 130 unique events) (88 events / 88 unique events in hot method)
+	Iterator_HasNext (1 traces / 1 unique traces) (65 events / 65 unique events) (44 events / 44 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._addCreators:394): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_SINGLE_TRACE
+
+#33
+Inspecting hot method com.fasterxml.jackson.databind.introspect.AnnotatedMethodMap.iterator:79...
+Checking for isolation...
+444,222,74,148
+Total 444 (76 unique) events are in hot method
+Total 222 (38 unique) traces are in hot method
+Total 74 (2 unique) isolated traces are in hot method
+Total 148 (36 unique) non-isolated traces that have events in hot method
+Total 148 (4 unique) events are in isolated traces
+Total 4780 (1388 unique) events are in non-isolated traces (296 / 72 unique are in hot method)
+Specs that have isolated traces:
+	Map_UnsafeIterator (37 traces / 1 unique traces) (74 events / 2 unique events)
+	Map_CollectionViewAdd (37 traces / 1 unique traces) (74 events / 2 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (74 traces / 18 unique traces) (2316 events / 676 unique events) (74 events / 18 unique events in hot method)
+	Map_UnsafeIterator (74 traces / 18 unique traces) (2464 events / 712 unique events) (222 events / 54 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.introspect.AnnotatedMethodMap.iterator:79): LIB,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#34
+Inspecting hot method com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._addFields:355...
+Checking for isolation...
+381,83,81,2
+Total 381 (122 unique) events are in hot method
+Total 83 (14 unique) traces are in hot method
+Total 81 (12 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 351 (92 unique) events are in isolated traces
+Total 195 (195 unique) events are in non-isolated traces (30 / 30 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (27 traces / 4 unique traces) (135 events / 36 unique events)
+	Collection_UnsafeIterator (27 traces / 4 unique traces) (162 events / 40 unique events)
+	Iterator_RemoveOnce (27 traces / 4 unique traces) (54 events / 16 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (130 events / 130 unique events) (20 events / 20 unique events in hot method)
+	Iterator_HasNext (1 traces / 1 unique traces) (65 events / 65 unique events) (10 events / 10 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._addFields:355): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_SINGLE_TRACE
+
+#35
+Inspecting hot method com.flipkart.databuilderframework.flowtest.tests.LoopTest.listPrint:93...
+Checking for isolation...
+354,66,63,3
+Total 354 (239 unique) events are in hot method
+Total 66 (20 unique) traces are in hot method
+Total 63 (17 unique) isolated traces are in hot method
+Total 3 (3 unique) non-isolated traces that have events in hot method
+Total 300 (185 unique) events are in isolated traces
+Total 57 (57 unique) events are in non-isolated traces (54 / 54 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (27 traces / 4 unique traces) (99 events / 30 unique events)
+	Appendable_ThreadSafe (27 traces / 4 unique traces) (72 events / 26 unique events)
+	Iterator_RemoveOnce (3 traces / 3 unique traces) (24 events / 24 unique events)
+	Iterator_HasNext (3 traces / 3 unique traces) (51 events / 51 unique events)
+	Collection_UnsafeIterator (3 traces / 3 unique traces) (54 events / 54 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (3 traces / 3 unique traces) (57 events / 57 unique events) (54 events / 54 unique events in hot method)
+Classifier (com.flipkart.databuilderframework.flowtest.tests.LoopTest.listPrint:93): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT,NOT_ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT
+
+#36
+Inspecting hot method com.flipkart.databuilderframework.flowtest.tests.FlowTest.listPrint:111...
+Checking for isolation...
+304,64,60,4
+Total 304 (207 unique) events are in hot method
+Total 64 (25 unique) traces are in hot method
+Total 60 (21 unique) isolated traces are in hot method
+Total 4 (4 unique) non-isolated traces that have events in hot method
+Total 256 (159 unique) events are in isolated traces
+Total 52 (52 unique) events are in non-isolated traces (48 / 48 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (24 traces / 5 unique traces) (84 events / 27 unique events)
+	Appendable_ThreadSafe (24 traces / 4 unique traces) (60 events / 20 unique events)
+	Iterator_RemoveOnce (4 traces / 4 unique traces) (20 events / 20 unique events)
+	Iterator_HasNext (4 traces / 4 unique traces) (44 events / 44 unique events)
+	Collection_UnsafeIterator (4 traces / 4 unique traces) (48 events / 48 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (4 traces / 4 unique traces) (52 events / 52 unique events) (48 events / 48 unique events in hot method)
+Classifier (com.flipkart.databuilderframework.flowtest.tests.FlowTest.listPrint:111): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT,NOT_ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT
+
+#37
+Inspecting hot method com.flipkart.databuilderframework.flowtest.tests.LoopTest.testRunSingleStep:47...
+Checking for isolation...
+275,75,72,3
+Total 275 (131 unique) events are in hot method
+Total 75 (21 unique) traces are in hot method
+Total 72 (18 unique) isolated traces are in hot method
+Total 3 (3 unique) non-isolated traces that have events in hot method
+Total 272 (128 unique) events are in isolated traces
+Total 57 (57 unique) events are in non-isolated traces (3 / 3 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (22 traces / 4 unique traces) (40 events / 22 unique events)
+	Iterator_HasNext (22 traces / 4 unique traces) (102 events / 48 unique events)
+	Collection_UnsafeIterator (22 traces / 4 unique traces) (124 events / 52 unique events)
+	Map_CollectionViewAdd (3 traces / 3 unique traces) (3 events / 3 unique events)
+	Map_UnsafeIterator (3 traces / 3 unique traces) (3 events / 3 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (3 traces / 3 unique traces) (57 events / 57 unique events) (3 events / 3 unique events in hot method)
+Classifier (com.flipkart.databuilderframework.flowtest.tests.LoopTest.testRunSingleStep:47): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT,NOT_ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT
+
+#38
+Inspecting hot method com.fasterxml.jackson.databind.util.BeanUtil.manglePropertyName:173...
+Checking for isolation...
+240,120,120,0
+Total 240 (2 unique) events are in hot method
+Total 120 (1 unique) traces are in hot method
+Total 120 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 240 (2 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (120 traces / 1 unique traces) (240 events / 2 unique events)
+Classifier (com.fasterxml.jackson.databind.util.BeanUtil.manglePropertyName:173): LIB,ISOLATED_ONE_UNIQUE
+
+#39
+Inspecting hot method com.fasterxml.jackson.databind.ser.BeanSerializerFactory.removeIgnorableTypes:660...
+Checking for isolation...
+227,59,57,2
+Total 227 (115 unique) events are in hot method
+Total 59 (13 unique) traces are in hot method
+Total 57 (11 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 189 (77 unique) events are in isolated traces
+Total 214288 (214288 unique) events are in non-isolated traces (38 / 38 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (23 traces / 4 unique traces) (94 events / 34 unique events)
+	Iterator_HasNext (23 traces / 4 unique traces) (71 events / 30 unique events)
+	Iterator_RemoveOnce (11 traces / 3 unique traces) (24 events / 13 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (107144 events / 107144 unique events) (19 events / 19 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (107144 events / 107144 unique events) (19 events / 19 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.ser.BeanSerializerFactory.removeIgnorableTypes:660): LIB,ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#40
+Inspecting hot method com.fasterxml.jackson.databind.introspect.AnnotationMap._add:94...
+Checking for isolation...
+224,2,0,2
+Total 224 (224 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 214288 (214288 unique) events are in non-isolated traces (224 / 224 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (107144 events / 107144 unique events) (112 events / 112 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (107144 events / 107144 unique events) (112 events / 112 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.introspect.AnnotationMap._add:94): LIB,NOT_REDUNDANT_TRACES
+
+#41
+Inspecting hot method com.fasterxml.jackson.databind.util.ClassUtil._addSuperTypes:41...
+Checking for isolation...
+180,75,75,0
+Total 180 (27 unique) events are in hot method
+Total 75 (6 unique) traces are in hot method
+Total 75 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 180 (27 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (75 traces / 6 unique traces) (180 events / 27 unique events)
+Classifier (com.fasterxml.jackson.databind.util.ClassUtil._addSuperTypes:41): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#42
+Inspecting hot method com.fasterxml.jackson.databind.ser.BeanSerializerFactory.findBeanProperties:540...
+Checking for isolation...
+177,44,44,0
+Total 177 (87 unique) events are in hot method
+Total 44 (12 unique) traces are in hot method
+Total 44 (12 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 177 (87 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (11 traces / 3 unique traces) (24 events / 13 unique events)
+	Collection_UnsafeIterator (11 traces / 3 unique traces) (70 events / 32 unique events)
+	Collections_SortBeforeBinarySearch (11 traces / 3 unique traces) (24 events / 13 unique events)
+	Iterator_HasNext (11 traces / 3 unique traces) (59 events / 29 unique events)
+Classifier (com.fasterxml.jackson.databind.ser.BeanSerializerFactory.findBeanProperties:540): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#43
+Inspecting hot method com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector.getProperties:139...
+Checking for isolation...
+167,167,0,167
+Total 167 (17 unique) events are in hot method
+Total 167 (17 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 167 (17 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 1150 (190 unique) events are in non-isolated traces (167 / 17 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (130 traces / 15 unique traces) (1020 events / 183 unique events) (130 events / 15 unique events in hot method)
+	Map_CollectionViewAdd (37 traces / 2 unique traces) (130 events / 7 unique events) (37 events / 2 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector.getProperties:139): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#44
+Inspecting hot method com.google.common.collect.RegularImmutableSet.<init>:40...
+Checking for isolation...
+159,159,159,0
+Total 159 (1 unique) events are in hot method
+Total 159 (1 unique) traces are in hot method
+Total 159 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 159 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Arrays_SortBeforeBinarySearch (159 traces / 1 unique traces) (159 events / 1 unique events)
+Classifier (com.google.common.collect.RegularImmutableSet.<init>:40): LIB,ISOLATED_ONE_UNIQUE
+
+#45
+Inspecting hot method com.google.common.collect.ImmutableSet$ArrayImmutableSet.<init>:382...
+Checking for isolation...
+159,159,159,0
+Total 159 (1 unique) events are in hot method
+Total 159 (1 unique) traces are in hot method
+Total 159 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 159 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Arrays_SortBeforeBinarySearch (159 traces / 1 unique traces) (159 events / 1 unique events)
+Classifier (com.google.common.collect.ImmutableSet$ArrayImmutableSet.<init>:382): LIB,ISOLATED_ONE_UNIQUE
+
+#46
+Inspecting hot method com.fasterxml.jackson.databind.ser.BasicSerializerFactory.<clinit>:54...
+Checking for isolation...
+153,7,3,4
+Total 153 (153 unique) events are in hot method
+Total 7 (7 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 4 (4 unique) non-isolated traces that have events in hot method
+Total 68 (68 unique) events are in isolated traces
+Total 214462 (214462 unique) events are in non-isolated traces (85 / 85 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (13 events / 13 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (28 events / 28 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (27 events / 27 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (1 traces / 1 unique traces) (29 events / 29 unique events) (28 events / 28 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (107144 events / 107144 unique events) (28 events / 28 unique events in hot method)
+	Serializable_NoArgConstructor (1 traces / 1 unique traces) (145 events / 145 unique events) (1 events / 1 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (107144 events / 107144 unique events) (28 events / 28 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.ser.BasicSerializerFactory.<clinit>:54): LIB,NOT_REDUNDANT_TRACES
+
+#47
+Inspecting hot method com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._property:769...
+Checking for isolation...
+148,2,0,2
+Total 148 (148 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 214288 (214288 unique) events are in non-isolated traces (148 / 148 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (107144 events / 107144 unique events) (74 events / 74 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (107144 events / 107144 unique events) (74 events / 74 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._property:769): LIB,NOT_REDUNDANT_TRACES
+
+#48
+Inspecting hot method com.fasterxml.jackson.databind.introspect.AnnotatedClass.resolveFields:462...
+Checking for isolation...
+135,108,108,0
+Total 135 (5 unique) events are in hot method
+Total 108 (4 unique) traces are in hot method
+Total 108 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 135 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (27 traces / 1 unique traces) (27 events / 1 unique events)
+	Map_UnsafeIterator (27 traces / 1 unique traces) (27 events / 1 unique events)
+	Collection_UnsynchronizedAddAll (27 traces / 1 unique traces) (54 events / 2 unique events)
+	Map_CollectionViewAdd (27 traces / 1 unique traces) (27 events / 1 unique events)
+Classifier (com.fasterxml.jackson.databind.introspect.AnnotatedClass.resolveFields:462): LIB,ISOLATED_ONE_UNIQUE
+
+#49
+Inspecting hot method com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeTypedFields:447...
+Checking for isolation...
+132,36,36,0
+Total 132 (96 unique) events are in hot method
+Total 36 (18 unique) traces are in hot method
+Total 36 (18 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 132 (96 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Map_UnsafeIterator (12 traces / 5 unique traces) (48 events / 33 unique events)
+	Iterator_HasNext (6 traces / 4 unique traces) (30 events / 24 unique events)
+	Collection_UnsafeIterator (6 traces / 4 unique traces) (36 events / 28 unique events)
+	Iterator_RemoveOnce (6 traces / 4 unique traces) (12 events / 10 unique events)
+	Map_CollectionViewAdd (6 traces / 1 unique traces) (6 events / 1 unique events)
+Classifier (com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeTypedFields:447): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE
+
+#50
+Inspecting hot method com.fasterxml.jackson.databind.jsontype.impl.TypeNameIdResolver.construct:41...
+Checking for isolation...
+120,38,36,2
+Total 120 (32 unique) events are in hot method
+Total 38 (5 unique) traces are in hot method
+Total 36 (3 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 96 (8 unique) events are in isolated traces
+Total 214288 (214288 unique) events are in non-isolated traces (24 / 24 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (12 traces / 1 unique traces) (36 events / 3 unique events)
+	Collection_UnsafeIterator (12 traces / 1 unique traces) (48 events / 4 unique events)
+	Iterator_RemoveOnce (12 traces / 1 unique traces) (12 events / 1 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (107144 events / 107144 unique events) (12 events / 12 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (107144 events / 107144 unique events) (12 events / 12 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.jsontype.impl.TypeNameIdResolver.construct:41): LIB,ISOLATED_ONE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#51
+Inspecting hot method com.fasterxml.jackson.databind.introspect.AnnotatedClass._findFields:668...
+Checking for isolation...
+108,2,0,2
+Total 108 (108 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 214288 (214288 unique) events are in non-isolated traces (108 / 108 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (107144 events / 107144 unique events) (54 events / 54 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (107144 events / 107144 unique events) (54 events / 54 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.introspect.AnnotatedClass._findFields:668): LIB,NOT_REDUNDANT_TRACES
+
+#52
+Inspecting hot method com.fasterxml.jackson.databind.ser.impl.StringCollectionSerializer.serializeContents:140...
+Checking for isolation...
+106,30,18,12
+Total 106 (23 unique) events are in hot method
+Total 30 (7 unique) traces are in hot method
+Total 18 (5 unique) isolated traces are in hot method
+Total 12 (2 unique) non-isolated traces that have events in hot method
+Total 40 (12 unique) events are in isolated traces
+Total 90 (15 unique) events are in non-isolated traces (66 / 11 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (8 traces / 2 unique traces) (14 events / 3 unique events)
+	ListIterator_RemoveOnce (6 traces / 1 unique traces) (12 events / 2 unique events)
+	Iterator_HasNext (2 traces / 1 unique traces) (6 events / 3 unique events)
+	Collection_UnsafeIterator (2 traces / 1 unique traces) (8 events / 4 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (6 traces / 1 unique traces) (42 events / 7 unique events) (30 events / 5 unique events in hot method)
+	Collection_UnsafeIterator (6 traces / 1 unique traces) (48 events / 8 unique events) (36 events / 6 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.ser.impl.StringCollectionSerializer.serializeContents:140): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_ONE_UNIQUE
+
+#53
+Inspecting hot method com.fasterxml.jackson.databind.ser.SerializerCache.addAndResolveNonTypedSerializer:133...
+Checking for isolation...
+92,18,0,18
+Total 92 (84 unique) events are in hot method
+Total 18 (14 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 18 (14 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 214420 (214396 unique) events are in non-isolated traces (92 / 84 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (16 traces / 12 unique traces) (132 events / 108 unique events) (46 events / 38 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (107144 events / 107144 unique events) (23 events / 23 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (107144 events / 107144 unique events) (23 events / 23 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.ser.SerializerCache.addAndResolveNonTypedSerializer:133): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#54
+Inspecting hot method com.fasterxml.jackson.databind.deser.BasicDeserializerFactory._add:88...
+Checking for isolation...
+86,2,0,2
+Total 86 (86 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 214288 (214288 unique) events are in non-isolated traces (86 / 86 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (107144 events / 107144 unique events) (43 events / 43 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (107144 events / 107144 unique events) (43 events / 43 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.deser.BasicDeserializerFactory._add:88): LIB,NOT_REDUNDANT_TRACES
+
+#55
+Inspecting hot method com.fasterxml.jackson.databind.ser.SerializerCache.addAndResolveNonTypedSerializer:155...
+Checking for isolation...
+76,18,0,18
+Total 76 (72 unique) events are in hot method
+Total 18 (14 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 18 (14 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 214420 (214396 unique) events are in non-isolated traces (76 / 72 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (16 traces / 12 unique traces) (132 events / 108 unique events) (38 events / 34 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (107144 events / 107144 unique events) (19 events / 19 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (107144 events / 107144 unique events) (19 events / 19 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.ser.SerializerCache.addAndResolveNonTypedSerializer:155): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#56
+Inspecting hot method com.flipkart.databuilderframework.MultiThreadedDataFlowExecutorTest$TestListenerAfterExceptionError.beforeExecute:100...
+Checking for isolation...
+70,20,20,0
+Total 70 (7 unique) events are in hot method
+Total 20 (2 unique) traces are in hot method
+Total 20 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 70 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (10 traces / 1 unique traces) (40 events / 4 unique events)
+	Appendable_ThreadSafe (10 traces / 1 unique traces) (30 events / 3 unique events)
+Classifier (com.flipkart.databuilderframework.MultiThreadedDataFlowExecutorTest$TestListenerAfterExceptionError.beforeExecute:100): CUT,ISOLATED_ONE_UNIQUE
+
+#57
+Inspecting hot method com.flipkart.databuilderframework.MultiThreadedDataFlowExecutorTest$TestListenerAfterExecutionError.beforeExecute:73...
+Checking for isolation...
+70,20,20,0
+Total 70 (7 unique) events are in hot method
+Total 20 (2 unique) traces are in hot method
+Total 20 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 70 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (10 traces / 1 unique traces) (40 events / 4 unique events)
+	Appendable_ThreadSafe (10 traces / 1 unique traces) (30 events / 3 unique events)
+Classifier (com.flipkart.databuilderframework.MultiThreadedDataFlowExecutorTest$TestListenerAfterExecutionError.beforeExecute:73): CUT,ISOLATED_ONE_UNIQUE
+
+#58
+Inspecting hot method com.flipkart.databuilderframework.MultiThreadedDataFlowExecutorTest$TestListener.beforeExecute:24...
+Checking for isolation...
+70,20,20,0
+Total 70 (7 unique) events are in hot method
+Total 20 (2 unique) traces are in hot method
+Total 20 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 70 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (10 traces / 1 unique traces) (40 events / 4 unique events)
+	Appendable_ThreadSafe (10 traces / 1 unique traces) (30 events / 3 unique events)
+Classifier (com.flipkart.databuilderframework.MultiThreadedDataFlowExecutorTest$TestListener.beforeExecute:24): CUT,ISOLATED_ONE_UNIQUE
+
+#59
+Inspecting hot method com.flipkart.databuilderframework.DataFlowExecutorTest$TestListener.beforeExecute:23...
+Checking for isolation...
+70,20,20,0
+Total 70 (7 unique) events are in hot method
+Total 20 (2 unique) traces are in hot method
+Total 20 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 70 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (10 traces / 1 unique traces) (30 events / 3 unique events)
+	StringBuilder_ThreadSafe (10 traces / 1 unique traces) (40 events / 4 unique events)
+Classifier (com.flipkart.databuilderframework.DataFlowExecutorTest$TestListener.beforeExecute:23): CUT,ISOLATED_ONE_UNIQUE
+
+#60
+Inspecting hot method com.flipkart.databuilderframework.DataFlowExecutorTest$TestListenerAfterExecutionError.beforeExecute:72...
+Checking for isolation...
+70,20,20,0
+Total 70 (7 unique) events are in hot method
+Total 20 (2 unique) traces are in hot method
+Total 20 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 70 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (10 traces / 1 unique traces) (30 events / 3 unique events)
+	StringBuilder_ThreadSafe (10 traces / 1 unique traces) (40 events / 4 unique events)
+Classifier (com.flipkart.databuilderframework.DataFlowExecutorTest$TestListenerAfterExecutionError.beforeExecute:72): CUT,ISOLATED_ONE_UNIQUE
+
+#61
+Inspecting hot method com.flipkart.databuilderframework.DataFlowExecutorTest$TestListenerAfterExceptionError.beforeExecute:99...
+Checking for isolation...
+70,20,20,0
+Total 70 (7 unique) events are in hot method
+Total 20 (2 unique) traces are in hot method
+Total 20 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 70 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (10 traces / 1 unique traces) (30 events / 3 unique events)
+	StringBuilder_ThreadSafe (10 traces / 1 unique traces) (40 events / 4 unique events)
+Classifier (com.flipkart.databuilderframework.DataFlowExecutorTest$TestListenerAfterExceptionError.beforeExecute:99): CUT,ISOLATED_ONE_UNIQUE
+
+#62
+Inspecting hot method com.fasterxml.jackson.databind.ser.impl.JsonSerializerMap.<init>:19...
+Checking for isolation...
+64,40,24,16
+Total 64 (28 unique) events are in hot method
+Total 40 (15 unique) traces are in hot method
+Total 24 (3 unique) isolated traces are in hot method
+Total 16 (12 unique) non-isolated traces that have events in hot method
+Total 32 (4 unique) events are in isolated traces
+Total 132 (108 unique) events are in non-isolated traces (32 / 24 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (8 traces / 1 unique traces) (16 events / 2 unique events)
+	Iterator_HasNext (8 traces / 1 unique traces) (8 events / 1 unique events)
+	Map_CollectionViewAdd (8 traces / 1 unique traces) (8 events / 1 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (16 traces / 12 unique traces) (132 events / 108 unique events) (32 events / 24 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.ser.impl.JsonSerializerMap.<init>:19): LIB,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#63
+Inspecting hot method com.fasterxml.jackson.databind.type.TypeBindings._resolveBindings:232...
+Checking for isolation...
+64,2,0,2
+Total 64 (64 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 214288 (214288 unique) events are in non-isolated traces (64 / 64 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (107144 events / 107144 unique events) (32 events / 32 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (107144 events / 107144 unique events) (32 events / 32 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.type.TypeBindings._resolveBindings:232): LIB,NOT_REDUNDANT_TRACES
+
+#64
+Inspecting hot method com.flipkart.databuilderframework.DataFlowExecutorTest$TestListenerAfterExceptionError.afterExecute:106...
+Checking for isolation...
+63,18,18,0
+Total 63 (7 unique) events are in hot method
+Total 18 (2 unique) traces are in hot method
+Total 18 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 63 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (9 traces / 1 unique traces) (27 events / 3 unique events)
+	StringBuilder_ThreadSafe (9 traces / 1 unique traces) (36 events / 4 unique events)
+Classifier (com.flipkart.databuilderframework.DataFlowExecutorTest$TestListenerAfterExceptionError.afterExecute:106): CUT,ISOLATED_ONE_UNIQUE
+
+#65
+Inspecting hot method com.flipkart.databuilderframework.MultiThreadedDataFlowExecutorTest$TestListenerAfterExceptionError.afterExecute:107...
+Checking for isolation...
+63,18,18,0
+Total 63 (7 unique) events are in hot method
+Total 18 (2 unique) traces are in hot method
+Total 18 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 63 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (9 traces / 1 unique traces) (36 events / 4 unique events)
+	Appendable_ThreadSafe (9 traces / 1 unique traces) (27 events / 3 unique events)
+Classifier (com.flipkart.databuilderframework.MultiThreadedDataFlowExecutorTest$TestListenerAfterExceptionError.afterExecute:107): CUT,ISOLATED_ONE_UNIQUE
+
+#66
+Inspecting hot method com.flipkart.databuilderframework.MultiThreadedDataFlowExecutorTest$TestListenerBeforeExecutionError.afterExecute:56...
+Checking for isolation...
+63,18,18,0
+Total 63 (7 unique) events are in hot method
+Total 18 (2 unique) traces are in hot method
+Total 18 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 63 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (9 traces / 1 unique traces) (36 events / 4 unique events)
+	Appendable_ThreadSafe (9 traces / 1 unique traces) (27 events / 3 unique events)
+Classifier (com.flipkart.databuilderframework.MultiThreadedDataFlowExecutorTest$TestListenerBeforeExecutionError.afterExecute:56): CUT,ISOLATED_ONE_UNIQUE
+
+#67
+Inspecting hot method com.flipkart.databuilderframework.MultiThreadedDataFlowExecutorTest$TestListener.afterExecute:31...
+Checking for isolation...
+63,18,18,0
+Total 63 (7 unique) events are in hot method
+Total 18 (2 unique) traces are in hot method
+Total 18 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 63 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (9 traces / 1 unique traces) (36 events / 4 unique events)
+	Appendable_ThreadSafe (9 traces / 1 unique traces) (27 events / 3 unique events)
+Classifier (com.flipkart.databuilderframework.MultiThreadedDataFlowExecutorTest$TestListener.afterExecute:31): CUT,ISOLATED_ONE_UNIQUE
+
+#68
+Inspecting hot method com.flipkart.databuilderframework.DataFlowExecutorTest$TestListener.afterExecute:30...
+Checking for isolation...
+63,18,18,0
+Total 63 (7 unique) events are in hot method
+Total 18 (2 unique) traces are in hot method
+Total 18 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 63 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (9 traces / 1 unique traces) (27 events / 3 unique events)
+	StringBuilder_ThreadSafe (9 traces / 1 unique traces) (36 events / 4 unique events)
+Classifier (com.flipkart.databuilderframework.DataFlowExecutorTest$TestListener.afterExecute:30): CUT,ISOLATED_ONE_UNIQUE
+
+#69
+Inspecting hot method com.flipkart.databuilderframework.DataFlowExecutorTest$TestListenerBeforeExecutionError.afterExecute:55...
+Checking for isolation...
+63,18,18,0
+Total 63 (7 unique) events are in hot method
+Total 18 (2 unique) traces are in hot method
+Total 18 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 63 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (9 traces / 1 unique traces) (27 events / 3 unique events)
+	StringBuilder_ThreadSafe (9 traces / 1 unique traces) (36 events / 4 unique events)
+Classifier (com.flipkart.databuilderframework.DataFlowExecutorTest$TestListenerBeforeExecutionError.afterExecute:55): CUT,ISOLATED_ONE_UNIQUE
+
+#70
+Inspecting hot method com.flipkart.databuilderframework.TestBuilderA.process:13...
+Checking for isolation...
+63,18,18,0
+Total 63 (7 unique) events are in hot method
+Total 18 (2 unique) traces are in hot method
+Total 18 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 63 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (9 traces / 1 unique traces) (27 events / 3 unique events)
+	StringBuilder_ThreadSafe (9 traces / 1 unique traces) (36 events / 4 unique events)
+Classifier (com.flipkart.databuilderframework.TestBuilderA.process:13): CUT,ISOLATED_ONE_UNIQUE
+
+#71
+Inspecting hot method com.fasterxml.jackson.databind.type.TypeBindings.addBinding:178...
+Checking for isolation...
+60,2,0,2
+Total 60 (60 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 214288 (214288 unique) events are in non-isolated traces (60 / 60 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (107144 events / 107144 unique events) (30 events / 30 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (107144 events / 107144 unique events) (30 events / 30 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.type.TypeBindings.addBinding:178): LIB,NOT_REDUNDANT_TRACES
+
+#72
+Inspecting hot method com.fasterxml.jackson.databind.type.TypeFactory._fromClass:652...
+Checking for isolation...
+58,2,0,2
+Total 58 (58 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 214288 (214288 unique) events are in non-isolated traces (58 / 58 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (107144 events / 107144 unique events) (29 events / 29 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (107144 events / 107144 unique events) (29 events / 29 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.type.TypeFactory._fromClass:652): LIB,NOT_REDUNDANT_TRACES
+
+#73
+Inspecting hot method com.flipkart.databuilderframework.TestBuilderC.process:13...
+Checking for isolation...
+56,16,16,0
+Total 56 (7 unique) events are in hot method
+Total 16 (2 unique) traces are in hot method
+Total 16 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 56 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (8 traces / 1 unique traces) (24 events / 3 unique events)
+	StringBuilder_ThreadSafe (8 traces / 1 unique traces) (32 events / 4 unique events)
+Classifier (com.flipkart.databuilderframework.TestBuilderC.process:13): CUT,ISOLATED_ONE_UNIQUE
+
+#74
+Inspecting hot method com.fasterxml.jackson.databind.introspect.AnnotatedClass.resolveCreators:326...
+Checking for isolation...
+52,30,30,0
+Total 52 (12 unique) events are in hot method
+Total 30 (5 unique) traces are in hot method
+Total 30 (5 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 52 (12 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (30 traces / 5 unique traces) (52 events / 12 unique events)
+Classifier (com.fasterxml.jackson.databind.introspect.AnnotatedClass.resolveCreators:326): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#75
+Inspecting hot method com.flipkart.databuilderframework.TestBuilderB.process:13...
+Checking for isolation...
+49,14,14,0
+Total 49 (7 unique) events are in hot method
+Total 14 (2 unique) traces are in hot method
+Total 14 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 49 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (7 traces / 1 unique traces) (21 events / 3 unique events)
+	StringBuilder_ThreadSafe (7 traces / 1 unique traces) (28 events / 4 unique events)
+Classifier (com.flipkart.databuilderframework.TestBuilderB.process:13): CUT,ISOLATED_ONE_UNIQUE
+
+#76
+Inspecting hot method com.fasterxml.jackson.core.json.WriterBasedJsonGenerator._writeFieldName:226...
+Checking for isolation...
+44,1,0,1
+Total 44 (44 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 85 (85 unique) events are in non-isolated traces (44 / 44 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (85 events / 85 unique events) (44 events / 44 unique events in hot method)
+Classifier (com.fasterxml.jackson.core.json.WriterBasedJsonGenerator._writeFieldName:226): LIB,NOT_REDUNDANT_TRACES
+
+#77
+Inspecting hot method com.fasterxml.jackson.databind.util.ArrayBuilders$ArrayIterator.<init>:292...
+Checking for isolation...
+42,1,1,0
+Total 42 (42 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 42 (42 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Arrays_SortBeforeBinarySearch (1 traces / 1 unique traces) (42 events / 42 unique events)
+Classifier (com.fasterxml.jackson.databind.util.ArrayBuilders$ArrayIterator.<init>:292): LIB,NOT_REDUNDANT_TRACES
+
+#78
+Inspecting hot method com.flipkart.databuilderframework.engine.DataFlowExecutor.registerExecutionListener:62...
+Checking for isolation...
+40,10,10,0
+Total 40 (4 unique) events are in hot method
+Total 10 (1 unique) traces are in hot method
+Total 10 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 40 (4 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (10 traces / 1 unique traces) (40 events / 4 unique events)
+Classifier (com.flipkart.databuilderframework.engine.DataFlowExecutor.registerExecutionListener:62): CUT,ISOLATED_ONE_UNIQUE
+
+#79
+Inspecting hot method com.fasterxml.jackson.databind.type.TypeBindings.typesAsArray:186...
+Checking for isolation...
+32,32,32,0
+Total 32 (2 unique) events are in hot method
+Total 32 (2 unique) traces are in hot method
+Total 32 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 32 (2 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Map_UnsafeIterator (16 traces / 1 unique traces) (16 events / 1 unique events)
+	Map_CollectionViewAdd (16 traces / 1 unique traces) (16 events / 1 unique events)
+Classifier (com.fasterxml.jackson.databind.type.TypeBindings.typesAsArray:186): LIB,ISOLATED_ONE_UNIQUE
+
+#80
+Inspecting hot method com.fasterxml.jackson.databind.ser.SerializerCache.addTypedSerializer:121...
+Checking for isolation...
+32,18,0,18
+Total 32 (28 unique) events are in hot method
+Total 18 (14 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 18 (14 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 214420 (214396 unique) events are in non-isolated traces (32 / 28 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (16 traces / 12 unique traces) (132 events / 108 unique events) (16 events / 12 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (107144 events / 107144 unique events) (8 events / 8 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (107144 events / 107144 unique events) (8 events / 8 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.ser.SerializerCache.addTypedSerializer:121): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#81
+Inspecting hot method com.fasterxml.jackson.databind.type.TypeBindings._addPlaceholder:224...
+Checking for isolation...
+32,1,0,1
+Total 32 (32 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 91570 (91570 unique) events are in non-isolated traces (32 / 32 unique are in hot method)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (91570 events / 91570 unique events) (32 events / 32 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.type.TypeBindings._addPlaceholder:224): LIB,NOT_REDUNDANT_TRACES
+
+#82
+Inspecting hot method com.fasterxml.jackson.databind.ser.std.StdJdkSerializers.provide:30...
+Checking for isolation...
+31,5,2,3
+Total 31 (31 unique) events are in hot method
+Total 5 (5 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 3 (3 unique) non-isolated traces that have events in hot method
+Total 2 (2 unique) events are in isolated traces
+Total 214317 (214317 unique) events are in non-isolated traces (29 / 29 unique are in hot method)
+Specs that have isolated traces:
+	Map_CollectionViewAdd (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Map_UnsafeIterator (1 traces / 1 unique traces) (1 events / 1 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (1 traces / 1 unique traces) (29 events / 29 unique events) (1 events / 1 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (107144 events / 107144 unique events) (14 events / 14 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (107144 events / 107144 unique events) (14 events / 14 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.ser.std.StdJdkSerializers.provide:30): LIB,NOT_REDUNDANT_TRACES
+
+#83
+Inspecting hot method com.fasterxml.jackson.databind.ser.BeanSerializerFactory.createSerializer:130...
+Checking for isolation...
+28,28,28,0
+Total 28 (1 unique) events are in hot method
+Total 28 (1 unique) traces are in hot method
+Total 28 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 28 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (28 traces / 1 unique traces) (28 events / 1 unique events)
+Classifier (com.fasterxml.jackson.databind.ser.BeanSerializerFactory.createSerializer:130): LIB,ISOLATED_ONE_UNIQUE
+
+#84
+Inspecting hot method com.fasterxml.jackson.databind.deser.BasicDeserializerFactory.<clinit>:43...
+Checking for isolation...
+25,3,0,3
+Total 25 (25 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 3 (3 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 214433 (214433 unique) events are in non-isolated traces (25 / 25 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (107144 events / 107144 unique events) (12 events / 12 unique events in hot method)
+	Serializable_NoArgConstructor (1 traces / 1 unique traces) (145 events / 145 unique events) (1 events / 1 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (107144 events / 107144 unique events) (12 events / 12 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.deser.BasicDeserializerFactory.<clinit>:43): LIB,NOT_REDUNDANT_TRACES
+
+#85
+Inspecting hot method com.fasterxml.jackson.core.json.WriterBasedJsonGenerator.close:844...
+Checking for isolation...
+24,24,24,0
+Total 24 (3 unique) events are in hot method
+Total 24 (3 unique) traces are in hot method
+Total 24 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 24 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Console_CloseWriter (8 traces / 1 unique traces) (8 events / 1 unique events)
+	Closeable_MultipleClose (8 traces / 1 unique traces) (8 events / 1 unique events)
+	Writer_ManipulateAfterClose (8 traces / 1 unique traces) (8 events / 1 unique events)
+Classifier (com.fasterxml.jackson.core.json.WriterBasedJsonGenerator.close:844): LIB,ISOLATED_ONE_UNIQUE
+
+#86
+Inspecting hot method com.fasterxml.jackson.databind.jsontype.impl.StdSubtypeResolver.collectAndResolveSubtypes:110...
+Checking for isolation...
+24,24,24,0
+Total 24 (2 unique) events are in hot method
+Total 24 (2 unique) traces are in hot method
+Total 24 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 24 (2 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Map_UnsafeIterator (12 traces / 1 unique traces) (12 events / 1 unique events)
+	Map_CollectionViewAdd (12 traces / 1 unique traces) (12 events / 1 unique events)
+Classifier (com.fasterxml.jackson.databind.jsontype.impl.StdSubtypeResolver.collectAndResolveSubtypes:110): LIB,ISOLATED_ONE_UNIQUE
+
+#87
+Inspecting hot method com.fasterxml.jackson.core.util.TextBuffer.buildResultArray:682...
+Checking for isolation...
+24,1,0,1
+Total 24 (24 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 85 (85 unique) events are in non-isolated traces (24 / 24 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (85 events / 85 unique events) (24 events / 24 unique events in hot method)
+Classifier (com.fasterxml.jackson.core.util.TextBuffer.buildResultArray:682): LIB,NOT_REDUNDANT_TRACES
+
+#88
+Inspecting hot method com.fasterxml.jackson.databind.deser.std.StdKeyDeserializers.add:51...
+Checking for isolation...
+24,2,0,2
+Total 24 (24 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 214288 (214288 unique) events are in non-isolated traces (24 / 24 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (107144 events / 107144 unique events) (12 events / 12 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (107144 events / 107144 unique events) (12 events / 12 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.deser.std.StdKeyDeserializers.add:51): LIB,NOT_REDUNDANT_TRACES
+
+#89
+Inspecting hot method com.fasterxml.jackson.databind.ser.std.NumberSerializers.addAll:23...
+Checking for isolation...
+24,2,0,2
+Total 24 (24 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 214288 (214288 unique) events are in non-isolated traces (24 / 24 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (107144 events / 107144 unique events) (12 events / 12 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (107144 events / 107144 unique events) (12 events / 12 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.ser.std.NumberSerializers.addAll:23): LIB,NOT_REDUNDANT_TRACES
+
+#90
+Inspecting hot method com.fasterxml.jackson.databind.jsontype.impl.StdSubtypeResolver._collectAndResolve:141...
+Checking for isolation...
+24,2,0,2
+Total 24 (24 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 214288 (214288 unique) events are in non-isolated traces (24 / 24 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (107144 events / 107144 unique events) (12 events / 12 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (107144 events / 107144 unique events) (12 events / 12 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.jsontype.impl.StdSubtypeResolver._collectAndResolve:141): LIB,NOT_REDUNDANT_TRACES
+
+#91
+Inspecting hot method com.fasterxml.jackson.databind.jsontype.impl.TypeNameIdResolver.idFromValue:85...
+Checking for isolation...
+24,2,0,2
+Total 24 (24 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 214288 (214288 unique) events are in non-isolated traces (24 / 24 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (107144 events / 107144 unique events) (12 events / 12 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (107144 events / 107144 unique events) (12 events / 12 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.jsontype.impl.TypeNameIdResolver.idFromValue:85): LIB,NOT_REDUNDANT_TRACES
+
+#92
+Inspecting hot method com.fasterxml.jackson.databind.deser.std.PrimitiveArrayDeserializers.add:62...
+Checking for isolation...
+18,2,0,2
+Total 18 (18 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 214288 (214288 unique) events are in non-isolated traces (18 / 18 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (107144 events / 107144 unique events) (9 events / 9 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (107144 events / 107144 unique events) (9 events / 9 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.deser.std.PrimitiveArrayDeserializers.add:62): LIB,NOT_REDUNDANT_TRACES
+
+#93
+Inspecting hot method org.slf4j.helpers.Util.report:43...
+Checking for isolation...
+15,6,6,0
+Total 15 (5 unique) events are in hot method
+Total 6 (2 unique) traces are in hot method
+Total 6 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 15 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (3 traces / 1 unique traces) (9 events / 3 unique events)
+	Appendable_ThreadSafe (3 traces / 1 unique traces) (6 events / 2 unique events)
+Classifier (org.slf4j.helpers.Util.report:43): LIB,ISOLATED_ONE_UNIQUE
+
+#94
+Inspecting hot method com.flipkart.databuilderframework.engine.impl.DataBuilderFactoryImpl.create:21...
+Checking for isolation...
+10,4,4,0
+Total 10 (10 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 4 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 10 (10 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (2 traces / 2 unique traces) (6 events / 6 unique events)
+	Appendable_ThreadSafe (2 traces / 2 unique traces) (4 events / 4 unique events)
+Classifier (com.flipkart.databuilderframework.engine.impl.DataBuilderFactoryImpl.create:21): CUT,NOT_REDUNDANT_TRACES
+
+#95
+Inspecting hot method com.flipkart.databuilderframework.DataFlowExecutorTest$TestListenerBeforeExecutionError.beforeExecute:48...
+Checking for isolation...
+10,10,10,0
+Total 10 (1 unique) events are in hot method
+Total 10 (1 unique) traces are in hot method
+Total 10 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 10 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Throwable_InitCauseOnce (10 traces / 1 unique traces) (10 events / 1 unique events)
+Classifier (com.flipkart.databuilderframework.DataFlowExecutorTest$TestListenerBeforeExecutionError.beforeExecute:48): CUT,ISOLATED_ONE_UNIQUE
+
+#96
+Inspecting hot method com.flipkart.databuilderframework.MultiThreadedDataFlowExecutorTest$TestListenerBeforeExecutionError.beforeExecute:49...
+Checking for isolation...
+10,10,10,0
+Total 10 (1 unique) events are in hot method
+Total 10 (1 unique) traces are in hot method
+Total 10 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 10 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Throwable_InitCauseOnce (10 traces / 1 unique traces) (10 events / 1 unique events)
+Classifier (com.flipkart.databuilderframework.MultiThreadedDataFlowExecutorTest$TestListenerBeforeExecutionError.beforeExecute:49): CUT,ISOLATED_ONE_UNIQUE
+
+#97
+Inspecting hot method com.flipkart.databuilderframework.flowtest.tests.FlowTest.testRunMultiStep:48...
+Checking for isolation...
+9,9,6,3
+Total 9 (9 unique) events are in hot method
+Total 9 (9 unique) traces are in hot method
+Total 6 (6 unique) isolated traces are in hot method
+Total 3 (3 unique) non-isolated traces that have events in hot method
+Total 6 (6 unique) events are in isolated traces
+Total 29 (29 unique) events are in non-isolated traces (3 / 3 unique are in hot method)
+Specs that have isolated traces:
+	Map_CollectionViewAdd (3 traces / 3 unique traces) (3 events / 3 unique events)
+	Map_UnsafeIterator (3 traces / 3 unique traces) (3 events / 3 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (3 traces / 3 unique traces) (29 events / 29 unique events) (3 events / 3 unique events in hot method)
+Classifier (com.flipkart.databuilderframework.flowtest.tests.FlowTest.testRunMultiStep:48): CUT,NOT_REDUNDANT_TRACES
+
+#98
+Inspecting hot method com.flipkart.databuilderframework.MultiThreadedDataFlowExecutorTest$TestListenerAfterExecutionError.afterExecute:81...
+Checking for isolation...
+9,9,9,0
+Total 9 (1 unique) events are in hot method
+Total 9 (1 unique) traces are in hot method
+Total 9 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 9 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Throwable_InitCauseOnce (9 traces / 1 unique traces) (9 events / 1 unique events)
+Classifier (com.flipkart.databuilderframework.MultiThreadedDataFlowExecutorTest$TestListenerAfterExecutionError.afterExecute:81): CUT,ISOLATED_ONE_UNIQUE
+
+#99
+Inspecting hot method com.flipkart.databuilderframework.DataFlowExecutorTest$TestListenerAfterExecutionError.afterExecute:80...
+Checking for isolation...
+9,9,9,0
+Total 9 (1 unique) events are in hot method
+Total 9 (1 unique) traces are in hot method
+Total 9 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 9 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Throwable_InitCauseOnce (9 traces / 1 unique traces) (9 events / 1 unique events)
+Classifier (com.flipkart.databuilderframework.DataFlowExecutorTest$TestListenerAfterExecutionError.afterExecute:80): CUT,ISOLATED_ONE_UNIQUE
+
+#100
+Inspecting hot method com.fasterxml.jackson.databind.ObjectMapper._configAndWriteValue:2611...
+Checking for isolation...
+8,8,8,0
+Total 8 (1 unique) events are in hot method
+Total 8 (1 unique) traces are in hot method
+Total 8 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 8 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Closeable_MultipleClose (8 traces / 1 unique traces) (8 events / 1 unique events)
+Classifier (com.fasterxml.jackson.databind.ObjectMapper._configAndWriteValue:2611): LIB,ISOLATED_ONE_UNIQUE
+
+#101
+Inspecting hot method com.fasterxml.jackson.databind.ser.BasicSerializerFactory.buildContainerSerializer:477...
+Checking for isolation...
+8,8,8,0
+Total 8 (1 unique) events are in hot method
+Total 8 (1 unique) traces are in hot method
+Total 8 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 8 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (8 traces / 1 unique traces) (8 events / 1 unique events)
+Classifier (com.fasterxml.jackson.databind.ser.BasicSerializerFactory.buildContainerSerializer:477): LIB,ISOLATED_ONE_UNIQUE
+
+#102
+Inspecting hot method com.fasterxml.jackson.core.util.TextBuffer.append:445...
+Checking for isolation...
+8,1,0,1
+Total 8 (8 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 85 (85 unique) events are in non-isolated traces (8 / 8 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (85 events / 85 unique events) (8 events / 8 unique events in hot method)
+Classifier (com.fasterxml.jackson.core.util.TextBuffer.append:445): LIB,NOT_REDUNDANT_TRACES
+
+#103
+Inspecting hot method com.flipkart.databuilderframework.DataFlowExecutorTest$TestListener.afterException:38...
+Checking for isolation...
+7,2,2,0
+Total 7 (7 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 7 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (4 events / 4 unique events)
+Classifier (com.flipkart.databuilderframework.DataFlowExecutorTest$TestListener.afterException:38): CUT,NOT_REDUNDANT_TRACES
+
+#104
+Inspecting hot method com.flipkart.databuilderframework.DataFlowExecutorTest$TestListenerBeforeExecutionError.afterException:63...
+Checking for isolation...
+7,2,2,0
+Total 7 (7 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 7 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (4 events / 4 unique events)
+Classifier (com.flipkart.databuilderframework.DataFlowExecutorTest$TestListenerBeforeExecutionError.afterException:63): CUT,NOT_REDUNDANT_TRACES
+
+#105
+Inspecting hot method com.flipkart.databuilderframework.DataFlowExecutorTest$TestListenerAfterExecutionError.afterException:89...
+Checking for isolation...
+7,2,2,0
+Total 7 (7 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 7 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (4 events / 4 unique events)
+Classifier (com.flipkart.databuilderframework.DataFlowExecutorTest$TestListenerAfterExecutionError.afterException:89): CUT,NOT_REDUNDANT_TRACES
+
+#106
+Inspecting hot method com.flipkart.databuilderframework.MultiThreadedDataFlowExecutorTest$TestListener.afterException:39...
+Checking for isolation...
+7,2,2,0
+Total 7 (7 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 7 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (4 events / 4 unique events)
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+Classifier (com.flipkart.databuilderframework.MultiThreadedDataFlowExecutorTest$TestListener.afterException:39): CUT,NOT_REDUNDANT_TRACES
+
+#107
+Inspecting hot method com.flipkart.databuilderframework.MultiThreadedDataFlowExecutorTest$TestListenerAfterExecutionError.afterException:90...
+Checking for isolation...
+7,2,2,0
+Total 7 (7 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 7 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (4 events / 4 unique events)
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+Classifier (com.flipkart.databuilderframework.MultiThreadedDataFlowExecutorTest$TestListenerAfterExecutionError.afterException:90): CUT,NOT_REDUNDANT_TRACES
+
+#108
+Inspecting hot method com.flipkart.databuilderframework.MultiThreadedDataFlowExecutorTest$TestListenerBeforeExecutionError.afterException:64...
+Checking for isolation...
+7,2,2,0
+Total 7 (7 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 7 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (4 events / 4 unique events)
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+Classifier (com.flipkart.databuilderframework.MultiThreadedDataFlowExecutorTest$TestListenerBeforeExecutionError.afterException:64): CUT,NOT_REDUNDANT_TRACES
+
+#109
+Inspecting hot method com.fasterxml.jackson.databind.ser.BasicSerializerFactory.buildMapSerializer:636...
+Checking for isolation...
+6,6,6,0
+Total 6 (1 unique) events are in hot method
+Total 6 (1 unique) traces are in hot method
+Total 6 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 6 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (6 traces / 1 unique traces) (6 events / 1 unique events)
+Classifier (com.fasterxml.jackson.databind.ser.BasicSerializerFactory.buildMapSerializer:636): LIB,ISOLATED_ONE_UNIQUE
+
+#110
+Inspecting hot method com.fasterxml.jackson.core.Base64Variant.<init>:61...
+Checking for isolation...
+6,1,0,1
+Total 6 (6 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 85 (85 unique) events are in non-isolated traces (6 / 6 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (85 events / 85 unique events) (6 events / 6 unique events in hot method)
+Classifier (com.fasterxml.jackson.core.Base64Variant.<init>:61): LIB,NOT_REDUNDANT_TRACES
+
+#111
+Inspecting hot method com.flipkart.databuilderframework.flowtest.tests.FlowTest.testRunSingleStep:87...
+Checking for isolation...
+3,3,2,1
+Total 3 (3 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 2 (2 unique) events are in isolated traces
+Total 23 (23 unique) events are in non-isolated traces (1 / 1 unique are in hot method)
+Specs that have isolated traces:
+	Map_CollectionViewAdd (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Map_UnsafeIterator (1 traces / 1 unique traces) (1 events / 1 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (1 traces / 1 unique traces) (23 events / 23 unique events) (1 events / 1 unique events in hot method)
+Classifier (com.flipkart.databuilderframework.flowtest.tests.FlowTest.testRunSingleStep:87): CUT,NOT_REDUNDANT_TRACES
+
+#112
+Inspecting hot method com.flipkart.databuilderframework.engine.DataBuilderContext.saveContextData:38...
+Checking for isolation...
+3,3,1,2
+Total 3 (3 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 1 (1 unique) events are in isolated traces
+Total 214288 (214288 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have isolated traces:
+	Throwable_InitCauseOnce (1 traces / 1 unique traces) (1 events / 1 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (107144 events / 107144 unique events) (1 events / 1 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (107144 events / 107144 unique events) (1 events / 1 unique events in hot method)
+Classifier (com.flipkart.databuilderframework.engine.DataBuilderContext.saveContextData:38): CUT,NOT_REDUNDANT_TRACES
+
+#113
+Inspecting hot method com.google.common.collect.ImmutableCollection$EmptyImmutableCollection.<clinit>:192...
+Checking for isolation...
+3,3,1,2
+Total 3 (3 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 1 (1 unique) events are in isolated traces
+Total 153 (153 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have isolated traces:
+	Arrays_SortBeforeBinarySearch (1 traces / 1 unique traces) (1 events / 1 unique events)
+Specs that have non-isolated traces:
+	Collection_HashCode (1 traces / 1 unique traces) (8 events / 8 unique events) (1 events / 1 unique events in hot method)
+	Serializable_NoArgConstructor (1 traces / 1 unique traces) (145 events / 145 unique events) (1 events / 1 unique events in hot method)
+Classifier (com.google.common.collect.ImmutableCollection$EmptyImmutableCollection.<clinit>:192): LIB,NOT_REDUNDANT_TRACES
+
+#114
+Inspecting hot method com.fasterxml.jackson.core.io.CharTypes.<clinit>:8...
+Checking for isolation...
+3,1,0,1
+Total 3 (3 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 85 (85 unique) events are in non-isolated traces (3 / 3 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (85 events / 85 unique events) (3 events / 3 unique events in hot method)
+Classifier (com.fasterxml.jackson.core.io.CharTypes.<clinit>:8): LIB,NOT_REDUNDANT_TRACES
+
+#115
+Inspecting hot method com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer.<clinit>:28...
+Checking for isolation...
+2,2,1,1
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 1 (1 unique) events are in isolated traces
+Total 145 (145 unique) events are in non-isolated traces (1 / 1 unique are in hot method)
+Specs that have isolated traces:
+	Arrays_SortBeforeBinarySearch (1 traces / 1 unique traces) (1 events / 1 unique events)
+Specs that have non-isolated traces:
+	Serializable_NoArgConstructor (1 traces / 1 unique traces) (145 events / 145 unique events) (1 events / 1 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer.<clinit>:28): LIB,NOT_REDUNDANT_TRACES
+
+#116
+Inspecting hot method com.flipkart.databuilderframework.TestBuilderError.process:14...
+Checking for isolation...
+2,2,2,0
+Total 2 (1 unique) events are in hot method
+Total 2 (1 unique) traces are in hot method
+Total 2 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Throwable_InitCauseOnce (2 traces / 1 unique traces) (2 events / 1 unique events)
+Classifier (com.flipkart.databuilderframework.TestBuilderError.process:14): CUT,ISOLATED_ONE_UNIQUE
+
+#117
+Inspecting hot method com.google.common.collect.ImmutableCollection.<clinit>:44...
+Checking for isolation...
+2,2,0,2
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 153 (153 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	Collection_HashCode (1 traces / 1 unique traces) (8 events / 8 unique events) (1 events / 1 unique events in hot method)
+	Serializable_NoArgConstructor (1 traces / 1 unique traces) (145 events / 145 unique events) (1 events / 1 unique events in hot method)
+Classifier (com.google.common.collect.ImmutableCollection.<clinit>:44): LIB,NOT_REDUNDANT_TRACES
+
+#118
+Inspecting hot method com.google.common.collect.ImmutableSet.<clinit>:0...
+Checking for isolation...
+2,2,0,2
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 153 (153 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	Collection_HashCode (1 traces / 1 unique traces) (8 events / 8 unique events) (1 events / 1 unique events in hot method)
+	Serializable_NoArgConstructor (1 traces / 1 unique traces) (145 events / 145 unique events) (1 events / 1 unique events in hot method)
+Classifier (com.google.common.collect.ImmutableSet.<clinit>:0): LIB,NOT_REDUNDANT_TRACES
+
+#119
+Inspecting hot method com.google.common.collect.ImmutableSet$ArrayImmutableSet.<clinit>:0...
+Checking for isolation...
+2,2,0,2
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 153 (153 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	Collection_HashCode (1 traces / 1 unique traces) (8 events / 8 unique events) (1 events / 1 unique events in hot method)
+	Serializable_NoArgConstructor (1 traces / 1 unique traces) (145 events / 145 unique events) (1 events / 1 unique events in hot method)
+Classifier (com.google.common.collect.ImmutableSet$ArrayImmutableSet.<clinit>:0): LIB,NOT_REDUNDANT_TRACES
+
+#120
+Inspecting hot method com.google.common.collect.RegularImmutableSet.<clinit>:0...
+Checking for isolation...
+2,2,0,2
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 153 (153 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	Collection_HashCode (1 traces / 1 unique traces) (8 events / 8 unique events) (1 events / 1 unique events in hot method)
+	Serializable_NoArgConstructor (1 traces / 1 unique traces) (145 events / 145 unique events) (1 events / 1 unique events in hot method)
+Classifier (com.google.common.collect.RegularImmutableSet.<clinit>:0): LIB,NOT_REDUNDANT_TRACES
+
+#121
+Inspecting hot method com.google.common.collect.SingletonImmutableSet.<clinit>:0...
+Checking for isolation...
+2,2,0,2
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 153 (153 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	Collection_HashCode (1 traces / 1 unique traces) (8 events / 8 unique events) (1 events / 1 unique events in hot method)
+	Serializable_NoArgConstructor (1 traces / 1 unique traces) (145 events / 145 unique events) (1 events / 1 unique events in hot method)
+Classifier (com.google.common.collect.SingletonImmutableSet.<clinit>:0): LIB,NOT_REDUNDANT_TRACES
+

@@ -1,0 +1,1892 @@
+Reading traces...
+	read 1000 traces
+Reading specs frequency...
+Reading locations...
+Counting events...
+	processed 1000 traces
+Total 266582861 events and 29222615 traces
+Inspecting top 20000000 IMM
+Finding hot methods...
+Number of events, method name
+98487657,com.github.davidmoten.rtree.internal.Util.mbr:44
+98438016,com.github.davidmoten.rtree.internal.Comparators.overlapArea:61
+51277958,com.github.davidmoten.rtree.internal.Util.replace:77
+4122993,com.github.davidmoten.rtree.SplitterQuadratic.getBestCandidateForGroup:75
+3410680,com.github.davidmoten.rtree.SplitterRStar.marginValueSum:84
+1762446,com.github.davidmoten.rtree.SplitterRStar.getPairs:92
+1718371,com.github.davidmoten.rtree.internal.NonLeafHelper.delete:77
+1259709,com.github.davidmoten.rtree.SplitterQuadratic.assignRemaining:55
+1183984,com.github.davidmoten.rtree.internal.Util.add:64
+1143251,com.github.davidmoten.rtree.SelectorMinimalAreaIncrease.select:18
+595404,com.github.davidmoten.rtree.Visualizer.getRectangleDepths:78
+477950,com.github.davidmoten.rtree.Visualizer.drawNode:95
+444496,com.github.davidmoten.rtree.RTree.add:353
+354960,com.github.davidmoten.rtree.SplitterRStar.split:36
+353843,com.github.davidmoten.rtree.internal.LeafDefault.count:45
+345316,com.github.davidmoten.rtree.fbs.FlatBuffersHelper.createEntries:92
+253702,com.github.davidmoten.rtree.internal.LeafDefault.entry:65
+203841,com.github.davidmoten.rtree.SelectorMinimalOverlapArea.select:14
+126576,com.github.davidmoten.rtree.fbs.FlatBuffersHelper.addEntries:38
+103308,com.github.davidmoten.rtree.internal.LeafHelper.makeLeaves:67
+78406,rx.internal.operators.OperatorToObservableList$1.onNext:104
+70017,com.github.davidmoten.rtree.internal.Util.remove:71
+68782,com.github.davidmoten.rtree.internal.NonLeafDefault.count:42
+54154,com.github.davidmoten.rtree.SplitterQuadratic.split:24
+50803,com.github.davidmoten.rtree.internal.NonLeafDefault.child:62
+44010,com.github.davidmoten.rtree.RTreeTest.random:1047
+30004,com.github.davidmoten.rtree.RTreeTest.testDeleteOneFromLargeTreeThenDeleteAllAndEnsureEmpty:588
+29720,com.github.davidmoten.rtree.internal.NonLeafHelper.makeNonLeaves:61
+20000,com.github.davidmoten.rtree.RTreeTest.nextPoint:1022
+14094,com.github.davidmoten.rtree.internal.NonLeafDefault.<init>:23
+13319,com.github.davidmoten.rtree.SelectorRStar.select:18
+12738,com.github.davidmoten.rtree.fbs.SerializerFlatBuffers.toNodeDefault:147
+10048,com.github.davidmoten.rtree.internal.LeafHelper.delete:28
+10001,rx.internal.operators.BlockingOperatorToIterator$SubscriberIterator.next:108
+2724,rx.internal.util.SubscriptionList.unsubscribeFromAll:118
+1400,rx.observables.StringObservable$9$1.onNext:439
+1301,rx.plugins.RxJavaPlugins.getPluginImplementationViaProperty:204
+1005,com.github.davidmoten.rtree.RTreeTest.createRandomEntries:165
+1003,com.github.davidmoten.rtree.Utilities.entries1000:15
+1000,com.github.davidmoten.rtree.RTreeTest.testBackpressureIterationForUpTo1000Entries:389
+906,com.github.davidmoten.rtree.RTree.asString:853
+570,com.github.davidmoten.rtree.geometry.Rectangle.toString:87
+539,com.github.davidmoten.rtree.internal.EntryDefault.toString:68
+506,com.github.davidmoten.rtree.geometry.Point.toString:72
+302,rx.internal.util.SubscriptionList.add:59
+129,com.github.davidmoten.rtree.internal.operators.OperatorBoundedPriorityQueue$1.onCompleted:33
+80,com.github.davidmoten.rtree.fbs.SerializerFlatBuffersTest.serialize:82
+70,com.github.davidmoten.rtree.RTreeTest.testStandardRTreeSearch2:687
+70,com.github.davidmoten.rtree.RTreeTest.testStandardRTreeSearch:668
+65,com.github.davidmoten.rtree.RTreeTest$10.call:940
+52,com.vividsolutions.jts.operation.predicate.RectangleIntersectsSegmentVisitor.checkIntersectionWithLineStrings:327
+52,com.github.davidmoten.rtree.fbs.SerializerFlatBuffersTest.deserialize:91
+41,com.github.davidmoten.rtree.BackpressureTest$7.onNext:274
+28,com.github.davidmoten.rtree.RTree.delete:409
+26,com.github.davidmoten.rtree.internal.util.PriorityQueue.<init>:111
+22,com.github.davidmoten.rtree.fbs.NonLeafFlatBuffers.toString:153
+22,com.github.davidmoten.rtree.internal.util.BoundedPriorityQueue.asOrderedList:86
+21,com.github.davidmoten.rtree.RTreeTest.testPerformanceAndEntriesCount:124
+19,rx.subscriptions.CompositeSubscription.add:60
+18,com.github.davidmoten.rtree.Serializers$3.call:126
+18,rx.internal.util.RxThreadFactory.newThread:30
+18,rx.subscriptions.CompositeSubscription.unsubscribeFromAll:144
+18,com.github.davidmoten.rtree.BackpressureTest.testBackpressureIterateWhenConditionFailsAgainstNonLeafNode:201
+17,com.github.davidmoten.rtree.BackpressureTest.testBackpressureIterateWhenNodeHasMaxChildrenAndIsNotRoot:187
+16,rx.internal.operators.OperatorGroupBy$GroupBySubscriber.checkTerminated:324
+15,com.github.davidmoten.rtree.RTreeTest$8.call:951
+15,com.github.davidmoten.rtree.GreekEarthquakes$3.call:40
+13,com.github.davidmoten.rtree.RTree.delete:425
+12,com.github.davidmoten.rtree.Serializers$4.call:151
+12,rx.internal.util.SubscriptionList.<init>:41
+11,com.github.davidmoten.rtree.NodePosition.toString:31
+10,com.github.davidmoten.rtree.Visualizer.getNodeDepthsSortedByDepth:65
+10,com.github.davidmoten.rtree.SerializersTest.check:165
+9,com.github.davidmoten.guavamini.Preconditions.checkArgument:24
+8,com.vividsolutions.jts.geom.util.LinearComponentExtracter.filter:210
+7,rx.internal.operators.OperatorMerge$MergeSubscriber.addInner:272
+6,com.vividsolutions.jts.geom.PrecisionModel$Type.<init>:117
+5,com.github.davidmoten.rtree.RTreeTest.testVisualizerWithGreekData:541
+5,com.github.davidmoten.rtree.internal.util.ImmutableStackTest.testIteratorReturnsTwoItemsInOrderOfPop:76
+5,com.github.davidmoten.rtree.SplitterRStarTest.testGetPairs:19
+4,com.github.davidmoten.rtree.fbs.NonLeafFlatBuffers.createChildren:109
+4,rx.internal.operators.OperatorGroupBy$GroupBySubscriber.onNext:153
+3,com.github.davidmoten.guavamini.Preconditions.checkNotNull:14
+2,rx.internal.operators.OperatorToObservableSortedList$2.onNext:93
+2,rx.internal.operators.OperatorToObservableSortedList$2.onCompleted:71
+2,com.github.davidmoten.rtree.internal.util.ImmutableStackTest.testIteratorReturnsLastPushedFirst:71
+2,com.github.davidmoten.rtree.SerializersTest.testAddToFlatBuffers:62
+2,com.github.davidmoten.rtree.SerializersTest.canRoundTripEmptyTree:144
+2,com.github.davidmoten.guavamini.Optional.get:18
+2,com.github.davidmoten.guavamini.Preconditions.checkArgument:19
+2,com.github.davidmoten.rtree.SerializersTest.testDeleteFromFlatBuffers:82
+2,com.github.davidmoten.rtree.RTreeTest.testIterableDeletion:213
+2,com.github.davidmoten.rtree.SerializersTest.testAddToFlatBuffersWhenRootNodeIsNonLeaf:101
+2,com.github.davidmoten.rtree.internal.util.ImmutableStackTest.testIteratorReturnsOneItem:66
+2,rx.internal.util.unsafe.ConcurrentCircularArrayQueue.<init>:69
+2,com.github.davidmoten.rtree.SerializersTest.testDeleteFromFlatBuffersWhenRootNodeIsNonLeaf:123
+2,rx.internal.operators.OperatorMerge$MergeSubscriber.removeInner:283
+2,com.github.davidmoten.rtree.internal.util.PriorityQueue.<clinit>:0
+2,rx.internal.schedulers.ScheduledAction.<clinit>:0
+1,com.github.davidmoten.rtree.fbs.SerializerFlatBuffers.readFully:162
+1,com.github.davidmoten.rtree.internal.util.ImmutableStack$StackIterator.remove:85
+1,com.github.davidmoten.rtree.internal.util.BoundedPriorityQueue.add:62
+1,com.github.davidmoten.internal.operators.OperatorBoundedPriorityQueueTest$6.call:148
+1,com.github.davidmoten.internal.operators.OperatorBoundedPriorityQueueTest.testError:99
+1,com.github.davidmoten.rtree.internal.util.ImmutableStackTest.testIteratorWhenHasOneItem:61
+1,com.github.davidmoten.rtree.Node$$EnhancerByMockitoWithCGLIB$$b65b479e.CGLIB$STATICHOOK1:0
+1,rx.functions.Func1$$EnhancerByMockitoWithCGLIB$$bc805d1f.CGLIB$STATICHOOK2:0
+1,com.github.davidmoten.rtree.OnSubscribeSearchTest.testSearchProducerThrowsExceptionFromRequestAll:22
+1,com.github.davidmoten.rtree.ImageSaverTest$1.call:27
+1,rx.Subscriber$$EnhancerByMockitoWithCGLIB$$e2772bf7.CGLIB$STATICHOOK3:0
+1,com.github.davidmoten.rtree.internal.util.ImmutableStackTest.testIteratorWhenEmpty:56
+1,com.github.davidmoten.rtree.ImageSaver.run:32
+1,com.github.davidmoten.rtree.internal.util.ImmutableStackTest.testRemoveThrowsException:36
+1,com.vividsolutions.jts.geom.GeometryFactory.<clinit>:0
+1,com.vividsolutions.jts.geom.PrecisionModel$Type.<clinit>:115
+1,com.vividsolutions.jts.geom.PrecisionModel.<clinit>:136
+1,com.vividsolutions.jts.geom.impl.CoordinateArraySequenceFactory.<clinit>:47
+1,com.vividsolutions.jts.geom.Coordinate.<clinit>:0
+1,com.vividsolutions.jts.geom.Envelope.<clinit>:0
+1,com.vividsolutions.jts.geom.impl.CoordinateArraySequence.<clinit>:0
+1,com.vividsolutions.jts.geom.Geometry.<clinit>:175
+1,com.vividsolutions.jts.geom.LineString.<clinit>:0
+1,com.vividsolutions.jts.geom.LinearRing.<clinit>:0
+1,com.vividsolutions.jts.geom.Polygon.<clinit>:0
+1,com.vividsolutions.jts.geom.LineSegment.<clinit>:0
+1,com.vividsolutions.jts.math.DD.<clinit>:120
+1,com.github.davidmoten.guavamini.Optional$NotPresentException.<clinit>:0
+1,rx.internal.producers.SingleDelayedProducer.<clinit>:0
+1,rx.internal.util.atomic.LinkedQueueNode.<clinit>:0
+1,rx.internal.operators.NotificationLite$1.<clinit>:0
+1,rx.internal.operators.NotificationLite$2.<clinit>:0
+1,rx.internal.util.UtilityFunctions$AlwaysTrue.<clinit>:65
+1,rx.internal.operators.OperatorElementAt$InnerProducer.<clinit>:0
+1,com.github.davidmoten.rtree.SplitterRStar$SortType.<clinit>:80
+1,rx.internal.util.RxThreadFactory.<clinit>:0
+1,rx.internal.schedulers.ScheduledAction$Remover.<clinit>:0
+1,rx.Notification$Kind.<clinit>:166
+1,rx.internal.operators.OperatorMerge$MergeProducer.<clinit>:0
+1,rx.internal.operators.OnSubscribeUsing$DisposeAction.<clinit>:0
+1,rx.internal.operators.OperatorGroupBy$State.<clinit>:384
+1,com.github.davidmoten.rtree.InternalStructure.<clinit>:20
+1,rx.internal.operators.OnSubscribeRange$RangeProducer.<clinit>:0
+1,com.github.davidmoten.rtree.BackpressureTest$5.onNext:178
+1,com.github.davidmoten.rtree.BackpressureTest$6.onNext:246
+1,rx.internal.util.unsafe.BaseLinkedQueuePad0.<clinit>:0
+1,rx.internal.util.unsafe.BaseLinkedQueueProducerNodeRef.<clinit>:31
+1,rx.internal.util.unsafe.BaseLinkedQueuePad1.<clinit>:0
+1,rx.internal.util.unsafe.BaseLinkedQueueConsumerNodeRef.<clinit>:54
+1,rx.internal.util.unsafe.BaseLinkedQueue.<clinit>:0
+1,rx.internal.util.unsafe.SpscLinkedQueue.<clinit>:0
+1,rx.internal.util.unsafe.ConcurrentCircularArrayQueueL0Pad.<clinit>:0
+1,rx.internal.util.unsafe.ConcurrentCircularArrayQueue.<clinit>:46
+1,rx.internal.util.unsafe.ConcurrentSequencedCircularArrayQueue.<clinit>:25
+1,rx.internal.util.unsafe.MpmcArrayQueueL1Pad.<clinit>:0
+1,rx.internal.util.unsafe.MpmcArrayQueueProducerField.<clinit>:31
+1,rx.internal.util.unsafe.MpmcArrayQueueL2Pad.<clinit>:0
+1,rx.internal.util.unsafe.MpmcArrayQueueConsumerField.<clinit>:57
+1,rx.internal.util.unsafe.MpmcArrayQueue.<clinit>:0
+1,rx.schedulers.CachedThreadScheduler$CachedWorkerPool$1.<clinit>:0
+^^^ Last method that contains more than one event ^^^
+Starting com.github.davidmoten.rtree.internal.NonLeafDefault.count:42
+Finish com.github.davidmoten.rtree.internal.NonLeafDefault.count:42
+Starting com.github.davidmoten.rtree.RTreeTest$8.call:951
+Finish com.github.davidmoten.rtree.RTreeTest$8.call:951
+Starting com.github.davidmoten.guavamini.Optional.get:18
+Finish com.github.davidmoten.guavamini.Optional.get:18
+Starting com.github.davidmoten.rtree.fbs.FlatBuffersHelper.createEntries:92
+Finish com.github.davidmoten.rtree.fbs.FlatBuffersHelper.createEntries:92
+Starting com.github.davidmoten.rtree.internal.NonLeafHelper.makeNonLeaves:61
+Finish com.github.davidmoten.rtree.internal.NonLeafHelper.makeNonLeaves:61
+Starting com.github.davidmoten.rtree.RTreeTest.testBackpressureIterationForUpTo1000Entries:389
+Finish com.github.davidmoten.rtree.RTreeTest.testBackpressureIterationForUpTo1000Entries:389
+Starting com.github.davidmoten.rtree.internal.EntryDefault.toString:68
+Finish com.github.davidmoten.rtree.internal.EntryDefault.toString:68
+Starting com.github.davidmoten.rtree.RTreeTest.testStandardRTreeSearch2:687
+Finish com.github.davidmoten.rtree.RTreeTest.testStandardRTreeSearch2:687
+Starting com.github.davidmoten.rtree.internal.util.PriorityQueue.<init>:111
+Finish com.github.davidmoten.rtree.internal.util.PriorityQueue.<init>:111
+Starting rx.internal.operators.OperatorGroupBy$GroupBySubscriber.checkTerminated:324
+Finish rx.internal.operators.OperatorGroupBy$GroupBySubscriber.checkTerminated:324
+Starting com.github.davidmoten.rtree.SerializersTest.check:165
+Finish com.github.davidmoten.rtree.SerializersTest.check:165
+Starting com.github.davidmoten.rtree.fbs.NonLeafFlatBuffers.createChildren:109
+Finish com.github.davidmoten.rtree.fbs.NonLeafFlatBuffers.createChildren:109
+Starting com.github.davidmoten.rtree.SerializersTest.canRoundTripEmptyTree:144
+Finish com.github.davidmoten.rtree.SerializersTest.canRoundTripEmptyTree:144
+Starting rx.internal.util.unsafe.ConcurrentCircularArrayQueue.<init>:69
+Finish rx.internal.util.unsafe.ConcurrentCircularArrayQueue.<init>:69
+Starting com.github.davidmoten.rtree.internal.Comparators.overlapArea:61
+Finish com.github.davidmoten.rtree.internal.Comparators.overlapArea:61
+Starting com.github.davidmoten.rtree.Utilities.entries1000:15
+Finish com.github.davidmoten.rtree.Utilities.entries1000:15
+Starting com.github.davidmoten.rtree.RTree.delete:409
+Finish com.github.davidmoten.rtree.RTree.delete:409
+Starting com.github.davidmoten.rtree.BackpressureTest.testBackpressureIterateWhenNodeHasMaxChildrenAndIsNotRoot:187
+Finish com.github.davidmoten.rtree.BackpressureTest.testBackpressureIterateWhenNodeHasMaxChildrenAndIsNotRoot:187
+Starting com.github.davidmoten.guavamini.Preconditions.checkArgument:24
+Finish com.github.davidmoten.guavamini.Preconditions.checkArgument:24
+Starting com.github.davidmoten.rtree.SplitterRStarTest.testGetPairs:19
+Finish com.github.davidmoten.rtree.SplitterRStarTest.testGetPairs:19
+Starting com.github.davidmoten.rtree.SerializersTest.testAddToFlatBuffers:62
+Finish com.github.davidmoten.rtree.SerializersTest.testAddToFlatBuffers:62
+Starting com.github.davidmoten.rtree.internal.util.ImmutableStackTest.testIteratorReturnsOneItem:66
+Finish com.github.davidmoten.rtree.internal.util.ImmutableStackTest.testIteratorReturnsOneItem:66
+Starting com.github.davidmoten.rtree.internal.Util.mbr:44
+Finish com.github.davidmoten.rtree.internal.Util.mbr:44
+Starting rx.observables.StringObservable$9$1.onNext:439
+Finish rx.observables.StringObservable$9$1.onNext:439
+Starting rx.internal.util.SubscriptionList.add:59
+Finish rx.internal.util.SubscriptionList.add:59
+Starting com.github.davidmoten.rtree.fbs.SerializerFlatBuffersTest.deserialize:91
+Finish com.github.davidmoten.rtree.fbs.SerializerFlatBuffersTest.deserialize:91
+Starting com.github.davidmoten.rtree.Serializers$3.call:126
+Finish com.github.davidmoten.rtree.Serializers$3.call:126
+Starting com.github.davidmoten.rtree.RTree.delete:425
+Finish com.github.davidmoten.rtree.RTree.delete:425
+Starting rx.internal.operators.OperatorMerge$MergeSubscriber.addInner:272
+Finish rx.internal.operators.OperatorMerge$MergeSubscriber.addInner:272
+Starting rx.internal.operators.OperatorGroupBy$GroupBySubscriber.onNext:153
+Finish rx.internal.operators.OperatorGroupBy$GroupBySubscriber.onNext:153
+Starting com.github.davidmoten.guavamini.Preconditions.checkArgument:19
+Finish com.github.davidmoten.guavamini.Preconditions.checkArgument:19
+Starting com.github.davidmoten.rtree.SerializersTest.testDeleteFromFlatBuffersWhenRootNodeIsNonLeaf:123
+Finish com.github.davidmoten.rtree.SerializersTest.testDeleteFromFlatBuffersWhenRootNodeIsNonLeaf:123
+Starting com.github.davidmoten.rtree.Visualizer.getRectangleDepths:78
+Finish com.github.davidmoten.rtree.Visualizer.getRectangleDepths:78
+Starting com.github.davidmoten.rtree.fbs.SerializerFlatBuffers.toNodeDefault:147
+Finish com.github.davidmoten.rtree.fbs.SerializerFlatBuffers.toNodeDefault:147
+Starting com.github.davidmoten.rtree.RTree.asString:853
+Finish com.github.davidmoten.rtree.RTree.asString:853
+Starting com.github.davidmoten.rtree.RTreeTest.testStandardRTreeSearch:668
+Finish com.github.davidmoten.rtree.RTreeTest.testStandardRTreeSearch:668
+Starting com.github.davidmoten.rtree.RTreeTest.testPerformanceAndEntriesCount:124
+Finish com.github.davidmoten.rtree.RTreeTest.testPerformanceAndEntriesCount:124
+Starting com.github.davidmoten.rtree.GreekEarthquakes$3.call:40
+Finish com.github.davidmoten.rtree.GreekEarthquakes$3.call:40
+Starting com.vividsolutions.jts.geom.util.LinearComponentExtracter.filter:210
+Finish com.vividsolutions.jts.geom.util.LinearComponentExtracter.filter:210
+Starting com.github.davidmoten.guavamini.Preconditions.checkNotNull:14
+Finish com.github.davidmoten.guavamini.Preconditions.checkNotNull:14
+Starting com.github.davidmoten.rtree.SerializersTest.testDeleteFromFlatBuffers:82
+Finish com.github.davidmoten.rtree.SerializersTest.testDeleteFromFlatBuffers:82
+Starting rx.internal.operators.OperatorMerge$MergeSubscriber.removeInner:283
+Finish rx.internal.operators.OperatorMerge$MergeSubscriber.removeInner:283
+Starting com.github.davidmoten.rtree.internal.NonLeafHelper.delete:77
+Finish com.github.davidmoten.rtree.internal.NonLeafHelper.delete:77
+Starting com.github.davidmoten.rtree.internal.LeafHelper.delete:28
+Finish com.github.davidmoten.rtree.internal.LeafHelper.delete:28
+Starting com.github.davidmoten.rtree.geometry.Rectangle.toString:87
+Finish com.github.davidmoten.rtree.geometry.Rectangle.toString:87
+Starting com.github.davidmoten.rtree.fbs.SerializerFlatBuffersTest.serialize:82
+Finish com.github.davidmoten.rtree.fbs.SerializerFlatBuffersTest.serialize:82
+Starting com.github.davidmoten.rtree.fbs.NonLeafFlatBuffers.toString:153
+Finish com.github.davidmoten.rtree.fbs.NonLeafFlatBuffers.toString:153
+Starting com.github.davidmoten.rtree.BackpressureTest.testBackpressureIterateWhenConditionFailsAgainstNonLeafNode:201
+Finish com.github.davidmoten.rtree.BackpressureTest.testBackpressureIterateWhenConditionFailsAgainstNonLeafNode:201
+Starting rx.internal.util.SubscriptionList.<init>:41
+Finish rx.internal.util.SubscriptionList.<init>:41
+Starting com.vividsolutions.jts.geom.PrecisionModel$Type.<init>:117
+Finish com.vividsolutions.jts.geom.PrecisionModel$Type.<init>:117
+Starting com.github.davidmoten.rtree.internal.util.ImmutableStackTest.testIteratorReturnsLastPushedFirst:71
+Finish com.github.davidmoten.rtree.internal.util.ImmutableStackTest.testIteratorReturnsLastPushedFirst:71
+Starting com.github.davidmoten.rtree.SerializersTest.testAddToFlatBuffersWhenRootNodeIsNonLeaf:101
+Finish com.github.davidmoten.rtree.SerializersTest.testAddToFlatBuffersWhenRootNodeIsNonLeaf:101
+Starting com.github.davidmoten.rtree.internal.util.PriorityQueue.<clinit>:0
+Finish com.github.davidmoten.rtree.internal.util.PriorityQueue.<clinit>:0
+Starting com.github.davidmoten.rtree.SplitterRStar.marginValueSum:84
+Finish com.github.davidmoten.rtree.SplitterRStar.marginValueSum:84
+Starting com.github.davidmoten.rtree.RTreeTest.createRandomEntries:165
+Finish com.github.davidmoten.rtree.RTreeTest.createRandomEntries:165
+Starting com.github.davidmoten.rtree.BackpressureTest$7.onNext:274
+Finish com.github.davidmoten.rtree.BackpressureTest$7.onNext:274
+Starting rx.subscriptions.CompositeSubscription.unsubscribeFromAll:144
+Finish rx.subscriptions.CompositeSubscription.unsubscribeFromAll:144
+Starting com.github.davidmoten.rtree.NodePosition.toString:31
+Finish com.github.davidmoten.rtree.NodePosition.toString:31
+Starting com.github.davidmoten.rtree.RTreeTest.testVisualizerWithGreekData:541
+Finish com.github.davidmoten.rtree.RTreeTest.testVisualizerWithGreekData:541
+Starting rx.internal.operators.OperatorToObservableSortedList$2.onNext:93
+Finish rx.internal.operators.OperatorToObservableSortedList$2.onNext:93
+Starting com.github.davidmoten.rtree.RTreeTest.testIterableDeletion:213
+Finish com.github.davidmoten.rtree.RTreeTest.testIterableDeletion:213
+Starting rx.internal.schedulers.ScheduledAction.<clinit>:0
+Finish rx.internal.schedulers.ScheduledAction.<clinit>:0
+Starting com.github.davidmoten.rtree.SplitterQuadratic.getBestCandidateForGroup:75
+Finish com.github.davidmoten.rtree.SplitterQuadratic.getBestCandidateForGroup:75
+Starting rx.internal.operators.BlockingOperatorToIterator$SubscriberIterator.next:108
+Finish rx.internal.operators.BlockingOperatorToIterator$SubscriberIterator.next:108
+Starting com.github.davidmoten.rtree.SplitterQuadratic.assignRemaining:55
+Finish com.github.davidmoten.rtree.SplitterQuadratic.assignRemaining:55
+Starting com.github.davidmoten.rtree.RTreeTest.testDeleteOneFromLargeTreeThenDeleteAllAndEnsureEmpty:588
+Finish com.github.davidmoten.rtree.RTreeTest.testDeleteOneFromLargeTreeThenDeleteAllAndEnsureEmpty:588
+Starting rx.internal.operators.OperatorToObservableList$1.onNext:104
+Finish rx.internal.operators.OperatorToObservableList$1.onNext:104
+Starting com.github.davidmoten.rtree.RTreeTest.nextPoint:1022
+Finish com.github.davidmoten.rtree.RTreeTest.nextPoint:1022
+Starting com.github.davidmoten.rtree.SplitterQuadratic.split:24
+Finish com.github.davidmoten.rtree.SplitterQuadratic.split:24
+Starting com.github.davidmoten.rtree.RTreeTest.random:1047
+Finish com.github.davidmoten.rtree.RTreeTest.random:1047
+Starting com.github.davidmoten.rtree.fbs.FlatBuffersHelper.addEntries:38
+Finish com.github.davidmoten.rtree.fbs.FlatBuffersHelper.addEntries:38
+Starting com.github.davidmoten.rtree.SelectorRStar.select:18
+Finish com.github.davidmoten.rtree.SelectorRStar.select:18
+Starting com.github.davidmoten.rtree.RTree.add:353
+Finish com.github.davidmoten.rtree.RTree.add:353
+Starting com.github.davidmoten.rtree.internal.Util.remove:71
+Finish com.github.davidmoten.rtree.internal.Util.remove:71
+Starting com.github.davidmoten.rtree.internal.NonLeafDefault.<init>:23
+Finish com.github.davidmoten.rtree.internal.NonLeafDefault.<init>:23
+Starting com.github.davidmoten.rtree.internal.Util.add:64
+Finish com.github.davidmoten.rtree.internal.Util.add:64
+Starting com.github.davidmoten.rtree.Visualizer.drawNode:95
+Finish com.github.davidmoten.rtree.Visualizer.drawNode:95
+Starting com.github.davidmoten.rtree.internal.LeafDefault.entry:65
+Finish com.github.davidmoten.rtree.internal.LeafDefault.entry:65
+Starting com.github.davidmoten.rtree.internal.LeafDefault.count:45
+Finish com.github.davidmoten.rtree.internal.LeafDefault.count:45
+Starting com.github.davidmoten.rtree.SplitterRStar.getPairs:92
+Finish com.github.davidmoten.rtree.SplitterRStar.getPairs:92
+Starting com.github.davidmoten.rtree.SplitterRStar.split:36
+Finish com.github.davidmoten.rtree.SplitterRStar.split:36
+Starting com.github.davidmoten.rtree.internal.NonLeafDefault.child:62
+Finish com.github.davidmoten.rtree.internal.NonLeafDefault.child:62
+Starting com.github.davidmoten.rtree.internal.operators.OperatorBoundedPriorityQueue$1.onCompleted:33
+Finish com.github.davidmoten.rtree.internal.operators.OperatorBoundedPriorityQueue$1.onCompleted:33
+Starting rx.subscriptions.CompositeSubscription.add:60
+Finish rx.subscriptions.CompositeSubscription.add:60
+Starting com.github.davidmoten.rtree.Visualizer.getNodeDepthsSortedByDepth:65
+Finish com.github.davidmoten.rtree.Visualizer.getNodeDepthsSortedByDepth:65
+Starting com.github.davidmoten.rtree.internal.LeafHelper.makeLeaves:67
+Finish com.github.davidmoten.rtree.internal.LeafHelper.makeLeaves:67
+Starting rx.plugins.RxJavaPlugins.getPluginImplementationViaProperty:204
+Finish rx.plugins.RxJavaPlugins.getPluginImplementationViaProperty:204
+Starting com.vividsolutions.jts.operation.predicate.RectangleIntersectsSegmentVisitor.checkIntersectionWithLineStrings:327
+Finish com.vividsolutions.jts.operation.predicate.RectangleIntersectsSegmentVisitor.checkIntersectionWithLineStrings:327
+Starting rx.internal.util.RxThreadFactory.newThread:30
+Finish rx.internal.util.RxThreadFactory.newThread:30
+Starting com.github.davidmoten.rtree.Serializers$4.call:151
+Finish com.github.davidmoten.rtree.Serializers$4.call:151
+Starting com.github.davidmoten.rtree.internal.util.ImmutableStackTest.testIteratorReturnsTwoItemsInOrderOfPop:76
+Finish com.github.davidmoten.rtree.internal.util.ImmutableStackTest.testIteratorReturnsTwoItemsInOrderOfPop:76
+Starting rx.internal.operators.OperatorToObservableSortedList$2.onCompleted:71
+Finish rx.internal.operators.OperatorToObservableSortedList$2.onCompleted:71
+Starting com.github.davidmoten.rtree.SelectorMinimalOverlapArea.select:14
+Finish com.github.davidmoten.rtree.SelectorMinimalOverlapArea.select:14
+Starting com.github.davidmoten.rtree.SelectorMinimalAreaIncrease.select:18
+Finish com.github.davidmoten.rtree.SelectorMinimalAreaIncrease.select:18
+Starting com.github.davidmoten.rtree.internal.Util.replace:77
+Finish com.github.davidmoten.rtree.internal.Util.replace:77
+Starting rx.internal.util.SubscriptionList.unsubscribeFromAll:118
+Finish rx.internal.util.SubscriptionList.unsubscribeFromAll:118
+Starting com.github.davidmoten.rtree.geometry.Point.toString:72
+Finish com.github.davidmoten.rtree.geometry.Point.toString:72
+Starting com.github.davidmoten.rtree.RTreeTest$10.call:940
+Finish com.github.davidmoten.rtree.RTreeTest$10.call:940
+Starting com.github.davidmoten.rtree.internal.util.BoundedPriorityQueue.asOrderedList:86
+Finish com.github.davidmoten.rtree.internal.util.BoundedPriorityQueue.asOrderedList:86
+
+#1
+Inspecting hot method com.github.davidmoten.rtree.internal.Util.mbr:44...
+Checking for isolation...
+98487657,11048475,10861048,187427
+Total 98487657 (452 unique) events are in hot method
+Total 11048475 (56 unique) traces are in hot method
+Total 10861048 (36 unique) isolated traces are in hot method
+Total 187427 (20 unique) non-isolated traces that have events in hot method
+Total 97482179 (332 unique) events are in isolated traces
+Total 1349281 (160 unique) events are in non-isolated traces (1005478 / 120 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (3262593 traces / 10 unique traces) (36202785 events / 120 unique events)
+	Iterator_RemoveOnce (3262593 traces / 10 unique traces) (16470096 events / 55 unique events)
+	Collection_UnsafeIterator (3075166 traces / 10 unique traces) (38459900 events / 130 unique events)
+	ListIterator_RemoveOnce (1260696 traces / 6 unique traces) (6349398 events / 27 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (187427 traces / 20 unique traces) (1349281 events / 160 unique events) (1005478 events / 120 unique events in hot method)
+Classifier (com.github.davidmoten.rtree.internal.Util.mbr:44): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#2
+Inspecting hot method com.github.davidmoten.rtree.internal.Comparators.overlapArea:61...
+Checking for isolation...
+98438016,7278943,7268396,10547
+Total 98438016 (848 unique) events are in hot method
+Total 7278943 (191 unique) traces are in hot method
+Total 7268396 (33 unique) isolated traces are in hot method
+Total 10547 (158 unique) non-isolated traces that have events in hot method
+Total 98360284 (324 unique) events are in isolated traces
+Total 195015 (60090 unique) events are in non-isolated traces (77732 / 524 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (2396888 traces / 9 unique traces) (18149928 events / 54 unique events)
+	Collection_UnsafeIterator (2396888 traces / 9 unique traces) (41093632 events / 126 unique events)
+	Iterator_HasNext (2396888 traces / 9 unique traces) (38696744 events / 117 unique events)
+	ListIterator_RemoveOnce (77732 traces / 6 unique traces) (419980 events / 27 unique events)
+Specs that have non-isolated traces:
+	List_UnsynchronizedSubList (10547 traces / 158 unique traces) (195015 events / 60090 unique events) (77732 events / 524 unique events in hot method)
+Classifier (com.github.davidmoten.rtree.internal.Comparators.overlapArea:61): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#3
+Inspecting hot method com.github.davidmoten.rtree.internal.Util.replace:77...
+Checking for isolation...
+51277958,6762098,6748779,13319
+Total 51277958 (845 unique) events are in hot method
+Total 6762098 (275 unique) traces are in hot method
+Total 6748779 (47 unique) isolated traces are in hot method
+Total 13319 (228 unique) non-isolated traces that have events in hot method
+Total 51251320 (389 unique) events are in isolated traces
+Total 220029 (70229 unique) events are in non-isolated traces (26638 / 456 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (1347092 traces / 10 unique traces) (17512612 events / 130 unique events)
+	Collections_SortBeforeBinarySearch (1347092 traces / 10 unique traces) (7409214 events / 55 unique events)
+	Iterator_HasNext (1347092 traces / 10 unique traces) (16165520 events / 120 unique events)
+	Collection_UnsynchronizedAddAll (1347092 traces / 1 unique traces) (2694184 events / 2 unique events)
+	Iterator_RemoveOnce (1347092 traces / 10 unique traces) (7409214 events / 55 unique events)
+	ListIterator_RemoveOnce (13319 traces / 6 unique traces) (60576 events / 27 unique events)
+Specs that have non-isolated traces:
+	List_UnsynchronizedSubList (13319 traces / 228 unique traces) (220029 events / 70229 unique events) (26638 events / 456 unique events in hot method)
+Classifier (com.github.davidmoten.rtree.internal.Util.replace:77): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#4
+Inspecting hot method com.github.davidmoten.rtree.SplitterQuadratic.getBestCandidateForGroup:75...
+Checking for isolation...
+4122993,684903,456605,228298
+Total 4122993 (2567 unique) events are in hot method
+Total 684903 (198 unique) traces are in hot method
+Total 456605 (16 unique) isolated traces are in hot method
+Total 228298 (182 unique) non-isolated traces that have events in hot method
+Total 2291169 (101 unique) events are in isolated traces
+Total 2519432 (3511 unique) events are in non-isolated traces (1831824 / 2466 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (228301 traces / 7 unique traces) (1603537 events / 63 unique events)
+	Iterator_RemoveOnce (228301 traces / 7 unique traces) (687618 events / 28 unique events)
+	Collection_UnsafeIterator (3 traces / 2 unique traces) (14 events / 10 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (228298 traces / 182 unique traces) (2519432 events / 3511 unique events) (1831824 events / 2466 unique events in hot method)
+Classifier (com.github.davidmoten.rtree.SplitterQuadratic.getBestCandidateForGroup:75): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#5
+Inspecting hot method com.github.davidmoten.rtree.SplitterRStar.marginValueSum:84...
+Checking for isolation...
+3410680,473280,473280,0
+Total 3410680 (36 unique) events are in hot method
+Total 473280 (6 unique) traces are in hot method
+Total 473280 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3410680 (36 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (157760 traces / 2 unique traces) (1490480 events / 16 unique events)
+	Iterator_HasNext (157760 traces / 2 unique traces) (1332720 events / 14 unique events)
+	Iterator_RemoveOnce (157760 traces / 2 unique traces) (587480 events / 6 unique events)
+Classifier (com.github.davidmoten.rtree.SplitterRStar.marginValueSum:84): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#6
+Inspecting hot method com.github.davidmoten.rtree.SplitterRStar.getPairs:92...
+Checking for isolation...
+1762446,1332725,1253845,78880
+Total 1762446 (875 unique) events are in hot method
+Total 1332725 (871 unique) traces are in hot method
+Total 1253845 (4 unique) isolated traces are in hot method
+Total 78880 (867 unique) non-isolated traces that have events in hot method
+Total 1683566 (8 unique) events are in isolated traces
+Total 1120435 (640093 unique) events are in non-isolated traces (78880 / 867 unique are in hot method)
+Specs that have isolated traces:
+	List_UnsynchronizedSubList (1096084 traces / 2 unique traces) (1096084 events / 2 unique events)
+	Collections_SortBeforeBinarySearch (157761 traces / 2 unique traces) (587482 events / 6 unique events)
+Specs that have non-isolated traces:
+	List_UnsynchronizedSubList (78880 traces / 867 unique traces) (1120435 events / 640093 unique events) (78880 events / 867 unique events in hot method)
+Classifier (com.github.davidmoten.rtree.SplitterRStar.getPairs:92): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#7
+Inspecting hot method com.github.davidmoten.rtree.internal.NonLeafHelper.delete:77...
+Checking for isolation...
+1718371,679283,609266,70017
+Total 1718371 (122 unique) events are in hot method
+Total 679283 (31 unique) traces are in hot method
+Total 609266 (30 unique) isolated traces are in hot method
+Total 70017 (1 unique) non-isolated traces that have events in hot method
+Total 1648354 (121 unique) events are in isolated traces
+Total 140034 (2 unique) events are in non-isolated traces (70017 / 1 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (204166 traces / 7 unique traces) (204168 events / 9 unique events)
+	Collection_UnsynchronizedAddAll (140035 traces / 3 unique traces) (280070 events / 6 unique events)
+	Iterator_HasNext (88355 traces / 8 unique traces) (433973 events / 44 unique events)
+	Collection_UnsafeIterator (88355 traces / 8 unique traces) (522328 events / 52 unique events)
+	Iterator_RemoveOnce (88355 traces / 4 unique traces) (207815 events / 10 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (70017 traces / 1 unique traces) (140034 events / 2 unique events) (70017 events / 1 unique events in hot method)
+Classifier (com.github.davidmoten.rtree.internal.NonLeafHelper.delete:77): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_ONE_UNIQUE
+
+#8
+Inspecting hot method com.github.davidmoten.rtree.SplitterQuadratic.assignRemaining:55...
+Checking for isolation...
+1259709,496956,54154,442802
+Total 1259709 (1621 unique) events are in hot method
+Total 496956 (289 unique) traces are in hot method
+Total 54154 (8 unique) isolated traces are in hot method
+Total 442802 (281 unique) non-isolated traces that have events in hot method
+Total 114149 (20 unique) events are in isolated traces
+Total 4037016 (4345 unique) events are in non-isolated traces (1145560 / 1601 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (54154 traces / 8 unique traces) (114149 events / 20 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (415725 traces / 202 unique traces) (3868713 events / 3671 unique events) (1031411 events / 1085 unique events in hot method)
+	Collections_SortBeforeBinarySearch (27077 traces / 79 unique traces) (168303 events / 674 unique events) (114149 events / 516 unique events in hot method)
+Classifier (com.github.davidmoten.rtree.SplitterQuadratic.assignRemaining:55): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#9
+Inspecting hot method com.github.davidmoten.rtree.internal.Util.add:64...
+Checking for isolation...
+1183984,618746,565238,53508
+Total 1183984 (373 unique) events are in hot method
+Total 618746 (371 unique) traces are in hot method
+Total 565238 (2 unique) isolated traces are in hot method
+Total 53508 (369 unique) non-isolated traces that have events in hot method
+Total 1130476 (4 unique) events are in isolated traces
+Total 425948 (289896 unique) events are in non-isolated traces (53508 / 369 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsynchronizedAddAll (282619 traces / 1 unique traces) (565238 events / 2 unique events)
+	Collections_SortBeforeBinarySearch (282619 traces / 1 unique traces) (565238 events / 2 unique events)
+Specs that have non-isolated traces:
+	List_UnsynchronizedSubList (53508 traces / 369 unique traces) (425948 events / 289896 unique events) (53508 events / 369 unique events in hot method)
+Classifier (com.github.davidmoten.rtree.internal.Util.add:64): CUT,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#10
+Inspecting hot method com.github.davidmoten.rtree.SelectorMinimalAreaIncrease.select:18...
+Checking for isolation...
+1143251,1,0,1
+Total 1143251 (1143251 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 1544309 (1544309 unique) events are in non-isolated traces (1143251 / 1143251 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_Comparable (1 traces / 1 unique traces) (1544309 events / 1544309 unique events) (1143251 events / 1143251 unique events in hot method)
+Classifier (com.github.davidmoten.rtree.SelectorMinimalAreaIncrease.select:18): CUT,NOT_REDUNDANT_TRACES
+
+#11
+Inspecting hot method com.github.davidmoten.rtree.Visualizer.getRectangleDepths:78...
+Checking for isolation...
+595404,80209,77646,2563
+Total 595404 (327 unique) events are in hot method
+Total 80209 (51 unique) traces are in hot method
+Total 77646 (40 unique) isolated traces are in hot method
+Total 2563 (11 unique) non-isolated traces that have events in hot method
+Total 592813 (300 unique) events are in isolated traces
+Total 30794 (118 unique) events are in non-isolated traces (2591 / 27 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (16820 traces / 14 unique traces) (112374 events / 84 unique events)
+	Collection_UnsynchronizedAddAll (16820 traces / 1 unique traces) (33640 events / 2 unique events)
+	Collection_UnsafeIterator (13816 traces / 7 unique traces) (185156 events / 84 unique events)
+	Iterator_HasNext (13816 traces / 7 unique traces) (171340 events / 77 unique events)
+	Iterator_RemoveOnce (13816 traces / 7 unique traces) (78762 events / 35 unique events)
+	ListIterator_RemoveOnce (2558 traces / 4 unique traces) (11541 events / 18 unique events)
+Specs that have non-isolated traces:
+	List_UnsynchronizedSubList (2558 traces / 8 unique traces) (30756 events / 96 unique events) (2558 events / 8 unique events in hot method)
+	Collections_SortBeforeBinarySearch (5 traces / 3 unique traces) (38 events / 22 unique events) (33 events / 19 unique events in hot method)
+Classifier (com.github.davidmoten.rtree.Visualizer.getRectangleDepths:78): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#12
+Inspecting hot method com.github.davidmoten.rtree.Visualizer.drawNode:95...
+Checking for isolation...
+477950,15,15,0
+Total 477950 (477950 unique) events are in hot method
+Total 15 (15 unique) traces are in hot method
+Total 15 (15 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 477950 (477950 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (5 traces / 5 unique traces) (191184 events / 191184 unique events)
+	Iterator_HasNext (5 traces / 5 unique traces) (191179 events / 191179 unique events)
+	Iterator_RemoveOnce (5 traces / 5 unique traces) (95587 events / 95587 unique events)
+Classifier (com.github.davidmoten.rtree.Visualizer.drawNode:95): CUT,NOT_REDUNDANT_TRACES
+
+#13
+Inspecting hot method com.github.davidmoten.rtree.RTree.add:353...
+Checking for isolation...
+444496,24152,24152,0
+Total 444496 (197146 unique) events are in hot method
+Total 24152 (25 unique) traces are in hot method
+Total 24152 (25 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 444496 (197146 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (10034 traces / 9 unique traces) (175791 events / 78856 unique events)
+	Collection_UnsafeIterator (10034 traces / 9 unique traces) (185828 events / 78868 unique events)
+	Iterator_RemoveOnce (4084 traces / 7 unique traces) (82877 events / 39422 unique events)
+Classifier (com.github.davidmoten.rtree.RTree.add:353): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#14
+Inspecting hot method com.github.davidmoten.rtree.SplitterRStar.split:36...
+Checking for isolation...
+354960,100340,100339,1
+Total 354960 (197206 unique) events are in hot method
+Total 100340 (4 unique) traces are in hot method
+Total 100339 (3 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 157760 (6 unique) events are in isolated traces
+Total 1544309 (1544309 unique) events are in non-isolated traces (197200 / 197200 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (100339 traces / 3 unique traces) (157760 events / 6 unique events)
+Specs that have non-isolated traces:
+	Collections_Comparable (1 traces / 1 unique traces) (1544309 events / 1544309 unique events) (197200 events / 197200 unique events in hot method)
+Classifier (com.github.davidmoten.rtree.SplitterRStar.split:36): CUT,ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#15
+Inspecting hot method com.github.davidmoten.rtree.internal.LeafDefault.count:45...
+Checking for isolation...
+353843,4911,0,4911
+Total 353843 (310718 unique) events are in hot method
+Total 4911 (560 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 4911 (560 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 615499 (533027 unique) events are in non-isolated traces (353843 / 310718 unique are in hot method)
+Specs that have non-isolated traces:
+	List_UnsynchronizedSubList (4911 traces / 560 unique traces) (615499 events / 533027 unique events) (353843 events / 310718 unique events in hot method)
+Classifier (com.github.davidmoten.rtree.internal.LeafDefault.count:45): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#16
+Inspecting hot method com.github.davidmoten.rtree.fbs.FlatBuffersHelper.createEntries:92...
+Checking for isolation...
+345316,55951,55951,0
+Total 345316 (55 unique) events are in hot method
+Total 55951 (10 unique) traces are in hot method
+Total 55951 (10 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 345316 (55 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (55951 traces / 10 unique traces) (345316 events / 55 unique events)
+Classifier (com.github.davidmoten.rtree.fbs.FlatBuffersHelper.createEntries:92): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#17
+Inspecting hot method com.github.davidmoten.rtree.internal.LeafDefault.entry:65...
+Checking for isolation...
+253702,4911,0,4911
+Total 253702 (221374 unique) events are in hot method
+Total 4911 (560 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 4911 (560 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 615499 (533027 unique) events are in non-isolated traces (253702 / 221374 unique are in hot method)
+Specs that have non-isolated traces:
+	List_UnsynchronizedSubList (4911 traces / 560 unique traces) (615499 events / 533027 unique events) (253702 events / 221374 unique events in hot method)
+Classifier (com.github.davidmoten.rtree.internal.LeafDefault.entry:65): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#18
+Inspecting hot method com.github.davidmoten.rtree.SelectorMinimalOverlapArea.select:14...
+Checking for isolation...
+203841,1,0,1
+Total 203841 (203841 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 1544309 (1544309 unique) events are in non-isolated traces (203841 / 203841 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_Comparable (1 traces / 1 unique traces) (1544309 events / 1544309 unique events) (203841 events / 203841 unique events in hot method)
+Classifier (com.github.davidmoten.rtree.SelectorMinimalOverlapArea.select:14): CUT,NOT_REDUNDANT_TRACES
+
+#19
+Inspecting hot method com.github.davidmoten.rtree.fbs.FlatBuffersHelper.addEntries:38...
+Checking for isolation...
+126576,6852,0,6852
+Total 126576 (148 unique) events are in hot method
+Total 6852 (8 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 6852 (8 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 133428 (156 unique) events are in non-isolated traces (126576 / 148 unique are in hot method)
+Specs that have non-isolated traces:
+	List_UnsynchronizedSubList (6852 traces / 8 unique traces) (133428 events / 156 unique events) (126576 events / 148 unique events in hot method)
+Classifier (com.github.davidmoten.rtree.fbs.FlatBuffersHelper.addEntries:38): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#20
+Inspecting hot method com.github.davidmoten.rtree.internal.LeafHelper.makeLeaves:67...
+Checking for isolation...
+103308,51654,51654,0
+Total 103308 (2 unique) events are in hot method
+Total 51654 (1 unique) traces are in hot method
+Total 51654 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 103308 (2 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (51654 traces / 1 unique traces) (103308 events / 2 unique events)
+Classifier (com.github.davidmoten.rtree.internal.LeafHelper.makeLeaves:67): CUT,ISOLATED_ONE_UNIQUE
+
+#21
+Inspecting hot method rx.internal.operators.OperatorToObservableList$1.onNext:104...
+Checking for isolation...
+78406,50,50,0
+Total 78406 (58381 unique) events are in hot method
+Total 50 (14 unique) traces are in hot method
+Total 50 (14 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 78406 (58381 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (50 traces / 14 unique traces) (78406 events / 58381 unique events)
+Classifier (rx.internal.operators.OperatorToObservableList$1.onNext:104): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#22
+Inspecting hot method com.github.davidmoten.rtree.internal.Util.remove:71...
+Checking for isolation...
+70017,70017,0,70017
+Total 70017 (1 unique) events are in hot method
+Total 70017 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 70017 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 140034 (2 unique) events are in non-isolated traces (70017 / 1 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (70017 traces / 1 unique traces) (140034 events / 2 unique events) (70017 events / 1 unique events in hot method)
+Classifier (com.github.davidmoten.rtree.internal.Util.remove:71): CUT,NOT_ISOLATED_ONE_UNIQUE
+
+#23
+Inspecting hot method com.github.davidmoten.rtree.internal.NonLeafDefault.count:42...
+Checking for isolation...
+68782,1055,0,1055
+Total 68782 (61305 unique) events are in hot method
+Total 1055 (283 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1055 (283 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 123087 (106752 unique) events are in non-isolated traces (68782 / 61305 unique are in hot method)
+Specs that have non-isolated traces:
+	List_UnsynchronizedSubList (1055 traces / 283 unique traces) (123087 events / 106752 unique events) (68782 events / 61305 unique events in hot method)
+Classifier (com.github.davidmoten.rtree.internal.NonLeafDefault.count:42): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#24
+Inspecting hot method com.github.davidmoten.rtree.SplitterQuadratic.split:24...
+Checking for isolation...
+54154,27077,0,27077
+Total 54154 (158 unique) events are in hot method
+Total 27077 (79 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 27077 (79 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 168303 (674 unique) events are in non-isolated traces (54154 / 158 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (27077 traces / 79 unique traces) (168303 events / 674 unique events) (54154 events / 158 unique events in hot method)
+Classifier (com.github.davidmoten.rtree.SplitterQuadratic.split:24): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#25
+Inspecting hot method com.github.davidmoten.rtree.internal.NonLeafDefault.child:62...
+Checking for isolation...
+50803,1055,0,1055
+Total 50803 (43799 unique) events are in hot method
+Total 1055 (283 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1055 (283 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 123087 (106752 unique) events are in non-isolated traces (50803 / 43799 unique are in hot method)
+Specs that have non-isolated traces:
+	List_UnsynchronizedSubList (1055 traces / 283 unique traces) (123087 events / 106752 unique events) (50803 events / 43799 unique events in hot method)
+Classifier (com.github.davidmoten.rtree.internal.NonLeafDefault.child:62): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#26
+Inspecting hot method com.github.davidmoten.rtree.RTreeTest.random:1047...
+Checking for isolation...
+44010,1,0,1
+Total 44010 (44010 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 64010 (64010 unique) events are in non-isolated traces (44010 / 44010 unique are in hot method)
+Specs that have non-isolated traces:
+	Math_ContendedRandom (1 traces / 1 unique traces) (64010 events / 64010 unique events) (44010 events / 44010 unique events in hot method)
+Classifier (com.github.davidmoten.rtree.RTreeTest.random:1047): CUT,NOT_REDUNDANT_TRACES
+
+#27
+Inspecting hot method com.github.davidmoten.rtree.RTreeTest.testDeleteOneFromLargeTreeThenDeleteAllAndEnsureEmpty:588...
+Checking for isolation...
+30004,2,1,1
+Total 30004 (30004 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 10001 (10001 unique) events are in isolated traces
+Total 30004 (30004 unique) events are in non-isolated traces (20003 / 20003 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (10001 events / 10001 unique events)
+Specs that have non-isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (30004 events / 30004 unique events) (20003 events / 20003 unique events in hot method)
+Classifier (com.github.davidmoten.rtree.RTreeTest.testDeleteOneFromLargeTreeThenDeleteAllAndEnsureEmpty:588): CUT,NOT_REDUNDANT_TRACES
+
+#28
+Inspecting hot method com.github.davidmoten.rtree.internal.NonLeafHelper.makeNonLeaves:61...
+Checking for isolation...
+29720,14860,14860,0
+Total 29720 (2 unique) events are in hot method
+Total 14860 (1 unique) traces are in hot method
+Total 14860 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 29720 (2 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (14860 traces / 1 unique traces) (29720 events / 2 unique events)
+Classifier (com.github.davidmoten.rtree.internal.NonLeafHelper.makeNonLeaves:61): CUT,ISOLATED_ONE_UNIQUE
+
+#29
+Inspecting hot method com.github.davidmoten.rtree.RTreeTest.nextPoint:1022...
+Checking for isolation...
+20000,1,0,1
+Total 20000 (20000 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 64010 (64010 unique) events are in non-isolated traces (20000 / 20000 unique are in hot method)
+Specs that have non-isolated traces:
+	Math_ContendedRandom (1 traces / 1 unique traces) (64010 events / 64010 unique events) (20000 events / 20000 unique events in hot method)
+Classifier (com.github.davidmoten.rtree.RTreeTest.nextPoint:1022): CUT,NOT_REDUNDANT_TRACES
+
+#30
+Inspecting hot method com.github.davidmoten.rtree.internal.NonLeafDefault.<init>:23...
+Checking for isolation...
+14094,14094,0,14094
+Total 14094 (297 unique) events are in hot method
+Total 14094 (297 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 14094 (297 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 265462 (106906 unique) events are in non-isolated traces (14094 / 297 unique are in hot method)
+Specs that have non-isolated traces:
+	List_UnsynchronizedSubList (14094 traces / 297 unique traces) (265462 events / 106906 unique events) (14094 events / 297 unique events in hot method)
+Classifier (com.github.davidmoten.rtree.internal.NonLeafDefault.<init>:23): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#31
+Inspecting hot method com.github.davidmoten.rtree.SelectorRStar.select:18...
+Checking for isolation...
+13319,13319,0,13319
+Total 13319 (228 unique) events are in hot method
+Total 13319 (228 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 13319 (228 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 220029 (70229 unique) events are in non-isolated traces (13319 / 228 unique are in hot method)
+Specs that have non-isolated traces:
+	List_UnsynchronizedSubList (13319 traces / 228 unique traces) (220029 events / 70229 unique events) (13319 events / 228 unique events in hot method)
+Classifier (com.github.davidmoten.rtree.SelectorRStar.select:18): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#32
+Inspecting hot method com.github.davidmoten.rtree.fbs.SerializerFlatBuffers.toNodeDefault:147...
+Checking for isolation...
+12738,1836,1836,0
+Total 12738 (51 unique) events are in hot method
+Total 1836 (8 unique) traces are in hot method
+Total 1836 (8 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 12738 (51 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1836 traces / 8 unique traces) (12738 events / 51 unique events)
+Classifier (com.github.davidmoten.rtree.fbs.SerializerFlatBuffers.toNodeDefault:147): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#33
+Inspecting hot method com.github.davidmoten.rtree.internal.LeafHelper.delete:28...
+Checking for isolation...
+10048,10029,10029,0
+Total 10048 (10 unique) events are in hot method
+Total 10029 (4 unique) traces are in hot method
+Total 10029 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 10048 (10 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (10029 traces / 4 unique traces) (10048 events / 10 unique events)
+Classifier (com.github.davidmoten.rtree.internal.LeafHelper.delete:28): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#34
+Inspecting hot method rx.internal.operators.BlockingOperatorToIterator$SubscriberIterator.next:108...
+Checking for isolation...
+10001,1,0,1
+Total 10001 (10001 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 30004 (30004 unique) events are in non-isolated traces (10001 / 10001 unique are in hot method)
+Specs that have non-isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (30004 events / 30004 unique events) (10001 events / 10001 unique events in hot method)
+Classifier (rx.internal.operators.BlockingOperatorToIterator$SubscriberIterator.next:108): LIB,NOT_REDUNDANT_TRACES
+
+#35
+Inspecting hot method rx.internal.util.SubscriptionList.unsubscribeFromAll:118...
+Checking for isolation...
+2724,1168,1168,0
+Total 2724 (24 unique) events are in hot method
+Total 1168 (8 unique) traces are in hot method
+Total 1168 (8 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2724 (24 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (292 traces / 2 unique traces) (908 events / 8 unique events)
+	Collection_UnsafeIterator (292 traces / 2 unique traces) (1200 events / 10 unique events)
+	ListIterator_RemoveOnce (292 traces / 2 unique traces) (308 events / 3 unique events)
+	Iterator_RemoveOnce (292 traces / 2 unique traces) (308 events / 3 unique events)
+Classifier (rx.internal.util.SubscriptionList.unsubscribeFromAll:118): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#36
+Inspecting hot method rx.observables.StringObservable$9$1.onNext:439...
+Checking for isolation...
+1400,560,560,0
+Total 1400 (5 unique) events are in hot method
+Total 560 (2 unique) traces are in hot method
+Total 560 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1400 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (280 traces / 1 unique traces) (840 events / 3 unique events)
+	Appendable_ThreadSafe (280 traces / 1 unique traces) (560 events / 2 unique events)
+Classifier (rx.observables.StringObservable$9$1.onNext:439): LIB,ISOLATED_ONE_UNIQUE
+
+#37
+Inspecting hot method rx.plugins.RxJavaPlugins.getPluginImplementationViaProperty:204...
+Checking for isolation...
+1301,20,20,0
+Total 1301 (984 unique) events are in hot method
+Total 20 (13 unique) traces are in hot method
+Total 20 (13 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1301 (984 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Map_UnsafeIterator (4 traces / 4 unique traces) (373 events / 373 unique events)
+	Iterator_RemoveOnce (3 traces / 2 unique traces) (179 events / 119 unique events)
+	Iterator_HasNext (3 traces / 2 unique traces) (361 events / 240 unique events)
+	Appendable_ThreadSafe (3 traces / 1 unique traces) (9 events / 3 unique events)
+	StringBuilder_ThreadSafe (3 traces / 1 unique traces) (12 events / 4 unique events)
+	Collection_UnsafeIterator (3 traces / 2 unique traces) (364 events / 242 unique events)
+	Map_CollectionViewAdd (1 traces / 1 unique traces) (3 events / 3 unique events)
+Classifier (rx.plugins.RxJavaPlugins.getPluginImplementationViaProperty:204): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT,ISOLATED_ONE_UNIQUE,ISOLATED_SINGLE_TRACE
+
+#38
+Inspecting hot method com.github.davidmoten.rtree.RTreeTest.createRandomEntries:165...
+Checking for isolation...
+1005,2,2,0
+Total 1005 (1005 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1005 (1005 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (2 traces / 2 unique traces) (1005 events / 1005 unique events)
+Classifier (com.github.davidmoten.rtree.RTreeTest.createRandomEntries:165): CUT,NOT_REDUNDANT_TRACES
+
+#39
+Inspecting hot method com.github.davidmoten.rtree.Utilities.entries1000:15...
+Checking for isolation...
+1003,4,4,0
+Total 1003 (1003 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 4 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1003 (1003 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (1000 events / 1000 unique events)
+	Closeable_MultipleClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Console_CloseReader (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Reader_ManipulateAfterClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+Classifier (com.github.davidmoten.rtree.Utilities.entries1000:15): CUT,NOT_REDUNDANT_TRACES
+
+#40
+Inspecting hot method com.github.davidmoten.rtree.RTreeTest.testBackpressureIterationForUpTo1000Entries:389...
+Checking for isolation...
+1000,1000,1000,0
+Total 1000 (1 unique) events are in hot method
+Total 1000 (1 unique) traces are in hot method
+Total 1000 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1000 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	List_UnsynchronizedSubList (1000 traces / 1 unique traces) (1000 events / 1 unique events)
+Classifier (com.github.davidmoten.rtree.RTreeTest.testBackpressureIterationForUpTo1000Entries:389): CUT,ISOLATED_ONE_UNIQUE
+
+#41
+Inspecting hot method com.github.davidmoten.rtree.RTree.asString:853...
+Checking for isolation...
+906,122,122,0
+Total 906 (132 unique) events are in hot method
+Total 122 (16 unique) traces are in hot method
+Total 122 (16 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 906 (132 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (40 traces / 5 unique traces) (322 events / 48 unique events)
+	StringBuilder_ThreadSafe (40 traces / 5 unique traces) (362 events / 53 unique events)
+	Collection_UnsafeIterator (14 traces / 2 unique traces) (100 events / 14 unique events)
+	Iterator_HasNext (14 traces / 2 unique traces) (86 events / 12 unique events)
+	Iterator_RemoveOnce (14 traces / 2 unique traces) (36 events / 5 unique events)
+Classifier (com.github.davidmoten.rtree.RTree.asString:853): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#42
+Inspecting hot method com.github.davidmoten.rtree.geometry.Rectangle.toString:87...
+Checking for isolation...
+570,60,60,0
+Total 570 (19 unique) events are in hot method
+Total 60 (2 unique) traces are in hot method
+Total 60 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 570 (19 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (30 traces / 1 unique traces) (300 events / 10 unique events)
+	Appendable_ThreadSafe (30 traces / 1 unique traces) (270 events / 9 unique events)
+Classifier (com.github.davidmoten.rtree.geometry.Rectangle.toString:87): CUT,ISOLATED_ONE_UNIQUE
+
+#43
+Inspecting hot method com.github.davidmoten.rtree.internal.EntryDefault.toString:68...
+Checking for isolation...
+539,98,98,0
+Total 539 (11 unique) events are in hot method
+Total 98 (2 unique) traces are in hot method
+Total 98 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 539 (11 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (49 traces / 1 unique traces) (245 events / 5 unique events)
+	StringBuilder_ThreadSafe (49 traces / 1 unique traces) (294 events / 6 unique events)
+Classifier (com.github.davidmoten.rtree.internal.EntryDefault.toString:68): CUT,ISOLATED_ONE_UNIQUE
+
+#44
+Inspecting hot method com.github.davidmoten.rtree.geometry.Point.toString:72...
+Checking for isolation...
+506,92,92,0
+Total 506 (11 unique) events are in hot method
+Total 92 (2 unique) traces are in hot method
+Total 92 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 506 (11 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (46 traces / 1 unique traces) (230 events / 5 unique events)
+	StringBuilder_ThreadSafe (46 traces / 1 unique traces) (276 events / 6 unique events)
+Classifier (com.github.davidmoten.rtree.geometry.Point.toString:72): CUT,ISOLATED_ONE_UNIQUE
+
+#45
+Inspecting hot method rx.internal.util.SubscriptionList.add:59...
+Checking for isolation...
+302,296,284,12
+Total 302 (4 unique) events are in hot method
+Total 296 (3 unique) traces are in hot method
+Total 284 (2 unique) isolated traces are in hot method
+Total 12 (1 unique) non-isolated traces that have events in hot method
+Total 290 (3 unique) events are in isolated traces
+Total 24 (2 unique) events are in non-isolated traces (12 / 1 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (284 traces / 2 unique traces) (290 events / 3 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (12 traces / 1 unique traces) (24 events / 2 unique events) (12 events / 1 unique events in hot method)
+Classifier (rx.internal.util.SubscriptionList.add:59): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_ONE_UNIQUE
+
+#46
+Inspecting hot method com.github.davidmoten.rtree.internal.operators.OperatorBoundedPriorityQueue$1.onCompleted:33...
+Checking for isolation...
+129,33,33,0
+Total 129 (58 unique) events are in hot method
+Total 33 (13 unique) traces are in hot method
+Total 33 (13 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 129 (58 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (11 traces / 5 unique traces) (49 events / 23 unique events)
+	Collection_UnsafeIterator (11 traces / 5 unique traces) (60 events / 28 unique events)
+	Iterator_RemoveOnce (11 traces / 3 unique traces) (20 events / 7 unique events)
+Classifier (com.github.davidmoten.rtree.internal.operators.OperatorBoundedPriorityQueue$1.onCompleted:33): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#47
+Inspecting hot method com.github.davidmoten.rtree.fbs.SerializerFlatBuffersTest.serialize:82...
+Checking for isolation...
+80,25,24,1
+Total 80 (26 unique) events are in hot method
+Total 25 (7 unique) traces are in hot method
+Total 24 (6 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 72 (18 unique) events are in isolated traces
+Total 12 (12 unique) events are in non-isolated traces (8 / 8 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (8 traces / 2 unique traces) (28 events / 7 unique events)
+	StringBuilder_ThreadSafe (8 traces / 2 unique traces) (36 events / 9 unique events)
+	Closeable_MultipleClose (4 traces / 1 unique traces) (4 events / 1 unique events)
+	OutputStream_ManipulateAfterClose (4 traces / 1 unique traces) (4 events / 1 unique events)
+Specs that have non-isolated traces:
+	File_LengthOnDirectory (1 traces / 1 unique traces) (12 events / 12 unique events) (8 events / 8 unique events in hot method)
+Classifier (com.github.davidmoten.rtree.fbs.SerializerFlatBuffersTest.serialize:82): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#48
+Inspecting hot method com.github.davidmoten.rtree.RTreeTest.testStandardRTreeSearch2:687...
+Checking for isolation...
+70,12,12,0
+Total 70 (18 unique) events are in hot method
+Total 12 (4 unique) traces are in hot method
+Total 12 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 70 (18 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (6 traces / 2 unique traces) (38 events / 10 unique events)
+	Appendable_ThreadSafe (6 traces / 2 unique traces) (32 events / 8 unique events)
+Classifier (com.github.davidmoten.rtree.RTreeTest.testStandardRTreeSearch2:687): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#49
+Inspecting hot method com.github.davidmoten.rtree.RTreeTest.testStandardRTreeSearch:668...
+Checking for isolation...
+70,12,12,0
+Total 70 (18 unique) events are in hot method
+Total 12 (4 unique) traces are in hot method
+Total 12 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 70 (18 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (6 traces / 2 unique traces) (32 events / 8 unique events)
+	StringBuilder_ThreadSafe (6 traces / 2 unique traces) (38 events / 10 unique events)
+Classifier (com.github.davidmoten.rtree.RTreeTest.testStandardRTreeSearch:668): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#50
+Inspecting hot method com.github.davidmoten.rtree.RTreeTest$10.call:940...
+Checking for isolation...
+65,26,26,0
+Total 65 (5 unique) events are in hot method
+Total 26 (2 unique) traces are in hot method
+Total 26 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 65 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (13 traces / 1 unique traces) (39 events / 3 unique events)
+	Appendable_ThreadSafe (13 traces / 1 unique traces) (26 events / 2 unique events)
+Classifier (com.github.davidmoten.rtree.RTreeTest$10.call:940): CUT,ISOLATED_ONE_UNIQUE
+
+#51
+Inspecting hot method com.vividsolutions.jts.operation.predicate.RectangleIntersectsSegmentVisitor.checkIntersectionWithLineStrings:327...
+Checking for isolation...
+52,24,24,0
+Total 52 (13 unique) events are in hot method
+Total 24 (5 unique) traces are in hot method
+Total 24 (5 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 52 (13 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (8 traces / 1 unique traces) (8 events / 1 unique events)
+	Collection_UnsafeIterator (8 traces / 2 unique traces) (26 events / 7 unique events)
+	Iterator_HasNext (8 traces / 2 unique traces) (18 events / 5 unique events)
+Classifier (com.vividsolutions.jts.operation.predicate.RectangleIntersectsSegmentVisitor.checkIntersectionWithLineStrings:327): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE
+
+#52
+Inspecting hot method com.github.davidmoten.rtree.fbs.SerializerFlatBuffersTest.deserialize:91...
+Checking for isolation...
+52,17,16,1
+Total 52 (16 unique) events are in hot method
+Total 17 (5 unique) traces are in hot method
+Total 16 (4 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 48 (12 unique) events are in isolated traces
+Total 12 (12 unique) events are in non-isolated traces (4 / 4 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (8 traces / 2 unique traces) (20 events / 5 unique events)
+	StringBuilder_ThreadSafe (8 traces / 2 unique traces) (28 events / 7 unique events)
+Specs that have non-isolated traces:
+	File_LengthOnDirectory (1 traces / 1 unique traces) (12 events / 12 unique events) (4 events / 4 unique events in hot method)
+Classifier (com.github.davidmoten.rtree.fbs.SerializerFlatBuffersTest.deserialize:91): CUT,ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#53
+Inspecting hot method com.github.davidmoten.rtree.BackpressureTest$7.onNext:274...
+Checking for isolation...
+41,1,0,1
+Total 41 (41 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 62 (62 unique) events are in non-isolated traces (41 / 41 unique are in hot method)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (62 events / 62 unique events) (41 events / 41 unique events in hot method)
+Classifier (com.github.davidmoten.rtree.BackpressureTest$7.onNext:274): CUT,NOT_REDUNDANT_TRACES
+
+#54
+Inspecting hot method com.github.davidmoten.rtree.RTree.delete:409...
+Checking for isolation...
+28,3,3,0
+Total 28 (28 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 28 (28 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (5 events / 5 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (11 events / 11 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (12 events / 12 unique events)
+Classifier (com.github.davidmoten.rtree.RTree.delete:409): CUT,NOT_REDUNDANT_TRACES
+
+#55
+Inspecting hot method com.github.davidmoten.rtree.internal.util.PriorityQueue.<init>:111...
+Checking for isolation...
+26,26,26,0
+Total 26 (1 unique) events are in hot method
+Total 26 (1 unique) traces are in hot method
+Total 26 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 26 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Arrays_SortBeforeBinarySearch (26 traces / 1 unique traces) (26 events / 1 unique events)
+Classifier (com.github.davidmoten.rtree.internal.util.PriorityQueue.<init>:111): CUT,ISOLATED_ONE_UNIQUE
+
+#56
+Inspecting hot method com.github.davidmoten.rtree.fbs.NonLeafFlatBuffers.toString:153...
+Checking for isolation...
+22,4,4,0
+Total 22 (11 unique) events are in hot method
+Total 4 (2 unique) traces are in hot method
+Total 4 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 22 (11 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (2 traces / 1 unique traces) (12 events / 6 unique events)
+	Appendable_ThreadSafe (2 traces / 1 unique traces) (10 events / 5 unique events)
+Classifier (com.github.davidmoten.rtree.fbs.NonLeafFlatBuffers.toString:153): CUT,ISOLATED_ONE_UNIQUE
+
+#57
+Inspecting hot method com.github.davidmoten.rtree.internal.util.BoundedPriorityQueue.asOrderedList:86...
+Checking for isolation...
+22,12,11,1
+Total 22 (12 unique) events are in hot method
+Total 12 (2 unique) traces are in hot method
+Total 11 (1 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 11 (1 unique) events are in isolated traces
+Total 1544309 (1544309 unique) events are in non-isolated traces (11 / 11 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (11 traces / 1 unique traces) (11 events / 1 unique events)
+Specs that have non-isolated traces:
+	Collections_Comparable (1 traces / 1 unique traces) (1544309 events / 1544309 unique events) (11 events / 11 unique events in hot method)
+Classifier (com.github.davidmoten.rtree.internal.util.BoundedPriorityQueue.asOrderedList:86): CUT,ISOLATED_ONE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#58
+Inspecting hot method com.github.davidmoten.rtree.RTreeTest.testPerformanceAndEntriesCount:124...
+Checking for isolation...
+21,7,7,0
+Total 21 (21 unique) events are in hot method
+Total 7 (7 unique) traces are in hot method
+Total 7 (7 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 21 (21 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (3 traces / 3 unique traces) (11 events / 11 unique events)
+	Appendable_ThreadSafe (3 traces / 3 unique traces) (8 events / 8 unique events)
+	Long_BadParsingArgs (1 traces / 1 unique traces) (2 events / 2 unique events)
+Classifier (com.github.davidmoten.rtree.RTreeTest.testPerformanceAndEntriesCount:124): CUT,NOT_REDUNDANT_TRACES
+
+#59
+Inspecting hot method rx.subscriptions.CompositeSubscription.add:60...
+Checking for isolation...
+19,1,0,1
+Total 19 (19 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 62 (62 unique) events are in non-isolated traces (19 / 19 unique are in hot method)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (62 events / 62 unique events) (19 events / 19 unique events in hot method)
+Classifier (rx.subscriptions.CompositeSubscription.add:60): LIB,NOT_REDUNDANT_TRACES
+
+#60
+Inspecting hot method com.github.davidmoten.rtree.Serializers$3.call:126...
+Checking for isolation...
+18,6,6,0
+Total 18 (9 unique) events are in hot method
+Total 6 (3 unique) traces are in hot method
+Total 6 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 18 (9 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Closeable_MultipleClose (2 traces / 1 unique traces) (4 events / 2 unique events)
+	OutputStream_ManipulateAfterClose (2 traces / 1 unique traces) (4 events / 2 unique events)
+	ByteArrayOutputStream_FlushBeforeRetrieve (2 traces / 1 unique traces) (10 events / 5 unique events)
+Classifier (com.github.davidmoten.rtree.Serializers$3.call:126): CUT,ISOLATED_ONE_UNIQUE
+
+#61
+Inspecting hot method rx.internal.util.RxThreadFactory.newThread:30...
+Checking for isolation...
+18,9,9,0
+Total 18 (6 unique) events are in hot method
+Total 9 (3 unique) traces are in hot method
+Total 9 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 18 (6 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Thread_SetDaemonBeforeStart (3 traces / 1 unique traces) (3 events / 1 unique events)
+	StringBuilder_ThreadSafe (3 traces / 1 unique traces) (9 events / 3 unique events)
+	Appendable_ThreadSafe (3 traces / 1 unique traces) (6 events / 2 unique events)
+Classifier (rx.internal.util.RxThreadFactory.newThread:30): LIB,ISOLATED_ONE_UNIQUE
+
+#62
+Inspecting hot method rx.subscriptions.CompositeSubscription.unsubscribeFromAll:144...
+Checking for isolation...
+18,12,12,0
+Total 18 (3 unique) events are in hot method
+Total 12 (2 unique) traces are in hot method
+Total 12 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 18 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (6 traces / 1 unique traces) (6 events / 1 unique events)
+	Collection_UnsafeIterator (6 traces / 1 unique traces) (12 events / 2 unique events)
+Classifier (rx.subscriptions.CompositeSubscription.unsubscribeFromAll:144): LIB,ISOLATED_ONE_UNIQUE
+
+#63
+Inspecting hot method com.github.davidmoten.rtree.BackpressureTest.testBackpressureIterateWhenConditionFailsAgainstNonLeafNode:201...
+Checking for isolation...
+18,1,1,0
+Total 18 (18 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 18 (18 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (18 events / 18 unique events)
+Classifier (com.github.davidmoten.rtree.BackpressureTest.testBackpressureIterateWhenConditionFailsAgainstNonLeafNode:201): CUT,NOT_REDUNDANT_TRACES
+
+#64
+Inspecting hot method com.github.davidmoten.rtree.BackpressureTest.testBackpressureIterateWhenNodeHasMaxChildrenAndIsNotRoot:187...
+Checking for isolation...
+17,1,1,0
+Total 17 (17 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 17 (17 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (17 events / 17 unique events)
+Classifier (com.github.davidmoten.rtree.BackpressureTest.testBackpressureIterateWhenNodeHasMaxChildrenAndIsNotRoot:187): CUT,NOT_REDUNDANT_TRACES
+
+#65
+Inspecting hot method rx.internal.operators.OperatorGroupBy$GroupBySubscriber.checkTerminated:324...
+Checking for isolation...
+16,5,5,0
+Total 16 (16 unique) events are in hot method
+Total 5 (5 unique) traces are in hot method
+Total 5 (5 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 16 (16 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (2 events / 2 unique events)
+	Map_CollectionViewAdd (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Map_UnsafeIterator (1 traces / 1 unique traces) (2 events / 2 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (6 events / 6 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (5 events / 5 unique events)
+Classifier (rx.internal.operators.OperatorGroupBy$GroupBySubscriber.checkTerminated:324): LIB,NOT_REDUNDANT_TRACES
+
+#66
+Inspecting hot method com.github.davidmoten.rtree.RTreeTest$8.call:951...
+Checking for isolation...
+15,6,6,0
+Total 15 (5 unique) events are in hot method
+Total 6 (2 unique) traces are in hot method
+Total 6 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 15 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (3 traces / 1 unique traces) (9 events / 3 unique events)
+	Appendable_ThreadSafe (3 traces / 1 unique traces) (6 events / 2 unique events)
+Classifier (com.github.davidmoten.rtree.RTreeTest$8.call:951): CUT,ISOLATED_ONE_UNIQUE
+
+#67
+Inspecting hot method com.github.davidmoten.rtree.GreekEarthquakes$3.call:40...
+Checking for isolation...
+15,15,15,0
+Total 15 (3 unique) events are in hot method
+Total 15 (3 unique) traces are in hot method
+Total 15 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 15 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Closeable_MultipleClose (5 traces / 1 unique traces) (5 events / 1 unique events)
+	InputStream_MarkAfterClose (5 traces / 1 unique traces) (5 events / 1 unique events)
+	InputStream_ManipulateAfterClose (5 traces / 1 unique traces) (5 events / 1 unique events)
+Classifier (com.github.davidmoten.rtree.GreekEarthquakes$3.call:40): CUT,ISOLATED_ONE_UNIQUE
+
+#68
+Inspecting hot method com.github.davidmoten.rtree.RTree.delete:425...
+Checking for isolation...
+13,3,3,0
+Total 13 (13 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 13 (13 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (2 events / 2 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (5 events / 5 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (6 events / 6 unique events)
+Classifier (com.github.davidmoten.rtree.RTree.delete:425): CUT,NOT_REDUNDANT_TRACES
+
+#69
+Inspecting hot method com.github.davidmoten.rtree.Serializers$4.call:151...
+Checking for isolation...
+12,12,12,0
+Total 12 (3 unique) events are in hot method
+Total 12 (3 unique) traces are in hot method
+Total 12 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 12 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Closeable_MultipleClose (4 traces / 1 unique traces) (4 events / 1 unique events)
+	InputStream_ManipulateAfterClose (4 traces / 1 unique traces) (4 events / 1 unique events)
+	InputStream_MarkAfterClose (4 traces / 1 unique traces) (4 events / 1 unique events)
+Classifier (com.github.davidmoten.rtree.Serializers$4.call:151): CUT,ISOLATED_ONE_UNIQUE
+
+#70
+Inspecting hot method rx.internal.util.SubscriptionList.<init>:41...
+Checking for isolation...
+12,12,0,12
+Total 12 (1 unique) events are in hot method
+Total 12 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 12 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 24 (2 unique) events are in non-isolated traces (12 / 1 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (12 traces / 1 unique traces) (24 events / 2 unique events) (12 events / 1 unique events in hot method)
+Classifier (rx.internal.util.SubscriptionList.<init>:41): LIB,NOT_ISOLATED_ONE_UNIQUE
+
+#71
+Inspecting hot method com.github.davidmoten.rtree.NodePosition.toString:31...
+Checking for isolation...
+11,2,2,0
+Total 11 (11 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 11 (11 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (6 events / 6 unique events)
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (5 events / 5 unique events)
+Classifier (com.github.davidmoten.rtree.NodePosition.toString:31): CUT,NOT_REDUNDANT_TRACES
+
+#72
+Inspecting hot method com.github.davidmoten.rtree.Visualizer.getNodeDepthsSortedByDepth:65...
+Checking for isolation...
+10,6,0,6
+Total 10 (8 unique) events are in hot method
+Total 6 (4 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 6 (4 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 1544347 (1544331 unique) events are in non-isolated traces (10 / 8 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (5 traces / 3 unique traces) (38 events / 22 unique events) (5 events / 3 unique events in hot method)
+	Collections_Comparable (1 traces / 1 unique traces) (1544309 events / 1544309 unique events) (5 events / 5 unique events in hot method)
+Classifier (com.github.davidmoten.rtree.Visualizer.getNodeDepthsSortedByDepth:65): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#73
+Inspecting hot method com.github.davidmoten.rtree.SerializersTest.check:165...
+Checking for isolation...
+10,6,5,1
+Total 10 (6 unique) events are in hot method
+Total 6 (2 unique) traces are in hot method
+Total 5 (1 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 5 (1 unique) events are in isolated traces
+Total 10 (10 unique) events are in non-isolated traces (5 / 5 unique are in hot method)
+Specs that have isolated traces:
+	Closeable_MultipleClose (5 traces / 1 unique traces) (5 events / 1 unique events)
+Specs that have non-isolated traces:
+	Closeable_MeaninglessClose (1 traces / 1 unique traces) (10 events / 10 unique events) (5 events / 5 unique events in hot method)
+Classifier (com.github.davidmoten.rtree.SerializersTest.check:165): CUT,ISOLATED_ONE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#74
+Inspecting hot method com.github.davidmoten.guavamini.Preconditions.checkArgument:24...
+Checking for isolation...
+9,9,9,0
+Total 9 (1 unique) events are in hot method
+Total 9 (1 unique) traces are in hot method
+Total 9 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 9 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Throwable_InitCauseOnce (9 traces / 1 unique traces) (9 events / 1 unique events)
+Classifier (com.github.davidmoten.guavamini.Preconditions.checkArgument:24): LIB,ISOLATED_ONE_UNIQUE
+
+#75
+Inspecting hot method com.vividsolutions.jts.geom.util.LinearComponentExtracter.filter:210...
+Checking for isolation...
+8,8,8,0
+Total 8 (1 unique) events are in hot method
+Total 8 (1 unique) traces are in hot method
+Total 8 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 8 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (8 traces / 1 unique traces) (8 events / 1 unique events)
+Classifier (com.vividsolutions.jts.geom.util.LinearComponentExtracter.filter:210): LIB,ISOLATED_ONE_UNIQUE
+
+#76
+Inspecting hot method rx.internal.operators.OperatorMerge$MergeSubscriber.addInner:272...
+Checking for isolation...
+7,1,0,1
+Total 7 (7 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 9 (9 unique) events are in non-isolated traces (7 / 7 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (9 events / 9 unique events) (7 events / 7 unique events in hot method)
+Classifier (rx.internal.operators.OperatorMerge$MergeSubscriber.addInner:272): LIB,NOT_REDUNDANT_TRACES
+
+#77
+Inspecting hot method com.vividsolutions.jts.geom.PrecisionModel$Type.<init>:117...
+Checking for isolation...
+6,2,0,2
+Total 6 (6 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 10 (10 unique) events are in non-isolated traces (6 / 6 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (5 events / 5 unique events) (3 events / 3 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (5 events / 5 unique events) (3 events / 3 unique events in hot method)
+Classifier (com.vividsolutions.jts.geom.PrecisionModel$Type.<init>:117): LIB,NOT_REDUNDANT_TRACES
+
+#78
+Inspecting hot method com.github.davidmoten.rtree.RTreeTest.testVisualizerWithGreekData:541...
+Checking for isolation...
+5,2,2,0
+Total 5 (5 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (2 events / 2 unique events)
+Classifier (com.github.davidmoten.rtree.RTreeTest.testVisualizerWithGreekData:541): CUT,NOT_REDUNDANT_TRACES
+
+#79
+Inspecting hot method com.github.davidmoten.rtree.internal.util.ImmutableStackTest.testIteratorReturnsTwoItemsInOrderOfPop:76...
+Checking for isolation...
+5,2,2,0
+Total 5 (5 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (2 events / 2 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (3 events / 3 unique events)
+Classifier (com.github.davidmoten.rtree.internal.util.ImmutableStackTest.testIteratorReturnsTwoItemsInOrderOfPop:76): CUT,NOT_REDUNDANT_TRACES
+
+#80
+Inspecting hot method com.github.davidmoten.rtree.SplitterRStarTest.testGetPairs:19...
+Checking for isolation...
+5,1,1,0
+Total 5 (5 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (5 events / 5 unique events)
+Classifier (com.github.davidmoten.rtree.SplitterRStarTest.testGetPairs:19): CUT,NOT_REDUNDANT_TRACES
+
+#81
+Inspecting hot method com.github.davidmoten.rtree.fbs.NonLeafFlatBuffers.createChildren:109...
+Checking for isolation...
+4,2,2,0
+Total 4 (2 unique) events are in hot method
+Total 2 (1 unique) traces are in hot method
+Total 2 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 4 (2 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (2 traces / 1 unique traces) (4 events / 2 unique events)
+Classifier (com.github.davidmoten.rtree.fbs.NonLeafFlatBuffers.createChildren:109): CUT,ISOLATED_ONE_UNIQUE
+
+#82
+Inspecting hot method rx.internal.operators.OperatorGroupBy$GroupBySubscriber.onNext:153...
+Checking for isolation...
+4,2,0,2
+Total 4 (4 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 10 (10 unique) events are in non-isolated traces (4 / 4 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (5 events / 5 unique events) (2 events / 2 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (5 events / 5 unique events) (2 events / 2 unique events in hot method)
+Classifier (rx.internal.operators.OperatorGroupBy$GroupBySubscriber.onNext:153): LIB,NOT_REDUNDANT_TRACES
+
+#83
+Inspecting hot method com.github.davidmoten.guavamini.Preconditions.checkNotNull:14...
+Checking for isolation...
+3,3,3,0
+Total 3 (1 unique) events are in hot method
+Total 3 (1 unique) traces are in hot method
+Total 3 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Throwable_InitCauseOnce (3 traces / 1 unique traces) (3 events / 1 unique events)
+Classifier (com.github.davidmoten.guavamini.Preconditions.checkNotNull:14): LIB,ISOLATED_ONE_UNIQUE
+
+#84
+Inspecting hot method rx.internal.operators.OperatorToObservableSortedList$2.onNext:93...
+Checking for isolation...
+2,1,0,1
+Total 2 (2 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 3 (3 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (3 events / 3 unique events) (2 events / 2 unique events in hot method)
+Classifier (rx.internal.operators.OperatorToObservableSortedList$2.onNext:93): LIB,NOT_REDUNDANT_TRACES
+
+#85
+Inspecting hot method rx.internal.operators.OperatorToObservableSortedList$2.onCompleted:71...
+Checking for isolation...
+2,2,0,2
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 1544312 (1544312 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (3 events / 3 unique events) (1 events / 1 unique events in hot method)
+	Collections_Comparable (1 traces / 1 unique traces) (1544309 events / 1544309 unique events) (1 events / 1 unique events in hot method)
+Classifier (rx.internal.operators.OperatorToObservableSortedList$2.onCompleted:71): LIB,NOT_REDUNDANT_TRACES
+
+#86
+Inspecting hot method com.github.davidmoten.rtree.internal.util.ImmutableStackTest.testIteratorReturnsLastPushedFirst:71...
+Checking for isolation...
+2,2,2,0
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2 (2 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (1 events / 1 unique events)
+Classifier (com.github.davidmoten.rtree.internal.util.ImmutableStackTest.testIteratorReturnsLastPushedFirst:71): CUT,NOT_REDUNDANT_TRACES
+
+#87
+Inspecting hot method com.github.davidmoten.rtree.SerializersTest.testAddToFlatBuffers:62...
+Checking for isolation...
+2,2,1,1
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 1 (1 unique) events are in isolated traces
+Total 10 (10 unique) events are in non-isolated traces (1 / 1 unique are in hot method)
+Specs that have isolated traces:
+	Closeable_MultipleClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+Specs that have non-isolated traces:
+	Closeable_MeaninglessClose (1 traces / 1 unique traces) (10 events / 10 unique events) (1 events / 1 unique events in hot method)
+Classifier (com.github.davidmoten.rtree.SerializersTest.testAddToFlatBuffers:62): CUT,NOT_REDUNDANT_TRACES
+
+#88
+Inspecting hot method com.github.davidmoten.rtree.SerializersTest.canRoundTripEmptyTree:144...
+Checking for isolation...
+2,2,1,1
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 1 (1 unique) events are in isolated traces
+Total 10 (10 unique) events are in non-isolated traces (1 / 1 unique are in hot method)
+Specs that have isolated traces:
+	Closeable_MultipleClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+Specs that have non-isolated traces:
+	Closeable_MeaninglessClose (1 traces / 1 unique traces) (10 events / 10 unique events) (1 events / 1 unique events in hot method)
+Classifier (com.github.davidmoten.rtree.SerializersTest.canRoundTripEmptyTree:144): CUT,NOT_REDUNDANT_TRACES
+
+#89
+Inspecting hot method com.github.davidmoten.guavamini.Optional.get:18...
+Checking for isolation...
+2,2,2,0
+Total 2 (1 unique) events are in hot method
+Total 2 (1 unique) traces are in hot method
+Total 2 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Throwable_InitCauseOnce (2 traces / 1 unique traces) (2 events / 1 unique events)
+Classifier (com.github.davidmoten.guavamini.Optional.get:18): LIB,ISOLATED_ONE_UNIQUE
+
+#90
+Inspecting hot method com.github.davidmoten.guavamini.Preconditions.checkArgument:19...
+Checking for isolation...
+2,2,2,0
+Total 2 (1 unique) events are in hot method
+Total 2 (1 unique) traces are in hot method
+Total 2 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Throwable_InitCauseOnce (2 traces / 1 unique traces) (2 events / 1 unique events)
+Classifier (com.github.davidmoten.guavamini.Preconditions.checkArgument:19): LIB,ISOLATED_ONE_UNIQUE
+
+#91
+Inspecting hot method com.github.davidmoten.rtree.SerializersTest.testDeleteFromFlatBuffers:82...
+Checking for isolation...
+2,2,1,1
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 1 (1 unique) events are in isolated traces
+Total 10 (10 unique) events are in non-isolated traces (1 / 1 unique are in hot method)
+Specs that have isolated traces:
+	Closeable_MultipleClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+Specs that have non-isolated traces:
+	Closeable_MeaninglessClose (1 traces / 1 unique traces) (10 events / 10 unique events) (1 events / 1 unique events in hot method)
+Classifier (com.github.davidmoten.rtree.SerializersTest.testDeleteFromFlatBuffers:82): CUT,NOT_REDUNDANT_TRACES
+
+#92
+Inspecting hot method com.github.davidmoten.rtree.RTreeTest.testIterableDeletion:213...
+Checking for isolation...
+2,1,1,0
+Total 2 (2 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2 (2 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (2 events / 2 unique events)
+Classifier (com.github.davidmoten.rtree.RTreeTest.testIterableDeletion:213): CUT,NOT_REDUNDANT_TRACES
+
+#93
+Inspecting hot method com.github.davidmoten.rtree.SerializersTest.testAddToFlatBuffersWhenRootNodeIsNonLeaf:101...
+Checking for isolation...
+2,2,1,1
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 1 (1 unique) events are in isolated traces
+Total 10 (10 unique) events are in non-isolated traces (1 / 1 unique are in hot method)
+Specs that have isolated traces:
+	Closeable_MultipleClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+Specs that have non-isolated traces:
+	Closeable_MeaninglessClose (1 traces / 1 unique traces) (10 events / 10 unique events) (1 events / 1 unique events in hot method)
+Classifier (com.github.davidmoten.rtree.SerializersTest.testAddToFlatBuffersWhenRootNodeIsNonLeaf:101): CUT,NOT_REDUNDANT_TRACES
+
+#94
+Inspecting hot method com.github.davidmoten.rtree.internal.util.ImmutableStackTest.testIteratorReturnsOneItem:66...
+Checking for isolation...
+2,2,2,0
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2 (2 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (1 events / 1 unique events)
+Classifier (com.github.davidmoten.rtree.internal.util.ImmutableStackTest.testIteratorReturnsOneItem:66): CUT,NOT_REDUNDANT_TRACES
+
+#95
+Inspecting hot method rx.internal.util.unsafe.ConcurrentCircularArrayQueue.<init>:69...
+Checking for isolation...
+2,2,2,0
+Total 2 (1 unique) events are in hot method
+Total 2 (1 unique) traces are in hot method
+Total 2 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Arrays_SortBeforeBinarySearch (2 traces / 1 unique traces) (2 events / 1 unique events)
+Classifier (rx.internal.util.unsafe.ConcurrentCircularArrayQueue.<init>:69): LIB,ISOLATED_ONE_UNIQUE
+
+#96
+Inspecting hot method com.github.davidmoten.rtree.SerializersTest.testDeleteFromFlatBuffersWhenRootNodeIsNonLeaf:123...
+Checking for isolation...
+2,2,1,1
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 1 (1 unique) events are in isolated traces
+Total 10 (10 unique) events are in non-isolated traces (1 / 1 unique are in hot method)
+Specs that have isolated traces:
+	Closeable_MultipleClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+Specs that have non-isolated traces:
+	Closeable_MeaninglessClose (1 traces / 1 unique traces) (10 events / 10 unique events) (1 events / 1 unique events in hot method)
+Classifier (com.github.davidmoten.rtree.SerializersTest.testDeleteFromFlatBuffersWhenRootNodeIsNonLeaf:123): CUT,NOT_REDUNDANT_TRACES
+
+#97
+Inspecting hot method rx.internal.operators.OperatorMerge$MergeSubscriber.removeInner:283...
+Checking for isolation...
+2,1,0,1
+Total 2 (2 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 9 (9 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (9 events / 9 unique events) (2 events / 2 unique events in hot method)
+Classifier (rx.internal.operators.OperatorMerge$MergeSubscriber.removeInner:283): LIB,NOT_REDUNDANT_TRACES
+
+#98
+Inspecting hot method com.github.davidmoten.rtree.internal.util.PriorityQueue.<clinit>:0...
+Checking for isolation...
+2,2,0,2
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 46 (46 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	Serializable_NoArgConstructor (1 traces / 1 unique traces) (31 events / 31 unique events) (1 events / 1 unique events in hot method)
+	Collection_HashCode (1 traces / 1 unique traces) (15 events / 15 unique events) (1 events / 1 unique events in hot method)
+Classifier (com.github.davidmoten.rtree.internal.util.PriorityQueue.<clinit>:0): CUT,NOT_REDUNDANT_TRACES
+
+#99
+Inspecting hot method rx.internal.schedulers.ScheduledAction.<clinit>:0...
+Checking for isolation...
+2,2,0,2
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 33 (33 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	Serializable_NoArgConstructor (1 traces / 1 unique traces) (31 events / 31 unique events) (1 events / 1 unique events in hot method)
+	Runnable_OverrideRun (1 traces / 1 unique traces) (2 events / 2 unique events) (1 events / 1 unique events in hot method)
+Classifier (rx.internal.schedulers.ScheduledAction.<clinit>:0): LIB,NOT_REDUNDANT_TRACES
+

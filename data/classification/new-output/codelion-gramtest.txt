@@ -1,0 +1,938 @@
+Reading traces...
+	read 1000 traces
+Reading specs frequency...
+Reading locations...
+Counting events...
+	processed 1000 traces
+Total 267605865 events and 25585026 traces
+Inspecting top 200 IMM
+Finding hot methods...
+Number of events, method name
+222613415,com.sourceclear.gramtest.GeneratorVisitor.combineTwoLists:205
+16872326,org.antlr.v4.runtime.ParserRuleContext.getChild:175
+16449453,org.antlr.v4.runtime.ParserRuleContext.getRuleContexts:244
+4128395,com.sourceclear.gramtest.GeneratorVisitor.visitAlternative:123
+3096036,com.sourceclear.gramtest.GeneratorVisitor.visitAlternatives:137
+3019623,com.sourceclear.gramtest.GeneratorVisitor.isTerminalContext:231
+842547,org.antlr.v4.runtime.RuleContext.getText:131
+286860,com.sourceclear.gramtest.GeneratorVisitor.generateAllStrings:196
+261977,com.sourceclear.gramtest.GeneratorVisitor.visitElement:80
+13491,org.antlr.v4.runtime.atn.LexerATNSimulator.getReachableConfigSet:323
+5644,org.antlr.v4.runtime.atn.LexerATNSimulator.addDFAState:675
+2776,org.antlr.v4.runtime.atn.ATNDeserializer.deserialize:112
+1965,org.antlr.v4.runtime.atn.ParserATNSimulator.computeReachSet:775
+1659,org.antlr.v4.runtime.atn.ATNState.addTransition:162
+1278,org.antlr.v4.runtime.ParserRuleContext.addChild:129
+1197,org.antlr.v4.runtime.misc.IntervalSet.add:109
+891,org.antlr.v4.runtime.atn.ATNDeserializer.markPrecedenceDecisions:506
+891,org.antlr.v4.runtime.atn.ATNDeserializer.verifyATN:528
+850,org.antlr.v4.runtime.atn.ATNConfigSet.add:139
+802,org.antlr.v4.runtime.atn.LexerATNSimulator.closure:411
+717,org.antlr.v4.runtime.BufferedTokenStream.fetch:156
+717,org.antlr.v4.runtime.ParserRuleContext.addChild:123
+427,org.antlr.v4.runtime.atn.ATNConfigSet.iterator:294
+381,com.sourceclear.gramtest.GeneratorVisitor.visitRulelist:165
+331,org.antlr.v4.runtime.atn.ParserATNSimulator.getUniqueAlt:2030
+246,org.antlr.v4.runtime.atn.ATNConfigSet.optimizeConfigs:212
+177,org.antlr.v4.runtime.atn.ATN.addState:103
+131,org.antlr.v4.runtime.atn.LL1Analyzer._LOOK:146
+115,org.antlr.v4.runtime.atn.PredictionMode.getConflictingAltSubsets:547
+105,org.antlr.v4.runtime.misc.FlexibleHashMap.values:135
+100,org.antlr.v4.runtime.misc.FlexibleHashMap.put:97
+89,org.antlr.v4.runtime.atn.PredictionMode.hasConflictingAltSet:470
+52,org.antlr.v4.runtime.atn.PredictionContext.getCachedContext:547
+45,org.antlr.v4.runtime.misc.FlexibleHashMap.get:82
+34,org.antlr.v4.runtime.atn.ParserATNSimulator.addDFAState:2111
+24,org.antlr.v4.runtime.atn.ParserATNSimulator.closure_:1526
+20,org.antlr.v4.runtime.atn.Transition$1.<init>:60
+19,org.antlr.v4.runtime.atn.PredictionMode.allConfigsInRuleStopStates:278
+15,org.antlr.v4.runtime.ANTLRInputStream.load:80
+12,org.antlr.v4.runtime.atn.PredictionContextCache.add:25
+10,org.antlr.v4.runtime.Recognizer$1.<init>:32
+4,org.antlr.v4.runtime.misc.DoubleKeyMap.put:22
+3,org.antlr.v4.runtime.atn.ATNDeserializer.<clinit>:29
+2,org.antlr.v4.runtime.Recognizer$1.<clinit>:0
+1,com.sourceclear.gramtest.MainTest.testArithExpGram:43
+1,org.antlr.v4.runtime.atn.ATNType.<clinit>:19
+1,org.antlr.v4.runtime.misc.Pair.<clinit>:0
+1,org.antlr.v4.runtime.atn.Transition$1.<clinit>:0
+1,org.antlr.v4.runtime.atn.LexerActionType.<clinit>:19
+1,org.antlr.v4.runtime.atn.PredictionMode.<clinit>:46
+1,org.antlr.v4.runtime.CommonToken.<clinit>:18
+1,org.antlr.v4.runtime.atn.ATNConfigSet.<clinit>:0
+1,org.antlr.v4.runtime.misc.Array2DHashSet.<clinit>:16
+1,org.antlr.v4.runtime.atn.ATNConfigSet$AbstractConfigHashSet.<clinit>:0
+1,org.antlr.v4.runtime.atn.ATNConfigSet$ConfigHashSet.<clinit>:0
+1,org.antlr.v4.runtime.atn.OrderedATNConfigSet.<clinit>:0
+1,org.antlr.v4.runtime.atn.OrderedATNConfigSet$LexerConfigHashSet.<clinit>:0
+^^^ Last method that contains more than one event ^^^
+Starting org.antlr.v4.runtime.BufferedTokenStream.fetch:156
+Finish org.antlr.v4.runtime.BufferedTokenStream.fetch:156
+Starting org.antlr.v4.runtime.atn.ATNState.addTransition:162
+Finish org.antlr.v4.runtime.atn.ATNState.addTransition:162
+Starting org.antlr.v4.runtime.ParserRuleContext.addChild:129
+Finish org.antlr.v4.runtime.ParserRuleContext.addChild:129
+Starting org.antlr.v4.runtime.atn.ATNDeserializer.deserialize:112
+Finish org.antlr.v4.runtime.atn.ATNDeserializer.deserialize:112
+Starting com.sourceclear.gramtest.GeneratorVisitor.combineTwoLists:205
+Finish com.sourceclear.gramtest.GeneratorVisitor.combineTwoLists:205
+Starting com.sourceclear.gramtest.GeneratorVisitor.generateAllStrings:196
+Finish com.sourceclear.gramtest.GeneratorVisitor.generateAllStrings:196
+Starting org.antlr.v4.runtime.atn.ParserATNSimulator.getUniqueAlt:2030
+Finish org.antlr.v4.runtime.atn.ParserATNSimulator.getUniqueAlt:2030
+Starting org.antlr.v4.runtime.atn.ATNConfigSet.optimizeConfigs:212
+Finish org.antlr.v4.runtime.atn.ATNConfigSet.optimizeConfigs:212
+Starting org.antlr.v4.runtime.atn.LexerATNSimulator.addDFAState:675
+Finish org.antlr.v4.runtime.atn.LexerATNSimulator.addDFAState:675
+Starting org.antlr.v4.runtime.misc.FlexibleHashMap.values:135
+Finish org.antlr.v4.runtime.misc.FlexibleHashMap.values:135
+Starting org.antlr.v4.runtime.ParserRuleContext.getChild:175
+Finish org.antlr.v4.runtime.ParserRuleContext.getChild:175
+Starting org.antlr.v4.runtime.atn.ATNDeserializer.<clinit>:29
+Finish org.antlr.v4.runtime.atn.ATNDeserializer.<clinit>:29
+Starting com.sourceclear.gramtest.GeneratorVisitor.visitAlternatives:137
+Finish com.sourceclear.gramtest.GeneratorVisitor.visitAlternatives:137
+Starting org.antlr.v4.runtime.atn.ParserATNSimulator.closure_:1526
+Finish org.antlr.v4.runtime.atn.ParserATNSimulator.closure_:1526
+Starting org.antlr.v4.runtime.ParserRuleContext.addChild:123
+Finish org.antlr.v4.runtime.ParserRuleContext.addChild:123
+Starting org.antlr.v4.runtime.atn.PredictionContext.getCachedContext:547
+Finish org.antlr.v4.runtime.atn.PredictionContext.getCachedContext:547
+Starting org.antlr.v4.runtime.atn.ParserATNSimulator.computeReachSet:775
+Finish org.antlr.v4.runtime.atn.ParserATNSimulator.computeReachSet:775
+Starting org.antlr.v4.runtime.atn.PredictionMode.hasConflictingAltSet:470
+Finish org.antlr.v4.runtime.atn.PredictionMode.hasConflictingAltSet:470
+Starting org.antlr.v4.runtime.RuleContext.getText:131
+Finish org.antlr.v4.runtime.RuleContext.getText:131
+Starting org.antlr.v4.runtime.atn.ATN.addState:103
+Finish org.antlr.v4.runtime.atn.ATN.addState:103
+Starting org.antlr.v4.runtime.atn.ATNConfigSet.iterator:294
+Finish org.antlr.v4.runtime.atn.ATNConfigSet.iterator:294
+Starting org.antlr.v4.runtime.atn.PredictionMode.getConflictingAltSubsets:547
+Finish org.antlr.v4.runtime.atn.PredictionMode.getConflictingAltSubsets:547
+Starting org.antlr.v4.runtime.atn.ATNConfigSet.add:139
+Finish org.antlr.v4.runtime.atn.ATNConfigSet.add:139
+Starting org.antlr.v4.runtime.atn.LL1Analyzer._LOOK:146
+Finish org.antlr.v4.runtime.atn.LL1Analyzer._LOOK:146
+Starting org.antlr.v4.runtime.atn.ATNDeserializer.markPrecedenceDecisions:506
+Finish org.antlr.v4.runtime.atn.ATNDeserializer.markPrecedenceDecisions:506
+Starting org.antlr.v4.runtime.atn.Transition$1.<init>:60
+Finish org.antlr.v4.runtime.atn.Transition$1.<init>:60
+Starting org.antlr.v4.runtime.misc.IntervalSet.add:109
+Finish org.antlr.v4.runtime.misc.IntervalSet.add:109
+Starting org.antlr.v4.runtime.atn.PredictionMode.allConfigsInRuleStopStates:278
+Finish org.antlr.v4.runtime.atn.PredictionMode.allConfigsInRuleStopStates:278
+Starting org.antlr.v4.runtime.atn.ATNDeserializer.verifyATN:528
+Finish org.antlr.v4.runtime.atn.ATNDeserializer.verifyATN:528
+Starting org.antlr.v4.runtime.atn.PredictionContextCache.add:25
+Finish org.antlr.v4.runtime.atn.PredictionContextCache.add:25
+Starting com.sourceclear.gramtest.GeneratorVisitor.isTerminalContext:231
+Finish com.sourceclear.gramtest.GeneratorVisitor.isTerminalContext:231
+Starting org.antlr.v4.runtime.Recognizer$1.<init>:32
+Finish org.antlr.v4.runtime.Recognizer$1.<init>:32
+Starting org.antlr.v4.runtime.atn.LexerATNSimulator.closure:411
+Finish org.antlr.v4.runtime.atn.LexerATNSimulator.closure:411
+Starting org.antlr.v4.runtime.atn.ParserATNSimulator.addDFAState:2111
+Finish org.antlr.v4.runtime.atn.ParserATNSimulator.addDFAState:2111
+Starting com.sourceclear.gramtest.GeneratorVisitor.visitRulelist:165
+Finish com.sourceclear.gramtest.GeneratorVisitor.visitRulelist:165
+Starting org.antlr.v4.runtime.ANTLRInputStream.load:80
+Finish org.antlr.v4.runtime.ANTLRInputStream.load:80
+Starting com.sourceclear.gramtest.GeneratorVisitor.visitAlternative:123
+Finish com.sourceclear.gramtest.GeneratorVisitor.visitAlternative:123
+Starting org.antlr.v4.runtime.misc.DoubleKeyMap.put:22
+Finish org.antlr.v4.runtime.misc.DoubleKeyMap.put:22
+Starting org.antlr.v4.runtime.ParserRuleContext.getRuleContexts:244
+Finish org.antlr.v4.runtime.ParserRuleContext.getRuleContexts:244
+Starting org.antlr.v4.runtime.misc.FlexibleHashMap.put:97
+Finish org.antlr.v4.runtime.misc.FlexibleHashMap.put:97
+Starting com.sourceclear.gramtest.GeneratorVisitor.visitElement:80
+Finish com.sourceclear.gramtest.GeneratorVisitor.visitElement:80
+Starting org.antlr.v4.runtime.Recognizer$1.<clinit>:0
+Finish org.antlr.v4.runtime.Recognizer$1.<clinit>:0
+Starting org.antlr.v4.runtime.atn.LexerATNSimulator.getReachableConfigSet:323
+Finish org.antlr.v4.runtime.atn.LexerATNSimulator.getReachableConfigSet:323
+Starting org.antlr.v4.runtime.misc.FlexibleHashMap.get:82
+Finish org.antlr.v4.runtime.misc.FlexibleHashMap.get:82
+
+#1
+Inspecting hot method com.sourceclear.gramtest.GeneratorVisitor.combineTwoLists:205...
+	processed 1000 traces
+Checking for isolation...
+222613415,10621341,10611218,10123
+Total 222613415 (76038 unique) events are in hot method
+Total 10621341 (704 unique) traces are in hot method
+Total 10611218 (690 unique) isolated traces are in hot method
+Total 10123 (14 unique) non-isolated traces that have events in hot method
+Total 221657253 (74620 unique) events are in isolated traces
+Total 966285 (1432 unique) events are in non-isolated traces (956162 / 1418 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (2250933 traces / 2 unique traces) (6752799 events / 6 unique events)
+	Appendable_ThreadSafe (2250933 traces / 2 unique traces) (4501866 events / 4 unique events)
+	Iterator_HasNext (1185097 traces / 137 unique traces) (69141565 events / 22807 unique events)
+	Iterator_RemoveOnce (1185097 traces / 137 unique traces) (33978234 events / 11335 unique events)
+	Collection_UnsafeIterator (1178088 traces / 134 unique traces) (69376728 events / 22474 unique events)
+	ListIterator_RemoveOnce (1128603 traces / 137 unique traces) (33921740 events / 11335 unique events)
+	Collections_SortBeforeBinarySearch (855709 traces / 139 unique traces) (2830805 events / 6655 unique events)
+	Collection_UnsynchronizedAddAll (576758 traces / 2 unique traces) (1153516 events / 4 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (7009 traces / 11 unique traces) (956943 events / 1423 unique events) (949934 events / 1412 unique events in hot method)
+	Collection_UnsynchronizedAddAll (3114 traces / 3 unique traces) (9342 events / 9 unique events) (6228 events / 6 unique events in hot method)
+Classifier (com.sourceclear.gramtest.GeneratorVisitor.combineTwoLists:205): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#2
+Inspecting hot method org.antlr.v4.runtime.ParserRuleContext.getChild:175...
+	processed 1000 traces
+Checking for isolation...
+16872326,7092921,7092921,0
+Total 16872326 (148 unique) events are in hot method
+Total 7092921 (20 unique) traces are in hot method
+Total 7092921 (20 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 16872326 (148 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (2364307 traces / 7 unique traces) (6055381 events / 57 unique events)
+	Collection_UnsafeIterator (2364307 traces / 7 unique traces) (8419688 events / 64 unique events)
+	Iterator_RemoveOnce (2364307 traces / 6 unique traces) (2397257 events / 27 unique events)
+Classifier (org.antlr.v4.runtime.ParserRuleContext.getChild:175): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#3
+Inspecting hot method org.antlr.v4.runtime.ParserRuleContext.getRuleContexts:244...
+	processed 1000 traces
+Checking for isolation...
+16449453,3556612,3556612,0
+Total 16449453 (2153 unique) events are in hot method
+Total 3556612 (58 unique) traces are in hot method
+Total 3556612 (58 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 16449453 (2153 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (889153 traces / 15 unique traces) (5721849 events / 773 unique events)
+	Collection_UnsafeIterator (889153 traces / 15 unique traces) (6611002 events / 788 unique events)
+	Iterator_RemoveOnce (889153 traces / 15 unique traces) (2416348 events / 379 unique events)
+	Collections_SortBeforeBinarySearch (889153 traces / 13 unique traces) (1700254 events / 213 unique events)
+Classifier (org.antlr.v4.runtime.ParserRuleContext.getRuleContexts:244): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#4
+Inspecting hot method com.sourceclear.gramtest.GeneratorVisitor.visitAlternative:123...
+	processed 1000 traces
+Checking for isolation...
+4128395,1855868,1598040,257828
+Total 4128395 (117 unique) events are in hot method
+Total 1855868 (23 unique) traces are in hot method
+Total 1598040 (16 unique) isolated traces are in hot method
+Total 257828 (7 unique) non-isolated traces that have events in hot method
+Total 3834590 (96 unique) events are in isolated traces
+Total 580665 (39 unique) events are in non-isolated traces (293805 / 21 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (399510 traces / 5 unique traces) (1693640 events / 42 unique events)
+	Iterator_RemoveOnce (399510 traces / 5 unique traces) (447310 events / 16 unique events)
+	Iterator_HasNext (399510 traces / 5 unique traces) (1294130 events / 37 unique events)
+	Collections_SortBeforeBinarySearch (399510 traces / 1 unique traces) (399510 events / 1 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (257828 traces / 7 unique traces) (580665 events / 39 unique events) (293805 events / 21 unique events in hot method)
+Classifier (com.sourceclear.gramtest.GeneratorVisitor.visitAlternative:123): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#5
+Inspecting hot method com.sourceclear.gramtest.GeneratorVisitor.visitAlternatives:137...
+	processed 1000 traces
+Checking for isolation...
+3096036,515286,502280,13006
+Total 3096036 (1032 unique) events are in hot method
+Total 515286 (41 unique) traces are in hot method
+Total 502280 (37 unique) isolated traces are in hot method
+Total 13006 (4 unique) non-isolated traces that have events in hot method
+Total 3082973 (1025 unique) events are in isolated traces
+Total 26069 (11 unique) events are in non-isolated traces (13063 / 7 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsynchronizedAddAll (373734 traces / 1 unique traces) (747468 events / 2 unique events)
+	Collection_UnsafeIterator (35388 traces / 9 unique traces) (818244 events / 350 unique events)
+	Iterator_RemoveOnce (35388 traces / 9 unique traces) (373734 events / 166 unique events)
+	Iterator_HasNext (35388 traces / 9 unique traces) (782856 events / 341 unique events)
+	Collections_SortBeforeBinarySearch (22382 traces / 9 unique traces) (360671 events / 166 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (13006 traces / 4 unique traces) (26069 events / 11 unique events) (13063 events / 7 unique events in hot method)
+Classifier (com.sourceclear.gramtest.GeneratorVisitor.visitAlternatives:137): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#6
+Inspecting hot method com.sourceclear.gramtest.GeneratorVisitor.isTerminalContext:231...
+	processed 1000 traces
+Checking for isolation...
+3019623,1141113,1141113,0
+Total 3019623 (24 unique) events are in hot method
+Total 1141113 (8 unique) traces are in hot method
+Total 1141113 (8 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3019623 (24 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (380371 traces / 3 unique traces) (1505179 events / 12 unique events)
+	Iterator_RemoveOnce (380371 traces / 2 unique traces) (389636 events / 3 unique events)
+	Iterator_HasNext (380371 traces / 3 unique traces) (1124808 events / 9 unique events)
+Classifier (com.sourceclear.gramtest.GeneratorVisitor.isTerminalContext:231): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#7
+Inspecting hot method org.antlr.v4.runtime.RuleContext.getText:131...
+	processed 1000 traces
+Checking for isolation...
+842547,561698,561698,0
+Total 842547 (3 unique) events are in hot method
+Total 561698 (2 unique) traces are in hot method
+Total 561698 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 842547 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (280849 traces / 1 unique traces) (280849 events / 1 unique events)
+	StringBuilder_ThreadSafe (280849 traces / 1 unique traces) (561698 events / 2 unique events)
+Classifier (org.antlr.v4.runtime.RuleContext.getText:131): LIB,ISOLATED_ONE_UNIQUE
+
+#8
+Inspecting hot method com.sourceclear.gramtest.GeneratorVisitor.generateAllStrings:196...
+	processed 1000 traces
+Checking for isolation...
+286860,257828,0,257828
+Total 286860 (18 unique) events are in hot method
+Total 257828 (7 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 257828 (7 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 580665 (39 unique) events are in non-isolated traces (286860 / 18 unique are in hot method)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (257828 traces / 7 unique traces) (580665 events / 39 unique events) (286860 events / 18 unique events in hot method)
+Classifier (com.sourceclear.gramtest.GeneratorVisitor.generateAllStrings:196): CUT,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#9
+Inspecting hot method com.sourceclear.gramtest.GeneratorVisitor.visitElement:80...
+	processed 1000 traces
+Checking for isolation...
+261977,258901,235772,23129
+Total 261977 (23 unique) events are in hot method
+Total 258901 (21 unique) traces are in hot method
+Total 235772 (3 unique) isolated traces are in hot method
+Total 23129 (18 unique) non-isolated traces that have events in hot method
+Total 238848 (5 unique) events are in isolated traces
+Total 992354 (1443 unique) events are in non-isolated traces (23129 / 18 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (232696 traces / 1 unique traces) (232696 events / 1 unique events)
+	Collection_UnsynchronizedAddAll (3076 traces / 2 unique traces) (6152 events / 4 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (13006 traces / 4 unique traces) (26069 events / 11 unique events) (13006 events / 4 unique events in hot method)
+	Collection_UnsafeIterator (7009 traces / 11 unique traces) (956943 events / 1423 unique events) (7009 events / 11 unique events in hot method)
+	Collection_UnsynchronizedAddAll (3114 traces / 3 unique traces) (9342 events / 9 unique events) (3114 events / 3 unique events in hot method)
+Classifier (com.sourceclear.gramtest.GeneratorVisitor.visitElement:80): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#10
+Inspecting hot method org.antlr.v4.runtime.atn.LexerATNSimulator.getReachableConfigSet:323...
+	processed 1000 traces
+Checking for isolation...
+13491,968,726,242
+Total 13491 (350 unique) events are in hot method
+Total 968 (28 unique) traces are in hot method
+Total 726 (21 unique) isolated traces are in hot method
+Total 242 (7 unique) non-isolated traces that have events in hot method
+Total 9671 (251 unique) events are in isolated traces
+Total 4062 (106 unique) events are in non-isolated traces (3820 / 99 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (242 traces / 7 unique traces) (4062 events / 106 unique events)
+	Iterator_RemoveOnce (242 traces / 7 unique traces) (1789 events / 46 unique events)
+	Iterator_HasNext (242 traces / 7 unique traces) (3820 events / 99 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (242 traces / 7 unique traces) (4062 events / 106 unique events) (3820 events / 99 unique events in hot method)
+Classifier (org.antlr.v4.runtime.atn.LexerATNSimulator.getReachableConfigSet:323): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#11
+Inspecting hot method org.antlr.v4.runtime.atn.LexerATNSimulator.addDFAState:675...
+	processed 1000 traces
+Checking for isolation...
+5644,542,405,137
+Total 5644 (375 unique) events are in hot method
+Total 542 (30 unique) traces are in hot method
+Total 405 (21 unique) isolated traces are in hot method
+Total 137 (9 unique) non-isolated traces that have events in hot method
+Total 4040 (241 unique) events are in isolated traces
+Total 1985 (387 unique) events are in non-isolated traces (1604 / 134 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (135 traces / 7 unique traces) (1564 events / 94 unique events)
+	Collection_UnsafeIterator (135 traces / 7 unique traces) (1699 events / 101 unique events)
+	Iterator_RemoveOnce (135 traces / 7 unique traces) (777 events / 46 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (135 traces / 7 unique traces) (1699 events / 101 unique events) (1564 events / 94 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (143 events / 143 unique events) (20 events / 20 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (143 events / 143 unique events) (20 events / 20 unique events in hot method)
+Classifier (org.antlr.v4.runtime.atn.LexerATNSimulator.addDFAState:675): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#12
+Inspecting hot method org.antlr.v4.runtime.atn.ATNDeserializer.deserialize:112...
+	processed 1000 traces
+Checking for isolation...
+2776,39,39,0
+Total 2776 (2755 unique) events are in hot method
+Total 39 (35 unique) traces are in hot method
+Total 39 (35 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2776 (2755 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (10 traces / 9 unique traces) (1108 events / 1100 unique events)
+	Iterator_HasNext (10 traces / 9 unique traces) (1098 events / 1091 unique events)
+	Iterator_RemoveOnce (10 traces / 9 unique traces) (544 events / 541 unique events)
+	Collections_SortBeforeBinarySearch (9 traces / 8 unique traces) (26 events / 23 unique events)
+Classifier (org.antlr.v4.runtime.atn.ATNDeserializer.deserialize:112): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#13
+Inspecting hot method org.antlr.v4.runtime.atn.ParserATNSimulator.computeReachSet:775...
+	processed 1000 traces
+Checking for isolation...
+1965,96,72,24
+Total 1965 (117 unique) events are in hot method
+Total 96 (12 unique) traces are in hot method
+Total 72 (9 unique) isolated traces are in hot method
+Total 24 (3 unique) non-isolated traces that have events in hot method
+Total 1407 (84 unique) events are in isolated traces
+Total 582 (36 unique) events are in non-isolated traces (558 / 33 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (24 traces / 3 unique traces) (558 events / 33 unique events)
+	Collection_UnsafeIterator (24 traces / 3 unique traces) (582 events / 36 unique events)
+	Iterator_RemoveOnce (24 traces / 3 unique traces) (267 events / 15 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (24 traces / 3 unique traces) (582 events / 36 unique events) (558 events / 33 unique events in hot method)
+Classifier (org.antlr.v4.runtime.atn.ParserATNSimulator.computeReachSet:775): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#14
+Inspecting hot method org.antlr.v4.runtime.atn.ATNState.addTransition:162...
+	processed 1000 traces
+Checking for isolation...
+1659,585,585,0
+Total 1659 (651 unique) events are in hot method
+Total 585 (56 unique) traces are in hot method
+Total 585 (56 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1659 (651 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (195 traces / 26 unique traces) (927 events / 378 unique events)
+	Iterator_HasNext (195 traces / 13 unique traces) (423 events / 169 unique events)
+	Collections_SortBeforeBinarySearch (163 traces / 5 unique traces) (195 events / 26 unique events)
+	Iterator_RemoveOnce (32 traces / 12 unique traces) (114 events / 78 unique events)
+Classifier (org.antlr.v4.runtime.atn.ATNState.addTransition:162): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#15
+Inspecting hot method org.antlr.v4.runtime.ParserRuleContext.addChild:129...
+	processed 1000 traces
+Checking for isolation...
+1278,893,799,94
+Total 1278 (232 unique) events are in hot method
+Total 893 (19 unique) traces are in hot method
+Total 799 (5 unique) isolated traces are in hot method
+Total 94 (14 unique) non-isolated traces that have events in hot method
+Total 843 (16 unique) events are in isolated traces
+Total 762 (380 unique) events are in non-isolated traces (435 / 216 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (799 traces / 5 unique traces) (843 events / 16 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (94 traces / 14 unique traces) (762 events / 380 unique events) (435 events / 216 unique events in hot method)
+Classifier (org.antlr.v4.runtime.ParserRuleContext.addChild:129): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#16
+Inspecting hot method org.antlr.v4.runtime.misc.IntervalSet.add:109...
+	processed 1000 traces
+Checking for isolation...
+1197,417,417,0
+Total 1197 (430 unique) events are in hot method
+Total 417 (66 unique) traces are in hot method
+Total 417 (66 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1197 (430 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	ListIterator_Set (77 traces / 10 unique traces) (183 events / 46 unique events)
+	ListIterator_hasNextPrevious (77 traces / 10 unique traces) (215 events / 76 unique events)
+	Iterator_HasNext (77 traces / 10 unique traces) (198 events / 75 unique events)
+	List_UnsafeListIterator (77 traces / 17 unique traces) (389 events / 161 unique events)
+	Collections_SortBeforeBinarySearch (45 traces / 4 unique traces) (57 events / 14 unique events)
+	Iterator_RemoveOnce (32 traces / 7 unique traces) (69 events / 28 unique events)
+	ListIterator_RemoveOnce (32 traces / 8 unique traces) (86 events / 30 unique events)
+Classifier (org.antlr.v4.runtime.misc.IntervalSet.add:109): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#17
+Inspecting hot method org.antlr.v4.runtime.atn.ATNDeserializer.markPrecedenceDecisions:506...
+	processed 1000 traces
+Checking for isolation...
+891,6,6,0
+Total 891 (891 unique) events are in hot method
+Total 6 (6 unique) traces are in hot method
+Total 6 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 891 (891 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (2 traces / 2 unique traces) (358 events / 358 unique events)
+	Iterator_RemoveOnce (2 traces / 2 unique traces) (177 events / 177 unique events)
+	Iterator_HasNext (2 traces / 2 unique traces) (356 events / 356 unique events)
+Classifier (org.antlr.v4.runtime.atn.ATNDeserializer.markPrecedenceDecisions:506): LIB,NOT_REDUNDANT_TRACES
+
+#18
+Inspecting hot method org.antlr.v4.runtime.atn.ATNDeserializer.verifyATN:528...
+	processed 1000 traces
+Checking for isolation...
+891,6,6,0
+Total 891 (891 unique) events are in hot method
+Total 6 (6 unique) traces are in hot method
+Total 6 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 891 (891 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (2 traces / 2 unique traces) (358 events / 358 unique events)
+	Iterator_RemoveOnce (2 traces / 2 unique traces) (177 events / 177 unique events)
+	Iterator_HasNext (2 traces / 2 unique traces) (356 events / 356 unique events)
+Classifier (org.antlr.v4.runtime.atn.ATNDeserializer.verifyATN:528): LIB,NOT_REDUNDANT_TRACES
+
+#19
+Inspecting hot method org.antlr.v4.runtime.atn.ATNConfigSet.add:139...
+	processed 1000 traces
+Checking for isolation...
+850,160,160,0
+Total 850 (58 unique) events are in hot method
+Total 160 (8 unique) traces are in hot method
+Total 160 (8 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 850 (58 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (160 traces / 8 unique traces) (850 events / 58 unique events)
+Classifier (org.antlr.v4.runtime.atn.ATNConfigSet.add:139): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#20
+Inspecting hot method org.antlr.v4.runtime.atn.LexerATNSimulator.closure:411...
+	processed 1000 traces
+Checking for isolation...
+802,1,0,1
+Total 802 (802 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 957 (957 unique) events are in non-isolated traces (802 / 802 unique are in hot method)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (957 events / 957 unique events) (802 events / 802 unique events in hot method)
+Classifier (org.antlr.v4.runtime.atn.LexerATNSimulator.closure:411): LIB,NOT_REDUNDANT_TRACES
+
+#21
+Inspecting hot method org.antlr.v4.runtime.BufferedTokenStream.fetch:156...
+	processed 1000 traces
+Checking for isolation...
+717,5,5,0
+Total 717 (717 unique) events are in hot method
+Total 5 (5 unique) traces are in hot method
+Total 5 (5 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 717 (717 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (5 traces / 5 unique traces) (717 events / 717 unique events)
+Classifier (org.antlr.v4.runtime.BufferedTokenStream.fetch:156): LIB,NOT_REDUNDANT_TRACES
+
+#22
+Inspecting hot method org.antlr.v4.runtime.ParserRuleContext.addChild:123...
+	processed 1000 traces
+Checking for isolation...
+717,484,390,94
+Total 717 (165 unique) events are in hot method
+Total 484 (15 unique) traces are in hot method
+Total 390 (1 unique) isolated traces are in hot method
+Total 94 (14 unique) non-isolated traces that have events in hot method
+Total 390 (1 unique) events are in isolated traces
+Total 762 (380 unique) events are in non-isolated traces (327 / 164 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (390 traces / 1 unique traces) (390 events / 1 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (94 traces / 14 unique traces) (762 events / 380 unique events) (327 events / 164 unique events in hot method)
+Classifier (org.antlr.v4.runtime.ParserRuleContext.addChild:123): LIB,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#23
+Inspecting hot method org.antlr.v4.runtime.atn.ATNConfigSet.iterator:294...
+	processed 1000 traces
+Checking for isolation...
+427,427,0,427
+Total 427 (23 unique) events are in hot method
+Total 427 (23 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 427 (23 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 6490 (310 unique) events are in non-isolated traces (427 / 23 unique are in hot method)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (427 traces / 23 unique traces) (6490 events / 310 unique events) (427 events / 23 unique events in hot method)
+Classifier (org.antlr.v4.runtime.atn.ATNConfigSet.iterator:294): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#24
+Inspecting hot method com.sourceclear.gramtest.GeneratorVisitor.visitRulelist:165...
+	processed 1000 traces
+Checking for isolation...
+381,28,25,3
+Total 381 (369 unique) events are in hot method
+Total 28 (20 unique) traces are in hot method
+Total 25 (17 unique) isolated traces are in hot method
+Total 3 (3 unique) non-isolated traces that have events in hot method
+Total 280 (268 unique) events are in isolated traces
+Total 288 (288 unique) events are in non-isolated traces (101 / 101 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (5 traces / 1 unique traces) (5 events / 1 unique events)
+	Iterator_HasNext (5 traces / 5 unique traces) (105 events / 105 unique events)
+	Collection_UnsafeIterator (5 traces / 5 unique traces) (110 events / 110 unique events)
+	Iterator_RemoveOnce (5 traces / 5 unique traces) (50 events / 50 unique events)
+	Collection_UnsynchronizedAddAll (5 traces / 1 unique traces) (10 events / 2 unique events)
+Specs that have non-isolated traces:
+	List_UnsynchronizedSubList (1 traces / 1 unique traces) (2 events / 2 unique events) (1 events / 1 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (143 events / 143 unique events) (50 events / 50 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (143 events / 143 unique events) (50 events / 50 unique events in hot method)
+Classifier (com.sourceclear.gramtest.GeneratorVisitor.visitRulelist:165): CUT,ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_SINGLE_TRACE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#25
+Inspecting hot method org.antlr.v4.runtime.atn.ParserATNSimulator.getUniqueAlt:2030...
+	processed 1000 traces
+Checking for isolation...
+331,92,69,23
+Total 331 (111 unique) events are in hot method
+Total 92 (12 unique) traces are in hot method
+Total 69 (9 unique) isolated traces are in hot method
+Total 23 (3 unique) non-isolated traces that have events in hot method
+Total 240 (80 unique) events are in isolated traces
+Total 114 (34 unique) events are in non-isolated traces (91 / 31 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (23 traces / 3 unique traces) (91 events / 31 unique events)
+	Collection_UnsafeIterator (23 traces / 3 unique traces) (114 events / 34 unique events)
+	Iterator_RemoveOnce (23 traces / 3 unique traces) (35 events / 15 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (23 traces / 3 unique traces) (114 events / 34 unique events) (91 events / 31 unique events in hot method)
+Classifier (org.antlr.v4.runtime.atn.ParserATNSimulator.getUniqueAlt:2030): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#26
+Inspecting hot method org.antlr.v4.runtime.atn.ATNConfigSet.optimizeConfigs:212...
+	processed 1000 traces
+Checking for isolation...
+246,51,51,0
+Total 246 (71 unique) events are in hot method
+Total 51 (6 unique) traces are in hot method
+Total 51 (6 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 246 (71 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (17 traces / 2 unique traces) (95 events / 28 unique events)
+	Collection_UnsafeIterator (17 traces / 2 unique traces) (112 events / 30 unique events)
+	Iterator_RemoveOnce (17 traces / 2 unique traces) (39 events / 13 unique events)
+Classifier (org.antlr.v4.runtime.atn.ATNConfigSet.optimizeConfigs:212): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#27
+Inspecting hot method org.antlr.v4.runtime.atn.ATN.addState:103...
+	processed 1000 traces
+Checking for isolation...
+177,2,2,0
+Total 177 (177 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 177 (177 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (2 traces / 2 unique traces) (177 events / 177 unique events)
+Classifier (org.antlr.v4.runtime.atn.ATN.addState:103): LIB,NOT_REDUNDANT_TRACES
+
+#28
+Inspecting hot method org.antlr.v4.runtime.atn.LL1Analyzer._LOOK:146...
+	processed 1000 traces
+Checking for isolation...
+131,1,0,1
+Total 131 (131 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 957 (957 unique) events are in non-isolated traces (131 / 131 unique are in hot method)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (957 events / 957 unique events) (131 events / 131 unique events in hot method)
+Classifier (org.antlr.v4.runtime.atn.LL1Analyzer._LOOK:146): LIB,NOT_REDUNDANT_TRACES
+
+#29
+Inspecting hot method org.antlr.v4.runtime.atn.PredictionMode.getConflictingAltSubsets:547...
+	processed 1000 traces
+Checking for isolation...
+115,9,5,4
+Total 115 (115 unique) events are in hot method
+Total 9 (9 unique) traces are in hot method
+Total 5 (5 unique) isolated traces are in hot method
+Total 4 (4 unique) non-isolated traces that have events in hot method
+Total 65 (65 unique) events are in isolated traces
+Total 339 (339 unique) events are in non-isolated traces (50 / 50 unique are in hot method)
+Specs that have isolated traces:
+	Map_UnsafeIterator (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (25 events / 25 unique events)
+	Map_CollectionViewAdd (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (26 events / 26 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (12 events / 12 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (1 traces / 1 unique traces) (27 events / 27 unique events) (1 events / 1 unique events in hot method)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (26 events / 26 unique events) (25 events / 25 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (143 events / 143 unique events) (12 events / 12 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (143 events / 143 unique events) (12 events / 12 unique events in hot method)
+Classifier (org.antlr.v4.runtime.atn.PredictionMode.getConflictingAltSubsets:547): LIB,NOT_REDUNDANT_TRACES
+
+#30
+Inspecting hot method org.antlr.v4.runtime.misc.FlexibleHashMap.values:135...
+	processed 1000 traces
+Checking for isolation...
+105,29,29,0
+Total 105 (36 unique) events are in hot method
+Total 29 (9 unique) traces are in hot method
+Total 29 (9 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 105 (36 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	ListIterator_RemoveOnce (7 traces / 2 unique traces) (12 events / 3 unique events)
+	Iterator_HasNext (7 traces / 2 unique traces) (31 events / 8 unique events)
+	Collection_UnsafeIterator (7 traces / 2 unique traces) (38 events / 10 unique events)
+	Iterator_RemoveOnce (7 traces / 2 unique traces) (12 events / 3 unique events)
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (12 events / 12 unique events)
+Classifier (org.antlr.v4.runtime.misc.FlexibleHashMap.values:135): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_SINGLE_TRACE
+
+#31
+Inspecting hot method org.antlr.v4.runtime.misc.FlexibleHashMap.put:97...
+	processed 1000 traces
+Checking for isolation...
+100,46,41,5
+Total 100 (22 unique) events are in hot method
+Total 46 (10 unique) traces are in hot method
+Total 41 (9 unique) isolated traces are in hot method
+Total 5 (1 unique) non-isolated traces that have events in hot method
+Total 95 (21 unique) events are in isolated traces
+Total 25 (5 unique) events are in non-isolated traces (5 / 1 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (12 traces / 2 unique traces) (22 events / 4 unique events)
+	Collection_UnsafeIterator (12 traces / 3 unique traces) (51 events / 12 unique events)
+	Collections_SortBeforeBinarySearch (7 traces / 2 unique traces) (12 events / 3 unique events)
+	ListIterator_RemoveOnce (5 traces / 1 unique traces) (5 events / 1 unique events)
+	Iterator_RemoveOnce (5 traces / 1 unique traces) (5 events / 1 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (5 traces / 1 unique traces) (25 events / 5 unique events) (5 events / 1 unique events in hot method)
+Classifier (org.antlr.v4.runtime.misc.FlexibleHashMap.put:97): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_ONE_UNIQUE
+
+#32
+Inspecting hot method org.antlr.v4.runtime.atn.PredictionMode.hasConflictingAltSet:470...
+	processed 1000 traces
+Checking for isolation...
+89,4,3,1
+Total 89 (89 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 63 (63 unique) events are in isolated traces
+Total 27 (27 unique) events are in non-isolated traces (26 / 26 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (1 traces / 1 unique traces) (25 events / 25 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (26 events / 26 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (12 events / 12 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (1 traces / 1 unique traces) (27 events / 27 unique events) (26 events / 26 unique events in hot method)
+Classifier (org.antlr.v4.runtime.atn.PredictionMode.hasConflictingAltSet:470): LIB,NOT_REDUNDANT_TRACES
+
+#33
+Inspecting hot method org.antlr.v4.runtime.atn.PredictionContext.getCachedContext:547...
+	processed 1000 traces
+Checking for isolation...
+52,2,0,2
+Total 52 (52 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 286 (286 unique) events are in non-isolated traces (52 / 52 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (143 events / 143 unique events) (26 events / 26 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (143 events / 143 unique events) (26 events / 26 unique events in hot method)
+Classifier (org.antlr.v4.runtime.atn.PredictionContext.getCachedContext:547): LIB,NOT_REDUNDANT_TRACES
+
+#34
+Inspecting hot method org.antlr.v4.runtime.misc.FlexibleHashMap.get:82...
+	processed 1000 traces
+Checking for isolation...
+45,20,15,5
+Total 45 (9 unique) events are in hot method
+Total 20 (4 unique) traces are in hot method
+Total 15 (3 unique) isolated traces are in hot method
+Total 5 (1 unique) non-isolated traces that have events in hot method
+Total 25 (5 unique) events are in isolated traces
+Total 25 (5 unique) events are in non-isolated traces (20 / 4 unique are in hot method)
+Specs that have isolated traces:
+	ListIterator_RemoveOnce (5 traces / 1 unique traces) (5 events / 1 unique events)
+	Iterator_HasNext (5 traces / 1 unique traces) (15 events / 3 unique events)
+	Iterator_RemoveOnce (5 traces / 1 unique traces) (5 events / 1 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (5 traces / 1 unique traces) (25 events / 5 unique events) (20 events / 4 unique events in hot method)
+Classifier (org.antlr.v4.runtime.misc.FlexibleHashMap.get:82): LIB,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_ONE_UNIQUE
+
+#35
+Inspecting hot method org.antlr.v4.runtime.atn.ParserATNSimulator.addDFAState:2111...
+	processed 1000 traces
+Checking for isolation...
+34,2,0,2
+Total 34 (34 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 286 (286 unique) events are in non-isolated traces (34 / 34 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (143 events / 143 unique events) (17 events / 17 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (143 events / 143 unique events) (17 events / 17 unique events in hot method)
+Classifier (org.antlr.v4.runtime.atn.ParserATNSimulator.addDFAState:2111): LIB,NOT_REDUNDANT_TRACES
+
+#36
+Inspecting hot method org.antlr.v4.runtime.atn.ParserATNSimulator.closure_:1526...
+	processed 1000 traces
+Checking for isolation...
+24,1,0,1
+Total 24 (24 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 957 (957 unique) events are in non-isolated traces (24 / 24 unique are in hot method)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (957 events / 957 unique events) (24 events / 24 unique events in hot method)
+Classifier (org.antlr.v4.runtime.atn.ParserATNSimulator.closure_:1526): LIB,NOT_REDUNDANT_TRACES
+
+#37
+Inspecting hot method org.antlr.v4.runtime.atn.Transition$1.<init>:60...
+	processed 1000 traces
+Checking for isolation...
+20,2,0,2
+Total 20 (20 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 286 (286 unique) events are in non-isolated traces (20 / 20 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (143 events / 143 unique events) (10 events / 10 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (143 events / 143 unique events) (10 events / 10 unique events in hot method)
+Classifier (org.antlr.v4.runtime.atn.Transition$1.<init>:60): LIB,NOT_REDUNDANT_TRACES
+
+#38
+Inspecting hot method org.antlr.v4.runtime.atn.PredictionMode.allConfigsInRuleStopStates:278...
+	processed 1000 traces
+Checking for isolation...
+19,8,6,2
+Total 19 (18 unique) events are in hot method
+Total 8 (7 unique) traces are in hot method
+Total 6 (5 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 14 (13 unique) events are in isolated traces
+Total 7 (7 unique) events are in non-isolated traces (5 / 5 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (2 traces / 2 unique traces) (5 events / 5 unique events)
+	Collection_UnsafeIterator (2 traces / 2 unique traces) (7 events / 7 unique events)
+	Iterator_RemoveOnce (2 traces / 1 unique traces) (2 events / 1 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (2 traces / 2 unique traces) (7 events / 7 unique events) (5 events / 5 unique events in hot method)
+Classifier (org.antlr.v4.runtime.atn.PredictionMode.allConfigsInRuleStopStates:278): LIB,ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT
+
+#39
+Inspecting hot method org.antlr.v4.runtime.ANTLRInputStream.load:80...
+	processed 1000 traces
+Checking for isolation...
+15,15,15,0
+Total 15 (3 unique) events are in hot method
+Total 15 (3 unique) traces are in hot method
+Total 15 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 15 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Closeable_MultipleClose (5 traces / 1 unique traces) (5 events / 1 unique events)
+	Console_CloseReader (5 traces / 1 unique traces) (5 events / 1 unique events)
+	Reader_ManipulateAfterClose (5 traces / 1 unique traces) (5 events / 1 unique events)
+Classifier (org.antlr.v4.runtime.ANTLRInputStream.load:80): LIB,ISOLATED_ONE_UNIQUE
+
+#40
+Inspecting hot method org.antlr.v4.runtime.atn.PredictionContextCache.add:25...
+	processed 1000 traces
+Checking for isolation...
+12,2,0,2
+Total 12 (12 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 286 (286 unique) events are in non-isolated traces (12 / 12 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (143 events / 143 unique events) (6 events / 6 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (143 events / 143 unique events) (6 events / 6 unique events in hot method)
+Classifier (org.antlr.v4.runtime.atn.PredictionContextCache.add:25): LIB,NOT_REDUNDANT_TRACES
+
+#41
+Inspecting hot method org.antlr.v4.runtime.Recognizer$1.<init>:32...
+	processed 1000 traces
+Checking for isolation...
+10,10,10,0
+Total 10 (1 unique) events are in hot method
+Total 10 (1 unique) traces are in hot method
+Total 10 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 10 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (10 traces / 1 unique traces) (10 events / 1 unique events)
+Classifier (org.antlr.v4.runtime.Recognizer$1.<init>:32): LIB,ISOLATED_ONE_UNIQUE
+
+#42
+Inspecting hot method org.antlr.v4.runtime.misc.DoubleKeyMap.put:22...
+	processed 1000 traces
+Checking for isolation...
+4,2,0,2
+Total 4 (4 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 286 (286 unique) events are in non-isolated traces (4 / 4 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (143 events / 143 unique events) (2 events / 2 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (143 events / 143 unique events) (2 events / 2 unique events in hot method)
+Classifier (org.antlr.v4.runtime.misc.DoubleKeyMap.put:22): LIB,NOT_REDUNDANT_TRACES
+
+#43
+Inspecting hot method org.antlr.v4.runtime.atn.ATNDeserializer.<clinit>:29...
+	processed 1000 traces
+Checking for isolation...
+3,1,1,0
+Total 3 (3 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (3 events / 3 unique events)
+Classifier (org.antlr.v4.runtime.atn.ATNDeserializer.<clinit>:29): LIB,NOT_REDUNDANT_TRACES
+
+#44
+Inspecting hot method org.antlr.v4.runtime.Recognizer$1.<clinit>:0...
+	processed 1000 traces
+Checking for isolation...
+2,2,0,2
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 14 (14 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	Serializable_NoArgConstructor (1 traces / 1 unique traces) (7 events / 7 unique events) (1 events / 1 unique events in hot method)
+	Collection_HashCode (1 traces / 1 unique traces) (7 events / 7 unique events) (1 events / 1 unique events in hot method)
+Classifier (org.antlr.v4.runtime.Recognizer$1.<clinit>:0): LIB,NOT_REDUNDANT_TRACES
+

@@ -1,0 +1,514 @@
+Reading traces...
+	read 1000 traces
+	read 2000 traces
+Reading specs frequency...
+Reading locations...
+Counting events...
+	processed 1000 traces
+	processed 2000 traces
+Total 8572882 events and 1260572 traces
+Inspecting top 200 IMM
+Finding hot methods...
+Number of events, method name
+3230280,eu.hlavki.text.lemmagen.impl.LemmaExample.<init>:47
+2368905,eu.hlavki.text.lemmagen.impl.LemmaRule.<init>:38
+717846,eu.hlavki.text.lemmagen.impl.ExampleList.getFrontRearExampleList:174
+700736,eu.hlavki.text.lemmagen.impl.LemmaTreeNode.findBestRules:149
+645696,eu.hlavki.text.lemmagen.impl.ExampleList.add:149
+358755,eu.hlavki.text.lemmagen.impl.LemmaExample.getWordRear:131
+202372,eu.hlavki.text.lemmagen.impl.LemmaTreeNode.<init>:83
+143568,eu.hlavki.text.lemmagen.impl.LemmaExample.getWordFront:104
+143568,eu.hlavki.text.lemmagen.impl.LemmaExample.getLemmaFront:117
+36821,eu.hlavki.text.lemmagen.impl.LemmaTreeNode.writeObject:318
+11188,eu.hlavki.text.lemmagen.impl.LemmaTreeNode.addSub:241
+7454,eu.hlavki.text.lemmagen.impl.LemmaTreeNode.readObject:352
+3342,eu.hlavki.text.lemmagen.impl.RuleList.writeObject:66
+948,eu.hlavki.text.lemmagen.impl.RuleList.addRule:55
+948,eu.hlavki.text.lemmagen.impl.RuleList.readObject:95
+276,eu.hlavki.text.lemmagen.TrainTest.assertLemmaEquals:92
+85,org.slf4j.impl.SimpleLogger.recursivelyComputeLevelString:226
+60,eu.hlavki.text.lemmagen.impl.LemmaRule.lemmatize:87
+12,eu.hlavki.text.lemmagen.impl.ExampleList.finalizeAdditions:167
+6,eu.hlavki.text.lemmagen.LemmatizerFactory.read:81
+3,org.slf4j.LoggerFactory.fixSubstituteLoggers:189
+2,eu.hlavki.text.lemmagen.LemmatizerFactory.saveToFile:63
+2,org.slf4j.helpers.SubstituteLoggerFactory.getLoggers:65
+1,eu.hlavki.text.lemmagen.impl.ExampleList.clear:161
+1,org.slf4j.helpers.SubstituteLoggerFactory.clear:77
+1,eu.hlavki.text.lemmagen.impl.LemmatizerSettings$MsdConsideration.<clinit>:36
+1,org.slf4j.helpers.NamedLoggerBase.<clinit>:0
+1,org.slf4j.helpers.MarkerIgnoringBase.<clinit>:0
+1,org.slf4j.impl.SimpleLogger.<clinit>:147
+1,org.slf4j.impl.OutputChoice$OutputChoiceType.<clinit>:14
+1,eu.hlavki.text.lemmagen.impl.RuleList.<clinit>:0
+1,org.slf4j.LoggerFactory.findPossibleStaticLoggerBinderPathSet:301
+^^^ Last method that contains more than one event ^^^
+Starting eu.hlavki.text.lemmagen.impl.LemmaRule.lemmatize:87
+Finish eu.hlavki.text.lemmagen.impl.LemmaRule.lemmatize:87
+Starting eu.hlavki.text.lemmagen.impl.LemmaTreeNode.writeObject:318
+Finish eu.hlavki.text.lemmagen.impl.LemmaTreeNode.writeObject:318
+Starting eu.hlavki.text.lemmagen.impl.LemmaExample.getLemmaFront:117
+Finish eu.hlavki.text.lemmagen.impl.LemmaExample.getLemmaFront:117
+Starting org.slf4j.impl.SimpleLogger.recursivelyComputeLevelString:226
+Finish org.slf4j.impl.SimpleLogger.recursivelyComputeLevelString:226
+Starting eu.hlavki.text.lemmagen.impl.RuleList.writeObject:66
+Finish eu.hlavki.text.lemmagen.impl.RuleList.writeObject:66
+Starting org.slf4j.helpers.SubstituteLoggerFactory.getLoggers:65
+Finish org.slf4j.helpers.SubstituteLoggerFactory.getLoggers:65
+Starting org.slf4j.LoggerFactory.fixSubstituteLoggers:189
+Finish org.slf4j.LoggerFactory.fixSubstituteLoggers:189
+Starting eu.hlavki.text.lemmagen.LemmatizerFactory.read:81
+Finish eu.hlavki.text.lemmagen.LemmatizerFactory.read:81
+Starting eu.hlavki.text.lemmagen.impl.ExampleList.finalizeAdditions:167
+Finish eu.hlavki.text.lemmagen.impl.ExampleList.finalizeAdditions:167
+Starting eu.hlavki.text.lemmagen.LemmatizerFactory.saveToFile:63
+Finish eu.hlavki.text.lemmagen.LemmatizerFactory.saveToFile:63
+Starting eu.hlavki.text.lemmagen.impl.RuleList.addRule:55
+Finish eu.hlavki.text.lemmagen.impl.RuleList.addRule:55
+Starting eu.hlavki.text.lemmagen.impl.LemmaTreeNode.addSub:241
+Finish eu.hlavki.text.lemmagen.impl.LemmaTreeNode.addSub:241
+Starting eu.hlavki.text.lemmagen.impl.RuleList.readObject:95
+Finish eu.hlavki.text.lemmagen.impl.RuleList.readObject:95
+Starting eu.hlavki.text.lemmagen.impl.LemmaExample.<init>:47
+Finish eu.hlavki.text.lemmagen.impl.LemmaExample.<init>:47
+Starting eu.hlavki.text.lemmagen.impl.LemmaTreeNode.readObject:352
+Finish eu.hlavki.text.lemmagen.impl.LemmaTreeNode.readObject:352
+Starting eu.hlavki.text.lemmagen.impl.ExampleList.getFrontRearExampleList:174
+Finish eu.hlavki.text.lemmagen.impl.ExampleList.getFrontRearExampleList:174
+Starting eu.hlavki.text.lemmagen.impl.LemmaRule.<init>:38
+Finish eu.hlavki.text.lemmagen.impl.LemmaRule.<init>:38
+Starting eu.hlavki.text.lemmagen.TrainTest.assertLemmaEquals:92
+Finish eu.hlavki.text.lemmagen.TrainTest.assertLemmaEquals:92
+Starting eu.hlavki.text.lemmagen.impl.LemmaExample.getWordFront:104
+Finish eu.hlavki.text.lemmagen.impl.LemmaExample.getWordFront:104
+Starting eu.hlavki.text.lemmagen.impl.LemmaExample.getWordRear:131
+Finish eu.hlavki.text.lemmagen.impl.LemmaExample.getWordRear:131
+Starting eu.hlavki.text.lemmagen.impl.ExampleList.add:149
+Finish eu.hlavki.text.lemmagen.impl.ExampleList.add:149
+Starting eu.hlavki.text.lemmagen.impl.LemmaTreeNode.findBestRules:149
+Finish eu.hlavki.text.lemmagen.impl.LemmaTreeNode.findBestRules:149
+Starting eu.hlavki.text.lemmagen.impl.LemmaTreeNode.<init>:83
+Finish eu.hlavki.text.lemmagen.impl.LemmaTreeNode.<init>:83
+
+#1
+Inspecting hot method eu.hlavki.text.lemmagen.impl.LemmaExample.<init>:47...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+3230280,430704,430704,0
+Total 3230280 (15 unique) events are in hot method
+Total 430704 (2 unique) traces are in hot method
+Total 430704 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3230280 (15 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (215352 traces / 1 unique traces) (1507464 events / 7 unique events)
+	StringBuilder_ThreadSafe (215352 traces / 1 unique traces) (1722816 events / 8 unique events)
+Classifier (eu.hlavki.text.lemmagen.impl.LemmaExample.<init>:47): CUT,ISOLATED_ONE_UNIQUE
+
+#2
+Inspecting hot method eu.hlavki.text.lemmagen.impl.LemmaRule.<init>:38...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+2368905,430710,430710,0
+Total 2368905 (11 unique) events are in hot method
+Total 430710 (2 unique) traces are in hot method
+Total 430710 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2368905 (11 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (215355 traces / 1 unique traces) (1076775 events / 5 unique events)
+	StringBuilder_ThreadSafe (215355 traces / 1 unique traces) (1292130 events / 6 unique events)
+Classifier (eu.hlavki.text.lemmagen.impl.LemmaRule.<init>:38): CUT,ISOLATED_ONE_UNIQUE
+
+#3
+Inspecting hot method eu.hlavki.text.lemmagen.impl.ExampleList.getFrontRearExampleList:174...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+717846,6,6,0
+Total 717846 (358923 unique) events are in hot method
+Total 6 (3 unique) traces are in hot method
+Total 6 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 717846 (358923 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (2 traces / 1 unique traces) (287140 events / 143570 unique events)
+	Iterator_RemoveOnce (2 traces / 1 unique traces) (143568 events / 71784 unique events)
+	Iterator_HasNext (2 traces / 1 unique traces) (287138 events / 143569 unique events)
+Classifier (eu.hlavki.text.lemmagen.impl.ExampleList.getFrontRearExampleList:174): CUT,ISOLATED_ONE_UNIQUE
+
+#4
+Inspecting hot method eu.hlavki.text.lemmagen.impl.LemmaTreeNode.findBestRules:149...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+700736,50424,50421,3
+Total 700736 (536506 unique) events are in hot method
+Total 50424 (30 unique) traces are in hot method
+Total 50421 (27 unique) isolated traces are in hot method
+Total 3 (3 unique) non-isolated traces that have events in hot method
+Total 164387 (157 unique) events are in isolated traces
+Total 999118 (999118 unique) events are in non-isolated traces (536349 / 536349 unique are in hot method)
+Specs that have isolated traces:
+	Map_UnsafeIterator (14406 traces / 6 unique traces) (53702 events / 46 unique events)
+	Collections_SortBeforeBinarySearch (7203 traces / 5 unique traces) (19648 events / 20 unique events)
+	Map_CollectionViewAdd (7203 traces / 1 unique traces) (7203 events / 1 unique events)
+	Iterator_HasNext (7203 traces / 5 unique traces) (32093 events / 35 unique events)
+	Collection_UnsafeIterator (7203 traces / 5 unique traces) (39296 events / 40 unique events)
+	Iterator_RemoveOnce (7203 traces / 5 unique traces) (12445 events / 15 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (495956 events / 495956 unique events) (264573 events / 264573 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (495956 events / 495956 unique events) (264573 events / 264573 unique events in hot method)
+	Collections_ImplementComparable (1 traces / 1 unique traces) (7206 events / 7206 unique events) (7203 events / 7203 unique events in hot method)
+Classifier (eu.hlavki.text.lemmagen.impl.LemmaTreeNode.findBestRules:149): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#5
+Inspecting hot method eu.hlavki.text.lemmagen.impl.ExampleList.add:149...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+645696,3,1,2
+Total 645696 (645696 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 215232 (215232 unique) events are in isolated traces
+Total 991912 (991912 unique) events are in non-isolated traces (430464 / 430464 unique are in hot method)
+Specs that have isolated traces:
+	TreeMap_Comparable (1 traces / 1 unique traces) (215232 events / 215232 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (495956 events / 495956 unique events) (215232 events / 215232 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (495956 events / 495956 unique events) (215232 events / 215232 unique events in hot method)
+Classifier (eu.hlavki.text.lemmagen.impl.ExampleList.add:149): CUT,NOT_REDUNDANT_TRACES
+
+#6
+Inspecting hot method eu.hlavki.text.lemmagen.impl.LemmaExample.getWordRear:131...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+358755,143502,143502,0
+Total 358755 (5 unique) events are in hot method
+Total 143502 (2 unique) traces are in hot method
+Total 143502 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 358755 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (71751 traces / 1 unique traces) (143502 events / 2 unique events)
+	StringBuilder_ThreadSafe (71751 traces / 1 unique traces) (215253 events / 3 unique events)
+Classifier (eu.hlavki.text.lemmagen.impl.LemmaExample.getWordRear:131): CUT,ISOLATED_ONE_UNIQUE
+
+#7
+Inspecting hot method eu.hlavki.text.lemmagen.impl.LemmaTreeNode.<init>:83...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+	processed 1000 traces
+202372,57888,53199,4689
+Total 202372 (46064 unique) events are in hot method
+Total 57888 (1947 unique) traces are in hot method
+Total 53199 (1620 unique) isolated traces are in hot method
+Total 4689 (327 unique) non-isolated traces that have events in hot method
+Total 167297 (27327 unique) events are in isolated traces
+Total 1029782 (1001742 unique) events are in non-isolated traces (35075 / 18737 unique are in hot method)
+Specs that have isolated traces:
+	Map_UnsafeIterator (16733 traces / 1496 unique traces) (75331 events / 25243 unique events)
+	Iterator_HasNext (10760 traces / 33 unique traces) (29978 events / 703 unique events)
+	Collection_UnsafeIterator (10760 traces / 33 unique traces) (40738 events / 736 unique events)
+	Iterator_RemoveOnce (7913 traces / 32 unique traces) (11699 events / 336 unique events)
+	Map_CollectionViewAdd (7033 traces / 26 unique traces) (9551 events / 309 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (3478 traces / 324 unique traces) (35452 events / 9828 unique events) (22102 events / 6972 unique events in hot method)
+	Map_CollectionViewAdd (1209 traces / 1 unique traces) (2418 events / 2 unique events) (1209 events / 1 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (495956 events / 495956 unique events) (5882 events / 5882 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (495956 events / 495956 unique events) (5882 events / 5882 unique events in hot method)
+Classifier (eu.hlavki.text.lemmagen.impl.LemmaTreeNode.<init>:83): CUT,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_ONE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#8
+Inspecting hot method eu.hlavki.text.lemmagen.impl.LemmaExample.getWordFront:104...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+143568,71784,71784,0
+Total 143568 (2 unique) events are in hot method
+Total 71784 (1 unique) traces are in hot method
+Total 71784 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 143568 (2 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (71784 traces / 1 unique traces) (143568 events / 2 unique events)
+Classifier (eu.hlavki.text.lemmagen.impl.LemmaExample.getWordFront:104): CUT,ISOLATED_ONE_UNIQUE
+
+#9
+Inspecting hot method eu.hlavki.text.lemmagen.impl.LemmaExample.getLemmaFront:117...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+143568,71784,71784,0
+Total 143568 (2 unique) events are in hot method
+Total 71784 (1 unique) traces are in hot method
+Total 71784 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 143568 (2 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (71784 traces / 1 unique traces) (143568 events / 2 unique events)
+Classifier (eu.hlavki.text.lemmagen.impl.LemmaExample.getLemmaFront:117): LIB,ISOLATED_ONE_UNIQUE
+
+#10
+Inspecting hot method eu.hlavki.text.lemmagen.impl.LemmaTreeNode.writeObject:318...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+36821,8314,3627,4687
+Total 36821 (4464 unique) events are in hot method
+Total 8314 (397 unique) traces are in hot method
+Total 3627 (72 unique) isolated traces are in hot method
+Total 4687 (325 unique) non-isolated traces that have events in hot method
+Total 22262 (1607 unique) events are in isolated traces
+Total 37870 (9830 unique) events are in non-isolated traces (14559 / 2857 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (1209 traces / 24 unique traces) (9872 events / 662 unique events)
+	Iterator_RemoveOnce (1209 traces / 24 unique traces) (3727 events / 307 unique events)
+	Iterator_HasNext (1209 traces / 24 unique traces) (8663 events / 638 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (3478 traces / 324 unique traces) (35452 events / 9828 unique events) (13350 events / 2856 unique events in hot method)
+	Map_CollectionViewAdd (1209 traces / 1 unique traces) (2418 events / 2 unique events) (1209 events / 1 unique events in hot method)
+Classifier (eu.hlavki.text.lemmagen.impl.LemmaTreeNode.writeObject:318): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_ONE_UNIQUE
+
+#11
+Inspecting hot method eu.hlavki.text.lemmagen.impl.LemmaTreeNode.addSub:241...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+11188,2,0,2
+Total 11188 (11188 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 991912 (991912 unique) events are in non-isolated traces (11188 / 11188 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (495956 events / 495956 unique events) (5594 events / 5594 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (495956 events / 495956 unique events) (5594 events / 5594 unique events in hot method)
+Classifier (eu.hlavki.text.lemmagen.impl.LemmaTreeNode.addSub:241): LIB,NOT_REDUNDANT_TRACES
+
+#12
+Inspecting hot method eu.hlavki.text.lemmagen.impl.LemmaTreeNode.readObject:352...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+7454,2,0,2
+Total 7454 (7454 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 991912 (991912 unique) events are in non-isolated traces (7454 / 7454 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (495956 events / 495956 unique events) (3727 events / 3727 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (495956 events / 495956 unique events) (3727 events / 3727 unique events in hot method)
+Classifier (eu.hlavki.text.lemmagen.impl.LemmaTreeNode.readObject:352): LIB,NOT_REDUNDANT_TRACES
+
+#13
+Inspecting hot method eu.hlavki.text.lemmagen.impl.RuleList.writeObject:66...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+3342,18,18,0
+Total 3342 (3338 unique) events are in hot method
+Total 18 (14 unique) traces are in hot method
+Total 18 (14 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3342 (3338 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Map_UnsafeIterator (6 traces / 4 unique traces) (960 events / 958 unique events)
+	Collection_UnsafeIterator (3 traces / 3 unique traces) (954 events / 954 unique events)
+	Iterator_RemoveOnce (3 traces / 3 unique traces) (474 events / 474 unique events)
+	Map_CollectionViewAdd (3 traces / 1 unique traces) (3 events / 1 unique events)
+	Iterator_HasNext (3 traces / 3 unique traces) (951 events / 951 unique events)
+Classifier (eu.hlavki.text.lemmagen.impl.RuleList.writeObject:66): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_MULTIPLE_UNIQUE_NO_REDUNDANT,ISOLATED_ONE_UNIQUE
+
+#14
+Inspecting hot method eu.hlavki.text.lemmagen.impl.RuleList.addRule:55...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+948,2,0,2
+Total 948 (948 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 991912 (991912 unique) events are in non-isolated traces (948 / 948 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (495956 events / 495956 unique events) (474 events / 474 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (495956 events / 495956 unique events) (474 events / 474 unique events in hot method)
+Classifier (eu.hlavki.text.lemmagen.impl.RuleList.addRule:55): LIB,NOT_REDUNDANT_TRACES
+
+#15
+Inspecting hot method eu.hlavki.text.lemmagen.impl.RuleList.readObject:95...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+948,2,0,2
+Total 948 (948 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 991912 (991912 unique) events are in non-isolated traces (948 / 948 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (495956 events / 495956 unique events) (474 events / 474 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (495956 events / 495956 unique events) (474 events / 474 unique events in hot method)
+Classifier (eu.hlavki.text.lemmagen.impl.RuleList.readObject:95): LIB,NOT_REDUNDANT_TRACES
+
+#16
+Inspecting hot method eu.hlavki.text.lemmagen.TrainTest.assertLemmaEquals:92...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+276,48,48,0
+Total 276 (23 unique) events are in hot method
+Total 48 (4 unique) traces are in hot method
+Total 48 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 276 (23 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (24 traces / 2 unique traces) (108 events / 9 unique events)
+	StringBuilder_ThreadSafe (24 traces / 2 unique traces) (168 events / 14 unique events)
+Classifier (eu.hlavki.text.lemmagen.TrainTest.assertLemmaEquals:92): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#17
+Inspecting hot method org.slf4j.impl.SimpleLogger.recursivelyComputeLevelString:226...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+85,34,34,0
+Total 85 (5 unique) events are in hot method
+Total 34 (2 unique) traces are in hot method
+Total 34 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 85 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (17 traces / 1 unique traces) (34 events / 2 unique events)
+	StringBuilder_ThreadSafe (17 traces / 1 unique traces) (51 events / 3 unique events)
+Classifier (org.slf4j.impl.SimpleLogger.recursivelyComputeLevelString:226): LIB,ISOLATED_ONE_UNIQUE
+
+#18
+Inspecting hot method eu.hlavki.text.lemmagen.impl.LemmaRule.lemmatize:87...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+60,24,24,0
+Total 60 (5 unique) events are in hot method
+Total 24 (2 unique) traces are in hot method
+Total 24 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 60 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (12 traces / 1 unique traces) (36 events / 3 unique events)
+	Appendable_ThreadSafe (12 traces / 1 unique traces) (24 events / 2 unique events)
+Classifier (eu.hlavki.text.lemmagen.impl.LemmaRule.lemmatize:87): LIB,ISOLATED_ONE_UNIQUE
+
+#19
+Inspecting hot method eu.hlavki.text.lemmagen.impl.ExampleList.finalizeAdditions:167...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+12,10,8,2
+Total 12 (7 unique) events are in hot method
+Total 10 (5 unique) traces are in hot method
+Total 8 (3 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 8 (3 unique) events are in isolated traces
+Total 7208 (7208 unique) events are in non-isolated traces (4 / 4 unique are in hot method)
+Specs that have isolated traces:
+	Map_CollectionViewAdd (3 traces / 1 unique traces) (3 events / 1 unique events)
+	Collections_SortBeforeBinarySearch (3 traces / 1 unique traces) (3 events / 1 unique events)
+	Map_UnsafeIterator (2 traces / 1 unique traces) (2 events / 1 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (1 traces / 1 unique traces) (2 events / 2 unique events) (1 events / 1 unique events in hot method)
+	Collections_ImplementComparable (1 traces / 1 unique traces) (7206 events / 7206 unique events) (3 events / 3 unique events in hot method)
+Classifier (eu.hlavki.text.lemmagen.impl.ExampleList.finalizeAdditions:167): LIB,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_SINGLE_TRACE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#20
+Inspecting hot method eu.hlavki.text.lemmagen.LemmatizerFactory.read:81...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+6,3,3,0
+Total 6 (6 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 6 (6 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	InputStream_MarkAfterClose (1 traces / 1 unique traces) (2 events / 2 unique events)
+	InputStream_ManipulateAfterClose (1 traces / 1 unique traces) (2 events / 2 unique events)
+	Closeable_MultipleClose (1 traces / 1 unique traces) (2 events / 2 unique events)
+Classifier (eu.hlavki.text.lemmagen.LemmatizerFactory.read:81): LIB,NOT_REDUNDANT_TRACES
+
+#21
+Inspecting hot method org.slf4j.LoggerFactory.fixSubstituteLoggers:189...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+3,2,2,0
+Total 3 (3 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (2 events / 2 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (1 events / 1 unique events)
+Classifier (org.slf4j.LoggerFactory.fixSubstituteLoggers:189): LIB,NOT_REDUNDANT_TRACES
+
+#22
+Inspecting hot method eu.hlavki.text.lemmagen.LemmatizerFactory.saveToFile:63...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+2,2,2,0
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2 (2 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Closeable_MultipleClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+	OutputStream_ManipulateAfterClose (1 traces / 1 unique traces) (1 events / 1 unique events)
+Classifier (eu.hlavki.text.lemmagen.LemmatizerFactory.saveToFile:63): LIB,NOT_REDUNDANT_TRACES
+
+#23
+Inspecting hot method org.slf4j.helpers.SubstituteLoggerFactory.getLoggers:65...
+	processed 1000 traces
+	processed 2000 traces
+Checking for isolation...
+2,2,1,1
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 1 (1 unique) events are in isolated traces
+Total 2 (2 unique) events are in non-isolated traces (1 / 1 unique are in hot method)
+Specs that have isolated traces:
+	Map_CollectionViewAdd (1 traces / 1 unique traces) (1 events / 1 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (1 traces / 1 unique traces) (2 events / 2 unique events) (1 events / 1 unique events in hot method)
+Classifier (org.slf4j.helpers.SubstituteLoggerFactory.getLoggers:65): LIB,NOT_REDUNDANT_TRACES
+

@@ -1,0 +1,296 @@
+Reading traces...
+Reading specs frequency...
+Reading locations...
+Counting events...
+Total 1398912 events and 4385 traces
+Inspecting top 200 IMM
+Finding hot methods...
+Number of events, method name
+1306895,com.github.houbb.sensitive.word.support.map.SensitiveWordMap.initWordMap:52
+65287,com.github.houbb.heaven.util.io.StreamUtil.readAllLines:139
+10923,com.github.houbb.sensitive.word.support.format.CharFormatChain.format:21
+8924,com.github.houbb.opencc4j.support.data.impl.DataUtil.buildDataMap:40
+3641,com.github.houbb.opencc4j.core.impl.ZhConvertBootstrap.convert:199
+1301,com.github.houbb.sensitive.word.support.check.SensitiveCheckChain.checkSensitive:25
+993,com.github.houbb.opencc4j.support.convert.core.impl.DefaultUnitConvert.getPhraseResult:38
+331,com.github.houbb.opencc4j.support.segment.impl.CharSegment.doSeg:23
+302,com.github.houbb.sensitive.word.utils.NumUtils.<clinit>:62
+156,com.github.houbb.sensitive.word.utils.CharUtils.<clinit>:43
+66,com.github.houbb.sensitive.word.support.map.SensitiveWordMap.replaceSensitiveWord:217
+46,com.github.houbb.heaven.util.lang.StringUtil.repeat:580
+26,com.github.houbb.heaven.support.instance.impl.InstanceFactory.getSingleton:134
+10,com.github.houbb.sensitive.word.support.data.SensitiveWordData.<clinit>:28
+10,com.github.houbb.sensitive.word.support.map.SensitiveWordMap.getSensitiveWords:175
+1,com.github.houbb.sensitive.word.constant.enums.ValidModeEnum.<clinit>:16
+^^^ Last method that contains more than one event ^^^
+Starting com.github.houbb.sensitive.word.support.map.SensitiveWordMap.getSensitiveWords:175
+Finish com.github.houbb.sensitive.word.support.map.SensitiveWordMap.getSensitiveWords:175
+Starting com.github.houbb.heaven.util.lang.StringUtil.repeat:580
+Finish com.github.houbb.heaven.util.lang.StringUtil.repeat:580
+Starting com.github.houbb.sensitive.word.support.data.SensitiveWordData.<clinit>:28
+Finish com.github.houbb.sensitive.word.support.data.SensitiveWordData.<clinit>:28
+Starting com.github.houbb.sensitive.word.support.check.SensitiveCheckChain.checkSensitive:25
+Finish com.github.houbb.sensitive.word.support.check.SensitiveCheckChain.checkSensitive:25
+Starting com.github.houbb.opencc4j.support.segment.impl.CharSegment.doSeg:23
+Finish com.github.houbb.opencc4j.support.segment.impl.CharSegment.doSeg:23
+Starting com.github.houbb.opencc4j.core.impl.ZhConvertBootstrap.convert:199
+Finish com.github.houbb.opencc4j.core.impl.ZhConvertBootstrap.convert:199
+Starting com.github.houbb.opencc4j.support.convert.core.impl.DefaultUnitConvert.getPhraseResult:38
+Finish com.github.houbb.opencc4j.support.convert.core.impl.DefaultUnitConvert.getPhraseResult:38
+Starting com.github.houbb.sensitive.word.support.format.CharFormatChain.format:21
+Finish com.github.houbb.sensitive.word.support.format.CharFormatChain.format:21
+Starting com.github.houbb.sensitive.word.support.map.SensitiveWordMap.replaceSensitiveWord:217
+Finish com.github.houbb.sensitive.word.support.map.SensitiveWordMap.replaceSensitiveWord:217
+Starting com.github.houbb.heaven.util.io.StreamUtil.readAllLines:139
+Finish com.github.houbb.heaven.util.io.StreamUtil.readAllLines:139
+Starting com.github.houbb.heaven.support.instance.impl.InstanceFactory.getSingleton:134
+Finish com.github.houbb.heaven.support.instance.impl.InstanceFactory.getSingleton:134
+Starting com.github.houbb.sensitive.word.support.map.SensitiveWordMap.initWordMap:52
+Finish com.github.houbb.sensitive.word.support.map.SensitiveWordMap.initWordMap:52
+Starting com.github.houbb.sensitive.word.utils.NumUtils.<clinit>:62
+Finish com.github.houbb.sensitive.word.utils.NumUtils.<clinit>:62
+Starting com.github.houbb.opencc4j.support.data.impl.DataUtil.buildDataMap:40
+Finish com.github.houbb.opencc4j.support.data.impl.DataUtil.buildDataMap:40
+Starting com.github.houbb.sensitive.word.utils.CharUtils.<clinit>:43
+Finish com.github.houbb.sensitive.word.utils.CharUtils.<clinit>:43
+
+#1
+Inspecting hot method com.github.houbb.sensitive.word.support.map.SensitiveWordMap.initWordMap:52...
+Checking for isolation...
+1306895,7,5,2
+Total 1306895 (1306895 unique) events are in hot method
+Total 7 (7 unique) traces are in hot method
+Total 5 (5 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 326445 (326445 unique) events are in isolated traces
+Total 989858 (989858 unique) events are in non-isolated traces (980450 / 980450 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (65287 events / 65287 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (130576 events / 130576 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (130575 events / 130575 unique events)
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (4 events / 4 unique events)
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (494929 events / 494929 unique events) (490225 events / 490225 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (494929 events / 494929 unique events) (490225 events / 490225 unique events in hot method)
+Classifier (com.github.houbb.sensitive.word.support.map.SensitiveWordMap.initWordMap:52): CUT,NOT_REDUNDANT_TRACES
+
+#2
+Inspecting hot method com.github.houbb.heaven.util.io.StreamUtil.readAllLines:139...
+Checking for isolation...
+65287,2,1,1
+Total 65287 (65287 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 12 (12 unique) events are in isolated traces
+Total 65276 (65276 unique) events are in non-isolated traces (65275 / 65275 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (12 events / 12 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (65276 events / 65276 unique events) (65275 events / 65275 unique events in hot method)
+Classifier (com.github.houbb.heaven.util.io.StreamUtil.readAllLines:139): LIB,NOT_REDUNDANT_TRACES
+
+#3
+Inspecting hot method com.github.houbb.sensitive.word.support.format.CharFormatChain.format:21...
+Checking for isolation...
+10923,1324,1324,0
+Total 10923 (33 unique) events are in hot method
+Total 1324 (4 unique) traces are in hot method
+Total 1324 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 10923 (33 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (331 traces / 1 unique traces) (3972 events / 12 unique events)
+	Iterator_RemoveOnce (331 traces / 1 unique traces) (1655 events / 5 unique events)
+	Iterator_HasNext (331 traces / 1 unique traces) (3641 events / 11 unique events)
+	Collections_SortBeforeBinarySearch (331 traces / 1 unique traces) (1655 events / 5 unique events)
+Classifier (com.github.houbb.sensitive.word.support.format.CharFormatChain.format:21): CUT,ISOLATED_ONE_UNIQUE
+
+#4
+Inspecting hot method com.github.houbb.opencc4j.support.data.impl.DataUtil.buildDataMap:40...
+Checking for isolation...
+8924,2,0,2
+Total 8924 (8924 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 989858 (989858 unique) events are in non-isolated traces (8924 / 8924 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (494929 events / 494929 unique events) (4462 events / 4462 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (494929 events / 494929 unique events) (4462 events / 4462 unique events in hot method)
+Classifier (com.github.houbb.opencc4j.support.data.impl.DataUtil.buildDataMap:40): LIB,NOT_REDUNDANT_TRACES
+
+#5
+Inspecting hot method com.github.houbb.opencc4j.core.impl.ZhConvertBootstrap.convert:199...
+Checking for isolation...
+3641,1655,1655,0
+Total 3641 (11 unique) events are in hot method
+Total 1655 (5 unique) traces are in hot method
+Total 1655 (5 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3641 (11 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (331 traces / 1 unique traces) (331 events / 1 unique events)
+	StringBuilder_ThreadSafe (331 traces / 1 unique traces) (662 events / 2 unique events)
+	Iterator_HasNext (331 traces / 1 unique traces) (993 events / 3 unique events)
+	Collection_UnsafeIterator (331 traces / 1 unique traces) (1324 events / 4 unique events)
+	Iterator_RemoveOnce (331 traces / 1 unique traces) (331 events / 1 unique events)
+Classifier (com.github.houbb.opencc4j.core.impl.ZhConvertBootstrap.convert:199): LIB,ISOLATED_ONE_UNIQUE
+
+#6
+Inspecting hot method com.github.houbb.sensitive.word.support.check.SensitiveCheckChain.checkSensitive:25...
+Checking for isolation...
+1301,376,376,0
+Total 1301 (30 unique) events are in hot method
+Total 376 (9 unique) traces are in hot method
+Total 376 (9 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1301 (30 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (94 traces / 3 unique traces) (517 events / 14 unique events)
+	Iterator_RemoveOnce (94 traces / 2 unique traces) (173 events / 3 unique events)
+	Iterator_HasNext (94 traces / 3 unique traces) (423 events / 11 unique events)
+	Collections_SortBeforeBinarySearch (94 traces / 1 unique traces) (188 events / 2 unique events)
+Classifier (com.github.houbb.sensitive.word.support.check.SensitiveCheckChain.checkSensitive:25): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE
+
+#7
+Inspecting hot method com.github.houbb.opencc4j.support.convert.core.impl.DefaultUnitConvert.getPhraseResult:38...
+Checking for isolation...
+993,662,662,0
+Total 993 (3 unique) events are in hot method
+Total 662 (2 unique) traces are in hot method
+Total 662 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 993 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (331 traces / 1 unique traces) (331 events / 1 unique events)
+	StringBuilder_ThreadSafe (331 traces / 1 unique traces) (662 events / 2 unique events)
+Classifier (com.github.houbb.opencc4j.support.convert.core.impl.DefaultUnitConvert.getPhraseResult:38): LIB,ISOLATED_ONE_UNIQUE
+
+#8
+Inspecting hot method com.github.houbb.opencc4j.support.segment.impl.CharSegment.doSeg:23...
+Checking for isolation...
+331,331,331,0
+Total 331 (1 unique) events are in hot method
+Total 331 (1 unique) traces are in hot method
+Total 331 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 331 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (331 traces / 1 unique traces) (331 events / 1 unique events)
+Classifier (com.github.houbb.opencc4j.support.segment.impl.CharSegment.doSeg:23): LIB,ISOLATED_ONE_UNIQUE
+
+#9
+Inspecting hot method com.github.houbb.sensitive.word.utils.NumUtils.<clinit>:62...
+Checking for isolation...
+302,2,0,2
+Total 302 (302 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 989858 (989858 unique) events are in non-isolated traces (302 / 302 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (494929 events / 494929 unique events) (151 events / 151 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (494929 events / 494929 unique events) (151 events / 151 unique events in hot method)
+Classifier (com.github.houbb.sensitive.word.utils.NumUtils.<clinit>:62): CUT,NOT_REDUNDANT_TRACES
+
+#10
+Inspecting hot method com.github.houbb.sensitive.word.utils.CharUtils.<clinit>:43...
+Checking for isolation...
+156,2,0,2
+Total 156 (156 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 989858 (989858 unique) events are in non-isolated traces (156 / 156 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (494929 events / 494929 unique events) (78 events / 78 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (494929 events / 494929 unique events) (78 events / 78 unique events in hot method)
+Classifier (com.github.houbb.sensitive.word.utils.CharUtils.<clinit>:43): CUT,NOT_REDUNDANT_TRACES
+
+#11
+Inspecting hot method com.github.houbb.sensitive.word.support.map.SensitiveWordMap.replaceSensitiveWord:217...
+Checking for isolation...
+66,4,4,0
+Total 66 (33 unique) events are in hot method
+Total 4 (2 unique) traces are in hot method
+Total 4 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 66 (33 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (2 traces / 1 unique traces) (32 events / 16 unique events)
+	StringBuilder_ThreadSafe (2 traces / 1 unique traces) (34 events / 17 unique events)
+Classifier (com.github.houbb.sensitive.word.support.map.SensitiveWordMap.replaceSensitiveWord:217): CUT,ISOLATED_ONE_UNIQUE
+
+#12
+Inspecting hot method com.github.houbb.heaven.util.lang.StringUtil.repeat:580...
+Checking for isolation...
+46,12,12,0
+Total 46 (16 unique) events are in hot method
+Total 12 (4 unique) traces are in hot method
+Total 12 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 46 (16 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (6 traces / 2 unique traces) (20 events / 7 unique events)
+	StringBuilder_ThreadSafe (6 traces / 2 unique traces) (26 events / 9 unique events)
+Classifier (com.github.houbb.heaven.util.lang.StringUtil.repeat:580): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#13
+Inspecting hot method com.github.houbb.heaven.support.instance.impl.InstanceFactory.getSingleton:134...
+Checking for isolation...
+26,2,0,2
+Total 26 (26 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 989858 (989858 unique) events are in non-isolated traces (26 / 26 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (494929 events / 494929 unique events) (13 events / 13 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (494929 events / 494929 unique events) (13 events / 13 unique events in hot method)
+Classifier (com.github.houbb.heaven.support.instance.impl.InstanceFactory.getSingleton:134): LIB,NOT_REDUNDANT_TRACES
+
+#14
+Inspecting hot method com.github.houbb.sensitive.word.support.data.SensitiveWordData.<clinit>:28...
+Checking for isolation...
+10,4,3,1
+Total 10 (10 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 9 (9 unique) events are in isolated traces
+Total 65276 (65276 unique) events are in non-isolated traces (1 / 1 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsynchronizedAddAll (1 traces / 1 unique traces) (2 events / 2 unique events)
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (4 events / 4 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (65276 events / 65276 unique events) (1 events / 1 unique events in hot method)
+Classifier (com.github.houbb.sensitive.word.support.data.SensitiveWordData.<clinit>:28): CUT,NOT_REDUNDANT_TRACES
+
+#15
+Inspecting hot method com.github.houbb.sensitive.word.support.map.SensitiveWordMap.getSensitiveWords:175...
+Checking for isolation...
+10,8,8,0
+Total 10 (4 unique) events are in hot method
+Total 8 (2 unique) traces are in hot method
+Total 8 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 10 (4 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (8 traces / 2 unique traces) (10 events / 4 unique events)
+Classifier (com.github.houbb.sensitive.word.support.map.SensitiveWordMap.getSensitiveWords:175): CUT,ISOLATED_MULTIPLE_UNIQUE
+

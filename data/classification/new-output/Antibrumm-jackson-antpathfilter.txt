@@ -1,0 +1,1574 @@
+Reading traces...
+Reading specs frequency...
+Reading locations...
+Counting events...
+Total 61058314 events and 10690206 traces
+Inspecting top 200 IMM
+Finding hot methods...
+Number of events, method name
+8093225,com.fasterxml.jackson.databind.introspect.AnnotatedMethodCollector.collect:46
+4881940,ch.mfrey.jackson.antpathfilter.AntPathPropertyFilter.include:133
+4481717,com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._addInjectables:688
+4341586,com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector.collectAll:319
+3231293,com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._addMethods:554
+3201099,com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._sortProperties:990
+3122598,ch.mfrey.jackson.antpathfilter.AntPathPropertyFilter.getPathToTest:81
+2200810,com.fasterxml.jackson.databind.util.BeanUtil.legacyManglePropertyName:235
+2170825,com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._removeUnwantedProperties:752
+2170793,com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._removeUnwantedAccessor:785
+2160736,com.fasterxml.jackson.databind.introspect.AnnotatedFieldCollector.collect:48
+1940711,com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._renameProperties:822
+1840764,ch.mfrey.jackson.antpathfilter.StringUtils.tokenizeToStringArray:39
+1790657,com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._anyIndexed:1090
+1700977,com.fasterxml.jackson.databind.introspect.AnnotatedClassResolver.resolveClassAnnotations:225
+1530507,com.fasterxml.jackson.databind.ser.BeanSerializerFactory.removeIgnorableTypes:693
+1470483,com.fasterxml.jackson.databind.ser.BeanSerializerFactory.findBeanProperties:569
+1390706,com.fasterxml.jackson.databind.introspect.AnnotatedClassResolver._addSuperInterfaces:186
+1250424,com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._addFields:385
+910704,com.fasterxml.jackson.databind.introspect.AnnotatedClassResolver._addSuperTypes:162
+900358,com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._addCreators:484
+900342,com.fasterxml.jackson.databind.introspect.AnnotatedClassResolver._addClassMixIns:279
+880354,com.fasterxml.jackson.databind.introspect.AnnotatedMethodCollector._addMemberMethods:110
+600216,com.fasterxml.jackson.databind.introspect.AnnotatedMethodMap.iterator:54
+440170,com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._property:1127
+440148,com.fasterxml.jackson.databind.introspect.AnnotatedFieldCollector._findFields:65
+400144,com.fasterxml.jackson.databind.introspect.AnnotatedMethodCollector._addMethodMixIns:155
+400138,com.fasterxml.jackson.databind.ser.SerializerCache.addAndResolveNonTypedSerializer:190
+380126,com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector.getProperties:186
+360135,com.fasterxml.jackson.databind.introspect.AnnotatedCreatorCollector._findPotentialFactories:188
+240167,com.fasterxml.jackson.databind.ser.impl.ReadOnlyClassToSerializerMap.<init>:28
+240080,com.fasterxml.jackson.databind.ser.impl.SimpleFilterProvider.<init>:39
+140050,com.fasterxml.jackson.databind.ser.SerializerCache.addAndResolveNonTypedSerializer:164
+130315,com.fasterxml.jackson.core.io.SerializedString.appendQuoted:147
+120040,com.fasterxml.jackson.databind.ser.impl.SimpleFilterProvider.addFilter:153
+120031,com.fasterxml.jackson.databind.ser.SerializerCache.addTypedSerializer:133
+90030,com.fasterxml.jackson.core.json.WriterBasedJsonGenerator.close:966
+90025,ch.mfrey.jackson.antpathfilter.AntPathPropertyFilter.<init>:47
+85042,com.fasterxml.jackson.databind.util.ArrayIterator.<init>:17
+80029,com.fasterxml.jackson.databind.ser.BeanSerializerFactory._createSerializer2:186
+50018,com.fasterxml.jackson.databind.util.ClassUtil._addRawSuperTypes:140
+30010,com.fasterxml.jackson.databind.ObjectMapper._writeValueAndClose:4401
+30010,com.fasterxml.jackson.core.util.TextBuffer.append:603
+10014,com.fasterxml.jackson.databind.cfg.ContextAttributes$Impl.nonSharedInstance:208
+10014,com.fasterxml.jackson.databind.ser.std.StdSerializer.findContextualConvertingSerializer:364
+5007,com.fasterxml.jackson.databind.ser.BasicSerializerFactory.buildCollectionSerializer:689
+1620,ch.mfrey.jackson.antpathfilter.test.User.buildMySelf:8
+204,com.fasterxml.jackson.databind.introspect.AnnotationMap.merge:91
+174,com.fasterxml.jackson.databind.ser.BasicSerializerFactory.<clinit>:62
+140,ch.mfrey.jackson.antpathfilter.test.AntPathFilterTest.assertAntFilter:16
+96,com.fasterxml.jackson.core.util.InternCache.intern:41
+76,ch.mfrey.jackson.antpathfilter.AntPathMatcher$AntPathStringMatcher.<init>:610
+36,com.fasterxml.jackson.databind.introspect.AnnotationMap.of:21
+35,com.fasterxml.jackson.databind.ser.std.StdJdkSerializers.all:27
+30,com.fasterxml.jackson.databind.deser.BasicDeserializerFactory$ContainerDefaultMappings.<clinit>:2292
+26,ch.mfrey.jackson.antpathfilter.AntPathMatcher.tokenizePattern:305
+24,com.fasterxml.jackson.databind.ser.std.NumberSerializers.addAll:27
+24,ch.mfrey.jackson.antpathfilter.AntPathMatcher.getStringMatcher:366
+22,com.fasterxml.jackson.databind.introspect.SimpleMixInResolver.addLocalDefinition:74
+20,com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer$Vanilla.mapObject:867
+15,com.fasterxml.jackson.databind.introspect.AnnotatedCreatorCollector._findPotentialConstructors:101
+11,com.fasterxml.jackson.databind.deser.std.NumberDeserializers.<clinit>:24
+10,ch.mfrey.jackson.antpathfilter.AntPathMatcher$PathSeparatorPatternCache.<init>:859
+8,com.fasterxml.jackson.databind.util.LRUMap.put:40
+7,com.fasterxml.jackson.core.util.DefaultPrettyPrinter.withSeparators:242
+6,com.fasterxml.jackson.core.Base64Variant.<init>:55
+5,com.fasterxml.jackson.core.Base64Variants.<clinit>:34
+4,com.fasterxml.jackson.databind.deser.DeserializerCache._createAndCache2:264
+4,com.fasterxml.jackson.core.io.CharTypes.<clinit>:7
+3,com.fasterxml.jackson.databind.deser.BasicDeserializerFactory._findCustomBeanDeserializer:1978
+2,ch.mfrey.jackson.antpathfilter.test.AntPathConvertTest.testConvert:20
+2,com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer.<clinit>:34
+2,com.fasterxml.jackson.databind.util.TokenBuffer$Segment.<init>:2051
+2,com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize:269
+2,com.fasterxml.jackson.databind.ObjectMapper._findRootDeserializer:4706
+1,com.fasterxml.jackson.databind.deser.BasicDeserializerFactory._findCustomCollectionDeserializer:2007
+1,com.fasterxml.jackson.databind.ObjectMapper._convert:4203
+1,com.fasterxml.jackson.databind.deser.BeanDeserializerFactory.materializeAbstractType:184
+1,com.fasterxml.jackson.databind.deser.BasicDeserializerFactory._findCustomMapDeserializer:2051
+1,com.fasterxml.jackson.databind.AnnotationIntrospector.<clinit>:0
+1,com.fasterxml.jackson.databind.introspect.JacksonAnnotationIntrospector.<clinit>:37
+1,com.fasterxml.jackson.databind.util.LRUMap.<clinit>:0
+1,com.fasterxml.jackson.databind.cfg.BaseSettings.<clinit>:30
+1,com.fasterxml.jackson.databind.type.TypeParser.<clinit>:0
+1,com.fasterxml.jackson.databind.type.TypeBindings.<clinit>:17
+1,com.fasterxml.jackson.databind.JavaType.<clinit>:0
+1,com.fasterxml.jackson.databind.type.TypeBase.<clinit>:19
+1,com.fasterxml.jackson.databind.type.SimpleType.<clinit>:0
+1,com.fasterxml.jackson.databind.type.TypeFactory.<clinit>:40
+1,com.fasterxml.jackson.databind.util.StdDateFormat.<clinit>:40
+1,com.fasterxml.jackson.core.Base64Variant.<clinit>:0
+1,com.fasterxml.jackson.databind.jsontype.PolymorphicTypeValidator.<clinit>:0
+1,com.fasterxml.jackson.databind.jsontype.PolymorphicTypeValidator$Base.<clinit>:0
+1,com.fasterxml.jackson.databind.jsontype.impl.LaissezFaireSubTypeValidator.<clinit>:22
+1,com.fasterxml.jackson.databind.ObjectMapper.<clinit>:348
+1,com.fasterxml.jackson.core.TokenStreamFactory.<clinit>:0
+1,com.fasterxml.jackson.core.JsonFactory$Feature.<clinit>:79
+1,com.fasterxml.jackson.core.JsonParser$Feature.<clinit>:61
+1,com.fasterxml.jackson.core.JsonGenerator$Feature.<clinit>:51
+1,com.fasterxml.jackson.core.io.SerializedString.<clinit>:22
+1,com.fasterxml.jackson.core.util.DefaultPrettyPrinter.<clinit>:28
+1,com.fasterxml.jackson.core.JsonFactory.<clinit>:165
+1,com.fasterxml.jackson.databind.MappingJsonFactory.<clinit>:0
+1,com.fasterxml.jackson.databind.jsontype.impl.StdSubtypeResolver.<clinit>:0
+1,com.fasterxml.jackson.databind.util.RootNameLookup.<clinit>:0
+1,com.fasterxml.jackson.databind.introspect.SimpleMixInResolver.<clinit>:0
+1,com.fasterxml.jackson.databind.introspect.AnnotationCollector$NoAnnotations.<clinit>:0
+1,com.fasterxml.jackson.databind.introspect.BasicClassIntrospector.<clinit>:22
+1,com.fasterxml.jackson.databind.cfg.ConfigOverrides.<clinit>:0
+1,com.fasterxml.jackson.annotation.JsonInclude$Include.<clinit>:109
+1,com.fasterxml.jackson.annotation.JsonInclude$Value.<clinit>:247
+1,com.fasterxml.jackson.annotation.Nulls.<clinit>:17
+1,com.fasterxml.jackson.annotation.JsonSetter$Value.<clinit>:75
+1,com.fasterxml.jackson.annotation.JsonAutoDetect$Visibility.<clinit>:43
+1,com.fasterxml.jackson.databind.introspect.VisibilityChecker$Std.<clinit>:164
+1,com.fasterxml.jackson.annotation.JsonFormat$Shape.<clinit>:156
+1,com.fasterxml.jackson.annotation.JsonFormat$Value.<clinit>:439
+1,com.fasterxml.jackson.databind.cfg.MapperConfig.<clinit>:48
+1,com.fasterxml.jackson.databind.MapperFeature.<clinit>:33
+1,com.fasterxml.jackson.databind.cfg.MapperConfigBase.<clinit>:30
+1,com.fasterxml.jackson.core.util.DefaultPrettyPrinter$NopIndenter.<clinit>:396
+1,com.fasterxml.jackson.core.util.DefaultPrettyPrinter$FixedSpaceIndenter.<clinit>:412
+1,com.fasterxml.jackson.core.util.DefaultIndenter.<clinit>:22
+1,com.fasterxml.jackson.core.util.Separators.<clinit>:0
+1,com.fasterxml.jackson.databind.SerializationFeature.<clinit>:35
+1,com.fasterxml.jackson.databind.SerializationConfig.<clinit>:38
+1,com.fasterxml.jackson.databind.cfg.ContextAttributes$Impl.<clinit>:67
+1,com.fasterxml.jackson.databind.DeserializationFeature.<clinit>:48
+1,com.fasterxml.jackson.databind.DeserializationConfig.<clinit>:32
+1,com.fasterxml.jackson.databind.node.JsonNodeFactory.<clinit>:25
+1,com.fasterxml.jackson.databind.ser.std.StdSerializer.<clinit>:44
+1,com.fasterxml.jackson.databind.ser.impl.FailingSerializer.<clinit>:0
+1,com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.<clinit>:0
+1,com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.<clinit>:0
+1,com.fasterxml.jackson.databind.ser.DefaultSerializerProvider$Impl.<clinit>:0
+1,com.fasterxml.jackson.databind.ser.std.NullSerializer.<clinit>:24
+1,com.fasterxml.jackson.databind.DeserializationContext.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.DefaultDeserializationContext$Impl.<clinit>:0
+1,com.fasterxml.jackson.databind.PropertyName.<clinit>:29
+1,com.fasterxml.jackson.databind.deser.BasicDeserializerFactory.<clinit>:50
+1,com.fasterxml.jackson.databind.deser.std.StdKeyDeserializers.<clinit>:0
+1,com.fasterxml.jackson.databind.cfg.DeserializerFactoryConfig.<clinit>:17
+1,com.fasterxml.jackson.databind.deser.BeanDeserializerFactory.<clinit>:38
+1,com.fasterxml.jackson.databind.deser.DeserializerCache.<clinit>:0
+1,com.fasterxml.jackson.databind.ser.std.StdScalarSerializer.<clinit>:0
+1,com.fasterxml.jackson.databind.ser.std.StringSerializer.<clinit>:0
+1,com.fasterxml.jackson.databind.ser.std.ToStringSerializerBase.<clinit>:0
+1,com.fasterxml.jackson.databind.ser.std.ToStringSerializer.<clinit>:20
+1,com.fasterxml.jackson.databind.ser.std.NumberSerializers$Base.<clinit>:0
+1,com.fasterxml.jackson.databind.ser.std.NumberSerializers$IntegerSerializer.<clinit>:0
+1,com.fasterxml.jackson.core.JsonParser$NumberType.<clinit>:40
+1,com.fasterxml.jackson.databind.ser.std.NumberSerializers$LongSerializer.<clinit>:0
+1,com.fasterxml.jackson.databind.ser.std.NumberSerializers$IntLikeSerializer.<clinit>:172
+1,com.fasterxml.jackson.databind.ser.std.NumberSerializers$ShortSerializer.<clinit>:120
+1,com.fasterxml.jackson.databind.ser.std.NumberSerializers$DoubleSerializer.<clinit>:0
+1,com.fasterxml.jackson.databind.ser.std.NumberSerializers$FloatSerializer.<clinit>:200
+1,com.fasterxml.jackson.databind.ser.std.BooleanSerializer.<clinit>:0
+1,com.fasterxml.jackson.databind.ser.std.NumberSerializer.<clinit>:32
+1,com.fasterxml.jackson.databind.ser.std.DateTimeSerializerBase.<clinit>:0
+1,com.fasterxml.jackson.databind.ser.std.CalendarSerializer.<clinit>:21
+1,com.fasterxml.jackson.databind.ser.std.DateSerializer.<clinit>:24
+1,com.fasterxml.jackson.databind.ser.std.UUIDSerializer.<clinit>:23
+1,com.fasterxml.jackson.databind.cfg.SerializerFactoryConfig.<clinit>:19
+1,com.fasterxml.jackson.databind.ser.BeanSerializerFactory.<clinit>:64
+1,com.fasterxml.jackson.databind.type.ClassKey.<clinit>:0
+1,com.fasterxml.jackson.databind.ser.impl.SimpleFilterProvider.<clinit>:0
+1,com.fasterxml.jackson.databind.introspect.AnnotationCollector$OneAnnotation.<clinit>:0
+1,com.fasterxml.jackson.databind.introspect.AnnotatedMember.<clinit>:0
+1,com.fasterxml.jackson.databind.introspect.AnnotatedField.<clinit>:0
+1,com.fasterxml.jackson.core.util.InternCache.<clinit>:29
+1,com.fasterxml.jackson.annotation.PropertyAccessor.<clinit>:26
+1,com.fasterxml.jackson.databind.AnnotationIntrospector$ReferenceProperty$Type.<clinit>:64
+1,com.fasterxml.jackson.databind.introspect.AnnotatedWithParams.<clinit>:0
+1,com.fasterxml.jackson.databind.introspect.AnnotatedMethod.<clinit>:0
+1,com.fasterxml.jackson.databind.introspect.AnnotatedConstructor.<clinit>:0
+1,com.fasterxml.jackson.databind.introspect.AnnotatedParameter.<clinit>:0
+1,com.fasterxml.jackson.annotation.JsonProperty$Access.<clinit>:147
+1,com.fasterxml.jackson.databind.PropertyMetadata.<clinit>:19
+1,com.fasterxml.jackson.databind.ext.OptionalHandlerFactory.<clinit>:50
+1,com.fasterxml.jackson.databind.type.CollectionLikeType.<clinit>:0
+1,com.fasterxml.jackson.databind.type.CollectionType.<clinit>:0
+1,com.fasterxml.jackson.databind.BeanProperty$Std.<clinit>:0
+1,com.fasterxml.jackson.databind.introspect.ConcreteBeanPropertyBase.<clinit>:0
+1,com.fasterxml.jackson.databind.ser.PropertyWriter.<clinit>:0
+1,com.fasterxml.jackson.databind.ser.BeanPropertyWriter.<clinit>:49
+1,com.fasterxml.jackson.annotation.JsonIgnoreProperties$Value.<clinit>:118
+1,com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.<clinit>:43
+1,com.fasterxml.jackson.databind.ser.BeanSerializer.<clinit>:0
+1,com.fasterxml.jackson.databind.ser.ContainerSerializer.<clinit>:0
+1,com.fasterxml.jackson.databind.ser.std.AsArraySerializerBase.<clinit>:0
+1,com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.<clinit>:0
+1,com.fasterxml.jackson.annotation.JsonFormat$Feature.<clinit>:251
+1,com.fasterxml.jackson.core.JsonToken.<clinit>:31
+1,com.fasterxml.jackson.core.JsonLocation.<clinit>:36
+1,com.fasterxml.jackson.databind.deser.ValueInstantiator$Base.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.impl.JDKValueInstantiators$ArrayListInstantiator.<clinit>:64
+1,com.fasterxml.jackson.databind.deser.std.StdDeserializer.<clinit>:44
+1,com.fasterxml.jackson.databind.deser.std.ContainerDeserializerBase.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.<clinit>:0
+1,com.fasterxml.jackson.databind.util.AccessPattern.<clinit>:14
+1,com.fasterxml.jackson.databind.deser.impl.NullsConstantProvider.<clinit>:17
+1,com.fasterxml.jackson.databind.type.MapLikeType.<clinit>:0
+1,com.fasterxml.jackson.databind.type.MapType.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.impl.JDKValueInstantiators$LinkedHashMapInstantiator.<clinit>:111
+1,com.fasterxml.jackson.databind.deser.std.MapDeserializer.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.StdScalarDeserializer.<clinit>:0
+1,com.fasterxml.jackson.databind.deser.std.StringDeserializer.<clinit>:18
+1,com.fasterxml.jackson.databind.deser.std.NumberDeserializers$NumberDeserializer.<clinit>:765
+1,com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer$Vanilla.<clinit>:612
+1,com.fasterxml.jackson.databind.util.TokenBuffer$Segment.<clinit>:2030
+^^^ Last method that contains more than one event ^^^
+Starting ch.mfrey.jackson.antpathfilter.AntPathPropertyFilter.getPathToTest:81
+Finish ch.mfrey.jackson.antpathfilter.AntPathPropertyFilter.getPathToTest:81
+Starting com.fasterxml.jackson.databind.ser.SerializerCache.addAndResolveNonTypedSerializer:190
+Finish com.fasterxml.jackson.databind.ser.SerializerCache.addAndResolveNonTypedSerializer:190
+Starting com.fasterxml.jackson.databind.introspect.AnnotatedCreatorCollector._findPotentialConstructors:101
+Finish com.fasterxml.jackson.databind.introspect.AnnotatedCreatorCollector._findPotentialConstructors:101
+Starting com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._renameProperties:822
+Finish com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._renameProperties:822
+Starting com.fasterxml.jackson.databind.ser.SerializerCache.addTypedSerializer:133
+Finish com.fasterxml.jackson.databind.ser.SerializerCache.addTypedSerializer:133
+Starting ch.mfrey.jackson.antpathfilter.AntPathMatcher.tokenizePattern:305
+Finish ch.mfrey.jackson.antpathfilter.AntPathMatcher.tokenizePattern:305
+Starting com.fasterxml.jackson.databind.introspect.AnnotatedClassResolver._addSuperTypes:162
+Finish com.fasterxml.jackson.databind.introspect.AnnotatedClassResolver._addSuperTypes:162
+Starting com.fasterxml.jackson.databind.util.ArrayIterator.<init>:17
+Finish com.fasterxml.jackson.databind.util.ArrayIterator.<init>:17
+Starting com.fasterxml.jackson.databind.ser.std.StdJdkSerializers.all:27
+Finish com.fasterxml.jackson.databind.ser.std.StdJdkSerializers.all:27
+Starting com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._addFields:385
+Finish com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._addFields:385
+Starting com.fasterxml.jackson.databind.introspect.AnnotatedFieldCollector._findFields:65
+Finish com.fasterxml.jackson.databind.introspect.AnnotatedFieldCollector._findFields:65
+Starting com.fasterxml.jackson.databind.introspect.SimpleMixInResolver.addLocalDefinition:74
+Finish com.fasterxml.jackson.databind.introspect.SimpleMixInResolver.addLocalDefinition:74
+Starting ch.mfrey.jackson.antpathfilter.StringUtils.tokenizeToStringArray:39
+Finish ch.mfrey.jackson.antpathfilter.StringUtils.tokenizeToStringArray:39
+Starting ch.mfrey.jackson.antpathfilter.AntPathPropertyFilter.<init>:47
+Finish ch.mfrey.jackson.antpathfilter.AntPathPropertyFilter.<init>:47
+Starting ch.mfrey.jackson.antpathfilter.AntPathMatcher.getStringMatcher:366
+Finish ch.mfrey.jackson.antpathfilter.AntPathMatcher.getStringMatcher:366
+Starting com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._addMethods:554
+Finish com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._addMethods:554
+Starting com.fasterxml.jackson.databind.ser.SerializerCache.addAndResolveNonTypedSerializer:164
+Finish com.fasterxml.jackson.databind.ser.SerializerCache.addAndResolveNonTypedSerializer:164
+Starting com.fasterxml.jackson.databind.ser.std.NumberSerializers.addAll:27
+Finish com.fasterxml.jackson.databind.ser.std.NumberSerializers.addAll:27
+Starting com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._addCreators:484
+Finish com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._addCreators:484
+Starting com.fasterxml.jackson.databind.deser.std.NumberDeserializers.<clinit>:24
+Finish com.fasterxml.jackson.databind.deser.std.NumberDeserializers.<clinit>:24
+Starting com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._sortProperties:990
+Finish com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._sortProperties:990
+Starting com.fasterxml.jackson.core.Base64Variant.<init>:55
+Finish com.fasterxml.jackson.core.Base64Variant.<init>:55
+Starting com.fasterxml.jackson.databind.introspect.AnnotatedMethodCollector._addMemberMethods:110
+Finish com.fasterxml.jackson.databind.introspect.AnnotatedMethodCollector._addMemberMethods:110
+Starting com.fasterxml.jackson.core.Base64Variants.<clinit>:34
+Finish com.fasterxml.jackson.core.Base64Variants.<clinit>:34
+Starting com.fasterxml.jackson.databind.introspect.AnnotatedClassResolver._addSuperInterfaces:186
+Finish com.fasterxml.jackson.databind.introspect.AnnotatedClassResolver._addSuperInterfaces:186
+Starting com.fasterxml.jackson.databind.cfg.ContextAttributes$Impl.nonSharedInstance:208
+Finish com.fasterxml.jackson.databind.cfg.ContextAttributes$Impl.nonSharedInstance:208
+Starting com.fasterxml.jackson.core.io.CharTypes.<clinit>:7
+Finish com.fasterxml.jackson.core.io.CharTypes.<clinit>:7
+Starting com.fasterxml.jackson.databind.introspect.AnnotatedClassResolver.resolveClassAnnotations:225
+Finish com.fasterxml.jackson.databind.introspect.AnnotatedClassResolver.resolveClassAnnotations:225
+Starting ch.mfrey.jackson.antpathfilter.AntPathMatcher$AntPathStringMatcher.<init>:610
+Finish ch.mfrey.jackson.antpathfilter.AntPathMatcher$AntPathStringMatcher.<init>:610
+Starting com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._removeUnwantedAccessor:785
+Finish com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._removeUnwantedAccessor:785
+Starting com.fasterxml.jackson.core.json.WriterBasedJsonGenerator.close:966
+Finish com.fasterxml.jackson.core.json.WriterBasedJsonGenerator.close:966
+Starting com.fasterxml.jackson.databind.introspect.AnnotationMap.of:21
+Finish com.fasterxml.jackson.databind.introspect.AnnotationMap.of:21
+Starting com.fasterxml.jackson.databind.ser.BeanSerializerFactory.findBeanProperties:569
+Finish com.fasterxml.jackson.databind.ser.BeanSerializerFactory.findBeanProperties:569
+Starting com.fasterxml.jackson.databind.introspect.AnnotatedMethodCollector._addMethodMixIns:155
+Finish com.fasterxml.jackson.databind.introspect.AnnotatedMethodCollector._addMethodMixIns:155
+Starting com.fasterxml.jackson.databind.ser.BasicSerializerFactory.buildCollectionSerializer:689
+Finish com.fasterxml.jackson.databind.ser.BasicSerializerFactory.buildCollectionSerializer:689
+Starting com.fasterxml.jackson.databind.deser.BasicDeserializerFactory._findCustomBeanDeserializer:1978
+Finish com.fasterxml.jackson.databind.deser.BasicDeserializerFactory._findCustomBeanDeserializer:1978
+Starting com.fasterxml.jackson.databind.introspect.AnnotatedMethodMap.iterator:54
+Finish com.fasterxml.jackson.databind.introspect.AnnotatedMethodMap.iterator:54
+Starting com.fasterxml.jackson.core.util.InternCache.intern:41
+Finish com.fasterxml.jackson.core.util.InternCache.intern:41
+Starting com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._addInjectables:688
+Finish com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._addInjectables:688
+Starting com.fasterxml.jackson.databind.introspect.AnnotatedCreatorCollector._findPotentialFactories:188
+Finish com.fasterxml.jackson.databind.introspect.AnnotatedCreatorCollector._findPotentialFactories:188
+Starting ch.mfrey.jackson.antpathfilter.test.AntPathFilterTest.assertAntFilter:16
+Finish ch.mfrey.jackson.antpathfilter.test.AntPathFilterTest.assertAntFilter:16
+Starting ch.mfrey.jackson.antpathfilter.test.AntPathConvertTest.testConvert:20
+Finish ch.mfrey.jackson.antpathfilter.test.AntPathConvertTest.testConvert:20
+Starting com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._anyIndexed:1090
+Finish com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._anyIndexed:1090
+Starting com.fasterxml.jackson.databind.ser.impl.ReadOnlyClassToSerializerMap.<init>:28
+Finish com.fasterxml.jackson.databind.ser.impl.ReadOnlyClassToSerializerMap.<init>:28
+Starting com.fasterxml.jackson.databind.introspect.AnnotationMap.merge:91
+Finish com.fasterxml.jackson.databind.introspect.AnnotationMap.merge:91
+Starting com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._property:1127
+Finish com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._property:1127
+Starting com.fasterxml.jackson.databind.ser.BeanSerializerFactory._createSerializer2:186
+Finish com.fasterxml.jackson.databind.ser.BeanSerializerFactory._createSerializer2:186
+Starting com.fasterxml.jackson.core.util.DefaultPrettyPrinter.withSeparators:242
+Finish com.fasterxml.jackson.core.util.DefaultPrettyPrinter.withSeparators:242
+Starting com.fasterxml.jackson.databind.introspect.AnnotatedFieldCollector.collect:48
+Finish com.fasterxml.jackson.databind.introspect.AnnotatedFieldCollector.collect:48
+Starting com.fasterxml.jackson.databind.ser.impl.SimpleFilterProvider.addFilter:153
+Finish com.fasterxml.jackson.databind.ser.impl.SimpleFilterProvider.addFilter:153
+Starting com.fasterxml.jackson.databind.deser.BasicDeserializerFactory$ContainerDefaultMappings.<clinit>:2292
+Finish com.fasterxml.jackson.databind.deser.BasicDeserializerFactory$ContainerDefaultMappings.<clinit>:2292
+Starting com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._removeUnwantedProperties:752
+Finish com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._removeUnwantedProperties:752
+Starting com.fasterxml.jackson.databind.ser.impl.SimpleFilterProvider.<init>:39
+Finish com.fasterxml.jackson.databind.ser.impl.SimpleFilterProvider.<init>:39
+Starting ch.mfrey.jackson.antpathfilter.test.User.buildMySelf:8
+Finish ch.mfrey.jackson.antpathfilter.test.User.buildMySelf:8
+Starting com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer.<clinit>:34
+Finish com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer.<clinit>:34
+Starting ch.mfrey.jackson.antpathfilter.AntPathPropertyFilter.include:133
+Finish ch.mfrey.jackson.antpathfilter.AntPathPropertyFilter.include:133
+Starting com.fasterxml.jackson.databind.ObjectMapper._writeValueAndClose:4401
+Finish com.fasterxml.jackson.databind.ObjectMapper._writeValueAndClose:4401
+Starting com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer$Vanilla.mapObject:867
+Finish com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer$Vanilla.mapObject:867
+Starting com.fasterxml.jackson.databind.util.BeanUtil.legacyManglePropertyName:235
+Finish com.fasterxml.jackson.databind.util.BeanUtil.legacyManglePropertyName:235
+Starting com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector.getProperties:186
+Finish com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector.getProperties:186
+Starting com.fasterxml.jackson.databind.ser.std.StdSerializer.findContextualConvertingSerializer:364
+Finish com.fasterxml.jackson.databind.ser.std.StdSerializer.findContextualConvertingSerializer:364
+Starting com.fasterxml.jackson.databind.util.TokenBuffer$Segment.<init>:2051
+Finish com.fasterxml.jackson.databind.util.TokenBuffer$Segment.<init>:2051
+Starting com.fasterxml.jackson.databind.ser.BeanSerializerFactory.removeIgnorableTypes:693
+Finish com.fasterxml.jackson.databind.ser.BeanSerializerFactory.removeIgnorableTypes:693
+Starting com.fasterxml.jackson.databind.util.ClassUtil._addRawSuperTypes:140
+Finish com.fasterxml.jackson.databind.util.ClassUtil._addRawSuperTypes:140
+Starting ch.mfrey.jackson.antpathfilter.AntPathMatcher$PathSeparatorPatternCache.<init>:859
+Finish ch.mfrey.jackson.antpathfilter.AntPathMatcher$PathSeparatorPatternCache.<init>:859
+Starting com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize:269
+Finish com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize:269
+Starting com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector.collectAll:319
+Finish com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector.collectAll:319
+Starting com.fasterxml.jackson.core.io.SerializedString.appendQuoted:147
+Finish com.fasterxml.jackson.core.io.SerializedString.appendQuoted:147
+Starting com.fasterxml.jackson.databind.ser.BasicSerializerFactory.<clinit>:62
+Finish com.fasterxml.jackson.databind.ser.BasicSerializerFactory.<clinit>:62
+Starting com.fasterxml.jackson.databind.ObjectMapper._findRootDeserializer:4706
+Finish com.fasterxml.jackson.databind.ObjectMapper._findRootDeserializer:4706
+
+#1
+Inspecting hot method com.fasterxml.jackson.databind.introspect.AnnotatedMethodCollector.collect:46...
+Checking for isolation...
+8093225,600219,600217,2
+Total 8093225 (881233 unique) events are in hot method
+Total 600219 (41 unique) traces are in hot method
+Total 600217 (39 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 7212871 (879 unique) events are in isolated traces
+Total 4492122 (4492122 unique) events are in non-isolated traces (880354 / 880354 unique are in hot method)
+Specs that have isolated traces:
+	Map_UnsafeIterator (150054 traces / 9 unique traces) (2260888 events / 262 unique events)
+	Collection_UnsafeIterator (150054 traces / 10 unique traces) (2060822 events / 254 unique events)
+	Iterator_HasNext (150054 traces / 10 unique traces) (1910768 events / 244 unique events)
+	Iterator_RemoveOnce (100037 traces / 9 unique traces) (880357 events / 117 unique events)
+	Map_CollectionViewAdd (50018 traces / 1 unique traces) (100036 events / 2 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2246061 events / 2246061 unique events) (440177 events / 440177 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2246061 events / 2246061 unique events) (440177 events / 440177 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.introspect.AnnotatedMethodCollector.collect:46): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#2
+Inspecting hot method ch.mfrey.jackson.antpathfilter.AntPathPropertyFilter.include:133...
+Checking for isolation...
+4881940,1560530,1560528,2
+Total 4881940 (680458 unique) events are in hot method
+Total 1560530 (38 unique) traces are in hot method
+Total 1560528 (36 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 4201688 (206 unique) events are in isolated traces
+Total 4492122 (4492122 unique) events are in non-isolated traces (680252 / 680252 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (520176 traces / 8 unique traces) (620270 events / 24 unique events)
+	Collection_UnsafeIterator (520176 traces / 14 unique traces) (2050797 events / 98 unique events)
+	Iterator_HasNext (520176 traces / 14 unique traces) (1530621 events / 84 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2246061 events / 2246061 unique events) (340126 events / 340126 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2246061 events / 2246061 unique events) (340126 events / 340126 unique events in hot method)
+Classifier (ch.mfrey.jackson.antpathfilter.AntPathPropertyFilter.include:133): CUT,ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#3
+Inspecting hot method com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._addInjectables:688...
+Checking for isolation...
+4481717,350126,250090,100036
+Total 4481717 (480 unique) events are in hot method
+Total 350126 (25 unique) traces are in hot method
+Total 250090 (17 unique) isolated traces are in hot method
+Total 100036 (8 unique) non-isolated traces that have events in hot method
+Total 2620973 (244 unique) events are in isolated traces
+Total 2060816 (252 unique) events are in non-isolated traces (1860744 / 236 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (100036 traces / 7 unique traces) (660251 events / 69 unique events)
+	Iterator_HasNext (100036 traces / 7 unique traces) (1420538 events / 145 unique events)
+	Collection_UnsafeIterator (50018 traces / 3 unique traces) (540184 events / 30 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (50018 traces / 4 unique traces) (1080426 events / 130 unique events) (930372 events / 118 unique events in hot method)
+	Collection_UnsafeIterator (50018 traces / 4 unique traces) (980390 events / 122 unique events) (930372 events / 118 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._addInjectables:688): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#4
+Inspecting hot method com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector.collectAll:319...
+Checking for isolation...
+4341586,680244,300108,380136
+Total 4341586 (394 unique) events are in hot method
+Total 680244 (54 unique) traces are in hot method
+Total 300108 (24 unique) isolated traces are in hot method
+Total 380136 (30 unique) non-isolated traces that have events in hot method
+Total 2500918 (234 unique) events are in isolated traces
+Total 6062166 (525 unique) events are in non-isolated traces (1840668 / 160 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (100036 traces / 8 unique traces) (1080396 events / 100 unique events)
+	Iterator_RemoveOnce (100036 traces / 8 unique traces) (440162 events / 42 unique events)
+	Iterator_HasNext (100036 traces / 8 unique traces) (980360 events / 92 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (330118 traces / 27 unique traces) (5732049 events / 506 unique events) (1740632 events / 154 unique events in hot method)
+	Map_CollectionViewAdd (50018 traces / 3 unique traces) (330117 events / 19 unique events) (100036 events / 6 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector.collectAll:319): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#5
+Inspecting hot method com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._addMethods:554...
+Checking for isolation...
+3231293,200072,100036,100036
+Total 3231293 (411 unique) events are in hot method
+Total 200072 (16 unique) traces are in hot method
+Total 100036 (8 unique) isolated traces are in hot method
+Total 100036 (8 unique) non-isolated traces that have events in hot method
+Total 1370549 (175 unique) events are in isolated traces
+Total 2060816 (252 unique) events are in non-isolated traces (1860744 / 236 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (50018 traces / 4 unique traces) (930372 events / 118 unique events)
+	Iterator_RemoveOnce (50018 traces / 4 unique traces) (440177 events / 57 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (50018 traces / 4 unique traces) (1080426 events / 130 unique events) (930372 events / 118 unique events in hot method)
+	Collection_UnsafeIterator (50018 traces / 4 unique traces) (980390 events / 122 unique events) (930372 events / 118 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._addMethods:554): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#6
+Inspecting hot method com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._sortProperties:990...
+Checking for isolation...
+3201099,650227,210070,440157
+Total 3201099 (480365 unique) events are in hot method
+Total 650227 (44 unique) traces are in hot method
+Total 210070 (10 unique) isolated traces are in hot method
+Total 440157 (34 unique) non-isolated traces that have events in hot method
+Total 1140395 (86 unique) events are in isolated traces
+Total 11154476 (4492672 unique) events are in non-isolated traces (2060704 / 480279 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (60020 traces / 3 unique traces) (480166 events / 36 unique events)
+	Iterator_HasNext (60020 traces / 3 unique traces) (420146 events / 33 unique events)
+	CharSequence_NotInMap (60020 traces / 2 unique traces) (60020 events / 2 unique events)
+	Iterator_RemoveOnce (30010 traces / 2 unique traces) (180063 events / 15 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (390137 traces / 29 unique traces) (6332237 events / 531 unique events) (1500510 events / 108 unique events in hot method)
+	Map_CollectionViewAdd (50018 traces / 3 unique traces) (330117 events / 19 unique events) (80028 events / 5 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2246061 events / 2246061 unique events) (240083 events / 240083 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2246061 events / 2246061 unique events) (240083 events / 240083 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._sortProperties:990): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,RAW_ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#7
+Inspecting hot method ch.mfrey.jackson.antpathfilter.AntPathPropertyFilter.getPathToTest:81...
+Checking for isolation...
+3122598,1220936,1220936,0
+Total 3122598 (8 unique) events are in hot method
+Total 1220936 (3 unique) traces are in hot method
+Total 1220936 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3122598 (8 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (610468 traces / 2 unique traces) (2512130 events / 7 unique events)
+	Appendable_ThreadSafe (610468 traces / 1 unique traces) (610468 events / 1 unique events)
+Classifier (ch.mfrey.jackson.antpathfilter.AntPathPropertyFilter.getPathToTest:81): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE
+
+#8
+Inspecting hot method com.fasterxml.jackson.databind.util.BeanUtil.legacyManglePropertyName:235...
+Checking for isolation...
+2200810,880324,880324,0
+Total 2200810 (5 unique) events are in hot method
+Total 880324 (2 unique) traces are in hot method
+Total 880324 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2200810 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (440162 traces / 1 unique traces) (1320486 events / 3 unique events)
+	Appendable_ThreadSafe (440162 traces / 1 unique traces) (880324 events / 2 unique events)
+Classifier (com.fasterxml.jackson.databind.util.BeanUtil.legacyManglePropertyName:235): LIB,ISOLATED_ONE_UNIQUE
+
+#9
+Inspecting hot method com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._removeUnwantedProperties:752...
+Checking for isolation...
+2170825,530190,150054,380136
+Total 2170825 (229 unique) events are in hot method
+Total 530190 (42 unique) traces are in hot method
+Total 150054 (12 unique) isolated traces are in hot method
+Total 380136 (30 unique) non-isolated traces that have events in hot method
+Total 1250483 (141 unique) events are in isolated traces
+Total 6062166 (525 unique) events are in non-isolated traces (920342 / 88 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (50018 traces / 4 unique traces) (540206 events / 58 unique events)
+	Iterator_HasNext (50018 traces / 4 unique traces) (490188 events / 54 unique events)
+	Iterator_RemoveOnce (50018 traces / 4 unique traces) (220089 events / 29 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (330118 traces / 27 unique traces) (5732049 events / 506 unique events) (870324 events / 85 unique events in hot method)
+	Map_CollectionViewAdd (50018 traces / 3 unique traces) (330117 events / 19 unique events) (50018 events / 3 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._removeUnwantedProperties:752): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#10
+Inspecting hot method com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._removeUnwantedAccessor:785...
+Checking for isolation...
+2170793,530190,150054,380136
+Total 2170793 (217 unique) events are in hot method
+Total 530190 (42 unique) traces are in hot method
+Total 150054 (12 unique) isolated traces are in hot method
+Total 380136 (30 unique) non-isolated traces that have events in hot method
+Total 1250459 (117 unique) events are in isolated traces
+Total 6062166 (525 unique) events are in non-isolated traces (920334 / 100 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (50018 traces / 4 unique traces) (540198 events / 50 unique events)
+	Iterator_HasNext (50018 traces / 4 unique traces) (490180 events / 46 unique events)
+	Iterator_RemoveOnce (50018 traces / 4 unique traces) (220081 events / 21 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (330118 traces / 27 unique traces) (5732049 events / 506 unique events) (870316 events / 97 unique events in hot method)
+	Map_CollectionViewAdd (50018 traces / 3 unique traces) (330117 events / 19 unique events) (50018 events / 3 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._removeUnwantedAccessor:785): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#11
+Inspecting hot method com.fasterxml.jackson.databind.introspect.AnnotatedFieldCollector.collect:48...
+Checking for isolation...
+2160736,350126,350126,0
+Total 2160736 (116 unique) events are in hot method
+Total 350126 (17 unique) traces are in hot method
+Total 350126 (17 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2160736 (116 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Map_UnsafeIterator (100036 traces / 4 unique traces) (640220 events / 34 unique events)
+	Iterator_RemoveOnce (50018 traces / 3 unique traces) (220074 events / 12 unique events)
+	Collection_UnsafeIterator (50018 traces / 3 unique traces) (540184 events / 30 unique events)
+	Collections_SortBeforeBinarySearch (50018 traces / 3 unique traces) (220074 events / 12 unique events)
+	Iterator_HasNext (50018 traces / 3 unique traces) (490166 events / 27 unique events)
+	Map_CollectionViewAdd (50018 traces / 1 unique traces) (50018 events / 1 unique events)
+Classifier (com.fasterxml.jackson.databind.introspect.AnnotatedFieldCollector.collect:48): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE
+
+#12
+Inspecting hot method com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._renameProperties:822...
+Checking for isolation...
+1940711,300108,240088,60020
+Total 1940711 (174 unique) events are in hot method
+Total 300108 (19 unique) traces are in hot method
+Total 240088 (16 unique) isolated traces are in hot method
+Total 60020 (3 unique) non-isolated traces that have events in hot method
+Total 1460545 (137 unique) events are in isolated traces
+Total 600206 (43 unique) events are in non-isolated traces (480166 / 37 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (50018 traces / 4 unique traces) (540198 events / 50 unique events)
+	Iterator_RemoveOnce (50018 traces / 4 unique traces) (220081 events / 21 unique events)
+	Iterator_HasNext (50018 traces / 4 unique traces) (490180 events / 46 unique events)
+	Map_CollectionViewAdd (50018 traces / 1 unique traces) (50018 events / 1 unique events)
+	Map_UnsafeIterator (40016 traces / 3 unique traces) (160068 events / 19 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (60020 traces / 3 unique traces) (600206 events / 43 unique events) (480166 events / 37 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._renameProperties:822): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#13
+Inspecting hot method ch.mfrey.jackson.antpathfilter.StringUtils.tokenizeToStringArray:39...
+Checking for isolation...
+1840764,680268,680268,0
+Total 1840764 (11 unique) events are in hot method
+Total 680268 (4 unique) traces are in hot method
+Total 680268 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1840764 (11 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringTokenizer_HasMoreElements (340134 traces / 2 unique traces) (1340554 events / 8 unique events)
+	Collections_SortBeforeBinarySearch (340134 traces / 2 unique traces) (500210 events / 3 unique events)
+Classifier (ch.mfrey.jackson.antpathfilter.StringUtils.tokenizeToStringArray:39): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#14
+Inspecting hot method com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._anyIndexed:1090...
+Checking for isolation...
+1790657,200072,150054,50018
+Total 1790657 (167 unique) events are in hot method
+Total 200072 (16 unique) traces are in hot method
+Total 150054 (12 unique) isolated traces are in hot method
+Total 50018 (4 unique) non-isolated traces that have events in hot method
+Total 1250459 (117 unique) events are in isolated traces
+Total 930335 (79 unique) events are in non-isolated traces (540198 / 50 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (50018 traces / 4 unique traces) (540198 events / 50 unique events)
+	Iterator_RemoveOnce (50018 traces / 4 unique traces) (220081 events / 21 unique events)
+	Iterator_HasNext (50018 traces / 4 unique traces) (490180 events / 46 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (50018 traces / 4 unique traces) (930335 events / 79 unique events) (540198 events / 50 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._anyIndexed:1090): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#15
+Inspecting hot method com.fasterxml.jackson.databind.introspect.AnnotatedClassResolver.resolveClassAnnotations:225...
+Checking for isolation...
+1700977,665262,665262,0
+Total 1700977 (113 unique) events are in hot method
+Total 665262 (17 unique) traces are in hot method
+Total 665262 (17 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1700977 (113 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (300114 traces / 6 unique traces) (620368 events / 44 unique events)
+	Collection_UnsafeIterator (300114 traces / 6 unique traces) (920482 events / 50 unique events)
+	Iterator_RemoveOnce (65034 traces / 5 unique traces) (160127 events / 19 unique events)
+Classifier (com.fasterxml.jackson.databind.introspect.AnnotatedClassResolver.resolveClassAnnotations:225): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#16
+Inspecting hot method com.fasterxml.jackson.databind.ser.BeanSerializerFactory.removeIgnorableTypes:693...
+Checking for isolation...
+1530507,150053,150051,2
+Total 1530507 (280165 unique) events are in hot method
+Total 150053 (11 unique) traces are in hot method
+Total 150051 (9 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 1250411 (69 unique) events are in isolated traces
+Total 4492122 (4492122 unique) events are in non-isolated traces (280096 / 280096 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (50017 traces / 3 unique traces) (540178 events / 30 unique events)
+	Iterator_HasNext (50017 traces / 3 unique traces) (490161 events / 27 unique events)
+	Iterator_RemoveOnce (50017 traces / 3 unique traces) (220072 events / 12 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2246061 events / 2246061 unique events) (140048 events / 140048 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2246061 events / 2246061 unique events) (140048 events / 140048 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.ser.BeanSerializerFactory.removeIgnorableTypes:693): LIB,ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#17
+Inspecting hot method com.fasterxml.jackson.databind.ser.BeanSerializerFactory.findBeanProperties:569...
+Checking for isolation...
+1470483,200068,200068,0
+Total 1470483 (81 unique) events are in hot method
+Total 200068 (12 unique) traces are in hot method
+Total 200068 (12 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1470483 (81 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (50017 traces / 3 unique traces) (540178 events / 30 unique events)
+	Collections_SortBeforeBinarySearch (50017 traces / 3 unique traces) (220072 events / 12 unique events)
+	Iterator_HasNext (50017 traces / 3 unique traces) (490161 events / 27 unique events)
+	Iterator_RemoveOnce (50017 traces / 3 unique traces) (220072 events / 12 unique events)
+Classifier (com.fasterxml.jackson.databind.ser.BeanSerializerFactory.findBeanProperties:569): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#18
+Inspecting hot method com.fasterxml.jackson.databind.introspect.AnnotatedClassResolver._addSuperInterfaces:186...
+Checking for isolation...
+1390706,440183,435171,5012
+Total 1390706 (240230 unique) events are in hot method
+Total 440183 (10 unique) traces are in hot method
+Total 435171 (6 unique) isolated traces are in hot method
+Total 5012 (4 unique) non-isolated traces that have events in hot method
+Total 1120442 (14 unique) events are in isolated traces
+Total 1195596 (1155532 unique) events are in non-isolated traces (270264 / 240216 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (125049 traces / 1 unique traces) (500196 events / 4 unique events)
+	Iterator_HasNext (125049 traces / 1 unique traces) (375147 events / 3 unique events)
+	Iterator_RemoveOnce (125049 traces / 1 unique traces) (125049 events / 1 unique events)
+	Collections_SortBeforeBinarySearch (60024 traces / 3 unique traces) (120050 events / 6 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (5010 traces / 2 unique traces) (40077 events / 13 unique events) (30057 events / 9 unique events in hot method)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (770346 events / 770346 unique events) (160138 events / 160138 unique events in hot method)
+	Iterator_HasNext (1 traces / 1 unique traces) (385173 events / 385173 unique events) (80069 events / 80069 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.introspect.AnnotatedClassResolver._addSuperInterfaces:186): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_SINGLE_TRACE
+
+#19
+Inspecting hot method com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._addFields:385...
+Checking for isolation...
+1250424,150054,150054,0
+Total 1250424 (69 unique) events are in hot method
+Total 150054 (9 unique) traces are in hot method
+Total 150054 (9 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1250424 (69 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (50018 traces / 3 unique traces) (540184 events / 30 unique events)
+	Iterator_RemoveOnce (50018 traces / 3 unique traces) (220074 events / 12 unique events)
+	Iterator_HasNext (50018 traces / 3 unique traces) (490166 events / 27 unique events)
+Classifier (com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._addFields:385): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#20
+Inspecting hot method com.fasterxml.jackson.databind.introspect.AnnotatedClassResolver._addSuperTypes:162...
+Checking for isolation...
+910704,50114,45102,5012
+Total 910704 (705290 unique) events are in hot method
+Total 50114 (13 unique) traces are in hot method
+Total 45102 (9 unique) isolated traces are in hot method
+Total 5012 (4 unique) non-isolated traces that have events in hot method
+Total 195447 (49 unique) events are in isolated traces
+Total 1195596 (1155532 unique) events are in non-isolated traces (715257 / 705241 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (15034 traces / 3 unique traces) (75172 events / 19 unique events)
+	Iterator_RemoveOnce (15034 traces / 3 unique traces) (30069 events / 8 unique events)
+	Collection_UnsafeIterator (15034 traces / 3 unique traces) (90206 events / 22 unique events)
+Specs that have non-isolated traces:
+	Collections_SortBeforeBinarySearch (5010 traces / 2 unique traces) (40077 events / 13 unique events) (10020 events / 4 unique events in hot method)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (770346 events / 770346 unique events) (470158 events / 470158 unique events in hot method)
+	Iterator_HasNext (1 traces / 1 unique traces) (385173 events / 385173 unique events) (235079 events / 235079 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.introspect.AnnotatedClassResolver._addSuperTypes:162): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_SINGLE_TRACE
+
+#21
+Inspecting hot method com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._addCreators:484...
+Checking for isolation...
+900358,90035,90033,2
+Total 900358 (210174 unique) events are in hot method
+Total 90035 (11 unique) traces are in hot method
+Total 90033 (9 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 690283 (99 unique) events are in isolated traces
+Total 1155519 (1155519 unique) events are in non-isolated traces (210075 / 210075 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (30011 traces / 3 unique traces) (300122 events / 42 unique events)
+	Iterator_HasNext (30011 traces / 3 unique traces) (270111 events / 39 unique events)
+	Iterator_RemoveOnce (30011 traces / 3 unique traces) (120050 events / 18 unique events)
+Specs that have non-isolated traces:
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (770346 events / 770346 unique events) (140050 events / 140050 unique events in hot method)
+	Iterator_HasNext (1 traces / 1 unique traces) (385173 events / 385173 unique events) (70025 events / 70025 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._addCreators:484): LIB,ISOLATED_MULTIPLE_UNIQUE,NOT_ISOLATED_SINGLE_TRACE
+
+#22
+Inspecting hot method com.fasterxml.jackson.databind.introspect.AnnotatedClassResolver._addClassMixIns:279...
+Checking for isolation...
+900342,600228,600228,0
+Total 900342 (3 unique) events are in hot method
+Total 600228 (2 unique) traces are in hot method
+Total 600228 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 900342 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (300114 traces / 1 unique traces) (600228 events / 2 unique events)
+	Iterator_HasNext (300114 traces / 1 unique traces) (300114 events / 1 unique events)
+Classifier (com.fasterxml.jackson.databind.introspect.AnnotatedClassResolver._addClassMixIns:279): LIB,ISOLATED_ONE_UNIQUE
+
+#23
+Inspecting hot method com.fasterxml.jackson.databind.introspect.AnnotatedMethodCollector._addMemberMethods:110...
+Checking for isolation...
+880354,2,0,2
+Total 880354 (880354 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 4492122 (4492122 unique) events are in non-isolated traces (880354 / 880354 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2246061 events / 2246061 unique events) (440177 events / 440177 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2246061 events / 2246061 unique events) (440177 events / 440177 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.introspect.AnnotatedMethodCollector._addMemberMethods:110): LIB,NOT_REDUNDANT_TRACES
+
+#24
+Inspecting hot method com.fasterxml.jackson.databind.introspect.AnnotatedMethodMap.iterator:54...
+Checking for isolation...
+600216,300108,100036,200072
+Total 600216 (36 unique) events are in hot method
+Total 300108 (18 unique) traces are in hot method
+Total 100036 (2 unique) isolated traces are in hot method
+Total 200072 (16 unique) non-isolated traces that have events in hot method
+Total 200072 (4 unique) events are in isolated traces
+Total 4121632 (504 unique) events are in non-isolated traces (400144 / 32 unique are in hot method)
+Specs that have isolated traces:
+	Map_UnsafeIterator (50018 traces / 1 unique traces) (100036 events / 2 unique events)
+	Map_CollectionViewAdd (50018 traces / 1 unique traces) (100036 events / 2 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (100036 traces / 8 unique traces) (2160852 events / 260 unique events) (300108 events / 24 unique events in hot method)
+	Collection_UnsafeIterator (100036 traces / 8 unique traces) (1960780 events / 244 unique events) (100036 events / 8 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.introspect.AnnotatedMethodMap.iterator:54): LIB,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#25
+Inspecting hot method com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._property:1127...
+Checking for isolation...
+440170,2,0,2
+Total 440170 (440170 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 4492122 (4492122 unique) events are in non-isolated traces (440170 / 440170 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2246061 events / 2246061 unique events) (220085 events / 220085 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2246061 events / 2246061 unique events) (220085 events / 220085 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._property:1127): LIB,NOT_REDUNDANT_TRACES
+
+#26
+Inspecting hot method com.fasterxml.jackson.databind.introspect.AnnotatedFieldCollector._findFields:65...
+Checking for isolation...
+440148,2,0,2
+Total 440148 (440148 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 4492122 (4492122 unique) events are in non-isolated traces (440148 / 440148 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2246061 events / 2246061 unique events) (220074 events / 220074 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2246061 events / 2246061 unique events) (220074 events / 220074 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.introspect.AnnotatedFieldCollector._findFields:65): LIB,NOT_REDUNDANT_TRACES
+
+#27
+Inspecting hot method com.fasterxml.jackson.databind.introspect.AnnotatedMethodCollector._addMethodMixIns:155...
+Checking for isolation...
+400144,150054,150054,0
+Total 400144 (8 unique) events are in hot method
+Total 150054 (3 unique) traces are in hot method
+Total 150054 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 400144 (8 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collection_UnsafeIterator (50018 traces / 1 unique traces) (200072 events / 4 unique events)
+	Iterator_RemoveOnce (50018 traces / 1 unique traces) (50018 events / 1 unique events)
+	Iterator_HasNext (50018 traces / 1 unique traces) (150054 events / 3 unique events)
+Classifier (com.fasterxml.jackson.databind.introspect.AnnotatedMethodCollector._addMethodMixIns:155): LIB,ISOLATED_ONE_UNIQUE
+
+#28
+Inspecting hot method com.fasterxml.jackson.databind.ser.SerializerCache.addAndResolveNonTypedSerializer:190...
+Checking for isolation...
+400138,60013,0,60013
+Total 400138 (200124 unique) events are in hot method
+Total 60013 (13 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 60013 (13 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 4942249 (4492247 unique) events are in non-isolated traces (400138 / 200124 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (60011 traces / 11 unique traces) (450127 events / 125 unique events) (200062 events / 48 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2246061 events / 2246061 unique events) (100038 events / 100038 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2246061 events / 2246061 unique events) (100038 events / 100038 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.ser.SerializerCache.addAndResolveNonTypedSerializer:190): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#29
+Inspecting hot method com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector.getProperties:186...
+Checking for isolation...
+380126,380126,0,380126
+Total 380126 (20 unique) events are in hot method
+Total 380126 (20 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 380126 (20 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 6061947 (306 unique) events are in non-isolated traces (380126 / 20 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (330109 traces / 18 unique traces) (5731836 events / 293 unique events) (330109 events / 18 unique events in hot method)
+	Map_CollectionViewAdd (50017 traces / 2 unique traces) (330111 events / 13 unique events) (50017 events / 2 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector.getProperties:186): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#30
+Inspecting hot method com.fasterxml.jackson.databind.introspect.AnnotatedCreatorCollector._findPotentialFactories:188...
+Checking for isolation...
+360135,60020,60020,0
+Total 360135 (39 unique) events are in hot method
+Total 60020 (4 unique) traces are in hot method
+Total 60020 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 360135 (39 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (60020 traces / 4 unique traces) (360135 events / 39 unique events)
+Classifier (com.fasterxml.jackson.databind.introspect.AnnotatedCreatorCollector._findPotentialFactories:188): LIB,ISOLATED_MULTIPLE_UNIQUE
+
+#31
+Inspecting hot method com.fasterxml.jackson.databind.ser.impl.ReadOnlyClassToSerializerMap.<init>:28...
+Checking for isolation...
+240167,150054,90043,60011
+Total 240167 (115 unique) events are in hot method
+Total 150054 (19 unique) traces are in hot method
+Total 90043 (8 unique) isolated traces are in hot method
+Total 60011 (11 unique) non-isolated traces that have events in hot method
+Total 120129 (67 unique) events are in isolated traces
+Total 450127 (125 unique) events are in non-isolated traces (120038 / 48 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (30011 traces / 2 unique traces) (30033 events / 24 unique events)
+	Collection_UnsafeIterator (30011 traces / 2 unique traces) (60044 events / 26 unique events)
+	Map_CollectionViewAdd (30010 traces / 2 unique traces) (30011 events / 3 unique events)
+	Map_UnsafeIterator (10 traces / 1 unique traces) (30 events / 3 unique events)
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (11 events / 11 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (60011 traces / 11 unique traces) (450127 events / 125 unique events) (120038 events / 48 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.ser.impl.ReadOnlyClassToSerializerMap.<init>:28): LIB,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE,ISOLATED_SINGLE_TRACE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#32
+Inspecting hot method com.fasterxml.jackson.databind.ser.impl.SimpleFilterProvider.<init>:39...
+Checking for isolation...
+240080,150050,90030,60020
+Total 240080 (8 unique) events are in hot method
+Total 150050 (5 unique) traces are in hot method
+Total 90030 (3 unique) isolated traces are in hot method
+Total 60020 (2 unique) non-isolated traces that have events in hot method
+Total 120040 (4 unique) events are in isolated traces
+Total 180060 (6 unique) events are in non-isolated traces (120040 / 4 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (30010 traces / 1 unique traces) (30010 events / 1 unique events)
+	Map_CollectionViewAdd (30010 traces / 1 unique traces) (30010 events / 1 unique events)
+	Collection_UnsafeIterator (30010 traces / 1 unique traces) (60020 events / 2 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (60020 traces / 2 unique traces) (180060 events / 6 unique events) (120040 events / 4 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.ser.impl.SimpleFilterProvider.<init>:39): LIB,ISOLATED_ONE_UNIQUE,NOT_ISOLATED_MULTIPLE_UNIQUE
+
+#33
+Inspecting hot method com.fasterxml.jackson.databind.ser.SerializerCache.addAndResolveNonTypedSerializer:164...
+Checking for isolation...
+140050,60013,0,60013
+Total 140050 (70052 unique) events are in hot method
+Total 60013 (13 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 60013 (13 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 4942249 (4492247 unique) events are in non-isolated traces (140050 / 70052 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (60011 traces / 11 unique traces) (450127 events / 125 unique events) (70016 events / 18 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2246061 events / 2246061 unique events) (35017 events / 35017 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2246061 events / 2246061 unique events) (35017 events / 35017 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.ser.SerializerCache.addAndResolveNonTypedSerializer:164): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#34
+Inspecting hot method com.fasterxml.jackson.core.io.SerializedString.appendQuoted:147...
+Checking for isolation...
+130315,1,0,1
+Total 130315 (130315 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 160336 (160336 unique) events are in non-isolated traces (130315 / 130315 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (160336 events / 160336 unique events) (130315 events / 130315 unique events in hot method)
+Classifier (com.fasterxml.jackson.core.io.SerializedString.appendQuoted:147): LIB,NOT_REDUNDANT_TRACES
+
+#35
+Inspecting hot method com.fasterxml.jackson.databind.ser.impl.SimpleFilterProvider.addFilter:153...
+Checking for isolation...
+120040,60022,0,60022
+Total 120040 (60022 unique) events are in hot method
+Total 60022 (4 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 60022 (4 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 4672182 (4492128 unique) events are in non-isolated traces (120040 / 60022 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (60020 traces / 2 unique traces) (180060 events / 6 unique events) (60020 events / 2 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2246061 events / 2246061 unique events) (30010 events / 30010 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2246061 events / 2246061 unique events) (30010 events / 30010 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.ser.impl.SimpleFilterProvider.addFilter:153): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#36
+Inspecting hot method com.fasterxml.jackson.databind.ser.SerializerCache.addTypedSerializer:133...
+Checking for isolation...
+120031,60013,0,60013
+Total 120031 (60031 unique) events are in hot method
+Total 60013 (13 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 60013 (13 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 4942249 (4492247 unique) events are in non-isolated traces (120031 / 60031 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (60011 traces / 11 unique traces) (450127 events / 125 unique events) (60011 events / 11 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2246061 events / 2246061 unique events) (30010 events / 30010 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2246061 events / 2246061 unique events) (30010 events / 30010 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.ser.SerializerCache.addTypedSerializer:133): LIB,NOT_ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#37
+Inspecting hot method com.fasterxml.jackson.core.json.WriterBasedJsonGenerator.close:966...
+Checking for isolation...
+90030,90030,90030,0
+Total 90030 (3 unique) events are in hot method
+Total 90030 (3 unique) traces are in hot method
+Total 90030 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 90030 (3 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Console_CloseWriter (30010 traces / 1 unique traces) (30010 events / 1 unique events)
+	Closeable_MultipleClose (30010 traces / 1 unique traces) (30010 events / 1 unique events)
+	Writer_ManipulateAfterClose (30010 traces / 1 unique traces) (30010 events / 1 unique events)
+Classifier (com.fasterxml.jackson.core.json.WriterBasedJsonGenerator.close:966): LIB,ISOLATED_ONE_UNIQUE
+
+#38
+Inspecting hot method ch.mfrey.jackson.antpathfilter.AntPathPropertyFilter.<init>:47...
+Checking for isolation...
+90025,1,0,1
+Total 90025 (90025 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 90036 (90036 unique) events are in non-isolated traces (90025 / 90025 unique are in hot method)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (90036 events / 90036 unique events) (90025 events / 90025 unique events in hot method)
+Classifier (ch.mfrey.jackson.antpathfilter.AntPathPropertyFilter.<init>:47): CUT,NOT_REDUNDANT_TRACES
+
+#39
+Inspecting hot method com.fasterxml.jackson.databind.util.ArrayIterator.<init>:17...
+Checking for isolation...
+85042,3,3,0
+Total 85042 (85042 unique) events are in hot method
+Total 3 (3 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 85042 (85042 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Arrays_SortBeforeBinarySearch (3 traces / 3 unique traces) (85042 events / 85042 unique events)
+Classifier (com.fasterxml.jackson.databind.util.ArrayIterator.<init>:17): LIB,NOT_REDUNDANT_TRACES
+
+#40
+Inspecting hot method com.fasterxml.jackson.databind.ser.BeanSerializerFactory._createSerializer2:186...
+Checking for isolation...
+80029,80029,80029,0
+Total 80029 (1 unique) events are in hot method
+Total 80029 (1 unique) traces are in hot method
+Total 80029 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 80029 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (80029 traces / 1 unique traces) (80029 events / 1 unique events)
+Classifier (com.fasterxml.jackson.databind.ser.BeanSerializerFactory._createSerializer2:186): LIB,ISOLATED_ONE_UNIQUE
+
+#41
+Inspecting hot method com.fasterxml.jackson.databind.util.ClassUtil._addRawSuperTypes:140...
+Checking for isolation...
+50018,50018,50018,0
+Total 50018 (1 unique) events are in hot method
+Total 50018 (1 unique) traces are in hot method
+Total 50018 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 50018 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (50018 traces / 1 unique traces) (50018 events / 1 unique events)
+Classifier (com.fasterxml.jackson.databind.util.ClassUtil._addRawSuperTypes:140): LIB,ISOLATED_ONE_UNIQUE
+
+#42
+Inspecting hot method com.fasterxml.jackson.databind.ObjectMapper._writeValueAndClose:4401...
+Checking for isolation...
+30010,30010,30010,0
+Total 30010 (1 unique) events are in hot method
+Total 30010 (1 unique) traces are in hot method
+Total 30010 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 30010 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Closeable_MultipleClose (30010 traces / 1 unique traces) (30010 events / 1 unique events)
+Classifier (com.fasterxml.jackson.databind.ObjectMapper._writeValueAndClose:4401): LIB,ISOLATED_ONE_UNIQUE
+
+#43
+Inspecting hot method com.fasterxml.jackson.core.util.TextBuffer.append:603...
+Checking for isolation...
+30010,1,0,1
+Total 30010 (30010 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 160336 (160336 unique) events are in non-isolated traces (30010 / 30010 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (160336 events / 160336 unique events) (30010 events / 30010 unique events in hot method)
+Classifier (com.fasterxml.jackson.core.util.TextBuffer.append:603): LIB,NOT_REDUNDANT_TRACES
+
+#44
+Inspecting hot method com.fasterxml.jackson.databind.cfg.ContextAttributes$Impl.nonSharedInstance:208...
+Checking for isolation...
+10014,2,0,2
+Total 10014 (10014 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 4492122 (4492122 unique) events are in non-isolated traces (10014 / 10014 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2246061 events / 2246061 unique events) (5007 events / 5007 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2246061 events / 2246061 unique events) (5007 events / 5007 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.cfg.ContextAttributes$Impl.nonSharedInstance:208): LIB,NOT_REDUNDANT_TRACES
+
+#45
+Inspecting hot method com.fasterxml.jackson.databind.ser.std.StdSerializer.findContextualConvertingSerializer:364...
+Checking for isolation...
+10014,2,0,2
+Total 10014 (10014 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 4492122 (4492122 unique) events are in non-isolated traces (10014 / 10014 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2246061 events / 2246061 unique events) (5007 events / 5007 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2246061 events / 2246061 unique events) (5007 events / 5007 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.ser.std.StdSerializer.findContextualConvertingSerializer:364): LIB,NOT_REDUNDANT_TRACES
+
+#46
+Inspecting hot method com.fasterxml.jackson.databind.ser.BasicSerializerFactory.buildCollectionSerializer:689...
+Checking for isolation...
+5007,5007,5007,0
+Total 5007 (1 unique) events are in hot method
+Total 5007 (1 unique) traces are in hot method
+Total 5007 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5007 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (5007 traces / 1 unique traces) (5007 events / 1 unique events)
+Classifier (com.fasterxml.jackson.databind.ser.BasicSerializerFactory.buildCollectionSerializer:689): LIB,ISOLATED_ONE_UNIQUE
+
+#47
+Inspecting hot method ch.mfrey.jackson.antpathfilter.test.User.buildMySelf:8...
+Checking for isolation...
+1620,549,549,0
+Total 1620 (27 unique) events are in hot method
+Total 549 (7 unique) traces are in hot method
+Total 549 (7 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 1620 (27 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (270 traces / 3 unique traces) (630 events / 7 unique events)
+	StringBuilder_ThreadSafe (270 traces / 3 unique traces) (900 events / 10 unique events)
+	Collections_SortBeforeBinarySearch (9 traces / 1 unique traces) (90 events / 10 unique events)
+Classifier (ch.mfrey.jackson.antpathfilter.test.User.buildMySelf:8): CUT,ISOLATED_MULTIPLE_UNIQUE,ISOLATED_ONE_UNIQUE
+
+#48
+Inspecting hot method com.fasterxml.jackson.databind.introspect.AnnotationMap.merge:91...
+Checking for isolation...
+204,74,72,2
+Total 204 (54 unique) events are in hot method
+Total 74 (14 unique) traces are in hot method
+Total 72 (12 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 180 (30 unique) events are in isolated traces
+Total 4492122 (4492122 unique) events are in non-isolated traces (24 / 24 unique are in hot method)
+Specs that have isolated traces:
+	Map_UnsafeIterator (24 traces / 4 unique traces) (72 events / 12 unique events)
+	Iterator_HasNext (12 traces / 2 unique traces) (36 events / 6 unique events)
+	Iterator_RemoveOnce (12 traces / 2 unique traces) (12 events / 2 unique events)
+	Collection_UnsafeIterator (12 traces / 2 unique traces) (48 events / 8 unique events)
+	Map_CollectionViewAdd (12 traces / 2 unique traces) (12 events / 2 unique events)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2246061 events / 2246061 unique events) (12 events / 12 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2246061 events / 2246061 unique events) (12 events / 12 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.introspect.AnnotationMap.merge:91): LIB,ISOLATED_MULTIPLE_UNIQUE,RAW_NOT_ISOLATED_SINGLE_TRACE
+
+#49
+Inspecting hot method com.fasterxml.jackson.databind.ser.BasicSerializerFactory.<clinit>:62...
+Checking for isolation...
+174,7,3,4
+Total 174 (174 unique) events are in hot method
+Total 7 (7 unique) traces are in hot method
+Total 3 (3 unique) isolated traces are in hot method
+Total 4 (4 unique) non-isolated traces that have events in hot method
+Total 83 (83 unique) events are in isolated traces
+Total 4492290 (4492290 unique) events are in non-isolated traces (91 / 91 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_RemoveOnce (1 traces / 1 unique traces) (16 events / 16 unique events)
+	Iterator_HasNext (1 traces / 1 unique traces) (33 events / 33 unique events)
+	Collection_UnsafeIterator (1 traces / 1 unique traces) (34 events / 34 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (1 traces / 1 unique traces) (35 events / 35 unique events) (34 events / 34 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2246061 events / 2246061 unique events) (28 events / 28 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2246061 events / 2246061 unique events) (28 events / 28 unique events in hot method)
+	Serializable_NoArgConstructor (1 traces / 1 unique traces) (133 events / 133 unique events) (1 events / 1 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.ser.BasicSerializerFactory.<clinit>:62): LIB,NOT_REDUNDANT_TRACES
+
+#50
+Inspecting hot method ch.mfrey.jackson.antpathfilter.test.AntPathFilterTest.assertAntFilter:16...
+Checking for isolation...
+140,56,56,0
+Total 140 (10 unique) events are in hot method
+Total 56 (4 unique) traces are in hot method
+Total 56 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 140 (10 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (28 traces / 2 unique traces) (84 events / 6 unique events)
+	Appendable_ThreadSafe (28 traces / 2 unique traces) (56 events / 4 unique events)
+Classifier (ch.mfrey.jackson.antpathfilter.test.AntPathFilterTest.assertAntFilter:16): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#51
+Inspecting hot method com.fasterxml.jackson.core.util.InternCache.intern:41...
+Checking for isolation...
+96,2,0,2
+Total 96 (96 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 4492122 (4492122 unique) events are in non-isolated traces (96 / 96 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2246061 events / 2246061 unique events) (48 events / 48 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2246061 events / 2246061 unique events) (48 events / 48 unique events in hot method)
+Classifier (com.fasterxml.jackson.core.util.InternCache.intern:41): LIB,NOT_REDUNDANT_TRACES
+
+#52
+Inspecting hot method ch.mfrey.jackson.antpathfilter.AntPathMatcher$AntPathStringMatcher.<init>:610...
+Checking for isolation...
+76,24,24,0
+Total 76 (10 unique) events are in hot method
+Total 24 (4 unique) traces are in hot method
+Total 24 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 76 (10 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (12 traces / 2 unique traces) (44 events / 6 unique events)
+	Appendable_ThreadSafe (12 traces / 2 unique traces) (32 events / 4 unique events)
+Classifier (ch.mfrey.jackson.antpathfilter.AntPathMatcher$AntPathStringMatcher.<init>:610): CUT,ISOLATED_MULTIPLE_UNIQUE
+
+#53
+Inspecting hot method com.fasterxml.jackson.databind.introspect.AnnotationMap.of:21...
+Checking for isolation...
+36,2,0,2
+Total 36 (36 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 4492122 (4492122 unique) events are in non-isolated traces (36 / 36 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2246061 events / 2246061 unique events) (18 events / 18 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2246061 events / 2246061 unique events) (18 events / 18 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.introspect.AnnotationMap.of:21): LIB,NOT_REDUNDANT_TRACES
+
+#54
+Inspecting hot method com.fasterxml.jackson.databind.ser.std.StdJdkSerializers.all:27...
+Checking for isolation...
+35,5,2,3
+Total 35 (35 unique) events are in hot method
+Total 5 (5 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 3 (3 unique) non-isolated traces that have events in hot method
+Total 2 (2 unique) events are in isolated traces
+Total 4492157 (4492157 unique) events are in non-isolated traces (33 / 33 unique are in hot method)
+Specs that have isolated traces:
+	Map_UnsafeIterator (1 traces / 1 unique traces) (1 events / 1 unique events)
+	Map_CollectionViewAdd (1 traces / 1 unique traces) (1 events / 1 unique events)
+Specs that have non-isolated traces:
+	Map_UnsafeIterator (1 traces / 1 unique traces) (35 events / 35 unique events) (1 events / 1 unique events in hot method)
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2246061 events / 2246061 unique events) (16 events / 16 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2246061 events / 2246061 unique events) (16 events / 16 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.ser.std.StdJdkSerializers.all:27): LIB,NOT_REDUNDANT_TRACES
+
+#55
+Inspecting hot method com.fasterxml.jackson.databind.deser.BasicDeserializerFactory$ContainerDefaultMappings.<clinit>:2292...
+Checking for isolation...
+30,2,0,2
+Total 30 (30 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 4492122 (4492122 unique) events are in non-isolated traces (30 / 30 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2246061 events / 2246061 unique events) (15 events / 15 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2246061 events / 2246061 unique events) (15 events / 15 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.deser.BasicDeserializerFactory$ContainerDefaultMappings.<clinit>:2292): LIB,NOT_REDUNDANT_TRACES
+
+#56
+Inspecting hot method ch.mfrey.jackson.antpathfilter.AntPathMatcher.tokenizePattern:305...
+Checking for isolation...
+26,2,0,2
+Total 26 (26 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 4492122 (4492122 unique) events are in non-isolated traces (26 / 26 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2246061 events / 2246061 unique events) (13 events / 13 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2246061 events / 2246061 unique events) (13 events / 13 unique events in hot method)
+Classifier (ch.mfrey.jackson.antpathfilter.AntPathMatcher.tokenizePattern:305): CUT,NOT_REDUNDANT_TRACES
+
+#57
+Inspecting hot method com.fasterxml.jackson.databind.ser.std.NumberSerializers.addAll:27...
+Checking for isolation...
+24,2,0,2
+Total 24 (24 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 4492122 (4492122 unique) events are in non-isolated traces (24 / 24 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2246061 events / 2246061 unique events) (12 events / 12 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2246061 events / 2246061 unique events) (12 events / 12 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.ser.std.NumberSerializers.addAll:27): LIB,NOT_REDUNDANT_TRACES
+
+#58
+Inspecting hot method ch.mfrey.jackson.antpathfilter.AntPathMatcher.getStringMatcher:366...
+Checking for isolation...
+24,2,0,2
+Total 24 (24 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 4492122 (4492122 unique) events are in non-isolated traces (24 / 24 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2246061 events / 2246061 unique events) (12 events / 12 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2246061 events / 2246061 unique events) (12 events / 12 unique events in hot method)
+Classifier (ch.mfrey.jackson.antpathfilter.AntPathMatcher.getStringMatcher:366): CUT,NOT_REDUNDANT_TRACES
+
+#59
+Inspecting hot method com.fasterxml.jackson.databind.introspect.SimpleMixInResolver.addLocalDefinition:74...
+Checking for isolation...
+22,2,0,2
+Total 22 (22 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 4492122 (4492122 unique) events are in non-isolated traces (22 / 22 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2246061 events / 2246061 unique events) (11 events / 11 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2246061 events / 2246061 unique events) (11 events / 11 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.introspect.SimpleMixInResolver.addLocalDefinition:74): LIB,NOT_REDUNDANT_TRACES
+
+#60
+Inspecting hot method com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer$Vanilla.mapObject:867...
+Checking for isolation...
+20,2,0,2
+Total 20 (20 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 4492122 (4492122 unique) events are in non-isolated traces (20 / 20 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2246061 events / 2246061 unique events) (10 events / 10 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2246061 events / 2246061 unique events) (10 events / 10 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer$Vanilla.mapObject:867): LIB,NOT_REDUNDANT_TRACES
+
+#61
+Inspecting hot method com.fasterxml.jackson.databind.introspect.AnnotatedCreatorCollector._findPotentialConstructors:101...
+Checking for isolation...
+15,2,2,0
+Total 15 (15 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 15 (15 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (2 traces / 2 unique traces) (15 events / 15 unique events)
+Classifier (com.fasterxml.jackson.databind.introspect.AnnotatedCreatorCollector._findPotentialConstructors:101): LIB,NOT_REDUNDANT_TRACES
+
+#62
+Inspecting hot method com.fasterxml.jackson.databind.deser.std.NumberDeserializers.<clinit>:24...
+Checking for isolation...
+11,1,0,1
+Total 11 (11 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 90036 (90036 unique) events are in non-isolated traces (11 / 11 unique are in hot method)
+Specs that have non-isolated traces:
+	Set_ItselfAsElement (1 traces / 1 unique traces) (90036 events / 90036 unique events) (11 events / 11 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.deser.std.NumberDeserializers.<clinit>:24): LIB,NOT_REDUNDANT_TRACES
+
+#63
+Inspecting hot method ch.mfrey.jackson.antpathfilter.AntPathMatcher$PathSeparatorPatternCache.<init>:859...
+Checking for isolation...
+10,4,4,0
+Total 10 (10 unique) events are in hot method
+Total 4 (4 unique) traces are in hot method
+Total 4 (4 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 10 (10 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Appendable_ThreadSafe (2 traces / 2 unique traces) (4 events / 4 unique events)
+	StringBuilder_ThreadSafe (2 traces / 2 unique traces) (6 events / 6 unique events)
+Classifier (ch.mfrey.jackson.antpathfilter.AntPathMatcher$PathSeparatorPatternCache.<init>:859): CUT,NOT_REDUNDANT_TRACES
+
+#64
+Inspecting hot method com.fasterxml.jackson.databind.util.LRUMap.put:40...
+Checking for isolation...
+8,2,0,2
+Total 8 (8 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 4492122 (4492122 unique) events are in non-isolated traces (8 / 8 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2246061 events / 2246061 unique events) (4 events / 4 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2246061 events / 2246061 unique events) (4 events / 4 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.util.LRUMap.put:40): LIB,NOT_REDUNDANT_TRACES
+
+#65
+Inspecting hot method com.fasterxml.jackson.core.util.DefaultPrettyPrinter.withSeparators:242...
+Checking for isolation...
+7,2,2,0
+Total 7 (7 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 2 (2 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 7 (7 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (4 events / 4 unique events)
+	Appendable_ThreadSafe (1 traces / 1 unique traces) (3 events / 3 unique events)
+Classifier (com.fasterxml.jackson.core.util.DefaultPrettyPrinter.withSeparators:242): LIB,NOT_REDUNDANT_TRACES
+
+#66
+Inspecting hot method com.fasterxml.jackson.core.Base64Variant.<init>:55...
+Checking for isolation...
+6,1,0,1
+Total 6 (6 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 160336 (160336 unique) events are in non-isolated traces (6 / 6 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (160336 events / 160336 unique events) (6 events / 6 unique events in hot method)
+Classifier (com.fasterxml.jackson.core.Base64Variant.<init>:55): LIB,NOT_REDUNDANT_TRACES
+
+#67
+Inspecting hot method com.fasterxml.jackson.core.Base64Variants.<clinit>:34...
+Checking for isolation...
+5,1,1,0
+Total 5 (5 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 5 (5 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	StringBuilder_ThreadSafe (1 traces / 1 unique traces) (5 events / 5 unique events)
+Classifier (com.fasterxml.jackson.core.Base64Variants.<clinit>:34): LIB,NOT_REDUNDANT_TRACES
+
+#68
+Inspecting hot method com.fasterxml.jackson.databind.deser.DeserializerCache._createAndCache2:264...
+Checking for isolation...
+4,2,0,2
+Total 4 (4 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 4492122 (4492122 unique) events are in non-isolated traces (4 / 4 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2246061 events / 2246061 unique events) (2 events / 2 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2246061 events / 2246061 unique events) (2 events / 2 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.deser.DeserializerCache._createAndCache2:264): LIB,NOT_REDUNDANT_TRACES
+
+#69
+Inspecting hot method com.fasterxml.jackson.core.io.CharTypes.<clinit>:7...
+Checking for isolation...
+4,1,0,1
+Total 4 (4 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 160336 (160336 unique) events are in non-isolated traces (4 / 4 unique are in hot method)
+Specs that have non-isolated traces:
+	System_NullArrayCopy (1 traces / 1 unique traces) (160336 events / 160336 unique events) (4 events / 4 unique events in hot method)
+Classifier (com.fasterxml.jackson.core.io.CharTypes.<clinit>:7): LIB,NOT_REDUNDANT_TRACES
+
+#70
+Inspecting hot method com.fasterxml.jackson.databind.deser.BasicDeserializerFactory._findCustomBeanDeserializer:1978...
+Checking for isolation...
+3,3,3,0
+Total 3 (1 unique) events are in hot method
+Total 3 (1 unique) traces are in hot method
+Total 3 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 3 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Iterator_HasNext (3 traces / 1 unique traces) (3 events / 1 unique events)
+Classifier (com.fasterxml.jackson.databind.deser.BasicDeserializerFactory._findCustomBeanDeserializer:1978): LIB,ISOLATED_ONE_UNIQUE
+
+#71
+Inspecting hot method ch.mfrey.jackson.antpathfilter.test.AntPathConvertTest.testConvert:20...
+Checking for isolation...
+2,1,1,0
+Total 2 (2 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2 (2 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (2 events / 2 unique events)
+Classifier (ch.mfrey.jackson.antpathfilter.test.AntPathConvertTest.testConvert:20): CUT,NOT_REDUNDANT_TRACES
+
+#72
+Inspecting hot method com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer.<clinit>:34...
+Checking for isolation...
+2,2,1,1
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 1 (1 unique) non-isolated traces that have events in hot method
+Total 1 (1 unique) events are in isolated traces
+Total 133 (133 unique) events are in non-isolated traces (1 / 1 unique are in hot method)
+Specs that have isolated traces:
+	Arrays_SortBeforeBinarySearch (1 traces / 1 unique traces) (1 events / 1 unique events)
+Specs that have non-isolated traces:
+	Serializable_NoArgConstructor (1 traces / 1 unique traces) (133 events / 133 unique events) (1 events / 1 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer.<clinit>:34): LIB,NOT_REDUNDANT_TRACES
+
+#73
+Inspecting hot method com.fasterxml.jackson.databind.util.TokenBuffer$Segment.<init>:2051...
+Checking for isolation...
+2,2,2,0
+Total 2 (1 unique) events are in hot method
+Total 2 (1 unique) traces are in hot method
+Total 2 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2 (1 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Arrays_SortBeforeBinarySearch (2 traces / 1 unique traces) (2 events / 1 unique events)
+Classifier (com.fasterxml.jackson.databind.util.TokenBuffer$Segment.<init>:2051): LIB,ISOLATED_ONE_UNIQUE
+
+#74
+Inspecting hot method com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize:269...
+Checking for isolation...
+2,1,1,0
+Total 2 (2 unique) events are in hot method
+Total 1 (1 unique) traces are in hot method
+Total 1 (1 unique) isolated traces are in hot method
+Total 0 (0 unique) non-isolated traces that have events in hot method
+Total 2 (2 unique) events are in isolated traces
+Total 0 (0 unique) events are in non-isolated traces (0 / 0 unique are in hot method)
+Specs that have isolated traces:
+	Collections_SortBeforeBinarySearch (1 traces / 1 unique traces) (2 events / 2 unique events)
+Classifier (com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize:269): LIB,NOT_REDUNDANT_TRACES
+
+#75
+Inspecting hot method com.fasterxml.jackson.databind.ObjectMapper._findRootDeserializer:4706...
+Checking for isolation...
+2,2,0,2
+Total 2 (2 unique) events are in hot method
+Total 2 (2 unique) traces are in hot method
+Total 0 (0 unique) isolated traces are in hot method
+Total 2 (2 unique) non-isolated traces that have events in hot method
+Total 0 (0 unique) events are in isolated traces
+Total 4492122 (4492122 unique) events are in non-isolated traces (2 / 2 unique are in hot method)
+Specs that have non-isolated traces:
+	Map_ItselfAsKey (1 traces / 1 unique traces) (2246061 events / 2246061 unique events) (1 events / 1 unique events in hot method)
+	Map_ItselfAsValue (1 traces / 1 unique traces) (2246061 events / 2246061 unique events) (1 events / 1 unique events in hot method)
+Classifier (com.fasterxml.jackson.databind.ObjectMapper._findRootDeserializer:4706): LIB,NOT_REDUNDANT_TRACES
+
